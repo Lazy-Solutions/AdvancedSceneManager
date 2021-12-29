@@ -57,8 +57,6 @@ Want to get into contact with us? Report issues?\
 [ISceneObject](ISceneObject.md)\
 [Loading screens](LoadingScreen.md)\
 [Splash screen](SplashScreen.md)\
-[Support packages](SupportPackages.md)\
-[Package Manager](PackageManager.md)\
 [Cross-scene references](CrossSceneReferences.md)
 
 ###### Guides

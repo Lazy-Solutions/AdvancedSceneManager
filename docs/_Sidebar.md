@@ -39,8 +39,6 @@
 [ISceneObject](ISceneObject.md)\
 [Loading screens](LoadingScreen.md)\
 [Splash screen](SplashScreen.md)\
-[Support packages](SupportPackages.md)\
-[Package Manager](PackageManager.md)\
 [Cross-scene references](CrossSceneReferences.md)
 
 ###### Guides

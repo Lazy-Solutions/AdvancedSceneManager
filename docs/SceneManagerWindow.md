@@ -170,8 +170,6 @@ Enables or disables [cross-scene references](CrossSceneReferences.md).
 
 ###### Appearance
 
-The following properties are only visible if the corresponding package is installed from the [package manager](PackageManager.md), if none are installed then this entire section will be hidden.
-
 These properties are also local to the computer / user, so feel free to modify these to your personal preference.
 
 > Display unresolved cross scene reference icon:</br>\
