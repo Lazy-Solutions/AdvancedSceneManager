@@ -1,4 +1,4 @@
-#### Patches for Advanced Scene Manager
+## Patches for Advanced Scene Manager
 
 Patches are partial updates that are too important to have our users wait for.
 
