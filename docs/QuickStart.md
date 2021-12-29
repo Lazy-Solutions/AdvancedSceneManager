@@ -16,11 +16,11 @@ Now that we've got a profile, we can go to the scenes tab again to actually set 
 
 Now, press the menu button on its header to open the edit collection menu. The top field is the title of the collection, change it to '*main menu*'.
 
-Next check '*Open on game start*' to automatically open it when game starts. Multiple [collections](SceneCollection) may be set to open at startup, and if so, then they'll be opened in order, top to bottom, this can be useful for [persistent scenes](PersistentUtility), but not something we'll worry about in this guide.
+Next check '*Open on game start*' to automatically open it when game starts. Multiple [collections](SceneCollection.md) may be set to open at startup, and if so, then they'll be opened in order, top to bottom, this can be useful for [persistent scenes](PersistentUtility.md), but not something we'll worry about in this guide.
 
 ![](image/collection-edit-menu.png)
 
-While we won't worry about the other settings right now, they are documented over at [SceneManagerWindow](SceneManagerWindow#collection-properties).
+While we won't worry about the other settings right now, they are documented over at [SceneManagerWindow.md](SceneManagerWindow#collection-properties).
 
 Next, create two more collections, name them '*Level 1*', and '*Level 2*' (don't check '*Open on game start*' this time).
 
@@ -42,10 +42,10 @@ Now that we have a scene manager solution we can easily open the scenes at runti
 Now open your main menu scene, by pressing the ![](image/open.png) button. Setup the scene as you wish, but please add three buttons, one for each level, and one for quit.
 
 Level buttons:\
-On the [Button](https://docs.unity3d.com/2018.3/Documentation/ScriptReference/UI.Button.html) component, create a new OnClick action, and assign [SceneHelper](SceneHelper) as target, '*ASM > [Open (SceneCollection)](SceneCollection#methods)*' as method, and assign the collection for the level as parameter.
+On the [Button](https://docs.unity3d.com/2018.3/Documentation/ScriptReference/UI.Button.html) component, create a new OnClick action, and assign [SceneHelper](SceneHelper.md) as target, '*ASM > [Open (SceneCollection)](SceneCollection.md#methods)*' as method, and assign the collection for the level as parameter.
 
 Quit button:\
-On the [Button](https://docs.unity3d.com/2018.3/Documentation/ScriptReference/UI.Button.html) component, create a new OnClick action, and assign [SceneHelper](SceneHelper) as target, '*ASM > [Quit](SceneManager#quit)*' as method.
+On the [Button](https://docs.unity3d.com/2018.3/Documentation/ScriptReference/UI.Button.html) component, create a new OnClick action, and assign [SceneHelper](SceneHelper.md) as target, '*ASM > [Quit](SceneManager.md#quit)*' as method.
 
 <a class="pdf-page-break"></a>
 
@@ -55,7 +55,7 @@ On the [Button](https://docs.unity3d.com/2018.3/Documentation/ScriptReference/UI
 
 ### Setting up level scenes
 
-Now open ui scene, by pressing the ![](image/open.png) button. This scene may contain any ui objects, such as a health bar, if you wish, but please add a button to go back to main menu. On this button, create a new OnClick action, assign [SceneHelper](SceneHelper), and select '*ASM > [Restart](SceneManager#restart)*'.
+Now open ui scene, by pressing the ![](image/open.png) button. This scene may contain any ui objects, such as a health bar, if you wish, but please add a button to go back to main menu. On this button, create a new OnClick action, assign [SceneHelper](SceneHelper.md), and select '*ASM > [Restart](SceneManager.md#restart)*'.
 
 Alternatively you could also set button to open main menu collection directly, the same as level buttons, this would be preferable if any standalone scenes are added, since these would be closed and then opened again, if restart is called.
 

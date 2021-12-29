@@ -88,7 +88,7 @@ index: The index of the scene in collection, no effect if collection is null.\
 replaceIndex: Replaces the scene at the specified index, rather than insert it.\
 save: Save collection to disk.\
 \
-Note that calling this method in quick succession produces a lot of asset refresh triggers, causing asm to attempt to create [scene](Scene) ScriptableObject for newly created scenes, even though this method does so automatically, it may be desirable to set [SceneManager.assetManagement.allowAutoRefresh](AssetManagement#properties) to false before calling this method multiple times, and then re-enabling it again afterwards.  
+Note that calling this method in quick succession produces a lot of asset refresh triggers, causing asm to attempt to create [scene](Scene.md) ScriptableObject for newly created scenes, even though this method does so automatically, it may be desirable to set [SceneManager.assetManagement.allowAutoRefresh](AssetManagement.md#properties) to false before calling this method multiple times, and then re-enabling it again afterwards.  
 
 > void Remove(string path)\
 Removes the SceneAsset at the specified path and its associated Scene, and removes any references to it from any SceneCollection.

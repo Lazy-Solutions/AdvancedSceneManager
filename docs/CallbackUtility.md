@@ -14,7 +14,7 @@ yield return CombineNull.value can be used to tell callback analyzer that this a
 </br>
 Default Unity yield instructions, such as [WaitForSecondsRealtime](https://docs.unity3d.com/ScriptReference/WaitForSecondsRealtime.html), are automatically combined, even though they technically do not return CombineNull.value.
 
-By default, only [ISceneOpen, ISceneClose, ICollectionOpen, ICollectionClose](Callbacks) callbacks are tracked, but user coroutines can also be tracked by setting enableDiag to true in StartCoroutine():
+By default, only [ISceneOpen, ISceneClose, ICollectionOpen, ICollectionClose](Callbacks.md) callbacks are tracked, but user coroutines can also be tracked by setting enableDiag to true in StartCoroutine():
 ```csharp
 MyCoroutine().StartCoroutine(enableDiag: true);
 

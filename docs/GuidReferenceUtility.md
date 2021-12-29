@@ -1,4 +1,4 @@
-GuidReferenceUtility provides functions for referencing game object globally. The utility makes use of GuidReference script, which may be manually applied to a game object, or may be applied automatically by ASM when [cross-scene references](CrossSceneReferences) are used.
+GuidReferenceUtility provides functions for referencing game object globally. The utility makes use of GuidReference script, which may be manually applied to a game object, or may be applied automatically by ASM when [cross-scene references](CrossSceneReferences.md) are used.
 
 ![](image/guid-reference.png)
 

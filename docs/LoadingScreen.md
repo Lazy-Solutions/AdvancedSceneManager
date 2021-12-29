@@ -1,4 +1,4 @@
-Loading screens can be opened either manually through [LoadingScreenUtility](LoadingScreenUtility) or automatically when opening [collections](SceneCollection).
+Loading screens can be opened either manually through [LoadingScreenUtility](LoadingScreenUtility.md) or automatically when opening [collections](SceneCollection.md).
 
 Two default loading screens are provided out-of-the-box, which can be found in 'AdvancedSceneManager/System/Defaults':
 > Fade loading screen\
@@ -19,35 +19,35 @@ and placing it in a dedicated scene.
 ### Fields
 
 > [Canvas](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-Canvas.html) canvas\
-This can be set to automatically register [canvas](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-Canvas.html) with [CanvasSortOrderUtility](CanvasSortOrderUtility).
+This can be set to automatically register [canvas](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-Canvas.html) with [CanvasSortOrderUtility](CanvasSortOrderUtility.md).
 
 #### Properties
 
-> [ISceneOperation](SceneOperation) operation { get; }\
-The associated [scene operation](SceneOperation) that opened this loading screen. May be null if loading screen opened manually.
+> [ISceneOperation](SceneOperation.md) operation { get; }\
+The associated [scene operation](SceneOperation.md) that opened this loading screen. May be null if loading screen opened manually.
 
 #### Methods
 
 > abstract IEnumerator OnOpen()\
-Called when the associated [scene operation](SceneOperation) is about to start. Use this to show your loading screen.
+Called when the associated [scene operation](SceneOperation.md) is about to start. Use this to show your loading screen.
 
 > abstract IEnumerator OnClose()\
-Called when the associated [scene operation](SceneOperation) has ended. Use this to hide your loading screen.
+Called when the associated [scene operation](SceneOperation.md) has ended. Use this to hide your loading screen.
 
-> abstract void OnProgressChanged([ISceneOperation](SceneOperation) progress)\
-Called when the associated [scene operation](SceneOperation) has made progress.
+> abstract void OnProgressChanged([ISceneOperation](SceneOperation.md) progress)\
+Called when the associated [scene operation](SceneOperation.md) has made progress.
 
-> virtual OnScenePhaseChanged([ISceneOperation](SceneOperation) operation, [SceneOperation.Phase](SceneOperation#properties) previousPhase, [SceneOperation.Phase](SceneOperation#properties) nextPhase)\
-Called when the associated [scene operation](SceneOperation) changes phase.
+> virtual OnScenePhaseChanged([ISceneOperation](SceneOperation.md) operation, [SceneOperation.Phase](SceneOperation.md#properties) previousPhase, [SceneOperation.Phase](SceneOperation.md#properties) nextPhase)\
+Called when the associated [scene operation](SceneOperation.md) changes phase.
 
-> virtual void OnCancel([ISceneOperation](SceneOperation) operation)\
-Called when the associated [scene operation](SceneOperation) is cancelled. Note that OnClose([ISceneOperation](SceneOperation)) is not called.
+> virtual void OnCancel([ISceneOperation](SceneOperation.md) operation)\
+Called when the associated [scene operation](SceneOperation.md) is cancelled. Note that OnClose([ISceneOperation](SceneOperation.md)) is not called.
 
 
 # Guide
-Setting up a custom loading screen isn't difficult, but it isn't obvious either, we'll cover how to create a custom loading screen and how to use it in a [collection](SceneCollection) here.
+Setting up a custom loading screen isn't difficult, but it isn't obvious either, we'll cover how to create a custom loading screen and how to use it in a [collection](SceneCollection.md) here.
 
-A loading screen in ASM is implemented as a [MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html) (through LoadingScreen class) with a few [IEnumerator](https://docs.unity3d.com/Manual/Coroutines.html) callbacks that are called when a [collection](SceneCollection) is opened or closed (or manually opened through [LoadingScreenUtility](LoadingScreenUtility)). Callbacks are waited for, and execution of ASM is stopped until a callback is done, note that OnProgressChanged() is not a callback, it is managed by LoadingScreen.
+A loading screen in ASM is implemented as a [MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html) (through LoadingScreen class) with a few [IEnumerator](https://docs.unity3d.com/Manual/Coroutines.html) callbacks that are called when a [collection](SceneCollection.md) is opened or closed (or manually opened through [LoadingScreenUtility](LoadingScreenUtility.md)). Callbacks are waited for, and execution of ASM is stopped until a callback is done, note that OnProgressChanged() is not a callback, it is managed by LoadingScreen.
 
 Each loading scene script is then placed in a dedicated scene, which is then automatically opened by ASM.
 
@@ -103,7 +103,7 @@ Setting alpha to 0 in [CanvasGroup](https://docs.unity3d.com/Packages/com.unity.
 
 ##### Actually using it
 
-Now for actually using it, we can assign it to a [collection](SceneCollection) in the [Scene Manager Window](SceneManagerWindow), by pressing the ![](image/menu.png) on a collection, and changing 'Loading screen' to 'Override' and assigning the scene to the field that appears directly underneath.
+Now for actually using it, we can assign it to a [collection](SceneCollection.md) in the [Scene Manager Window](SceneManagerWindow.md), by pressing the ![](image/menu.png) on a collection, and changing 'Loading screen' to 'Override' and assigning the scene to the field that appears directly underneath.
 
 ![](image/loading-screen-override.png)
 

@@ -1,13 +1,13 @@
 ### What is a SceneCollection?
-A SceneCollection, more commonly called collection, is a collection of [scenes](Scene), that are all manipulated at the same time.
+A SceneCollection, more commonly called collection, is a collection of [scenes](Scene.md), that are all manipulated at the same time.
 
 To put it simply:\
 When a collection is opened, then all its contained scenes will be opened. \
 When a collection is closed, then all its contained scenes will be closed.
 
-Beyond this there are ways to keep scenes open or closed, using either [Tags](SceneManagerWindow#tags) or [PersistentUtility](PersistentUtility).
+Beyond this there are ways to keep scenes open or closed, using either [Tags](SceneManagerWindow.md#tags) or [PersistentUtility](PersistentUtility.md).
 
-[Loading screens](LoadingScreenUtility) are also supported out of the box for collections.
+[Loading screens](LoadingScreenUtility.md) are also supported out of the box for collections.
 
 #### Properties
 
@@ -18,16 +18,16 @@ The title of this collection.
 The extra data that is associated with this collection.
 Use ExtraData<T>() to cast it to the desired type.
 
-> [Scene](Scene)[] scenes { get; set; }\
-Gets the [scenes](Scene) in this collection, note that some might be null if no reference is added in [scene manager window](SceneManagerWindow).
+> [Scene](Scene.md)[] scenes { get; set; }\
+Gets the [scenes](Scene.md) in this collection, note that some might be null if no reference is added in [scene manager window](SceneManagerWindow.md).
 
-> [Scene](Scene) loadingScreen { get; set; }\
+> [Scene](Scene.md) loadingScreen { get; set; }\
 The loading screen that is associated with this collection.
 
 > LoadingScreenUsage loadingScreenUsage { get; set; }\
 Specifies what loading screen to use.
 
-> [Scene](Scene) activeScene { get; set; }\
+> [Scene](Scene.md) activeScene { get; set; }\
 Specifies the scene that should be activated after collection is opened.
 
 > bool openAtStart { get; set; }\
@@ -46,14 +46,14 @@ High: [ThreadPriority](https://docs.unity3d.com/ScriptReference/Application-back
 > static Find(string name, bool onlyActiveProfile = true)\
 Finds the collection with the specified name.
 
-> [Scene](Scene)[] AllScenes()\
+> [Scene](Scene.md)[] AllScenes()\
 Gets all scenes contained in this collection, including overriden loading screen, if set.
 
-> [Profile](Profile) FindProfile()\
-Find the [Profile](Profile) that this collection is associated with.
+> [Profile](Profile.md) FindProfile()\
+Find the [Profile](Profile.md) that this collection is associated with.
 
-> [SceneTag](SceneManagerWindow#tags) Tag([scene](Scene) scene, SceneTag setTo = null)\
-Returns or sets the tag of a [scene](Scene) in this collection.
+> [SceneTag](SceneManagerWindow.md#tags) Tag([scene](Scene.md) scene, SceneTag setTo = null)\
+Returns or sets the tag of a [scene](Scene.md) in this collection.
 
 > T ExtraData<T>() where T : ScriptableObject\
 Casts and returns extraData as the specified type. Returns null if invalid type.

@@ -6,7 +6,7 @@ An ASM scene is our representation of a [SceneAsset](https://docs.unity3d.com/Sc
 
   ![](image/Scene-reference.png "Unity event")
 
-* [UnityEvent](https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html) support (it might be easier to use [SceneHelper](SceneHelper) as target though, since that will help filter the [object picker](https://docs.unity3d.com/ScriptReference/EditorGUI.ObjectField.html) to only display scenes):
+* [UnityEvent](https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html) support (it might be easier to use [SceneHelper](SceneHelper.md) as target though, since that will help filter the [object picker](https://docs.unity3d.com/ScriptReference/EditorGUI.ObjectField.html) to only display scenes):
 
   ![](image/Unity-event.png "Unity event")
 
@@ -53,7 +53,7 @@ Which could be transformed into this:
 ## Properties
 
 > isIncluded { get; }\
-Returns whatever the scene is currently included in build. This also takes into account whatever a scene is forced to be included, which would be any scenes that have been added to a [collection](SceneCollection), or is set as [splash screen](SceneManagerWindow#settings).
+Returns whatever the scene is currently included in build. This also takes into account whatever a scene is forced to be included, which would be any scenes that have been added to a [collection](SceneCollection.md), or is set as [splash screen](SceneManagerWindow.md#settings).
 
 > path { get; }\
 The path to the Unity scene in the project.
@@ -62,7 +62,7 @@ The path to the Unity scene in the project.
 The [AssetDatabase](https://docs.unity3d.com/ScriptReference/AssetDatabase.html) id of the SceneAsset.
 
 > tag { get; }\
-The [Tag](SceneManagerWindow#tags) of this scene. Tags can be defined on either [profiles](Profile) or [collections](SceneCollection), where collections take priority over profile.   
+The [Tag](SceneManagerWindow.md#tags) of this scene. Tags can be defined on either [profiles](Profile.md) or [collections](SceneCollection.md), where collections take priority over profile.   
 
 > isActive { get; }\
 Returns whatever this scene is currently the active scene.
@@ -70,20 +70,20 @@ Use Activate() to activate a scene.
 
 ## Methods
 
-> static [OpenSceneInfo](OpenSceneInfo) Find(string name, SceneCollection inCollection = null, Profile inProfile = null)\
+> static [OpenSceneInfo](OpenSceneInfo.md) Find(string name, SceneCollection inCollection = null, Profile inProfile = null)\
 Finds the scene with the specified name.
 
-> static [OpenSceneInfo](OpenSceneInfo)[] FindAll(string name, SceneCollection inCollection = null, Profile inProfile = null)\
+> static [OpenSceneInfo](OpenSceneInfo.md)[] FindAll(string name, SceneCollection inCollection = null, Profile inProfile = null)\
 Finds the scenes with the specified name.
 
-> [OpenSceneInfo](OpenSceneInfo) GetOpenSceneInfo()\
+> [OpenSceneInfo](OpenSceneInfo.md) GetOpenSceneInfo()\
 Finds last opened instance of the specified scene, returns null if no instances exist.
 
 > Open()\
-  Opens the scene as [standalone](SceneManager#standalone-scene-manager).
+  Opens the scene as [standalone](SceneManager.md#standalone-scene-manager).
 
 > OpenSingle()\
-  Closes all existing scenes and collection, and opens this scene as [standalone](SceneManager#standalone-scene-managerscene).
+  Closes all existing scenes and collection, and opens this scene as [standalone](SceneManager.md#standalone-scene-managerscene).
 
 > Close()\
   Closes the first instance of this scene that is open
@@ -97,7 +97,7 @@ Finds last opened instance of the specified scene, returns null if no instances 
 > Toggle(bool enabled)\
   Toggles the scene on or off, depending on enabled.
 
-> [SceneAsyncOperation](SceneAsyncOperation)<[PreloadedSceneHelper](PreloadedSceneHelper)> Preload()\
+> [SceneAsyncOperation](SceneAsyncOperation.md)<[PreloadedSceneHelper](PreloadedSceneHelper.md)> Preload()\
   Preloads the scene, which loads it into memory but does not display it.
 
 <a class="pdf-page-break"></a>
@@ -108,26 +108,26 @@ Finds last opened instance of the specified scene, returns null if no instances 
 > IsOpenReturnValue IsOpen()\
   Returns whatever this scene is open.
 
-> ([SceneCollection](SceneCollection)collection, bool asLoadingScreen)[] FindCollections()\
-  Finds the [collections](SceneCollection) that this scene is associated with.
+> ([SceneCollection](SceneCollection.md)collection, bool asLoadingScreen)[] FindCollections()\
+  Finds the [collections](SceneCollection.md) that this scene is associated with.
 
-> [SceneTag](SceneManagerWindow#tags) FindTag([SceneCollection](SceneCollection) collection = null)\
-Finds the tag for this scene on either the specified [collection](SceneCollection), or on the [active profile](Profile). If collection is null, then [SceneManager.collection.current]() will be used instead.
+> [SceneTag](SceneManagerWindow.md#tags) FindTag([SceneCollection](SceneCollection.md) collection = null)\
+Finds the tag for this scene on either the specified [collection](SceneCollection.md), or on the [active profile](Profile.md). If collection is null, then [SceneManager.collection.current]() will be used instead.
 
-> [SceneTag](SceneManagerWindow#tags) GetTagFromCollection([SceneCollection](SceneCollection) collection = null)\
-Finds the [tag](SceneManagerWindow#tags) for this scene on the specified [collection](SceneCollection).
-If [collection](SceneCollection) is null, then [SceneManager.collection.current](SceneManager#collection-scene-manager) will be used instead.
+> [SceneTag](SceneManagerWindow.md#tags) GetTagFromCollection([SceneCollection](SceneCollection.md) collection = null)\
+Finds the [tag](SceneManagerWindow.md#tags) for this scene on the specified [collection](SceneCollection.md).
+If [collection](SceneCollection.md) is null, then [SceneManager.collection.current](SceneManager.md#collection-scene-manager) will be used instead.
 
-> [SceneTag](SceneManagerWindow#tags) GetTagFromProfile()\
-Finds the [tag](SceneManagerWindow#tags) for this scene on the active [profile](Profile).
+> [SceneTag](SceneManagerWindow.md#tags) GetTagFromProfile()\
+Finds the [tag](SceneManagerWindow.md#tags) for this scene on the active [profile](Profile.md).
 
 The following methods can take a sceneIndex parameter which can be used to distinguish scenes that have been opened multiple times, (i.e. if first instance of the scenes is at the top of the hierarchy and the second is at the bottom, use sceneIndex: 1 for the second instance).
 
-> T FindObject<T>(int sceneIndex = 0)\
+> T FindObject<T>()\
 Finds the component of type T in the scene object hierarchy.
 
-> IEnumerable\<T> FindObjects<T>(sceneIndex = 0)\
+> IEnumerable\<T> FindObjects<T>()\
 Finds the components of type T in the scene object hierarchy.
 
-> [GameObject](https://docs.unity3d.com/ScriptReference/GameObject.html)[] GetRootGameObjects(int sceneIndex = 0)\
+> [GameObject](https://docs.unity3d.com/ScriptReference/GameObject.html)[] GetRootGameObjects()\
 Gets the root game objects of this scene.

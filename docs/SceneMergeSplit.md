@@ -1,7 +1,7 @@
 ## Scene merge
 
 Merging scenes can be done in two ways:\
-(API methods are contained in [SceneUtility](SceneUtility))
+(API methods are contained in [SceneUtility](SceneUtility.md))
 
 Pressing the ![](image/combine-scenes.png) button:
 

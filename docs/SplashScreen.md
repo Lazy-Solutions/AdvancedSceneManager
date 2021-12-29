@@ -3,7 +3,7 @@ A splash screen in ASM is implemented as a script inheriting
 ```csharp
 AdvancedSceneManager.Callbacks.SplashScreen
 ```
-and placing it in a dedicated scene, and assigning it in the ASM [settings](SceneManagerWindow#settings).
+and placing it in a dedicated scene, and assigning it in the ASM [settings](SceneManagerWindow.md#settings).
 
 One splash is provided out-of-the-box, which, while functional, is just intended as a reference, and can be found in 'AdvancedSceneManager/System/Defaults'.
 
@@ -13,17 +13,17 @@ Displays the text 'Advanced Scene Manager', with fade animations.
 ### Fields
 
 > [Canvas](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-Canvas.html) canvas\
-This can be set to automatically register [canvas](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-Canvas.html) with [CanvasSortOrderUtility](CanvasSortOrderUtility).
+This can be set to automatically register [canvas](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-Canvas.html) with [CanvasSortOrderUtility](CanvasSortOrderUtility.md).
 
 #### Properties
 
-> [SceneOperation](SceneOperation) progress { get; }\
-Inherited from [LoadingScreen](LoadingScreen), will always be null.
+> [SceneOperation](SceneOperation.md) progress { get; }\
+Inherited from [LoadingScreen](LoadingScreen.md), will always be null.
 
 #### Methods
 
 > abstract IEnumerator DisplaySplashScreen()\
-Called during [startup process](SceneManager#runtime) when the scene manager is ready to display the splash screen.
+Called during [startup process](SceneManager.md#runtime) when the scene manager is ready to display the splash screen.
 
 ## Guide
 Splash screens in ASM are implemented as [MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html) (through SplashScreen class) with a callback that manages everything that should happen during the splash screen. Callback is waited for, and execution of ASM is stopped until callback done.
@@ -50,7 +50,7 @@ public override IEnumerator DisplaySplashScreen()
 }
 ```
 
-This will fade the splash screen in, wait for 4 seconds, and then fade out again, and then ASM will continue with [startup](SceneManager#runtime).
+This will fade the splash screen in, wait for 4 seconds, and then fade out again, and then ASM will continue with [startup](SceneManager.md#runtime).
 
 ##### UI
 
@@ -59,8 +59,8 @@ Create a new scene called 'CustomSplashScreen'. Add a [Canvas](https://docs.unit
 Now add the 'CustomSplashScreen' script we created earlier to the [canvas](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/UICanvas.html), then assign canvas and group.
 
 ##### Actually using it
-Making ASM actually use it is as simple as assigning it in the [settings](SceneManagerWindow#settings) tab in [Scene Manager Window](SceneManagerWindow).
+Making ASM actually use it is as simple as assigning it in the [settings](SceneManagerWindow.md#settings) tab in [Scene Manager Window](SceneManagerWindow.md).
 
 ![](image/settings-splashscreen.png)
 
-And with this, we're done! You may now use the ![](image/play.png) in [Scene Manager Window](SceneManagerWindow) to start game as if it was a build, since splash screen won't play otherwise, and you should see the text fade in, wait for a few seconds, and then fade out again, and then ASM will continue [startup](SceneManager#runtime) process, and open your [collections](SceneCollection) and [scenes](Scene).
+And with this, we're done! You may now use the ![](image/play.png) in [Scene Manager Window](SceneManagerWindow.md) to start game as if it was a build, since splash screen won't play otherwise, and you should see the text fade in, wait for a few seconds, and then fade out again, and then ASM will continue [startup](SceneManager.md#runtime) process, and open your [collections](SceneCollection.md) and [scenes](Scene.md).

@@ -1,6 +1,6 @@
 ### What is a profile?
 
-A profile stores the [settings](SceneManagerWindow#settings), [collections](SceneCollection) and [standalone](SceneManager#standalone-scene-manager) [scenes](Scene) (that should be included in build) in Advanced Scene Manager. Profiles are easily swappable in [SceneManagerWindow](SceneManagerWindow#settings) and active profile is saved locally, which means that different members of a team can use their own profiles and then the project might use a profile specifically for build or release, if desired.
+A profile stores the [settings](SceneManagerWindow.md#settings), [collections](SceneCollection.md) and [standalone](SceneManager.md#standalone-scene-manager) [scenes](Scene.md) (that should be included in build) in Advanced Scene Manager. Profiles are easily swappable in [SceneManagerWindow](SceneManagerWindow.md#settings) and active profile is saved locally, which means that different members of a team can use their own profiles and then the project might use a profile specifically for build or release, if desired.
 
 #### Events
 
@@ -31,7 +31,7 @@ The splash screen to display during startup.
 Automatically create camera if no main camera found during splash screen.
 
 > bool useDefaultPauseScreen\
-The [default pause screen](DefaultPauseScreen), opens on esc, if enabled.
+The [default pause screen](DefaultPauseScreen.md), opens on esc, if enabled.
 
 > bool useFadeDuringStartup\
 Specifies whatever to use fade during startup, might cause flickering if turned off.
@@ -48,8 +48,8 @@ Sets [Application.backgroundLoadingPriority](https://docs.unity3d.com/ScriptRefe
 > bool enableChangingBackgroundLoadingPriority\
 Enables or disables ASM automatically changing [Application.backgroundLoadingPriority](https://docs.unity3d.com/ScriptReference/Application-backgroundLoadingPriority.html), this means\
 [Profile.backgroundLoadingPriority](#Properties),\
-[SceneCollection.loadingPriority](SceneCollection#Properties),\
-[SceneOperation.WithLoadingPriority](SceneOperation#Methods),\
+[SceneCollection.loadingPriority](SceneCollection.md#Properties),\
+[SceneOperation.WithLoadingPriority](SceneOperation.md#Methods),\
 will have no effect if disabled.
 
   <a class="pdf-page-break"></a>
@@ -71,16 +71,16 @@ Returns and/or sets the order of this collection in the scene manager window. On
 > SceneTag Tag(Scene scene, SceneTag setTo = null)\
 Gets or sets a tag defined for a scene on this profile.
 
-> [SceneCollection](SceneCollection) CreateCollection(string name, Action<SceneCollection> initializeBeforeSave = null)\
+> [SceneCollection](SceneCollection.md) CreateCollection(string name, Action<SceneCollection> initializeBeforeSave = null)\
 Create a collection and add it to this profile. Only available in editor.
 
-> Add([SceneCollection](SceneCollection) collection)\
+> Add([SceneCollection](SceneCollection.md) collection)\
 Adds a collection to this profile. Only available in editor.
 
-> Remove([SceneCollection](SceneCollection) collection)\
+> Remove([SceneCollection](SceneCollection.md) collection)\
 Remove a collection from this collection. Only available in editor.
 
-> SetStandalone([Scene](Scene) scene, bool enabled)\
+> SetStandalone([Scene](Scene.md) scene, bool enabled)\
 Sets the scene as standalone in this profile. Only available in editor.
 
 > Delete()\

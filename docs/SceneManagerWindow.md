@@ -1,4 +1,4 @@
-The Scene Manager Window can be used to manage the [SceneCollections](SceneCollection) (commonly referred to as collection) and scenes in a project, and also the behavior of Advanced Scene Manager.
+The Scene Manager Window can be used to manage the [SceneCollections](SceneCollection.md) (commonly referred to as collection) and scenes in a project, and also the behavior of Advanced Scene Manager.
 
 The scene manager window can be opened through:\
 ![](image/scene-manager-menu.png)
@@ -11,7 +11,7 @@ The scene manager window can be opened through:\
 
 #### ![](image/menu.png) button
 > Scene Overview...\
-Opens [Scene Overview Window](SceneOverviewWindow).
+Opens [Scene Overview Window](SceneOverviewWindow.md).
 
 > Auto open scene when created\
 When a scene is created from a scene row in a collection, should we open it afterwards?
@@ -34,7 +34,7 @@ Builds and runs the project, also attaches profiler.
 Builds and runs the project.
 
 > Reset\
-Resets Advanced Scene Manager by deleting [profiles](Profile), [collections](SceneCollection), and [ASM Scenes](Scene) (which will be immediately generated again after).
+Resets Advanced Scene Manager by deleting [profiles](Profile.md), [collections](SceneCollection.md), and [ASM Scenes](Scene.md) (which will be immediately generated again after).
 
 ### The Scene Manager Window has three tabs:
 ### [Scenes](#scenes) | [Tags](#tags) | [Settings](#settings)
@@ -45,7 +45,7 @@ The Scenes tab is where the [collections](SceneCollection) of scenes are set up.
 ![](image/scenes.png)
 
 ##### Create new collection
-Press ![](image/new-collection.png) button to create a new [collection](SceneCollection).
+Press ![](image/new-collection.png) button to create a new [collection](SceneCollection.md).
 
 ##### Collection properties
 To edit properties of a collection, press the ![](image/menu.png) button on the header to open the collection menu. In the collection menu the following properties can be changed:
@@ -67,7 +67,7 @@ The scene that should be activated after collection has been opened.
 Can be one of the following values:\
 Do not open: Don't open this collection during startup. (default)\
 Open: Open this collection during startup.\
-Open as persistent: Open this collection during startup, and flag each scene within as [persistent](PersistentUtility) (aka [SceneCloseBehavior.KeepOpenAlways](#Tags)).
+Open as persistent: Open this collection during startup, and flag each scene within as [persistent](PersistentUtility.md) (aka [SceneCloseBehavior.KeepOpenAlways](#Tags)).
 
 > Loading thread priority:\
 Automatically set [Application.LoadingThreadPriority](https://docs.unity3d.com/ScriptReference/Application-backgroundLoadingPriority.html) to specified value when this collection is opened (and is reset when done).\
@@ -77,7 +77,7 @@ This field will be disabled if 'Background Loading Priority' is disabled in sett
 The loading screen to use when opening or closing this collection.
 
 ##### Add or remove scenes / collection
-Scenes can be added to a [collection](SceneCollection) by pressing the ![](image/+.png) button on its header, [Scenes](Scene) and [SceneAsset](https://docs.unity3d.com/ScriptReference/SceneAsset.html) can then be dragged onto the scene fields.
+Scenes can be added to a [collection](SceneCollection.md) by pressing the ![](image/+.png) button on its header, [Scenes](Scene.md) and [SceneAsset](https://docs.unity3d.com/ScriptReference/SceneAsset.html) can then be dragged onto the scene fields.
 
 The ![](image/-.png) button on a collection header or scene row can be used to remove a collection or scene.
 
@@ -95,11 +95,11 @@ Hold and drag on ![](image/=.png) button and drag up and down to reorder collect
 
 #### Selection, bake lightmaps, combine scenes
 
-[Scenes](Scene) and [collections](SceneCollection) can be selected by holding ctrl and clicking on it in the scenes tab.
+[Scenes](Scene.md) and [collections](SceneCollection.md) can be selected by holding ctrl and clicking on it in the scenes tab.
 
-When more than one scene are selected (collections count for all its containing scenes), the ![](image/bake-lightmaps.png) button will appear, this will allow you to bake lightmaps for all the selected [scenes](Scene), and when a [collection](SceneCollection)  is selected, all [scenes](Scene) within  will be included.
+When more than one scene are selected (collections count for all its containing scenes), the ![](image/bake-lightmaps.png) button will appear, this will allow you to bake lightmaps for all the selected [scenes](Scene.md), and when a [collection](SceneCollection.md)  is selected, all [scenes](Scene.md) within  will be included.
 
-When more than one scene are selected (collections do not count), the ![](image/combine-scenes.png) button will appear, this will allow you to quickly [merge scenes together](SceneMergeSplit), note that this cannot be undone, except for using the [split scene utility](SceneMergeSplit).
+When more than one scene are selected (collections do not count), the ![](image/combine-scenes.png) button will appear, this will allow you to quickly [merge scenes together](SceneMergeSplit.md), note that this cannot be undone, except for using the [split scene utility](SceneMergeSplit.md).
 
 ![](image/selection.png)
 
@@ -140,37 +140,37 @@ The settings tab can be used change behavior of advanced scene manager.
 
 ![](image/settings.png)
 
-> [Profile](Profile):\
+> [Profile](Profile.md):\
 The active [Profile](Profile) in ASM.
 
 ###### Options
 
-> [Splash screen](SplashScreen):\
-The custom [splash screen](SplashScreen) to display during startup, plays after Unity's splash screens, if enabled. Provides more flexibility than Unity's splash screen since ours are merely implemented as scenes with a script using IEnumerator callback.
+> [Splash screen](SplashScreen.md):\
+The custom [splash screen](SplashScreen.md) to display during startup, plays after Unity's splash screens, if enabled. Provides more flexibility than Unity's splash screen since ours are merely implemented as scenes with a script using IEnumerator callback.
 
-> [Startup loading screen](LoadingScreenUtility):\
-The [loading screen](LoadingScreenUtility) that will be used during startup.
+> [Startup loading screen](LoadingScreenUtility.md):\
+The [loading screen](LoadingScreenUtility.md) that will be used during startup.
 
-> [Loading screen](LoadingScreenUtility):\
-The [loading screen](LoadingScreenUtility) that will be used for [collections](SceneCollection) that are set to use the default loading screen.
+> [Loading screen](LoadingScreenUtility.md):\
+The [loading screen](LoadingScreenUtility.md) that will be used for [collections](SceneCollection.md) that are set to use the default loading screen.
 
 > Background loading priority:\
 If enabled, automatically set [Application.backgroundLoadingPriority](https://docs.unity3d.com/ScriptReference/Application-backgroundLoadingPriority.html) during startup.\
 Note that collections can also specify loading priority during open, but that is only temporary, and value will be reset back to this when done.\
 Disable this if you are using another asset which relies on managing this setting by itself.
 
-> Create camera for [splash screens](SplashScreen):\
-Automatically create camera for [splash screens](SplashScreen), if no main camera is found.
+> Create camera for [splash screens](SplashScreen.md):\
+Automatically create camera for [splash screens](SplashScreen.md), if no main camera is found.
 
-> Use [default pause screen](DefaultPauseScreen):\
-ASM has a [default pause screen](DefaultPauseScreen) for those times when you build and then forget that no one has created a pause screen yet, forcing you to alt-f4, then restart again. This toggles default pause screen on or off.
+> Use [default pause screen](DefaultPauseScreen.md):\
+ASM has a [default pause screen](DefaultPauseScreen.md) for those times when you build and then forget that no one has created a pause screen yet, forcing you to alt-f4, then restart again. This toggles default pause screen on or off.
 
-> Enable [cross-scene references](CrossSceneReferences):\
-Enables or disables [cross-scene references](CrossSceneReferences).
+> Enable [cross-scene references](CrossSceneReferences.md):\
+Enables or disables [cross-scene references](CrossSceneReferences.md).
 
 ###### Appearance
 
-The following properties are only visible if the corresponding package is installed from the [package manager](PackageManager), if none are installed then this entire section will be hidden.
+The following properties are only visible if the corresponding package is installed from the [package manager](PackageManager.md), if none are installed then this entire section will be hidden.
 
 These properties are also local to the computer / user, so feel free to modify these to your personal preference.
 
@@ -191,16 +191,16 @@ Persistent scene indicator
 
 ###### Log
 
-> Pointless opening of [collections](SceneCollection) during startup:\
-Enables or disables warnings during startup that a [collection](SceneCollection) was opened, then closed because another [collection](SceneCollection) was also set to open during startup, and no [scene](Scene) within was persistent.
+> Pointless opening of [collections](SceneCollection.md) during startup:\
+Enables or disables warnings during startup that a [collection](SceneCollection.md) was opened, then closed because another [collection](SceneCollection.md) was also set to open during startup, and no [scene](Scene.md) within was persistent.
 
 > Pointless opening of scenes during startup:\
-Enables or disables warnings during startup that a [scene](Scene) was opened, then closed when a [collection](SceneCollection) was opened because [scene](Scene) was not persistent.
+Enables or disables warnings during startup that a [scene](Scene.md) was opened, then closed when a [collection](SceneCollection.md) was opened because [scene](Scene.md) was not persistent.
 
   <a class="pdf-page-break"></a>
 
 > Deleting temp Build:\
 Enables or disables a message that indicates that the temp build was deleted after process ended, this is mostly just useful for debugging when issues cause folder to not be deleted and is a quick way to know if this feature works as intended or not.
 
-> Unresolved [cross-scene reference](CrossSceneReferences):\
-Enables or disables warnings when a [cross-scene reference](CrossSceneReferences) could not be resolved when a [scene](Scene) was opened or closed.
+> Unresolved [cross-scene reference](CrossSceneReferences.md):\
+Enables or disables warnings when a [cross-scene reference](CrossSceneReferences.md) could not be resolved when a [scene](Scene.md) was opened or closed.

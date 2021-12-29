@@ -1,10 +1,10 @@
-Support packages are packages that can be downloaded that either add additional functionality, like [addressables package](AddressablesSupport), or they can add example projects.
+Support packages are packages that can be downloaded that either add additional functionality, like [addressables package](AddressablesSupport.md), or they can add example projects.
 
 The example projects are designed to be as non-destructive as possible, and installing them in an existing project should not pose any problems but please make sure everything is backed up before downloading any, just in case.
 
 Also remember to switch profile, since each example has its own profile.
 
-These packages can be downloaded through the [package manager](PackageManager):
+These packages can be downloaded through the [package manager](PackageManager.md):
 
 ![](image/package-manager-menu.png)
 
@@ -12,10 +12,10 @@ These packages can be downloaded through the [package manager](PackageManager):
 
 The following packages currently exist:
 
-> [Addressables support](AddressablesSupport)\
+> [Addressables support](AddressablesSupport.md)\
 Adds support for addressables unity package.
 
-> [Lock scenes and collections](LockUtility)\
+> [Lock scenes and collections](LockUtility.md)\
 Adds the ability to lock scenes and collections from editing, from within unity.
 
 > Level select example\

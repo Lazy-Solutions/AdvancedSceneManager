@@ -1,22 +1,22 @@
-The scene operation is what executes the logic of Advanced Scene Manager. A scene operation takes lists of scenes to open and close, and a few other properties to modify behavior, and then generates and executes the [actions](SceneAction) when it is at front of the queue.
+The scene operation is what executes the logic of Advanced Scene Manager. A scene operation takes lists of scenes to open and close, and a few other properties to modify behavior, and then generates and executes the [actions](SceneAction.md) when it is at front of the queue.
 
 Process:
 1. Queue and wait until we're up</br>
-2. Create [actions](SceneAction)<sup>1</sup></br>
+2. Create [actions](SceneAction.md)<sup>1</sup></br>
 3. Block input (cannot change properties anymore)</br>
-4. Open [loading screen](LoadingScreenUtility), if one is defined</br>
-5. Call [collection closed callbacks](Callbacks), if applicable</br>
-6. Run generated [actions](SceneAction), one by one.</br>
-7. Set active [scene](Scene), if a [collection](SceneCollection) was opened</br>
+4. Open [loading screen](LoadingScreenUtility.md), if one is defined</br>
+5. Call [collection closed callbacks](Callbacks.md), if applicable</br>
+6. Run generated [actions](SceneAction.md), one by one.</br>
+7. Set active [scene](Scene.md), if a [collection](SceneCollection.md) was opened</br>
 8. Call callbacks added through WithCallback methods</br>
-9. Call [collection open callbacks](Callbacks)</br>
+9. Call [collection open callbacks](Callbacks.md)</br>
 10. Dequeue (allow next operation to run)  </br>
-11. Hide [loading screen](LoadingScreenUtility)</br>
+11. Hide [loading screen](LoadingScreenUtility.md)</br>
 
-<sup>1</sup> Operation will exit early here if no [actions](SceneAction) were generated (and none added through WithAction(SceneOperation)).
+<sup>1</sup> Operation will exit early here if no [actions](SceneAction.md) were generated (and none added through WithAction(SceneOperation)).
 
 ###### enum Phase
-Defines the phases of a scene operation. These are passed to the associated [loading screen](LoadingScreen) using [LoadingScreen.OnScenePhaseChanged](LoadingScreen#methods) callback.
+Defines the phases of a scene operation. These are passed to the associated [loading screen](LoadingScreen.md) using [LoadingScreen.OnScenePhaseChanged](LoadingScreen.md#methods) callback.
 
 > CloseCallbacks:\
 The scene operation is currently executing close callbacks on the scenes that are being closed, if any.
@@ -39,7 +39,7 @@ The scene operation is currently executing custom actions, added through SceneOp
 #### Events
 
 > static Action queueEmpty\
-Occurs when an queued operation finishes and queue is empty. [SceneManager.utility.queueEmpty](SceneManager#utility-scene-manager) is a proxy for this event.
+Occurs when an queued operation finishes and queue is empty. [SceneManager.utility.queueEmpty](SceneManager.md#utility-scene-manager) is a proxy for this event.
 
 #### Properties
 
@@ -57,51 +57,51 @@ Inherited from [CustomYieldInstruction](https://docs.unity3d.com/ScriptReference
 > public SceneOperation.Phase phase { get; }\
 The phase the this scene operation is currently in.
 
-> ReadOnlyCollection<[Scene](Scene)> open { get; }\
-The [scenes](Scene) to open.
+> ReadOnlyCollection<[Scene](Scene.md)> open { get; }\
+The [scenes](Scene.md) to open.
 
-> ReadOnlyCollection<[OpenSceneInfo](OpenSceneInfo)> close { get; }\
-The [scenes](Scene) to close.
+> ReadOnlyCollection<[OpenSceneInfo](OpenSceneInfo.md)> close { get; }\
+The [scenes](Scene.md) to close.
 
-> ReadOnlyCollection<[OpenSceneInfo](OpenSceneInfo)> reopen { get; }\
-The [scenes](Scene) to reopen.
+> ReadOnlyCollection<[OpenSceneInfo](OpenSceneInfo.md)> reopen { get; }\
+The [scenes](Scene.md) to reopen.
 
-> [SceneCollection](SceneCollection) collection { get; }\
-The associated [collection](SceneCollection).
+> [SceneCollection](SceneCollection.md) collection { get; }\
+The associated [collection](SceneCollection.md).
 
-> [Scene](Scene) loadingScreen { get; }\
-The [loading screen](LoadingScreenUtility) to use for this operation, overrides [loading screen](LoadingScreen) defined on [collection](SceneCollection), if one is defined.
+> [Scene](Scene.md) loadingScreen { get; }\
+The [loading screen](LoadingScreenUtility.md) to use for this operation, overrides [loading screen](LoadingScreen.md) defined on [collection](SceneCollection.md), if one is defined.
 
 > bool useLoadingScreen { get; }\
 Prevents [loading screen](loadingScreen) from being used on this operation if set to false.
 
 > [ThreadPriority](https://docs.unity3d.com/ScriptReference/Application-backgroundLoadingPriority.html)? loadingPriority { get; }\
 Gets the loading priority for the background thread.\
-Defaults to [SceneCollection.loadingPriority](SceneCollection#properties) when collection is used, otherwise [Profile.backgroundLoadingPriority](Profile#properties).</para>
+Defaults to [SceneCollection.loadingPriority](SceneCollection.md#properties) when collection is used, otherwise [Profile.backgroundLoadingPriority](Profile.md#properties).</para>
 
-> [SceneManagerBase](SceneManager) sceneManager { get; }\
-The [scene manager](SceneManager) that requested this operation.
+> [SceneManagerBase](SceneManager.md) sceneManager { get; }\
+The [scene manager](SceneManager.md) that requested this operation.
 
 > bool? clearUnusedAssets { get; }\
 Specifies whatever unused assets should be cleared. See also: [Resources.UnloadUnusedAssets](https://docs.unity3d.com/ScriptReference/Resources.UnloadUnusedAssets.html).
 
 > bool doCollectionCallbacks { get; }\
-Specifies whatever [ICollectionOpen](Callbacks) and [ICollectionClose](Callbacks) should be called.
+Specifies whatever [ICollectionOpen](Callbacks.md) and [ICollectionClose](Callbacks.md) should be called.
 
 > Action<LoadingScreen> loadingScreenCallback { get; }\
-Specifies callbackBeforeBegin parameter for [LoadingScreenUtility](LoadingScreenUtility).ShowLoadingScreen()
+Specifies callbackBeforeBegin parameter for [LoadingScreenUtility](LoadingScreenUtility.md).ShowLoadingScreen()
 
 > ReadOnlyCollection<SceneAction> actions { get; }\
-The generated [actions](SceneAction).
+The generated [actions](SceneAction.md).
 
 > float totalProgress { get; }\
 The total progress of the operation.
 
 > SceneOperation<LoadingScreen> openedLoadingScreen { get; }\
-Gets the [loading screen](loadingScreen) that was opened.
+Gets the [loading screen](loadingScreen.md) that was opened.
 
-> [SceneAction](SceneAction) current { get; }\
-The current [action](SceneAction) that is executing.
+> [SceneAction](SceneAction.md) current { get; }\
+The current [action](SceneAction.md) that is executing.
 
 > bool cancelled { get; }\
 Gets if this scene operation is cancelled.
@@ -120,35 +120,35 @@ The following methods use the [fluent api](https://en.wikipedia.org/wiki/Fluent_
 > IgnoreQueue(bool ignore = true)\
 Specifies that this operation should ignore queue.
 
-> Open(params [Scene](Scene)[] scene)\
-Adds [scenes](Scene) to be opened.
+> Open(params [Scene](Scene.md)[] scene)\
+Adds [scenes](Scene.md) to be opened.
 
-> Close(params [OpenSceneInfo](OpenSceneInfo)[] scenes)\
-Adds [scenes](Scene) to be closed.
+> Close(params [OpenSceneInfo](OpenSceneInfo.md)[] scenes)\
+Adds [scenes](Scene.md) to be closed.
 
-> Reopen(params [OpenSceneInfo](OpenSceneInfo)[] scene)\
-Adds [scenes](Scene) to be reopened.
+> Reopen(params [OpenSceneInfo](OpenSceneInfo.md)[] scene)\
+Adds [scenes](Scene.md) to be reopened.
 
-> Open(IEnumerable<[Scene](Scene)> scene)\
-Adds [scenes](Scene) to be opened.
+> Open(IEnumerable<[Scene](Scene.md)> scene)\
+Adds [scenes](Scene.md) to be opened.
 
-> Close(IEnumerable<[OpenSceneInfo](OpenSceneInfo)> scenes)\
-Adds [scenes](Scene) to be closed.
+> Close(IEnumerable<[OpenSceneInfo](OpenSceneInfo.md)> scenes)\
+Adds [scenes](Scene.md) to be closed.
 
-> Reopen(IEnumerable<[OpenSceneInfo](OpenSceneInfo)> scene)\
-Adds [scenes](Scene) to be reopened.
+> Reopen(IEnumerable<[OpenSceneInfo](OpenSceneInfo.md)> scene)\
+Adds [scenes](Scene.md) to be reopened.
 
-> WithCollection([SceneCollection](SceneCollection) collection, bool withCallbacks = false)\
-Specifies associated [collection](SceneCollection) and whatever [ICollectionOpen](Callbacks) and [ICollectionClose](Callbacks) callbacks should be called.
+> WithCollection([SceneCollection](SceneCollection.md) collection, bool withCallbacks = false)\
+Specifies associated [collection](SceneCollection.md) and whatever [ICollectionOpen](Callbacks.md) and [ICollectionClose](Callbacks.md) callbacks should be called.
 
 > WithLoadingScreen(bool use)\
-Prevents [loading screen](loadingScreen) from opening on this operation if false.
+Prevents [loading screen](loadingScreen.md) from opening on this operation if false.
 
 > WithLoadingScreen(Scene scene)\
-Specifies [loading screen](loadingScreen) to use for this operation, overrides [collection](SceneCollection) loading screen, if one is defined.
+Specifies [loading screen](loadingScreen.md) to use for this operation, overrides [collection](SceneCollection.md) loading screen, if one is defined.
 
 > WithAction(params SceneAction[] actions)\
-Adds [SceneActions](SceneAction) to be performed after generated actions are done. Called before loading screen closes, if one was opened.
+Adds [SceneActions](SceneAction.md) to be performed after generated actions are done. Called before loading screen closes, if one was opened.
 
 > WithAction(params Action[] actions)\
 Adds System.Action to be performed after generated actions are done. Called before loading screen closes, if one was opened.
@@ -159,8 +159,8 @@ Adds IEnumerator callbacks to be performed after generated actions are done. Cal
 > WithClearUnusedAssets(bool enable)\
 Specifies whatever unused assets should be cleared. See also: [Resources.UnloadUnusedAssets](https://docs.unity3d.com/ScriptReference/Resources.UnloadUnusedAssets.html).
 
-> WithLoadingScreenCallback(Action<[LoadingScreen](LoadingScreen)> callback)\
-Specifies callbackBeforeBegin parameter for [LoadingScreenUtility](LoadingScreenUtility).ShowLoadingScreen()
+> WithLoadingScreenCallback(Action<[LoadingScreen](LoadingScreen.md)> callback)\
+Specifies callbackBeforeBegin parameter for [LoadingScreenUtility](LoadingScreenUtility.md).ShowLoadingScreen()
 
 > WithLoadingPriority([ThreadPriority](https://docs.unity3d.com/ScriptReference/Application-backgroundLoadingPriority.html) priority)\
 Sets [Application.backgroundLoadingPriority](https://docs.unity3d.com/ScriptReference/Application-backgroundLoadingPriority.html) for the duration of this operation, value is reset when operation is done or cancelled.\

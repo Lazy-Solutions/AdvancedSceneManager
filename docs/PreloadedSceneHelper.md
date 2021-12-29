@@ -31,16 +31,16 @@ public class Preloader : MonoBehaviour
 
 #### Properties
 
-> [OpenSceneInfo](OpenSceneInfo) scene { get; }\
-The [OpenSceneInfo](OpenSceneInfo) that is associated with this [scene](Scene).
+> [OpenSceneInfo](OpenSceneInfo.md) scene { get; }\
+The [OpenSceneInfo](OpenSceneInfo.md) that is associated with this [scene](Scene.md).
 
 > bool isInPreloadedState { get; }\
-Get if the [scene](Scene) is still in a preloaded state.
+Get if the [scene](Scene.md) is still in a preloaded state.
 
 #### Methods
 
-> [SceneOperation](SceneOperation)<[OpenSceneInfo](OpenSceneInfo)> FinishLoading()\
-Finishes loading [scene](Scene).
+> [SceneOperation](SceneOperation.md)<[OpenSceneInfo](OpenSceneInfo.md)> FinishLoading()\
+Finishes loading [scene](Scene.md).
 
-> [SceneOperation](SceneOperation) Discard()\
-Closes the [scene](Scene).
+> [SceneOperation](SceneOperation.md) Discard()\
+Closes the [scene](Scene.md).

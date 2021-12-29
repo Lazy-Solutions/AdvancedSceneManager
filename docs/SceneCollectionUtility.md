@@ -3,7 +3,7 @@ An utility class to perform actions on collections.
 > SceneCollection Create(string name, Profile profile = null)
 Creates a SceneCollection.\
 name: The name of the collection.\
-profile: The profile to add this collection to. Defaults to [Profile.current](Profile#properties).
+profile: The profile to add this collection to. Defaults to [Profile.current](Profile.md#properties).
 
 > Remove(SceneCollection collection)\
 Removes a collection.
