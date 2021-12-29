@@ -2,23 +2,18 @@
 
 Advanced Scene Manager is a new and improved scene management system for [Unity](https://unity.com/). Get it at the [Unity Asset Store!](https://assetstore.unity.com/packages/slug/174152)
 
-Advanced Scene Manager allows you to assign [scenes](https://github.com/Zumwani/advanced-scene-manager/wiki/Scene) as children to a [Scene Collection](https://github.com/Zumwani/advanced-scene-manager/wiki/SceneCollection) (commonly referred to as collections).
-When a [Scene Collection](https://github.com/Zumwani/advanced-scene-manager/wiki/SceneCollection) is opened all existing scenes will be closed and the newly opened [Scene Collection](https://github.com/Zumwani/advanced-scene-manager/wiki/SceneCollection) will have its associated [scenes](https://github.com/Zumwani/advanced-scene-manager/wiki/Scene) opened.
+Advanced Scene Manager allows you to assign [scenes](docs/Scene.md) as children to a [Scene Collection](docs/SceneCollection.md) (commonly referred to as collections).
+When a [Scene Collection](docs/SceneCollection.md) is opened all existing scenes will be closed and the newly opened [Scene Collection](docs/SceneCollection.md) will have its associated [scenes](docs/Scene.md) opened.
 
-Only one [collection](https://github.com/Zumwani/advanced-scene-manager/wiki/SceneCollection) can be open at a time, but individual [scenes](https://github.com/Zumwani/advanced-scene-manager/wiki/SceneCollection) can still be opened as standalone.
-
-# What is this repo for?
-This repo hosts the [documentation](https://github.com/Zumwani/advanced-scene-manager/wiki) of Advanced Scene Manager.
+Only one [collection](docs/SceneCollection.md) can be open at a time, but individual [scenes](docs/SceneCollection.md) can still be opened as standalone.
 
 ## How do I use it?
-The [documentation](https://github.com/Zumwani/advanced-scene-manager/wiki) would be a good start, but here are the basics:
 
-The [Scene Manager Window](https://github.com/Zumwani/advanced-scene-manager/wiki/SceneManagerWindow) can be accessed from 'File -> Scene Manager...' menu item. The [Scene Manager window](https://github.com/Zumwani/advanced-scene-manager/wiki/SceneManagerWindow) can be used to create and remove [collections](https://github.com/Zumwani/advanced-scene-manager/wiki/SceneCollection) and assign any [scenes](https://github.com/Zumwani/advanced-scene-manager/wiki/Scene) as children.
+The [Scene Manager Window](docs/SceneManagerWindow.md) can be accessed from 'File -> Scene Manager...' menu item. The [Scene Manager window](docs/SceneManagerWindow.md) can be used to create and remove [collections](docs/SceneCollection.md) and assign any [scenes](docs/Scene.md) as children.
 
-![](https://raw.githubusercontent.com/wiki/Lazy-Solutions/advanced-scene-manager/image/File-menu-and-scene-manager-window.png "File menu and scene manager window")
-​
+![](docs/image/File-menu-and-scene-manager-window.png "File menu and scene manager window")
 
-[Collections](https://github.com/Zumwani/advanced-scene-manager/wiki/SceneCollection) and [scenes](https://github.com/Zumwani/advanced-scene-manager/wiki/Scene) can be used like this:
+[Collections](docs/SceneCollection.md) and [scenes](docs/Scene.md) can be used like this:
 
 ```C#
 using UnityEngine;
@@ -61,8 +56,8 @@ public MyScript : MonoBehaviour
 
 </br>
 
-[Collections](https://github.com/Zumwani/advanced-scene-manager/wiki/SceneCollection) and [scenes](https://github.com/Zumwani/advanced-scene-manager/wiki/Scene) can also be opened from [UnityEvents](https://docs.unity3d.com/Manual/UnityEvents.html), such as from a [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html), but it might be easier to use the [SceneHelper](https://github.com/Zumwani/advanced-scene-manager/wiki/SceneHelper), since that will make it easier to find the [scene](https://github.com/Zumwani/advanced-scene-manager/wiki/Scene) or [collection](https://github.com/Zumwani/advanced-scene-manager/wiki/SceneCollection) in the Object Picker.
+[Collections](docs/SceneCollection.md) and [scenes](docs/Scene.md) can also be opened from [UnityEvents](https://docs.unity3d.com/Manual/UnityEvents.html), such as from a [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html), but it might be easier to use the [SceneHelper](docs/SceneHelper.md), since that will make it easier to find the [scene](docs/Scene.md) or [collection](docs/SceneCollection.md) in the Object Picker.
 
-![](https://raw.githubusercontent.com/wiki/Lazy-Solutions/advanced-scene-manager/image/Unity-event.png "Unity event")
+![](docs/image/Unity-event.png "Unity event")
 ## Where can I get it!?
 Advanced Scene Manager is available at the Unity Asset Store, [get it now!](https://assetstore.unity.com/packages/slug/174152)<br/>
