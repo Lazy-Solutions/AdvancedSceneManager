@@ -52,7 +52,7 @@ Want to get into contact with us? Report issues?\
 
 ###### Misc
 [Addressables support](AddressablesSupport.md)\
-[SceneOverviewUI](SceneOverviewUI.md)\
+[InGameToolbar](InGameToolbar.md)\
 [DefaultPauseScreen](DefaultPauseScreen.md)\
 [ISceneObject](ISceneObject.md)\
 [Loading screens](LoadingScreen.md)\
