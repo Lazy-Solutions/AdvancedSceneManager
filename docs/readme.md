@@ -21,6 +21,12 @@ Want to get into contact with us? Report issues?\
 [SceneCollection](SceneCollection.md)\
 [Profile](Profile.md)
 
+###### Highlight ★
+[Loading screens](LoadingScreen.md)\
+[Splash screen](SplashScreen.md)\
+[SceneHelper](SceneHelper.md)\
+[ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](Callbacks.md)
+
 ###### Frontend
 [SceneManagerWindow](SceneManagerWindow.md)\
 [SceneOverviewWindow](SceneOverviewWindow.md)
@@ -36,8 +42,6 @@ Want to get into contact with us? Report issues?\
 ###### Utilities
 [SceneUtility](SceneUtility.md)\
 [SceneCollectionUtility](SceneCollectionUtility.md)\
-[SceneHelper](SceneHelper.md)\
-[CoroutineUtility](CoroutineUtility.md)\
 [LoadingScreenUtility](LoadingScreenUtility.md)\
 [PersistentUtility](PersistentUtility.md)\
 [CanvasSortOrderUtility](CanvasSortOrderUtility.md)\
@@ -47,7 +51,6 @@ Want to get into contact with us? Report issues?\
 [SceneDataUtility](SceneDataUtility.md)\
 [GuidReferenceUtility](GuidReferenceUtility.md)\
 [LockUtility](LockingUtility.md)\
-[ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](Callbacks.md)\
 [CallbackUtility, Callback analyzer](CallbackUtility.md)
 
 ###### Misc
@@ -55,8 +58,6 @@ Want to get into contact with us? Report issues?\
 [InGameToolbar](InGameToolbar.md)\
 [DefaultPauseScreen](DefaultPauseScreen.md)\
 [ISceneObject](ISceneObject.md)\
-[Loading screens](LoadingScreen.md)\
-[Splash screen](SplashScreen.md)\
 [Cross-scene references](CrossSceneReferences.md)
 
 ###### Guides
