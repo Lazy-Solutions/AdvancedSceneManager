@@ -9,7 +9,7 @@ Only one [collection](docs/SceneCollection.md) can be open at a time, but indivi
 
 ## How do I use it?
 
-The documentation would be a good start, you can find it [here.](docs/readme.md)
+The documentation would be a good start, you can find it [here.](#wiki)
 
 The [Scene Manager Window](docs/SceneManagerWindow.md) can be accessed from 'File -> Scene Manager...' menu item. The [Scene Manager window](docs/SceneManagerWindow.md) can be used to create and remove [collections](docs/SceneCollection.md) and assign any [scenes](docs/Scene.md) as children.
 
