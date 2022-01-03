@@ -83,7 +83,7 @@ Want to get into contact with us? Report issues?\
 ###### Highlight ★
 [Loading screens](docs/LoadingScreen.md)\
 [Splash screen](docs/SplashScreen.md)\
-[CoroutineUtility](https://github.com/Lazy-Solutions/Unity.CoroutineUtility)\
+[SceneHelper](docs/SceneHelper.md)\
 [ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](docs/Callbacks.md)
 
 ###### Frontend
@@ -101,7 +101,6 @@ Want to get into contact with us? Report issues?\
 ###### Utilities
 [SceneUtility](docs/SceneUtility.md)\
 [SceneCollectionUtility](docs/SceneCollectionUtility.md)\
-[SceneHelper](docs/SceneHelper.md)\
 [LoadingScreenUtility](docs/LoadingScreenUtility.md)\
 [PersistentUtility](docs/PersistentUtility.md)\
 [CanvasSortOrderUtility](docs/CanvasSortOrderUtility.md)\
