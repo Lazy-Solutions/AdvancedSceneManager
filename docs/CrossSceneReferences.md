@@ -1,14 +1,12 @@
+> Note that cross-scene references is experimental, and it may be possible it might never reach a stable status. This is due to lacking apis and workarounds that works one minute but not the other, or for one person but not the other, your milage might vary. 
+
 Cross scene references is one of those small things that should be supported by Unity, but just isn't. Fret not however, since as of ASM 1.1, that functionality is provided out-of-the-box, and may be enabled in settings.
 
 > Note that cross-scene references may not be restored until after [Start()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html) and [Awake()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html) is called, [ISceneOpen](Callbacks.md) or [ICollection](Callbacks.md) is as such recommended, since they are invoked by asm after cross-scene references has been restored.
 
 ![](image/cross-scene-reference.png)
 
-> Note that cross-scene references is still experimental, and may not work in all circumstances.
-
 > Note that while we do suppress warnings associated with cross-scene references (they cannot be disabled completely, all we can do is to prevent them from triggering where we can), please be aware that there will still occasionally be warnings, which you may ignore.
-
-</br>
 
 ###### Problems with resolving
 There may cases when a reference does not resolve correctly, there is then two different ways you may be notified:
