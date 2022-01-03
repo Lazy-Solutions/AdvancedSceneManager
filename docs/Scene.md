@@ -108,7 +108,7 @@ Finds last opened instance of the specified scene, returns null if no instances 
 > IsOpenReturnValue IsOpen()\
   Returns whatever this scene is open.
 
-> ([SceneCollection](SceneCollection.md)collection, bool asLoadingScreen)[] FindCollections()\
+> ([SceneCollection](SceneCollection.md) collection, bool asLoadingScreen)[] FindCollections()\
   Finds the [collections](SceneCollection.md) that this scene is associated with.
 
 > [SceneTag](SceneManagerWindow.md#tags) FindTag([SceneCollection](SceneCollection.md) collection = null)\
