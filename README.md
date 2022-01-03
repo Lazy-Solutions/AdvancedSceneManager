@@ -80,6 +80,12 @@ Want to get into contact with us? Report issues?\
 [SceneCollection](docs/SceneCollection.md)\
 [Profile](docs/Profile.md)
 
+###### Highlight ★
+[Loading screens](docs/LoadingScreen.md)\
+[Splash screen](docs/SplashScreen.md)\
+[CoroutineUtility](https://github.com/Lazy-Solutions/Unity.CoroutineUtility)\
+[ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](docs/Callbacks.md)
+
 ###### Frontend
 [SceneManagerWindow](docs/SceneManagerWindow.md)\
 [SceneOverviewWindow](docs/SceneOverviewWindow.md)
@@ -96,7 +102,6 @@ Want to get into contact with us? Report issues?\
 [SceneUtility](docs/SceneUtility.md)\
 [SceneCollectionUtility](docs/SceneCollectionUtility.md)\
 [SceneHelper](docs/SceneHelper.md)\
-[CoroutineUtility](docs/CoroutineUtility.md)\
 [LoadingScreenUtility](docs/LoadingScreenUtility.md)\
 [PersistentUtility](docs/PersistentUtility.md)\
 [CanvasSortOrderUtility](docs/CanvasSortOrderUtility.md)\
@@ -106,7 +111,6 @@ Want to get into contact with us? Report issues?\
 [SceneDataUtility](docs/SceneDataUtility.md)\
 [GuidReferenceUtility](docs/GuidReferenceUtility.md)\
 [LockUtility](docs/LockingUtility.md)\
-[ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](docs/Callbacks.md)\
 [CallbackUtility, Callback analyzer](docs/CallbackUtility.md)
 
 ###### Misc
@@ -114,8 +118,6 @@ Want to get into contact with us? Report issues?\
 [InGameToolbar](docs/InGameToolbar.md)\
 [DefaultPauseScreen](docs/DefaultPauseScreen.md)\
 [ISceneObject](docs/ISceneObject.md)\
-[Loading screens](docs/LoadingScreen.md)\
-[Splash screen](docs/SplashScreen.md)\
 [Cross-scene references](docs/CrossSceneReferences.md)
 
 ###### Guides
