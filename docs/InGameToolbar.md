@@ -5,7 +5,7 @@ While this might not have much use in editor, it may be invaluable when debuggin
 
 The in-game toolbar is enabled by default, and can be toggled on or off in the settings tab of the [scene manager window](SceneManagerWindow.md).
 
-![](image/in-game-toolbar1.png)
+![](image/in-game-toolbar.png)
 
 ###### Header
 > Due too unicode not being fully supported in Unity the top row might not be entirely self explanatory, which is only exacerbated by the fact that Unity will not render tooltips during runtime, unless implemented manually.
