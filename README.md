@@ -60,6 +60,71 @@ public MyScript : MonoBehaviour
 
 [Collections](docs/SceneCollection.md) and [scenes](docs/Scene.md) can also be opened from [UnityEvents](https://docs.unity3d.com/Manual/UnityEvents.html), such as from a [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html), but it might be easier to use the [SceneHelper](docs/SceneHelper.md), since that will make it easier to find the [scene](docs/Scene.md) or [collection](docs/SceneCollection.md) in the Object Picker.
 
+## Wiki
+Welcome to the Advanced Scene Manager wiki!\
+This wiki is available both [online](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/readme.md) and [offline](https://raw.githubusercontent.com/wiki/Lazy-Solutions/AdvancedSceneManager/docs/ToPdf/ASM.pdf)
+>Note: the offline version packaged with asset store releases may not be up-to-date, since documentation may be updated after release.\
+Last updated at: 31/08/2021
+
+###### Patches
+Patches are partial updates that are too important to have our users wait for, and if you are having issues, have a look over here, it might be fixed already: \
+[Patches](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/main/patches)
+
+###### Contact
+Want to get into contact with us? Report issues?\
+[Github issues](https://github.com/Lazy-Solutions/AdvancedSceneManager/issues)\
+[support@lazy.solutions](mailto:support@lazy.solutions)\
+[discord.gg/pnRn6zeFEJ](https://discord.gg/pnRn6zeFEJ)
+>Note: We accept bug reports and offer help on all three channels. Which one you wish to use, is up to your preference!
+
+###### Models
+[Scene](docs/Scene.md)\
+[SceneCollection](docs/SceneCollection.md)\
+[Profile](docs/Profile.md)
+
+###### Frontend
+[SceneManagerWindow](docs/SceneManagerWindow.md)\
+[SceneOverviewWindow](docs/SceneOverviewWindow.md)
+
+##### Backend
+[SceneManager](docs/SceneManager.md)\
+[SceneOperation](docs/SceneOperation.md)\
+[SceneAction](docs/SceneAction.md)\
+[AssetManagement](docs/AssetManagement.md)\
+[OpenSceneInfo](docs/OpenSceneInfo.md)\
+[PreloadedSceneHelper](docs/PreloadedSceneHelper.md)
+
+###### Utilities
+[SceneUtility](docs/SceneUtility.md)\
+[SceneCollectionUtility](docs/SceneCollectionUtility.md)\
+[SceneHelper](docs/SceneHelper.md)\
+[CoroutineUtility](docs/CoroutineUtility.md)\
+[LoadingScreenUtility](docs/LoadingScreenUtility.md)\
+[PersistentUtility](docs/PersistentUtility.md)\
+[CanvasSortOrderUtility](docs/CanvasSortOrderUtility.md)\
+[AssetRefreshUtility](docs/AssetRefreshUtility.md)\
+[Scene merge, split](docs/SceneMergeSplit.md)\
+[HierarchyGUIUtility](docs/HierarchyGUIUtility.md)\
+[SceneDataUtility](docs/SceneDataUtility.md)\
+[GuidReferenceUtility](docs/GuidReferenceUtility.md)\
+[LockUtility](docs/LockingUtility.md)\
+[ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](docs/Callbacks.md)\
+[CallbackUtility, Callback analyzer](docs/CallbackUtility.md)
+
+###### Misc
+[Addressables support](docs/AddressablesSupport.md)\
+[InGameToolbar](docs/InGameToolbar.md)\
+[DefaultPauseScreen](docs/DefaultPauseScreen.md)\
+[ISceneObject](docs/ISceneObject.md)\
+[Loading screens](docs/LoadingScreen.md)\
+[Splash screen](docs/SplashScreen.md)\
+[Cross-scene references](docs/CrossSceneReferences.md)
+
+###### Guides
+[Quick start](docs/QuickStart.md)\
+[Loading screen](docs/LoadingScreen.md#guide)\
+[Splash screen](docs/SplashScreen.md#guide)
+
 ![](docs/image/Unity-event.png "Unity event")
 ## Where can I get it!?
 Advanced Scene Manager is available at the Unity Asset Store, [get it now!](https://assetstore.unity.com/packages/slug/174152)<br/>
