@@ -8,7 +8,7 @@ These patches will be included in the next asset store update, and these files w
 #### If multiple patches are available, please import in order.
 We will try and combine them if we can, but it is sometimes more trouble than it is worth, so sorry about that.
 
-### Workarounds:
+## Workarounds:
  #### Compilation errors when updating or installing asm.
  1. Make sure that all dependencies are installed in package manager:
     * [Plugins and samples](https://github.com/Lazy-Solutions/plugin.asm.package-manager)
