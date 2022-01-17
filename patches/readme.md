@@ -8,6 +8,9 @@ These patches will be included in the next asset store update, and these files w
 #### If multiple patches are available, please import in order.
 We will try and combine them if we can, but it is sometimes more trouble than it is worth, so sorry about that.
 
+Patches can also be found here:\
+[https://discord.com/channels/519089118467325952/806112082873024562](https://discord.com/channels/519089118467325952/806112082873024562)
+
 ## Workarounds:
  #### Compilation errors when updating or installing asm.
  1. Make sure that all dependencies are installed in package manager:
