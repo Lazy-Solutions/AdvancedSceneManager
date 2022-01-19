@@ -1,3 +1,9 @@
+## Patch notes:
+- Added git as a 'dependency' in dependency window.
+- Might have fixed issue with (or significantly reduced likelyhood of occuring) scenes becoming null or profile becoming unset during script domain reloads.
+- Rewrote asset refresh to account for being triggered a lot during short timespans.
+- Fixed issue where KeepOpenIfNextCollectionAlsoContainsScene would be closed incorrectly.
+
 ## Patches for Advanced Scene Manager
 
 Patches are partial updates that are too important to have our users wait for.
