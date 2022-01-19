@@ -3,7 +3,7 @@
 - Might have fixed issue with (or significantly reduced likelyhood of occuring) scenes becoming null or profile becoming unset during script domain reloads.
 - Rewrote asset refresh to account for being triggered a lot during short timespans.
 - Fixed issue where KeepOpenIfNextCollectionAlsoContainsScene would be not be closed when opening a collection that did not contain it.
-- Fixed issue where scene with normal tag would not reopen when a new collection opened with it inside.
+- Fixed issue where scene with default tag would not reopen when a new collection opened that also contained it.
 
 ## Patches for Advanced Scene Manager
 
