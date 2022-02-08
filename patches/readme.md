@@ -1,4 +1,5 @@
 ## Patch notes:
+No patches available currently.
 
 ## Patches for Advanced Scene Manager
 
