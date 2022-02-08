@@ -1,5 +1,7 @@
 ## Patch notes:
-No patches available currently.
+08-02-2022:
+- Fixed PreloadedSceneHelper.Discard() freezing asm.
+- Fixed issue with SceneOperation sometimes returning a null OpenSceneInfo when done.
 
 ## Patches for Advanced Scene Manager
 
