@@ -3,6 +3,11 @@
 - Fixed PreloadedSceneHelper.Discard() freezing asm.
 - Fixed issue with SceneOperation sometimes returning a null OpenSceneInfo when done.
 
+09-02-2022:
+- Added SceneOperation.openedScenes.
+- Fixed issue where active scene would not be set after opening collection.
+- Fixed a using being placed outside #if UNITY_EDITOR.
+
 ## Patches for Advanced Scene Manager
 
 Patches are partial updates that are too important to have our users wait for.
