@@ -1,4 +1,5 @@
 ## Patch notes:
+10-03-2022
 - Changes the refresh button to do a full refresh, rather than a partial one.
 
 ## Patches for Advanced Scene Manager
