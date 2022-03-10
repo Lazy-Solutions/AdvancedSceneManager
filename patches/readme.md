@@ -3,7 +3,8 @@
 - Fixes refresh button so that it does a full refresh, rather than a partial one.
 - Fixes an issue where SceneOperation would not filter out already open scenes.
 - Fixed an issue in LerpUtility where we used Time.deltaTime instead of Time.unscaledDeltaTime.
-- Added 'friendly text' when adding a scene operation, which shows up in CoroutineRunner, for easier identifying of coroutines. 
+- Added 'friendly text' when adding a scene operation, which shows up in CoroutineRunner, for easier identifying of coroutines.
+- - Added option to disable startup camera.
 
 ## Patches for Advanced Scene Manager
 
