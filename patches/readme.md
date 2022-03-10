@@ -1,6 +1,7 @@
 ## Patch notes:
 10-03-2022
 - Changes the refresh button to do a full refresh, rather than a partial one.
+- Fixes an issue where SceneOperation would not filter out already open scenes.
 
 ## Patches for Advanced Scene Manager
 
