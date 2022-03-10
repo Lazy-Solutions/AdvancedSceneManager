@@ -1,5 +1,5 @@
 ## Patch notes:
-No patches currently available.
+- Changes the refresh button to do a full refresh, rather than a partial one.
 
 ## Patches for Advanced Scene Manager
 
@@ -24,3 +24,6 @@ Patches and patch notes can also be found here:\
  2. Make sure that the 'ASM' '#pragma' / 'scripting define symbol' is set:
  
     ![](https://raw.githubusercontent.com/Lazy-Solutions/AdvancedSceneManager/main/docs/image/scripting%20define%20symbols.png)
+    
+ #### Git won't register as installed by asm
+ Unity + Unity Hub must be restarted after installing git, this is true for both asm and unity itself.
