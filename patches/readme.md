@@ -7,6 +7,10 @@
 - Added option to disable startup camera.
 - Added option to change startup scene.
 
+20-03-2022
+- Partial fix for SceneOperation.totalProgress, where SceneActions that does not actually report progress was incorrectly counted. Progress during startup still borked, fix for that will be in next asset store update.
+- Fixed registration of GUIDReference outside play mode, which removes need for hierarchy scan, improving performance for cross-scene references in editor.
+
 ## Patches for Advanced Scene Manager
 
 Patches are partial updates that are too important to have our users wait for.
