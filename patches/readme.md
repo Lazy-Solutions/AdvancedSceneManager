@@ -11,6 +11,12 @@
 - Partial fix for SceneOperation.totalProgress, where SceneActions that does not actually report progress was incorrectly counted. Progress during startup still borked, fix for that will be in next asset store update.
 - Fixed registration of GUIDReference outside play mode, which removes need for hierarchy scan, improving performance for cross-scene references in editor.
 
+30-03-2022
+- Fixed dependency manager becoming non-interactable when interrupted by a error during a refresh.
+- Fixed SceneAsset inspector throwing null ref when adding scene as standalone.
+- Fixed fade loading screen being force included in build (unless default pause screen is enabled). Note that scene will have to be removed from Profile.standalone manually in inspector for profile.
+- Fixed manual edit of build settings.
+
 ## Patches for Advanced Scene Manager
 
 Patches are partial updates that are too important to have our users wait for.
