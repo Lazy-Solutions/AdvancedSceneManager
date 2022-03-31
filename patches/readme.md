@@ -1,17 +1,13 @@
 ## Patch notes:
-14-03-2022
+31-03-2022
 - Fixes refresh button so that it does a full refresh, rather than a partial one.
 - Fixes an issue where SceneOperation would not filter out already open scenes.
 - Fixed an issue in LerpUtility where we used Time.deltaTime instead of Time.unscaledDeltaTime.
 - Added 'friendly text' when adding a scene operation, which shows up in CoroutineRunner, for easier identifying of coroutines. 
 - Added option to disable startup camera.
 - Added option to change startup scene.
-
-20-03-2022
 - Partial fix for SceneOperation.totalProgress, where SceneActions that does not actually report progress was incorrectly counted. Progress during startup still borked, fix for that will be in next asset store update.
 - Fixed registration of GUIDReference outside play mode, which removes need for hierarchy scan, improving performance for cross-scene references in editor.
-
-30-03-2022
 - Fixed dependency manager becoming non-interactable when interrupted by a error during a refresh.
 - Fixed SceneAsset inspector throwing null ref when adding scene as standalone.
 - Fixed fade loading screen being force included in build (unless default pause screen is enabled). Note that scene will have to be removed from Profile.standalone manually in inspector for profile.
