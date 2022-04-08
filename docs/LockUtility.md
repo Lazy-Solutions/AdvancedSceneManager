@@ -1,4 +1,4 @@
-Since ASM 1.3 scenes and collections can now be locked from editing.
+The locking package ([install instructions here](PluginsAndSamples.md)) adds support for locking scenes and collection from being edited.
 
 > Note we can only prevent edit from inside of unity, any modifications from outside, including source control, cannot be prevented.
 
