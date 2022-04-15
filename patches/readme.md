@@ -30,7 +30,10 @@ Patches and patch notes can also be found here:\
  #### Compilation errors when updating or installing asm.
  
 1. Make sure that the 'ASM' '#pragma' / 'scripting define symbol' is set or unset:\
-    If you have compilation errors due to Lazy namespace not existing, you'll need to remove 'ASM', and unless you have other compilation errors, the dependency manager window should pop up after recompile.
+    
+    > If you have compilation errors due to Lazy namespace not existing, you'll need to remove 'ASM', and unless you have other compilation errors, the dependency manager window should pop up after recompile.
+    
+    > If you have all dependencies but asm does not appear, and 'ASM' is not set, then you'll have to add it since ASM will not be compiled until then.
     
     ![](https://raw.githubusercontent.com/Lazy-Solutions/AdvancedSceneManager/main/docs/image/scripting%20define%20symbols.png)
     
