@@ -28,14 +28,22 @@ Patches and patch notes can also be found here:\
 
 ## Workarounds:
  #### Compilation errors when updating or installing asm.
- 1. Make sure that all dependencies are installed in package manager:
-    * [Plugins and samples](https://github.com/Lazy-Solutions/plugin.asm.package-manager)
-    * [CoroutineUtility](https://github.com/Lazy-Solutions/Unity.CoroutineUtility)
-    * [EditorCoroutines](https://docs.unity3d.com/Manual/com.unity.editorcoroutines.html)
-    
- 2. Make sure that the 'ASM' '#pragma' / 'scripting define symbol' is set:
  
+1. Make sure that the 'ASM' '#pragma' / 'scripting define symbol' is set or unset:\
+    If you have compilation errors due to Lazy namespace not existing, you'll need to remove 'ASM', and unless you have other compilation errors, the dependency manager window should pop up after recompile.
+    
     ![](https://raw.githubusercontent.com/Lazy-Solutions/AdvancedSceneManager/main/docs/image/scripting%20define%20symbols.png)
+    
+2. Make sure that all dependencies are installed in package manager:
+ 
+     Git packages (install using '+' > 'Add package from git URL'):
+
+      * [Plugins and samples](https://github.com/Lazy-Solutions/plugin.asm.package-manager): https://github.com/Lazy-Solutions/plugin.asm.package-manager.git
+      * [Coroutine Utility](https://github.com/Lazy-Solutions/Unity.CoroutineUtility): https://github.com/Lazy-Solutions/Unity.CoroutineUtility.git
+   
+      Unity packages (install by searching for it under 'Unity Registry'):
+
+      * [Editor Coroutines](https://docs.unity3d.com/Manual/com.unity.editorcoroutines.html)
     
  #### Git won't register as installed by asm
  Unity + Unity Hub must be restarted after installing git, this is true for both asm and unity itself.
