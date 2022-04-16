@@ -1,5 +1,5 @@
 ## Patch notes:
-16-04-2022
+16-04-2022:
 
 #### Important, if you are unfamiliar with git
 - Automated git install when installing from dependency manager window (windows only). 
