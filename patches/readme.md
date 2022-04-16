@@ -35,15 +35,19 @@ Patches and patch notes can also be found here:\
 ## Workarounds:
  #### Compilation errors when updating or installing asm.
  
-1. Make sure that the 'ASM' '#pragma' / 'scripting define symbol' is set or unset:\
+1. Restart unity\
+   Restarting unity may trigger a recompile, and the dependency manager may as such compile and appear.
+ 
+2. Make sure that the 'ASM' '#pragma' / 'scripting define symbol' is set or unset:
     
-    > If you have compilation errors due to Lazy namespace not existing, you'll need to remove 'ASM', and unless you have other compilation errors, the dependency manager window should pop up after recompile.
+    > If you have compilation errors due to Lazy namespace not existing, you'll need to remove 'ASM', and unless you have other compilation errors, the dependency manager window should pop up after recompile (which occurs when changing scripting defines).
     
-    > If you have all dependencies but asm does not appear, and 'ASM' is not set, then you'll have to add it since ASM will not be compiled until then.
+    > If you have all dependencies but asm does not appear, and 'ASM' is not set, then you'll have to add it since ASM will not be compiled until it is.
     
-    ![](https://raw.githubusercontent.com/Lazy-Solutions/AdvancedSceneManager/main/docs/image/scripting%20define%20symbols.png)
+    ![](https://raw.githubusercontent.com/Lazy-Solutions/AdvancedSceneManager/main/docs/image/scripting%20define%20symbols.png)\
+    (Unity 2019, the interface has changed slighly in more recent versions)
     
-2. Make sure that all dependencies are installed in package manager:
+3. Make sure that all dependencies are installed in package manager:
  
      Git packages (install using '+' > 'Add package from git URL'):
 
@@ -55,4 +59,5 @@ Patches and patch notes can also be found here:\
       * [Editor Coroutines](https://docs.unity3d.com/Manual/com.unity.editorcoroutines.html)
     
  #### Git won't register as installed by asm
- Unity + Unity Hub must be restarted after installing git, this is true for both asm and unity itself.
+ This is a gotcha in unity, and you'll be forgiven for thinking that it might work either without restarting or just simply restarting unity on its own.\
+ But if you're using the Unity Hub, which most of us are at this point, the hub needs to be restarted as well, this means right clicking the notification icon in the system tray, and pressing 'Quit Unity Hub'.
