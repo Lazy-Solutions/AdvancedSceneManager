@@ -1,5 +1,5 @@
 ## Patch notes:
-31-03-2022
+16-04-2022
 - Fixes refresh button so that it does a full refresh, rather than a partial one.
 - Fixes an issue where SceneOperation would not filter out already open scenes.
 - Fixed an issue in LerpUtility where we used Time.deltaTime instead of Time.unscaledDeltaTime.
@@ -12,6 +12,10 @@
 - Fixed SceneAsset inspector throwing null ref when adding scene as standalone.
 - Fixed fade loading screen being force included in build (unless default pause screen is enabled). Note that scene will have to be removed from Profile.standalone manually in inspector for profile.
 - Fixed manual edit of build settings.
+- Fixed nullref in SceneSetupManager.Restore()
+
+#### ! Important, if you are unfamiliar with git !
+- Automated git install when installing from dependency manager window (windows only). 
 
 ## Patches for Advanced Scene Manager
 
