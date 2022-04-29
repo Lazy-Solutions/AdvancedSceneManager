@@ -114,12 +114,6 @@ Press ![](image/new-tag.png) button to create a new tag.
 > Title\
 The title of the tag.
 
-> Label\
-Can be used to show a label to quickly identify scenes with this tag in the scenes tab.
-
-> Color\
-Can be used to show a strip of color to quickly identify scenes with this tag in the scenes tab.
-
 > Close behavior:
 - Close
   - (default) Closes scene like normal.
