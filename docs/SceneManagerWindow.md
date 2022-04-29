@@ -65,9 +65,10 @@ The scene that should be activated after collection has been opened.
 
 > Startup option\
 Can be one of the following values:\
-Do not open: Don't open this collection during startup. (default)\
-Open: Open this collection during startup.\
-Open as persistent: Open this collection during startup, and flag each scene within as [persistent](PersistentUtility.md) (aka [SceneCloseBehavior.KeepOpenAlways](#Tags)).
+ Auto: Open if this collection is the highest collection in the list that is enabled. (default)\
+ Do not open: Don't open this collection during startup.\
+ Open: Open this collection during startup.\
+ Open as persistent: Open this collection during startup, and flag each scene within as [persistent](PersistentUtility.md) (aka [SceneCloseBehavior.KeepOpenAlways](#Tags)).
 
 > Loading thread priority:\
 Automatically set [Application.LoadingThreadPriority](https://docs.unity3d.com/ScriptReference/Application-backgroundLoadingPriority.html) to specified value when this collection is opened (and is reset when done).\
