@@ -75,6 +75,11 @@ Want to get into contact with us? Report issues?\
 [discord.gg/pnRn6zeFEJ](https://discord.gg/pnRn6zeFEJ)
 >Note: We accept bug reports and offer help on all three channels. Which one you wish to use, is up to your preference!
 
+###### Guides
+[Quick start](docs/QuickStart.md)\
+[Loading screen](docs/LoadingScreen.md#guide)\
+[Splash screen](docs/SplashScreen.md#guide)
+
 ###### Models
 [Scene](docs/Scene.md)\
 [SceneCollection](docs/SceneCollection.md)\
@@ -118,11 +123,6 @@ Want to get into contact with us? Report issues?\
 [DefaultPauseScreen](docs/DefaultPauseScreen.md)\
 [ISceneObject](docs/ISceneObject.md)\
 [Cross-scene references](docs/CrossSceneReferences.md)
-
-###### Guides
-[Quick start](docs/QuickStart.md)\
-[Loading screen](docs/LoadingScreen.md#guide)\
-[Splash screen](docs/SplashScreen.md#guide)
 
 ![](docs/image/Unity-event.png "Unity event")
 ## Where can I get it!?
