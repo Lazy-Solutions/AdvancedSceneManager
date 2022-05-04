@@ -8,7 +8,7 @@
 - Fixes refresh button so that it does a full refresh, rather than a partial one.
 - Fixes an issue where SceneOperation would not filter out already open scenes.
 - Fixed an issue in LerpUtility where we used Time.deltaTime instead of Time.unscaledDeltaTime.
-- Added 'friendly text' when adding a scene operation, which shows up in CoroutineRunner, for easier identifying of coroutines. 
+- Added 'friendly text' when adding a scene operation, which shows up in CoroutineRunner, for easier identifying of coroutines.
 - Added option to disable startup camera.
 - Added option to change startup scene.
 - Partial fix for SceneOperation.totalProgress, where SceneActions that does not actually report progress was incorrectly counted. Progress during startup still borked, fix for that will be in next asset store update.
@@ -18,6 +18,18 @@
 - Fixed fade loading screen being force included in build (unless default pause screen is enabled). Note that scene will have to be removed from Profile.standalone manually in inspector for profile.
 - Fixed manual edit of build settings.
 - Fixed nullref in SceneSetupManager.Restore()
+- Added more descriptive error message when using AdvancedSceneManager.utility.activeScene during OnEnable(), Start(), Awake(), since ASM is not able to set active scene before scene activation / initialization phase (aka calling the above methods on all scripts in scene) resulting in null reference. 
+- Removed Scene setup restore, due to lack of polish and bugs, and now errors, and it only being a small QoL feature that is supported by unity nowadays regardless.
+- Fixed saved scroll position sometimes wrong, which would scroll window content outside of bounds.
+- Fixed window content not stretching height, resulting in footer appearing to high, and also review banner appearing above create collection button.
+- Added a check when using 'Create camera during startup' to first destroy UniversalAdditionalCameraData, if URP had managed to add one.
+- Removed custom usage of object picker in scene field, lets see if IndexOutOfRange error still occurs, if it does it must be unity's fault.
+- Fixed popup sometimes freezing.
+- Fixed issue where dependency manager would not load when asm folder had been moved. 
+- Added ability to open Scene ScriptableObjects by double clicking in project window, or drag dropping it on hierarchy. 
+
+#### Known issues
+- SceneAsset editor popup is 1x1 in size, if anyone is using this and needs this to be fixed please let us know and we'll take a look when we have time. 
 
 ## Patches for Advanced Scene Manager
 
