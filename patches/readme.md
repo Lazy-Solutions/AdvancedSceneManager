@@ -39,6 +39,6 @@ Patches and patch notes can also be found here:\
 
       * [Editor Coroutines](https://docs.unity3d.com/Manual/com.unity.editorcoroutines.html)
     
- #### Git won't register as installed by asm
+ #### Git won't register as installed by asm / unity
  This is a gotcha in unity, and you'll be forgiven for thinking that it might work either without restarting or just simply restarting unity on its own.\
  But if you're using the Unity Hub, which most of us are at this point, the hub needs to be restarted as well, this means right clicking the notification icon in the system tray, and pressing 'Quit Unity Hub', then starting hub + project again.
