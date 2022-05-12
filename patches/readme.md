@@ -33,8 +33,7 @@ Patches and patch notes can also be found here:\
  
      Git packages (install using '+' > 'Add package from git URL'):
 
-      * [Plugins and samples](https://github.com/Lazy-Solutions/plugin.asm.package-manager): https://github.com/Lazy-Solutions/plugin.asm.package-manager.git
-      * [Coroutine Utility](https://github.com/Lazy-Solutions/Unity.CoroutineUtility): https://github.com/Lazy-Solutions/Unity.CoroutineUtility.git
+     * [Coroutine Utility](https://github.com/Lazy-Solutions/Unity.CoroutineUtility): https://github.com/Lazy-Solutions/Unity.CoroutineUtility.git
    
       Unity packages (install by searching for it under 'Unity Registry'):
 
