@@ -18,7 +18,7 @@ Patches and patch notes can also be found here:\
  #### Compilation errors when updating or installing asm.
  
 1. Restart unity\
-   Restarting unity may trigger a recompile, and the dependency manager may as such compile and appear.
+   Restarting unity. Unity just needs a jumpstart sometimes.
  
 2. Make sure that the 'ASM' '#pragma' / 'scripting define symbol' is set or unset:
     
