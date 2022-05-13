@@ -22,7 +22,7 @@ Patches and patch notes can also be found here:\
  
 2. Make sure that the 'ASM' '#pragma' / 'scripting define symbol' is set or unset:
     
-    > If you have compilation errors due to Lazy namespace not existing, you'll need to remove 'ASM', and unless you have other compilation errors, the dependency manager window should pop up after recompile (which occurs when changing scripting defines).
+    > If you have compilation errors due to Lazy namespace not existing, then you're missing [CoroutineUtility](https://github.com/Lazy-Solutions/Unity.CoroutineUtility). Then you should either remove 'ASM', this should then trigger dependency manager window. You may also install the dependency manually (instructions further below).
     
     > If you have all dependencies but asm does not appear, and 'ASM' is not set, then you'll have to add it since ASM will not be compiled until it is.
     
