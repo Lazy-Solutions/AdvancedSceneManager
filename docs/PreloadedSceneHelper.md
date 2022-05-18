@@ -2,33 +2,6 @@ Preloaded scene helper is a class that helps with scenes that have been preloade
 
 > Please note that Unity only supports a single preloaded scene at a time, and that all subsequent scene operations will be halted until this scene is fully loaded and activated, or closed.
 
-```csharp
-//using UnityEngine;
-//using AdvancedSceneManager;
-//using AdvancedSceneManager.Core;
-//using AdvancedSceneManager.Utility;
-
-public class Preloader : MonoBehaviour
-{
-
-    public Scene sceneToPreload;
-    public SceneOperation<PreloadedSceneHelper> preloadedScene;
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-            preloadedScene = SceneManager.standalone.Preload(sceneToPreload);
-    }
-
-    public void FinishPreload()
-    {
-        preloadedScene.value.FinishLoading();
-    }
-
-}
-
-```
-
 #### Properties
 
 > [OpenSceneInfo](OpenSceneInfo.md) scene { get; }\
@@ -44,3 +17,34 @@ Finishes loading [scene](Scene.md).
 
 > [SceneOperation](SceneOperation.md) Discard()\
 Closes the [scene](Scene.md).
+
+#### Example
+
+![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/image/preload-example.png?raw=true)
+
+```csharp
+using System;
+using UnityEngine;
+using UnityEngine.Events;
+
+public class TriggerEvents : MonoBehaviour
+{
+
+    [Serializable]
+    public struct Event
+    {
+        [Space]
+        public UnityEvent m_event;
+    }
+
+    public Event OnTriggerEnter;
+    public Event OnTriggerExit;
+    public Event OnTriggerStay;
+
+    void OnTriggerEnter2D(Collider2D collision) => OnTriggerEnter.m_event.Invoke();
+    void OnTriggerExit2D(Collider2D collision) => OnTriggerExit.m_event.Invoke();
+    void OnTriggerStay2D(Collider2D collision) => OnTriggerStay.m_event.Invoke();
+
+}
+
+```
