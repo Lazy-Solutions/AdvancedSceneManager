@@ -1,5 +1,7 @@
 ## Patch notes:
-No patch currently available.
+- Added SceneCollection.OpenOrReopen(), ASM.OpenOrReopen().
+- Added ability to add or remove scenes from standalone dynamic collection in scenes tab.
+- Fixed issue with storing expanded status of dynamic collections.
 
 ## Patches for Advanced Scene Manager
 
