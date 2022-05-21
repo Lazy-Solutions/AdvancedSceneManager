@@ -2,6 +2,9 @@
 - Added SceneCollection.OpenOrReopen(), ASM.OpenOrReopen().
 - Added ability to add or remove scenes from standalone dynamic collection in scenes tab.
 - Fixed issue with storing expanded status of dynamic collections.
+- Fixed bug where empty scene fields would show up in standalone.
+- Fixed removing fade loading screen from standalone.
+- Fixed footer appearing behind review prompt.
 
 ## Patches for Advanced Scene Manager
 
