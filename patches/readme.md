@@ -6,6 +6,9 @@
 - Fixed removing fade loading screen from standalone.
 - Fixed footer appearing behind review prompt.
 
+- Fixed issue with opening blacklisted scenes
+- Fixed null ref that happens sometimes when setting active scene for collection
+
 ## Patches for Advanced Scene Manager
 
 Patches are partial updates that are too important to have our users wait for.
