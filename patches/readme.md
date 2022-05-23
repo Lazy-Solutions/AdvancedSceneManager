@@ -25,10 +25,18 @@ Patches and patch notes can also be found here:\
 ## Workarounds:
  #### Compilation errors when updating or installing asm.
  
-1. Restart unity\
+ 1. Open File > Scene Manager... menu
+ 
+    If the menu item does not exist, then continue on to 2. and then try this one again before moving on to 3.
+ 
+    > If asm is fully installed and setup, the scene manager will appear.
+
+    > If asm is not setup then the dependency manager will appear instead, just follow the instructions and continue the wizard to the end and asm should start working.
+
+2. Restart unity\
    Restarting unity. Unity just needs a jumpstart sometimes.
  
-2. Make sure that the 'ASM' '#pragma' / 'scripting define symbol' is set or unset:
+3. Make sure that the 'ASM' '#pragma' / 'scripting define symbol' is set or unset:
     
     > If you have compilation errors due to Lazy namespace not existing, then you're missing [CoroutineUtility](https://github.com/Lazy-Solutions/Unity.CoroutineUtility). Then you should either remove 'ASM', this should then trigger dependency manager window. You may also install the dependency manually (instructions further below).
     
@@ -37,7 +45,7 @@ Patches and patch notes can also be found here:\
     ![](https://raw.githubusercontent.com/Lazy-Solutions/AdvancedSceneManager/main/docs/image/scripting%20define%20symbols.png)\
     (Unity 2019, the interface has changed slighly in more recent versions)
     
-3. Make sure that all dependencies are installed in package manager:
+4. Make sure that all dependencies are installed in package manager:
  
      Git packages (install using '+' > 'Add package from git URL'):
 
