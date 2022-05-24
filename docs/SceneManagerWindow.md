@@ -13,12 +13,6 @@ The scene manager window can be opened through:\
 > Scene Overview...\
 Opens [Scene Overview Window](SceneOverviewWindow.md).
 
-> Auto open scene when created\
-When a scene is created from a scene row in a collection, should we open it afterwards?
-
-> Allow manual editing of build settings scene order\
-Build order is managed by ASM and might cause issues if manual editing is turned on, but there might be certain circumstances where it is needed.
-
 <a class="pdf-page-break"></a>
 
 > Look at documentation...\
@@ -65,7 +59,7 @@ The scene that should be activated after collection has been opened.
 
 > Startup option\
 Can be one of the following values:\
- Auto: Open if this collection is the highest collection in the list that is enabled. (default)\
+ Auto: Open if this collection is the uppermost collection in the list that is enabled. (default)\
  Do not open: Don't open this collection during startup.\
  Open: Open this collection during startup.\
  Open as persistent: Open this collection during startup, and flag each scene within as [persistent](PersistentUtility.md) (aka [SceneCloseBehavior.KeepOpenAlways](#Tags)).
@@ -138,7 +132,7 @@ The settings tab can be used change behavior of advanced scene manager.
 > [Profile](Profile.md):\
 The active [Profile](Profile) in ASM.
 
-###### Options
+##### Options
 
 > [Splash screen](SplashScreen.md):\
 The custom [splash screen](SplashScreen.md) to display during startup, plays after Unity's splash screens, if enabled. Provides more flexibility than Unity's splash screen since ours are merely implemented as scenes with a script using IEnumerator callback.
@@ -149,51 +143,119 @@ The [loading screen](LoadingScreenUtility.md) that will be used during startup.
 > [Loading screen](LoadingScreenUtility.md):\
 The [loading screen](LoadingScreenUtility.md) that will be used for [collections](SceneCollection.md) that are set to use the default loading screen.
 
+> Startup scene:\
+ This is the scene that should open first in build. Don't change this unless you know what you're doing.
+ 
 > Background loading priority:\
 If enabled, automatically set [Application.backgroundLoadingPriority](https://docs.unity3d.com/ScriptReference/Application-backgroundLoadingPriority.html) during startup.\
 Note that collections can also specify loading priority during open, but that is only temporary, and value will be reset back to this when done.\
 Disable this if you are using another asset which relies on managing this setting by itself.
 
-> Create camera for [splash screens](SplashScreen.md):\
-Automatically create camera for [splash screens](SplashScreen.md), if no main camera is found.
+> Create camera during startup:\
+Automatically create camera during startup, if no main camera is found.
 
 > Use [default pause screen](DefaultPauseScreen.md):\
 ASM has a [default pause screen](DefaultPauseScreen.md) for those times when you build and then forget that no one has created a pause screen yet, forcing you to alt-f4, then restart again. This toggles default pause screen on or off.
 
-> Enable [cross-scene references](CrossSceneReferences.md):\
-Enables or disables [cross-scene references](CrossSceneReferences.md).
-
-###### Appearance
-
-These properties are also local to the computer / user, so feel free to modify these to your personal preference.
-
-> Display unresolved cross scene reference icon:</br>\
-![](image/cross-scene-indicator.png)
-
-> Display lock buttons:</br>\
-![](image/locking-scene.png)
-
-> Display addressable buttons:</br>\
-![](image/scenes.png)
-
-> Options for toggling visiblility for the following also available:\
-Collection play button\
-Collection open button\
-Collection open additive button\
-Persistent scene indicator
-
+> Include fade loading screen:\
+ Includes the default fade loading screen in build.
+ 
+###### Local
+> Open collection when SceneAsset opened:\
+ Attempts to find and open an associated collection when a SceneAsset is opened in editor.
+ 
+ > Open scenes when created using scene field:\
+When creating scenes using 'New' button in collections, should we open the scene afterwards?
+ 
+ > Allow manual editing of build settings:\
+ Allows editing build settings, note that this might make things weird in build, so please make sure to test everything properly when using this.
+ 
+ > Use save dialog when creating scenes:\
+ There are two ways to create scenes (when using 'New' button in collections):\
+ Checking this make ASM use the first option.\
+    - Opening save file dialog.\
+    - Using project window, which puts scene in current folder and prompts for name.\
+ 
+ > Save action when using ASM play button:\
+ When any open scene has changes what should we do?:\
+     - Do Nothing\
+     - Save: Save without prompting\
+     - Prompt: Prompt using regular dialog, if user presses no, changes will be discarded.
+ 
 ###### Log
 
 > Pointless opening of [collections](SceneCollection.md) during startup:\
 Enables or disables warnings during startup that a [collection](SceneCollection.md) was opened, then closed because another [collection](SceneCollection.md) was also set to open during startup, and no [scene](Scene.md) within was persistent.
 
-> Pointless opening of scenes during startup:\
-Enables or disables warnings during startup that a [scene](Scene.md) was opened, then closed when a [collection](SceneCollection.md) was opened because [scene](Scene.md) was not persistent.
-
-  <a class="pdf-page-break"></a>
-
 > Deleting temp Build:\
 Enables or disables a message that indicates that the temp build was deleted after process ended, this is mostly just useful for debugging when issues cause folder to not be deleted and is a quick way to know if this feature works as intended or not.
 
-> Unresolved [cross-scene reference](CrossSceneReferences.md):\
-Enables or disables warnings when a [cross-scene reference](CrossSceneReferences.md) could not be resolved when a [scene](Scene.md) was opened or closed.
+###### In-game toolbar
+ > Display ingame toolbar:\
+ Determines whatever the in-game toolbar should be enabled upon entering play mode, or build.
+ 
+ > Display in editor:\
+ Should it be enabled in editor?
+ 
+ > Expanded by default:\
+ Should the in-game toolbar is start as expanded?
+ 
+##### Appearance
+
+These properties are local to the computer / user, so feel free to modify these to your personal preference.
+
+ ###### Hierarchy
+ > Display collection titles on scenes in heirarchy:\
+ If enabled, we'll display the title of the collection a scene belongs to in the heirarchy.
+ 
+ > Display 'persistent' on scenes in heirarchy:\
+  If enabled, we'll display 'persistent' indicator on scenes that are persistent in the heirarchy.
+ 
+ ###### Scenes tab
+ > Show extra add collection menu:\
+  If enabled, we'll display a button next to the regular add collection button, which presents some more options.
+ 
+ > Display dynamic collections:\
+  If enabled, we'll display the dynamic collections of the current profile.
+ 
+ ###### Window header
+ > Show scene helper drag button:\
+  If enabled, we'll display a button in the upper right corner, next to menu button, that allows you to start a drag drop with the scene helper.
+ 
+ ###### Collection header
+ > Display collection play button:\
+  If enabled, we'll display the play button on collections.
+ 
+ > Display collection open button:\
+  If enabled, we'll display the open button on collections.
+ 
+ > Display collection open additive button:\
+  If enabled, we'll display the open additive button on collections.
+ 
+ > Display include in build toggle on collections:\
+  If enabled, we'll display a toggle which determines whatever a collection should be included in build.
+ 
+##### Plugins and samples
+The package manager can be used to install plugins for ASM. It also contains links to samples on github.
+
+![](https://github.com/Lazy-Solutions/AdvancedSceneManager/raw/main/image/plugins-and-samples.PNG?raw=true)
+
+The following plugins are currently available:\
+[plugin.asm.locking](https://github.com/Lazy-Solutions/plugin.asm.locking)\
+[plugin.asm.addressables](https://github.com/Lazy-Solutions/plugin.asm.addressables)
+
+Experimental:\
+[plugin.asm.cross-scene-references](https://github.com/Lazy-Solutions/plugin.asm.cross-scene-references)
+ 
+  ##### Dynamic collections
+ Dynamic collections allow you to automatically include all scenes in a folder (including subfolders) in build.\
+ Dynamic collections override blacklisted scenes.
+ 
+ ![](https://raw.githubusercontent.com/Lazy-Solutions/AdvancedSceneManager/main/docs/image/dynamic-collections.png)
+ 
+  ##### Dynamic collections
+Blacklist allows you to make ASM ignore scenes that are irrelevant.
+ 
+  ![](https://raw.githubusercontent.com/Lazy-Solutions/AdvancedSceneManager/main/docs/image/blacklist.png)
+ 
+ 
