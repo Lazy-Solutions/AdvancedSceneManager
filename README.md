@@ -15,6 +15,10 @@ The [Scene Manager Window](docs/SceneManagerWindow.md) can be accessed from 'Fil
 
 [Collections](docs/SceneCollection.md) and [scenes](docs/Scene.md) can be used like this:
 
+![](docs/image/scene-helper.png)
+
+or like this:
+
 ```C#
 using UnityEngine;
 using AdvancedSceneManager;
