@@ -1,4 +1,4 @@
-The locking package ([install instructions here](PluginsAndSamples.md)) adds support for locking scenes and collection from being edited.
+The locking package adds support for locking scenes and collection from being edited.
 
 > Note we can only prevent edit from inside of unity, any modifications from outside, including source control, cannot be prevented.
 
