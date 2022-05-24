@@ -2,8 +2,7 @@
 Welcome to the Advanced Scene Manager wiki!\
 This wiki is available both [online](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/readme.md) and [offline](https://raw.githubusercontent.com/wiki/Lazy-Solutions/AdvancedSceneManager/docs/ToPdf/ASM.pdf)
 
->Note: the offline version packaged with asset store releases may not be up-to-date, since documentation may be updated after release.\
-Last updated at: 31/08/2021
+>Note: the offline version packaged with asset store releases may not be up-to-date, since documentation may be updated after release.
 
 ###### Patches
 Patches are partial updates that are too important to have our users wait for, and if you are having issues, have a look over here, it might be fixed already: \
