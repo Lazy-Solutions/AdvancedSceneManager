@@ -84,6 +84,7 @@ Want to get into contact with us? Report issues?\
 [Loading screens](LoadingScreen.md)\
 [Splash screen](SplashScreen.md)\
 [SceneHelper](SceneHelper.md)\
+[In-game Toolbar](InGameToolbar.md)\
 [ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](Callbacks.md)
 
 ###### Guides
@@ -124,11 +125,8 @@ Want to get into contact with us? Report issues?\
 [HierarchyGUIUtility](HierarchyGUIUtility.md)\
 [SceneDataUtility](SceneDataUtility.md)\
 [GuidReferenceUtility](GuidReferenceUtility.md)\
-[CallbackUtility, Callback analyzer](CallbackUtility.md)
-
-###### Misc
-[In-game Toolbar](InGameToolbar.md)\
-[DefaultPauseScreen](DefaultPauseScreen.md)
+[CallbackUtility, Callback analyzer](CallbackUtility.md)\
+[PauseScreenUtility](DefaultPauseScreen.md)
 
 ## Where can I get it!?
 Advanced Scene Manager is available at the Unity Asset Store, [get it now!](https://assetstore.unity.com/packages/slug/174152)<br/>
