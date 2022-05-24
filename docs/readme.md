@@ -62,5 +62,5 @@ Want to get into contact with us? Report issues?\
 [CallbackUtility, Callback analyzer](CallbackUtility.md)
 
 ###### Misc
-[InGameToolbar](InGameToolbar.md)\
+[In-game Toolbar](InGameToolbar.md)\
 [DefaultPauseScreen](DefaultPauseScreen.md)

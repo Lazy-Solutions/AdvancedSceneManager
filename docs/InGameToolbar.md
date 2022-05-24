@@ -12,7 +12,7 @@ The in-game toolbar is enabled by default, and can be toggled on or off in the s
 
 ↻: Reloads the entire game.\
 ↻ *collection*: Reloads the currently open collection. Does nothing if no collection is open.\
-×: Quits the game --*Take note!*
+×: Quits the game.
 
 > The following options may reduce performance, please be aware of this when debugging.
 
