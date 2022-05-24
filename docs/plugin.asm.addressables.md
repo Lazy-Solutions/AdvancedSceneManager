@@ -1,4 +1,4 @@
-Addressables support package ([install instructions here](PluginsAndSamples.md)) adds support to open and close addressable [scenes](Scene.md) in ASM.
+Addressables support package adds support to open and close addressable [scenes](Scene.md) in ASM.
 
 This package automatically finds all [scenes](Scene.md) that are addressable and overrides default [scene](Scene.md) open and close behavior. Which means, after tweaking settings in addressables, ASM should just work like it usually does.
 
