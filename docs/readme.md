@@ -26,7 +26,6 @@ Want to get into contact with us? Report issues?\
 [Splash screen](SplashScreen.md)\
 [SceneHelper](SceneHelper.md)\
 [ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](Callbacks.md)\
-[Plugins and samples](PluginsAndSamples.md)
 
 ###### Frontend
 [SceneManagerWindow](SceneManagerWindow.md)\
