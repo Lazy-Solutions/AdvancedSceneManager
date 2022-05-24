@@ -130,6 +130,5 @@ Want to get into contact with us? Report issues?\
 [In-game Toolbar](InGameToolbar.md)\
 [DefaultPauseScreen](DefaultPauseScreen.md)
 
-![](docs/image/Unity-event.png "Unity event")
 ## Where can I get it!?
 Advanced Scene Manager is available at the Unity Asset Store, [get it now!](https://assetstore.unity.com/packages/slug/174152)<br/>
