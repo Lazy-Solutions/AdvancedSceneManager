@@ -26,6 +26,11 @@ Want to get into contact with us? Report issues?\
 [Loading screen](LoadingScreen.md#guide)\
 [Splash screen](SplashScreen.md#guide)
 
+###### Plugins
+[Addressables support](plugin.asm.addressables.md)\
+[Locking](plugin.asm.locking.md)\
+[Cross-scene references (experimental)](plugin.asm.cross-scene-references.md)
+
 ###### Models
 [Scene](Scene.md)\
 [SceneCollection](SceneCollection.md)\
@@ -54,12 +59,8 @@ Want to get into contact with us? Report issues?\
 [HierarchyGUIUtility](HierarchyGUIUtility.md)\
 [SceneDataUtility](SceneDataUtility.md)\
 [GuidReferenceUtility](GuidReferenceUtility.md)\
-[LockUtility](LockingUtility.md)\
 [CallbackUtility, Callback analyzer](CallbackUtility.md)
 
 ###### Misc
-[Addressables support](AddressablesSupport.md)\
 [InGameToolbar](InGameToolbar.md)\
-[DefaultPauseScreen](DefaultPauseScreen.md)\
-[ISceneObject](ISceneObject.md)\
-[Cross-scene references](CrossSceneReferences.md)
+[DefaultPauseScreen](DefaultPauseScreen.md)
