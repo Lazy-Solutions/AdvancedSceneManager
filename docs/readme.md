@@ -25,7 +25,7 @@ Want to get into contact with us? Report issues?\
 [Loading screens](LoadingScreen.md)\
 [Splash screen](SplashScreen.md)\
 [SceneHelper](SceneHelper.md)\
-[ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](Callbacks.md)\
+[ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](Callbacks.md)
 
 ###### Frontend
 [SceneManagerWindow](SceneManagerWindow.md)\
