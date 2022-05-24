@@ -15,16 +15,21 @@ Want to get into contact with us? Report issues?\
 [discord.gg/pnRn6zeFEJ](https://discord.gg/pnRn6zeFEJ)
 >Note: We accept bug reports and offer help on all three channels. Which one you wish to use, is up to your preference!
 
-###### Models
-[Scene](Scene.md)\
-[SceneCollection](SceneCollection.md)\
-[Profile](Profile.md)
-
 ###### Highlight ★
 [Loading screens](LoadingScreen.md)\
 [Splash screen](SplashScreen.md)\
 [SceneHelper](SceneHelper.md)\
 [ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](Callbacks.md)
+
+###### Guides
+[Quick start](QuickStart.md)\
+[Loading screen](LoadingScreen.md#guide)\
+[Splash screen](SplashScreen.md#guide)
+
+###### Models
+[Scene](Scene.md)\
+[SceneCollection](SceneCollection.md)\
+[Profile](Profile.md)
 
 ###### Frontend
 [SceneManagerWindow](SceneManagerWindow.md)\
@@ -58,8 +63,3 @@ Want to get into contact with us? Report issues?\
 [DefaultPauseScreen](DefaultPauseScreen.md)\
 [ISceneObject](ISceneObject.md)\
 [Cross-scene references](CrossSceneReferences.md)
-
-###### Guides
-[Quick start](QuickStart.md)\
-[Loading screen](LoadingScreen.md#guide)\
-[Splash screen](SplashScreen.md#guide)
