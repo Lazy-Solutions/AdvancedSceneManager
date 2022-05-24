@@ -59,10 +59,11 @@ public MyScript : MonoBehaviour
 [Collections](docs/SceneCollection.md) and [scenes](docs/Scene.md) can also be opened from [UnityEvents](https://docs.unity3d.com/Manual/UnityEvents.html), such as from a [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html), but it might be easier to use the [SceneHelper](docs/SceneHelper.md), since that will make it easier to find the [scene](docs/Scene.md) or [collection](docs/SceneCollection.md) in the Object Picker.
 
 ## Wiki
+###### Advanced Scene Manager
 Welcome to the Advanced Scene Manager wiki!\
 This wiki is available both [online](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/readme.md) and [offline](https://raw.githubusercontent.com/wiki/Lazy-Solutions/AdvancedSceneManager/docs/ToPdf/ASM.pdf)
->Note: the offline version packaged with asset store releases may not be up-to-date, since documentation may be updated after release.\
-Last updated at: 31/08/2021
+
+>Note: the offline version packaged with asset store releases may not be up-to-date, since documentation may be updated after release.
 
 ###### Patches
 Patches are partial updates that are too important to have our users wait for, and if you are having issues, have a look over here, it might be fixed already: \
@@ -75,54 +76,55 @@ Want to get into contact with us? Report issues?\
 [discord.gg/pnRn6zeFEJ](https://discord.gg/pnRn6zeFEJ)
 >Note: We accept bug reports and offer help on all three channels. Which one you wish to use, is up to your preference!
 
+###### Highlight ★
+[Loading screens](LoadingScreen.md)\
+[Splash screen](SplashScreen.md)\
+[SceneHelper](SceneHelper.md)\
+[ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](Callbacks.md)
+
 ###### Guides
-[Quick start](docs/QuickStart.md)\
-[Loading screen](docs/LoadingScreen.md#guide)\
-[Splash screen](docs/SplashScreen.md#guide)
+[Quick start](QuickStart.md)\
+[Loading screen](LoadingScreen.md#guide)\
+[Splash screen](SplashScreen.md#guide)
+
+###### Plugins
+[Addressables support](plugin.asm.addressables.md)\
+[Locking](plugin.asm.locking.md)\
+[Cross-scene references (experimental)](plugin.asm.cross-scene-references.md)
 
 ###### Models
-[Scene](docs/Scene.md)\
-[SceneCollection](docs/SceneCollection.md)\
-[Profile](docs/Profile.md)
-
-###### Highlight ★
-[Loading screens](docs/LoadingScreen.md)\
-[Splash screen](docs/SplashScreen.md)\
-[SceneHelper](docs/SceneHelper.md)\
-[ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](docs/Callbacks.md)
+[Scene](Scene.md)\
+[SceneCollection](SceneCollection.md)\
+[Profile](Profile.md)
 
 ###### Frontend
-[SceneManagerWindow](docs/SceneManagerWindow.md)\
-[SceneOverviewWindow](docs/SceneOverviewWindow.md)
+[SceneManagerWindow](SceneManagerWindow.md)\
+[SceneOverviewWindow](SceneOverviewWindow.md)
 
 ##### Backend
-[SceneManager](docs/SceneManager.md)\
-[SceneOperation](docs/SceneOperation.md)\
-[SceneAction](docs/SceneAction.md)\
-[AssetManagement](docs/AssetManagement.md)\
-[OpenSceneInfo](docs/OpenSceneInfo.md)\
-[PreloadedSceneHelper](docs/PreloadedSceneHelper.md)
+[SceneManager](SceneManager.md)\
+[SceneOperation](SceneOperation.md)\
+[SceneAction](SceneAction.md)\
+[AssetManagement](AssetManagement.md)\
+[OpenSceneInfo](OpenSceneInfo.md)\
+[PreloadedSceneHelper](PreloadedSceneHelper.md)
 
 ###### Utilities
-[SceneUtility](docs/SceneUtility.md)\
-[SceneCollectionUtility](docs/SceneCollectionUtility.md)\
-[LoadingScreenUtility](docs/LoadingScreenUtility.md)\
-[PersistentUtility](docs/PersistentUtility.md)\
-[CanvasSortOrderUtility](docs/CanvasSortOrderUtility.md)\
-[AssetRefreshUtility](docs/AssetRefreshUtility.md)\
-[Scene merge, split](docs/SceneMergeSplit.md)\
-[HierarchyGUIUtility](docs/HierarchyGUIUtility.md)\
-[SceneDataUtility](docs/SceneDataUtility.md)\
-[GuidReferenceUtility](docs/GuidReferenceUtility.md)\
-[LockUtility](docs/LockingUtility.md)\
-[CallbackUtility, Callback analyzer](docs/CallbackUtility.md)
+[SceneUtility](SceneUtility.md)\
+[SceneCollectionUtility](SceneCollectionUtility.md)\
+[LoadingScreenUtility](LoadingScreenUtility.md)\
+[PersistentUtility](PersistentUtility.md)\
+[CanvasSortOrderUtility](CanvasSortOrderUtility.md)\
+[AssetRefreshUtility](AssetRefreshUtility.md)\
+[Scene merge, split](SceneMergeSplit.md)\
+[HierarchyGUIUtility](HierarchyGUIUtility.md)\
+[SceneDataUtility](SceneDataUtility.md)\
+[GuidReferenceUtility](GuidReferenceUtility.md)\
+[CallbackUtility, Callback analyzer](CallbackUtility.md)
 
 ###### Misc
-[Addressables support](docs/AddressablesSupport.md)\
-[InGameToolbar](docs/InGameToolbar.md)\
-[DefaultPauseScreen](docs/DefaultPauseScreen.md)\
-[ISceneObject](docs/ISceneObject.md)\
-[Cross-scene references](docs/CrossSceneReferences.md)
+[In-game Toolbar](InGameToolbar.md)\
+[DefaultPauseScreen](DefaultPauseScreen.md)
 
 ![](docs/image/Unity-event.png "Unity event")
 ## Where can I get it!?
