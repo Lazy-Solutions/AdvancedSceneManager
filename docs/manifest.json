@@ -10,7 +10,7 @@
     "changefreq": "weekly"
   },
   "homepages": [],
-  "source_base_path": "E:/Github/Unity/Unity.AdvancedSceneManager/Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Documentation",
+  "source_base_path": "E:/Github/Unity/Unity.AdvancedSceneManager/AdvancedSceneManager/docs/_docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -2143,7 +2143,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/LoadingScreen.html",
-          "hash": "oFie1KCKWy1fn3M9408MvAACir0l2jIQUkUeYglArSg="
+          "hash": "YGy1Nye6dpaYEkVU+fIzHATr2mCSEkNQpbldVxT7d3M="
         }
       },
       "is_incremental": false,
@@ -3032,7 +3032,7 @@
       "output": {
         ".html": {
           "relative_path": "plugins/plugin.asm.cross-scene-references.html",
-          "hash": "v1RDPh5ApxDLkqMnF11Yfe2+zUbNqtu1sz2qgqeZznU="
+          "hash": "C4DcyLUJeZvE17/yyjQoFBaUVSKRp2GOb7AYCKB4D68="
         }
       },
       "is_incremental": false,
@@ -3143,7 +3143,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 21,
-          "skipped_file_count": 18
+          "skipped_file_count": 21
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

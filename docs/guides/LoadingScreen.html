@@ -90,9 +90,9 @@
 </blockquote>
 <h3 id="custom-loading-screens">Custom loading screens</h3>
 <h3 id="short-version">Short version:</h3>
-<p>Custom loading screens can be created by creating a script that inherits from</p>
-<pre><code class="lang-csharp">AdvancedSceneManager.Callbacks.LoadingScreen
-</code></pre><p>and placing it in a dedicated scene.</p>
+<p>Custom loading screens can be created by creating a script that inherits from <a href="">AdvancedSceneManager.Callbacks.LoadingScreen</a>, and overrides the abstract methods.<br>
+You&#39;d want to do updates in Update() like usual, then probably using <a href="">LoadingScreen.operation.totalProgress</a>.</p>
+<p>Finally you may place it in a dedicated scene, and then assigning said scene to a collection or to the scene manager settings in order to use it.</p>
 <h3 id="longer-version">Longer version:</h3>
 <p>Setting up a custom loading screen isn&#39;t difficult, but it isn&#39;t obvious either, we&#39;ll cover how to create a custom loading screen and how to use it in a <a href="SceneCollection.html">collection</a> here.</p>
 <p>A loading screen in ASM is implemented as a <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">MonoBehaviour</a> (through LoadingScreen class) with a few <a href="https://docs.unity3d.com/Manual/Coroutines.html">IEnumerator</a> callbacks that are called when a <a href="SceneCollection.html">collection</a> is opened or closed (or manually opened through <a href="../api/AdvancedSceneManager.Utility.LoadingScreenUtility.html">LoadingScreenUtility</a>). Callbacks are waited for, and execution of ASM is stopped until a callback is done.</p>
@@ -132,7 +132,7 @@ void Update()
 <p><img src="../image/loading-screen-variables.png" alt=""></p>
 <p>Setting alpha to 0 in <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-CanvasGroup.html">CanvasGroup</a> may prevent potential flickering.</p>
 <h3 id="actually-using-it">Actually using it</h3>
-<p>Now for actually using it, we can assign it to a <a href="SceneCollection.html">collection</a> in the <a href="SceneManagerWindow.html">Scene Manager Window</a>, by pressing the <img src="../image/menu.png" alt=""> on a collection, and changing &#39;Loading screen&#39; to &#39;Override&#39; and assigning the scene to the field that appears directly underneath.</p>
+<p>Now as for actually using it, we can assign it to a <a href="SceneCollection.html">collection</a> in the <a href="SceneManagerWindow.html">Scene Manager Window</a>, by pressing the <img src="../image/menu.png" alt=""> on a collection, and changing &#39;Loading screen&#39; to &#39;Override&#39; and assigning the scene to the field that appears directly underneath.</p>
 <p><img src="../image/loading-screen-override.png" alt=""></p>
 <p>And with that, we&#39;re done! You may now open the collection that has the loading screen assigned to it and the screen should start to fade in the ui you created, and when fade is done, the current collection should close and open the new collection, and then fade your ui out.</p>
 </article>
