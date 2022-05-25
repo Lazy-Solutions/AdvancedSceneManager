@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>In-game toolbar | Advanced Scene Manager </title>
+    <meta name="title" content="In-game toolbar | Advanced Scene Manager ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../guides/readme.html">
+                <img id="logo" class="svg" src="..//resources/logo.png" alt="" style="width: 50px;height: 50px;">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="in-game-toolbar">In-game toolbar</h2>
+
+<p><br></p>
+<p>The in-game toolbar provides some convenient debugging tools for builds.
+While this might not have much use in editor, it may be invaluable when debugging builds.</p>
+<p>The in-game toolbar is enabled by default, and can be toggled on or off in the settings tab of the <a href="SceneManagerWindow.html">scene manager window</a>.</p>
+<p><img src="../image/in-game-toolbar.png" alt=""></p>
+<h4 id="header">Header</h4>
+<blockquote><p>Due too unicode not being fully supported in Unity the top row might not be entirely self explanatory, which is only exacerbated by the fact that Unity will not render tooltips during runtime, unless implemented manually.</p>
+</blockquote>
+<p>↻: Reloads the entire game.<br>
+↻ <em>collection</em>: Reloads the currently open collection. Does nothing if no collection is open.<br>
+×: Quits the game.<br></p>
+<blockquote><p>The following options may reduce performance, please be aware of this when debugging.</p>
+<p>Note that variables on components will, due to performance reasons, not refresh unless node is collapsed and re-expanded.</p>
+</blockquote>
+<p><em>Display gameobjects</em>:<br>
+&nbsp;&nbsp;Toggles whatever gameobjects should be shown in the list below.<br>
+<em>Display components</em>:<br>
+&nbsp;&nbsp;Toggles whatever components on gameobjects should be shown in the list below.<br></p>
+<h4 id="scene-operations">Scene Operations</h4>
+<p>Displays info about what asm is currently doing.
+The first operation in the queue is the <em>primary</em> operation currently running.
+Running operations is usually the <em>primary</em> operations and its <em>sub</em> operations, such as loading screens, but not necessarily (see <a href="SceneOperation.html#methods">SceneOperation.IgnoreQueue()</a>).</p>
+<h4 id="scene-list">Scene list</h4>
+<p>The scene list displays the currently open scenes, game objects and components, assuming all display options enabled.</p>
+<h4 id="window">Window</h4>
+<p>The toolbar can be toggled on or off by pressing the expander button on the right side of the game screen, if enabled in settings.\
+The toolbar can also be resized horizontally by hovering over the left edge (which will turn white on hover), and dragging.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <a href='https://assetstore.unity.com/packages/slug/174152'>Advanced Scene Manager</a> - <a href='https://assetstore.unity.com/publishers/48996'>Lazy Solutions</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
