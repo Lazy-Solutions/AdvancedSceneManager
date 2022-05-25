@@ -1,0 +1,978 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  commentId: T:AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  id: EditorWindow_UIElements`1
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.autoReloadOnWindowFocus
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Close
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.DoShow
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.isMainContentLoaded
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnClose
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnEnable
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnFocus
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnShow
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Open
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.path
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ReloadContent
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Reopen
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ShowSuspendMessage
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.title
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1.window
+  langs:
+  - csharp
+  - vb
+  name: EditorWindow_UIElements<T>
+  nameWithType: EditorWindow_UIElements<T>
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: EditorWindow_UIElements
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 8
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: 'public abstract class EditorWindow_UIElements<T> : EditorWindow where T : EditorWindow_UIElements<T>'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public MustInherit Class EditorWindow_UIElements(Of T As EditorWindow_UIElements(Of T))
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - UnityEditor.EditorWindow
+  derivedClasses:
+  - AdvancedSceneManager.Editor.SceneManagerWindow
+  - AdvancedSceneManager.Editor.SceneOverviewWindow
+  extensionMethods:
+  - UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  nameWithType.vb: EditorWindow_UIElements(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T)
+  name.vb: EditorWindow_UIElements(Of T)
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.autoReloadOnWindowFocus
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.autoReloadOnWindowFocus
+  id: autoReloadOnWindowFocus
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: autoReloadOnWindowFocus
+  nameWithType: EditorWindow_UIElements<T>.autoReloadOnWindowFocus
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.autoReloadOnWindowFocus
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: autoReloadOnWindowFocus
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 11
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public virtual bool autoReloadOnWindowFocus { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property autoReloadOnWindowFocus As Boolean
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.autoReloadOnWindowFocus*
+  nameWithType.vb: EditorWindow_UIElements(Of T).autoReloadOnWindowFocus
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).autoReloadOnWindowFocus
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.path
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.path
+  id: path
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: path
+  nameWithType: EditorWindow_UIElements<T>.path
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.path
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: path
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 12
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public abstract string path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property path As String
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.path*
+  nameWithType.vb: EditorWindow_UIElements(Of T).path
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).path
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.title
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.title
+  id: title
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: title
+  nameWithType: EditorWindow_UIElements<T>.title
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.title
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: title
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 14
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public GUIContent title { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GUIContent
+    content.vb: Public Property title As GUIContent
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.title*
+  nameWithType.vb: EditorWindow_UIElements(Of T).title
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).title
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.window
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.window
+  id: window
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: window
+  nameWithType: EditorWindow_UIElements<T>.window
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.window
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: window
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 22
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static T window { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Shared ReadOnly Property window As T
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.window*
+  nameWithType.vb: EditorWindow_UIElements(Of T).window
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).window
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Open
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Open
+  id: Open
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: Open()
+  nameWithType: EditorWindow_UIElements<T>.Open()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.Open()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Open
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 25
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static void Open()
+    content.vb: Public Shared Sub Open
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Open*
+  nameWithType.vb: EditorWindow_UIElements(Of T).Open()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).Open()
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Close
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Close
+  id: Close
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: EditorWindow_UIElements<T>.Close()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.Close()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Close
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 32
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static void Close()
+    content.vb: Public Shared Sub Close
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Close*
+  nameWithType.vb: EditorWindow_UIElements(Of T).Close()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).Close()
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnClose
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnClose
+  id: OnClose
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: OnClose()
+  nameWithType: EditorWindow_UIElements<T>.OnClose()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnClose()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnClose
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 41
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public virtual void OnClose()
+    content.vb: Public Overridable Sub OnClose
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnClose*
+  nameWithType.vb: EditorWindow_UIElements(Of T).OnClose()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnClose()
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.DoShow
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.DoShow
+  id: DoShow
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: DoShow()
+  nameWithType: EditorWindow_UIElements<T>.DoShow()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.DoShow()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DoShow
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 45
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  summary: Override this to change the way this window should be opened, by default <xref href="UnityEditor.EditorWindow.Show" data-throw-if-not-resolved="false"></xref> is used.
+  example: []
+  syntax:
+    content: protected virtual void DoShow()
+    content.vb: Protected Overridable Sub DoShow
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.DoShow*
+  nameWithType.vb: EditorWindow_UIElements(Of T).DoShow()
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).DoShow()
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnShow
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnShow
+  id: OnShow
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: OnShow()
+  nameWithType: EditorWindow_UIElements<T>.OnShow()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnShow()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnShow
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 50
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: protected virtual void OnShow()
+    content.vb: Protected Overridable Sub OnShow
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnShow*
+  nameWithType.vb: EditorWindow_UIElements(Of T).OnShow()
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnShow()
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Reopen
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Reopen
+  id: Reopen
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: Reopen()
+  nameWithType: EditorWindow_UIElements<T>.Reopen()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.Reopen()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Reopen
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 55
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static void Reopen()
+    content.vb: Public Shared Sub Reopen
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Reopen*
+  nameWithType.vb: EditorWindow_UIElements(Of T).Reopen()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).Reopen()
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.isMainContentLoaded
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.isMainContentLoaded
+  id: isMainContentLoaded
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: isMainContentLoaded
+  nameWithType: EditorWindow_UIElements<T>.isMainContentLoaded
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.isMainContentLoaded
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: isMainContentLoaded
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 64
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public bool isMainContentLoaded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isMainContentLoaded As Boolean
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.isMainContentLoaded*
+  nameWithType.vb: EditorWindow_UIElements(Of T).isMainContentLoaded
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).isMainContentLoaded
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ShowSuspendMessage
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ShowSuspendMessage
+  id: ShowSuspendMessage
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: ShowSuspendMessage()
+  nameWithType: EditorWindow_UIElements<T>.ShowSuspendMessage()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.ShowSuspendMessage()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ShowSuspendMessage
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 67
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: protected void ShowSuspendMessage()
+    content.vb: Protected Sub ShowSuspendMessage
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ShowSuspendMessage*
+  nameWithType.vb: EditorWindow_UIElements(Of T).ShowSuspendMessage()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).ShowSuspendMessage()
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  id: LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: LoadContent(String, VisualElement)
+  nameWithType: EditorWindow_UIElements<T>.LoadContent(String, VisualElement)
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: LoadContent
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 77
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  summary: Loads the <xref href="UnityEngine.UIElements.VisualTreeAsset" data-throw-if-not-resolved="false"></xref> and its associated <xref href="UnityEngine.UIElements.StyleSheet" data-throw-if-not-resolved="false"></xref> at the same path.
+  example: []
+  syntax:
+    content: public void LoadContent(string path, VisualElement element)
+    parameters:
+    - id: path
+      type: System.String
+    - id: element
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Sub LoadContent(path As String, element As VisualElement)
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent*
+  nameWithType.vb: EditorWindow_UIElements(Of T).LoadContent(String, VisualElement)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  id: LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  nameWithType: EditorWindow_UIElements<T>.LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: LoadContent
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 81
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  summary: Loads the <xref href="UnityEngine.UIElements.VisualTreeAsset" data-throw-if-not-resolved="false"></xref> and its associated <xref href="UnityEngine.UIElements.StyleSheet" data-throw-if-not-resolved="false"></xref> at the same path.
+  example: []
+  syntax:
+    content: public void LoadContent(string path, VisualElement element, bool loadTree = false, bool loadStyle = false, bool clearChildren = false)
+    parameters:
+    - id: path
+      type: System.String
+    - id: element
+      type: UnityEngine.UIElements.VisualElement
+    - id: loadTree
+      type: System.Boolean
+    - id: loadStyle
+      type: System.Boolean
+    - id: clearChildren
+      type: System.Boolean
+    content.vb: Public Sub LoadContent(path As String, element As VisualElement, loadTree As Boolean = False, loadStyle As Boolean = False, clearChildren As Boolean = False)
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent*
+  nameWithType.vb: EditorWindow_UIElements(Of T).LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ReloadContent
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ReloadContent
+  id: ReloadContent
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: ReloadContent()
+  nameWithType: EditorWindow_UIElements<T>.ReloadContent()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.ReloadContent()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ReloadContent
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 106
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public void ReloadContent()
+    content.vb: Public Sub ReloadContent
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ReloadContent*
+  nameWithType.vb: EditorWindow_UIElements(Of T).ReloadContent()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).ReloadContent()
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnFocus
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnFocus
+  id: OnFocus
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: OnFocus()
+  nameWithType: EditorWindow_UIElements<T>.OnFocus()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnFocus()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnFocus
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 113
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public virtual void OnFocus()
+    content.vb: Public Overridable Sub OnFocus
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnFocus*
+  nameWithType.vb: EditorWindow_UIElements(Of T).OnFocus()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnFocus()
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnEnable
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnEnable
+  id: OnEnable
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: EditorWindow_UIElements<T>.OnEnable()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnEnable()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnEnable
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    startLine: 119
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public virtual void OnEnable()
+    content.vb: Public Overridable Sub OnEnable
+  overload: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnEnable*
+  nameWithType.vb: EditorWindow_UIElements(Of T).OnEnable()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnEnable()
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEditor.EditorWindow
+  commentId: T:UnityEditor.EditorWindow
+  parent: UnityEditor
+  isExternal: true
+  name: EditorWindow
+  nameWithType: EditorWindow
+  fullName: UnityEditor.EditorWindow
+- uid: UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  parent: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  definition: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  name: Save()
+  nameWithType: ScriptableObjectUtility.Save()
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  isExternal: true
+  name: Save(ScriptableObject)
+  nameWithType: ScriptableObjectUtility.Save(ScriptableObject)
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  commentId: T:AdvancedSceneManager.Utility.ScriptableObjectUtility
+  parent: AdvancedSceneManager.Utility
+  name: ScriptableObjectUtility
+  nameWithType: ScriptableObjectUtility
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.autoReloadOnWindowFocus*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.autoReloadOnWindowFocus
+  name: autoReloadOnWindowFocus
+  nameWithType: EditorWindow_UIElements<T>.autoReloadOnWindowFocus
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.autoReloadOnWindowFocus
+  nameWithType.vb: EditorWindow_UIElements(Of T).autoReloadOnWindowFocus
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).autoReloadOnWindowFocus
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.path*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.path
+  name: path
+  nameWithType: EditorWindow_UIElements<T>.path
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.path
+  nameWithType.vb: EditorWindow_UIElements(Of T).path
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).path
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.title*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.title
+  name: title
+  nameWithType: EditorWindow_UIElements<T>.title
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.title
+  nameWithType.vb: EditorWindow_UIElements(Of T).title
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).title
+- uid: UnityEngine.GUIContent
+  commentId: T:UnityEngine.GUIContent
+  parent: UnityEngine
+  isExternal: true
+  name: GUIContent
+  nameWithType: GUIContent
+  fullName: UnityEngine.GUIContent
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.window*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.window
+  name: window
+  nameWithType: EditorWindow_UIElements<T>.window
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.window
+  nameWithType.vb: EditorWindow_UIElements(Of T).window
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).window
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Open*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Open
+  name: Open
+  nameWithType: EditorWindow_UIElements<T>.Open
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.Open
+  nameWithType.vb: EditorWindow_UIElements(Of T).Open
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).Open
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Close*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Close
+  name: Close
+  nameWithType: EditorWindow_UIElements<T>.Close
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.Close
+  nameWithType.vb: EditorWindow_UIElements(Of T).Close
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).Close
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnClose*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnClose
+  name: OnClose
+  nameWithType: EditorWindow_UIElements<T>.OnClose
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnClose
+  nameWithType.vb: EditorWindow_UIElements(Of T).OnClose
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnClose
+- uid: UnityEditor.EditorWindow.Show
+  commentId: M:UnityEditor.EditorWindow.Show
+  isExternal: true
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.DoShow*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.DoShow
+  name: DoShow
+  nameWithType: EditorWindow_UIElements<T>.DoShow
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.DoShow
+  nameWithType.vb: EditorWindow_UIElements(Of T).DoShow
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).DoShow
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnShow*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnShow
+  name: OnShow
+  nameWithType: EditorWindow_UIElements<T>.OnShow
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnShow
+  nameWithType.vb: EditorWindow_UIElements(Of T).OnShow
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnShow
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Reopen*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Reopen
+  name: Reopen
+  nameWithType: EditorWindow_UIElements<T>.Reopen
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.Reopen
+  nameWithType.vb: EditorWindow_UIElements(Of T).Reopen
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).Reopen
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.isMainContentLoaded*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.isMainContentLoaded
+  name: isMainContentLoaded
+  nameWithType: EditorWindow_UIElements<T>.isMainContentLoaded
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.isMainContentLoaded
+  nameWithType.vb: EditorWindow_UIElements(Of T).isMainContentLoaded
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).isMainContentLoaded
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ShowSuspendMessage*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ShowSuspendMessage
+  name: ShowSuspendMessage
+  nameWithType: EditorWindow_UIElements<T>.ShowSuspendMessage
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.ShowSuspendMessage
+  nameWithType.vb: EditorWindow_UIElements(Of T).ShowSuspendMessage
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).ShowSuspendMessage
+- uid: UnityEngine.UIElements.VisualTreeAsset
+  commentId: T:UnityEngine.UIElements.VisualTreeAsset
+  isExternal: true
+- uid: UnityEngine.UIElements.StyleSheet
+  commentId: T:UnityEngine.UIElements.StyleSheet
+  isExternal: true
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent
+  name: LoadContent
+  nameWithType: EditorWindow_UIElements<T>.LoadContent
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.LoadContent
+  nameWithType.vb: EditorWindow_UIElements(Of T).LoadContent
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).LoadContent
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ReloadContent*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ReloadContent
+  name: ReloadContent
+  nameWithType: EditorWindow_UIElements<T>.ReloadContent
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.ReloadContent
+  nameWithType.vb: EditorWindow_UIElements(Of T).ReloadContent
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).ReloadContent
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnFocus*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnFocus
+  name: OnFocus
+  nameWithType: EditorWindow_UIElements<T>.OnFocus
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnFocus
+  nameWithType.vb: EditorWindow_UIElements(Of T).OnFocus
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnFocus
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnEnable*
+  commentId: Overload:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnEnable
+  name: OnEnable
+  nameWithType: EditorWindow_UIElements<T>.OnEnable
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnEnable
+  nameWithType.vb: EditorWindow_UIElements(Of T).OnEnable
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnEnable

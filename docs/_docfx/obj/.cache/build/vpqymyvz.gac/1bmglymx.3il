@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h2 id="scene-operations">Scene operations</h2>
+
+<p><br></p>
+<p>The scene operation is what executes the logic of Advanced Scene Manager. A scene operation takes lists of scenes to open and close, and a few other properties to modify behavior, and then generates and executes the <a href="SceneAction.html">actions</a> when it is at front of the queue.</p>
+<p>Process:</p>
+<ol>
+<li>Queue and wait until we&#39;re up<br></li>
+<li>Create <a href="SceneAction.html">actions</a><br></li>
+<li>Block input (cannot change properties anymore)<br></li>
+<li>Open <a href="LoadingScreen.html">loading screen</a>, if one is defined<br></li>
+<li>Call <a href="Callbacks.html">collection closed callbacks</a>, if applicable<br></li>
+<li>Run generated <a href="SceneAction.html">actions</a>, one by one.<br></li>
+<li>Set active <a href="Scene.html">scene</a>, if a <a href="SceneCollection.html">collection</a> was opened<br></li>
+<li>Call callbacks added through WithCallback methods<br></li>
+<li>Call <a href="Callbacks.html">collection open callbacks</a><br></li>
+<li>Hide <a href="LoadingScreen.html">loading screen</a><br></li>
+<li>Dequeue<br>
+</br></li>
+</ol>
+<p>If you wish to use them yourself in code:<br>
+The first method just returns <a href="../api/AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a>, this allows you to yield it in a coroutine to wait until it is done.</p>
+<p>The second method also returns a reference to the <a href="../api/AdvancedSceneManager.Core.OpenSceneInfo.html">opened scene</a>, which can be accessed (when done) through <a href="../api/AdvancedSceneManager.Core.SceneOperation-1.html#AdvancedSceneManager_Core_SceneOperation_1_value">SceneOperation.value</a>.</p>
+<pre><code class="lang-csharp">  //SceneOperation can be yielded in a coroutine to wait until it is finished.
+  SceneOperation OpenSceneWithLoadingScreen(Scene scene, Scene loadingScreen) =&gt;
+      SceneOperation.Add(SceneManager.standalone).
+      Open(scene).
+      WithLoadingScreen(loadingScreen).
+      WithCallback(Callback.After(Phase.FinishLoad).Do(() =&gt; Debug.Log(&quot;loaded!&quot;)));
+
+  SceneOperation&lt;OpenSceneInfo&gt; OpenSceneWithLoadingScreen2(Scene scene, Scene loadingScreen) =&gt;
+      SceneOperation.Add(SceneManager.standalone, @return: o =&gt; o.openedScenes.FirstOrDefault()).
+      Open(scene).
+      WithLoadingScreen(loadingScreen).
+      WithCallback(Callback.After(Phase.FinishLoad).Do(() =&gt; Debug.Log(&quot;loaded!&quot;)));
+</code></pre></article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

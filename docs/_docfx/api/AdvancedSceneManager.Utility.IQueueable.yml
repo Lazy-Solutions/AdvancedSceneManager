@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Utility.IQueueable
+  commentId: T:AdvancedSceneManager.Utility.IQueueable
+  id: IQueueable
+  parent: AdvancedSceneManager.Utility
+  children:
+  - AdvancedSceneManager.Utility.IQueueable.OnCancel
+  - AdvancedSceneManager.Utility.IQueueable.OnTurn(System.Action)
+  langs:
+  - csharp
+  - vb
+  name: IQueueable
+  nameWithType: IQueueable
+  fullName: AdvancedSceneManager.Utility.IQueueable
+  type: Interface
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IQueueable
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+    startLine: 10
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Represents a queueable item.
+  remarks: See also <xref href="AdvancedSceneManager.Utility.QueueUtility%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public interface IQueueable
+    content.vb: Public Interface IQueueable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: AdvancedSceneManager.Utility.IQueueable.OnTurn(System.Action)
+  commentId: M:AdvancedSceneManager.Utility.IQueueable.OnTurn(System.Action)
+  id: OnTurn(System.Action)
+  parent: AdvancedSceneManager.Utility.IQueueable
+  langs:
+  - csharp
+  - vb
+  name: OnTurn(Action)
+  nameWithType: IQueueable.OnTurn(Action)
+  fullName: AdvancedSceneManager.Utility.IQueueable.OnTurn(System.Action)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnTurn
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+    startLine: 15
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Called when it is this queueables turn.
+  example: []
+  syntax:
+    content: void OnTurn(Action onComplete)
+    parameters:
+    - id: onComplete
+      type: System.Action
+      description: Must be called when operation is done, otherwise queue will be stuck.
+    content.vb: Sub OnTurn(onComplete As Action)
+  overload: AdvancedSceneManager.Utility.IQueueable.OnTurn*
+- uid: AdvancedSceneManager.Utility.IQueueable.OnCancel
+  commentId: M:AdvancedSceneManager.Utility.IQueueable.OnCancel
+  id: OnCancel
+  parent: AdvancedSceneManager.Utility.IQueueable
+  langs:
+  - csharp
+  - vb
+  name: OnCancel()
+  nameWithType: IQueueable.OnCancel()
+  fullName: AdvancedSceneManager.Utility.IQueueable.OnCancel()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnCancel
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+    startLine: 18
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Called when queueable is cancelled.
+  example: []
+  syntax:
+    content: void OnCancel()
+    content.vb: Sub OnCancel
+  overload: AdvancedSceneManager.Utility.IQueueable.OnCancel*
+references:
+- uid: AdvancedSceneManager.Utility.QueueUtility`1
+  commentId: T:AdvancedSceneManager.Utility.QueueUtility`1
+  name: QueueUtility<T>
+  nameWithType: QueueUtility<T>
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>
+  nameWithType.vb: QueueUtility(Of T)
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T)
+  name.vb: QueueUtility(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.QueueUtility`1
+    name: QueueUtility
+    nameWithType: QueueUtility
+    fullName: AdvancedSceneManager.Utility.QueueUtility
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.QueueUtility`1
+    name: QueueUtility
+    nameWithType: QueueUtility
+    fullName: AdvancedSceneManager.Utility.QueueUtility
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: AdvancedSceneManager.Utility.IQueueable.OnTurn*
+  commentId: Overload:AdvancedSceneManager.Utility.IQueueable.OnTurn
+  name: OnTurn
+  nameWithType: IQueueable.OnTurn
+  fullName: AdvancedSceneManager.Utility.IQueueable.OnTurn
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Utility.IQueueable.OnCancel*
+  commentId: Overload:AdvancedSceneManager.Utility.IQueueable.OnCancel
+  name: OnCancel
+  nameWithType: IQueueable.OnCancel
+  fullName: AdvancedSceneManager.Utility.IQueueable.OnCancel

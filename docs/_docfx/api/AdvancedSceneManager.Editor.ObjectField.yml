@@ -1,0 +1,894 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.ObjectField
+  commentId: T:AdvancedSceneManager.Editor.ObjectField
+  id: ObjectField
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.ObjectField.#ctor
+  - AdvancedSceneManager.Editor.ObjectField.isReadOnly
+  langs:
+  - csharp
+  - vb
+  name: ObjectField
+  nameWithType: ObjectField
+  fullName: AdvancedSceneManager.Editor.ObjectField
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/ObjectField.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ObjectField
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/ObjectField.cs
+    startLine: 11
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  summary: Object field with type property that can be set from uxml. Also has <xref href="AdvancedSceneManager.Editor.ObjectField.isReadOnly" data-throw-if-not-resolved="false"></xref> property to allow selecting or opening value, but not allow changing value.
+  example: []
+  syntax:
+    content: 'public class ObjectField : ObjectField, IEventHandler, ITransform, ITransitionAnimations, IExperimentalFeatures, IVisualElementScheduler, IResolvedStyle, IBindable, INotifyValueChanged<Object>'
+    content.vb: >-
+      Public Class ObjectField
+          Inherits ObjectField
+          Implements IEventHandler, ITransform, ITransitionAnimations, IExperimentalFeatures, IVisualElementScheduler, IResolvedStyle, IBindable, INotifyValueChanged(Of Object)
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.CallbackEventHandler
+  - UnityEngine.UIElements.Focusable
+  - UnityEngine.UIElements.VisualElement
+  - UnityEngine.UIElements.BindableElement
+  - UnityEngine.UIElements.BaseField{UnityEngine.Object}
+  - UnityEditor.UIElements.ObjectField
+  derivedClasses:
+  - AdvancedSceneManager.Editor.SceneField
+  extensionMethods:
+  - AdvancedSceneManager.Editor.ObjectField.AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(System.Boolean)
+  - AdvancedSceneManager.Editor.ObjectField.AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2({T},System.String,System.Action,System.Boolean,System.String)
+  - UnityEngine.UIElements.VisualElement.AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  - UnityEngine.UIElements.VisualElement.AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Editor.ObjectField.isReadOnly
+  commentId: P:AdvancedSceneManager.Editor.ObjectField.isReadOnly
+  id: isReadOnly
+  parent: AdvancedSceneManager.Editor.ObjectField
+  langs:
+  - csharp
+  - vb
+  name: isReadOnly
+  nameWithType: ObjectField.isReadOnly
+  fullName: AdvancedSceneManager.Editor.ObjectField.isReadOnly
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/ObjectField.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: isReadOnly
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/ObjectField.cs
+    startLine: 15
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public bool isReadOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property isReadOnly As Boolean
+  overload: AdvancedSceneManager.Editor.ObjectField.isReadOnly*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.ObjectField.#ctor
+  commentId: M:AdvancedSceneManager.Editor.ObjectField.#ctor
+  id: '#ctor'
+  parent: AdvancedSceneManager.Editor.ObjectField
+  langs:
+  - csharp
+  - vb
+  name: ObjectField()
+  nameWithType: ObjectField.ObjectField()
+  fullName: AdvancedSceneManager.Editor.ObjectField.ObjectField()
+  type: Constructor
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/ObjectField.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: .ctor
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/ObjectField.cs
+    startLine: 21
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public ObjectField()
+    content.vb: Public Sub New
+  overload: AdvancedSceneManager.Editor.ObjectField.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Editor.ObjectField.isReadOnly
+  commentId: P:AdvancedSceneManager.Editor.ObjectField.isReadOnly
+  parent: AdvancedSceneManager.Editor.ObjectField
+  name: isReadOnly
+  nameWithType: ObjectField.isReadOnly
+  fullName: AdvancedSceneManager.Editor.ObjectField.isReadOnly
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.UIElements.CallbackEventHandler
+  commentId: T:UnityEngine.UIElements.CallbackEventHandler
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: CallbackEventHandler
+  nameWithType: CallbackEventHandler
+  fullName: UnityEngine.UIElements.CallbackEventHandler
+- uid: UnityEngine.UIElements.Focusable
+  commentId: T:UnityEngine.UIElements.Focusable
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Focusable
+  nameWithType: Focusable
+  fullName: UnityEngine.UIElements.Focusable
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements.BindableElement
+  commentId: T:UnityEngine.UIElements.BindableElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: BindableElement
+  nameWithType: BindableElement
+  fullName: UnityEngine.UIElements.BindableElement
+- uid: UnityEngine.UIElements.BaseField{UnityEngine.Object}
+  commentId: T:UnityEngine.UIElements.BaseField{UnityEngine.Object}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.BaseField`1
+  name: BaseField<Object>
+  nameWithType: BaseField<Object>
+  fullName: UnityEngine.UIElements.BaseField<UnityEngine.Object>
+  nameWithType.vb: BaseField(Of Object)
+  fullName.vb: UnityEngine.UIElements.BaseField(Of UnityEngine.Object)
+  name.vb: BaseField(Of Object)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.BaseField`1
+    name: BaseField
+    nameWithType: BaseField
+    fullName: UnityEngine.UIElements.BaseField
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Object
+    name: Object
+    nameWithType: Object
+    fullName: UnityEngine.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.BaseField`1
+    name: BaseField
+    nameWithType: BaseField
+    fullName: UnityEngine.UIElements.BaseField
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Object
+    name: Object
+    nameWithType: Object
+    fullName: UnityEngine.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.UIElements.ObjectField
+  commentId: T:UnityEditor.UIElements.ObjectField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: ObjectField
+  nameWithType: ObjectField
+  fullName: UnityEditor.UIElements.ObjectField
+- uid: AdvancedSceneManager.Editor.ObjectField.AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(``0,System.Boolean)
+  parent: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  definition: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(``0,System.Boolean)
+  name: SetEnabledExt<ObjectField>(Boolean)
+  nameWithType: VisualElementExtensions.SetEnabledExt<ObjectField>(Boolean)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt<AdvancedSceneManager.Editor.ObjectField>(System.Boolean)
+  nameWithType.vb: VisualElementExtensions.SetEnabledExt(Of ObjectField)(Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt(Of AdvancedSceneManager.Editor.ObjectField)(System.Boolean)
+  name.vb: SetEnabledExt(Of ObjectField)(Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(System.Boolean)
+    name: SetEnabledExt<ObjectField>
+    nameWithType: VisualElementExtensions.SetEnabledExt<ObjectField>
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt<AdvancedSceneManager.Editor.ObjectField>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(System.Boolean)
+    name: SetEnabledExt(Of ObjectField)
+    nameWithType: VisualElementExtensions.SetEnabledExt(Of ObjectField)
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt(Of AdvancedSceneManager.Editor.ObjectField)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.ObjectField.AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2({T},System.String,System.Action,System.Boolean,System.String)
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2(``0,``1,System.String,System.Action,System.Boolean,System.String)
+  parent: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  definition: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2(``0,``1,System.String,System.Action,System.Boolean,System.String)
+  name: Setup<ObjectField, T>(T, String, Action, Boolean, String)
+  nameWithType: VisualElementExtensions.Setup<ObjectField, T>(T, String, Action, Boolean, String)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup<AdvancedSceneManager.Editor.ObjectField, T>(T, System.String, System.Action, System.Boolean, System.String)
+  nameWithType.vb: VisualElementExtensions.Setup(Of ObjectField, T)(T, String, Action, Boolean, String)
+  fullName.vb: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(Of AdvancedSceneManager.Editor.ObjectField, T)(T, System.String, System.Action, System.Boolean, System.String)
+  name.vb: Setup(Of ObjectField, T)(T, String, Action, Boolean, String)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2(``1,System.String,System.Action,System.Boolean,System.String)
+    name: Setup<ObjectField, T>
+    nameWithType: VisualElementExtensions.Setup<ObjectField, T>
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup<AdvancedSceneManager.Editor.ObjectField, T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2(``1,System.String,System.Action,System.Boolean,System.String)
+    name: Setup(Of ObjectField, T)
+    nameWithType: VisualElementExtensions.Setup(Of ObjectField, T)
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(Of AdvancedSceneManager.Editor.ObjectField, T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UIElements.VisualElement.AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  parent: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  definition: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  name: FindAncestor(String, String, Action<VisualElement>)
+  nameWithType: VisualElementExtensions.FindAncestor(String, String, Action<VisualElement>)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(System.String, System.String, System.Action<UnityEngine.UIElements.VisualElement>)
+  nameWithType.vb: VisualElementExtensions.FindAncestor(String, String, Action(Of VisualElement))
+  fullName.vb: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(System.String, System.String, System.Action(Of UnityEngine.UIElements.VisualElement))
+  name.vb: FindAncestor(String, String, Action(Of VisualElement))
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+    name: FindAncestor
+    nameWithType: VisualElementExtensions.FindAncestor
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+    name: FindAncestor
+    nameWithType: VisualElementExtensions.FindAncestor
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UIElements.VisualElement.AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot(UnityEngine.UIElements.VisualElement)
+  parent: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  definition: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot(UnityEngine.UIElements.VisualElement)
+  name: GetRoot()
+  nameWithType: VisualElementExtensions.GetRoot()
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot
+    name: GetRoot
+    nameWithType: VisualElementExtensions.GetRoot
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot
+    name: GetRoot
+    nameWithType: VisualElementExtensions.GetRoot
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.ObjectField
+  commentId: T:AdvancedSceneManager.Editor.ObjectField
+  parent: AdvancedSceneManager.Editor
+  name: ObjectField
+  nameWithType: ObjectField
+  fullName: AdvancedSceneManager.Editor.ObjectField
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+- uid: UnityEngine.UIElements.BaseField`1
+  commentId: T:UnityEngine.UIElements.BaseField`1
+  isExternal: true
+  name: BaseField<TValueType>
+  nameWithType: BaseField<TValueType>
+  fullName: UnityEngine.UIElements.BaseField<TValueType>
+  nameWithType.vb: BaseField(Of TValueType)
+  fullName.vb: UnityEngine.UIElements.BaseField(Of TValueType)
+  name.vb: BaseField(Of TValueType)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.BaseField`1
+    name: BaseField
+    nameWithType: BaseField
+    fullName: UnityEngine.UIElements.BaseField
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TValueType
+    nameWithType: TValueType
+    fullName: TValueType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.BaseField`1
+    name: BaseField
+    nameWithType: BaseField
+    fullName: UnityEngine.UIElements.BaseField
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TValueType
+    nameWithType: TValueType
+    fullName: TValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.UIElements
+  commentId: N:UnityEditor.UIElements
+  isExternal: true
+  name: UnityEditor.UIElements
+  nameWithType: UnityEditor.UIElements
+  fullName: UnityEditor.UIElements
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(``0,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(``0,System.Boolean)
+  isExternal: true
+  name: SetEnabledExt<TElement>(TElement, Boolean)
+  nameWithType: VisualElementExtensions.SetEnabledExt<TElement>(TElement, Boolean)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt<TElement>(TElement, System.Boolean)
+  nameWithType.vb: VisualElementExtensions.SetEnabledExt(Of TElement)(TElement, Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt(Of TElement)(TElement, System.Boolean)
+  name.vb: SetEnabledExt(Of TElement)(TElement, Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(``0,System.Boolean)
+    name: SetEnabledExt<TElement>
+    nameWithType: VisualElementExtensions.SetEnabledExt<TElement>
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt<TElement>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(``0,System.Boolean)
+    name: SetEnabledExt(Of TElement)
+    nameWithType: VisualElementExtensions.SetEnabledExt(Of TElement)
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt(Of TElement)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  commentId: T:AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  parent: AdvancedSceneManager.Editor.Utility
+  name: VisualElementExtensions
+  nameWithType: VisualElementExtensions
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2(``0,``1,System.String,System.Action,System.Boolean,System.String)
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2(``0,``1,System.String,System.Action,System.Boolean,System.String)
+  isExternal: true
+  name: Setup<TElement, T>(TElement, T, String, Action, Boolean, String)
+  nameWithType: VisualElementExtensions.Setup<TElement, T>(TElement, T, String, Action, Boolean, String)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup<TElement, T>(TElement, T, System.String, System.Action, System.Boolean, System.String)
+  nameWithType.vb: VisualElementExtensions.Setup(Of TElement, T)(TElement, T, String, Action, Boolean, String)
+  fullName.vb: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(Of TElement, T)(TElement, T, System.String, System.Action, System.Boolean, System.String)
+  name.vb: Setup(Of TElement, T)(TElement, T, String, Action, Boolean, String)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2(``0,``1,System.String,System.Action,System.Boolean,System.String)
+    name: Setup<TElement, T>
+    nameWithType: VisualElementExtensions.Setup<TElement, T>
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup<TElement, T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2(``0,``1,System.String,System.Action,System.Boolean,System.String)
+    name: Setup(Of TElement, T)
+    nameWithType: VisualElementExtensions.Setup(Of TElement, T)
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(Of TElement, T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TElement
+    nameWithType: TElement
+    fullName: TElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  isExternal: true
+  name: FindAncestor(VisualElement, String, String, Action<VisualElement>)
+  nameWithType: VisualElementExtensions.FindAncestor(VisualElement, String, String, Action<VisualElement>)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement, System.String, System.String, System.Action<UnityEngine.UIElements.VisualElement>)
+  nameWithType.vb: VisualElementExtensions.FindAncestor(VisualElement, String, String, Action(Of VisualElement))
+  fullName.vb: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement, System.String, System.String, System.Action(Of UnityEngine.UIElements.VisualElement))
+  name.vb: FindAncestor(VisualElement, String, String, Action(Of VisualElement))
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+    name: FindAncestor
+    nameWithType: VisualElementExtensions.FindAncestor
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+    name: FindAncestor
+    nameWithType: VisualElementExtensions.FindAncestor
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot(UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot(UnityEngine.UIElements.VisualElement)
+  isExternal: true
+  name: GetRoot(VisualElement)
+  nameWithType: VisualElementExtensions.GetRoot(VisualElement)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot(UnityEngine.UIElements.VisualElement)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot(UnityEngine.UIElements.VisualElement)
+    name: GetRoot
+    nameWithType: VisualElementExtensions.GetRoot
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot(UnityEngine.UIElements.VisualElement)
+    name: GetRoot
+    nameWithType: VisualElementExtensions.GetRoot
+    fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: AdvancedSceneManager.Editor.ObjectField.isReadOnly*
+  commentId: Overload:AdvancedSceneManager.Editor.ObjectField.isReadOnly
+  name: isReadOnly
+  nameWithType: ObjectField.isReadOnly
+  fullName: AdvancedSceneManager.Editor.ObjectField.isReadOnly
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Editor.ObjectField.#ctor*
+  commentId: Overload:AdvancedSceneManager.Editor.ObjectField.#ctor
+  name: ObjectField
+  nameWithType: ObjectField.ObjectField
+  fullName: AdvancedSceneManager.Editor.ObjectField.ObjectField

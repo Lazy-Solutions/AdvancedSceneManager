@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Core_Callback" data-uid="AdvancedSceneManager.Core.Callback" class="text-break">Class Callback
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Represents a callback that can be run on <a class="xref" href="AdvancedSceneManager.Core.Phase.html">Phase</a> change, or right before loading screen hide (or when it would, if it was enabled).</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Callback</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Core.html">AdvancedSceneManager.Core</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Core_Callback_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Callback</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Core_Callback_action_" data-uid="AdvancedSceneManager.Core.Callback.action*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_action" data-uid="AdvancedSceneManager.Core.Callback.action">action</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action action { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_action2_" data-uid="AdvancedSceneManager.Core.Callback.action2*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_action2" data-uid="AdvancedSceneManager.Core.Callback.action2">action2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;SceneOperation&gt; action2 { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_coroutine_" data-uid="AdvancedSceneManager.Core.Callback.coroutine*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_coroutine" data-uid="AdvancedSceneManager.Core.Callback.coroutine">coroutine</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalCoroutine coroutine { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Lazy.Utility.GlobalCoroutine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_enumerator_" data-uid="AdvancedSceneManager.Core.Callback.enumerator*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_enumerator" data-uid="AdvancedSceneManager.Core.Callback.enumerator">enumerator</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;IEnumerator&gt; enumerator { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Collections.IEnumerator</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_phase_" data-uid="AdvancedSceneManager.Core.Callback.phase*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_phase" data-uid="AdvancedSceneManager.Core.Callback.phase">phase</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Phase? phase { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.Phase.html">Phase</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_scene_" data-uid="AdvancedSceneManager.Core.Callback.scene*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_scene" data-uid="AdvancedSceneManager.Core.Callback.scene">scene</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene scene { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_when_" data-uid="AdvancedSceneManager.Core.Callback.when*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_when" data-uid="AdvancedSceneManager.Core.Callback.when">when</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Callback.When when { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.When.html">Callback.When</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Core_Callback_After_" data-uid="AdvancedSceneManager.Core.Callback.After*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_After_AdvancedSceneManager_Core_Phase_" data-uid="AdvancedSceneManager.Core.Callback.After(AdvancedSceneManager.Core.Phase)">After(Phase)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Runs a callback after the specified phase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Callback After(Phase phase)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Phase.html">Phase</a></td>
+        <td><span class="parametername">phase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_After_" data-uid="AdvancedSceneManager.Core.Callback.After*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_After_AdvancedSceneManager_Core_Phase_AdvancedSceneManager_Models_Scene_" data-uid="AdvancedSceneManager.Core.Callback.After(AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Models.Scene)">After(Phase, Scene)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Runs a callback after the specified phase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Callback After(Phase phase, Scene on)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Phase.html">Phase</a></td>
+        <td><span class="parametername">phase</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">on</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_AfterLoadingScreenOpen_" data-uid="AdvancedSceneManager.Core.Callback.AfterLoadingScreenOpen*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_AfterLoadingScreenOpen" data-uid="AdvancedSceneManager.Core.Callback.AfterLoadingScreenOpen">AfterLoadingScreenOpen()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Runs a callback after loading screen has opened.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Callback AfterLoadingScreenOpen()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_Before_" data-uid="AdvancedSceneManager.Core.Callback.Before*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Before_AdvancedSceneManager_Core_Phase_" data-uid="AdvancedSceneManager.Core.Callback.Before(AdvancedSceneManager.Core.Phase)">Before(Phase)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Runs a callback before the specified phase, when processing the specified scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Callback Before(Phase phase)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Phase.html">Phase</a></td>
+        <td><span class="parametername">phase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Core_Callback_Before_AdvancedSceneManager_Core_Phase__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Phase will still have changed to the next though, but scene actions won&apos;t run until after callback.</p>
+</div>
+  <a id="AdvancedSceneManager_Core_Callback_Before_" data-uid="AdvancedSceneManager.Core.Callback.Before*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Before_AdvancedSceneManager_Core_Phase_AdvancedSceneManager_Models_Scene_" data-uid="AdvancedSceneManager.Core.Callback.Before(AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Models.Scene)">Before(Phase, Scene)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Runs a callback before the specified phase, when processing the specified scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Callback Before(Phase phase, Scene on)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Phase.html">Phase</a></td>
+        <td><span class="parametername">phase</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">on</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Core_Callback_Before_AdvancedSceneManager_Core_Phase_AdvancedSceneManager_Models_Scene__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Phase will still have changed to the next though, but scene actions won&apos;t run until after callback.</p>
+</div>
+  <a id="AdvancedSceneManager_Core_Callback_BeforeLoadingScreenClose_" data-uid="AdvancedSceneManager.Core.Callback.BeforeLoadingScreenClose*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_BeforeLoadingScreenClose" data-uid="AdvancedSceneManager.Core.Callback.BeforeLoadingScreenClose">BeforeLoadingScreenClose()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Runs a callback before loading screen closes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Callback BeforeLoadingScreenClose()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_Do_" data-uid="AdvancedSceneManager.Core.Callback.Do*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Do_Lazy_Utility_GlobalCoroutine_" data-uid="AdvancedSceneManager.Core.Callback.Do(Lazy.Utility.GlobalCoroutine)">Do(GlobalCoroutine)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Performs the specified callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Callback Do(GlobalCoroutine coroutine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Lazy.Utility.GlobalCoroutine</span></td>
+        <td><span class="parametername">coroutine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_Do_" data-uid="AdvancedSceneManager.Core.Callback.Do*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Do_System_Action_" data-uid="AdvancedSceneManager.Core.Callback.Do(System.Action)">Do(Action)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Performs the specified callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Callback Do(Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_Do_" data-uid="AdvancedSceneManager.Core.Callback.Do*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Do_System_Action_AdvancedSceneManager_Core_SceneOperation__" data-uid="AdvancedSceneManager.Core.Callback.Do(System.Action{AdvancedSceneManager.Core.SceneOperation})">Do(Action&lt;SceneOperation&gt;)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Performs the specified callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Callback Do(Action&lt;SceneOperation&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a>&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_Do_" data-uid="AdvancedSceneManager.Core.Callback.Do*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Do_System_Func_System_Collections_IEnumerator__" data-uid="AdvancedSceneManager.Core.Callback.Do(System.Func{System.Collections.IEnumerator})">Do(Func&lt;IEnumerator&gt;)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Performs the specified callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Callback Do(Func&lt;IEnumerator&gt; enumerator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Collections.IEnumerator</span>&gt;</td>
+        <td><span class="parametername">enumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_Do_" data-uid="AdvancedSceneManager.Core.Callback.Do*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Do_System_Single_" data-uid="AdvancedSceneManager.Core.Callback.Do(System.Single)">Do(Single)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.Callback.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Performs the specified callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Callback Do(float delay)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <a id="AdvancedSceneManager_Core_Callback_op_Implicit_" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_op_Implicit_Lazy_Utility_GlobalCoroutine__AdvancedSceneManager_Core_Callback" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit(Lazy.Utility.GlobalCoroutine)~AdvancedSceneManager.Core.Callback">Implicit(GlobalCoroutine to Callback)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Callback(GlobalCoroutine coroutine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Lazy.Utility.GlobalCoroutine</span></td>
+        <td><span class="parametername">coroutine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_op_Implicit_" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_op_Implicit_System_Action__AdvancedSceneManager_Core_Callback" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit(System.Action)~AdvancedSceneManager.Core.Callback">Implicit(Action to Callback)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Callback(Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_op_Implicit_" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_op_Implicit_System_Action_AdvancedSceneManager_Core_SceneOperation___AdvancedSceneManager_Core_Callback" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit(System.Action{AdvancedSceneManager.Core.SceneOperation})~AdvancedSceneManager.Core.Callback">Implicit(Action&lt;SceneOperation&gt; to Callback)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Callback(Action&lt;SceneOperation&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a>&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Callback_op_Implicit_" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_op_Implicit_System_Func_System_Collections_IEnumerator___AdvancedSceneManager_Core_Callback" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit(System.Func{System.Collections.IEnumerator})~AdvancedSceneManager.Core.Callback">Implicit(Func&lt;IEnumerator&gt; to Callback)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Callback(Func&lt;IEnumerator&gt; enumerator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Collections.IEnumerator</span>&gt;</td>
+        <td><span class="parametername">enumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

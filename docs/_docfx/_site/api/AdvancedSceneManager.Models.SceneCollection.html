@@ -1,0 +1,462 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>SceneCollection
+   | Advanced Scene Manager </title>
+    <meta name="title" content="SceneCollection
+   | Advanced Scene Manager ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../guides/readme.html">
+                <img id="logo" class="svg" src="..//resources/logo.png" alt="" style="width: 50px;height: 50px;">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AdvancedSceneManager.Models.SceneCollection">
+  
+  
+  <h1 id="AdvancedSceneManager_Models_SceneCollection" data-uid="AdvancedSceneManager.Models.SceneCollection" class="text-break">SceneCollection
+  </h1>
+  <div class="markdown level0 summary"><p>A <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a> contains a list of <a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a>, all of which are opened when the <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a> is opened (except for scenes tagged DoNotOpen).</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><span class="xref">SceneCollection</span></div>
+      <div class="level4"><a class="xref" href="AdvancedSceneManager.Models.SceneCollectionTemplate.html">SceneCollectionTemplate</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AdvancedSceneManager.Models.ISceneObject.html">ISceneObject</a></div>
+  </div>
+  <h5 id="AdvancedSceneManager_Models_SceneCollection_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Only one <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a> can be open at a time.</p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Models_SceneCollection_activeScene_" data-uid="AdvancedSceneManager.Models.SceneCollection.activeScene*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_activeScene" data-uid="AdvancedSceneManager.Models.SceneCollection.activeScene">activeScene</h4>
+  <div class="markdown level1 summary"><p>Specifies the scene that should be activated after collection is opened.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene activeScene { get; set; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_Count_" data-uid="AdvancedSceneManager.Models.SceneCollection.Count*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_Count" data-uid="AdvancedSceneManager.Models.SceneCollection.Count">Count</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_extraData_" data-uid="AdvancedSceneManager.Models.SceneCollection.extraData*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_extraData" data-uid="AdvancedSceneManager.Models.SceneCollection.extraData">extraData</h4>
+  <div class="markdown level1 summary"><p>The extra data that is associated with this collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptableObject extraData { get; set; }</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Models_SceneCollection_extraData_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Use <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html#AdvancedSceneManager_Models_SceneCollection_ExtraData__1">ExtraData&lt;T&gt;()</a> to cast it to the desired type.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_hasScenes_" data-uid="AdvancedSceneManager.Models.SceneCollection.hasScenes*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_hasScenes" data-uid="AdvancedSceneManager.Models.SceneCollection.hasScenes">hasScenes</h4>
+  <div class="markdown level1 summary"><p>Gets if this collection has any scenes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasScenes { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_isIncluded_" data-uid="AdvancedSceneManager.Models.SceneCollection.isIncluded*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_isIncluded" data-uid="AdvancedSceneManager.Models.SceneCollection.isIncluded">isIncluded</h4>
+  <div class="markdown level1 summary"><p>Gets whatever this collection should be included in build.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isIncluded { get; set; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_IsReadOnly_" data-uid="AdvancedSceneManager.Models.SceneCollection.IsReadOnly*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_IsReadOnly" data-uid="AdvancedSceneManager.Models.SceneCollection.IsReadOnly">IsReadOnly</h4>
+  <div class="markdown level1 summary"><p>Inherited from <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList&lt;T&gt;</a>, not to be confused with read-only functionality for collections (which does not currently exist, beyond locking plugin), this is just for enumeration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsReadOnly { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_Item_" data-uid="AdvancedSceneManager.Models.SceneCollection.Item*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_Item_System_Int32_" data-uid="AdvancedSceneManager.Models.SceneCollection.Item(System.Int32)">Item[Int32]</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene this[int index] { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_loadingPriority_" data-uid="AdvancedSceneManager.Models.SceneCollection.loadingPriority*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_loadingPriority" data-uid="AdvancedSceneManager.Models.SceneCollection.loadingPriority">loadingPriority</h4>
+  <div class="markdown level1 summary"><p>The thread priority to use when opening this collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CollectionThreadPriority loadingPriority { get; set; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_loadingScreen_" data-uid="AdvancedSceneManager.Models.SceneCollection.loadingScreen*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_loadingScreen" data-uid="AdvancedSceneManager.Models.SceneCollection.loadingScreen">loadingScreen</h4>
+  <div class="markdown level1 summary"><p>The loading screen that is associated with this collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene loadingScreen { get; set; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_loadingScreenUsage_" data-uid="AdvancedSceneManager.Models.SceneCollection.loadingScreenUsage*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_loadingScreenUsage" data-uid="AdvancedSceneManager.Models.SceneCollection.loadingScreenUsage">loadingScreenUsage</h4>
+  <div class="markdown level1 summary"><p>Specifies what loading screen to use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LoadingScreenUsage loadingScreenUsage { get; set; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_name_" data-uid="AdvancedSceneManager.Models.SceneCollection.name*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_name" data-uid="AdvancedSceneManager.Models.SceneCollection.name">name</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string name { get; }</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Models_SceneCollection_name_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>See also: <a class="xref" href="AdvancedSceneManager.SceneManager.html#AdvancedSceneManager_SceneManager_assetManagement">assetManagement</a>.Rename().</p>
+</div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_scenes_" data-uid="AdvancedSceneManager.Models.SceneCollection.scenes*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_scenes" data-uid="AdvancedSceneManager.Models.SceneCollection.scenes">scenes</h4>
+  <div class="markdown level1 summary"><p>Gets the scenes in this collection, note that some might be null if no reference is added in scene manager window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene[] scenes { get; set; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_startupOption_" data-uid="AdvancedSceneManager.Models.SceneCollection.startupOption*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_startupOption" data-uid="AdvancedSceneManager.Models.SceneCollection.startupOption">startupOption</h4>
+  <div class="markdown level1 summary"><p>Specifies startup option.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CollectionStartupOption startupOption { get; set; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_title_" data-uid="AdvancedSceneManager.Models.SceneCollection.title*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_title" data-uid="AdvancedSceneManager.Models.SceneCollection.title">title</h4>
+  <div class="markdown level1 summary"><p>The title of this collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string title { get; }</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Models_SceneCollection_title_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>See also: <a class="xref" href="AdvancedSceneManager.SceneManager.html#AdvancedSceneManager_SceneManager_assetManagement">assetManagement</a>.Rename().</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Models_SceneCollection_AllScenePaths_" data-uid="AdvancedSceneManager.Models.SceneCollection.AllScenePaths*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_AllScenePaths" data-uid="AdvancedSceneManager.Models.SceneCollection.AllScenePaths">AllScenePaths()</h4>
+  <div class="markdown level1 summary"><p>Gets all scenes contained in this collection, including overriden loading screen, if set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] AllScenePaths()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_AllScenes_" data-uid="AdvancedSceneManager.Models.SceneCollection.AllScenes*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_AllScenes" data-uid="AdvancedSceneManager.Models.SceneCollection.AllScenes">AllScenes()</h4>
+  <div class="markdown level1 summary"><p>Gets all scenes contained in this collection, including overriden loading screen, if set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene[] AllScenes()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_Close_" data-uid="AdvancedSceneManager.Models.SceneCollection.Close*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_Close" data-uid="AdvancedSceneManager.Models.SceneCollection.Close">Close()</h4>
+  <div class="markdown level1 summary"><p>Closes the current collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Close()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_CloseEvent_" data-uid="AdvancedSceneManager.Models.SceneCollection.CloseEvent*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_CloseEvent" data-uid="AdvancedSceneManager.Models.SceneCollection.CloseEvent">CloseEvent()</h4>
+  <div class="markdown level1 summary"><p>Closes the current collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CloseEvent()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_Contains_" data-uid="AdvancedSceneManager.Models.SceneCollection.Contains*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_Contains_AdvancedSceneManager_Models_Scene_" data-uid="AdvancedSceneManager.Models.SceneCollection.Contains(AdvancedSceneManager.Models.Scene)">Contains(Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(Scene item)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_ExtraData_" data-uid="AdvancedSceneManager.Models.SceneCollection.ExtraData*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_ExtraData__1" data-uid="AdvancedSceneManager.Models.SceneCollection.ExtraData``1">ExtraData&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Casts and returns <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html#AdvancedSceneManager_Models_SceneCollection_extraData">extraData</a> as the specified type. Returns null if invalid type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T ExtraData&lt;T&gt;()
+    where T : ScriptableObject</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_Find_" data-uid="AdvancedSceneManager.Models.SceneCollection.Find*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_Find_System_String_System_Boolean_" data-uid="AdvancedSceneManager.Models.SceneCollection.Find(System.String,System.Boolean)">Find(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Finds the <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a> with the specified name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneCollection Find(string title, bool onlyActiveProfile = true)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_FindProfile_" data-uid="AdvancedSceneManager.Models.SceneCollection.FindProfile*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_FindProfile" data-uid="AdvancedSceneManager.Models.SceneCollection.FindProfile">FindProfile()</h4>
+  <div class="markdown level1 summary"><p>Find the <a class="xref" href="AdvancedSceneManager.Models.Profile.html">Profile</a> that this collection is associated with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Profile FindProfile()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_GetEnumerator_" data-uid="AdvancedSceneManager.Models.SceneCollection.GetEnumerator*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_GetEnumerator" data-uid="AdvancedSceneManager.Models.SceneCollection.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;Scene&gt; GetEnumerator()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_IsOpen_" data-uid="AdvancedSceneManager.Models.SceneCollection.IsOpen*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_IsOpen" data-uid="AdvancedSceneManager.Models.SceneCollection.IsOpen">IsOpen()</h4>
+  <div class="markdown level1 summary"><p>Gets whatever the collection is currently open.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOpen()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_OnPropertyChanged_" data-uid="AdvancedSceneManager.Models.SceneCollection.OnPropertyChanged*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_OnPropertyChanged" data-uid="AdvancedSceneManager.Models.SceneCollection.OnPropertyChanged">OnPropertyChanged()</h4>
+  <div class="markdown level1 summary"><p>Raises <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html#AdvancedSceneManager_Models_SceneCollection_PropertyChanged">PropertyChanged</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPropertyChanged()</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Models_SceneCollection_OnPropertyChanged_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Only available in editor.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_Open_" data-uid="AdvancedSceneManager.Models.SceneCollection.Open*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_Open" data-uid="AdvancedSceneManager.Models.SceneCollection.Open">Open()</h4>
+  <div class="markdown level1 summary"><p>Opens the collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Open()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_OpenEvent_" data-uid="AdvancedSceneManager.Models.SceneCollection.OpenEvent*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_OpenEvent" data-uid="AdvancedSceneManager.Models.SceneCollection.OpenEvent">OpenEvent()</h4>
+  <div class="markdown level1 summary"><p>Opens the collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenEvent()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_OpenOrReopen_" data-uid="AdvancedSceneManager.Models.SceneCollection.OpenOrReopen*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_OpenOrReopen" data-uid="AdvancedSceneManager.Models.SceneCollection.OpenOrReopen">OpenOrReopen()</h4>
+  <div class="markdown level1 summary"><p>Opens or reopens the collection, depending on whatever it is open or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation OpenOrReopen()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_Reopen_" data-uid="AdvancedSceneManager.Models.SceneCollection.Reopen*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_Reopen" data-uid="AdvancedSceneManager.Models.SceneCollection.Reopen">Reopen()</h4>
+  <div class="markdown level1 summary"><p>Reopens the current collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Reopen()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_ReopenEvent_" data-uid="AdvancedSceneManager.Models.SceneCollection.ReopenEvent*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_ReopenEvent" data-uid="AdvancedSceneManager.Models.SceneCollection.ReopenEvent">ReopenEvent()</h4>
+  <div class="markdown level1 summary"><p>Reopens the current collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReopenEvent()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_Tag_" data-uid="AdvancedSceneManager.Models.SceneCollection.Tag*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_Tag_AdvancedSceneManager_Models_Scene_AdvancedSceneManager_Models_SceneTag_" data-uid="AdvancedSceneManager.Models.SceneCollection.Tag(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneTag)">Tag(Scene, SceneTag)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneTag Tag(Scene scene, SceneTag setTo = null)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_Toggle_" data-uid="AdvancedSceneManager.Models.SceneCollection.Toggle*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_Toggle" data-uid="AdvancedSceneManager.Models.SceneCollection.Toggle">Toggle()</h4>
+  <div class="markdown level1 summary"><p>Toggles the collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Toggle()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_Toggle_" data-uid="AdvancedSceneManager.Models.SceneCollection.Toggle*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_Toggle_System_Boolean_" data-uid="AdvancedSceneManager.Models.SceneCollection.Toggle(System.Boolean)">Toggle(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Toggles the collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Toggle(bool enabled)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_ToggleEvent_" data-uid="AdvancedSceneManager.Models.SceneCollection.ToggleEvent*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_ToggleEvent" data-uid="AdvancedSceneManager.Models.SceneCollection.ToggleEvent">ToggleEvent()</h4>
+  <div class="markdown level1 summary"><p>Toggles the collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleEvent()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneCollection_ToggleEvent_" data-uid="AdvancedSceneManager.Models.SceneCollection.ToggleEvent*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_ToggleEvent_System_Boolean_" data-uid="AdvancedSceneManager.Models.SceneCollection.ToggleEvent(System.Boolean)">ToggleEvent(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Toggles the collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleEvent(bool enabled)</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  <h4 id="AdvancedSceneManager_Models_SceneCollection_PropertyChanged" data-uid="AdvancedSceneManager.Models.SceneCollection.PropertyChanged">PropertyChanged</h4>
+  <div class="markdown level1 summary"><p>Occurs when a property changes on this collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Models_SceneCollection_PropertyChanged_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Only available in editor.</p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Models.ISceneObject.html">ISceneObject</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.SceneCollectionUtility.html#AdvancedSceneManager_Utility_SceneCollectionUtility_Find_System_Collections_Generic_IEnumerable_AdvancedSceneManager_Models_Scene__System_String_">SceneCollectionUtility.Find(IEnumerable&lt;Scene&gt;, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.ScriptableObjectUtility.html#AdvancedSceneManager_Utility_ScriptableObjectUtility_Save_UnityEngine_ScriptableObject_">ScriptableObjectUtility.Save(ScriptableObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.ListUtility.html#AdvancedSceneManager_Editor_Utility_ListUtility_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0_System_Int32__">ListUtility.ForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T, Int32&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.ListUtility.html#AdvancedSceneManager_Editor_Utility_ListUtility_Flatten__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___">ListUtility.Flatten&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, IEnumerable&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.ListUtility.html#AdvancedSceneManager_Editor_Utility_ListUtility_Except__1_System_Collections_Generic_IEnumerable___0____0_">ListUtility.Except&lt;T&gt;(IEnumerable&lt;T&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.ListUtility.html#AdvancedSceneManager_Editor_Utility_ListUtility_GroupConsecutive__1_System_Collections_Generic_IEnumerable___0__System_Func___0___0_System_Boolean__">ListUtility.GroupConsecutive&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, T, Boolean&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <a href='https://assetstore.unity.com/packages/slug/174152'>Advanced Scene Manager</a> - <a href='https://assetstore.unity.com/publishers/48996'>Lazy Solutions</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

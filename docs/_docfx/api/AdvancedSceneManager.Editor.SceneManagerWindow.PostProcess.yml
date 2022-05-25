@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.PostProcess
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.PostProcess
+  id: SceneManagerWindow.PostProcess
+  parent: AdvancedSceneManager.Editor
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SceneManagerWindow.PostProcess
+  nameWithType: SceneManagerWindow.PostProcess
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.PostProcess
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: PostProcess
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 355
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: 'public class PostProcess : AssetPostprocessor'
+    content.vb: >-
+      Public Class PostProcess
+          Inherits AssetPostprocessor
+  inheritance:
+  - System.Object
+  - UnityEditor.AssetPostprocessor
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEditor.AssetPostprocessor
+  commentId: T:UnityEditor.AssetPostprocessor
+  parent: UnityEditor
+  isExternal: true
+  name: AssetPostprocessor
+  nameWithType: AssetPostprocessor
+  fullName: UnityEditor.AssetPostprocessor
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor

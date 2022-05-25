@@ -1,0 +1,714 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Callbacks.SerializableDateTime
+  commentId: T:AdvancedSceneManager.Callbacks.SerializableDateTime
+  id: SerializableDateTime
+  parent: AdvancedSceneManager.Callbacks
+  children:
+  - AdvancedSceneManager.Callbacks.SerializableDateTime.Convert(System.DateTime)
+  - AdvancedSceneManager.Callbacks.SerializableDateTime.ConvertBack(System.Int64)
+  - AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit(AdvancedSceneManager.Callbacks.SerializableDateTime)~System.DateTime
+  - AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit(System.DateTime)~AdvancedSceneManager.Callbacks.SerializableDateTime
+  - AdvancedSceneManager.Callbacks.SerializableDateTime.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SerializableDateTime
+  nameWithType: SerializableDateTime
+  fullName: AdvancedSceneManager.Callbacks.SerializableDateTime
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SerializableDateTime
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 65
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SerializableDateTime : Serializable<DateTime, long>, ISerializationCallbackReceiver
+    content.vb: >-
+      <Serializable>
+
+      Public Class SerializableDateTime
+          Inherits Serializable(Of Date, Long)
+          Implements ISerializationCallbackReceiver
+  inheritance:
+  - System.Object
+  - AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}
+  inheritedMembers:
+  - AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.value
+  - AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.Convert(System.DateTime)
+  - AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.ConvertBack(System.Int64)
+  - AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.OnAfterDeserialize
+  - AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.OnBeforeSerialize
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Callbacks.SerializableDateTime.Convert(System.DateTime)
+  commentId: M:AdvancedSceneManager.Callbacks.SerializableDateTime.Convert(System.DateTime)
+  id: Convert(System.DateTime)
+  parent: AdvancedSceneManager.Callbacks.SerializableDateTime
+  langs:
+  - csharp
+  - vb
+  name: Convert(DateTime)
+  nameWithType: SerializableDateTime.Convert(DateTime)
+  fullName: AdvancedSceneManager.Callbacks.SerializableDateTime.Convert(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Convert
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 68
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public override long Convert(DateTime value)
+    parameters:
+    - id: value
+      type: System.DateTime
+    return:
+      type: System.Int64
+    content.vb: Public Overrides Function Convert(value As Date) As Long
+  overridden: AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.Convert(System.DateTime)
+  overload: AdvancedSceneManager.Callbacks.SerializableDateTime.Convert*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: AdvancedSceneManager.Callbacks.SerializableDateTime.ConvertBack(System.Int64)
+  commentId: M:AdvancedSceneManager.Callbacks.SerializableDateTime.ConvertBack(System.Int64)
+  id: ConvertBack(System.Int64)
+  parent: AdvancedSceneManager.Callbacks.SerializableDateTime
+  langs:
+  - csharp
+  - vb
+  name: ConvertBack(Int64)
+  nameWithType: SerializableDateTime.ConvertBack(Int64)
+  fullName: AdvancedSceneManager.Callbacks.SerializableDateTime.ConvertBack(System.Int64)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ConvertBack
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 69
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public override DateTime ConvertBack(long value)
+    parameters:
+    - id: value
+      type: System.Int64
+    return:
+      type: System.DateTime
+    content.vb: Public Overrides Function ConvertBack(value As Long) As Date
+  overridden: AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.ConvertBack(System.Int64)
+  overload: AdvancedSceneManager.Callbacks.SerializableDateTime.ConvertBack*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit(System.DateTime)~AdvancedSceneManager.Callbacks.SerializableDateTime
+  commentId: M:AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit(System.DateTime)~AdvancedSceneManager.Callbacks.SerializableDateTime
+  id: op_Implicit(System.DateTime)~AdvancedSceneManager.Callbacks.SerializableDateTime
+  parent: AdvancedSceneManager.Callbacks.SerializableDateTime
+  langs:
+  - csharp
+  - vb
+  name: Implicit(DateTime to SerializableDateTime)
+  nameWithType: SerializableDateTime.Implicit(DateTime to SerializableDateTime)
+  fullName: AdvancedSceneManager.Callbacks.SerializableDateTime.Implicit(System.DateTime to AdvancedSceneManager.Callbacks.SerializableDateTime)
+  type: Operator
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: op_Implicit
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 70
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public static implicit operator SerializableDateTime(DateTime time)
+    parameters:
+    - id: time
+      type: System.DateTime
+    return:
+      type: AdvancedSceneManager.Callbacks.SerializableDateTime
+    content.vb: Public Shared Widening Operator CType(time As Date) As SerializableDateTime
+  overload: AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit*
+  nameWithType.vb: SerializableDateTime.Widening(DateTime to SerializableDateTime)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Callbacks.SerializableDateTime.Widening(System.DateTime to AdvancedSceneManager.Callbacks.SerializableDateTime)
+  name.vb: Widening(DateTime to SerializableDateTime)
+- uid: AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit(AdvancedSceneManager.Callbacks.SerializableDateTime)~System.DateTime
+  commentId: M:AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit(AdvancedSceneManager.Callbacks.SerializableDateTime)~System.DateTime
+  id: op_Implicit(AdvancedSceneManager.Callbacks.SerializableDateTime)~System.DateTime
+  parent: AdvancedSceneManager.Callbacks.SerializableDateTime
+  langs:
+  - csharp
+  - vb
+  name: Implicit(SerializableDateTime to DateTime)
+  nameWithType: SerializableDateTime.Implicit(SerializableDateTime to DateTime)
+  fullName: AdvancedSceneManager.Callbacks.SerializableDateTime.Implicit(AdvancedSceneManager.Callbacks.SerializableDateTime to System.DateTime)
+  type: Operator
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: op_Implicit
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 71
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public static implicit operator DateTime(SerializableDateTime serializable)
+    parameters:
+    - id: serializable
+      type: AdvancedSceneManager.Callbacks.SerializableDateTime
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Widening Operator CType(serializable As SerializableDateTime) As Date
+  overload: AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit*
+  nameWithType.vb: SerializableDateTime.Widening(SerializableDateTime to DateTime)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Callbacks.SerializableDateTime.Widening(AdvancedSceneManager.Callbacks.SerializableDateTime to System.DateTime)
+  name.vb: Widening(SerializableDateTime to DateTime)
+- uid: AdvancedSceneManager.Callbacks.SerializableDateTime.ToString(System.String)
+  commentId: M:AdvancedSceneManager.Callbacks.SerializableDateTime.ToString(System.String)
+  id: ToString(System.String)
+  parent: AdvancedSceneManager.Callbacks.SerializableDateTime
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: SerializableDateTime.ToString(String)
+  fullName: AdvancedSceneManager.Callbacks.SerializableDateTime.ToString(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ToString
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 72
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public string ToString(string format)
+    parameters:
+    - id: format
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToString(format As String) As String
+  overload: AdvancedSceneManager.Callbacks.SerializableDateTime.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}
+  commentId: T:AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}
+  parent: AdvancedSceneManager.Callbacks
+  definition: AdvancedSceneManager.Callbacks.Serializable`2
+  name: Serializable<DateTime, Int64>
+  nameWithType: Serializable<DateTime, Int64>
+  fullName: AdvancedSceneManager.Callbacks.Serializable<System.DateTime, System.Int64>
+  nameWithType.vb: Serializable(Of DateTime, Int64)
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of System.DateTime, System.Int64)
+  name.vb: Serializable(Of DateTime, Int64)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2
+    name: Serializable
+    nameWithType: Serializable
+    fullName: AdvancedSceneManager.Callbacks.Serializable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2
+    name: Serializable
+    nameWithType: Serializable
+    fullName: AdvancedSceneManager.Callbacks.Serializable
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.value
+  commentId: P:AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.value
+  parent: AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}
+  definition: AdvancedSceneManager.Callbacks.Serializable`2.value
+  name: value
+  nameWithType: Serializable<DateTime, Int64>.value
+  fullName: AdvancedSceneManager.Callbacks.Serializable<System.DateTime, System.Int64>.value
+  nameWithType.vb: Serializable(Of DateTime, Int64).value
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of System.DateTime, System.Int64).value
+- uid: AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.Convert(System.DateTime)
+  commentId: M:AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.Convert(System.DateTime)
+  parent: AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}
+  definition: AdvancedSceneManager.Callbacks.Serializable`2.Convert(`0)
+  name: Convert(DateTime)
+  nameWithType: Serializable<DateTime, Int64>.Convert(DateTime)
+  fullName: AdvancedSceneManager.Callbacks.Serializable<System.DateTime, System.Int64>.Convert(System.DateTime)
+  nameWithType.vb: Serializable(Of DateTime, Int64).Convert(DateTime)
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of System.DateTime, System.Int64).Convert(System.DateTime)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.Convert(`0)
+    name: Convert
+    nameWithType: Serializable<DateTime, Int64>.Convert
+    fullName: AdvancedSceneManager.Callbacks.Serializable<System.DateTime, System.Int64>.Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.Convert(`0)
+    name: Convert
+    nameWithType: Serializable(Of DateTime, Int64).Convert
+    fullName: AdvancedSceneManager.Callbacks.Serializable(Of System.DateTime, System.Int64).Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.ConvertBack(System.Int64)
+  commentId: M:AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.ConvertBack(System.Int64)
+  parent: AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}
+  definition: AdvancedSceneManager.Callbacks.Serializable`2.ConvertBack(`1)
+  name: ConvertBack(Int64)
+  nameWithType: Serializable<DateTime, Int64>.ConvertBack(Int64)
+  fullName: AdvancedSceneManager.Callbacks.Serializable<System.DateTime, System.Int64>.ConvertBack(System.Int64)
+  nameWithType.vb: Serializable(Of DateTime, Int64).ConvertBack(Int64)
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of System.DateTime, System.Int64).ConvertBack(System.Int64)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.ConvertBack(`1)
+    name: ConvertBack
+    nameWithType: Serializable<DateTime, Int64>.ConvertBack
+    fullName: AdvancedSceneManager.Callbacks.Serializable<System.DateTime, System.Int64>.ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.ConvertBack(`1)
+    name: ConvertBack
+    nameWithType: Serializable(Of DateTime, Int64).ConvertBack
+    fullName: AdvancedSceneManager.Callbacks.Serializable(Of System.DateTime, System.Int64).ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.OnAfterDeserialize
+  commentId: M:AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.OnAfterDeserialize
+  parent: AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}
+  definition: AdvancedSceneManager.Callbacks.Serializable`2.OnAfterDeserialize
+  name: OnAfterDeserialize()
+  nameWithType: Serializable<DateTime, Int64>.OnAfterDeserialize()
+  fullName: AdvancedSceneManager.Callbacks.Serializable<System.DateTime, System.Int64>.OnAfterDeserialize()
+  nameWithType.vb: Serializable(Of DateTime, Int64).OnAfterDeserialize()
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of System.DateTime, System.Int64).OnAfterDeserialize()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.OnAfterDeserialize
+    name: OnAfterDeserialize
+    nameWithType: Serializable<DateTime, Int64>.OnAfterDeserialize
+    fullName: AdvancedSceneManager.Callbacks.Serializable<System.DateTime, System.Int64>.OnAfterDeserialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.OnAfterDeserialize
+    name: OnAfterDeserialize
+    nameWithType: Serializable(Of DateTime, Int64).OnAfterDeserialize
+    fullName: AdvancedSceneManager.Callbacks.Serializable(Of System.DateTime, System.Int64).OnAfterDeserialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.OnBeforeSerialize
+  commentId: M:AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}.OnBeforeSerialize
+  parent: AdvancedSceneManager.Callbacks.Serializable{System.DateTime,System.Int64}
+  definition: AdvancedSceneManager.Callbacks.Serializable`2.OnBeforeSerialize
+  name: OnBeforeSerialize()
+  nameWithType: Serializable<DateTime, Int64>.OnBeforeSerialize()
+  fullName: AdvancedSceneManager.Callbacks.Serializable<System.DateTime, System.Int64>.OnBeforeSerialize()
+  nameWithType.vb: Serializable(Of DateTime, Int64).OnBeforeSerialize()
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of System.DateTime, System.Int64).OnBeforeSerialize()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.OnBeforeSerialize
+    name: OnBeforeSerialize
+    nameWithType: Serializable<DateTime, Int64>.OnBeforeSerialize
+    fullName: AdvancedSceneManager.Callbacks.Serializable<System.DateTime, System.Int64>.OnBeforeSerialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.OnBeforeSerialize
+    name: OnBeforeSerialize
+    nameWithType: Serializable(Of DateTime, Int64).OnBeforeSerialize
+    fullName: AdvancedSceneManager.Callbacks.Serializable(Of System.DateTime, System.Int64).OnBeforeSerialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Callbacks.Serializable`2
+  commentId: T:AdvancedSceneManager.Callbacks.Serializable`2
+  name: Serializable<T, TValue>
+  nameWithType: Serializable<T, TValue>
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>
+  nameWithType.vb: Serializable(Of T, TValue)
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue)
+  name.vb: Serializable(Of T, TValue)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2
+    name: Serializable
+    nameWithType: Serializable
+    fullName: AdvancedSceneManager.Callbacks.Serializable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2
+    name: Serializable
+    nameWithType: Serializable
+    fullName: AdvancedSceneManager.Callbacks.Serializable
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.value
+  commentId: P:AdvancedSceneManager.Callbacks.Serializable`2.value
+  name: value
+  nameWithType: Serializable<T, TValue>.value
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.value
+  nameWithType.vb: Serializable(Of T, TValue).value
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).value
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.Convert(`0)
+  commentId: M:AdvancedSceneManager.Callbacks.Serializable`2.Convert(`0)
+  name: Convert(T)
+  nameWithType: Serializable<T, TValue>.Convert(T)
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.Convert(T)
+  nameWithType.vb: Serializable(Of T, TValue).Convert(T)
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).Convert(T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.Convert(`0)
+    name: Convert
+    nameWithType: Serializable<T, TValue>.Convert
+    fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.Convert(`0)
+    name: Convert
+    nameWithType: Serializable(Of T, TValue).Convert
+    fullName: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.ConvertBack(`1)
+  commentId: M:AdvancedSceneManager.Callbacks.Serializable`2.ConvertBack(`1)
+  name: ConvertBack(TValue)
+  nameWithType: Serializable<T, TValue>.ConvertBack(TValue)
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.ConvertBack(TValue)
+  nameWithType.vb: Serializable(Of T, TValue).ConvertBack(TValue)
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).ConvertBack(TValue)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.ConvertBack(`1)
+    name: ConvertBack
+    nameWithType: Serializable<T, TValue>.ConvertBack
+    fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.ConvertBack(`1)
+    name: ConvertBack
+    nameWithType: Serializable(Of T, TValue).ConvertBack
+    fullName: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.OnAfterDeserialize
+  commentId: M:AdvancedSceneManager.Callbacks.Serializable`2.OnAfterDeserialize
+  name: OnAfterDeserialize()
+  nameWithType: Serializable<T, TValue>.OnAfterDeserialize()
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.OnAfterDeserialize()
+  nameWithType.vb: Serializable(Of T, TValue).OnAfterDeserialize()
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).OnAfterDeserialize()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.OnAfterDeserialize
+    name: OnAfterDeserialize
+    nameWithType: Serializable<T, TValue>.OnAfterDeserialize
+    fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.OnAfterDeserialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.OnAfterDeserialize
+    name: OnAfterDeserialize
+    nameWithType: Serializable(Of T, TValue).OnAfterDeserialize
+    fullName: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).OnAfterDeserialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.OnBeforeSerialize
+  commentId: M:AdvancedSceneManager.Callbacks.Serializable`2.OnBeforeSerialize
+  name: OnBeforeSerialize()
+  nameWithType: Serializable<T, TValue>.OnBeforeSerialize()
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.OnBeforeSerialize()
+  nameWithType.vb: Serializable(Of T, TValue).OnBeforeSerialize()
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).OnBeforeSerialize()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.OnBeforeSerialize
+    name: OnBeforeSerialize
+    nameWithType: Serializable<T, TValue>.OnBeforeSerialize
+    fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.OnBeforeSerialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2.OnBeforeSerialize
+    name: OnBeforeSerialize
+    nameWithType: Serializable(Of T, TValue).OnBeforeSerialize
+    fullName: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).OnBeforeSerialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.SerializableDateTime.Convert*
+  commentId: Overload:AdvancedSceneManager.Callbacks.SerializableDateTime.Convert
+  name: Convert
+  nameWithType: SerializableDateTime.Convert
+  fullName: AdvancedSceneManager.Callbacks.SerializableDateTime.Convert
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: AdvancedSceneManager.Callbacks.SerializableDateTime.ConvertBack*
+  commentId: Overload:AdvancedSceneManager.Callbacks.SerializableDateTime.ConvertBack
+  name: ConvertBack
+  nameWithType: SerializableDateTime.ConvertBack
+  fullName: AdvancedSceneManager.Callbacks.SerializableDateTime.ConvertBack
+- uid: AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit*
+  commentId: Overload:AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit
+  name: Implicit
+  nameWithType: SerializableDateTime.Implicit
+  fullName: AdvancedSceneManager.Callbacks.SerializableDateTime.Implicit
+  nameWithType.vb: SerializableDateTime.Widening
+  fullName.vb: AdvancedSceneManager.Callbacks.SerializableDateTime.Widening
+  name.vb: Widening
+- uid: AdvancedSceneManager.Callbacks.SerializableDateTime
+  commentId: T:AdvancedSceneManager.Callbacks.SerializableDateTime
+  parent: AdvancedSceneManager.Callbacks
+  name: SerializableDateTime
+  nameWithType: SerializableDateTime
+  fullName: AdvancedSceneManager.Callbacks.SerializableDateTime
+- uid: AdvancedSceneManager.Callbacks.SerializableDateTime.ToString*
+  commentId: Overload:AdvancedSceneManager.Callbacks.SerializableDateTime.ToString
+  name: ToString
+  nameWithType: SerializableDateTime.ToString
+  fullName: AdvancedSceneManager.Callbacks.SerializableDateTime.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

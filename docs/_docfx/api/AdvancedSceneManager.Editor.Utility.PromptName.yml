@@ -1,0 +1,920 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.PromptName
+  commentId: T:AdvancedSceneManager.Editor.Utility.PromptName
+  id: PromptName
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.PromptName.OnContentGUI(System.String@)
+  - AdvancedSceneManager.Editor.Utility.PromptName.title
+  langs:
+  - csharp
+  - vb
+  name: PromptName
+  nameWithType: PromptName
+  fullName: AdvancedSceneManager.Editor.Utility.PromptName
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptName.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: PromptName
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptName.cs
+    startLine: 8
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: 'public class PromptName : GenericPrompt<string, PromptName>'
+    content.vb: >-
+      Public Class PromptName
+          Inherits GenericPrompt(Of String, PromptName)
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - UnityEditor.EditorWindow
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}
+  inheritedMembers:
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.validate
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.Validate(System.String)
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.Prompt(System.String,System.Func{System.String,System.ValueTuple{System.Boolean,System.String}}[])
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.OnContentGUI(System.String@)
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.title
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.updateSizeAutomatically
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.extraHeight
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.width
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.okButton
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.cancelButton
+  extensionMethods:
+  - UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Editor.Utility.PromptName.title
+  commentId: P:AdvancedSceneManager.Editor.Utility.PromptName.title
+  id: title
+  parent: AdvancedSceneManager.Editor.Utility.PromptName
+  langs:
+  - csharp
+  - vb
+  name: title
+  nameWithType: PromptName.title
+  fullName: AdvancedSceneManager.Editor.Utility.PromptName.title
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptName.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: title
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptName.cs
+    startLine: 11
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public override string title { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property title As String
+  overridden: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.title
+  overload: AdvancedSceneManager.Editor.Utility.PromptName.title*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.Utility.PromptName.OnContentGUI(System.String@)
+  commentId: M:AdvancedSceneManager.Editor.Utility.PromptName.OnContentGUI(System.String@)
+  id: OnContentGUI(System.String@)
+  parent: AdvancedSceneManager.Editor.Utility.PromptName
+  langs:
+  - csharp
+  - vb
+  name: OnContentGUI(ref String)
+  nameWithType: PromptName.OnContentGUI(ref String)
+  fullName: AdvancedSceneManager.Editor.Utility.PromptName.OnContentGUI(ref System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptName.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnContentGUI
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptName.cs
+    startLine: 13
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public override void OnContentGUI(ref string value)
+    parameters:
+    - id: value
+      type: System.String
+    content.vb: Public Overrides Sub OnContentGUI(ByRef value As String)
+  overridden: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.OnContentGUI(System.String@)
+  overload: AdvancedSceneManager.Editor.Utility.PromptName.OnContentGUI*
+  nameWithType.vb: PromptName.OnContentGUI(ByRef String)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: AdvancedSceneManager.Editor.Utility.PromptName.OnContentGUI(ByRef System.String)
+  name.vb: OnContentGUI(ByRef String)
+references:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEditor.EditorWindow
+  commentId: T:UnityEditor.EditorWindow
+  parent: UnityEditor
+  isExternal: true
+  name: EditorWindow
+  nameWithType: EditorWindow
+  fullName: UnityEditor.EditorWindow
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}
+  commentId: T:AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}
+  parent: AdvancedSceneManager.Editor.Utility
+  definition: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  name: GenericPrompt<String, PromptName>
+  nameWithType: GenericPrompt<String, PromptName>
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>
+  nameWithType.vb: GenericPrompt(Of String, PromptName)
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName)
+  name.vb: GenericPrompt(Of String, PromptName)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+    name: GenericPrompt
+    nameWithType: GenericPrompt
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.Utility.PromptName
+    name: PromptName
+    nameWithType: PromptName
+    fullName: AdvancedSceneManager.Editor.Utility.PromptName
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+    name: GenericPrompt
+    nameWithType: GenericPrompt
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.Utility.PromptName
+    name: PromptName
+    nameWithType: PromptName
+    fullName: AdvancedSceneManager.Editor.Utility.PromptName
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.validate
+  commentId: F:AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.validate
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}
+  definition: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.validate
+  name: validate
+  nameWithType: GenericPrompt<String, PromptName>.validate
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>.validate
+  nameWithType.vb: GenericPrompt(Of String, PromptName).validate
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName).validate
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.Validate(System.String)
+  commentId: M:AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.Validate(System.String)
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}
+  definition: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Validate(`0)
+  name: Validate(String)
+  nameWithType: GenericPrompt<String, PromptName>.Validate(String)
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>.Validate(System.String)
+  nameWithType.vb: GenericPrompt(Of String, PromptName).Validate(String)
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName).Validate(System.String)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Validate(`0)
+    name: Validate
+    nameWithType: GenericPrompt<String, PromptName>.Validate
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>.Validate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Validate(`0)
+    name: Validate
+    nameWithType: GenericPrompt(Of String, PromptName).Validate
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName).Validate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.Prompt(System.String,System.Func{System.String,System.ValueTuple{System.Boolean,System.String}}[])
+  commentId: M:AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.Prompt(System.String,System.Func{System.String,System.ValueTuple{System.Boolean,System.String}}[])
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}
+  definition: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Prompt(`0,System.Func{`0,System.ValueTuple{System.Boolean,System.String}}[])
+  name: Prompt(String, Func<String, (T1, T2)<Boolean, String>>[])
+  nameWithType: GenericPrompt<String, PromptName>.Prompt(String, Func<String, (T1, T2)<Boolean, String>>[])
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>.Prompt(System.String, System.Func<System.String, System.ValueTuple<System.Boolean, System.String>>[])
+  nameWithType.vb: GenericPrompt(Of String, PromptName).Prompt(String, Func(Of String, (T1, T2)(Of Boolean, String))())
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName).Prompt(System.String, System.Func(Of System.String, System.ValueTuple(Of System.Boolean, System.String))())
+  name.vb: Prompt(String, Func(Of String, (T1, T2)(Of Boolean, String))())
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Prompt(`0,System.Func{`0,System.ValueTuple{System.Boolean,System.String}}[])
+    name: Prompt
+    nameWithType: GenericPrompt<String, PromptName>.Prompt
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>.Prompt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Prompt(`0,System.Func{`0,System.ValueTuple{System.Boolean,System.String}}[])
+    name: Prompt
+    nameWithType: GenericPrompt(Of String, PromptName).Prompt
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName).Prompt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.OnContentGUI(System.String@)
+  commentId: M:AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.OnContentGUI(System.String@)
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}
+  definition: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.OnContentGUI(`0@)
+  name: OnContentGUI(String)
+  nameWithType: GenericPrompt<String, PromptName>.OnContentGUI(String)
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>.OnContentGUI(System.String)
+  nameWithType.vb: GenericPrompt(Of String, PromptName).OnContentGUI(String)
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName).OnContentGUI(System.String)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.OnContentGUI(`0@)
+    name: OnContentGUI
+    nameWithType: GenericPrompt<String, PromptName>.OnContentGUI
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>.OnContentGUI
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.OnContentGUI(`0@)
+    name: OnContentGUI
+    nameWithType: GenericPrompt(Of String, PromptName).OnContentGUI
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName).OnContentGUI
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.title
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.title
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}
+  definition: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.title
+  name: title
+  nameWithType: GenericPrompt<String, PromptName>.title
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>.title
+  nameWithType.vb: GenericPrompt(Of String, PromptName).title
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName).title
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.updateSizeAutomatically
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.updateSizeAutomatically
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}
+  definition: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.updateSizeAutomatically
+  name: updateSizeAutomatically
+  nameWithType: GenericPrompt<String, PromptName>.updateSizeAutomatically
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>.updateSizeAutomatically
+  nameWithType.vb: GenericPrompt(Of String, PromptName).updateSizeAutomatically
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName).updateSizeAutomatically
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.extraHeight
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.extraHeight
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}
+  definition: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.extraHeight
+  name: extraHeight
+  nameWithType: GenericPrompt<String, PromptName>.extraHeight
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>.extraHeight
+  nameWithType.vb: GenericPrompt(Of String, PromptName).extraHeight
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName).extraHeight
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.width
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.width
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}
+  definition: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.width
+  name: width
+  nameWithType: GenericPrompt<String, PromptName>.width
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>.width
+  nameWithType.vb: GenericPrompt(Of String, PromptName).width
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName).width
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.okButton
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.okButton
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}
+  definition: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.okButton
+  name: okButton
+  nameWithType: GenericPrompt<String, PromptName>.okButton
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>.okButton
+  nameWithType.vb: GenericPrompt(Of String, PromptName).okButton
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName).okButton
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.cancelButton
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}.cancelButton
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt{System.String,AdvancedSceneManager.Editor.Utility.PromptName}
+  definition: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.cancelButton
+  name: cancelButton
+  nameWithType: GenericPrompt<String, PromptName>.cancelButton
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<System.String, AdvancedSceneManager.Editor.Utility.PromptName>.cancelButton
+  nameWithType.vb: GenericPrompt(Of String, PromptName).cancelButton
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of System.String, AdvancedSceneManager.Editor.Utility.PromptName).cancelButton
+- uid: UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  parent: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  definition: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  name: Save()
+  nameWithType: ScriptableObjectUtility.Save()
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  commentId: T:AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  name: GenericPrompt<T, TSelf>
+  nameWithType: GenericPrompt<T, TSelf>
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>
+  nameWithType.vb: GenericPrompt(Of T, TSelf)
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf)
+  name.vb: GenericPrompt(Of T, TSelf)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+    name: GenericPrompt
+    nameWithType: GenericPrompt
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSelf
+    nameWithType: TSelf
+    fullName: TSelf
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+    name: GenericPrompt
+    nameWithType: GenericPrompt
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSelf
+    nameWithType: TSelf
+    fullName: TSelf
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.validate
+  commentId: F:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.validate
+  name: validate
+  nameWithType: GenericPrompt<T, TSelf>.validate
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.validate
+  nameWithType.vb: GenericPrompt(Of T, TSelf).validate
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).validate
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Validate(`0)
+  commentId: M:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Validate(`0)
+  name: Validate(T)
+  nameWithType: GenericPrompt<T, TSelf>.Validate(T)
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.Validate(T)
+  nameWithType.vb: GenericPrompt(Of T, TSelf).Validate(T)
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).Validate(T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Validate(`0)
+    name: Validate
+    nameWithType: GenericPrompt<T, TSelf>.Validate
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.Validate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Validate(`0)
+    name: Validate
+    nameWithType: GenericPrompt(Of T, TSelf).Validate
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).Validate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Prompt(`0,System.Func{`0,System.ValueTuple{System.Boolean,System.String}}[])
+  commentId: M:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Prompt(`0,System.Func{`0,System.ValueTuple{System.Boolean,System.String}}[])
+  isExternal: true
+  name: Prompt(T, Func<T, (T1, T2)<Boolean, String>>[])
+  nameWithType: GenericPrompt<T, TSelf>.Prompt(T, Func<T, (T1, T2)<Boolean, String>>[])
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.Prompt(T, System.Func<T, System.ValueTuple<System.Boolean, System.String>>[])
+  nameWithType.vb: GenericPrompt(Of T, TSelf).Prompt(T, Func(Of T, (T1, T2)(Of Boolean, String))())
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).Prompt(T, System.Func(Of T, System.ValueTuple(Of System.Boolean, System.String))())
+  name.vb: Prompt(T, Func(Of T, (T1, T2)(Of Boolean, String))())
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Prompt(`0,System.Func{`0,System.ValueTuple{System.Boolean,System.String}}[])
+    name: Prompt
+    nameWithType: GenericPrompt<T, TSelf>.Prompt
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.Prompt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Prompt(`0,System.Func{`0,System.ValueTuple{System.Boolean,System.String}}[])
+    name: Prompt
+    nameWithType: GenericPrompt(Of T, TSelf).Prompt
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).Prompt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.OnContentGUI(`0@)
+  commentId: M:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.OnContentGUI(`0@)
+  name: OnContentGUI(T)
+  nameWithType: GenericPrompt<T, TSelf>.OnContentGUI(T)
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.OnContentGUI(T)
+  nameWithType.vb: GenericPrompt(Of T, TSelf).OnContentGUI(T)
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).OnContentGUI(T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.OnContentGUI(`0@)
+    name: OnContentGUI
+    nameWithType: GenericPrompt<T, TSelf>.OnContentGUI
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.OnContentGUI
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.OnContentGUI(`0@)
+    name: OnContentGUI
+    nameWithType: GenericPrompt(Of T, TSelf).OnContentGUI
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).OnContentGUI
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.title
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.title
+  name: title
+  nameWithType: GenericPrompt<T, TSelf>.title
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.title
+  nameWithType.vb: GenericPrompt(Of T, TSelf).title
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).title
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.updateSizeAutomatically
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.updateSizeAutomatically
+  name: updateSizeAutomatically
+  nameWithType: GenericPrompt<T, TSelf>.updateSizeAutomatically
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.updateSizeAutomatically
+  nameWithType.vb: GenericPrompt(Of T, TSelf).updateSizeAutomatically
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).updateSizeAutomatically
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.extraHeight
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.extraHeight
+  name: extraHeight
+  nameWithType: GenericPrompt<T, TSelf>.extraHeight
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.extraHeight
+  nameWithType.vb: GenericPrompt(Of T, TSelf).extraHeight
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).extraHeight
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.width
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.width
+  name: width
+  nameWithType: GenericPrompt<T, TSelf>.width
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.width
+  nameWithType.vb: GenericPrompt(Of T, TSelf).width
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).width
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.okButton
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.okButton
+  name: okButton
+  nameWithType: GenericPrompt<T, TSelf>.okButton
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.okButton
+  nameWithType.vb: GenericPrompt(Of T, TSelf).okButton
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).okButton
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.cancelButton
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.cancelButton
+  name: cancelButton
+  nameWithType: GenericPrompt<T, TSelf>.cancelButton
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.cancelButton
+  nameWithType.vb: GenericPrompt(Of T, TSelf).cancelButton
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).cancelButton
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  isExternal: true
+  name: Save(ScriptableObject)
+  nameWithType: ScriptableObjectUtility.Save(ScriptableObject)
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  commentId: T:AdvancedSceneManager.Utility.ScriptableObjectUtility
+  parent: AdvancedSceneManager.Utility
+  name: ScriptableObjectUtility
+  nameWithType: ScriptableObjectUtility
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: AdvancedSceneManager.Editor.Utility.PromptName.title*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.PromptName.title
+  name: title
+  nameWithType: PromptName.title
+  fullName: AdvancedSceneManager.Editor.Utility.PromptName.title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Editor.Utility.PromptName.OnContentGUI*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.PromptName.OnContentGUI
+  name: OnContentGUI
+  nameWithType: PromptName.OnContentGUI
+  fullName: AdvancedSceneManager.Editor.Utility.PromptName.OnContentGUI

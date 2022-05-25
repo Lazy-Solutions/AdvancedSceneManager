@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  <h1 id="AdvancedSceneManager_Utility" data-uid="AdvancedSceneManager.Utility" class="text-break">Namespace AdvancedSceneManager.Utility
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.ASM.html">ASM</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.ASM.yml" sourcestartlinenumber="1" sourceendlinenumber="1">This is <a class="xref" href="AdvancedSceneManager.Utility.SceneHelper.html">SceneHelper</a>, but we don&apos;t want the script to show up in object picker to avoid confusion, using a different name seems to be the only way?</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.CanvasGroupExtensions.html">CanvasGroupExtensions</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.CanvasSortOrderUtility.html">CanvasSortOrderUtility</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.CanvasSortOrderUtility.yml" sourcestartlinenumber="1" sourceendlinenumber="1">An utility class to manage sort order on canvases.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.DefaultSceneUtility.html">DefaultSceneUtility</a></h4>
+      <section><p>An utility class that manages the default scene, called &apos;AdvancedSceneManager&apos;.</p>
+<p>The default scene allows us to more easily close all scenes when we need to, since unity requires at least one scene to be open at any time.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html">DictionaryUtility</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.GuidReference.html">GuidReference</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.GuidReference.Editor.html">GuidReference.Editor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.GuidReferenceUtility.html">GuidReferenceUtility</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.GuidReferenceUtility.yml" sourcestartlinenumber="1" sourceendlinenumber="1">An utility for referencing objects globally.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.InGameToolbarUtility.html">InGameToolbarUtility</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.InGameToolbarUtility.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Provides an in-game toolbar that makes debugging scene management in build easier.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.LerpUtility.html">LerpUtility</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.LerpUtility.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Provides some convinience functions for lerping.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.LoadingScreenUtility.html">LoadingScreenUtility</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.LoadingScreenUtility.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Manager for loading screens.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.PauseScreenUtility.html">PauseScreenUtility</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.PauseScreenUtility.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Contains functions for interacting with the default pause screen.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.PersistentUtility.html">PersistentUtility</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.PersistentUtility.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Manages persistent scenes.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.PreloadedSceneHelper.html">PreloadedSceneHelper</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.PreloadedSceneHelper.yml" sourcestartlinenumber="1" sourceendlinenumber="1">An helper class to make working with preloaded scenes easier, contains method for finish loading and discarding preloaded scene.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.QueueUtility-1.html">QueueUtility&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.QueueUtility-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A utility that provides queuing.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.SceneCollectionUtility.html">SceneCollectionUtility</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.SceneCollectionUtility.yml" sourcestartlinenumber="1" sourceendlinenumber="1">An utility class to perform actions on collections.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.SceneDataUtility.html">SceneDataUtility</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.SceneDataUtility.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A utility for storing scene related data. Data can only be saved to disk in editor.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.SceneHelper.html">SceneHelper</a></h4>
+      <section><p>An helper for opening and closing scenes or scene collections.</p>
+<p>Most common use case would be to open / close scenes or scene collections from <span class="xref">UnityEngine.Events.UnityEvent</span>.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.SceneUtility.html">SceneUtility</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.SceneUtility.yml" sourcestartlinenumber="1" sourceendlinenumber="1">An utility class to perform actions on scenes.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.ScriptableObjectUtility.html">ScriptableObjectUtility</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.ScriptableObjectUtility.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Contains utility methods for <span class="xref">UnityEngine.ScriptableObject</span>.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.SerializableDictionary-2.html">SerializableDictionary&lt;TKey, TValue&gt;</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.SerializableDictionary-2.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A serializable dictionary.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.SerializableStringBoolDict.html">SerializableStringBoolDict</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.TimeSpanUtility.html">TimeSpanUtility</a></h4>
+      <section></section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="AdvancedSceneManager.Utility.IQueueable.html">IQueueable</a></h4>
+      <section><p sourcefile="api/AdvancedSceneManager.Utility.IQueueable.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Represents a queueable item.</p>
+</section>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

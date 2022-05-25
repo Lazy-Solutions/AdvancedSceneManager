@@ -1,0 +1,507 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab
+  commentId: T:AdvancedSceneManager.Editor.Utility.SettingsTab
+  id: SettingsTab
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.SettingsTab.#ctor
+  - AdvancedSceneManager.Editor.Utility.SettingsTab.Add(UnityEngine.UIElements.VisualElement,System.String)
+  - AdvancedSceneManager.Editor.Utility.SettingsTab.AddHeaderContent(UnityEngine.UIElements.VisualElement,System.String)
+  - AdvancedSceneManager.Editor.Utility.SettingsTab.DefaultHeaders
+  - AdvancedSceneManager.Editor.Utility.SettingsTab.GetHeaderOrder(System.String)
+  - AdvancedSceneManager.Editor.Utility.SettingsTab.instance
+  - AdvancedSceneManager.Editor.Utility.SettingsTab.Remove(UnityEngine.UIElements.VisualElement)
+  - AdvancedSceneManager.Editor.Utility.SettingsTab.RemoveHeaderContent(UnityEngine.UIElements.VisualElement)
+  - AdvancedSceneManager.Editor.Utility.SettingsTab.SetHeaderOrder(System.String,System.Int32)
+  - AdvancedSceneManager.Editor.Utility.SettingsTab.Spacer(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SettingsTab
+  nameWithType: SettingsTab
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SettingsTab
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    startLine: 10
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Provides the ability to add settings to advanced scene manager window settings.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public class SettingsTab
+    content.vb: Public Class SettingsTab
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.instance
+  commentId: P:AdvancedSceneManager.Editor.Utility.SettingsTab.instance
+  id: instance
+  parent: AdvancedSceneManager.Editor.Utility.SettingsTab
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: SettingsTab.instance
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.instance
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: instance
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    startLine: 13
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static SettingsTab instance { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Editor.Utility.SettingsTab
+    content.vb: Public Shared ReadOnly Property instance As SettingsTab
+  overload: AdvancedSceneManager.Editor.Utility.SettingsTab.instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.#ctor
+  commentId: M:AdvancedSceneManager.Editor.Utility.SettingsTab.#ctor
+  id: '#ctor'
+  parent: AdvancedSceneManager.Editor.Utility.SettingsTab
+  langs:
+  - csharp
+  - vb
+  name: SettingsTab()
+  nameWithType: SettingsTab.SettingsTab()
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.SettingsTab()
+  type: Constructor
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: .ctor
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    startLine: 15
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public SettingsTab()
+    content.vb: Public Sub New
+  overload: AdvancedSceneManager.Editor.Utility.SettingsTab.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.SetHeaderOrder(System.String,System.Int32)
+  commentId: M:AdvancedSceneManager.Editor.Utility.SettingsTab.SetHeaderOrder(System.String,System.Int32)
+  id: SetHeaderOrder(System.String,System.Int32)
+  parent: AdvancedSceneManager.Editor.Utility.SettingsTab
+  langs:
+  - csharp
+  - vb
+  name: SetHeaderOrder(String, Int32)
+  nameWithType: SettingsTab.SetHeaderOrder(String, Int32)
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.SetHeaderOrder(System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SetHeaderOrder
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    startLine: 62
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public void SetHeaderOrder(string header, int order)
+    parameters:
+    - id: header
+      type: System.String
+    - id: order
+      type: System.Int32
+    content.vb: Public Sub SetHeaderOrder(header As String, order As Integer)
+  overload: AdvancedSceneManager.Editor.Utility.SettingsTab.SetHeaderOrder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.GetHeaderOrder(System.String)
+  commentId: M:AdvancedSceneManager.Editor.Utility.SettingsTab.GetHeaderOrder(System.String)
+  id: GetHeaderOrder(System.String)
+  parent: AdvancedSceneManager.Editor.Utility.SettingsTab
+  langs:
+  - csharp
+  - vb
+  name: GetHeaderOrder(String)
+  nameWithType: SettingsTab.GetHeaderOrder(String)
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.GetHeaderOrder(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: GetHeaderOrder
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    startLine: 70
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public int GetHeaderOrder(string header)
+    parameters:
+    - id: header
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function GetHeaderOrder(header As String) As Integer
+  overload: AdvancedSceneManager.Editor.Utility.SettingsTab.GetHeaderOrder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.AddHeaderContent(UnityEngine.UIElements.VisualElement,System.String)
+  commentId: M:AdvancedSceneManager.Editor.Utility.SettingsTab.AddHeaderContent(UnityEngine.UIElements.VisualElement,System.String)
+  id: AddHeaderContent(UnityEngine.UIElements.VisualElement,System.String)
+  parent: AdvancedSceneManager.Editor.Utility.SettingsTab
+  langs:
+  - csharp
+  - vb
+  name: AddHeaderContent(VisualElement, String)
+  nameWithType: SettingsTab.AddHeaderContent(VisualElement, String)
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.AddHeaderContent(UnityEngine.UIElements.VisualElement, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: AddHeaderContent
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    startLine: 80
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public void AddHeaderContent(VisualElement callback, string header)
+    parameters:
+    - id: callback
+      type: UnityEngine.UIElements.VisualElement
+    - id: header
+      type: System.String
+    content.vb: Public Sub AddHeaderContent(callback As VisualElement, header As String)
+  overload: AdvancedSceneManager.Editor.Utility.SettingsTab.AddHeaderContent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.RemoveHeaderContent(UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.Utility.SettingsTab.RemoveHeaderContent(UnityEngine.UIElements.VisualElement)
+  id: RemoveHeaderContent(UnityEngine.UIElements.VisualElement)
+  parent: AdvancedSceneManager.Editor.Utility.SettingsTab
+  langs:
+  - csharp
+  - vb
+  name: RemoveHeaderContent(VisualElement)
+  nameWithType: SettingsTab.RemoveHeaderContent(VisualElement)
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.RemoveHeaderContent(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: RemoveHeaderContent
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    startLine: 91
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public void RemoveHeaderContent(VisualElement callback)
+    parameters:
+    - id: callback
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Sub RemoveHeaderContent(callback As VisualElement)
+  overload: AdvancedSceneManager.Editor.Utility.SettingsTab.RemoveHeaderContent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.DefaultHeaders
+  commentId: P:AdvancedSceneManager.Editor.Utility.SettingsTab.DefaultHeaders
+  id: DefaultHeaders
+  parent: AdvancedSceneManager.Editor.Utility.SettingsTab
+  langs:
+  - csharp
+  - vb
+  name: DefaultHeaders
+  nameWithType: SettingsTab.DefaultHeaders
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.DefaultHeaders
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DefaultHeaders
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    startLine: 97
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public SettingsTab._DefaultHeaders DefaultHeaders { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders
+    content.vb: Public ReadOnly Property DefaultHeaders As SettingsTab._DefaultHeaders
+  overload: AdvancedSceneManager.Editor.Utility.SettingsTab.DefaultHeaders*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.Add(UnityEngine.UIElements.VisualElement,System.String)
+  commentId: M:AdvancedSceneManager.Editor.Utility.SettingsTab.Add(UnityEngine.UIElements.VisualElement,System.String)
+  id: Add(UnityEngine.UIElements.VisualElement,System.String)
+  parent: AdvancedSceneManager.Editor.Utility.SettingsTab
+  langs:
+  - csharp
+  - vb
+  name: Add(VisualElement, String)
+  nameWithType: SettingsTab.Add(VisualElement, String)
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.Add(UnityEngine.UIElements.VisualElement, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Add
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    startLine: 122
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Add field to settings tab.
+  example: []
+  syntax:
+    content: public void Add(VisualElement callback, string header)
+    parameters:
+    - id: callback
+      type: UnityEngine.UIElements.VisualElement
+      description: The callback that is called when your field is to be constructed. An element of type <xref href="UnityEngine.UIElements.VisualElement" data-throw-if-not-resolved="false"></xref> is expected to be returned.
+    - id: header
+      type: System.String
+      description: The header to place the field under, see also <xref href="AdvancedSceneManager.Editor.Utility.SettingsTab.DefaultHeaders" data-throw-if-not-resolved="false"></xref>, for the default headers.
+    content.vb: Public Sub Add(callback As VisualElement, header As String)
+  overload: AdvancedSceneManager.Editor.Utility.SettingsTab.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.Spacer(System.String)
+  commentId: M:AdvancedSceneManager.Editor.Utility.SettingsTab.Spacer(System.String)
+  id: Spacer(System.String)
+  parent: AdvancedSceneManager.Editor.Utility.SettingsTab
+  langs:
+  - csharp
+  - vb
+  name: Spacer(String)
+  nameWithType: SettingsTab.Spacer(String)
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.Spacer(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Spacer
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    startLine: 139
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public void Spacer(string header)
+    parameters:
+    - id: header
+      type: System.String
+    content.vb: Public Sub Spacer(header As String)
+  overload: AdvancedSceneManager.Editor.Utility.SettingsTab.Spacer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.Remove(UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.Utility.SettingsTab.Remove(UnityEngine.UIElements.VisualElement)
+  id: Remove(UnityEngine.UIElements.VisualElement)
+  parent: AdvancedSceneManager.Editor.Utility.SettingsTab
+  langs:
+  - csharp
+  - vb
+  name: Remove(VisualElement)
+  nameWithType: SettingsTab.Remove(VisualElement)
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.Remove(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Remove
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    startLine: 143
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Removes the setting field.
+  example: []
+  syntax:
+    content: public void Remove(VisualElement callback)
+    parameters:
+    - id: callback
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Sub Remove(callback As VisualElement)
+  overload: AdvancedSceneManager.Editor.Utility.SettingsTab.Remove*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.instance*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.SettingsTab.instance
+  name: instance
+  nameWithType: SettingsTab.instance
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.instance
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab
+  commentId: T:AdvancedSceneManager.Editor.Utility.SettingsTab
+  parent: AdvancedSceneManager.Editor.Utility
+  name: SettingsTab
+  nameWithType: SettingsTab
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.#ctor*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.SettingsTab.#ctor
+  name: SettingsTab
+  nameWithType: SettingsTab.SettingsTab
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.SettingsTab
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.SetHeaderOrder*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.SettingsTab.SetHeaderOrder
+  name: SetHeaderOrder
+  nameWithType: SettingsTab.SetHeaderOrder
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.SetHeaderOrder
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.GetHeaderOrder*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.SettingsTab.GetHeaderOrder
+  name: GetHeaderOrder
+  nameWithType: SettingsTab.GetHeaderOrder
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.GetHeaderOrder
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.AddHeaderContent*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.SettingsTab.AddHeaderContent
+  name: AddHeaderContent
+  nameWithType: SettingsTab.AddHeaderContent
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.AddHeaderContent
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.RemoveHeaderContent*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.SettingsTab.RemoveHeaderContent
+  name: RemoveHeaderContent
+  nameWithType: SettingsTab.RemoveHeaderContent
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.RemoveHeaderContent
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.DefaultHeaders*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.SettingsTab.DefaultHeaders
+  name: DefaultHeaders
+  nameWithType: SettingsTab.DefaultHeaders
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.DefaultHeaders
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders
+  commentId: T:AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders
+  parent: AdvancedSceneManager.Editor.Utility
+  name: SettingsTab._DefaultHeaders
+  nameWithType: SettingsTab._DefaultHeaders
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.DefaultHeaders
+  commentId: P:AdvancedSceneManager.Editor.Utility.SettingsTab.DefaultHeaders
+  isExternal: true
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.Add*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.SettingsTab.Add
+  name: Add
+  nameWithType: SettingsTab.Add
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.Add
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.Spacer*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.SettingsTab.Spacer
+  name: Spacer
+  nameWithType: SettingsTab.Spacer
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.Spacer
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab.Remove*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.SettingsTab.Remove
+  name: Remove
+  nameWithType: SettingsTab.Remove
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab.Remove

@@ -1,0 +1,1448 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction
+  commentId: T:AdvancedSceneManager.Core.Actions.SceneLoadAction
+  id: SceneLoadAction
+  parent: AdvancedSceneManager.Core.Actions
+  children:
+  - AdvancedSceneManager.Core.Actions.SceneLoadAction.#ctor(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneCollection)
+  - AdvancedSceneManager.Core.Actions.SceneLoadAction.AddScene(AdvancedSceneManager.Core.OpenSceneInfo,AdvancedSceneManager.Core.SceneManagerBase)
+  - AdvancedSceneManager.Core.Actions.SceneLoadAction.BeforeDoAction(System.Boolean@)
+  - AdvancedSceneManager.Core.Actions.SceneLoadAction.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  - AdvancedSceneManager.Core.Actions.SceneLoadAction.GetOpenSceneInfo(AdvancedSceneManager.Core.SceneManagerBase,UnityEngine.AsyncOperation)
+  - AdvancedSceneManager.Core.Actions.SceneLoadAction.SetPersistentFlag(AdvancedSceneManager.Core.OpenSceneInfo)
+  langs:
+  - csharp
+  - vb
+  name: SceneLoadAction
+  nameWithType: SceneLoadAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SceneLoadAction
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+    startLine: 13
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  summary: Loads a scene, but does not activate it. This is the same as preloading. See <xref href="AdvancedSceneManager.Core.Actions.SceneFinishLoadAction" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public class SceneLoadAction : OverridableAction<SceneLoadAction>'
+    content.vb: >-
+      Public Class SceneLoadAction
+          Inherits OverridableAction(Of SceneLoadAction)
+  inheritance:
+  - System.Object
+  - AdvancedSceneManager.Core.Actions.SceneAction
+  - AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}
+  inheritedMembers:
+  - AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.overrides
+  - AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.Override(System.String,System.Func{AdvancedSceneManager.Core.SceneManagerBase,AdvancedSceneManager.Core.Actions.SceneLoadAction,System.Collections.IEnumerator})
+  - AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.ClearOverride(System.String)
+  - AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.ClearOverrides
+  - AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  - AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.lazyScene
+  - AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.ToString
+  - AdvancedSceneManager.Core.Actions.SceneAction.reportsProgress
+  - AdvancedSceneManager.Core.Actions.SceneAction.openScene
+  - AdvancedSceneManager.Core.Actions.SceneAction.scene
+  - AdvancedSceneManager.Core.Actions.SceneAction.collection
+  - AdvancedSceneManager.Core.Actions.SceneAction.progress
+  - AdvancedSceneManager.Core.Actions.SceneAction.isDone
+  - AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+  - AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+  - AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+  - AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+  - AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction.#ctor(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneCollection)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneLoadAction.#ctor(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneCollection)
+  id: '#ctor(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneCollection)'
+  parent: AdvancedSceneManager.Core.Actions.SceneLoadAction
+  langs:
+  - csharp
+  - vb
+  name: SceneLoadAction(Scene, SceneCollection)
+  nameWithType: SceneLoadAction.SceneLoadAction(Scene, SceneCollection)
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction.SceneLoadAction(AdvancedSceneManager.Models.Scene, AdvancedSceneManager.Models.SceneCollection)
+  type: Constructor
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: .ctor
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+    startLine: 16
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  syntax:
+    content: public SceneLoadAction(Scene scene, SceneCollection collection = null)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    content.vb: Public Sub New(scene As Scene, collection As SceneCollection = Nothing)
+  overload: AdvancedSceneManager.Core.Actions.SceneLoadAction.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction.BeforeDoAction(System.Boolean@)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneLoadAction.BeforeDoAction(System.Boolean@)
+  id: BeforeDoAction(System.Boolean@)
+  parent: AdvancedSceneManager.Core.Actions.SceneLoadAction
+  langs:
+  - csharp
+  - vb
+  name: BeforeDoAction(out Boolean)
+  nameWithType: SceneLoadAction.BeforeDoAction(out Boolean)
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction.BeforeDoAction(out System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: BeforeDoAction
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+    startLine: 43
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  syntax:
+    content: protected override void BeforeDoAction(out bool exitOutEarly)
+    parameters:
+    - id: exitOutEarly
+      type: System.Boolean
+    content.vb: Protected Overrides Sub BeforeDoAction(ByRef exitOutEarly As Boolean)
+  overridden: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.BeforeDoAction(System.Boolean@)
+  overload: AdvancedSceneManager.Core.Actions.SceneLoadAction.BeforeDoAction*
+  nameWithType.vb: SceneLoadAction.BeforeDoAction(ByRef Boolean)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: AdvancedSceneManager.Core.Actions.SceneLoadAction.BeforeDoAction(ByRef System.Boolean)
+  name.vb: BeforeDoAction(ByRef Boolean)
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneLoadAction.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  id: DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  parent: AdvancedSceneManager.Core.Actions.SceneLoadAction
+  langs:
+  - csharp
+  - vb
+  name: DoNonOverridenAction(SceneManagerBase)
+  nameWithType: SceneLoadAction.DoNonOverridenAction(SceneManagerBase)
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DoNonOverridenAction
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+    startLine: 49
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  syntax:
+    content: public override IEnumerator DoNonOverridenAction(SceneManagerBase _sceneManager)
+    parameters:
+    - id: _sceneManager
+      type: AdvancedSceneManager.Core.SceneManagerBase
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overrides Function DoNonOverridenAction(_sceneManager As SceneManagerBase) As IEnumerator
+  overridden: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  overload: AdvancedSceneManager.Core.Actions.SceneLoadAction.DoNonOverridenAction*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction.GetOpenSceneInfo(AdvancedSceneManager.Core.SceneManagerBase,UnityEngine.AsyncOperation)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneLoadAction.GetOpenSceneInfo(AdvancedSceneManager.Core.SceneManagerBase,UnityEngine.AsyncOperation)
+  id: GetOpenSceneInfo(AdvancedSceneManager.Core.SceneManagerBase,UnityEngine.AsyncOperation)
+  parent: AdvancedSceneManager.Core.Actions.SceneLoadAction
+  langs:
+  - csharp
+  - vb
+  name: GetOpenSceneInfo(SceneManagerBase, AsyncOperation)
+  nameWithType: SceneLoadAction.GetOpenSceneInfo(SceneManagerBase, AsyncOperation)
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction.GetOpenSceneInfo(AdvancedSceneManager.Core.SceneManagerBase, UnityEngine.AsyncOperation)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: GetOpenSceneInfo
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+    startLine: 68
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  syntax:
+    content: protected OpenSceneInfo GetOpenSceneInfo(SceneManagerBase _sceneManager, AsyncOperation asyncOperation)
+    parameters:
+    - id: _sceneManager
+      type: AdvancedSceneManager.Core.SceneManagerBase
+    - id: asyncOperation
+      type: UnityEngine.AsyncOperation
+    return:
+      type: AdvancedSceneManager.Core.OpenSceneInfo
+    content.vb: Protected Function GetOpenSceneInfo(_sceneManager As SceneManagerBase, asyncOperation As AsyncOperation) As OpenSceneInfo
+  overload: AdvancedSceneManager.Core.Actions.SceneLoadAction.GetOpenSceneInfo*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction.SetPersistentFlag(AdvancedSceneManager.Core.OpenSceneInfo)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneLoadAction.SetPersistentFlag(AdvancedSceneManager.Core.OpenSceneInfo)
+  id: SetPersistentFlag(AdvancedSceneManager.Core.OpenSceneInfo)
+  parent: AdvancedSceneManager.Core.Actions.SceneLoadAction
+  langs:
+  - csharp
+  - vb
+  name: SetPersistentFlag(OpenSceneInfo)
+  nameWithType: SceneLoadAction.SetPersistentFlag(OpenSceneInfo)
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction.SetPersistentFlag(AdvancedSceneManager.Core.OpenSceneInfo)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SetPersistentFlag
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+    startLine: 93
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  syntax:
+    content: public void SetPersistentFlag(OpenSceneInfo scene)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Core.OpenSceneInfo
+    content.vb: Public Sub SetPersistentFlag(scene As OpenSceneInfo)
+  overload: AdvancedSceneManager.Core.Actions.SceneLoadAction.SetPersistentFlag*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction.AddScene(AdvancedSceneManager.Core.OpenSceneInfo,AdvancedSceneManager.Core.SceneManagerBase)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneLoadAction.AddScene(AdvancedSceneManager.Core.OpenSceneInfo,AdvancedSceneManager.Core.SceneManagerBase)
+  id: AddScene(AdvancedSceneManager.Core.OpenSceneInfo,AdvancedSceneManager.Core.SceneManagerBase)
+  parent: AdvancedSceneManager.Core.Actions.SceneLoadAction
+  langs:
+  - csharp
+  - vb
+  name: AddScene(OpenSceneInfo, SceneManagerBase)
+  nameWithType: SceneLoadAction.AddScene(OpenSceneInfo, SceneManagerBase)
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction.AddScene(AdvancedSceneManager.Core.OpenSceneInfo, AdvancedSceneManager.Core.SceneManagerBase)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: AddScene
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Open/SceneLoadAction.cs
+    startLine: 96
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  syntax:
+    content: public void AddScene(OpenSceneInfo scene, SceneManagerBase sceneManager)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Core.OpenSceneInfo
+    - id: sceneManager
+      type: AdvancedSceneManager.Core.SceneManagerBase
+    content.vb: Public Sub AddScene(scene As OpenSceneInfo, sceneManager As SceneManagerBase)
+  overload: AdvancedSceneManager.Core.Actions.SceneLoadAction.AddScene*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Core.Actions.SceneFinishLoadAction
+  commentId: T:AdvancedSceneManager.Core.Actions.SceneFinishLoadAction
+  name: SceneFinishLoadAction
+  nameWithType: SceneFinishLoadAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneFinishLoadAction
+- uid: AdvancedSceneManager.Core.Actions
+  commentId: N:AdvancedSceneManager.Core.Actions
+  name: AdvancedSceneManager.Core.Actions
+  nameWithType: AdvancedSceneManager.Core.Actions
+  fullName: AdvancedSceneManager.Core.Actions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: AdvancedSceneManager.Core.Actions.SceneAction
+  commentId: T:AdvancedSceneManager.Core.Actions.SceneAction
+  parent: AdvancedSceneManager.Core.Actions
+  name: SceneAction
+  nameWithType: SceneAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}
+  commentId: T:AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}
+  parent: AdvancedSceneManager.Core.Actions
+  definition: AdvancedSceneManager.Core.Actions.OverridableAction`1
+  name: OverridableAction<SceneLoadAction>
+  nameWithType: OverridableAction<SceneLoadAction>
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>
+  nameWithType.vb: OverridableAction(Of SceneLoadAction)
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction)
+  name.vb: OverridableAction(Of SceneLoadAction)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1
+    name: OverridableAction
+    nameWithType: OverridableAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Core.Actions.SceneLoadAction
+    name: SceneLoadAction
+    nameWithType: SceneLoadAction
+    fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1
+    name: OverridableAction
+    nameWithType: OverridableAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Core.Actions.SceneLoadAction
+    name: SceneLoadAction
+    nameWithType: SceneLoadAction
+    fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.overrides
+  commentId: P:AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.overrides
+  parent: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}
+  definition: AdvancedSceneManager.Core.Actions.OverridableAction`1.overrides
+  name: overrides
+  nameWithType: OverridableAction<SceneLoadAction>.overrides
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.overrides
+  nameWithType.vb: OverridableAction(Of SceneLoadAction).overrides
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).overrides
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.Override(System.String,System.Func{AdvancedSceneManager.Core.SceneManagerBase,AdvancedSceneManager.Core.Actions.SceneLoadAction,System.Collections.IEnumerator})
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.Override(System.String,System.Func{AdvancedSceneManager.Core.SceneManagerBase,AdvancedSceneManager.Core.Actions.SceneLoadAction,System.Collections.IEnumerator})
+  parent: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}
+  definition: AdvancedSceneManager.Core.Actions.OverridableAction`1.Override(System.String,System.Func{AdvancedSceneManager.Core.SceneManagerBase,`0,System.Collections.IEnumerator})
+  name: Override(String, Func<SceneManagerBase, SceneLoadAction, IEnumerator>)
+  nameWithType: OverridableAction<SceneLoadAction>.Override(String, Func<SceneManagerBase, SceneLoadAction, IEnumerator>)
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.Override(System.String, System.Func<AdvancedSceneManager.Core.SceneManagerBase, AdvancedSceneManager.Core.Actions.SceneLoadAction, System.Collections.IEnumerator>)
+  nameWithType.vb: OverridableAction(Of SceneLoadAction).Override(String, Func(Of SceneManagerBase, SceneLoadAction, IEnumerator))
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).Override(System.String, System.Func(Of AdvancedSceneManager.Core.SceneManagerBase, AdvancedSceneManager.Core.Actions.SceneLoadAction, System.Collections.IEnumerator))
+  name.vb: Override(String, Func(Of SceneManagerBase, SceneLoadAction, IEnumerator))
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.Override(System.String,System.Func{AdvancedSceneManager.Core.SceneManagerBase,`0,System.Collections.IEnumerator})
+    name: Override
+    nameWithType: OverridableAction<SceneLoadAction>.Override
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.Override
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Core.Actions.SceneLoadAction
+    name: SceneLoadAction
+    nameWithType: SceneLoadAction
+    fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.Override(System.String,System.Func{AdvancedSceneManager.Core.SceneManagerBase,`0,System.Collections.IEnumerator})
+    name: Override
+    nameWithType: OverridableAction(Of SceneLoadAction).Override
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).Override
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Core.Actions.SceneLoadAction
+    name: SceneLoadAction
+    nameWithType: SceneLoadAction
+    fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.ClearOverride(System.String)
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.ClearOverride(System.String)
+  parent: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}
+  definition: AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverride(System.String)
+  name: ClearOverride(String)
+  nameWithType: OverridableAction<SceneLoadAction>.ClearOverride(String)
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.ClearOverride(System.String)
+  nameWithType.vb: OverridableAction(Of SceneLoadAction).ClearOverride(String)
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).ClearOverride(System.String)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverride(System.String)
+    name: ClearOverride
+    nameWithType: OverridableAction<SceneLoadAction>.ClearOverride
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.ClearOverride
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverride(System.String)
+    name: ClearOverride
+    nameWithType: OverridableAction(Of SceneLoadAction).ClearOverride
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).ClearOverride
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.ClearOverrides
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.ClearOverrides
+  parent: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}
+  definition: AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverrides
+  name: ClearOverrides()
+  nameWithType: OverridableAction<SceneLoadAction>.ClearOverrides()
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.ClearOverrides()
+  nameWithType.vb: OverridableAction(Of SceneLoadAction).ClearOverrides()
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).ClearOverrides()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverrides
+    name: ClearOverrides
+    nameWithType: OverridableAction<SceneLoadAction>.ClearOverrides
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.ClearOverrides
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverrides
+    name: ClearOverrides
+    nameWithType: OverridableAction(Of SceneLoadAction).ClearOverrides
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).ClearOverrides
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  parent: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}
+  definition: AdvancedSceneManager.Core.Actions.OverridableAction`1.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  name: DoAction(SceneManagerBase)
+  nameWithType: OverridableAction<SceneLoadAction>.DoAction(SceneManagerBase)
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  nameWithType.vb: OverridableAction(Of SceneLoadAction).DoAction(SceneManagerBase)
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+    name: DoAction
+    nameWithType: OverridableAction<SceneLoadAction>.DoAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.DoAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+    name: DoAction
+    nameWithType: OverridableAction(Of SceneLoadAction).DoAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).DoAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.lazyScene
+  commentId: P:AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.lazyScene
+  parent: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}
+  definition: AdvancedSceneManager.Core.Actions.OverridableAction`1.lazyScene
+  name: lazyScene
+  nameWithType: OverridableAction<SceneLoadAction>.lazyScene
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.lazyScene
+  nameWithType.vb: OverridableAction(Of SceneLoadAction).lazyScene
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).lazyScene
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.ToString
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.ToString
+  parent: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}
+  definition: AdvancedSceneManager.Core.Actions.OverridableAction`1.ToString
+  name: ToString()
+  nameWithType: OverridableAction<SceneLoadAction>.ToString()
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.ToString()
+  nameWithType.vb: OverridableAction(Of SceneLoadAction).ToString()
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).ToString()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ToString
+    name: ToString
+    nameWithType: OverridableAction<SceneLoadAction>.ToString
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ToString
+    name: ToString
+    nameWithType: OverridableAction(Of SceneLoadAction).ToString
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.reportsProgress
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.reportsProgress
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: reportsProgress
+  nameWithType: SceneAction.reportsProgress
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.reportsProgress
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.openScene
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.openScene
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: openScene
+  nameWithType: SceneAction.openScene
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.openScene
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.scene
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.scene
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: scene
+  nameWithType: SceneAction.scene
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.scene
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.collection
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.collection
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: collection
+  nameWithType: SceneAction.collection
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.collection
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.progress
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.progress
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: progress
+  nameWithType: SceneAction.progress
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.progress
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.isDone
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.isDone
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: isDone
+  nameWithType: SceneAction.isDone
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.isDone
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  isExternal: true
+  name: RegisterCallback(Action)
+  nameWithType: SceneAction.RegisterCallback(Action)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+    name: RegisterCallback
+    nameWithType: SceneAction.RegisterCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+    name: RegisterCallback
+    nameWithType: SceneAction.RegisterCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  isExternal: true
+  name: UnregisterCallback(Action)
+  nameWithType: SceneAction.UnregisterCallback(Action)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+    name: UnregisterCallback
+    nameWithType: SceneAction.UnregisterCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+    name: UnregisterCallback
+    nameWithType: SceneAction.UnregisterCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  isExternal: true
+  name: OnProgressCallback(Action<Single>)
+  nameWithType: SceneAction.OnProgressCallback(Action<Single>)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action<System.Single>)
+  nameWithType.vb: SceneAction.OnProgressCallback(Action(Of Single))
+  fullName.vb: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action(Of System.Single))
+  name.vb: OnProgressCallback(Action(Of Single))
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+    name: OnProgressCallback
+    nameWithType: SceneAction.OnProgressCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+    name: OnProgressCallback
+    nameWithType: SceneAction.OnProgressCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  isExternal: true
+  name: OnProgress(Single)
+  nameWithType: SceneAction.OnProgress(Single)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+    name: OnProgress
+    nameWithType: SceneAction.OnProgress
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+    name: OnProgress
+    nameWithType: SceneAction.OnProgress
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.Done
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: Done()
+  nameWithType: SceneAction.Done()
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.Done
+    name: Done
+    nameWithType: SceneAction.Done
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.Done
+    name: Done
+    nameWithType: SceneAction.Done
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: Done(OpenSceneInfo)
+  nameWithType: SceneAction.Done(OpenSceneInfo)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+    name: Done
+    nameWithType: SceneAction.Done
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.OpenSceneInfo
+    name: OpenSceneInfo
+    nameWithType: OpenSceneInfo
+    fullName: AdvancedSceneManager.Core.OpenSceneInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+    name: Done
+    nameWithType: SceneAction.Done
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.OpenSceneInfo
+    name: OpenSceneInfo
+    nameWithType: OpenSceneInfo
+    fullName: AdvancedSceneManager.Core.OpenSceneInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction`1
+  commentId: T:AdvancedSceneManager.Core.Actions.OverridableAction`1
+  name: OverridableAction<T>
+  nameWithType: OverridableAction<T>
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>
+  nameWithType.vb: OverridableAction(Of T)
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of T)
+  name.vb: OverridableAction(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1
+    name: OverridableAction
+    nameWithType: OverridableAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1
+    name: OverridableAction
+    nameWithType: OverridableAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.overrides
+  commentId: P:AdvancedSceneManager.Core.Actions.OverridableAction`1.overrides
+  name: overrides
+  nameWithType: OverridableAction<T>.overrides
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.overrides
+  nameWithType.vb: OverridableAction(Of T).overrides
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).overrides
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.Override(System.String,System.Func{AdvancedSceneManager.Core.SceneManagerBase,`0,System.Collections.IEnumerator})
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction`1.Override(System.String,System.Func{AdvancedSceneManager.Core.SceneManagerBase,`0,System.Collections.IEnumerator})
+  isExternal: true
+  name: Override(String, Func<SceneManagerBase, T, IEnumerator>)
+  nameWithType: OverridableAction<T>.Override(String, Func<SceneManagerBase, T, IEnumerator>)
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.Override(System.String, System.Func<AdvancedSceneManager.Core.SceneManagerBase, T, System.Collections.IEnumerator>)
+  nameWithType.vb: OverridableAction(Of T).Override(String, Func(Of SceneManagerBase, T, IEnumerator))
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).Override(System.String, System.Func(Of AdvancedSceneManager.Core.SceneManagerBase, T, System.Collections.IEnumerator))
+  name.vb: Override(String, Func(Of SceneManagerBase, T, IEnumerator))
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.Override(System.String,System.Func{AdvancedSceneManager.Core.SceneManagerBase,`0,System.Collections.IEnumerator})
+    name: Override
+    nameWithType: OverridableAction<T>.Override
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.Override
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.Override(System.String,System.Func{AdvancedSceneManager.Core.SceneManagerBase,`0,System.Collections.IEnumerator})
+    name: Override
+    nameWithType: OverridableAction(Of T).Override
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).Override
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverride(System.String)
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverride(System.String)
+  isExternal: true
+  name: ClearOverride(String)
+  nameWithType: OverridableAction<T>.ClearOverride(String)
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.ClearOverride(System.String)
+  nameWithType.vb: OverridableAction(Of T).ClearOverride(String)
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).ClearOverride(System.String)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverride(System.String)
+    name: ClearOverride
+    nameWithType: OverridableAction<T>.ClearOverride
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.ClearOverride
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverride(System.String)
+    name: ClearOverride
+    nameWithType: OverridableAction(Of T).ClearOverride
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).ClearOverride
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverrides
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverrides
+  name: ClearOverrides()
+  nameWithType: OverridableAction<T>.ClearOverrides()
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.ClearOverrides()
+  nameWithType.vb: OverridableAction(Of T).ClearOverrides()
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).ClearOverrides()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverrides
+    name: ClearOverrides
+    nameWithType: OverridableAction<T>.ClearOverrides
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.ClearOverrides
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverrides
+    name: ClearOverrides
+    nameWithType: OverridableAction(Of T).ClearOverrides
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).ClearOverrides
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction`1.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  name: DoAction(SceneManagerBase)
+  nameWithType: OverridableAction<T>.DoAction(SceneManagerBase)
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  nameWithType.vb: OverridableAction(Of T).DoAction(SceneManagerBase)
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+    name: DoAction
+    nameWithType: OverridableAction<T>.DoAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.DoAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+    name: DoAction
+    nameWithType: OverridableAction(Of T).DoAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).DoAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.lazyScene
+  commentId: P:AdvancedSceneManager.Core.Actions.OverridableAction`1.lazyScene
+  name: lazyScene
+  nameWithType: OverridableAction<T>.lazyScene
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.lazyScene
+  nameWithType.vb: OverridableAction(Of T).lazyScene
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).lazyScene
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ToString
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction`1.ToString
+  name: ToString()
+  nameWithType: OverridableAction<T>.ToString()
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.ToString()
+  nameWithType.vb: OverridableAction(Of T).ToString()
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).ToString()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ToString
+    name: ToString
+    nameWithType: OverridableAction<T>.ToString
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.ToString
+    name: ToString
+    nameWithType: OverridableAction(Of T).ToString
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction.#ctor*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.SceneLoadAction.#ctor
+  name: SceneLoadAction
+  nameWithType: SceneLoadAction.SceneLoadAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction.SceneLoadAction
+- uid: AdvancedSceneManager.Models.Scene
+  commentId: T:AdvancedSceneManager.Models.Scene
+  parent: AdvancedSceneManager.Models
+  name: Scene
+  nameWithType: Scene
+  fullName: AdvancedSceneManager.Models.Scene
+- uid: AdvancedSceneManager.Models.SceneCollection
+  commentId: T:AdvancedSceneManager.Models.SceneCollection
+  parent: AdvancedSceneManager.Models
+  name: SceneCollection
+  nameWithType: SceneCollection
+  fullName: AdvancedSceneManager.Models.SceneCollection
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.BeforeDoAction(System.Boolean@)
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.BeforeDoAction(System.Boolean@)
+  parent: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}
+  definition: AdvancedSceneManager.Core.Actions.OverridableAction`1.BeforeDoAction(System.Boolean@)
+  name: BeforeDoAction(Boolean)
+  nameWithType: OverridableAction<SceneLoadAction>.BeforeDoAction(Boolean)
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.BeforeDoAction(System.Boolean)
+  nameWithType.vb: OverridableAction(Of SceneLoadAction).BeforeDoAction(Boolean)
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).BeforeDoAction(System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.BeforeDoAction(System.Boolean@)
+    name: BeforeDoAction
+    nameWithType: OverridableAction<SceneLoadAction>.BeforeDoAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.BeforeDoAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.BeforeDoAction(System.Boolean@)
+    name: BeforeDoAction
+    nameWithType: OverridableAction(Of SceneLoadAction).BeforeDoAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).BeforeDoAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction.BeforeDoAction*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.SceneLoadAction.BeforeDoAction
+  name: BeforeDoAction
+  nameWithType: SceneLoadAction.BeforeDoAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction.BeforeDoAction
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.BeforeDoAction(System.Boolean@)
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction`1.BeforeDoAction(System.Boolean@)
+  isExternal: true
+  name: BeforeDoAction(Boolean)
+  nameWithType: OverridableAction<T>.BeforeDoAction(Boolean)
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.BeforeDoAction(System.Boolean)
+  nameWithType.vb: OverridableAction(Of T).BeforeDoAction(Boolean)
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).BeforeDoAction(System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.BeforeDoAction(System.Boolean@)
+    name: BeforeDoAction
+    nameWithType: OverridableAction<T>.BeforeDoAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.BeforeDoAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.BeforeDoAction(System.Boolean@)
+    name: BeforeDoAction
+    nameWithType: OverridableAction(Of T).BeforeDoAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).BeforeDoAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  parent: AdvancedSceneManager.Core.Actions.OverridableAction{AdvancedSceneManager.Core.Actions.SceneLoadAction}
+  definition: AdvancedSceneManager.Core.Actions.OverridableAction`1.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  name: DoNonOverridenAction(SceneManagerBase)
+  nameWithType: OverridableAction<SceneLoadAction>.DoNonOverridenAction(SceneManagerBase)
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  nameWithType.vb: OverridableAction(Of SceneLoadAction).DoNonOverridenAction(SceneManagerBase)
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+    name: DoNonOverridenAction
+    nameWithType: OverridableAction<SceneLoadAction>.DoNonOverridenAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<AdvancedSceneManager.Core.Actions.SceneLoadAction>.DoNonOverridenAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+    name: DoNonOverridenAction
+    nameWithType: OverridableAction(Of SceneLoadAction).DoNonOverridenAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of AdvancedSceneManager.Core.Actions.SceneLoadAction).DoNonOverridenAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction.DoNonOverridenAction*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.SceneLoadAction.DoNonOverridenAction
+  name: DoNonOverridenAction
+  nameWithType: SceneLoadAction.DoNonOverridenAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction.DoNonOverridenAction
+- uid: AdvancedSceneManager.Core.SceneManagerBase
+  commentId: T:AdvancedSceneManager.Core.SceneManagerBase
+  parent: AdvancedSceneManager.Core
+  name: SceneManagerBase
+  nameWithType: SceneManagerBase
+  fullName: AdvancedSceneManager.Core.SceneManagerBase
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  commentId: M:AdvancedSceneManager.Core.Actions.OverridableAction`1.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  name: DoNonOverridenAction(SceneManagerBase)
+  nameWithType: OverridableAction<T>.DoNonOverridenAction(SceneManagerBase)
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  nameWithType.vb: OverridableAction(Of T).DoNonOverridenAction(SceneManagerBase)
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+    name: DoNonOverridenAction
+    nameWithType: OverridableAction<T>.DoNonOverridenAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>.DoNonOverridenAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)
+    name: DoNonOverridenAction
+    nameWithType: OverridableAction(Of T).DoNonOverridenAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction(Of T).DoNonOverridenAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction.GetOpenSceneInfo*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.SceneLoadAction.GetOpenSceneInfo
+  name: GetOpenSceneInfo
+  nameWithType: SceneLoadAction.GetOpenSceneInfo
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction.GetOpenSceneInfo
+- uid: UnityEngine.AsyncOperation
+  commentId: T:UnityEngine.AsyncOperation
+  parent: UnityEngine
+  isExternal: true
+  name: AsyncOperation
+  nameWithType: AsyncOperation
+  fullName: UnityEngine.AsyncOperation
+- uid: AdvancedSceneManager.Core.OpenSceneInfo
+  commentId: T:AdvancedSceneManager.Core.OpenSceneInfo
+  parent: AdvancedSceneManager.Core
+  name: OpenSceneInfo
+  nameWithType: OpenSceneInfo
+  fullName: AdvancedSceneManager.Core.OpenSceneInfo
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction.SetPersistentFlag*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.SceneLoadAction.SetPersistentFlag
+  name: SetPersistentFlag
+  nameWithType: SceneLoadAction.SetPersistentFlag
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction.SetPersistentFlag
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction.AddScene*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.SceneLoadAction.AddScene
+  name: AddScene
+  nameWithType: SceneLoadAction.AddScene
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction.AddScene

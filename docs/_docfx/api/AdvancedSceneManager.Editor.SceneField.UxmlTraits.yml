@@ -1,0 +1,359 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.SceneField.UxmlTraits
+  commentId: T:AdvancedSceneManager.Editor.SceneField.UxmlTraits
+  id: SceneField.UxmlTraits
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.SceneField.UxmlTraits.Init(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.IUxmlAttributes,UnityEngine.UIElements.CreationContext)
+  - AdvancedSceneManager.Editor.SceneField.UxmlTraits.uxmlChildElementsDescription
+  langs:
+  - csharp
+  - vb
+  name: SceneField.UxmlTraits
+  nameWithType: SceneField.UxmlTraits
+  fullName: AdvancedSceneManager.Editor.SceneField.UxmlTraits
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: UxmlTraits
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+    startLine: 412
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: 'public class UxmlTraits : VisualElement.UxmlTraits'
+    content.vb: >-
+      Public Class UxmlTraits
+          Inherits VisualElement.UxmlTraits
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.UxmlTraits
+  - UnityEngine.UIElements.VisualElement.UxmlTraits
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Editor.SceneField.UxmlTraits.uxmlChildElementsDescription
+  commentId: P:AdvancedSceneManager.Editor.SceneField.UxmlTraits.uxmlChildElementsDescription
+  id: uxmlChildElementsDescription
+  parent: AdvancedSceneManager.Editor.SceneField.UxmlTraits
+  langs:
+  - csharp
+  - vb
+  name: uxmlChildElementsDescription
+  nameWithType: SceneField.UxmlTraits.uxmlChildElementsDescription
+  fullName: AdvancedSceneManager.Editor.SceneField.UxmlTraits.uxmlChildElementsDescription
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: uxmlChildElementsDescription
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+    startLine: 415
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public override IEnumerable<UxmlChildElementDescription> uxmlChildElementsDescription { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{UnityEngine.UIElements.UxmlChildElementDescription}
+    content.vb: Public Overrides ReadOnly Property uxmlChildElementsDescription As IEnumerable(Of UxmlChildElementDescription)
+  overridden: UnityEngine.UIElements.VisualElement.UxmlTraits.uxmlChildElementsDescription
+  overload: AdvancedSceneManager.Editor.SceneField.UxmlTraits.uxmlChildElementsDescription*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.SceneField.UxmlTraits.Init(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.IUxmlAttributes,UnityEngine.UIElements.CreationContext)
+  commentId: M:AdvancedSceneManager.Editor.SceneField.UxmlTraits.Init(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.IUxmlAttributes,UnityEngine.UIElements.CreationContext)
+  id: Init(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.IUxmlAttributes,UnityEngine.UIElements.CreationContext)
+  parent: AdvancedSceneManager.Editor.SceneField.UxmlTraits
+  langs:
+  - csharp
+  - vb
+  name: Init(VisualElement, IUxmlAttributes, CreationContext)
+  nameWithType: SceneField.UxmlTraits.Init(VisualElement, IUxmlAttributes, CreationContext)
+  fullName: AdvancedSceneManager.Editor.SceneField.UxmlTraits.Init(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.IUxmlAttributes, UnityEngine.UIElements.CreationContext)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Init
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+    startLine: 426
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
+    parameters:
+    - id: ve
+      type: UnityEngine.UIElements.VisualElement
+    - id: bag
+      type: UnityEngine.UIElements.IUxmlAttributes
+    - id: cc
+      type: UnityEngine.UIElements.CreationContext
+    content.vb: Public Overrides Sub Init(ve As VisualElement, bag As IUxmlAttributes, cc As CreationContext)
+  overridden: UnityEngine.UIElements.VisualElement.UxmlTraits.Init(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.IUxmlAttributes,UnityEngine.UIElements.CreationContext)
+  overload: AdvancedSceneManager.Editor.SceneField.UxmlTraits.Init*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.UIElements.UxmlTraits
+  commentId: T:UnityEngine.UIElements.UxmlTraits
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: UxmlTraits
+  nameWithType: UxmlTraits
+  fullName: UnityEngine.UIElements.UxmlTraits
+- uid: UnityEngine.UIElements.VisualElement.UxmlTraits
+  commentId: T:UnityEngine.UIElements.VisualElement.UxmlTraits
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement.UxmlTraits
+  nameWithType: VisualElement.UxmlTraits
+  fullName: UnityEngine.UIElements.VisualElement.UxmlTraits
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+- uid: UnityEngine.UIElements.VisualElement.UxmlTraits.uxmlChildElementsDescription
+  commentId: P:UnityEngine.UIElements.VisualElement.UxmlTraits.uxmlChildElementsDescription
+  parent: UnityEngine.UIElements.VisualElement.UxmlTraits
+  isExternal: true
+  name: uxmlChildElementsDescription
+  nameWithType: VisualElement.UxmlTraits.uxmlChildElementsDescription
+  fullName: UnityEngine.UIElements.VisualElement.UxmlTraits.uxmlChildElementsDescription
+- uid: AdvancedSceneManager.Editor.SceneField.UxmlTraits.uxmlChildElementsDescription*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneField.UxmlTraits.uxmlChildElementsDescription
+  name: uxmlChildElementsDescription
+  nameWithType: SceneField.UxmlTraits.uxmlChildElementsDescription
+  fullName: AdvancedSceneManager.Editor.SceneField.UxmlTraits.uxmlChildElementsDescription
+- uid: System.Collections.Generic.IEnumerable{UnityEngine.UIElements.UxmlChildElementDescription}
+  commentId: T:System.Collections.Generic.IEnumerable{UnityEngine.UIElements.UxmlChildElementDescription}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<UxmlChildElementDescription>
+  nameWithType: IEnumerable<UxmlChildElementDescription>
+  fullName: System.Collections.Generic.IEnumerable<UnityEngine.UIElements.UxmlChildElementDescription>
+  nameWithType.vb: IEnumerable(Of UxmlChildElementDescription)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of UnityEngine.UIElements.UxmlChildElementDescription)
+  name.vb: IEnumerable(Of UxmlChildElementDescription)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.UIElements.UxmlChildElementDescription
+    name: UxmlChildElementDescription
+    nameWithType: UxmlChildElementDescription
+    fullName: UnityEngine.UIElements.UxmlChildElementDescription
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.UIElements.UxmlChildElementDescription
+    name: UxmlChildElementDescription
+    nameWithType: UxmlChildElementDescription
+    fullName: UnityEngine.UIElements.UxmlChildElementDescription
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: UnityEngine.UIElements.VisualElement.UxmlTraits.Init(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.IUxmlAttributes,UnityEngine.UIElements.CreationContext)
+  commentId: M:UnityEngine.UIElements.VisualElement.UxmlTraits.Init(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.IUxmlAttributes,UnityEngine.UIElements.CreationContext)
+  parent: UnityEngine.UIElements.VisualElement.UxmlTraits
+  isExternal: true
+  name: Init(VisualElement, IUxmlAttributes, CreationContext)
+  nameWithType: VisualElement.UxmlTraits.Init(VisualElement, IUxmlAttributes, CreationContext)
+  fullName: UnityEngine.UIElements.VisualElement.UxmlTraits.Init(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.IUxmlAttributes, UnityEngine.UIElements.CreationContext)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.VisualElement.UxmlTraits.Init(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.IUxmlAttributes,UnityEngine.UIElements.CreationContext)
+    name: Init
+    nameWithType: VisualElement.UxmlTraits.Init
+    fullName: UnityEngine.UIElements.VisualElement.UxmlTraits.Init
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.IUxmlAttributes
+    name: IUxmlAttributes
+    nameWithType: IUxmlAttributes
+    fullName: UnityEngine.UIElements.IUxmlAttributes
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.CreationContext
+    name: CreationContext
+    nameWithType: CreationContext
+    fullName: UnityEngine.UIElements.CreationContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.UIElements.VisualElement.UxmlTraits.Init(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.IUxmlAttributes,UnityEngine.UIElements.CreationContext)
+    name: Init
+    nameWithType: VisualElement.UxmlTraits.Init
+    fullName: UnityEngine.UIElements.VisualElement.UxmlTraits.Init
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.IUxmlAttributes
+    name: IUxmlAttributes
+    nameWithType: IUxmlAttributes
+    fullName: UnityEngine.UIElements.IUxmlAttributes
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.CreationContext
+    name: CreationContext
+    nameWithType: CreationContext
+    fullName: UnityEngine.UIElements.CreationContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.SceneField.UxmlTraits.Init*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneField.UxmlTraits.Init
+  name: Init
+  nameWithType: SceneField.UxmlTraits.Init
+  fullName: AdvancedSceneManager.Editor.SceneField.UxmlTraits.Init
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements.IUxmlAttributes
+  commentId: T:UnityEngine.UIElements.IUxmlAttributes
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: IUxmlAttributes
+  nameWithType: IUxmlAttributes
+  fullName: UnityEngine.UIElements.IUxmlAttributes
+- uid: UnityEngine.UIElements.CreationContext
+  commentId: T:UnityEngine.UIElements.CreationContext
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: CreationContext
+  nameWithType: CreationContext
+  fullName: UnityEngine.UIElements.CreationContext

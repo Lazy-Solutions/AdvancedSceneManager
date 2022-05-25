@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>AdvancedSceneManager.Core.AsyncOperations
+   | Advanced Scene Manager </title>
+    <meta name="title" content="AdvancedSceneManager.Core.AsyncOperations
+   | Advanced Scene Manager ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="..//resources/logo.png" alt="" style="width: 50px;height: 50px;">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AdvancedSceneManager.Core.AsyncOperations">
+  
+  <h1 id="AdvancedSceneManager_Core_AsyncOperations" data-uid="AdvancedSceneManager.Core.AsyncOperations" class="text-break">AdvancedSceneManager.Core.AsyncOperations
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.AggregateAction.html">AggregateAction</a></h4>
+      <section><p>Runs one ore more actions.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.CallbackAction.html">CallbackAction</a></h4>
+      <section><p>Runs a coroutine.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.CloseAllUnityScenesAction.html">CloseAllUnityScenesAction</a></h4>
+      <section><p>Closes all scenes, except <a class="xref" href="AdvancedSceneManager.Utility.DefaultSceneUtility.html">DefaultSceneUtility</a>, regardless of whatever they are tracked or not. This is used in <a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.StartupAction.html">StartupAction</a>, where we cannot be sure scenes are tracked yet.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.OpenAndRunCallbackAction-1.html">OpenAndRunCallbackAction&lt;T&gt;</a></h4>
+      <section><p>Opens a scene and finds a script of the specified type, and runs a callback, scene is closed if not found.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.OpenStartupCollections.html">OpenStartupCollections</a></h4>
+      <section><p>Opens all collections and scenes that are set to open at startup.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.OverridableAction-1.html">OverridableAction&lt;T&gt;</a></h4>
+      <section><p>An action that can have its functionality overriden, this is needed to provide addressables support. When overriding default ASM actions, use caution since this will obviously lead to undocumented behavior.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.PlaySplashScreenAction.html">PlaySplashScreenAction</a></h4>
+      <section><p>Plays splash screen.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.QuickStartupAction.html">QuickStartupAction</a></h4>
+      <section><p>Performs startup sequence, but without splash screen and loading screens, see <see cref="!:Runtime.QuickStart"></see>:
+<p><see cref="!:SetProfileInBuild"></see>.</p>
+<p><see cref="!:ReloadAssets"></see>.</p>
+<p><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.CloseAllUnityScenesAction.html">CloseAllUnityScenesAction</a>.</p>
+<p><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.OpenStartupCollections.html">OpenStartupCollections</a>.</p></p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.QuitAction.html">QuitAction</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.RunCallbackAndCloseAction-1.html">RunCallbackAndCloseAction&lt;T&gt;</a></h4>
+      <section><p>Runs a callback and closes the scene.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneAction.html">SceneAction</a></h4>
+      <section><p>The base class of all scene actions. The scene actions perform an specific action on a <a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a> when contained within a <a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a>.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneCloseAction.html">SceneCloseAction</a></h4>
+      <section><p>Closes a scene. This is a proxy for running the following actions in order:</p>
+<p><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneCloseCallbackAction.html">SceneCloseCallbackAction</a>, call callbacks.</p>
+<p><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneUnloadAction.html">SceneUnloadAction</a>, unload scenes.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneCloseCallbackAction.html">SceneCloseCallbackAction</a></h4>
+      <section><p>Calls all <a class="xref" href="AdvancedSceneManager.Callbacks.ISceneClose.html#AdvancedSceneManager_Callbacks_ISceneClose_OnSceneClose">OnSceneClose()</a> callbacks in scene.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneFinishLoadAction.html">SceneFinishLoadAction</a></h4>
+      <section><p>Finish load of a scene that was loaded, but not activated. See <a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneLoadAction.html">SceneLoadAction</a>.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneLoadAction.html">SceneLoadAction</a></h4>
+      <section><p>Loads a scene, but does not activate it. This is the same as preloading. See <a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneFinishLoadAction.html">SceneFinishLoadAction</a>.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneOpenAction.html">SceneOpenAction</a></h4>
+      <section><p>Opens a scene. This is a proxy for running the following actions in order:</p>
+<p><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneLoadAction.html">SceneLoadAction</a>, preload scene.</p>
+<p><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneFinishLoadAction.html">SceneFinishLoadAction</a>, activate scene.</p>
+<p><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneOpenCallbackAction.html">SceneOpenCallbackAction</a>, call callbacks.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneOpenCallbackAction.html">SceneOpenCallbackAction</a></h4>
+      <section><p>Calls all <a class="xref" href="AdvancedSceneManager.Callbacks.ISceneOpen.html#AdvancedSceneManager_Callbacks_ISceneOpen_OnSceneOpen">OnSceneOpen()</a> callbacks in scene.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneUnloadAction.html">SceneUnloadAction</a></h4>
+      <section><p>Finish load of a scene that was loaded, but not activated. See <a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.SceneLoadAction.html">SceneLoadAction</a>.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.StartupAction.html">StartupAction</a></h4>
+      <section><p>Performs startup sequence, see <a class="xref" href="AdvancedSceneManager.Core.Runtime.html#AdvancedSceneManager_Core_Runtime_Start_AdvancedSceneManager_Models_SceneCollection_System_Boolean_System_Boolean_">Start(SceneCollection, Boolean, Boolean)</a>:
+<p><span class="xref">AdvancedSceneManager.Core.AsyncOperations.StartupAction.FadeOut(System.Single,System.Nullable{UnityEngine.Color})</span>.</p>
+<p><see cref="!:SetProfileInBuild"></see>.</p>
+<p><see cref="!:ReloadAssets"></see>.</p>
+<p><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.CloseAllUnityScenesAction.html">CloseAllUnityScenesAction</a>.</p>
+<p><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.PlaySplashScreenAction.html">PlaySplashScreenAction</a> (+ fade in).</p>
+<p><see cref="!:ShowStartupLoadingScreen(Scene)"></see>.</p>
+<p><a class="xref" href="AdvancedSceneManager.Core.AsyncOperations.OpenStartupCollections.html">OpenStartupCollections</a>.</p>
+<p><span class="xref">AdvancedSceneManager.Core.AsyncOperations.StartupAction.HideStartupLoadingScreen</span>.</p></p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Advanced Scene Manager - Lazy Solutions
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

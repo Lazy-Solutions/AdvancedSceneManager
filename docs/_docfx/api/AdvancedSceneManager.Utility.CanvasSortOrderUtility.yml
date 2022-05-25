@@ -1,0 +1,266 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Utility.CanvasSortOrderUtility
+  commentId: T:AdvancedSceneManager.Utility.CanvasSortOrderUtility
+  id: CanvasSortOrderUtility
+  parent: AdvancedSceneManager.Utility
+  children:
+  - AdvancedSceneManager.Utility.CanvasSortOrderUtility.MakeSure(UnityEngine.Canvas,UnityEngine.Canvas,UnityEngine.Canvas)
+  - AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutAtBottom(UnityEngine.Canvas)
+  - AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutOnTop(UnityEngine.Canvas)
+  - AdvancedSceneManager.Utility.CanvasSortOrderUtility.Remove(UnityEngine.Canvas)
+  langs:
+  - csharp
+  - vb
+  name: CanvasSortOrderUtility
+  nameWithType: CanvasSortOrderUtility
+  fullName: AdvancedSceneManager.Utility.CanvasSortOrderUtility
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/CanvasSortOrderUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CanvasSortOrderUtility
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/CanvasSortOrderUtility.cs
+    startLine: 9
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: An utility class to manage sort order on canvases.
+  example: []
+  syntax:
+    content: public static class CanvasSortOrderUtility
+    content.vb: Public Module CanvasSortOrderUtility
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Utility.CanvasSortOrderUtility.Remove(UnityEngine.Canvas)
+  commentId: M:AdvancedSceneManager.Utility.CanvasSortOrderUtility.Remove(UnityEngine.Canvas)
+  id: Remove(UnityEngine.Canvas)
+  parent: AdvancedSceneManager.Utility.CanvasSortOrderUtility
+  langs:
+  - csharp
+  - vb
+  name: Remove(Canvas)
+  nameWithType: CanvasSortOrderUtility.Remove(Canvas)
+  fullName: AdvancedSceneManager.Utility.CanvasSortOrderUtility.Remove(UnityEngine.Canvas)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/CanvasSortOrderUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Remove
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/CanvasSortOrderUtility.cs
+    startLine: 15
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Removes this canvas from the managed list.
+  example: []
+  syntax:
+    content: public static void Remove(Canvas canvas)
+    parameters:
+    - id: canvas
+      type: UnityEngine.Canvas
+    content.vb: Public Shared Sub Remove(canvas As Canvas)
+  overload: AdvancedSceneManager.Utility.CanvasSortOrderUtility.Remove*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutOnTop(UnityEngine.Canvas)
+  commentId: M:AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutOnTop(UnityEngine.Canvas)
+  id: PutOnTop(UnityEngine.Canvas)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Utility.CanvasSortOrderUtility
+  langs:
+  - csharp
+  - vb
+  name: PutOnTop(Canvas)
+  nameWithType: CanvasSortOrderUtility.PutOnTop(Canvas)
+  fullName: AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutOnTop(UnityEngine.Canvas)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/CanvasSortOrderUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: PutOnTop
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/CanvasSortOrderUtility.cs
+    startLine: 22
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Sets the sort order on this canvas to be on top of all other canvases managed by <xref href="AdvancedSceneManager.Utility.CanvasSortOrderUtility" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static void PutOnTop(this Canvas canvas)
+    parameters:
+    - id: canvas
+      type: UnityEngine.Canvas
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub PutOnTop(canvas As Canvas)
+  overload: AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutOnTop*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutAtBottom(UnityEngine.Canvas)
+  commentId: M:AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutAtBottom(UnityEngine.Canvas)
+  id: PutAtBottom(UnityEngine.Canvas)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Utility.CanvasSortOrderUtility
+  langs:
+  - csharp
+  - vb
+  name: PutAtBottom(Canvas)
+  nameWithType: CanvasSortOrderUtility.PutAtBottom(Canvas)
+  fullName: AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutAtBottom(UnityEngine.Canvas)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/CanvasSortOrderUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: PutAtBottom
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/CanvasSortOrderUtility.cs
+    startLine: 36
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Sets the sort order on this canvas to be on bottom of all other canvases managed by <xref href="AdvancedSceneManager.Utility.CanvasSortOrderUtility" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static void PutAtBottom(this Canvas canvas)
+    parameters:
+    - id: canvas
+      type: UnityEngine.Canvas
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub PutAtBottom(canvas As Canvas)
+  overload: AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutAtBottom*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.CanvasSortOrderUtility.MakeSure(UnityEngine.Canvas,UnityEngine.Canvas,UnityEngine.Canvas)
+  commentId: M:AdvancedSceneManager.Utility.CanvasSortOrderUtility.MakeSure(UnityEngine.Canvas,UnityEngine.Canvas,UnityEngine.Canvas)
+  id: MakeSure(UnityEngine.Canvas,UnityEngine.Canvas,UnityEngine.Canvas)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Utility.CanvasSortOrderUtility
+  langs:
+  - csharp
+  - vb
+  name: MakeSure(Canvas, Canvas, Canvas)
+  nameWithType: CanvasSortOrderUtility.MakeSure(Canvas, Canvas, Canvas)
+  fullName: AdvancedSceneManager.Utility.CanvasSortOrderUtility.MakeSure(UnityEngine.Canvas, UnityEngine.Canvas, UnityEngine.Canvas)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/CanvasSortOrderUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: MakeSure
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/CanvasSortOrderUtility.cs
+    startLine: 55
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: "\n<p>Adds a contraint on the sort order of this <xref href=\"UnityEngine.Canvas\" data-throw-if-not-resolved=\"false\"></xref> based on one or two other canvases.</p>\n<p>See parameter comments for more info.</p>\n"
+  example: []
+  syntax:
+    content: public static void MakeSure(this Canvas canvas, Canvas above = null, Canvas below = null)
+    parameters:
+    - id: canvas
+      type: UnityEngine.Canvas
+    - id: above
+      type: UnityEngine.Canvas
+      description: Makes sure that this canvas is always above this one.
+    - id: below
+      type: UnityEngine.Canvas
+      description: Makes sure that this canvas is always below this one.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub MakeSure(canvas As Canvas, above As Canvas = Nothing, below As Canvas = Nothing)
+  overload: AdvancedSceneManager.Utility.CanvasSortOrderUtility.MakeSure*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Utility.CanvasSortOrderUtility.Remove*
+  commentId: Overload:AdvancedSceneManager.Utility.CanvasSortOrderUtility.Remove
+  name: Remove
+  nameWithType: CanvasSortOrderUtility.Remove
+  fullName: AdvancedSceneManager.Utility.CanvasSortOrderUtility.Remove
+- uid: UnityEngine.Canvas
+  commentId: T:UnityEngine.Canvas
+  parent: UnityEngine
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: UnityEngine.Canvas
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Utility.CanvasSortOrderUtility
+  commentId: T:AdvancedSceneManager.Utility.CanvasSortOrderUtility
+  name: CanvasSortOrderUtility
+  nameWithType: CanvasSortOrderUtility
+  fullName: AdvancedSceneManager.Utility.CanvasSortOrderUtility
+- uid: AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutOnTop*
+  commentId: Overload:AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutOnTop
+  name: PutOnTop
+  nameWithType: CanvasSortOrderUtility.PutOnTop
+  fullName: AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutOnTop
+- uid: AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutAtBottom*
+  commentId: Overload:AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutAtBottom
+  name: PutAtBottom
+  nameWithType: CanvasSortOrderUtility.PutAtBottom
+  fullName: AdvancedSceneManager.Utility.CanvasSortOrderUtility.PutAtBottom
+- uid: AdvancedSceneManager.Utility.CanvasSortOrderUtility.MakeSure*
+  commentId: Overload:AdvancedSceneManager.Utility.CanvasSortOrderUtility.MakeSure
+  name: MakeSure
+  nameWithType: CanvasSortOrderUtility.MakeSure
+  fullName: AdvancedSceneManager.Utility.CanvasSortOrderUtility.MakeSure

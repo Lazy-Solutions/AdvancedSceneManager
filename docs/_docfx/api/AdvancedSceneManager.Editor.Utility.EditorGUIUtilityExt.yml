@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt
+  commentId: T:AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt
+  id: EditorGUIUtilityExt
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.GetDefaultBackgroundColor
+  - AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.PingOrOpenAsset(UnityEngine.Object,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: EditorGUIUtilityExt
+  nameWithType: EditorGUIUtilityExt
+  fullName: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorGUIUtilityExt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: EditorGUIUtilityExt
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorGUIUtilityExt.cs
+    startLine: 11
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Contains proxy functions for internal <xref href="UnityEditor.EditorGUIUtility" data-throw-if-not-resolved="false"></xref> functions that should have a public counterpart.
+  example: []
+  syntax:
+    content: public static class EditorGUIUtilityExt
+    content.vb: Public Module EditorGUIUtilityExt
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.PingOrOpenAsset(UnityEngine.Object,System.Int32)
+  commentId: M:AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.PingOrOpenAsset(UnityEngine.Object,System.Int32)
+  id: PingOrOpenAsset(UnityEngine.Object,System.Int32)
+  parent: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt
+  langs:
+  - csharp
+  - vb
+  name: PingOrOpenAsset(Object, Int32)
+  nameWithType: EditorGUIUtilityExt.PingOrOpenAsset(Object, Int32)
+  fullName: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.PingOrOpenAsset(UnityEngine.Object, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorGUIUtilityExt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: PingOrOpenAsset
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorGUIUtilityExt.cs
+    startLine: 14
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static void PingOrOpenAsset(Object targetObject, int clickCount)
+    parameters:
+    - id: targetObject
+      type: UnityEngine.Object
+    - id: clickCount
+      type: System.Int32
+    content.vb: Public Shared Sub PingOrOpenAsset(targetObject As Object, clickCount As Integer)
+  overload: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.PingOrOpenAsset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.GetDefaultBackgroundColor
+  commentId: M:AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.GetDefaultBackgroundColor
+  id: GetDefaultBackgroundColor
+  parent: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultBackgroundColor()
+  nameWithType: EditorGUIUtilityExt.GetDefaultBackgroundColor()
+  fullName: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.GetDefaultBackgroundColor()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorGUIUtilityExt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: GetDefaultBackgroundColor
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorGUIUtilityExt.cs
+    startLine: 26
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static Color GetDefaultBackgroundColor()
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared Function GetDefaultBackgroundColor As Color
+  overload: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.GetDefaultBackgroundColor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEditor.EditorGUIUtility
+  commentId: T:UnityEditor.EditorGUIUtility
+  isExternal: true
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.PingOrOpenAsset*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.PingOrOpenAsset
+  name: PingOrOpenAsset
+  nameWithType: EditorGUIUtilityExt.PingOrOpenAsset
+  fullName: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.PingOrOpenAsset
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.GetDefaultBackgroundColor*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.GetDefaultBackgroundColor
+  name: GetDefaultBackgroundColor
+  nameWithType: EditorGUIUtilityExt.GetDefaultBackgroundColor
+  fullName: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.GetDefaultBackgroundColor
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color

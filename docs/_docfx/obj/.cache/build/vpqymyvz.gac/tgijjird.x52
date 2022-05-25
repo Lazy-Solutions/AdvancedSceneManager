@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Core_OpenSceneInfo" data-uid="AdvancedSceneManager.Core.OpenSceneInfo" class="text-break">Class OpenSceneInfo
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">OpenSceneInfo</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Core.html">AdvancedSceneManager.Core</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Core_OpenSceneInfo_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class OpenSceneInfo : IEquatable&lt;OpenSceneInfo&gt;, IEquatable&lt;Scene&gt;, IEquatable&lt;Scene&gt;, IEquatable&lt;SceneAsset&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_isActive_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isActive*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_isActive" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isActive">isActive</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.OpenSceneInfo.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets whatever this scene is the active scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_isCollection_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isCollection*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_isCollection" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isCollection">isCollection</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.OpenSceneInfo.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets whatever this scene is a collection scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isCollection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_isOpen_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isOpen*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_isOpen" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isOpen">isOpen</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.OpenSceneInfo.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets whatever this scene is currently open.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isOpen { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_isPersistent_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isPersistent*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_isPersistent" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isPersistent">isPersistent</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.OpenSceneInfo.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets whatever this scene is persistent. See <a class="xref" href="AdvancedSceneManager.Utility.PersistentUtility.html">PersistentUtility</a> for more details.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isPersistent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_isPreloaded_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isPreloaded*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_isPreloaded" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isPreloaded">isPreloaded</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.OpenSceneInfo.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets whatever this scene is preloaded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isPreloaded { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_isSpecial_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isSpecial*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_isSpecial" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isSpecial">isSpecial</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.OpenSceneInfo.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets whatever this scene is a special scene, i.e. splash screen / loading screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isSpecial { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_isStandalone_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isStandalone*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_isStandalone" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.isStandalone">isStandalone</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.OpenSceneInfo.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets whatever this scene is a collection scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isStandalone { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_scene_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.scene*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_scene" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.scene">scene</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.OpenSceneInfo.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The <a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a> that this <a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a> is associated with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene scene { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_sceneManager_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.sceneManager*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_sceneManager" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.sceneManager">sceneManager</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.OpenSceneInfo.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The scene manager associated with this <a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneManagerBase sceneManager { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AdvancedSceneManager.Core.SceneManagerBase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_unityScene_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.unityScene*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_unityScene" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.unityScene">unityScene</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.OpenSceneInfo.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The <span class="xref">UnityEngine.SceneManagement.Scene</span> that this <a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a> is associated with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene? unityScene { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">UnityEngine.SceneManagement.Scene</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_Equals_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.Equals*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_Equals_AdvancedSceneManager_Core_OpenSceneInfo_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.Equals(AdvancedSceneManager.Core.OpenSceneInfo)">Equals(OpenSceneInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(OpenSceneInfo osi)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a></td>
+        <td><span class="parametername">osi</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_Equals_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.Equals*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_Equals_AdvancedSceneManager_Models_Scene_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.Equals(AdvancedSceneManager.Models.Scene)">Equals(Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_Equals_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.Equals*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_Equals_System_Nullable_UnityEngine_SceneManagement_Scene__" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.Equals(System.Nullable{UnityEngine.SceneManagement.Scene})">Equals(Nullable&lt;Scene&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Scene? scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">UnityEngine.SceneManagement.Scene</span>&gt;</td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_Equals_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.Equals*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_Equals_System_Object_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_Equals_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.Equals*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_Equals_UnityEditor_SceneAsset_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.Equals(UnityEditor.SceneAsset)">Equals(SceneAsset)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(SceneAsset asset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SceneAsset</span></td>
+        <td><span class="parametername">asset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_Equals_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.Equals*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_Equals_UnityEngine_SceneManagement_Scene_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.Equals(UnityEngine.SceneManagement.Scene)">Equals(Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.SceneManagement.Scene</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_GetHashCode_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.GetHashCode*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_GetHashCode" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.GetHashCode()</span></div>
+  <a id="AdvancedSceneManager_Core_OpenSceneInfo_ToString_" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.ToString*"></a>
+  <h4 id="AdvancedSceneManager_Core_OpenSceneInfo_ToString" data-uid="AdvancedSceneManager.Core.OpenSceneInfo.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

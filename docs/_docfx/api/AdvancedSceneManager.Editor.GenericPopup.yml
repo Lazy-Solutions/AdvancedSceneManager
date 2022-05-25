@@ -1,0 +1,1668 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.GenericPopup
+  commentId: T:AdvancedSceneManager.Editor.GenericPopup
+  id: GenericPopup
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.GenericPopup.OnReopen(AdvancedSceneManager.Editor.GenericPopup)
+  - AdvancedSceneManager.Editor.GenericPopup.path
+  - AdvancedSceneManager.Editor.GenericPopup.Refresh(AdvancedSceneManager.Editor.GenericPopup.Item[])
+  - AdvancedSceneManager.Editor.GenericPopup.Separator
+  langs:
+  - csharp
+  - vb
+  name: GenericPopup
+  nameWithType: GenericPopup
+  fullName: AdvancedSceneManager.Editor.GenericPopup
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: GenericPopup
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    startLine: 13
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: 'public class GenericPopup : Popup<GenericPopup>'
+    content.vb: >-
+      Public Class GenericPopup
+          Inherits Popup(Of GenericPopup)
+  inheritance:
+  - System.Object
+  - AdvancedSceneManager.Editor.Popup
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  inheritedMembers:
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.Reopen
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.CloseWithoutAnimation(System.Boolean)
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.Close
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.Close(System.Action)
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.OnClose
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.overlay
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.rootVisualElement
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.isMainContentLoaded
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.ReloadContent
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.enableBorder
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.hasBorder
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.offset
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.alignRight
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.placementTarget
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.parent
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.SetPosition
+  - AdvancedSceneManager.Editor.Popup.OnClosed
+  - AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Editor.GenericPopup.path
+  commentId: P:AdvancedSceneManager.Editor.GenericPopup.path
+  id: path
+  parent: AdvancedSceneManager.Editor.GenericPopup
+  langs:
+  - csharp
+  - vb
+  name: path
+  nameWithType: GenericPopup.path
+  fullName: AdvancedSceneManager.Editor.GenericPopup.path
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: path
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    startLine: 16
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public override string path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property path As String
+  overridden: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.path
+  overload: AdvancedSceneManager.Editor.GenericPopup.path*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.GenericPopup.Separator
+  commentId: P:AdvancedSceneManager.Editor.GenericPopup.Separator
+  id: Separator
+  parent: AdvancedSceneManager.Editor.GenericPopup
+  langs:
+  - csharp
+  - vb
+  name: Separator
+  nameWithType: GenericPopup.Separator
+  fullName: AdvancedSceneManager.Editor.GenericPopup.Separator
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Separator
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    startLine: 19
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  summary: Represents an <xref href="AdvancedSceneManager.Editor.GenericPopup.Item" data-throw-if-not-resolved="false"></xref> separator. default keyword can also be used.
+  example: []
+  syntax:
+    content: public static GenericPopup.Item Separator { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Editor.GenericPopup.Item
+    content.vb: Public Shared ReadOnly Property Separator As GenericPopup.Item
+  overload: AdvancedSceneManager.Editor.GenericPopup.Separator*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.GenericPopup.Refresh(AdvancedSceneManager.Editor.GenericPopup.Item[])
+  commentId: M:AdvancedSceneManager.Editor.GenericPopup.Refresh(AdvancedSceneManager.Editor.GenericPopup.Item[])
+  id: Refresh(AdvancedSceneManager.Editor.GenericPopup.Item[])
+  parent: AdvancedSceneManager.Editor.GenericPopup
+  langs:
+  - csharp
+  - vb
+  name: Refresh(GenericPopup.Item[])
+  nameWithType: GenericPopup.Refresh(GenericPopup.Item[])
+  fullName: AdvancedSceneManager.Editor.GenericPopup.Refresh(AdvancedSceneManager.Editor.GenericPopup.Item[])
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Refresh
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    startLine: 59
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public void Refresh(params GenericPopup.Item[] items)
+    parameters:
+    - id: items
+      type: AdvancedSceneManager.Editor.GenericPopup.Item[]
+    content.vb: Public Sub Refresh(ParamArray items As GenericPopup.Item())
+  overload: AdvancedSceneManager.Editor.GenericPopup.Refresh*
+  nameWithType.vb: GenericPopup.Refresh(GenericPopup.Item())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.GenericPopup.Refresh(AdvancedSceneManager.Editor.GenericPopup.Item())
+  name.vb: Refresh(GenericPopup.Item())
+- uid: AdvancedSceneManager.Editor.GenericPopup.OnReopen(AdvancedSceneManager.Editor.GenericPopup)
+  commentId: M:AdvancedSceneManager.Editor.GenericPopup.OnReopen(AdvancedSceneManager.Editor.GenericPopup)
+  id: OnReopen(AdvancedSceneManager.Editor.GenericPopup)
+  parent: AdvancedSceneManager.Editor.GenericPopup
+  langs:
+  - csharp
+  - vb
+  name: OnReopen(GenericPopup)
+  nameWithType: GenericPopup.OnReopen(GenericPopup)
+  fullName: AdvancedSceneManager.Editor.GenericPopup.OnReopen(AdvancedSceneManager.Editor.GenericPopup)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnReopen
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    startLine: 106
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: protected override void OnReopen(GenericPopup newPopup)
+    parameters:
+    - id: newPopup
+      type: AdvancedSceneManager.Editor.GenericPopup
+    content.vb: Protected Overrides Sub OnReopen(newPopup As GenericPopup)
+  overridden: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.OnReopen(AdvancedSceneManager.Editor.GenericPopup)
+  overload: AdvancedSceneManager.Editor.GenericPopup.OnReopen*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: AdvancedSceneManager.Editor.Popup
+  commentId: T:AdvancedSceneManager.Editor.Popup
+  parent: AdvancedSceneManager.Editor
+  name: Popup
+  nameWithType: Popup
+  fullName: AdvancedSceneManager.Editor.Popup
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  commentId: T:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  parent: AdvancedSceneManager.Editor
+  definition: AdvancedSceneManager.Editor.Popup`1
+  name: Popup<GenericPopup>
+  nameWithType: Popup<GenericPopup>
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>
+  nameWithType.vb: Popup(Of GenericPopup)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup)
+  name.vb: Popup(Of GenericPopup)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1
+    name: Popup
+    nameWithType: Popup
+    fullName: AdvancedSceneManager.Editor.Popup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Editor.GenericPopup
+    name: GenericPopup
+    nameWithType: GenericPopup
+    fullName: AdvancedSceneManager.Editor.GenericPopup
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1
+    name: Popup
+    nameWithType: Popup
+    fullName: AdvancedSceneManager.Editor.Popup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Editor.GenericPopup
+    name: GenericPopup
+    nameWithType: GenericPopup
+    fullName: AdvancedSceneManager.Editor.GenericPopup
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.Reopen
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.Reopen
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.Reopen
+  name: Reopen()
+  nameWithType: Popup<GenericPopup>.Reopen()
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.Reopen()
+  nameWithType.vb: Popup(Of GenericPopup).Reopen()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).Reopen()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Reopen
+    name: Reopen
+    nameWithType: Popup<GenericPopup>.Reopen
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Reopen
+    name: Reopen
+    nameWithType: Popup(Of GenericPopup).Reopen
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  name: Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  nameWithType: Popup<GenericPopup>.Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.Open(UnityEngine.UIElements.VisualElement, AdvancedSceneManager.Editor.IUIToolkitEditor, System.Boolean, UnityEngine.Vector2, System.Boolean, System.Boolean)
+  nameWithType.vb: Popup(Of GenericPopup).Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).Open(UnityEngine.UIElements.VisualElement, AdvancedSceneManager.Editor.IUIToolkitEditor, System.Boolean, UnityEngine.Vector2, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+    name: Open
+    nameWithType: Popup<GenericPopup>.Open
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.IUIToolkitEditor
+    name: IUIToolkitEditor
+    nameWithType: IUIToolkitEditor
+    fullName: AdvancedSceneManager.Editor.IUIToolkitEditor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+    name: Open
+    nameWithType: Popup(Of GenericPopup).Open
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.IUIToolkitEditor
+    name: IUIToolkitEditor
+    nameWithType: IUIToolkitEditor
+    fullName: AdvancedSceneManager.Editor.IUIToolkitEditor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.CloseWithoutAnimation(System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.CloseWithoutAnimation(System.Boolean)
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+  name: CloseWithoutAnimation(Boolean)
+  nameWithType: Popup<GenericPopup>.CloseWithoutAnimation(Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.CloseWithoutAnimation(System.Boolean)
+  nameWithType.vb: Popup(Of GenericPopup).CloseWithoutAnimation(Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).CloseWithoutAnimation(System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+    name: CloseWithoutAnimation
+    nameWithType: Popup<GenericPopup>.CloseWithoutAnimation
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.CloseWithoutAnimation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+    name: CloseWithoutAnimation
+    nameWithType: Popup(Of GenericPopup).CloseWithoutAnimation
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).CloseWithoutAnimation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.Close
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.Close
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.Close
+  name: Close()
+  nameWithType: Popup<GenericPopup>.Close()
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.Close()
+  nameWithType.vb: Popup(Of GenericPopup).Close()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).Close()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close
+    name: Close
+    nameWithType: Popup<GenericPopup>.Close
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close
+    name: Close
+    nameWithType: Popup(Of GenericPopup).Close
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.Close(System.Action)
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.Close(System.Action)
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+  name: Close(Action)
+  nameWithType: Popup<GenericPopup>.Close(Action)
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.Close(System.Action)
+  nameWithType.vb: Popup(Of GenericPopup).Close(Action)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).Close(System.Action)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+    name: Close
+    nameWithType: Popup<GenericPopup>.Close
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+    name: Close
+    nameWithType: Popup(Of GenericPopup).Close
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.OnClose
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.OnClose
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.OnClose
+  name: OnClose()
+  nameWithType: Popup<GenericPopup>.OnClose()
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.OnClose()
+  nameWithType.vb: Popup(Of GenericPopup).OnClose()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).OnClose()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnClose
+    name: OnClose
+    nameWithType: Popup<GenericPopup>.OnClose
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnClose
+    name: OnClose
+    nameWithType: Popup(Of GenericPopup).OnClose
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.overlay
+  commentId: F:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.overlay
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.overlay
+  name: overlay
+  nameWithType: Popup<GenericPopup>.overlay
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.overlay
+  nameWithType.vb: Popup(Of GenericPopup).overlay
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).overlay
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.rootVisualElement
+  commentId: F:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.rootVisualElement
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.rootVisualElement
+  name: rootVisualElement
+  nameWithType: Popup<GenericPopup>.rootVisualElement
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.rootVisualElement
+  nameWithType.vb: Popup(Of GenericPopup).rootVisualElement
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).rootVisualElement
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.isMainContentLoaded
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.isMainContentLoaded
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.isMainContentLoaded
+  name: isMainContentLoaded
+  nameWithType: Popup<GenericPopup>.isMainContentLoaded
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.isMainContentLoaded
+  nameWithType.vb: Popup(Of GenericPopup).isMainContentLoaded
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).isMainContentLoaded
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  name: LoadContent(String, VisualElement)
+  nameWithType: Popup<GenericPopup>.LoadContent(String, VisualElement)
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  nameWithType.vb: Popup(Of GenericPopup).LoadContent(String, VisualElement)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+    name: LoadContent
+    nameWithType: Popup<GenericPopup>.LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+    name: LoadContent
+    nameWithType: Popup(Of GenericPopup).LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  name: LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  nameWithType: Popup<GenericPopup>.LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Popup(Of GenericPopup).LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+    name: LoadContent
+    nameWithType: Popup<GenericPopup>.LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+    name: LoadContent
+    nameWithType: Popup(Of GenericPopup).LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.ReloadContent
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.ReloadContent
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.ReloadContent
+  name: ReloadContent()
+  nameWithType: Popup<GenericPopup>.ReloadContent()
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.ReloadContent()
+  nameWithType.vb: Popup(Of GenericPopup).ReloadContent()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).ReloadContent()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.ReloadContent
+    name: ReloadContent
+    nameWithType: Popup<GenericPopup>.ReloadContent
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.ReloadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.ReloadContent
+    name: ReloadContent
+    nameWithType: Popup(Of GenericPopup).ReloadContent
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).ReloadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.enableBorder
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.enableBorder
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.enableBorder
+  name: enableBorder
+  nameWithType: Popup<GenericPopup>.enableBorder
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.enableBorder
+  nameWithType.vb: Popup(Of GenericPopup).enableBorder
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).enableBorder
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.hasBorder
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.hasBorder
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.hasBorder
+  name: hasBorder
+  nameWithType: Popup<GenericPopup>.hasBorder
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.hasBorder
+  nameWithType.vb: Popup(Of GenericPopup).hasBorder
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).hasBorder
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.offset
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.offset
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.offset
+  name: offset
+  nameWithType: Popup<GenericPopup>.offset
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.offset
+  nameWithType.vb: Popup(Of GenericPopup).offset
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).offset
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.alignRight
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.alignRight
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.alignRight
+  name: alignRight
+  nameWithType: Popup<GenericPopup>.alignRight
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.alignRight
+  nameWithType.vb: Popup(Of GenericPopup).alignRight
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).alignRight
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.placementTarget
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.placementTarget
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.placementTarget
+  name: placementTarget
+  nameWithType: Popup<GenericPopup>.placementTarget
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.placementTarget
+  nameWithType.vb: Popup(Of GenericPopup).placementTarget
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).placementTarget
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.parent
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.parent
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.parent
+  name: parent
+  nameWithType: Popup<GenericPopup>.parent
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.parent
+  nameWithType.vb: Popup(Of GenericPopup).parent
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).parent
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.SetPosition
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.SetPosition
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.SetPosition
+  name: SetPosition()
+  nameWithType: Popup<GenericPopup>.SetPosition()
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.SetPosition()
+  nameWithType.vb: Popup(Of GenericPopup).SetPosition()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).SetPosition()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.SetPosition
+    name: SetPosition
+    nameWithType: Popup<GenericPopup>.SetPosition
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.SetPosition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.SetPosition
+    name: SetPosition
+    nameWithType: Popup(Of GenericPopup).SetPosition
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).SetPosition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup.OnClosed
+  commentId: E:AdvancedSceneManager.Editor.Popup.OnClosed
+  parent: AdvancedSceneManager.Editor.Popup
+  name: OnClosed
+  nameWithType: Popup.OnClosed
+  fullName: AdvancedSceneManager.Editor.Popup.OnClosed
+- uid: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  commentId: M:AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  parent: AdvancedSceneManager.Editor.Popup
+  name: RaiseOnClosed()
+  nameWithType: Popup.RaiseOnClosed()
+  fullName: AdvancedSceneManager.Editor.Popup.RaiseOnClosed()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+    name: RaiseOnClosed
+    nameWithType: Popup.RaiseOnClosed
+    fullName: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+    name: RaiseOnClosed
+    nameWithType: Popup.RaiseOnClosed
+    fullName: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.Popup`1
+  commentId: T:AdvancedSceneManager.Editor.Popup`1
+  name: Popup<T>
+  nameWithType: Popup<T>
+  fullName: AdvancedSceneManager.Editor.Popup<T>
+  nameWithType.vb: Popup(Of T)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T)
+  name.vb: Popup(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1
+    name: Popup
+    nameWithType: Popup
+    fullName: AdvancedSceneManager.Editor.Popup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1
+    name: Popup
+    nameWithType: Popup
+    fullName: AdvancedSceneManager.Editor.Popup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.Reopen
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.Reopen
+  name: Reopen()
+  nameWithType: Popup<T>.Reopen()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Reopen()
+  nameWithType.vb: Popup(Of T).Reopen()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Reopen()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Reopen
+    name: Reopen
+    nameWithType: Popup<T>.Reopen
+    fullName: AdvancedSceneManager.Editor.Popup<T>.Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Reopen
+    name: Reopen
+    nameWithType: Popup(Of T).Reopen
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  isExternal: true
+  name: Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  nameWithType: Popup<T>.Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Open(UnityEngine.UIElements.VisualElement, AdvancedSceneManager.Editor.IUIToolkitEditor, System.Boolean, UnityEngine.Vector2, System.Boolean, System.Boolean)
+  nameWithType.vb: Popup(Of T).Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Open(UnityEngine.UIElements.VisualElement, AdvancedSceneManager.Editor.IUIToolkitEditor, System.Boolean, UnityEngine.Vector2, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+    name: Open
+    nameWithType: Popup<T>.Open
+    fullName: AdvancedSceneManager.Editor.Popup<T>.Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.IUIToolkitEditor
+    name: IUIToolkitEditor
+    nameWithType: IUIToolkitEditor
+    fullName: AdvancedSceneManager.Editor.IUIToolkitEditor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+    name: Open
+    nameWithType: Popup(Of T).Open
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.IUIToolkitEditor
+    name: IUIToolkitEditor
+    nameWithType: IUIToolkitEditor
+    fullName: AdvancedSceneManager.Editor.IUIToolkitEditor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+  isExternal: true
+  name: CloseWithoutAnimation(Boolean)
+  nameWithType: Popup<T>.CloseWithoutAnimation(Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.CloseWithoutAnimation(System.Boolean)
+  nameWithType.vb: Popup(Of T).CloseWithoutAnimation(Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).CloseWithoutAnimation(System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+    name: CloseWithoutAnimation
+    nameWithType: Popup<T>.CloseWithoutAnimation
+    fullName: AdvancedSceneManager.Editor.Popup<T>.CloseWithoutAnimation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+    name: CloseWithoutAnimation
+    nameWithType: Popup(Of T).CloseWithoutAnimation
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).CloseWithoutAnimation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.Close
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.Close
+  name: Close()
+  nameWithType: Popup<T>.Close()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Close()
+  nameWithType.vb: Popup(Of T).Close()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Close()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close
+    name: Close
+    nameWithType: Popup<T>.Close
+    fullName: AdvancedSceneManager.Editor.Popup<T>.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close
+    name: Close
+    nameWithType: Popup(Of T).Close
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+  isExternal: true
+  name: Close(Action)
+  nameWithType: Popup<T>.Close(Action)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Close(System.Action)
+  nameWithType.vb: Popup(Of T).Close(Action)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Close(System.Action)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+    name: Close
+    nameWithType: Popup<T>.Close
+    fullName: AdvancedSceneManager.Editor.Popup<T>.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+    name: Close
+    nameWithType: Popup(Of T).Close
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.OnClose
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.OnClose
+  name: OnClose()
+  nameWithType: Popup<T>.OnClose()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.OnClose()
+  nameWithType.vb: Popup(Of T).OnClose()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).OnClose()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnClose
+    name: OnClose
+    nameWithType: Popup<T>.OnClose
+    fullName: AdvancedSceneManager.Editor.Popup<T>.OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnClose
+    name: OnClose
+    nameWithType: Popup(Of T).OnClose
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.overlay
+  commentId: F:AdvancedSceneManager.Editor.Popup`1.overlay
+  name: overlay
+  nameWithType: Popup<T>.overlay
+  fullName: AdvancedSceneManager.Editor.Popup<T>.overlay
+  nameWithType.vb: Popup(Of T).overlay
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).overlay
+- uid: AdvancedSceneManager.Editor.Popup`1.rootVisualElement
+  commentId: F:AdvancedSceneManager.Editor.Popup`1.rootVisualElement
+  name: rootVisualElement
+  nameWithType: Popup<T>.rootVisualElement
+  fullName: AdvancedSceneManager.Editor.Popup<T>.rootVisualElement
+  nameWithType.vb: Popup(Of T).rootVisualElement
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).rootVisualElement
+- uid: AdvancedSceneManager.Editor.Popup`1.isMainContentLoaded
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.isMainContentLoaded
+  name: isMainContentLoaded
+  nameWithType: Popup<T>.isMainContentLoaded
+  fullName: AdvancedSceneManager.Editor.Popup<T>.isMainContentLoaded
+  nameWithType.vb: Popup(Of T).isMainContentLoaded
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).isMainContentLoaded
+- uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  isExternal: true
+  name: LoadContent(String, VisualElement)
+  nameWithType: Popup<T>.LoadContent(String, VisualElement)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  nameWithType.vb: Popup(Of T).LoadContent(String, VisualElement)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+    name: LoadContent
+    nameWithType: Popup<T>.LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup<T>.LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+    name: LoadContent
+    nameWithType: Popup(Of T).LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  isExternal: true
+  name: LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  nameWithType: Popup<T>.LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Popup(Of T).LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+    name: LoadContent
+    nameWithType: Popup<T>.LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup<T>.LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+    name: LoadContent
+    nameWithType: Popup(Of T).LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.ReloadContent
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.ReloadContent
+  name: ReloadContent()
+  nameWithType: Popup<T>.ReloadContent()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.ReloadContent()
+  nameWithType.vb: Popup(Of T).ReloadContent()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).ReloadContent()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.ReloadContent
+    name: ReloadContent
+    nameWithType: Popup<T>.ReloadContent
+    fullName: AdvancedSceneManager.Editor.Popup<T>.ReloadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.ReloadContent
+    name: ReloadContent
+    nameWithType: Popup(Of T).ReloadContent
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).ReloadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.enableBorder
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.enableBorder
+  name: enableBorder
+  nameWithType: Popup<T>.enableBorder
+  fullName: AdvancedSceneManager.Editor.Popup<T>.enableBorder
+  nameWithType.vb: Popup(Of T).enableBorder
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).enableBorder
+- uid: AdvancedSceneManager.Editor.Popup`1.hasBorder
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.hasBorder
+  name: hasBorder
+  nameWithType: Popup<T>.hasBorder
+  fullName: AdvancedSceneManager.Editor.Popup<T>.hasBorder
+  nameWithType.vb: Popup(Of T).hasBorder
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).hasBorder
+- uid: AdvancedSceneManager.Editor.Popup`1.offset
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.offset
+  name: offset
+  nameWithType: Popup<T>.offset
+  fullName: AdvancedSceneManager.Editor.Popup<T>.offset
+  nameWithType.vb: Popup(Of T).offset
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).offset
+- uid: AdvancedSceneManager.Editor.Popup`1.alignRight
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.alignRight
+  name: alignRight
+  nameWithType: Popup<T>.alignRight
+  fullName: AdvancedSceneManager.Editor.Popup<T>.alignRight
+  nameWithType.vb: Popup(Of T).alignRight
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).alignRight
+- uid: AdvancedSceneManager.Editor.Popup`1.placementTarget
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.placementTarget
+  name: placementTarget
+  nameWithType: Popup<T>.placementTarget
+  fullName: AdvancedSceneManager.Editor.Popup<T>.placementTarget
+  nameWithType.vb: Popup(Of T).placementTarget
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).placementTarget
+- uid: AdvancedSceneManager.Editor.Popup`1.parent
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.parent
+  name: parent
+  nameWithType: Popup<T>.parent
+  fullName: AdvancedSceneManager.Editor.Popup<T>.parent
+  nameWithType.vb: Popup(Of T).parent
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).parent
+- uid: AdvancedSceneManager.Editor.Popup`1.SetPosition
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.SetPosition
+  name: SetPosition()
+  nameWithType: Popup<T>.SetPosition()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.SetPosition()
+  nameWithType.vb: Popup(Of T).SetPosition()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).SetPosition()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.SetPosition
+    name: SetPosition
+    nameWithType: Popup<T>.SetPosition
+    fullName: AdvancedSceneManager.Editor.Popup<T>.SetPosition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.SetPosition
+    name: SetPosition
+    nameWithType: Popup(Of T).SetPosition
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).SetPosition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.path
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.path
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.path
+  name: path
+  nameWithType: Popup<GenericPopup>.path
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.path
+  nameWithType.vb: Popup(Of GenericPopup).path
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).path
+- uid: AdvancedSceneManager.Editor.GenericPopup.path*
+  commentId: Overload:AdvancedSceneManager.Editor.GenericPopup.path
+  name: path
+  nameWithType: GenericPopup.path
+  fullName: AdvancedSceneManager.Editor.GenericPopup.path
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Editor.Popup`1.path
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.path
+  name: path
+  nameWithType: Popup<T>.path
+  fullName: AdvancedSceneManager.Editor.Popup<T>.path
+  nameWithType.vb: Popup(Of T).path
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).path
+- uid: AdvancedSceneManager.Editor.GenericPopup.Item
+  commentId: T:AdvancedSceneManager.Editor.GenericPopup.Item
+  parent: AdvancedSceneManager.Editor
+  name: GenericPopup.Item
+  nameWithType: GenericPopup.Item
+  fullName: AdvancedSceneManager.Editor.GenericPopup.Item
+- uid: AdvancedSceneManager.Editor.GenericPopup.Separator*
+  commentId: Overload:AdvancedSceneManager.Editor.GenericPopup.Separator
+  name: Separator
+  nameWithType: GenericPopup.Separator
+  fullName: AdvancedSceneManager.Editor.GenericPopup.Separator
+- uid: AdvancedSceneManager.Editor.GenericPopup.Refresh*
+  commentId: Overload:AdvancedSceneManager.Editor.GenericPopup.Refresh
+  name: Refresh
+  nameWithType: GenericPopup.Refresh
+  fullName: AdvancedSceneManager.Editor.GenericPopup.Refresh
+- uid: AdvancedSceneManager.Editor.GenericPopup.Item[]
+  isExternal: true
+  name: GenericPopup.Item[]
+  nameWithType: GenericPopup.Item[]
+  fullName: AdvancedSceneManager.Editor.GenericPopup.Item[]
+  nameWithType.vb: GenericPopup.Item()
+  fullName.vb: AdvancedSceneManager.Editor.GenericPopup.Item()
+  name.vb: GenericPopup.Item()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.GenericPopup.Item
+    name: GenericPopup.Item
+    nameWithType: GenericPopup.Item
+    fullName: AdvancedSceneManager.Editor.GenericPopup.Item
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.GenericPopup.Item
+    name: GenericPopup.Item
+    nameWithType: GenericPopup.Item
+    fullName: AdvancedSceneManager.Editor.GenericPopup.Item
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.OnReopen(AdvancedSceneManager.Editor.GenericPopup)
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}.OnReopen(AdvancedSceneManager.Editor.GenericPopup)
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.GenericPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+  name: OnReopen(GenericPopup)
+  nameWithType: Popup<GenericPopup>.OnReopen(GenericPopup)
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.OnReopen(AdvancedSceneManager.Editor.GenericPopup)
+  nameWithType.vb: Popup(Of GenericPopup).OnReopen(GenericPopup)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).OnReopen(AdvancedSceneManager.Editor.GenericPopup)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+    name: OnReopen
+    nameWithType: Popup<GenericPopup>.OnReopen
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.GenericPopup>.OnReopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Editor.GenericPopup
+    name: GenericPopup
+    nameWithType: GenericPopup
+    fullName: AdvancedSceneManager.Editor.GenericPopup
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+    name: OnReopen
+    nameWithType: Popup(Of GenericPopup).OnReopen
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.GenericPopup).OnReopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Editor.GenericPopup
+    name: GenericPopup
+    nameWithType: GenericPopup
+    fullName: AdvancedSceneManager.Editor.GenericPopup
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.GenericPopup.OnReopen*
+  commentId: Overload:AdvancedSceneManager.Editor.GenericPopup.OnReopen
+  name: OnReopen
+  nameWithType: GenericPopup.OnReopen
+  fullName: AdvancedSceneManager.Editor.GenericPopup.OnReopen
+- uid: AdvancedSceneManager.Editor.GenericPopup
+  commentId: T:AdvancedSceneManager.Editor.GenericPopup
+  parent: AdvancedSceneManager.Editor
+  name: GenericPopup
+  nameWithType: GenericPopup
+  fullName: AdvancedSceneManager.Editor.GenericPopup
+- uid: AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+  name: OnReopen(T)
+  nameWithType: Popup<T>.OnReopen(T)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.OnReopen(T)
+  nameWithType.vb: Popup(Of T).OnReopen(T)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).OnReopen(T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+    name: OnReopen
+    nameWithType: Popup<T>.OnReopen
+    fullName: AdvancedSceneManager.Editor.Popup<T>.OnReopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+    name: OnReopen
+    nameWithType: Popup(Of T).OnReopen
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).OnReopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

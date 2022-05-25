@@ -1,0 +1,501 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.SceneManager
+  commentId: T:AdvancedSceneManager.SceneManager
+  id: SceneManager
+  parent: AdvancedSceneManager
+  children:
+  - AdvancedSceneManager.SceneManager.assetManagement
+  - AdvancedSceneManager.SceneManager.collection
+  - AdvancedSceneManager.SceneManager.editor
+  - AdvancedSceneManager.SceneManager.profile
+  - AdvancedSceneManager.SceneManager.runtime
+  - AdvancedSceneManager.SceneManager.settings
+  - AdvancedSceneManager.SceneManager.standalone
+  - AdvancedSceneManager.SceneManager.utility
+  langs:
+  - csharp
+  - vb
+  name: SceneManager
+  nameWithType: SceneManager
+  fullName: AdvancedSceneManager.SceneManager
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SceneManager
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+    startLine: 19
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager
+  summary: "\n<p>The core of Advanced Scene Manager, provides access to the following:</p>\n<p><xref href=\"AdvancedSceneManager.SceneManager.assetManagement\" data-throw-if-not-resolved=\"false\"></xref>, provides an overview over all scenes and collections in project and contains functions to manage them.</p>\n<p><xref href=\"AdvancedSceneManager.SceneManager.runtime\" data-throw-if-not-resolved=\"false\"></xref>, manages startup and quit processes of the game.</p>\n<p><xref href=\"AdvancedSceneManager.SceneManager.profile\" data-throw-if-not-resolved=\"false\"></xref>, the current profile, which contains your collections.</p>\n<p><xref href=\"AdvancedSceneManager.SceneManager.settings\" data-throw-if-not-resolved=\"false\"></xref>, settings of the scene manager that isn&apos;t stored in the profile.</p>\n<p>Scene managers:</p>\n<p><xref href=\"AdvancedSceneManager.SceneManager.collection\" data-throw-if-not-resolved=\"false\"></xref>, contains functions to open or close collections or manage collection scenes.</p>\n<p><xref href=\"AdvancedSceneManager.SceneManager.standalone\" data-throw-if-not-resolved=\"false\"></xref>, contains functions to manage scenes that are not associated with the currently active collection.</p>\n<p><xref href=\"AdvancedSceneManager.SceneManager.utility\" data-throw-if-not-resolved=\"false\"></xref>, contains functions to manage scenes that may be open in either <xref href=\"AdvancedSceneManager.SceneManager.standalone\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"AdvancedSceneManager.SceneManager.collection\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n<p><xref href=\"AdvancedSceneManager.SceneManager.editor\" data-throw-if-not-resolved=\"false\"></xref>, a simplified scene manager to manages scenes in editor. Only available in editor.</p>\n"
+  example: []
+  syntax:
+    content: public static class SceneManager
+    content.vb: Public Module SceneManager
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.SceneManager.assetManagement
+  commentId: P:AdvancedSceneManager.SceneManager.assetManagement
+  id: assetManagement
+  parent: AdvancedSceneManager.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: assetManagement
+  nameWithType: SceneManager.assetManagement
+  fullName: AdvancedSceneManager.SceneManager.assetManagement
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: assetManagement
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+    startLine: 48
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager
+  summary: Provides an overview over all scenes and collections in project and contains functions to manage them
+  example: []
+  syntax:
+    content: public static AssetManagement assetManagement { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Core.AssetManagement
+    content.vb: Public Shared ReadOnly Property assetManagement As AssetManagement
+  overload: AdvancedSceneManager.SceneManager.assetManagement*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.SceneManager.collection
+  commentId: P:AdvancedSceneManager.SceneManager.collection
+  id: collection
+  parent: AdvancedSceneManager.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: collection
+  nameWithType: SceneManager.collection
+  fullName: AdvancedSceneManager.SceneManager.collection
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: collection
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+    startLine: 51
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager
+  summary: Provides functions to open or close collections or manage collection scenes
+  example: []
+  syntax:
+    content: public static CollectionManager collection { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Core.CollectionManager
+    content.vb: Public Shared ReadOnly Property collection As CollectionManager
+  overload: AdvancedSceneManager.SceneManager.collection*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.SceneManager.standalone
+  commentId: P:AdvancedSceneManager.SceneManager.standalone
+  id: standalone
+  parent: AdvancedSceneManager.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: standalone
+  nameWithType: SceneManager.standalone
+  fullName: AdvancedSceneManager.SceneManager.standalone
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: standalone
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+    startLine: 54
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager
+  summary: Provides functions to manage scenes outside that are not associated with the currently active collection
+  example: []
+  syntax:
+    content: public static StandaloneManager standalone { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Core.StandaloneManager
+    content.vb: Public Shared ReadOnly Property standalone As StandaloneManager
+  overload: AdvancedSceneManager.SceneManager.standalone*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.SceneManager.utility
+  commentId: P:AdvancedSceneManager.SceneManager.utility
+  id: utility
+  parent: AdvancedSceneManager.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: utility
+  nameWithType: SceneManager.utility
+  fullName: AdvancedSceneManager.SceneManager.utility
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: utility
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+    startLine: 57
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager
+  summary: Provides functions to manage scenes that may be open in either <xref href="AdvancedSceneManager.SceneManager.standalone" data-throw-if-not-resolved="false"></xref> or <xref href="AdvancedSceneManager.SceneManager.collection" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public static UtilitySceneManager utility { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Core.UtilitySceneManager
+    content.vb: Public Shared ReadOnly Property utility As UtilitySceneManager
+  overload: AdvancedSceneManager.SceneManager.utility*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.SceneManager.runtime
+  commentId: P:AdvancedSceneManager.SceneManager.runtime
+  id: runtime
+  parent: AdvancedSceneManager.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: runtime
+  nameWithType: SceneManager.runtime
+  fullName: AdvancedSceneManager.SceneManager.runtime
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: runtime
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+    startLine: 60
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager
+  summary: Manages startup and quit processes of the game
+  example: []
+  syntax:
+    content: public static Runtime runtime { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Core.Runtime
+    content.vb: Public Shared ReadOnly Property runtime As Runtime
+  overload: AdvancedSceneManager.SceneManager.runtime*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.SceneManager.settings
+  commentId: P:AdvancedSceneManager.SceneManager.settings
+  id: settings
+  parent: AdvancedSceneManager.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: settings
+  nameWithType: SceneManager.settings
+  fullName: AdvancedSceneManager.SceneManager.settings
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: settings
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+    startLine: 63
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager
+  summary: ASM settings.
+  example: []
+  syntax:
+    content: public static ASMSettings.SettingsProxy settings { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Models.ASMSettings.SettingsProxy
+    content.vb: Public Shared ReadOnly Property settings As ASMSettings.SettingsProxy
+  overload: AdvancedSceneManager.SceneManager.settings*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.SceneManager.profile
+  commentId: P:AdvancedSceneManager.SceneManager.profile
+  id: profile
+  parent: AdvancedSceneManager.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: profile
+  nameWithType: SceneManager.profile
+  fullName: AdvancedSceneManager.SceneManager.profile
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: profile
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+    startLine: 66
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager
+  summary: The currently active profile.
+  example: []
+  syntax:
+    content: public static Profile profile { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Models.Profile
+    content.vb: Public Shared ReadOnly Property profile As Profile
+  overload: AdvancedSceneManager.SceneManager.profile*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.SceneManager.editor
+  commentId: P:AdvancedSceneManager.SceneManager.editor
+  id: editor
+  parent: AdvancedSceneManager.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: editor
+  nameWithType: SceneManager.editor
+  fullName: AdvancedSceneManager.SceneManager.editor
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: editor
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneManager.cs
+    startLine: 71
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager
+  summary: A simplified scene manager to manages scenes in editor.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public static Editor editor { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Core.Editor
+    content.vb: Public Shared ReadOnly Property editor As Editor
+  overload: AdvancedSceneManager.SceneManager.editor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: AdvancedSceneManager.SceneManager.assetManagement
+  commentId: P:AdvancedSceneManager.SceneManager.assetManagement
+  isExternal: true
+- uid: AdvancedSceneManager.SceneManager.runtime
+  commentId: P:AdvancedSceneManager.SceneManager.runtime
+  isExternal: true
+- uid: AdvancedSceneManager.SceneManager.profile
+  commentId: P:AdvancedSceneManager.SceneManager.profile
+  isExternal: true
+- uid: AdvancedSceneManager.SceneManager.settings
+  commentId: P:AdvancedSceneManager.SceneManager.settings
+  isExternal: true
+- uid: AdvancedSceneManager.SceneManager.collection
+  commentId: P:AdvancedSceneManager.SceneManager.collection
+  isExternal: true
+- uid: AdvancedSceneManager.SceneManager.standalone
+  commentId: P:AdvancedSceneManager.SceneManager.standalone
+  isExternal: true
+- uid: AdvancedSceneManager.SceneManager.utility
+  commentId: P:AdvancedSceneManager.SceneManager.utility
+  isExternal: true
+- uid: AdvancedSceneManager.SceneManager.editor
+  commentId: P:AdvancedSceneManager.SceneManager.editor
+  isExternal: true
+- uid: AdvancedSceneManager
+  commentId: N:AdvancedSceneManager
+  name: AdvancedSceneManager
+  nameWithType: AdvancedSceneManager
+  fullName: AdvancedSceneManager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.SceneManager.assetManagement*
+  commentId: Overload:AdvancedSceneManager.SceneManager.assetManagement
+  name: assetManagement
+  nameWithType: SceneManager.assetManagement
+  fullName: AdvancedSceneManager.SceneManager.assetManagement
+- uid: AdvancedSceneManager.Core.AssetManagement
+  commentId: T:AdvancedSceneManager.Core.AssetManagement
+  parent: AdvancedSceneManager.Core
+  name: AssetManagement
+  nameWithType: AssetManagement
+  fullName: AdvancedSceneManager.Core.AssetManagement
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: AdvancedSceneManager.SceneManager.collection*
+  commentId: Overload:AdvancedSceneManager.SceneManager.collection
+  name: collection
+  nameWithType: SceneManager.collection
+  fullName: AdvancedSceneManager.SceneManager.collection
+- uid: AdvancedSceneManager.Core.CollectionManager
+  commentId: T:AdvancedSceneManager.Core.CollectionManager
+  parent: AdvancedSceneManager.Core
+  name: CollectionManager
+  nameWithType: CollectionManager
+  fullName: AdvancedSceneManager.Core.CollectionManager
+- uid: AdvancedSceneManager.SceneManager.standalone*
+  commentId: Overload:AdvancedSceneManager.SceneManager.standalone
+  name: standalone
+  nameWithType: SceneManager.standalone
+  fullName: AdvancedSceneManager.SceneManager.standalone
+- uid: AdvancedSceneManager.Core.StandaloneManager
+  commentId: T:AdvancedSceneManager.Core.StandaloneManager
+  parent: AdvancedSceneManager.Core
+  name: StandaloneManager
+  nameWithType: StandaloneManager
+  fullName: AdvancedSceneManager.Core.StandaloneManager
+- uid: AdvancedSceneManager.SceneManager.utility*
+  commentId: Overload:AdvancedSceneManager.SceneManager.utility
+  name: utility
+  nameWithType: SceneManager.utility
+  fullName: AdvancedSceneManager.SceneManager.utility
+- uid: AdvancedSceneManager.Core.UtilitySceneManager
+  commentId: T:AdvancedSceneManager.Core.UtilitySceneManager
+  parent: AdvancedSceneManager.Core
+  name: UtilitySceneManager
+  nameWithType: UtilitySceneManager
+  fullName: AdvancedSceneManager.Core.UtilitySceneManager
+- uid: AdvancedSceneManager.SceneManager.runtime*
+  commentId: Overload:AdvancedSceneManager.SceneManager.runtime
+  name: runtime
+  nameWithType: SceneManager.runtime
+  fullName: AdvancedSceneManager.SceneManager.runtime
+- uid: AdvancedSceneManager.Core.Runtime
+  commentId: T:AdvancedSceneManager.Core.Runtime
+  parent: AdvancedSceneManager.Core
+  name: Runtime
+  nameWithType: Runtime
+  fullName: AdvancedSceneManager.Core.Runtime
+- uid: AdvancedSceneManager.SceneManager.settings*
+  commentId: Overload:AdvancedSceneManager.SceneManager.settings
+  name: settings
+  nameWithType: SceneManager.settings
+  fullName: AdvancedSceneManager.SceneManager.settings
+- uid: AdvancedSceneManager.Models.ASMSettings.SettingsProxy
+  commentId: T:AdvancedSceneManager.Models.ASMSettings.SettingsProxy
+  parent: AdvancedSceneManager.Models
+  name: ASMSettings.SettingsProxy
+  nameWithType: ASMSettings.SettingsProxy
+  fullName: AdvancedSceneManager.Models.ASMSettings.SettingsProxy
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: AdvancedSceneManager.SceneManager.profile*
+  commentId: Overload:AdvancedSceneManager.SceneManager.profile
+  name: profile
+  nameWithType: SceneManager.profile
+  fullName: AdvancedSceneManager.SceneManager.profile
+- uid: AdvancedSceneManager.Models.Profile
+  commentId: T:AdvancedSceneManager.Models.Profile
+  parent: AdvancedSceneManager.Models
+  name: Profile
+  nameWithType: Profile
+  fullName: AdvancedSceneManager.Models.Profile
+- uid: AdvancedSceneManager.SceneManager.editor*
+  commentId: Overload:AdvancedSceneManager.SceneManager.editor
+  name: editor
+  nameWithType: SceneManager.editor
+  fullName: AdvancedSceneManager.SceneManager.editor
+- uid: AdvancedSceneManager.Core.Editor
+  commentId: T:AdvancedSceneManager.Core.Editor
+  parent: AdvancedSceneManager.Core
+  name: Editor
+  nameWithType: Editor
+  fullName: AdvancedSceneManager.Core.Editor

@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Callbacks.ICollectionOpen
+  commentId: T:AdvancedSceneManager.Callbacks.ICollectionOpen
+  id: ICollectionOpen
+  parent: AdvancedSceneManager.Callbacks
+  children:
+  - AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen(AdvancedSceneManager.Models.SceneCollection)
+  langs:
+  - csharp
+  - vb
+  name: ICollectionOpen
+  nameWithType: ICollectionOpen
+  fullName: AdvancedSceneManager.Callbacks.ICollectionOpen
+  type: Interface
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/Open_CloseCallbacks.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ICollectionOpen
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/Open_CloseCallbacks.cs
+    startLine: 29
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: "\n<p>Callback for when a scene in a collection that a <xref href=\"UnityEngine.MonoBehaviour\" data-throw-if-not-resolved=\"false\"></xref> is contained within is opened.</p>\n<p>Called before loading screen is hidden, if one is defined, or else just when collection has opened.</p>\n"
+  example: []
+  syntax:
+    content: 'public interface ICollectionOpen : ISceneManagerCallbackBase'
+    content.vb: >-
+      Public Interface ICollectionOpen
+          Inherits ISceneManagerCallbackBase
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen(AdvancedSceneManager.Models.SceneCollection)
+  commentId: M:AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen(AdvancedSceneManager.Models.SceneCollection)
+  id: OnCollectionOpen(AdvancedSceneManager.Models.SceneCollection)
+  parent: AdvancedSceneManager.Callbacks.ICollectionOpen
+  langs:
+  - csharp
+  - vb
+  name: OnCollectionOpen(SceneCollection)
+  nameWithType: ICollectionOpen.OnCollectionOpen(SceneCollection)
+  fullName: AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen(AdvancedSceneManager.Models.SceneCollection)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/Open_CloseCallbacks.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnCollectionOpen
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/Open_CloseCallbacks.cs
+    startLine: 32
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: "\n<p>Callback for when a scene in a collection that a <xref href=\"UnityEngine.MonoBehaviour\" data-throw-if-not-resolved=\"false\"></xref> is contained within is opened.</p>\n<p>Called before loading screen is hidden, if one is defined, or else just when collection has opened.</p>\n"
+  example: []
+  syntax:
+    content: IEnumerator OnCollectionOpen(SceneCollection collection)
+    parameters:
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Function OnCollectionOpen(collection As SceneCollection) As IEnumerator
+  overload: AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen*
+references:
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Callbacks.ICollectionOpen
+  commentId: T:AdvancedSceneManager.Callbacks.ICollectionOpen
+  parent: AdvancedSceneManager.Callbacks
+  name: ICollectionOpen
+  nameWithType: ICollectionOpen
+  fullName: AdvancedSceneManager.Callbacks.ICollectionOpen
+- uid: AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen*
+  commentId: Overload:AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen
+  name: OnCollectionOpen
+  nameWithType: ICollectionOpen.OnCollectionOpen
+  fullName: AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen
+- uid: AdvancedSceneManager.Models.SceneCollection
+  commentId: T:AdvancedSceneManager.Models.SceneCollection
+  parent: AdvancedSceneManager.Models
+  name: SceneCollection
+  nameWithType: SceneCollection
+  fullName: AdvancedSceneManager.Models.SceneCollection
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections

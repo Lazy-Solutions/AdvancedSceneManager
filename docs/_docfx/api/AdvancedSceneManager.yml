@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager
+  commentId: N:AdvancedSceneManager
+  id: AdvancedSceneManager
+  children:
+  - AdvancedSceneManager.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: AdvancedSceneManager
+  nameWithType: AdvancedSceneManager
+  fullName: AdvancedSceneManager
+  type: Namespace
+  assemblies:
+  - AdvancedSceneManager
+references:
+- uid: AdvancedSceneManager.SceneManager
+  commentId: T:AdvancedSceneManager.SceneManager
+  name: SceneManager
+  nameWithType: SceneManager
+  fullName: AdvancedSceneManager.SceneManager

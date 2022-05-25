@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  commentId: T:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  id: PersistentSceneInEditorUtility.OpenInEditorOption
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.AnySceneOpens
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.Never
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.WhenAnyOfTheFollowingScenesOpen
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.WhenAnySceneOpensExcept
+  langs:
+  - csharp
+  - vb
+  name: PersistentSceneInEditorUtility.OpenInEditorOption
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorOption
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  type: Enum
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OpenInEditorOption
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 81
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public enum OpenInEditorOption
+    content.vb: Public Enum OpenInEditorOption
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.Never
+  commentId: F:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.Never
+  id: Never
+  parent: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  langs:
+  - csharp
+  - vb
+  name: Never
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorOption.Never
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.Never
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Never
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 83
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: Never = 0
+    return:
+      type: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.AnySceneOpens
+  commentId: F:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.AnySceneOpens
+  id: AnySceneOpens
+  parent: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  langs:
+  - csharp
+  - vb
+  name: AnySceneOpens
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorOption.AnySceneOpens
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.AnySceneOpens
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: AnySceneOpens
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 83
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: AnySceneOpens = 1
+    return:
+      type: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.WhenAnyOfTheFollowingScenesOpen
+  commentId: F:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.WhenAnyOfTheFollowingScenesOpen
+  id: WhenAnyOfTheFollowingScenesOpen
+  parent: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  langs:
+  - csharp
+  - vb
+  name: WhenAnyOfTheFollowingScenesOpen
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorOption.WhenAnyOfTheFollowingScenesOpen
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.WhenAnyOfTheFollowingScenesOpen
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: WhenAnyOfTheFollowingScenesOpen
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 83
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: WhenAnyOfTheFollowingScenesOpen = 2
+    return:
+      type: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.WhenAnySceneOpensExcept
+  commentId: F:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.WhenAnySceneOpensExcept
+  id: WhenAnySceneOpensExcept
+  parent: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  langs:
+  - csharp
+  - vb
+  name: WhenAnySceneOpensExcept
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorOption.WhenAnySceneOpensExcept
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.WhenAnySceneOpensExcept
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: WhenAnySceneOpensExcept
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 83
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: WhenAnySceneOpensExcept = 3
+    return:
+      type: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  commentId: T:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  parent: AdvancedSceneManager.Editor.Utility
+  name: PersistentSceneInEditorUtility.OpenInEditorOption
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorOption
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption

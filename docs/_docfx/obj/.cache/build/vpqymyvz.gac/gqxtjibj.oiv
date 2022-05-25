@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder" class="text-break">Class SceneManagerWindow.DragAndDropReorder
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="api/AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.yml" sourcestartlinenumber="1" sourceendlinenumber="1">An class that manages drag and drop reorder.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SceneManagerWindow.DragAndDropReorder</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Editor.html">AdvancedSceneManager.Editor</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.Editor.dll</h6>
+  <h5 id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class DragAndDropReorder</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_currentDragElement_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.currentDragElement*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_currentDragElement" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.currentDragElement">currentDragElement</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneManagerWindow.DragAndDropReorder.DragElement currentDragElement { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.html">SceneManagerWindow.DragAndDropReorder.DragElement</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_newIndex_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.newIndex*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_newIndex" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.newIndex">newIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int newIndex { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_offset_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.offset*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_offset" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.offset">offset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float offset { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_rootVisualElement_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.rootVisualElement*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_rootVisualElement" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.rootVisualElement">rootVisualElement</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VisualElement rootVisualElement { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.VisualElement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_RegisterList_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.RegisterList*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_RegisterList_UnityEngine_UIElements_VisualElement_System_String_System_String_System_String_System_String_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.RegisterList(UnityEngine.UIElements.VisualElement,System.String,System.String,System.String,System.String)">RegisterList(VisualElement, String, String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterList(VisualElement list, string dragButtonName = null, string dragButtonClass = null, string itemRootName = null, string itemRootClass = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.VisualElement</span></td>
+        <td><span class="parametername">list</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dragButtonName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dragButtonClass</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">itemRootName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">itemRootClass</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_UnregisterList_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterList*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_UnregisterList_UnityEngine_UIElements_VisualElement_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterList(UnityEngine.UIElements.VisualElement)">UnregisterList(VisualElement)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UnregisterList(VisualElement list)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.VisualElement</span></td>
+        <td><span class="parametername">list</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_UnregisterListAll_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterListAll*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_UnregisterListAll" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterListAll">UnregisterListAll()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UnregisterListAll()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_OnDragCancel" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragCancel">OnDragCancel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;SceneManagerWindow.DragAndDropReorder.DragElement&gt; OnDragCancel</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.html">SceneManagerWindow.DragAndDropReorder.DragElement</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_OnDragEnded" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragEnded">OnDragEnded</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;SceneManagerWindow.DragAndDropReorder.DragElement, int&gt; OnDragEnded</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.html">SceneManagerWindow.DragAndDropReorder.DragElement</a>, <span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_DragAndDropReorder_OnDragStarted" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragStarted">OnDragStarted</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;SceneManagerWindow.DragAndDropReorder.DragElement&gt; OnDragStarted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.html">SceneManagerWindow.DragAndDropReorder.DragElement</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

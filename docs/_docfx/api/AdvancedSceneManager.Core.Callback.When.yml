@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Core.Callback.When
+  commentId: T:AdvancedSceneManager.Core.Callback.When
+  id: Callback.When
+  parent: AdvancedSceneManager.Core
+  children:
+  - AdvancedSceneManager.Core.Callback.When.After
+  - AdvancedSceneManager.Core.Callback.When.Before
+  langs:
+  - csharp
+  - vb
+  name: Callback.When
+  nameWithType: Callback.When
+  fullName: AdvancedSceneManager.Core.Callback.When
+  type: Enum
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: When
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 24
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public enum When
+    content.vb: Public Enum When
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: AdvancedSceneManager.Core.Callback.When.Before
+  commentId: F:AdvancedSceneManager.Core.Callback.When.Before
+  id: Before
+  parent: AdvancedSceneManager.Core.Callback.When
+  langs:
+  - csharp
+  - vb
+  name: Before
+  nameWithType: Callback.When.Before
+  fullName: AdvancedSceneManager.Core.Callback.When.Before
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Before
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 26
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: Before = 0
+    return:
+      type: AdvancedSceneManager.Core.Callback.When
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Core.Callback.When.After
+  commentId: F:AdvancedSceneManager.Core.Callback.When.After
+  id: After
+  parent: AdvancedSceneManager.Core.Callback.When
+  langs:
+  - csharp
+  - vb
+  name: After
+  nameWithType: Callback.When.After
+  fullName: AdvancedSceneManager.Core.Callback.When.After
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: After
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 26
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: After = 1
+    return:
+      type: AdvancedSceneManager.Core.Callback.When
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: AdvancedSceneManager.Core.Callback.When
+  commentId: T:AdvancedSceneManager.Core.Callback.When
+  parent: AdvancedSceneManager.Core
+  name: Callback.When
+  nameWithType: Callback.When
+  fullName: AdvancedSceneManager.Core.Callback.When

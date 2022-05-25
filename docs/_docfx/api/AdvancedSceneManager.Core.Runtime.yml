@@ -1,0 +1,692 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Core.Runtime
+  commentId: T:AdvancedSceneManager.Core.Runtime
+  id: Runtime
+  parent: AdvancedSceneManager.Core
+  children:
+  - AdvancedSceneManager.Core.Runtime.afterStart
+  - AdvancedSceneManager.Core.Runtime.beforeStart
+  - AdvancedSceneManager.Core.Runtime.CancelQuit
+  - AdvancedSceneManager.Core.Runtime.isBuildMode
+  - AdvancedSceneManager.Core.Runtime.isInitialized
+  - AdvancedSceneManager.Core.Runtime.isQuitting
+  - AdvancedSceneManager.Core.Runtime.Quit(System.Boolean,System.Nullable{UnityEngine.Color},System.Single)
+  - AdvancedSceneManager.Core.Runtime.RegisterQuitCallback(System.Collections.IEnumerator)
+  - AdvancedSceneManager.Core.Runtime.Restart(System.Boolean)
+  - AdvancedSceneManager.Core.Runtime.Start(AdvancedSceneManager.Models.SceneCollection,System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Core.Runtime.UnregisterQuitCallback(System.Collections.IEnumerator)
+  - AdvancedSceneManager.Core.Runtime.wasStartedAsBuild
+  langs:
+  - csharp
+  - vb
+  name: Runtime
+  nameWithType: Runtime
+  fullName: AdvancedSceneManager.Core.Runtime
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Runtime
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+    startLine: 23
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Manages the start and quit processes of the game.
+  example: []
+  syntax:
+    content: public class Runtime
+    content.vb: Public Class Runtime
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Core.Runtime.isInitialized
+  commentId: P:AdvancedSceneManager.Core.Runtime.isInitialized
+  id: isInitialized
+  parent: AdvancedSceneManager.Core.Runtime
+  langs:
+  - csharp
+  - vb
+  name: isInitialized
+  nameWithType: Runtime.isInitialized
+  fullName: AdvancedSceneManager.Core.Runtime.isInitialized
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: isInitialized
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+    startLine: 27
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Gets whatever ASM is done with startup process.
+  example: []
+  syntax:
+    content: public bool isInitialized { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isInitialized As Boolean
+  overload: AdvancedSceneManager.Core.Runtime.isInitialized*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.Runtime.beforeStart
+  commentId: E:AdvancedSceneManager.Core.Runtime.beforeStart
+  id: beforeStart
+  parent: AdvancedSceneManager.Core.Runtime
+  langs:
+  - csharp
+  - vb
+  name: beforeStart
+  nameWithType: Runtime.beforeStart
+  fullName: AdvancedSceneManager.Core.Runtime.beforeStart
+  type: Event
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: beforeStart
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+    startLine: 30
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Occurs before startup process is started, or when <xref href="AdvancedSceneManager.Core.Runtime.Restart(System.Boolean)" data-throw-if-not-resolved="false"></xref> is called.
+  example: []
+  syntax:
+    content: public event Action beforeStart
+    return:
+      type: System.Action
+    content.vb: Public Event beforeStart As Action
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.Runtime.afterStart
+  commentId: E:AdvancedSceneManager.Core.Runtime.afterStart
+  id: afterStart
+  parent: AdvancedSceneManager.Core.Runtime
+  langs:
+  - csharp
+  - vb
+  name: afterStart
+  nameWithType: Runtime.afterStart
+  fullName: AdvancedSceneManager.Core.Runtime.afterStart
+  type: Event
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: afterStart
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+    startLine: 33
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Occurs after startup process is done, or when <xref href="AdvancedSceneManager.Core.Runtime.Restart(System.Boolean)" data-throw-if-not-resolved="false"></xref> is called.
+  example: []
+  syntax:
+    content: public event Action afterStart
+    return:
+      type: System.Action
+    content.vb: Public Event afterStart As Action
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.Runtime.isBuildMode
+  commentId: P:AdvancedSceneManager.Core.Runtime.isBuildMode
+  id: isBuildMode
+  parent: AdvancedSceneManager.Core.Runtime
+  langs:
+  - csharp
+  - vb
+  name: isBuildMode
+  nameWithType: Runtime.isBuildMode
+  fullName: AdvancedSceneManager.Core.Runtime.isBuildMode
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: isBuildMode
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+    startLine: 149
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Gets whatever we&apos;re currently in build mode.
+  remarks: This is true when in build or when play button in scene manager window is pressed.
+  example: []
+  syntax:
+    content: public bool isBuildMode { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isBuildMode As Boolean
+  overload: AdvancedSceneManager.Core.Runtime.isBuildMode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.Runtime.wasStartedAsBuild
+  commentId: P:AdvancedSceneManager.Core.Runtime.wasStartedAsBuild
+  id: wasStartedAsBuild
+  parent: AdvancedSceneManager.Core.Runtime
+  langs:
+  - csharp
+  - vb
+  name: wasStartedAsBuild
+  nameWithType: Runtime.wasStartedAsBuild
+  fullName: AdvancedSceneManager.Core.Runtime.wasStartedAsBuild
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: wasStartedAsBuild
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+    startLine: 160
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Gets if game was started as a build.
+  example: []
+  syntax:
+    content: public bool wasStartedAsBuild { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property wasStartedAsBuild As Boolean
+  overload: AdvancedSceneManager.Core.Runtime.wasStartedAsBuild*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.Runtime.Start(AdvancedSceneManager.Models.SceneCollection,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.Runtime.Start(AdvancedSceneManager.Models.SceneCollection,System.Boolean,System.Boolean)
+  id: Start(AdvancedSceneManager.Models.SceneCollection,System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Core.Runtime
+  langs:
+  - csharp
+  - vb
+  name: Start(SceneCollection, Boolean, Boolean)
+  nameWithType: Runtime.Start(SceneCollection, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Core.Runtime.Start(AdvancedSceneManager.Models.SceneCollection, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Start
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+    startLine: 166
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Starts startup sequence.
+  remarks: Enters playmode if in editor.
+  example: []
+  syntax:
+    content: public void Start(SceneCollection collection = null, bool ignoreDoNotOpen = false, bool playSplashScreen = true)
+    parameters:
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+      description: Opens the collection after all other collections and scenes flagged to open has.
+    - id: ignoreDoNotOpen
+      type: System.Boolean
+    - id: playSplashScreen
+      type: System.Boolean
+    content.vb: Public Sub Start(collection As SceneCollection = Nothing, ignoreDoNotOpen As Boolean = False, playSplashScreen As Boolean = True)
+  overload: AdvancedSceneManager.Core.Runtime.Start*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.Runtime.Restart(System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.Runtime.Restart(System.Boolean)
+  id: Restart(System.Boolean)
+  parent: AdvancedSceneManager.Core.Runtime
+  langs:
+  - csharp
+  - vb
+  name: Restart(Boolean)
+  nameWithType: Runtime.Restart(Boolean)
+  fullName: AdvancedSceneManager.Core.Runtime.Restart(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Restart
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+    startLine: 171
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Restarts game and plays startup sequence again.
+  remarks: Enters playmode if in editor.
+  example: []
+  syntax:
+    content: public void Restart(bool playSplashScreen = false)
+    parameters:
+    - id: playSplashScreen
+      type: System.Boolean
+    content.vb: Public Sub Restart(playSplashScreen As Boolean = False)
+  overload: AdvancedSceneManager.Core.Runtime.Restart*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.Runtime.RegisterQuitCallback(System.Collections.IEnumerator)
+  commentId: M:AdvancedSceneManager.Core.Runtime.RegisterQuitCallback(System.Collections.IEnumerator)
+  id: RegisterQuitCallback(System.Collections.IEnumerator)
+  parent: AdvancedSceneManager.Core.Runtime
+  langs:
+  - csharp
+  - vb
+  name: RegisterQuitCallback(IEnumerator)
+  nameWithType: Runtime.RegisterQuitCallback(IEnumerator)
+  fullName: AdvancedSceneManager.Core.Runtime.RegisterQuitCallback(System.Collections.IEnumerator)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: RegisterQuitCallback
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+    startLine: 366
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Register a callback to be called before quit.
+  example: []
+  syntax:
+    content: public void RegisterQuitCallback(IEnumerator courutine)
+    parameters:
+    - id: courutine
+      type: System.Collections.IEnumerator
+    content.vb: Public Sub RegisterQuitCallback(courutine As IEnumerator)
+  overload: AdvancedSceneManager.Core.Runtime.RegisterQuitCallback*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.Runtime.UnregisterQuitCallback(System.Collections.IEnumerator)
+  commentId: M:AdvancedSceneManager.Core.Runtime.UnregisterQuitCallback(System.Collections.IEnumerator)
+  id: UnregisterQuitCallback(System.Collections.IEnumerator)
+  parent: AdvancedSceneManager.Core.Runtime
+  langs:
+  - csharp
+  - vb
+  name: UnregisterQuitCallback(IEnumerator)
+  nameWithType: Runtime.UnregisterQuitCallback(IEnumerator)
+  fullName: AdvancedSceneManager.Core.Runtime.UnregisterQuitCallback(System.Collections.IEnumerator)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: UnregisterQuitCallback
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+    startLine: 370
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Unregister a callback that was to be called before quit.
+  example: []
+  syntax:
+    content: public void UnregisterQuitCallback(IEnumerator courutine)
+    parameters:
+    - id: courutine
+      type: System.Collections.IEnumerator
+    content.vb: Public Sub UnregisterQuitCallback(courutine As IEnumerator)
+  overload: AdvancedSceneManager.Core.Runtime.UnregisterQuitCallback*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.Runtime.CancelQuit
+  commentId: M:AdvancedSceneManager.Core.Runtime.CancelQuit
+  id: CancelQuit
+  parent: AdvancedSceneManager.Core.Runtime
+  langs:
+  - csharp
+  - vb
+  name: CancelQuit()
+  nameWithType: Runtime.CancelQuit()
+  fullName: AdvancedSceneManager.Core.Runtime.CancelQuit()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CancelQuit
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+    startLine: 374
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: "\n<p>Cancels a quit in progress.</p>\n<p>Only usable during a RegisterQuitCallback() or while isQuitting is true.</p>\n"
+  example: []
+  syntax:
+    content: public void CancelQuit()
+    content.vb: Public Sub CancelQuit
+  overload: AdvancedSceneManager.Core.Runtime.CancelQuit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.Runtime.isQuitting
+  commentId: P:AdvancedSceneManager.Core.Runtime.isQuitting
+  id: isQuitting
+  parent: AdvancedSceneManager.Core.Runtime
+  langs:
+  - csharp
+  - vb
+  name: isQuitting
+  nameWithType: Runtime.isQuitting
+  fullName: AdvancedSceneManager.Core.Runtime.isQuitting
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: isQuitting
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+    startLine: 378
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Gets whatever ASM is currently in the process of quitting.
+  example: []
+  syntax:
+    content: public bool isQuitting { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isQuitting As Boolean
+  overload: AdvancedSceneManager.Core.Runtime.isQuitting*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.Runtime.Quit(System.Boolean,System.Nullable{UnityEngine.Color},System.Single)
+  commentId: M:AdvancedSceneManager.Core.Runtime.Quit(System.Boolean,System.Nullable{UnityEngine.Color},System.Single)
+  id: Quit(System.Boolean,System.Nullable{UnityEngine.Color},System.Single)
+  parent: AdvancedSceneManager.Core.Runtime
+  langs:
+  - csharp
+  - vb
+  name: Quit(Boolean, Nullable<Color>, Single)
+  nameWithType: Runtime.Quit(Boolean, Nullable<Color>, Single)
+  fullName: AdvancedSceneManager.Core.Runtime.Quit(System.Boolean, System.Nullable<UnityEngine.Color>, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Quit
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Runtime.cs
+    startLine: 382
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Quits the game, and calls quitCallbacks, optionally with a fade animation.
+  example: []
+  syntax:
+    content: public void Quit(bool fade = true, Color? fadeColor = null, float fadeDuration = 1F)
+    parameters:
+    - id: fade
+      type: System.Boolean
+    - id: fadeColor
+      type: System.Nullable{UnityEngine.Color}
+    - id: fadeDuration
+      type: System.Single
+    content.vb: Public Sub Quit(fade As Boolean = True, fadeColor As Color? = Nothing, fadeDuration As Single = 1F)
+  overload: AdvancedSceneManager.Core.Runtime.Quit*
+  nameWithType.vb: Runtime.Quit(Boolean, Nullable(Of Color), Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.Runtime.Quit(System.Boolean, System.Nullable(Of UnityEngine.Color), System.Single)
+  name.vb: Quit(Boolean, Nullable(Of Color), Single)
+references:
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Core.Runtime.isInitialized*
+  commentId: Overload:AdvancedSceneManager.Core.Runtime.isInitialized
+  name: isInitialized
+  nameWithType: Runtime.isInitialized
+  fullName: AdvancedSceneManager.Core.Runtime.isInitialized
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Core.Runtime.Restart(System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.Runtime.Restart(System.Boolean)
+  isExternal: true
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: AdvancedSceneManager.Core.Runtime.isBuildMode*
+  commentId: Overload:AdvancedSceneManager.Core.Runtime.isBuildMode
+  name: isBuildMode
+  nameWithType: Runtime.isBuildMode
+  fullName: AdvancedSceneManager.Core.Runtime.isBuildMode
+- uid: AdvancedSceneManager.Core.Runtime.wasStartedAsBuild*
+  commentId: Overload:AdvancedSceneManager.Core.Runtime.wasStartedAsBuild
+  name: wasStartedAsBuild
+  nameWithType: Runtime.wasStartedAsBuild
+  fullName: AdvancedSceneManager.Core.Runtime.wasStartedAsBuild
+- uid: AdvancedSceneManager.Core.Runtime.Start*
+  commentId: Overload:AdvancedSceneManager.Core.Runtime.Start
+  name: Start
+  nameWithType: Runtime.Start
+  fullName: AdvancedSceneManager.Core.Runtime.Start
+- uid: AdvancedSceneManager.Models.SceneCollection
+  commentId: T:AdvancedSceneManager.Models.SceneCollection
+  parent: AdvancedSceneManager.Models
+  name: SceneCollection
+  nameWithType: SceneCollection
+  fullName: AdvancedSceneManager.Models.SceneCollection
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: AdvancedSceneManager.Core.Runtime.Restart*
+  commentId: Overload:AdvancedSceneManager.Core.Runtime.Restart
+  name: Restart
+  nameWithType: Runtime.Restart
+  fullName: AdvancedSceneManager.Core.Runtime.Restart
+- uid: AdvancedSceneManager.Core.Runtime.RegisterQuitCallback*
+  commentId: Overload:AdvancedSceneManager.Core.Runtime.RegisterQuitCallback
+  name: RegisterQuitCallback
+  nameWithType: Runtime.RegisterQuitCallback
+  fullName: AdvancedSceneManager.Core.Runtime.RegisterQuitCallback
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: AdvancedSceneManager.Core.Runtime.UnregisterQuitCallback*
+  commentId: Overload:AdvancedSceneManager.Core.Runtime.UnregisterQuitCallback
+  name: UnregisterQuitCallback
+  nameWithType: Runtime.UnregisterQuitCallback
+  fullName: AdvancedSceneManager.Core.Runtime.UnregisterQuitCallback
+- uid: AdvancedSceneManager.Core.Actions.QuitAction.CancelQuit
+  commentId: M:AdvancedSceneManager.Core.Actions.QuitAction.CancelQuit
+  isExternal: true
+- uid: AdvancedSceneManager.Core.Runtime.CancelQuit*
+  commentId: Overload:AdvancedSceneManager.Core.Runtime.CancelQuit
+  name: CancelQuit
+  nameWithType: Runtime.CancelQuit
+  fullName: AdvancedSceneManager.Core.Runtime.CancelQuit
+- uid: AdvancedSceneManager.Core.Actions.QuitAction.isQuitting
+  commentId: P:AdvancedSceneManager.Core.Actions.QuitAction.isQuitting
+  isExternal: true
+- uid: AdvancedSceneManager.Core.Runtime.isQuitting*
+  commentId: Overload:AdvancedSceneManager.Core.Runtime.isQuitting
+  name: isQuitting
+  nameWithType: Runtime.isQuitting
+  fullName: AdvancedSceneManager.Core.Runtime.isQuitting
+- uid: AdvancedSceneManager.Core.Runtime.Quit*
+  commentId: Overload:AdvancedSceneManager.Core.Runtime.Quit
+  name: Quit
+  nameWithType: Runtime.Quit
+  fullName: AdvancedSceneManager.Core.Runtime.Quit
+- uid: System.Nullable{UnityEngine.Color}
+  commentId: T:System.Nullable{UnityEngine.Color}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Color>
+  nameWithType: Nullable<Color>
+  fullName: System.Nullable<UnityEngine.Color>
+  nameWithType.vb: Nullable(Of Color)
+  fullName.vb: System.Nullable(Of UnityEngine.Color)
+  name.vb: Nullable(Of Color)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Color
+    name: Color
+    nameWithType: Color
+    fullName: UnityEngine.Color
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Color
+    name: Color
+    nameWithType: Color
+    fullName: UnityEngine.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Callbacks.ICollectionExtraData
+  commentId: T:AdvancedSceneManager.Callbacks.ICollectionExtraData
+  id: ICollectionExtraData
+  parent: AdvancedSceneManager.Callbacks
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ICollectionExtraData
+  nameWithType: ICollectionExtraData
+  fullName: AdvancedSceneManager.Callbacks.ICollectionExtraData
+  type: Interface
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/Open_CloseCallbacks.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ICollectionExtraData
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/Open_CloseCallbacks.cs
+    startLine: 46
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: Callbacks for a <xref href="UnityEngine.ScriptableObject" data-throw-if-not-resolved="false"></xref> that has been set as extra data for a collection.
+  example: []
+  syntax:
+    content: 'public interface ICollectionExtraData : ICollectionOpen, ICollectionClose, ISceneManagerCallbackBase'
+    content.vb: >-
+      Public Interface ICollectionExtraData
+          Inherits ICollectionOpen, ICollectionClose
+  inheritedMembers:
+  - AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen(AdvancedSceneManager.Models.SceneCollection)
+  - AdvancedSceneManager.Callbacks.ICollectionClose.OnCollectionClose(AdvancedSceneManager.Models.SceneCollection)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen(AdvancedSceneManager.Models.SceneCollection)
+  commentId: M:AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen(AdvancedSceneManager.Models.SceneCollection)
+  parent: AdvancedSceneManager.Callbacks.ICollectionOpen
+  name: OnCollectionOpen(SceneCollection)
+  nameWithType: ICollectionOpen.OnCollectionOpen(SceneCollection)
+  fullName: AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen(AdvancedSceneManager.Models.SceneCollection)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen(AdvancedSceneManager.Models.SceneCollection)
+    name: OnCollectionOpen
+    nameWithType: ICollectionOpen.OnCollectionOpen
+    fullName: AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Models.SceneCollection
+    name: SceneCollection
+    nameWithType: SceneCollection
+    fullName: AdvancedSceneManager.Models.SceneCollection
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen(AdvancedSceneManager.Models.SceneCollection)
+    name: OnCollectionOpen
+    nameWithType: ICollectionOpen.OnCollectionOpen
+    fullName: AdvancedSceneManager.Callbacks.ICollectionOpen.OnCollectionOpen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Models.SceneCollection
+    name: SceneCollection
+    nameWithType: SceneCollection
+    fullName: AdvancedSceneManager.Models.SceneCollection
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.ICollectionClose.OnCollectionClose(AdvancedSceneManager.Models.SceneCollection)
+  commentId: M:AdvancedSceneManager.Callbacks.ICollectionClose.OnCollectionClose(AdvancedSceneManager.Models.SceneCollection)
+  parent: AdvancedSceneManager.Callbacks.ICollectionClose
+  name: OnCollectionClose(SceneCollection)
+  nameWithType: ICollectionClose.OnCollectionClose(SceneCollection)
+  fullName: AdvancedSceneManager.Callbacks.ICollectionClose.OnCollectionClose(AdvancedSceneManager.Models.SceneCollection)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.ICollectionClose.OnCollectionClose(AdvancedSceneManager.Models.SceneCollection)
+    name: OnCollectionClose
+    nameWithType: ICollectionClose.OnCollectionClose
+    fullName: AdvancedSceneManager.Callbacks.ICollectionClose.OnCollectionClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Models.SceneCollection
+    name: SceneCollection
+    nameWithType: SceneCollection
+    fullName: AdvancedSceneManager.Models.SceneCollection
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.ICollectionClose.OnCollectionClose(AdvancedSceneManager.Models.SceneCollection)
+    name: OnCollectionClose
+    nameWithType: ICollectionClose.OnCollectionClose
+    fullName: AdvancedSceneManager.Callbacks.ICollectionClose.OnCollectionClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Models.SceneCollection
+    name: SceneCollection
+    nameWithType: SceneCollection
+    fullName: AdvancedSceneManager.Models.SceneCollection
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Callbacks.ICollectionOpen
+  commentId: T:AdvancedSceneManager.Callbacks.ICollectionOpen
+  parent: AdvancedSceneManager.Callbacks
+  name: ICollectionOpen
+  nameWithType: ICollectionOpen
+  fullName: AdvancedSceneManager.Callbacks.ICollectionOpen
+- uid: AdvancedSceneManager.Callbacks.ICollectionClose
+  commentId: T:AdvancedSceneManager.Callbacks.ICollectionClose
+  parent: AdvancedSceneManager.Callbacks
+  name: ICollectionClose
+  nameWithType: ICollectionClose
+  fullName: AdvancedSceneManager.Callbacks.ICollectionClose

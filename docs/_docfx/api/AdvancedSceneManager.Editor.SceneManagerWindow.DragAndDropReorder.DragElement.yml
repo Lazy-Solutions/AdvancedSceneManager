@@ -1,0 +1,541 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  id: SceneManagerWindow.DragAndDropReorder.DragElement
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.button
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.index
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.item
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.itemRootClass
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.itemRootName
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.list
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.mouseDown
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.mouseMove
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.mouseUp
+  langs:
+  - csharp
+  - vb
+  name: SceneManagerWindow.DragAndDropReorder.DragElement
+  nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DragElement
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 569
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public class DragElement
+    content.vb: Public Class DragElement
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.list
+  commentId: F:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.list
+  id: list
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  langs:
+  - csharp
+  - vb
+  name: list
+  nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement.list
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.list
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: list
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 571
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public VisualElement list
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public list As VisualElement
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.item
+  commentId: F:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.item
+  id: item
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  langs:
+  - csharp
+  - vb
+  name: item
+  nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement.item
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.item
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: item
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 572
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public VisualElement item
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public item As VisualElement
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.button
+  commentId: F:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.button
+  id: button
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  langs:
+  - csharp
+  - vb
+  name: button
+  nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement.button
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.button
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: button
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 573
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public VisualElement button
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public button As VisualElement
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.mouseDown
+  commentId: F:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.mouseDown
+  id: mouseDown
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  langs:
+  - csharp
+  - vb
+  name: mouseDown
+  nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement.mouseDown
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.mouseDown
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: mouseDown
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 574
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public EventCallback<MouseDownEvent> mouseDown
+    return:
+      type: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.MouseDownEvent}
+    content.vb: Public mouseDown As EventCallback(Of MouseDownEvent)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.mouseUp
+  commentId: F:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.mouseUp
+  id: mouseUp
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  langs:
+  - csharp
+  - vb
+  name: mouseUp
+  nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement.mouseUp
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.mouseUp
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: mouseUp
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 575
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public EventCallback<MouseUpEvent> mouseUp
+    return:
+      type: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.MouseUpEvent}
+    content.vb: Public mouseUp As EventCallback(Of MouseUpEvent)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.mouseMove
+  commentId: F:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.mouseMove
+  id: mouseMove
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  langs:
+  - csharp
+  - vb
+  name: mouseMove
+  nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement.mouseMove
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.mouseMove
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: mouseMove
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 576
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public EventCallback<MouseMoveEvent> mouseMove
+    return:
+      type: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.MouseMoveEvent}
+    content.vb: Public mouseMove As EventCallback(Of MouseMoveEvent)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.index
+  commentId: F:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.index
+  id: index
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  langs:
+  - csharp
+  - vb
+  name: index
+  nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement.index
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.index
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: index
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 577
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public int index
+    return:
+      type: System.Int32
+    content.vb: Public index As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.itemRootName
+  commentId: F:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.itemRootName
+  id: itemRootName
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  langs:
+  - csharp
+  - vb
+  name: itemRootName
+  nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement.itemRootName
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.itemRootName
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: itemRootName
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 578
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public string itemRootName
+    return:
+      type: System.String
+    content.vb: Public itemRootName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.itemRootClass
+  commentId: F:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.itemRootClass
+  id: itemRootClass
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  langs:
+  - csharp
+  - vb
+  name: itemRootClass
+  nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement.itemRootClass
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.itemRootClass
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: itemRootClass
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 579
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public string itemRootClass
+    return:
+      type: System.String
+    content.vb: Public itemRootClass As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+- uid: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.MouseDownEvent}
+  commentId: T:UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.MouseDownEvent}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.EventCallback`1
+  name: EventCallback<MouseDownEvent>
+  nameWithType: EventCallback<MouseDownEvent>
+  fullName: UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.MouseDownEvent>
+  nameWithType.vb: EventCallback(Of MouseDownEvent)
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.MouseDownEvent)
+  name.vb: EventCallback(Of MouseDownEvent)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: UnityEngine.UIElements.EventCallback
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.UIElements.MouseDownEvent
+    name: MouseDownEvent
+    nameWithType: MouseDownEvent
+    fullName: UnityEngine.UIElements.MouseDownEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: UnityEngine.UIElements.EventCallback
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.UIElements.MouseDownEvent
+    name: MouseDownEvent
+    nameWithType: MouseDownEvent
+    fullName: UnityEngine.UIElements.MouseDownEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UIElements.EventCallback`1
+  commentId: T:UnityEngine.UIElements.EventCallback`1
+  isExternal: true
+  name: EventCallback<TEventType>
+  nameWithType: EventCallback<TEventType>
+  fullName: UnityEngine.UIElements.EventCallback<TEventType>
+  nameWithType.vb: EventCallback(Of TEventType)
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of TEventType)
+  name.vb: EventCallback(Of TEventType)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: UnityEngine.UIElements.EventCallback
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEventType
+    nameWithType: TEventType
+    fullName: TEventType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: UnityEngine.UIElements.EventCallback
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEventType
+    nameWithType: TEventType
+    fullName: TEventType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.MouseUpEvent}
+  commentId: T:UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.MouseUpEvent}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.EventCallback`1
+  name: EventCallback<MouseUpEvent>
+  nameWithType: EventCallback<MouseUpEvent>
+  fullName: UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.MouseUpEvent>
+  nameWithType.vb: EventCallback(Of MouseUpEvent)
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.MouseUpEvent)
+  name.vb: EventCallback(Of MouseUpEvent)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: UnityEngine.UIElements.EventCallback
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.UIElements.MouseUpEvent
+    name: MouseUpEvent
+    nameWithType: MouseUpEvent
+    fullName: UnityEngine.UIElements.MouseUpEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: UnityEngine.UIElements.EventCallback
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.UIElements.MouseUpEvent
+    name: MouseUpEvent
+    nameWithType: MouseUpEvent
+    fullName: UnityEngine.UIElements.MouseUpEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.MouseMoveEvent}
+  commentId: T:UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.MouseMoveEvent}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.EventCallback`1
+  name: EventCallback<MouseMoveEvent>
+  nameWithType: EventCallback<MouseMoveEvent>
+  fullName: UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.MouseMoveEvent>
+  nameWithType.vb: EventCallback(Of MouseMoveEvent)
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.MouseMoveEvent)
+  name.vb: EventCallback(Of MouseMoveEvent)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: UnityEngine.UIElements.EventCallback
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.UIElements.MouseMoveEvent
+    name: MouseMoveEvent
+    nameWithType: MouseMoveEvent
+    fullName: UnityEngine.UIElements.MouseMoveEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: UnityEngine.UIElements.EventCallback
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.UIElements.MouseMoveEvent
+    name: MouseMoveEvent
+    nameWithType: MouseMoveEvent
+    fullName: UnityEngine.UIElements.MouseMoveEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Core_Actions_OverridableAction_1" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1" class="text-break">Class OverridableAction&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>An action that can have its functionality overriden, this is needed to provide addressables support. When overriding default ASM actions, use caution since this will obviously lead to undocumented behavior.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html">SceneAction</a></div>
+    <div class="level2"><span class="xref">OverridableAction&lt;T&gt;</span></div>
+      <div class="level3"><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneCloseCallbackAction.html">SceneCloseCallbackAction</a></div>
+      <div class="level3"><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneFinishLoadAction.html">SceneFinishLoadAction</a></div>
+      <div class="level3"><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneLoadAction.html">SceneLoadAction</a></div>
+      <div class="level3"><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneOpenCallbackAction.html">SceneOpenCallbackAction</a></div>
+      <div class="level3"><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneUnloadAction.html">SceneUnloadAction</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_reportsProgress">SceneAction.reportsProgress</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_openScene">SceneAction.openScene</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_scene">SceneAction.scene</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_collection">SceneAction.collection</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_progress">SceneAction.progress</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_isDone">SceneAction.isDone</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_RegisterCallback_System_Action_">SceneAction.RegisterCallback(Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_UnregisterCallback_System_Action_">SceneAction.UnregisterCallback(Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_OnProgressCallback_System_Action_System_Single__">SceneAction.OnProgressCallback(Action&lt;Single&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_OnProgress_System_Single_">SceneAction.OnProgress(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_Done">SceneAction.Done()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_Done_AdvancedSceneManager_Core_OpenSceneInfo_">SceneAction.Done(OpenSceneInfo)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Core.Actions.html">AdvancedSceneManager.Core.Actions</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Core_Actions_OverridableAction_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class OverridableAction&lt;T&gt; : SceneAction where T : OverridableAction&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Core_Actions_OverridableAction_1_lazyScene_" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.lazyScene*"></a>
+  <h4 id="AdvancedSceneManager_Core_Actions_OverridableAction_1_lazyScene" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.lazyScene">lazyScene</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Func&lt;OpenSceneInfo&gt; lazyScene { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Actions_OverridableAction_1_overrides_" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.overrides*"></a>
+  <h4 id="AdvancedSceneManager_Core_Actions_OverridableAction_1_overrides" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.overrides">overrides</h4>
+  <div class="markdown level1 summary"><p>All overriden scenes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ReadOnlyDictionary&lt;string, Func&lt;SceneManagerBase, T, IEnumerator&gt;&gt; overrides { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Func</span>&lt;<span class="xref">AdvancedSceneManager.Core.SceneManagerBase</span>, T, <span class="xref">System.Collections.IEnumerator</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Core_Actions_OverridableAction_1_BeforeDoAction_" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.BeforeDoAction*"></a>
+  <h4 id="AdvancedSceneManager_Core_Actions_OverridableAction_1_BeforeDoAction_System_Boolean__" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.BeforeDoAction(System.Boolean@)">BeforeDoAction(out Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void BeforeDoAction(out bool exitOutEarly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exitOutEarly</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Actions_OverridableAction_1_ClearOverride_" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverride*"></a>
+  <h4 id="AdvancedSceneManager_Core_Actions_OverridableAction_1_ClearOverride_System_String_" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverride(System.String)">ClearOverride(String)</h4>
+  <div class="markdown level1 summary"><p>Clears overrides for the specified scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearOverride(string scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Actions_OverridableAction_1_ClearOverrides_" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverrides*"></a>
+  <h4 id="AdvancedSceneManager_Core_Actions_OverridableAction_1_ClearOverrides" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.ClearOverrides">ClearOverrides()</h4>
+  <div class="markdown level1 summary"><p>Clears all overrides.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearOverrides()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Actions_OverridableAction_1_DoAction_" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.DoAction*"></a>
+  <h4 id="AdvancedSceneManager_Core_Actions_OverridableAction_1_DoAction_AdvancedSceneManager_Core_SceneManagerBase_" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.DoAction(AdvancedSceneManager.Core.SceneManagerBase)">DoAction(SceneManagerBase)</h4>
+  <div class="markdown level1 summary"><p>This must not be overriden since <a class="xref" href="AdvancedSceneManager.Core.Actions.OverridableAction-1.html">OverridableAction&lt;T&gt;</a> does not work otherwise</p> 
+<p>Override <a class="xref" href="AdvancedSceneManager.Core.Actions.OverridableAction-1.html#AdvancedSceneManager_Core_Actions_OverridableAction_1_DoNonOverridenAction_AdvancedSceneManager_Core_SceneManagerBase_">DoNonOverridenAction(SceneManagerBase)</a> instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEnumerator DoAction(SceneManagerBase _sceneManager)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AdvancedSceneManager.Core.SceneManagerBase</span></td>
+        <td><span class="parametername">_sceneManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_DoAction_AdvancedSceneManager_Core_SceneManagerBase_">SceneAction.DoAction(SceneManagerBase)</a></div>
+  <a id="AdvancedSceneManager_Core_Actions_OverridableAction_1_DoNonOverridenAction_" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.DoNonOverridenAction*"></a>
+  <h4 id="AdvancedSceneManager_Core_Actions_OverridableAction_1_DoNonOverridenAction_AdvancedSceneManager_Core_SceneManagerBase_" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.DoNonOverridenAction(AdvancedSceneManager.Core.SceneManagerBase)">DoNonOverridenAction(SceneManagerBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IEnumerator DoNonOverridenAction(SceneManagerBase _sceneManager)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AdvancedSceneManager.Core.SceneManagerBase</span></td>
+        <td><span class="parametername">_sceneManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Actions_OverridableAction_1_Override_" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.Override*"></a>
+  <h4 id="AdvancedSceneManager_Core_Actions_OverridableAction_1_Override_System_String_System_Func_AdvancedSceneManager_Core_SceneManagerBase__0_System_Collections_IEnumerator__" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.Override(System.String,System.Func{AdvancedSceneManager.Core.SceneManagerBase,`0,System.Collections.IEnumerator})">Override(String, Func&lt;SceneManagerBase, T, IEnumerator&gt;)</h4>
+  <div class="markdown level1 summary"><p>Overrides behavior for the specified scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Override(string scene, Func&lt;SceneManagerBase, T, IEnumerator&gt; coroutine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">AdvancedSceneManager.Core.SceneManagerBase</span>, T, <span class="xref">System.Collections.IEnumerator</span>&gt;</td>
+        <td><span class="parametername">coroutine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_Actions_OverridableAction_1_ToString_" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.ToString*"></a>
+  <h4 id="AdvancedSceneManager_Core_Actions_OverridableAction_1_ToString" data-uid="AdvancedSceneManager.Core.Actions.OverridableAction`1.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_ToString">SceneAction.ToString()</a></div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

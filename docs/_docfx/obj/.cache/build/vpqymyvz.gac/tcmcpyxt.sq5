@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h2 id="scene-actions" sourcefile="guides/SceneAction.md" sourcestartlinenumber="1" sourceendlinenumber="1">Scene actions</h2>
+
+<p sourcefile="guides/SceneAction.md" sourcestartlinenumber="3" sourceendlinenumber="3">A SceneAction is an action that is to be performed by the scene manager, such as opening a <a href="Scene.html" data-raw-source="[scene](Scene.md)" sourcefile="guides/SceneAction.md" sourcestartlinenumber="3" sourceendlinenumber="3">scene</a>. Used in <a href="SceneOperation.html" data-raw-source="[SceneOperation](SceneOperation.md)" sourcefile="guides/SceneAction.md" sourcestartlinenumber="3" sourceendlinenumber="3">SceneOperation</a>.</p>
+<h3 id="custom-actions" sourcefile="guides/SceneAction.md" sourcestartlinenumber="5" sourceendlinenumber="5">Custom actions</h3>
+<p sourcefile="guides/SceneAction.md" sourcestartlinenumber="6" sourceendlinenumber="6">Custom actions has to inherit from SceneAction and can be added to a <a href="SceneOperation.html" data-raw-source="[SceneOperation](SceneOperation.md)" sourcefile="guides/SceneAction.md" sourcestartlinenumber="6" sourceendlinenumber="6">SceneOperation</a> through <a href="SceneOperation.html#methods" data-raw-source="[SceneOperation.WithAction(SceneAction.md)](SceneOperation.md#methods)" sourcefile="guides/SceneAction.md" sourcestartlinenumber="6" sourceendlinenumber="6">SceneOperation.WithAction(SceneAction.md)</a>.</p>
+<p sourcefile="guides/SceneAction.md" sourcestartlinenumber="8" sourceendlinenumber="8">Use constructor to define and receive properties, if bad properties are received then call Done() to indicate that action should not run.</p>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

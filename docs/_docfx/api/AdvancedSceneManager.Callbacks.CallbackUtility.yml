@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility
+  commentId: T:AdvancedSceneManager.Callbacks.CallbackUtility
+  id: CallbackUtility
+  parent: AdvancedSceneManager.Callbacks
+  children:
+  - AdvancedSceneManager.Callbacks.CallbackUtility.customYieldInstructions
+  - AdvancedSceneManager.Callbacks.CallbackUtility.delayInstructions
+  - AdvancedSceneManager.Callbacks.CallbackUtility.Invoke``1
+  - AdvancedSceneManager.Callbacks.CallbackUtility.Open
+  - AdvancedSceneManager.Callbacks.CallbackUtility.yieldInstructions
+  langs:
+  - csharp
+  - vb
+  name: CallbackUtility
+  nameWithType: CallbackUtility
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CallbackUtility
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 317
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: An utility class that invokes callbacks (defined in interfaces based on <xref href="AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase" data-throw-if-not-resolved="false"></xref>), and tracks performance and provides tools for optimizing and diagnosing bottlenecks in these callbacks.
+  example: []
+  syntax:
+    content: 'public class CallbackUtility : EditorWindow'
+    content.vb: >-
+      Public Class CallbackUtility
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - UnityEditor.EditorWindow
+  extensionMethods:
+  - UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.yieldInstructions
+  commentId: F:AdvancedSceneManager.Callbacks.CallbackUtility.yieldInstructions
+  id: yieldInstructions
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility
+  langs:
+  - csharp
+  - vb
+  name: yieldInstructions
+  nameWithType: CallbackUtility.yieldInstructions
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.yieldInstructions
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: yieldInstructions
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 323
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public static readonly Type[] yieldInstructions
+    return:
+      type: System.Type[]
+    content.vb: Public Shared ReadOnly yieldInstructions As Type()
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.customYieldInstructions
+  commentId: F:AdvancedSceneManager.Callbacks.CallbackUtility.customYieldInstructions
+  id: customYieldInstructions
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility
+  langs:
+  - csharp
+  - vb
+  name: customYieldInstructions
+  nameWithType: CallbackUtility.customYieldInstructions
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.customYieldInstructions
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: customYieldInstructions
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 328
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public static readonly Type[] customYieldInstructions
+    return:
+      type: System.Type[]
+    content.vb: Public Shared ReadOnly customYieldInstructions As Type()
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.delayInstructions
+  commentId: F:AdvancedSceneManager.Callbacks.CallbackUtility.delayInstructions
+  id: delayInstructions
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility
+  langs:
+  - csharp
+  - vb
+  name: delayInstructions
+  nameWithType: CallbackUtility.delayInstructions
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.delayInstructions
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: delayInstructions
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 333
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public static readonly Type[] delayInstructions
+    return:
+      type: System.Type[]
+    content.vb: Public Shared ReadOnly delayInstructions As Type()
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.Open
+  commentId: M:AdvancedSceneManager.Callbacks.CallbackUtility.Open
+  id: Open
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility
+  langs:
+  - csharp
+  - vb
+  name: Open()
+  nameWithType: CallbackUtility.Open()
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.Open()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Open
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 386
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public static void Open()
+    content.vb: Public Shared Sub Open
+  overload: AdvancedSceneManager.Callbacks.CallbackUtility.Open*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.Invoke``1
+  commentId: M:AdvancedSceneManager.Callbacks.CallbackUtility.Invoke``1
+  id: Invoke``1
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility
+  langs:
+  - csharp
+  - vb
+  name: Invoke<T>()
+  nameWithType: CallbackUtility.Invoke<T>()
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.Invoke<T>()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Invoke
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 878
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public static CallbackUtility.FluentInvokeAPI<T> Invoke<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI{{T}}
+    content.vb: Public Shared Function Invoke(Of T) As CallbackUtility.FluentInvokeAPI(Of T)
+  overload: AdvancedSceneManager.Callbacks.CallbackUtility.Invoke*
+  nameWithType.vb: CallbackUtility.Invoke(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.Invoke(Of T)()
+  name.vb: Invoke(Of T)()
+references:
+- uid: AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase
+  commentId: T:AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase
+  name: ISceneManagerCallbackBase
+  nameWithType: ISceneManagerCallbackBase
+  fullName: AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEditor.EditorWindow
+  commentId: T:UnityEditor.EditorWindow
+  parent: UnityEditor
+  isExternal: true
+  name: EditorWindow
+  nameWithType: EditorWindow
+  fullName: UnityEditor.EditorWindow
+- uid: UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  parent: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  definition: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  name: Save()
+  nameWithType: ScriptableObjectUtility.Save()
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  isExternal: true
+  name: Save(ScriptableObject)
+  nameWithType: ScriptableObjectUtility.Save(ScriptableObject)
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  commentId: T:AdvancedSceneManager.Utility.ScriptableObjectUtility
+  parent: AdvancedSceneManager.Utility
+  name: ScriptableObjectUtility
+  nameWithType: ScriptableObjectUtility
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: System.Type[]
+  isExternal: true
+  name: Type[]
+  nameWithType: Type[]
+  fullName: System.Type[]
+  nameWithType.vb: Type()
+  fullName.vb: System.Type()
+  name.vb: Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.Open*
+  commentId: Overload:AdvancedSceneManager.Callbacks.CallbackUtility.Open
+  name: Open
+  nameWithType: CallbackUtility.Open
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.Open
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.Invoke*
+  commentId: Overload:AdvancedSceneManager.Callbacks.CallbackUtility.Invoke
+  name: Invoke
+  nameWithType: CallbackUtility.Invoke
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.Invoke
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI{{T}}
+  commentId: T:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI{``0}
+  parent: AdvancedSceneManager.Callbacks
+  definition: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  name: CallbackUtility.FluentInvokeAPI<T>
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T)
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T)
+  name.vb: CallbackUtility.FluentInvokeAPI(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+    name: CallbackUtility.FluentInvokeAPI
+    nameWithType: CallbackUtility.FluentInvokeAPI
+    fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+    name: CallbackUtility.FluentInvokeAPI
+    nameWithType: CallbackUtility.FluentInvokeAPI
+    fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  commentId: T:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  parent: AdvancedSceneManager.Callbacks
+  name: CallbackUtility.FluentInvokeAPI<T>
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T)
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T)
+  name.vb: CallbackUtility.FluentInvokeAPI(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+    name: CallbackUtility.FluentInvokeAPI
+    nameWithType: CallbackUtility.FluentInvokeAPI
+    fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+    name: CallbackUtility.FluentInvokeAPI
+    nameWithType: CallbackUtility.FluentInvokeAPI
+    fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Editor_SceneOverviewWindow" data-uid="AdvancedSceneManager.Editor.SceneOverviewWindow" class="text-break">Class SceneOverviewWindow
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><span class="xref">UnityEditor.EditorWindow</span></div>
+    <div class="level4"><a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html">EditorWindow_UIElements</a>&lt;<a class="xref" href="AdvancedSceneManager.Editor.SceneOverviewWindow.html">SceneOverviewWindow</a>&gt;</div>
+    <div class="level5"><span class="xref">SceneOverviewWindow</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AdvancedSceneManager.Editor.IUIToolkitEditor.html">IUIToolkitEditor</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_title">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.title</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_window">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.window</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_Open">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.Open()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_Close">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.Close()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_OnClose">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.OnClose()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_DoShow">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.DoShow()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_OnShow">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.OnShow()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_Reopen">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.Reopen()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_isMainContentLoaded">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.isMainContentLoaded</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_ShowSuspendMessage">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.ShowSuspendMessage()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_LoadContent_System_String_UnityEngine_UIElements_VisualElement_">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.LoadContent(String, VisualElement)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_LoadContent_System_String_UnityEngine_UIElements_VisualElement_System_Boolean_System_Boolean_System_Boolean_">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.LoadContent(String, VisualElement, Boolean, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_ReloadContent">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.ReloadContent()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html#AdvancedSceneManager_Editor_EditorWindow_UIElements_1_OnFocus">EditorWindow_UIElements&lt;SceneOverviewWindow&gt;.OnFocus()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Editor.html">AdvancedSceneManager.Editor</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.Editor.dll</h6>
+  <h5 id="AdvancedSceneManager_Editor_SceneOverviewWindow_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SceneOverviewWindow : EditorWindow_UIElements&lt;SceneOverviewWindow&gt;, IUIToolkitEditor</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Editor_SceneOverviewWindow_autoReloadOnWindowFocus_" data-uid="AdvancedSceneManager.Editor.SceneOverviewWindow.autoReloadOnWindowFocus*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneOverviewWindow_autoReloadOnWindowFocus" data-uid="AdvancedSceneManager.Editor.SceneOverviewWindow.autoReloadOnWindowFocus">autoReloadOnWindowFocus</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool autoReloadOnWindowFocus { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Editor.EditorWindow_UIElements&lt;AdvancedSceneManager.Editor.SceneOverviewWindow&gt;.autoReloadOnWindowFocus</span></div>
+  <a id="AdvancedSceneManager_Editor_SceneOverviewWindow_path_" data-uid="AdvancedSceneManager.Editor.SceneOverviewWindow.path*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneOverviewWindow_path" data-uid="AdvancedSceneManager.Editor.SceneOverviewWindow.path">path</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string path { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Editor.EditorWindow_UIElements&lt;AdvancedSceneManager.Editor.SceneOverviewWindow&gt;.path</span></div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Editor_SceneOverviewWindow_OnEnable_" data-uid="AdvancedSceneManager.Editor.SceneOverviewWindow.OnEnable*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneOverviewWindow_OnEnable" data-uid="AdvancedSceneManager.Editor.SceneOverviewWindow.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnEnable()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Editor.EditorWindow_UIElements&lt;AdvancedSceneManager.Editor.SceneOverviewWindow&gt;.OnEnable()</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.IUIToolkitEditor.html">IUIToolkitEditor</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.ScriptableObjectUtility.html#AdvancedSceneManager_Utility_ScriptableObjectUtility_Save_UnityEngine_ScriptableObject_">ScriptableObjectUtility.Save(ScriptableObject)</a>
+  </div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.SceneField.UxmlFactory
+  commentId: T:AdvancedSceneManager.Editor.SceneField.UxmlFactory
+  id: SceneField.UxmlFactory
+  parent: AdvancedSceneManager.Editor
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SceneField.UxmlFactory
+  nameWithType: SceneField.UxmlFactory
+  fullName: AdvancedSceneManager.Editor.SceneField.UxmlFactory
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: UxmlFactory
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+    startLine: 409
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: 'public class UxmlFactory : UxmlFactory<SceneField, SceneField.UxmlTraits>, IUxmlFactory'
+    content.vb: >-
+      Public Class UxmlFactory
+          Inherits UxmlFactory(Of SceneField, SceneField.UxmlTraits)
+          Implements IUxmlFactory
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.UxmlFactory{AdvancedSceneManager.Editor.SceneField,AdvancedSceneManager.Editor.SceneField.UxmlTraits}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.UIElements.UxmlFactory{AdvancedSceneManager.Editor.SceneField,AdvancedSceneManager.Editor.SceneField.UxmlTraits}
+  commentId: T:UnityEngine.UIElements.UxmlFactory{AdvancedSceneManager.Editor.SceneField,AdvancedSceneManager.Editor.SceneField.UxmlTraits}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.UxmlFactory`2
+  name: UxmlFactory<SceneField, SceneField.UxmlTraits>
+  nameWithType: UxmlFactory<SceneField, SceneField.UxmlTraits>
+  fullName: UnityEngine.UIElements.UxmlFactory<AdvancedSceneManager.Editor.SceneField, AdvancedSceneManager.Editor.SceneField.UxmlTraits>
+  nameWithType.vb: UxmlFactory(Of SceneField, SceneField.UxmlTraits)
+  fullName.vb: UnityEngine.UIElements.UxmlFactory(Of AdvancedSceneManager.Editor.SceneField, AdvancedSceneManager.Editor.SceneField.UxmlTraits)
+  name.vb: UxmlFactory(Of SceneField, SceneField.UxmlTraits)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.UxmlFactory`2
+    name: UxmlFactory
+    nameWithType: UxmlFactory
+    fullName: UnityEngine.UIElements.UxmlFactory
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Editor.SceneField
+    name: SceneField
+    nameWithType: SceneField
+    fullName: AdvancedSceneManager.Editor.SceneField
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.SceneField.UxmlTraits
+    name: SceneField.UxmlTraits
+    nameWithType: SceneField.UxmlTraits
+    fullName: AdvancedSceneManager.Editor.SceneField.UxmlTraits
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.UxmlFactory`2
+    name: UxmlFactory
+    nameWithType: UxmlFactory
+    fullName: UnityEngine.UIElements.UxmlFactory
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Editor.SceneField
+    name: SceneField
+    nameWithType: SceneField
+    fullName: AdvancedSceneManager.Editor.SceneField
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.SceneField.UxmlTraits
+    name: SceneField.UxmlTraits
+    nameWithType: SceneField.UxmlTraits
+    fullName: AdvancedSceneManager.Editor.SceneField.UxmlTraits
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements.UxmlFactory`2
+  commentId: T:UnityEngine.UIElements.UxmlFactory`2
+  isExternal: true
+  name: UxmlFactory<TCreatedType, TTraits>
+  nameWithType: UxmlFactory<TCreatedType, TTraits>
+  fullName: UnityEngine.UIElements.UxmlFactory<TCreatedType, TTraits>
+  nameWithType.vb: UxmlFactory(Of TCreatedType, TTraits)
+  fullName.vb: UnityEngine.UIElements.UxmlFactory(Of TCreatedType, TTraits)
+  name.vb: UxmlFactory(Of TCreatedType, TTraits)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.UxmlFactory`2
+    name: UxmlFactory
+    nameWithType: UxmlFactory
+    fullName: UnityEngine.UIElements.UxmlFactory
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TCreatedType
+    nameWithType: TCreatedType
+    fullName: TCreatedType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TTraits
+    nameWithType: TTraits
+    fullName: TTraits
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.UxmlFactory`2
+    name: UxmlFactory
+    nameWithType: UxmlFactory
+    fullName: UnityEngine.UIElements.UxmlFactory
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TCreatedType
+    nameWithType: TCreatedType
+    fullName: TCreatedType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TTraits
+    nameWithType: TTraits
+    fullName: TTraits
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements

@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Callbacks.ParallelASMCallbacks
+  commentId: T:AdvancedSceneManager.Callbacks.ParallelASMCallbacks
+  id: ParallelASMCallbacks
+  parent: AdvancedSceneManager.Callbacks
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ParallelASMCallbacks
+  nameWithType: ParallelASMCallbacks
+  fullName: AdvancedSceneManager.Callbacks.ParallelASMCallbacks
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ParallelASMCallbacks
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 25
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: Specifies whatever the ASM callbacks should be run in parallel for any callbacks defined in this script.
+  example: []
+  syntax:
+    content: 'public class ParallelASMCallbacks : Attribute'
+    content.vb: >-
+      Public Class ParallelASMCallbacks
+          Inherits Attribute
+  inheritance:
+  - System.Object
+  - System.Attribute
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Attribute
+  commentId: T:System.Attribute
+  parent: System
+  isExternal: true
+  name: Attribute
+  nameWithType: Attribute
+  fullName: System.Attribute
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  <h1 id="AdvancedSceneManager_Models" data-uid="AdvancedSceneManager.Models" class="text-break">Namespace AdvancedSceneManager.Models
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.ASMSettings.html">ASMSettings</a></h4>
+      <section><p>Settings relating to ASM.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.ASMSettings.Local.html">ASMSettings.Local</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.ASMSettings.SettingsProxy.html">ASMSettings.SettingsProxy</a></h4>
+      <section><p>Used to make <a class="xref" href="AdvancedSceneManager.SceneManager.html#AdvancedSceneManager_SceneManager_settings">settings</a> a bit more intuitive.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.DynamicCollection.html">DynamicCollection</a></h4>
+      <section><p>Represents a dynamic collection.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.Profile.html">Profile</a></h4>
+      <section><p>A profile, contains settings, collections and scenes.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></h4>
+      <section><p>A <a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a> is a <span class="xref">UnityEngine.ScriptableObject</span> that represents a scene in Unity, and are automatically generated or updated when a scene is added, renamed, moved or removed.</p>
+<p>The advantage of doing it this way is that we can actually create variables in script that refers to a scene rather than an arbitrary int or magic string. This also allows us to open scenes directly from an <span class="xref">UnityEngine.Events.UnityEvent</span> and not have to use a proxy script.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a></h4>
+      <section><p>A <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a> contains a list of <a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a>, all of which are opened when the <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a> is opened (except for scenes tagged DoNotOpen).</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.SceneCollectionTemplate.html">SceneCollectionTemplate</a></h4>
+      <section><p>Represents a template for a <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a>.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.SceneTag.html">SceneTag</a></h4>
+      <section><p>A layer that makes it easier to identify certain scenes.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.TagList.html">TagList</a></h4>
+      <section></section>
+    <h3 id="structs">Structs
+  </h3>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.IsOpenReturnValue.html">IsOpenReturnValue</a></h4>
+      <section><p>A struct to make working with the return value of the IsOpen() function a bit easier.</p>
+<p>Implicitly casts to bool, which can be used to check if scene is open in either.</p>
+</section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.ISceneObject.html">ISceneObject</a></h4>
+      <section><p>Identifies either <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a> or <a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a>.</p>
+</section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.ASMSettings.Local.SaveAction.html">ASMSettings.Local.SaveAction</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.CollectionStartupOption.html">CollectionStartupOption</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.CollectionThreadPriority.html">CollectionThreadPriority</a></h4>
+      <section><p><p>Wrapper for <span class="xref">UnityEngine.ThreadPriority</span>, adds <a class="xref" href="AdvancedSceneManager.Models.CollectionThreadPriority.html#AdvancedSceneManager_Models_CollectionThreadPriority_Auto">Auto</a>.</p>
+<span class="xref">UnityEngine.ThreadPriority</span>: <inheritdoc cref="T:UnityEngine.ThreadPriority"></inheritdoc></p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.LoadingScreenUsage.html">LoadingScreenUsage</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.SceneCloseBehavior.html">SceneCloseBehavior</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AdvancedSceneManager.Models.SceneOpenBehavior.html">SceneOpenBehavior</a></h4>
+      <section></section>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

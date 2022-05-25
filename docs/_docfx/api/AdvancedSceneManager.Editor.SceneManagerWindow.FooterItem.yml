@@ -1,0 +1,597 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  id: SceneManagerWindow.FooterItem
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Button(System.String,System.Action,System.String,System.Action{UnityEngine.UIElements.Button})
+  - AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Create
+  - AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.element
+  - AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Element``1(System.String,System.Action{``0},System.String)
+  - AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Hidden
+  - AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.left
+  - AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnLeft
+  - AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnRight
+  - AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Visible(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: SceneManagerWindow.FooterItem
+  nameWithType: SceneManagerWindow.FooterItem
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FooterItem
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 856
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public class FooterItem
+    content.vb: Public Class FooterItem
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.element
+  commentId: P:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.element
+  id: element
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  langs:
+  - csharp
+  - vb
+  name: element
+  nameWithType: SceneManagerWindow.FooterItem.element
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.element
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: element
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 859
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public VisualElement element { get; }
+    parameters: []
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public ReadOnly Property element As VisualElement
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.element*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.left
+  commentId: P:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.left
+  id: left
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  langs:
+  - csharp
+  - vb
+  name: left
+  nameWithType: SceneManagerWindow.FooterItem.left
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.left
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: left
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 860
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public bool left { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property left As Boolean
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.left*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Create
+  commentId: M:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Create
+  id: Create
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  langs:
+  - csharp
+  - vb
+  name: Create()
+  nameWithType: SceneManagerWindow.FooterItem.Create()
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Create()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Create
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 862
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static SceneManagerWindow.FooterItem Create()
+    return:
+      type: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+    content.vb: Public Shared Function Create As SceneManagerWindow.FooterItem
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnLeft
+  commentId: M:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnLeft
+  id: OnLeft
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  langs:
+  - csharp
+  - vb
+  name: OnLeft()
+  nameWithType: SceneManagerWindow.FooterItem.OnLeft()
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnLeft()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnLeft
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 865
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public SceneManagerWindow.FooterItem OnLeft()
+    return:
+      type: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+    content.vb: Public Function OnLeft As SceneManagerWindow.FooterItem
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnLeft*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnRight
+  commentId: M:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnRight
+  id: OnRight
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  langs:
+  - csharp
+  - vb
+  name: OnRight()
+  nameWithType: SceneManagerWindow.FooterItem.OnRight()
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnRight()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnRight
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 871
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public SceneManagerWindow.FooterItem OnRight()
+    return:
+      type: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+    content.vb: Public Function OnRight As SceneManagerWindow.FooterItem
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Button(System.String,System.Action,System.String,System.Action{UnityEngine.UIElements.Button})
+  commentId: M:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Button(System.String,System.Action,System.String,System.Action{UnityEngine.UIElements.Button})
+  id: Button(System.String,System.Action,System.String,System.Action{UnityEngine.UIElements.Button})
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  langs:
+  - csharp
+  - vb
+  name: Button(String, Action, String, Action<Button>)
+  nameWithType: SceneManagerWindow.FooterItem.Button(String, Action, String, Action<Button>)
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Button(System.String, System.Action, System.String, System.Action<UnityEngine.UIElements.Button>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Button
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 877
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public SceneManagerWindow.FooterItem Button(string text, Action click, string tooltip = "", Action<Button> setup = null)
+    parameters:
+    - id: text
+      type: System.String
+    - id: click
+      type: System.Action
+    - id: tooltip
+      type: System.String
+    - id: setup
+      type: System.Action{UnityEngine.UIElements.Button}
+    return:
+      type: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+    content.vb: Public Function Button(text As String, click As Action, tooltip As String = "", setup As Action(Of Button) = Nothing) As SceneManagerWindow.FooterItem
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Button*
+  nameWithType.vb: SceneManagerWindow.FooterItem.Button(String, Action, String, Action(Of Button))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Button(System.String, System.Action, System.String, System.Action(Of UnityEngine.UIElements.Button))
+  name.vb: Button(String, Action, String, Action(Of Button))
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Element``1(System.String,System.Action{``0},System.String)
+  commentId: M:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Element``1(System.String,System.Action{``0},System.String)
+  id: Element``1(System.String,System.Action{``0},System.String)
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  langs:
+  - csharp
+  - vb
+  name: Element<T>(String, Action<T>, String)
+  nameWithType: SceneManagerWindow.FooterItem.Element<T>(String, Action<T>, String)
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Element<T>(System.String, System.Action<T>, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Element
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 880
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: >-
+      public SceneManagerWindow.FooterItem Element<T>(string text = "", Action<T> setup = null, string tooltip = "")
+          where T : VisualElement, new()
+    parameters:
+    - id: text
+      type: System.String
+    - id: setup
+      type: System.Action{{T}}
+    - id: tooltip
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+    content.vb: Public Function Element(Of T As {VisualElement, New})(text As String = "", setup As Action(Of T) = Nothing, tooltip As String = "") As SceneManagerWindow.FooterItem
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Element*
+  nameWithType.vb: SceneManagerWindow.FooterItem.Element(Of T)(String, Action(Of T), String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Element(Of T)(System.String, System.Action(Of T), System.String)
+  name.vb: Element(Of T)(String, Action(Of T), String)
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Hidden
+  commentId: M:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Hidden
+  id: Hidden
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  langs:
+  - csharp
+  - vb
+  name: Hidden()
+  nameWithType: SceneManagerWindow.FooterItem.Hidden()
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Hidden()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Hidden
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 889
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public SceneManagerWindow.FooterItem Hidden()
+    return:
+      type: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+    content.vb: Public Function Hidden As SceneManagerWindow.FooterItem
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Hidden*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Visible(System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Visible(System.Boolean)
+  id: Visible(System.Boolean)
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  langs:
+  - csharp
+  - vb
+  name: Visible(Boolean)
+  nameWithType: SceneManagerWindow.FooterItem.Visible(Boolean)
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Visible(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Visible
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 892
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public SceneManagerWindow.FooterItem Visible(bool visible = true)
+    parameters:
+    - id: visible
+      type: System.Boolean
+    return:
+      type: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+    content.vb: Public Function Visible(visible As Boolean = True) As SceneManagerWindow.FooterItem
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Visible*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.element*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.element
+  name: element
+  nameWithType: SceneManagerWindow.FooterItem.element
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.element
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.left*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.left
+  name: left
+  nameWithType: SceneManagerWindow.FooterItem.left
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.left
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Create*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Create
+  name: Create
+  nameWithType: SceneManagerWindow.FooterItem.Create
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Create
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  parent: AdvancedSceneManager.Editor
+  name: SceneManagerWindow.FooterItem
+  nameWithType: SceneManagerWindow.FooterItem
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnLeft*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnLeft
+  name: OnLeft
+  nameWithType: SceneManagerWindow.FooterItem.OnLeft
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnLeft
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnRight*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnRight
+  name: OnRight
+  nameWithType: SceneManagerWindow.FooterItem.OnRight
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnRight
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Button*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Button
+  name: Button
+  nameWithType: SceneManagerWindow.FooterItem.Button
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Button
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Action{UnityEngine.UIElements.Button}
+  commentId: T:System.Action{UnityEngine.UIElements.Button}
+  parent: System
+  definition: System.Action`1
+  name: Action<Button>
+  nameWithType: Action<Button>
+  fullName: System.Action<UnityEngine.UIElements.Button>
+  nameWithType.vb: Action(Of Button)
+  fullName.vb: System.Action(Of UnityEngine.UIElements.Button)
+  name.vb: Action(Of Button)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.UIElements.Button
+    name: Button
+    nameWithType: Button
+    fullName: UnityEngine.UIElements.Button
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.UIElements.Button
+    name: Button
+    nameWithType: Button
+    fullName: UnityEngine.UIElements.Button
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Element*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Element
+  name: Element
+  nameWithType: SceneManagerWindow.FooterItem.Element
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Element
+- uid: System.Action{{T}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Hidden*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Hidden
+  name: Hidden
+  nameWithType: SceneManagerWindow.FooterItem.Hidden
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Hidden
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Visible*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Visible
+  name: Visible
+  nameWithType: SceneManagerWindow.FooterItem.Visible
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Visible

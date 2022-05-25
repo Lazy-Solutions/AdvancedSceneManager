@@ -1,0 +1,1106 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  commentId: T:AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  id: GenericPrompt`2
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt`2.cancelButton
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt`2.extraHeight
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt`2.okButton
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt`2.OnContentGUI(`0@)
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Prompt(`0,System.Func{`0,System.ValueTuple{System.Boolean,System.String}}[])
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt`2.title
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt`2.updateSizeAutomatically
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt`2.validate
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Validate(`0)
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt`2.width
+  langs:
+  - csharp
+  - vb
+  name: GenericPrompt<T, TSelf>
+  nameWithType: GenericPrompt<T, TSelf>
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: GenericPrompt
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+    startLine: 53
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: 'public abstract class GenericPrompt<T, TSelf> : EditorWindow where TSelf : GenericPrompt<T, TSelf>'
+    typeParameters:
+    - id: T
+    - id: TSelf
+    content.vb: >-
+      Public MustInherit Class GenericPrompt(Of T, TSelf As GenericPrompt(Of T, TSelf))
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - UnityEditor.EditorWindow
+  derivedClasses:
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt
+  - AdvancedSceneManager.Editor.Utility.PromptInt
+  - AdvancedSceneManager.Editor.Utility.PromptKey
+  - AdvancedSceneManager.Editor.Utility.PromptName
+  - AdvancedSceneManager.Editor.Utility.PromptNameAndMessage
+  - AdvancedSceneManager.Editor.Utility.PromptVersion
+  extensionMethods:
+  - UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  nameWithType.vb: GenericPrompt(Of T, TSelf)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf)
+  name.vb: GenericPrompt(Of T, TSelf)
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.validate
+  commentId: F:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.validate
+  id: validate
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  langs:
+  - csharp
+  - vb
+  name: validate
+  nameWithType: GenericPrompt<T, TSelf>.validate
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.validate
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: validate
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+    startLine: 57
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: protected readonly List<Func<T, (bool isValid, string message)>> validate
+    return:
+      type: System.Collections.Generic.List{System.Func{{T},System.ValueTuple{System.Boolean,System.String}}}
+    content.vb: Protected ReadOnly validate As List(Of Func(Of T, (isValid As Boolean, message As String)(Of Boolean , String)))
+  nameWithType.vb: GenericPrompt(Of T, TSelf).validate
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).validate
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Validate(`0)
+  commentId: M:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Validate(`0)
+  id: Validate(`0)
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  langs:
+  - csharp
+  - vb
+  name: Validate(T)
+  nameWithType: GenericPrompt<T, TSelf>.Validate(T)
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.Validate(T)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Validate
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+    startLine: 62
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: protected virtual (bool isValid, string message) Validate(T value)
+    parameters:
+    - id: value
+      type: '{T}'
+    return:
+      type: System.ValueTuple{System.Boolean,System.String}
+    content.vb: Protected Overridable Function Validate(value As T) As(isValid As Boolean, message As String)(Of Boolean , String)
+  overload: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Validate*
+  nameWithType.vb: GenericPrompt(Of T, TSelf).Validate(T)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).Validate(T)
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Prompt(`0,System.Func{`0,System.ValueTuple{System.Boolean,System.String}}[])
+  commentId: M:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Prompt(`0,System.Func{`0,System.ValueTuple{System.Boolean,System.String}}[])
+  id: Prompt(`0,System.Func{`0,System.ValueTuple{System.Boolean,System.String}}[])
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  langs:
+  - csharp
+  - vb
+  name: Prompt(T, Func<T, (Boolean isValid, String message)>[])
+  nameWithType: GenericPrompt<T, TSelf>.Prompt(T, Func<T, (Boolean isValid, String message)>[])
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.Prompt(T, System.Func<T, System.ValueTuple<System.Boolean, System.String>>[])
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Prompt
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+    startLine: 67
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static (T value, bool successful) Prompt(T defaultValue = null, params Func<T, (bool isValid, string message)>[] validate)
+    parameters:
+    - id: defaultValue
+      type: '{T}'
+    - id: validate
+      type: System.Func{{T},System.ValueTuple{System.Boolean,System.String}}[]
+    return:
+      type: System.ValueTuple{{T},System.Boolean}
+    content.vb: Public Shared Function Prompt(defaultValue As T = Nothing, ParamArray validate As Func(Of T, (isValid As Boolean, message As String)(Of Boolean , String))()) As(value As T, successful As Boolean)(Of T , Boolean)
+  overload: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Prompt*
+  nameWithType.vb: GenericPrompt(Of T, TSelf).Prompt(T, Func(Of T, (isValid As Boolean, message As String)(Of Boolean, String))())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).Prompt(T, System.Func(Of T, System.ValueTuple(Of System.Boolean, System.String))())
+  name.vb: Prompt(T, Func(Of T, (isValid As Boolean, message As String)(Of Boolean, String))())
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.OnContentGUI(`0@)
+  commentId: M:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.OnContentGUI(`0@)
+  id: OnContentGUI(`0@)
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  langs:
+  - csharp
+  - vb
+  name: OnContentGUI(ref T)
+  nameWithType: GenericPrompt<T, TSelf>.OnContentGUI(ref T)
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.OnContentGUI(ref T)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnContentGUI
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+    startLine: 106
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public abstract void OnContentGUI(ref T value)
+    parameters:
+    - id: value
+      type: '{T}'
+    content.vb: Public MustOverride Sub OnContentGUI(ByRef value As T)
+  overload: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.OnContentGUI*
+  nameWithType.vb: GenericPrompt(Of T, TSelf).OnContentGUI(ByRef T)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).OnContentGUI(ByRef T)
+  name.vb: OnContentGUI(ByRef T)
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.title
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.title
+  id: title
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  langs:
+  - csharp
+  - vb
+  name: title
+  nameWithType: GenericPrompt<T, TSelf>.title
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.title
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: title
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+    startLine: 107
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public abstract string title { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property title As String
+  overload: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.title*
+  nameWithType.vb: GenericPrompt(Of T, TSelf).title
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).title
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.updateSizeAutomatically
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.updateSizeAutomatically
+  id: updateSizeAutomatically
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  langs:
+  - csharp
+  - vb
+  name: updateSizeAutomatically
+  nameWithType: GenericPrompt<T, TSelf>.updateSizeAutomatically
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.updateSizeAutomatically
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: updateSizeAutomatically
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+    startLine: 108
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public virtual bool updateSizeAutomatically { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property updateSizeAutomatically As Boolean
+  overload: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.updateSizeAutomatically*
+  nameWithType.vb: GenericPrompt(Of T, TSelf).updateSizeAutomatically
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).updateSizeAutomatically
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.extraHeight
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.extraHeight
+  id: extraHeight
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  langs:
+  - csharp
+  - vb
+  name: extraHeight
+  nameWithType: GenericPrompt<T, TSelf>.extraHeight
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.extraHeight
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: extraHeight
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+    startLine: 109
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public virtual float extraHeight { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Overridable ReadOnly Property extraHeight As Single
+  overload: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.extraHeight*
+  nameWithType.vb: GenericPrompt(Of T, TSelf).extraHeight
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).extraHeight
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.width
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.width
+  id: width
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  langs:
+  - csharp
+  - vb
+  name: width
+  nameWithType: GenericPrompt<T, TSelf>.width
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.width
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: width
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+    startLine: 110
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public virtual float width { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Overridable ReadOnly Property width As Single
+  overload: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.width*
+  nameWithType.vb: GenericPrompt(Of T, TSelf).width
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).width
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.okButton
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.okButton
+  id: okButton
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  langs:
+  - csharp
+  - vb
+  name: okButton
+  nameWithType: GenericPrompt<T, TSelf>.okButton
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.okButton
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: okButton
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+    startLine: 111
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public virtual string okButton { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property okButton As String
+  overload: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.okButton*
+  nameWithType.vb: GenericPrompt(Of T, TSelf).okButton
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).okButton
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.cancelButton
+  commentId: P:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.cancelButton
+  id: cancelButton
+  parent: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  langs:
+  - csharp
+  - vb
+  name: cancelButton
+  nameWithType: GenericPrompt<T, TSelf>.cancelButton
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.cancelButton
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: cancelButton
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/GenericPrompt.cs
+    startLine: 112
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public virtual string cancelButton { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property cancelButton As String
+  overload: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.cancelButton*
+  nameWithType.vb: GenericPrompt(Of T, TSelf).cancelButton
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).cancelButton
+references:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEditor.EditorWindow
+  commentId: T:UnityEditor.EditorWindow
+  parent: UnityEditor
+  isExternal: true
+  name: EditorWindow
+  nameWithType: EditorWindow
+  fullName: UnityEditor.EditorWindow
+- uid: UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  parent: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  definition: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  name: Save()
+  nameWithType: ScriptableObjectUtility.Save()
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  isExternal: true
+  name: Save(ScriptableObject)
+  nameWithType: ScriptableObjectUtility.Save(ScriptableObject)
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  commentId: T:AdvancedSceneManager.Utility.ScriptableObjectUtility
+  parent: AdvancedSceneManager.Utility
+  name: ScriptableObjectUtility
+  nameWithType: ScriptableObjectUtility
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: System.Collections.Generic.List{System.Func{{T},System.ValueTuple{System.Boolean,System.String}}}
+  commentId: T:System.Collections.Generic.List{System.Func{`0,System.ValueTuple{System.Boolean,System.String}}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Func<T, (T1, T2)<Boolean, String>>>
+  nameWithType: List<Func<T, (T1, T2)<Boolean, String>>>
+  fullName: System.Collections.Generic.List<System.Func<T, System.ValueTuple<System.Boolean, System.String>>>
+  nameWithType.vb: List(Of Func(Of T, (T1, T2)(Of Boolean, String)))
+  fullName.vb: System.Collections.Generic.List(Of System.Func(Of T, System.ValueTuple(Of System.Boolean, System.String)))
+  name.vb: List(Of Func(Of T, (T1, T2)(Of Boolean, String)))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Validate*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Validate
+  name: Validate
+  nameWithType: GenericPrompt<T, TSelf>.Validate
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.Validate
+  nameWithType.vb: GenericPrompt(Of T, TSelf).Validate
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).Validate
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.ValueTuple{System.Boolean,System.String}
+  commentId: T:System.ValueTuple{System.Boolean,System.String}
+  parent: System
+  definition: System.ValueTuple`2
+  name: (T1, T2)<Boolean, String>
+  nameWithType: (T1, T2)<Boolean, String>
+  fullName: System.ValueTuple<System.Boolean, System.String>
+  nameWithType.vb: (T1, T2)(Of Boolean, String)
+  fullName.vb: System.ValueTuple(Of System.Boolean, System.String)
+  name.vb: (T1, T2)(Of Boolean, String)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  isExternal: true
+  name: (T1, T2)<T1, T2>
+  nameWithType: (T1, T2)<T1, T2>
+  fullName: System.ValueTuple<T1, T2>
+  nameWithType.vb: (T1, T2)(Of T1, T2)
+  fullName.vb: System.ValueTuple(Of T1, T2)
+  name.vb: (T1, T2)(Of T1, T2)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Prompt*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.Prompt
+  name: Prompt
+  nameWithType: GenericPrompt<T, TSelf>.Prompt
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.Prompt
+  nameWithType.vb: GenericPrompt(Of T, TSelf).Prompt
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).Prompt
+- uid: System.Func{{T},System.ValueTuple{System.Boolean,System.String}}[]
+  isExternal: true
+  name: Func<T, (T1, T2)<Boolean, String>>[]
+  nameWithType: Func<T, (T1, T2)<Boolean, String>>[]
+  fullName: System.Func<T, System.ValueTuple<System.Boolean, System.String>>[]
+  nameWithType.vb: Func(Of T, (T1, T2)(Of Boolean, String))()
+  fullName.vb: System.Func(Of T, System.ValueTuple(Of System.Boolean, System.String))()
+  name.vb: Func(Of T, (T1, T2)(Of Boolean, String))()
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.ValueTuple{{T},System.Boolean}
+  commentId: T:System.ValueTuple{`0,System.Boolean}
+  parent: System
+  definition: System.ValueTuple`2
+  name: (T1, T2)<T, Boolean>
+  nameWithType: (T1, T2)<T, Boolean>
+  fullName: System.ValueTuple<T, System.Boolean>
+  nameWithType.vb: (T1, T2)(Of T, Boolean)
+  fullName.vb: System.ValueTuple(Of T, System.Boolean)
+  name.vb: (T1, T2)(Of T, Boolean)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.OnContentGUI*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.OnContentGUI
+  name: OnContentGUI
+  nameWithType: GenericPrompt<T, TSelf>.OnContentGUI
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.OnContentGUI
+  nameWithType.vb: GenericPrompt(Of T, TSelf).OnContentGUI
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).OnContentGUI
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.title*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.title
+  name: title
+  nameWithType: GenericPrompt<T, TSelf>.title
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.title
+  nameWithType.vb: GenericPrompt(Of T, TSelf).title
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.updateSizeAutomatically*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.updateSizeAutomatically
+  name: updateSizeAutomatically
+  nameWithType: GenericPrompt<T, TSelf>.updateSizeAutomatically
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.updateSizeAutomatically
+  nameWithType.vb: GenericPrompt(Of T, TSelf).updateSizeAutomatically
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).updateSizeAutomatically
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.extraHeight*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.extraHeight
+  name: extraHeight
+  nameWithType: GenericPrompt<T, TSelf>.extraHeight
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.extraHeight
+  nameWithType.vb: GenericPrompt(Of T, TSelf).extraHeight
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).extraHeight
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.width*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.width
+  name: width
+  nameWithType: GenericPrompt<T, TSelf>.width
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.width
+  nameWithType.vb: GenericPrompt(Of T, TSelf).width
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).width
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.okButton*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.okButton
+  name: okButton
+  nameWithType: GenericPrompt<T, TSelf>.okButton
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.okButton
+  nameWithType.vb: GenericPrompt(Of T, TSelf).okButton
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).okButton
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2.cancelButton*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.GenericPrompt`2.cancelButton
+  name: cancelButton
+  nameWithType: GenericPrompt<T, TSelf>.cancelButton
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>.cancelButton
+  nameWithType.vb: GenericPrompt(Of T, TSelf).cancelButton
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf).cancelButton

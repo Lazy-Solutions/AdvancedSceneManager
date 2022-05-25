@@ -1,0 +1,337 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails
+  commentId: T:AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails
+  id: CoroutineDiagHelper.CallerDetails
+  parent: AdvancedSceneManager.Callbacks
+  children:
+  - AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.className
+  - AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.file
+  - AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.line
+  - AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.method
+  - AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.methodParameters
+  - AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.ToString
+  langs:
+  - csharp
+  - vb
+  name: CoroutineDiagHelper.CallerDetails
+  nameWithType: CoroutineDiagHelper.CallerDetails
+  fullName: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CallerDetails
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 187
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class CallerDetails
+    content.vb: >-
+      <Serializable>
+
+      Public Class CallerDetails
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.className
+  commentId: F:AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.className
+  id: className
+  parent: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails
+  langs:
+  - csharp
+  - vb
+  name: className
+  nameWithType: CoroutineDiagHelper.CallerDetails.className
+  fullName: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.className
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: className
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 191
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public string className
+    return:
+      type: System.String
+    content.vb: Public className As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.method
+  commentId: F:AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.method
+  id: method
+  parent: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails
+  langs:
+  - csharp
+  - vb
+  name: method
+  nameWithType: CoroutineDiagHelper.CallerDetails.method
+  fullName: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.method
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: method
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 192
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public string method
+    return:
+      type: System.String
+    content.vb: Public method As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.methodParameters
+  commentId: F:AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.methodParameters
+  id: methodParameters
+  parent: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails
+  langs:
+  - csharp
+  - vb
+  name: methodParameters
+  nameWithType: CoroutineDiagHelper.CallerDetails.methodParameters
+  fullName: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.methodParameters
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: methodParameters
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 193
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public string[] methodParameters
+    return:
+      type: System.String[]
+    content.vb: Public methodParameters As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.file
+  commentId: F:AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.file
+  id: file
+  parent: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails
+  langs:
+  - csharp
+  - vb
+  name: file
+  nameWithType: CoroutineDiagHelper.CallerDetails.file
+  fullName: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.file
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: file
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 194
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public string file
+    return:
+      type: System.String
+    content.vb: Public file As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.line
+  commentId: F:AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.line
+  id: line
+  parent: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails
+  langs:
+  - csharp
+  - vb
+  name: line
+  nameWithType: CoroutineDiagHelper.CallerDetails.line
+  fullName: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.line
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: line
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 195
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public int line
+    return:
+      type: System.Int32
+    content.vb: Public line As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.ToString
+  commentId: M:AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.ToString
+  id: ToString
+  parent: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CoroutineDiagHelper.CallerDetails.ToString()
+  fullName: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.ToString()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ToString
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 197
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.ToString*
+  commentId: Overload:AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.ToString
+  name: ToString
+  nameWithType: CoroutineDiagHelper.CallerDetails.ToString
+  fullName: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.ToString

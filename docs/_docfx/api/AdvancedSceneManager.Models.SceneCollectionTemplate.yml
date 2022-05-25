@@ -1,0 +1,2162 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate
+  commentId: T:AdvancedSceneManager.Models.SceneCollectionTemplate
+  id: SceneCollectionTemplate
+  parent: AdvancedSceneManager.Models
+  children:
+  - AdvancedSceneManager.Models.SceneCollectionTemplate.Apply(AdvancedSceneManager.Models.SceneCollection)
+  - AdvancedSceneManager.Models.SceneCollectionTemplate.CreateCollection(AdvancedSceneManager.Models.Profile)
+  - AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplate(System.String,AdvancedSceneManager.Models.SceneCollection)
+  - AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplateInCurrentFolder(AdvancedSceneManager.Models.SceneCollection)
+  - AdvancedSceneManager.Models.SceneCollectionTemplate.name
+  - AdvancedSceneManager.Models.SceneCollectionTemplate.title
+  langs:
+  - csharp
+  - vb
+  name: SceneCollectionTemplate
+  nameWithType: SceneCollectionTemplate
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SceneCollectionTemplate
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+    startLine: 8
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Represents a template for a <xref href="AdvancedSceneManager.Models.SceneCollection" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public class SceneCollectionTemplate : SceneCollection, IReadOnlyList<Scene>, IReadOnlyCollection<Scene>, IEnumerable<Scene>, IEnumerable, ISceneObject, INotifyPropertyChanged'
+    content.vb: >-
+      Public Class SceneCollectionTemplate
+          Inherits SceneCollection
+          Implements IReadOnlyList(Of Scene), IReadOnlyCollection(Of Scene), IEnumerable(Of Scene), IEnumerable, ISceneObject, INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - AdvancedSceneManager.Models.SceneCollection
+  implements:
+  - AdvancedSceneManager.Models.ISceneObject
+  inheritedMembers:
+  - AdvancedSceneManager.Models.SceneCollection.PropertyChanged
+  - AdvancedSceneManager.Models.SceneCollection.OnPropertyChanged
+  - AdvancedSceneManager.Models.SceneCollection.Count
+  - AdvancedSceneManager.Models.SceneCollection.IsReadOnly
+  - AdvancedSceneManager.Models.SceneCollection.Item(System.Int32)
+  - AdvancedSceneManager.Models.SceneCollection.Contains(AdvancedSceneManager.Models.Scene)
+  - AdvancedSceneManager.Models.SceneCollection.GetEnumerator
+  - AdvancedSceneManager.Models.SceneCollection.extraData
+  - AdvancedSceneManager.Models.SceneCollection.isIncluded
+  - AdvancedSceneManager.Models.SceneCollection.scenes
+  - AdvancedSceneManager.Models.SceneCollection.loadingScreen
+  - AdvancedSceneManager.Models.SceneCollection.loadingScreenUsage
+  - AdvancedSceneManager.Models.SceneCollection.activeScene
+  - AdvancedSceneManager.Models.SceneCollection.startupOption
+  - AdvancedSceneManager.Models.SceneCollection.loadingPriority
+  - AdvancedSceneManager.Models.SceneCollection.hasScenes
+  - AdvancedSceneManager.Models.SceneCollection.Tag(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneTag)
+  - AdvancedSceneManager.Models.SceneCollection.Open
+  - AdvancedSceneManager.Models.SceneCollection.OpenOrReopen
+  - AdvancedSceneManager.Models.SceneCollection.Toggle
+  - AdvancedSceneManager.Models.SceneCollection.Toggle(System.Boolean)
+  - AdvancedSceneManager.Models.SceneCollection.Reopen
+  - AdvancedSceneManager.Models.SceneCollection.Close
+  - AdvancedSceneManager.Models.SceneCollection.IsOpen
+  - AdvancedSceneManager.Models.SceneCollection.OpenEvent
+  - AdvancedSceneManager.Models.SceneCollection.ToggleEvent
+  - AdvancedSceneManager.Models.SceneCollection.ToggleEvent(System.Boolean)
+  - AdvancedSceneManager.Models.SceneCollection.ReopenEvent
+  - AdvancedSceneManager.Models.SceneCollection.CloseEvent
+  - AdvancedSceneManager.Models.SceneCollection.AllScenes
+  - AdvancedSceneManager.Models.SceneCollection.AllScenePaths
+  - AdvancedSceneManager.Models.SceneCollection.FindProfile
+  - AdvancedSceneManager.Models.SceneCollection.Find(System.String,System.Boolean)
+  - AdvancedSceneManager.Models.SceneCollection.ExtraData``1
+  extensionMethods:
+  - System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}.AdvancedSceneManager.Utility.SceneCollectionUtility.Find(System.String)
+  - UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}.AdvancedSceneManager.Editor.Utility.ListUtility.ForEach``1(System.Action{AdvancedSceneManager.Models.Scene,System.Int32})
+  - System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}.AdvancedSceneManager.Editor.Utility.ListUtility.Flatten``1(System.Func{AdvancedSceneManager.Models.Scene,System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}})
+  - System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}.AdvancedSceneManager.Editor.Utility.ListUtility.Except``1(AdvancedSceneManager.Models.Scene)
+  - System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}.AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive``1(System.Func{AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.Scene,System.Boolean})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate.name
+  commentId: P:AdvancedSceneManager.Models.SceneCollectionTemplate.name
+  id: name
+  parent: AdvancedSceneManager.Models.SceneCollectionTemplate
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: SceneCollectionTemplate.name
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate.name
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: name
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+    startLine: 12
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  remarks: 'See also: <xref href="AdvancedSceneManager.SceneManager.assetManagement" data-throw-if-not-resolved="false"></xref>.Rename().'
+  example: []
+  syntax:
+    content: public string name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property name As String
+  overload: AdvancedSceneManager.Models.SceneCollectionTemplate.name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate.title
+  commentId: P:AdvancedSceneManager.Models.SceneCollectionTemplate.title
+  id: title
+  parent: AdvancedSceneManager.Models.SceneCollectionTemplate
+  langs:
+  - csharp
+  - vb
+  name: title
+  nameWithType: SceneCollectionTemplate.title
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate.title
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: title
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+    startLine: 15
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: The title of this collection.
+  remarks: 'See also: <xref href="AdvancedSceneManager.SceneManager.assetManagement" data-throw-if-not-resolved="false"></xref>.Rename().'
+  example: []
+  syntax:
+    content: public string title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property title As String
+  overload: AdvancedSceneManager.Models.SceneCollectionTemplate.title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateCollection(AdvancedSceneManager.Models.Profile)
+  commentId: M:AdvancedSceneManager.Models.SceneCollectionTemplate.CreateCollection(AdvancedSceneManager.Models.Profile)
+  id: CreateCollection(AdvancedSceneManager.Models.Profile)
+  parent: AdvancedSceneManager.Models.SceneCollectionTemplate
+  langs:
+  - csharp
+  - vb
+  name: CreateCollection(Profile)
+  nameWithType: SceneCollectionTemplate.CreateCollection(Profile)
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateCollection(AdvancedSceneManager.Models.Profile)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CreateCollection
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+    startLine: 25
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Creates a <xref href="AdvancedSceneManager.Models.SceneCollection" data-throw-if-not-resolved="false"></xref> from this <xref href="AdvancedSceneManager.Models.SceneCollectionTemplate" data-throw-if-not-resolved="false"></xref>.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public SceneCollection CreateCollection(Profile profile)
+    parameters:
+    - id: profile
+      type: AdvancedSceneManager.Models.Profile
+    return:
+      type: AdvancedSceneManager.Models.SceneCollection
+    content.vb: Public Function CreateCollection(profile As Profile) As SceneCollection
+  overload: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateCollection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate.Apply(AdvancedSceneManager.Models.SceneCollection)
+  commentId: M:AdvancedSceneManager.Models.SceneCollectionTemplate.Apply(AdvancedSceneManager.Models.SceneCollection)
+  id: Apply(AdvancedSceneManager.Models.SceneCollection)
+  parent: AdvancedSceneManager.Models.SceneCollectionTemplate
+  langs:
+  - csharp
+  - vb
+  name: Apply(SceneCollection)
+  nameWithType: SceneCollectionTemplate.Apply(SceneCollection)
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate.Apply(AdvancedSceneManager.Models.SceneCollection)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Apply
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+    startLine: 32
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Applies a <xref href="AdvancedSceneManager.Models.SceneCollectionTemplate" data-throw-if-not-resolved="false"></xref> on this <xref href="AdvancedSceneManager.Models.SceneCollection" data-throw-if-not-resolved="false"></xref>.
+  remarks: Only available in editor. Not reversible.
+  example: []
+  syntax:
+    content: public void Apply(SceneCollection collection)
+    parameters:
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    content.vb: Public Sub Apply(collection As SceneCollection)
+  overload: AdvancedSceneManager.Models.SceneCollectionTemplate.Apply*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplateInCurrentFolder(AdvancedSceneManager.Models.SceneCollection)
+  commentId: M:AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplateInCurrentFolder(AdvancedSceneManager.Models.SceneCollection)
+  id: CreateTemplateInCurrentFolder(AdvancedSceneManager.Models.SceneCollection)
+  parent: AdvancedSceneManager.Models.SceneCollectionTemplate
+  langs:
+  - csharp
+  - vb
+  name: CreateTemplateInCurrentFolder(SceneCollection)
+  nameWithType: SceneCollectionTemplate.CreateTemplateInCurrentFolder(SceneCollection)
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplateInCurrentFolder(AdvancedSceneManager.Models.SceneCollection)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CreateTemplateInCurrentFolder
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+    startLine: 40
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Creates <xref href="AdvancedSceneManager.Models.SceneCollectionTemplate" data-throw-if-not-resolved="false"></xref> from the specified <xref href="AdvancedSceneManager.Models.SceneCollection" data-throw-if-not-resolved="false"></xref>, using the currently open folder in the project view.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public static SceneCollectionTemplate CreateTemplateInCurrentFolder(SceneCollection collection)
+    parameters:
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    return:
+      type: AdvancedSceneManager.Models.SceneCollectionTemplate
+    content.vb: Public Shared Function CreateTemplateInCurrentFolder(collection As SceneCollection) As SceneCollectionTemplate
+  overload: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplateInCurrentFolder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplate(System.String,AdvancedSceneManager.Models.SceneCollection)
+  commentId: M:AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplate(System.String,AdvancedSceneManager.Models.SceneCollection)
+  id: CreateTemplate(System.String,AdvancedSceneManager.Models.SceneCollection)
+  parent: AdvancedSceneManager.Models.SceneCollectionTemplate
+  langs:
+  - csharp
+  - vb
+  name: CreateTemplate(String, SceneCollection)
+  nameWithType: SceneCollectionTemplate.CreateTemplate(String, SceneCollection)
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplate(System.String, AdvancedSceneManager.Models.SceneCollection)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CreateTemplate
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollectionTemplate.cs
+    startLine: 50
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Creates <xref href="AdvancedSceneManager.Models.SceneCollectionTemplate" data-throw-if-not-resolved="false"></xref> from the specified <xref href="AdvancedSceneManager.Models.SceneCollection" data-throw-if-not-resolved="false"></xref>.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public static SceneCollectionTemplate CreateTemplate(string path, SceneCollection collection)
+    parameters:
+    - id: path
+      type: System.String
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    return:
+      type: AdvancedSceneManager.Models.SceneCollectionTemplate
+    content.vb: Public Shared Function CreateTemplate(path As String, collection As SceneCollection) As SceneCollectionTemplate
+  overload: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: AdvancedSceneManager.Models.SceneCollection
+  commentId: T:AdvancedSceneManager.Models.SceneCollection
+  parent: AdvancedSceneManager.Models
+  name: SceneCollection
+  nameWithType: SceneCollection
+  fullName: AdvancedSceneManager.Models.SceneCollection
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: AdvancedSceneManager.Models.ISceneObject
+  commentId: T:AdvancedSceneManager.Models.ISceneObject
+  parent: AdvancedSceneManager.Models
+  name: ISceneObject
+  nameWithType: ISceneObject
+  fullName: AdvancedSceneManager.Models.ISceneObject
+- uid: AdvancedSceneManager.Models.SceneCollection.PropertyChanged
+  commentId: E:AdvancedSceneManager.Models.SceneCollection.PropertyChanged
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: PropertyChanged
+  nameWithType: SceneCollection.PropertyChanged
+  fullName: AdvancedSceneManager.Models.SceneCollection.PropertyChanged
+- uid: AdvancedSceneManager.Models.SceneCollection.OnPropertyChanged
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.OnPropertyChanged
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: OnPropertyChanged()
+  nameWithType: SceneCollection.OnPropertyChanged()
+  fullName: AdvancedSceneManager.Models.SceneCollection.OnPropertyChanged()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.OnPropertyChanged
+    name: OnPropertyChanged
+    nameWithType: SceneCollection.OnPropertyChanged
+    fullName: AdvancedSceneManager.Models.SceneCollection.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.OnPropertyChanged
+    name: OnPropertyChanged
+    nameWithType: SceneCollection.OnPropertyChanged
+    fullName: AdvancedSceneManager.Models.SceneCollection.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.Count
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.Count
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: Count
+  nameWithType: SceneCollection.Count
+  fullName: AdvancedSceneManager.Models.SceneCollection.Count
+- uid: AdvancedSceneManager.Models.SceneCollection.IsReadOnly
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.IsReadOnly
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: IsReadOnly
+  nameWithType: SceneCollection.IsReadOnly
+  fullName: AdvancedSceneManager.Models.SceneCollection.IsReadOnly
+- uid: AdvancedSceneManager.Models.SceneCollection.Item(System.Int32)
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.Item(System.Int32)
+  parent: AdvancedSceneManager.Models.SceneCollection
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: SceneCollection.Item[Int32]
+  fullName: AdvancedSceneManager.Models.SceneCollection.Item[System.Int32]
+  nameWithType.vb: SceneCollection.Item(Int32)
+  fullName.vb: AdvancedSceneManager.Models.SceneCollection.Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Item(System.Int32)
+    name: Item
+    nameWithType: SceneCollection.Item
+    fullName: AdvancedSceneManager.Models.SceneCollection.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Item(System.Int32)
+    name: Item
+    nameWithType: SceneCollection.Item
+    fullName: AdvancedSceneManager.Models.SceneCollection.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.Contains(AdvancedSceneManager.Models.Scene)
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.Contains(AdvancedSceneManager.Models.Scene)
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: Contains(Scene)
+  nameWithType: SceneCollection.Contains(Scene)
+  fullName: AdvancedSceneManager.Models.SceneCollection.Contains(AdvancedSceneManager.Models.Scene)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Contains(AdvancedSceneManager.Models.Scene)
+    name: Contains
+    nameWithType: SceneCollection.Contains
+    fullName: AdvancedSceneManager.Models.SceneCollection.Contains
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Contains(AdvancedSceneManager.Models.Scene)
+    name: Contains
+    nameWithType: SceneCollection.Contains
+    fullName: AdvancedSceneManager.Models.SceneCollection.Contains
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.GetEnumerator
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.GetEnumerator
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: GetEnumerator()
+  nameWithType: SceneCollection.GetEnumerator()
+  fullName: AdvancedSceneManager.Models.SceneCollection.GetEnumerator()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.GetEnumerator
+    name: GetEnumerator
+    nameWithType: SceneCollection.GetEnumerator
+    fullName: AdvancedSceneManager.Models.SceneCollection.GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.GetEnumerator
+    name: GetEnumerator
+    nameWithType: SceneCollection.GetEnumerator
+    fullName: AdvancedSceneManager.Models.SceneCollection.GetEnumerator
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.extraData
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.extraData
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: extraData
+  nameWithType: SceneCollection.extraData
+  fullName: AdvancedSceneManager.Models.SceneCollection.extraData
+- uid: AdvancedSceneManager.Models.SceneCollection.isIncluded
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.isIncluded
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: isIncluded
+  nameWithType: SceneCollection.isIncluded
+  fullName: AdvancedSceneManager.Models.SceneCollection.isIncluded
+- uid: AdvancedSceneManager.Models.SceneCollection.scenes
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.scenes
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: scenes
+  nameWithType: SceneCollection.scenes
+  fullName: AdvancedSceneManager.Models.SceneCollection.scenes
+- uid: AdvancedSceneManager.Models.SceneCollection.loadingScreen
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.loadingScreen
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: loadingScreen
+  nameWithType: SceneCollection.loadingScreen
+  fullName: AdvancedSceneManager.Models.SceneCollection.loadingScreen
+- uid: AdvancedSceneManager.Models.SceneCollection.loadingScreenUsage
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.loadingScreenUsage
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: loadingScreenUsage
+  nameWithType: SceneCollection.loadingScreenUsage
+  fullName: AdvancedSceneManager.Models.SceneCollection.loadingScreenUsage
+- uid: AdvancedSceneManager.Models.SceneCollection.activeScene
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.activeScene
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: activeScene
+  nameWithType: SceneCollection.activeScene
+  fullName: AdvancedSceneManager.Models.SceneCollection.activeScene
+- uid: AdvancedSceneManager.Models.SceneCollection.startupOption
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.startupOption
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: startupOption
+  nameWithType: SceneCollection.startupOption
+  fullName: AdvancedSceneManager.Models.SceneCollection.startupOption
+- uid: AdvancedSceneManager.Models.SceneCollection.loadingPriority
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.loadingPriority
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: loadingPriority
+  nameWithType: SceneCollection.loadingPriority
+  fullName: AdvancedSceneManager.Models.SceneCollection.loadingPriority
+- uid: AdvancedSceneManager.Models.SceneCollection.hasScenes
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.hasScenes
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: hasScenes
+  nameWithType: SceneCollection.hasScenes
+  fullName: AdvancedSceneManager.Models.SceneCollection.hasScenes
+- uid: AdvancedSceneManager.Models.SceneCollection.Tag(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneTag)
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.Tag(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneTag)
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: Tag(Scene, SceneTag)
+  nameWithType: SceneCollection.Tag(Scene, SceneTag)
+  fullName: AdvancedSceneManager.Models.SceneCollection.Tag(AdvancedSceneManager.Models.Scene, AdvancedSceneManager.Models.SceneTag)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Tag(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneTag)
+    name: Tag
+    nameWithType: SceneCollection.Tag
+    fullName: AdvancedSceneManager.Models.SceneCollection.Tag
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Models.SceneTag
+    name: SceneTag
+    nameWithType: SceneTag
+    fullName: AdvancedSceneManager.Models.SceneTag
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Tag(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneTag)
+    name: Tag
+    nameWithType: SceneCollection.Tag
+    fullName: AdvancedSceneManager.Models.SceneCollection.Tag
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Models.SceneTag
+    name: SceneTag
+    nameWithType: SceneTag
+    fullName: AdvancedSceneManager.Models.SceneTag
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.Open
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.Open
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: Open()
+  nameWithType: SceneCollection.Open()
+  fullName: AdvancedSceneManager.Models.SceneCollection.Open()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Open
+    name: Open
+    nameWithType: SceneCollection.Open
+    fullName: AdvancedSceneManager.Models.SceneCollection.Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Open
+    name: Open
+    nameWithType: SceneCollection.Open
+    fullName: AdvancedSceneManager.Models.SceneCollection.Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.OpenOrReopen
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.OpenOrReopen
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: OpenOrReopen()
+  nameWithType: SceneCollection.OpenOrReopen()
+  fullName: AdvancedSceneManager.Models.SceneCollection.OpenOrReopen()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.OpenOrReopen
+    name: OpenOrReopen
+    nameWithType: SceneCollection.OpenOrReopen
+    fullName: AdvancedSceneManager.Models.SceneCollection.OpenOrReopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.OpenOrReopen
+    name: OpenOrReopen
+    nameWithType: SceneCollection.OpenOrReopen
+    fullName: AdvancedSceneManager.Models.SceneCollection.OpenOrReopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.Toggle
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.Toggle
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: Toggle()
+  nameWithType: SceneCollection.Toggle()
+  fullName: AdvancedSceneManager.Models.SceneCollection.Toggle()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Toggle
+    name: Toggle
+    nameWithType: SceneCollection.Toggle
+    fullName: AdvancedSceneManager.Models.SceneCollection.Toggle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Toggle
+    name: Toggle
+    nameWithType: SceneCollection.Toggle
+    fullName: AdvancedSceneManager.Models.SceneCollection.Toggle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.Toggle(System.Boolean)
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.Toggle(System.Boolean)
+  parent: AdvancedSceneManager.Models.SceneCollection
+  isExternal: true
+  name: Toggle(Boolean)
+  nameWithType: SceneCollection.Toggle(Boolean)
+  fullName: AdvancedSceneManager.Models.SceneCollection.Toggle(System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Toggle(System.Boolean)
+    name: Toggle
+    nameWithType: SceneCollection.Toggle
+    fullName: AdvancedSceneManager.Models.SceneCollection.Toggle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Toggle(System.Boolean)
+    name: Toggle
+    nameWithType: SceneCollection.Toggle
+    fullName: AdvancedSceneManager.Models.SceneCollection.Toggle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.Reopen
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.Reopen
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: Reopen()
+  nameWithType: SceneCollection.Reopen()
+  fullName: AdvancedSceneManager.Models.SceneCollection.Reopen()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Reopen
+    name: Reopen
+    nameWithType: SceneCollection.Reopen
+    fullName: AdvancedSceneManager.Models.SceneCollection.Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Reopen
+    name: Reopen
+    nameWithType: SceneCollection.Reopen
+    fullName: AdvancedSceneManager.Models.SceneCollection.Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.Close
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.Close
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: Close()
+  nameWithType: SceneCollection.Close()
+  fullName: AdvancedSceneManager.Models.SceneCollection.Close()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Close
+    name: Close
+    nameWithType: SceneCollection.Close
+    fullName: AdvancedSceneManager.Models.SceneCollection.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Close
+    name: Close
+    nameWithType: SceneCollection.Close
+    fullName: AdvancedSceneManager.Models.SceneCollection.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.IsOpen
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.IsOpen
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: IsOpen()
+  nameWithType: SceneCollection.IsOpen()
+  fullName: AdvancedSceneManager.Models.SceneCollection.IsOpen()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.IsOpen
+    name: IsOpen
+    nameWithType: SceneCollection.IsOpen
+    fullName: AdvancedSceneManager.Models.SceneCollection.IsOpen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.IsOpen
+    name: IsOpen
+    nameWithType: SceneCollection.IsOpen
+    fullName: AdvancedSceneManager.Models.SceneCollection.IsOpen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.OpenEvent
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.OpenEvent
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: OpenEvent()
+  nameWithType: SceneCollection.OpenEvent()
+  fullName: AdvancedSceneManager.Models.SceneCollection.OpenEvent()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.OpenEvent
+    name: OpenEvent
+    nameWithType: SceneCollection.OpenEvent
+    fullName: AdvancedSceneManager.Models.SceneCollection.OpenEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.OpenEvent
+    name: OpenEvent
+    nameWithType: SceneCollection.OpenEvent
+    fullName: AdvancedSceneManager.Models.SceneCollection.OpenEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.ToggleEvent
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.ToggleEvent
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: ToggleEvent()
+  nameWithType: SceneCollection.ToggleEvent()
+  fullName: AdvancedSceneManager.Models.SceneCollection.ToggleEvent()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.ToggleEvent
+    name: ToggleEvent
+    nameWithType: SceneCollection.ToggleEvent
+    fullName: AdvancedSceneManager.Models.SceneCollection.ToggleEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.ToggleEvent
+    name: ToggleEvent
+    nameWithType: SceneCollection.ToggleEvent
+    fullName: AdvancedSceneManager.Models.SceneCollection.ToggleEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.ToggleEvent(System.Boolean)
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.ToggleEvent(System.Boolean)
+  parent: AdvancedSceneManager.Models.SceneCollection
+  isExternal: true
+  name: ToggleEvent(Boolean)
+  nameWithType: SceneCollection.ToggleEvent(Boolean)
+  fullName: AdvancedSceneManager.Models.SceneCollection.ToggleEvent(System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.ToggleEvent(System.Boolean)
+    name: ToggleEvent
+    nameWithType: SceneCollection.ToggleEvent
+    fullName: AdvancedSceneManager.Models.SceneCollection.ToggleEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.ToggleEvent(System.Boolean)
+    name: ToggleEvent
+    nameWithType: SceneCollection.ToggleEvent
+    fullName: AdvancedSceneManager.Models.SceneCollection.ToggleEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.ReopenEvent
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.ReopenEvent
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: ReopenEvent()
+  nameWithType: SceneCollection.ReopenEvent()
+  fullName: AdvancedSceneManager.Models.SceneCollection.ReopenEvent()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.ReopenEvent
+    name: ReopenEvent
+    nameWithType: SceneCollection.ReopenEvent
+    fullName: AdvancedSceneManager.Models.SceneCollection.ReopenEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.ReopenEvent
+    name: ReopenEvent
+    nameWithType: SceneCollection.ReopenEvent
+    fullName: AdvancedSceneManager.Models.SceneCollection.ReopenEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.CloseEvent
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.CloseEvent
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: CloseEvent()
+  nameWithType: SceneCollection.CloseEvent()
+  fullName: AdvancedSceneManager.Models.SceneCollection.CloseEvent()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.CloseEvent
+    name: CloseEvent
+    nameWithType: SceneCollection.CloseEvent
+    fullName: AdvancedSceneManager.Models.SceneCollection.CloseEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.CloseEvent
+    name: CloseEvent
+    nameWithType: SceneCollection.CloseEvent
+    fullName: AdvancedSceneManager.Models.SceneCollection.CloseEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.AllScenes
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.AllScenes
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: AllScenes()
+  nameWithType: SceneCollection.AllScenes()
+  fullName: AdvancedSceneManager.Models.SceneCollection.AllScenes()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.AllScenes
+    name: AllScenes
+    nameWithType: SceneCollection.AllScenes
+    fullName: AdvancedSceneManager.Models.SceneCollection.AllScenes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.AllScenes
+    name: AllScenes
+    nameWithType: SceneCollection.AllScenes
+    fullName: AdvancedSceneManager.Models.SceneCollection.AllScenes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.AllScenePaths
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.AllScenePaths
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: AllScenePaths()
+  nameWithType: SceneCollection.AllScenePaths()
+  fullName: AdvancedSceneManager.Models.SceneCollection.AllScenePaths()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.AllScenePaths
+    name: AllScenePaths
+    nameWithType: SceneCollection.AllScenePaths
+    fullName: AdvancedSceneManager.Models.SceneCollection.AllScenePaths
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.AllScenePaths
+    name: AllScenePaths
+    nameWithType: SceneCollection.AllScenePaths
+    fullName: AdvancedSceneManager.Models.SceneCollection.AllScenePaths
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.FindProfile
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.FindProfile
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: FindProfile()
+  nameWithType: SceneCollection.FindProfile()
+  fullName: AdvancedSceneManager.Models.SceneCollection.FindProfile()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.FindProfile
+    name: FindProfile
+    nameWithType: SceneCollection.FindProfile
+    fullName: AdvancedSceneManager.Models.SceneCollection.FindProfile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.FindProfile
+    name: FindProfile
+    nameWithType: SceneCollection.FindProfile
+    fullName: AdvancedSceneManager.Models.SceneCollection.FindProfile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.Find(System.String,System.Boolean)
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.Find(System.String,System.Boolean)
+  parent: AdvancedSceneManager.Models.SceneCollection
+  isExternal: true
+  name: Find(String, Boolean)
+  nameWithType: SceneCollection.Find(String, Boolean)
+  fullName: AdvancedSceneManager.Models.SceneCollection.Find(System.String, System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Find(System.String,System.Boolean)
+    name: Find
+    nameWithType: SceneCollection.Find
+    fullName: AdvancedSceneManager.Models.SceneCollection.Find
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.Find(System.String,System.Boolean)
+    name: Find
+    nameWithType: SceneCollection.Find
+    fullName: AdvancedSceneManager.Models.SceneCollection.Find
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection.ExtraData``1
+  commentId: M:AdvancedSceneManager.Models.SceneCollection.ExtraData``1
+  parent: AdvancedSceneManager.Models.SceneCollection
+  name: ExtraData<T>()
+  nameWithType: SceneCollection.ExtraData<T>()
+  fullName: AdvancedSceneManager.Models.SceneCollection.ExtraData<T>()
+  nameWithType.vb: SceneCollection.ExtraData(Of T)()
+  fullName.vb: AdvancedSceneManager.Models.SceneCollection.ExtraData(Of T)()
+  name.vb: ExtraData(Of T)()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneCollection.ExtraData``1
+    name: ExtraData<T>
+    nameWithType: SceneCollection.ExtraData<T>
+    fullName: AdvancedSceneManager.Models.SceneCollection.ExtraData<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneCollection.ExtraData``1
+    name: ExtraData(Of T)
+    nameWithType: SceneCollection.ExtraData(Of T)
+    fullName: AdvancedSceneManager.Models.SceneCollection.ExtraData(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}.AdvancedSceneManager.Utility.SceneCollectionUtility.Find(System.String)
+  commentId: M:AdvancedSceneManager.Utility.SceneCollectionUtility.Find(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene},System.String)
+  parent: AdvancedSceneManager.Utility.SceneCollectionUtility
+  definition: AdvancedSceneManager.Utility.SceneCollectionUtility.Find(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene},System.String)
+  name: Find(String)
+  nameWithType: SceneCollectionUtility.Find(String)
+  fullName: AdvancedSceneManager.Utility.SceneCollectionUtility.Find(System.String)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.SceneCollectionUtility.Find(System.String)
+    name: Find
+    nameWithType: SceneCollectionUtility.Find
+    fullName: AdvancedSceneManager.Utility.SceneCollectionUtility.Find
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.SceneCollectionUtility.Find(System.String)
+    name: Find
+    nameWithType: SceneCollectionUtility.Find
+    fullName: AdvancedSceneManager.Utility.SceneCollectionUtility.Find
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  parent: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  definition: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  name: Save()
+  nameWithType: ScriptableObjectUtility.Save()
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}.AdvancedSceneManager.Editor.Utility.ListUtility.ForEach``1(System.Action{AdvancedSceneManager.Models.Scene,System.Int32})
+  commentId: M:AdvancedSceneManager.Editor.Utility.ListUtility.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})
+  parent: AdvancedSceneManager.Editor.Utility.ListUtility
+  definition: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})
+  name: ForEach<Scene>(Action<Scene, Int32>)
+  nameWithType: ListUtility.ForEach<Scene>(Action<Scene, Int32>)
+  fullName: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach<AdvancedSceneManager.Models.Scene>(System.Action<AdvancedSceneManager.Models.Scene, System.Int32>)
+  nameWithType.vb: ListUtility.ForEach(Of Scene)(Action(Of Scene, Int32))
+  fullName.vb: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach(Of AdvancedSceneManager.Models.Scene)(System.Action(Of AdvancedSceneManager.Models.Scene, System.Int32))
+  name.vb: ForEach(Of Scene)(Action(Of Scene, Int32))
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach``1(System.Action{``0,System.Int32})
+    name: ForEach<Scene>
+    nameWithType: ListUtility.ForEach<Scene>
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach<AdvancedSceneManager.Models.Scene>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach``1(System.Action{``0,System.Int32})
+    name: ForEach(Of Scene)
+    nameWithType: ListUtility.ForEach(Of Scene)
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach(Of AdvancedSceneManager.Models.Scene)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}.AdvancedSceneManager.Editor.Utility.ListUtility.Flatten``1(System.Func{AdvancedSceneManager.Models.Scene,System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}})
+  commentId: M:AdvancedSceneManager.Editor.Utility.ListUtility.Flatten``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+  parent: AdvancedSceneManager.Editor.Utility.ListUtility
+  definition: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+  name: Flatten<Scene>(Func<Scene, IEnumerable<Scene>>)
+  nameWithType: ListUtility.Flatten<Scene>(Func<Scene, IEnumerable<Scene>>)
+  fullName: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten<AdvancedSceneManager.Models.Scene>(System.Func<AdvancedSceneManager.Models.Scene, System.Collections.Generic.IEnumerable<AdvancedSceneManager.Models.Scene>>)
+  nameWithType.vb: ListUtility.Flatten(Of Scene)(Func(Of Scene, IEnumerable(Of Scene)))
+  fullName.vb: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten(Of AdvancedSceneManager.Models.Scene)(System.Func(Of AdvancedSceneManager.Models.Scene, System.Collections.Generic.IEnumerable(Of AdvancedSceneManager.Models.Scene)))
+  name.vb: Flatten(Of Scene)(Func(Of Scene, IEnumerable(Of Scene)))
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten``1(System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+    name: Flatten<Scene>
+    nameWithType: ListUtility.Flatten<Scene>
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten<AdvancedSceneManager.Models.Scene>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten``1(System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+    name: Flatten(Of Scene)
+    nameWithType: ListUtility.Flatten(Of Scene)
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten(Of AdvancedSceneManager.Models.Scene)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}.AdvancedSceneManager.Editor.Utility.ListUtility.Except``1(AdvancedSceneManager.Models.Scene)
+  commentId: M:AdvancedSceneManager.Editor.Utility.ListUtility.Except``1(System.Collections.Generic.IEnumerable{``0},``0)
+  parent: AdvancedSceneManager.Editor.Utility.ListUtility
+  definition: AdvancedSceneManager.Editor.Utility.ListUtility.Except``1(System.Collections.Generic.IEnumerable{``0},``0)
+  name: Except<Scene>(Scene)
+  nameWithType: ListUtility.Except<Scene>(Scene)
+  fullName: AdvancedSceneManager.Editor.Utility.ListUtility.Except<AdvancedSceneManager.Models.Scene>(AdvancedSceneManager.Models.Scene)
+  nameWithType.vb: ListUtility.Except(Of Scene)(Scene)
+  fullName.vb: AdvancedSceneManager.Editor.Utility.ListUtility.Except(Of AdvancedSceneManager.Models.Scene)(AdvancedSceneManager.Models.Scene)
+  name.vb: Except(Of Scene)(Scene)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.Except``1(``0)
+    name: Except<Scene>
+    nameWithType: ListUtility.Except<Scene>
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.Except<AdvancedSceneManager.Models.Scene>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.Except``1(``0)
+    name: Except(Of Scene)
+    nameWithType: ListUtility.Except(Of Scene)
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.Except(Of AdvancedSceneManager.Models.Scene)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}.AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive``1(System.Func{AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.Scene,System.Boolean})
+  commentId: M:AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,System.Boolean})
+  parent: AdvancedSceneManager.Editor.Utility.ListUtility
+  definition: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,System.Boolean})
+  name: GroupConsecutive<Scene>(Func<Scene, Scene, Boolean>)
+  nameWithType: ListUtility.GroupConsecutive<Scene>(Func<Scene, Scene, Boolean>)
+  fullName: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive<AdvancedSceneManager.Models.Scene>(System.Func<AdvancedSceneManager.Models.Scene, AdvancedSceneManager.Models.Scene, System.Boolean>)
+  nameWithType.vb: ListUtility.GroupConsecutive(Of Scene)(Func(Of Scene, Scene, Boolean))
+  fullName.vb: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive(Of AdvancedSceneManager.Models.Scene)(System.Func(Of AdvancedSceneManager.Models.Scene, AdvancedSceneManager.Models.Scene, System.Boolean))
+  name.vb: GroupConsecutive(Of Scene)(Func(Of Scene, Scene, Boolean))
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive``1(System.Func{``0,``0,System.Boolean})
+    name: GroupConsecutive<Scene>
+    nameWithType: ListUtility.GroupConsecutive<Scene>
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive<AdvancedSceneManager.Models.Scene>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive``1(System.Func{``0,``0,System.Boolean})
+    name: GroupConsecutive(Of Scene)
+    nameWithType: ListUtility.GroupConsecutive(Of Scene)
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive(Of AdvancedSceneManager.Models.Scene)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Utility.SceneCollectionUtility.Find(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene},System.String)
+  commentId: M:AdvancedSceneManager.Utility.SceneCollectionUtility.Find(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene},System.String)
+  isExternal: true
+  name: Find(IEnumerable<Scene>, String)
+  nameWithType: SceneCollectionUtility.Find(IEnumerable<Scene>, String)
+  fullName: AdvancedSceneManager.Utility.SceneCollectionUtility.Find(System.Collections.Generic.IEnumerable<AdvancedSceneManager.Models.Scene>, System.String)
+  nameWithType.vb: SceneCollectionUtility.Find(IEnumerable(Of Scene), String)
+  fullName.vb: AdvancedSceneManager.Utility.SceneCollectionUtility.Find(System.Collections.Generic.IEnumerable(Of AdvancedSceneManager.Models.Scene), System.String)
+  name.vb: Find(IEnumerable(Of Scene), String)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.SceneCollectionUtility.Find(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene},System.String)
+    name: Find
+    nameWithType: SceneCollectionUtility.Find
+    fullName: AdvancedSceneManager.Utility.SceneCollectionUtility.Find
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.SceneCollectionUtility.Find(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene},System.String)
+    name: Find
+    nameWithType: SceneCollectionUtility.Find
+    fullName: AdvancedSceneManager.Utility.SceneCollectionUtility.Find
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.SceneCollectionUtility
+  commentId: T:AdvancedSceneManager.Utility.SceneCollectionUtility
+  parent: AdvancedSceneManager.Utility
+  name: SceneCollectionUtility
+  nameWithType: SceneCollectionUtility
+  fullName: AdvancedSceneManager.Utility.SceneCollectionUtility
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  isExternal: true
+  name: Save(ScriptableObject)
+  nameWithType: ScriptableObjectUtility.Save(ScriptableObject)
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  commentId: T:AdvancedSceneManager.Utility.ScriptableObjectUtility
+  parent: AdvancedSceneManager.Utility
+  name: ScriptableObjectUtility
+  nameWithType: ScriptableObjectUtility
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility
+- uid: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})
+  commentId: M:AdvancedSceneManager.Editor.Utility.ListUtility.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})
+  isExternal: true
+  name: ForEach<T>(IEnumerable<T>, Action<T, Int32>)
+  nameWithType: ListUtility.ForEach<T>(IEnumerable<T>, Action<T, Int32>)
+  fullName: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T, System.Int32>)
+  nameWithType.vb: ListUtility.ForEach(Of T)(IEnumerable(Of T), Action(Of T, Int32))
+  fullName.vb: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T, System.Int32))
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T, Int32))
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})
+    name: ForEach<T>
+    nameWithType: ListUtility.ForEach<T>
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})
+    name: ForEach(Of T)
+    nameWithType: ListUtility.ForEach(Of T)
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.ForEach(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.ListUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.ListUtility
+  parent: AdvancedSceneManager.Editor.Utility
+  name: ListUtility
+  nameWithType: ListUtility
+  fullName: AdvancedSceneManager.Editor.Utility.ListUtility
+- uid: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+  commentId: M:AdvancedSceneManager.Editor.Utility.ListUtility.Flatten``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+  isExternal: true
+  name: Flatten<T>(IEnumerable<T>, Func<T, IEnumerable<T>>)
+  nameWithType: ListUtility.Flatten<T>(IEnumerable<T>, Func<T, IEnumerable<T>>)
+  fullName: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Collections.Generic.IEnumerable<T>>)
+  nameWithType.vb: ListUtility.Flatten(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)))
+  fullName.vb: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Collections.Generic.IEnumerable(Of T)))
+  name.vb: Flatten(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)))
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+    name: Flatten<T>
+    nameWithType: ListUtility.Flatten<T>
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+    name: Flatten(Of T)
+    nameWithType: ListUtility.Flatten(Of T)
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.Flatten(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.ListUtility.Except``1(System.Collections.Generic.IEnumerable{``0},``0)
+  commentId: M:AdvancedSceneManager.Editor.Utility.ListUtility.Except``1(System.Collections.Generic.IEnumerable{``0},``0)
+  isExternal: true
+  name: Except<T>(IEnumerable<T>, T)
+  nameWithType: ListUtility.Except<T>(IEnumerable<T>, T)
+  fullName: AdvancedSceneManager.Editor.Utility.ListUtility.Except<T>(System.Collections.Generic.IEnumerable<T>, T)
+  nameWithType.vb: ListUtility.Except(Of T)(IEnumerable(Of T), T)
+  fullName.vb: AdvancedSceneManager.Editor.Utility.ListUtility.Except(Of T)(System.Collections.Generic.IEnumerable(Of T), T)
+  name.vb: Except(Of T)(IEnumerable(Of T), T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.Except``1(System.Collections.Generic.IEnumerable{``0},``0)
+    name: Except<T>
+    nameWithType: ListUtility.Except<T>
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.Except<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.Except``1(System.Collections.Generic.IEnumerable{``0},``0)
+    name: Except(Of T)
+    nameWithType: ListUtility.Except(Of T)
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.Except(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,System.Boolean})
+  commentId: M:AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,System.Boolean})
+  isExternal: true
+  name: GroupConsecutive<T>(IEnumerable<T>, Func<T, T, Boolean>)
+  nameWithType: ListUtility.GroupConsecutive<T>(IEnumerable<T>, Func<T, T, Boolean>)
+  fullName: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, T, System.Boolean>)
+  nameWithType.vb: ListUtility.GroupConsecutive(Of T)(IEnumerable(Of T), Func(Of T, T, Boolean))
+  fullName.vb: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, T, System.Boolean))
+  name.vb: GroupConsecutive(Of T)(IEnumerable(Of T), Func(Of T, T, Boolean))
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,System.Boolean})
+    name: GroupConsecutive<T>
+    nameWithType: ListUtility.GroupConsecutive<T>
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,System.Boolean})
+    name: GroupConsecutive(Of T)
+    nameWithType: ListUtility.GroupConsecutive(Of T)
+    fullName: AdvancedSceneManager.Editor.Utility.ListUtility.GroupConsecutive(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: AdvancedSceneManager.Models.SceneCollection.name
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.name
+  isExternal: true
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate.name*
+  commentId: Overload:AdvancedSceneManager.Models.SceneCollectionTemplate.name
+  name: name
+  nameWithType: SceneCollectionTemplate.name
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate.name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Models.SceneCollection.title
+  commentId: P:AdvancedSceneManager.Models.SceneCollection.title
+  isExternal: true
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate.title*
+  commentId: Overload:AdvancedSceneManager.Models.SceneCollectionTemplate.title
+  name: title
+  nameWithType: SceneCollectionTemplate.title
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate.title
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate
+  commentId: T:AdvancedSceneManager.Models.SceneCollectionTemplate
+  parent: AdvancedSceneManager.Models
+  name: SceneCollectionTemplate
+  nameWithType: SceneCollectionTemplate
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateCollection*
+  commentId: Overload:AdvancedSceneManager.Models.SceneCollectionTemplate.CreateCollection
+  name: CreateCollection
+  nameWithType: SceneCollectionTemplate.CreateCollection
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateCollection
+- uid: AdvancedSceneManager.Models.Profile
+  commentId: T:AdvancedSceneManager.Models.Profile
+  parent: AdvancedSceneManager.Models
+  name: Profile
+  nameWithType: Profile
+  fullName: AdvancedSceneManager.Models.Profile
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate.Apply*
+  commentId: Overload:AdvancedSceneManager.Models.SceneCollectionTemplate.Apply
+  name: Apply
+  nameWithType: SceneCollectionTemplate.Apply
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate.Apply
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplateInCurrentFolder*
+  commentId: Overload:AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplateInCurrentFolder
+  name: CreateTemplateInCurrentFolder
+  nameWithType: SceneCollectionTemplate.CreateTemplateInCurrentFolder
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplateInCurrentFolder
+- uid: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplate*
+  commentId: Overload:AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplate
+  name: CreateTemplate
+  nameWithType: SceneCollectionTemplate.CreateTemplate
+  fullName: AdvancedSceneManager.Models.SceneCollectionTemplate.CreateTemplate

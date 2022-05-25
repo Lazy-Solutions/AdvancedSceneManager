@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Exceptions
+  commentId: N:AdvancedSceneManager.Exceptions
+  id: AdvancedSceneManager.Exceptions
+  children:
+  - AdvancedSceneManager.Exceptions.CloseSceneException
+  - AdvancedSceneManager.Exceptions.OpenSceneException
+  langs:
+  - csharp
+  - vb
+  name: AdvancedSceneManager.Exceptions
+  nameWithType: AdvancedSceneManager.Exceptions
+  fullName: AdvancedSceneManager.Exceptions
+  type: Namespace
+  assemblies:
+  - AdvancedSceneManager
+references:
+- uid: AdvancedSceneManager.Exceptions.OpenSceneException
+  commentId: T:AdvancedSceneManager.Exceptions.OpenSceneException
+  name: OpenSceneException
+  nameWithType: OpenSceneException
+  fullName: AdvancedSceneManager.Exceptions.OpenSceneException
+- uid: AdvancedSceneManager.Exceptions.CloseSceneException
+  commentId: T:AdvancedSceneManager.Exceptions.CloseSceneException
+  name: CloseSceneException
+  nameWithType: CloseSceneException
+  fullName: AdvancedSceneManager.Exceptions.CloseSceneException

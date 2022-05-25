@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Models.LoadingScreenUsage
+  commentId: T:AdvancedSceneManager.Models.LoadingScreenUsage
+  id: LoadingScreenUsage
+  parent: AdvancedSceneManager.Models
+  children:
+  - AdvancedSceneManager.Models.LoadingScreenUsage.DoNotUse
+  - AdvancedSceneManager.Models.LoadingScreenUsage.Override
+  - AdvancedSceneManager.Models.LoadingScreenUsage.UseDefault
+  langs:
+  - csharp
+  - vb
+  name: LoadingScreenUsage
+  nameWithType: LoadingScreenUsage
+  fullName: AdvancedSceneManager.Models.LoadingScreenUsage
+  type: Enum
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: LoadingScreenUsage
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
+    startLine: 18
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public enum LoadingScreenUsage
+    content.vb: Public Enum LoadingScreenUsage
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: AdvancedSceneManager.Models.LoadingScreenUsage.DoNotUse
+  commentId: F:AdvancedSceneManager.Models.LoadingScreenUsage.DoNotUse
+  id: DoNotUse
+  parent: AdvancedSceneManager.Models.LoadingScreenUsage
+  langs:
+  - csharp
+  - vb
+  name: DoNotUse
+  nameWithType: LoadingScreenUsage.DoNotUse
+  fullName: AdvancedSceneManager.Models.LoadingScreenUsage.DoNotUse
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DoNotUse
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
+    startLine: 20
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: DoNotUse = 0
+    return:
+      type: AdvancedSceneManager.Models.LoadingScreenUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Models.LoadingScreenUsage.UseDefault
+  commentId: F:AdvancedSceneManager.Models.LoadingScreenUsage.UseDefault
+  id: UseDefault
+  parent: AdvancedSceneManager.Models.LoadingScreenUsage
+  langs:
+  - csharp
+  - vb
+  name: UseDefault
+  nameWithType: LoadingScreenUsage.UseDefault
+  fullName: AdvancedSceneManager.Models.LoadingScreenUsage.UseDefault
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: UseDefault
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
+    startLine: 20
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: UseDefault = 1
+    return:
+      type: AdvancedSceneManager.Models.LoadingScreenUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Models.LoadingScreenUsage.Override
+  commentId: F:AdvancedSceneManager.Models.LoadingScreenUsage.Override
+  id: Override
+  parent: AdvancedSceneManager.Models.LoadingScreenUsage
+  langs:
+  - csharp
+  - vb
+  name: Override
+  nameWithType: LoadingScreenUsage.Override
+  fullName: AdvancedSceneManager.Models.LoadingScreenUsage.Override
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Override
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
+    startLine: 20
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: Override = 2
+    return:
+      type: AdvancedSceneManager.Models.LoadingScreenUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: AdvancedSceneManager.Models.LoadingScreenUsage
+  commentId: T:AdvancedSceneManager.Models.LoadingScreenUsage
+  parent: AdvancedSceneManager.Models
+  name: LoadingScreenUsage
+  nameWithType: LoadingScreenUsage
+  fullName: AdvancedSceneManager.Models.LoadingScreenUsage

@@ -1,0 +1,2372 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Core.SceneOperation`1
+  commentId: T:AdvancedSceneManager.Core.SceneOperation`1
+  id: SceneOperation`1
+  parent: AdvancedSceneManager.Core
+  children:
+  - AdvancedSceneManager.Core.SceneOperation`1.AsPersistent(AdvancedSceneManager.Models.SceneCloseBehavior)
+  - AdvancedSceneManager.Core.SceneOperation`1.Close(AdvancedSceneManager.Core.OpenSceneInfo[])
+  - AdvancedSceneManager.Core.SceneOperation`1.Close(System.Boolean,AdvancedSceneManager.Core.OpenSceneInfo[])
+  - AdvancedSceneManager.Core.SceneOperation`1.Close(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo},System.Boolean)
+  - AdvancedSceneManager.Core.SceneOperation`1.done
+  - AdvancedSceneManager.Core.SceneOperation`1.Open(AdvancedSceneManager.Models.Scene[])
+  - AdvancedSceneManager.Core.SceneOperation`1.Open(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene},System.Boolean)
+  - AdvancedSceneManager.Core.SceneOperation`1.Reopen(AdvancedSceneManager.Core.OpenSceneInfo[])
+  - AdvancedSceneManager.Core.SceneOperation`1.Reopen(AdvancedSceneManager.Models.Scene[])
+  - AdvancedSceneManager.Core.SceneOperation`1.Reopen(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo})
+  - AdvancedSceneManager.Core.SceneOperation`1.Reopen(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene})
+  - AdvancedSceneManager.Core.SceneOperation`1.Return(System.Func{AdvancedSceneManager.Core.SceneOperation{`0},`0})
+  - AdvancedSceneManager.Core.SceneOperation`1.value
+  - AdvancedSceneManager.Core.SceneOperation`1.WithAction(AdvancedSceneManager.Core.Actions.SceneAction[])
+  - AdvancedSceneManager.Core.SceneOperation`1.WithCallback(AdvancedSceneManager.Core.Callback)
+  - AdvancedSceneManager.Core.SceneOperation`1.WithClearUnusedAssets(System.Boolean)
+  - AdvancedSceneManager.Core.SceneOperation`1.WithCollection(AdvancedSceneManager.Models.SceneCollection,System.Boolean)
+  - AdvancedSceneManager.Core.SceneOperation`1.WithFriendlyText(System.String)
+  - AdvancedSceneManager.Core.SceneOperation`1.WithLoadingPriority(UnityEngine.ThreadPriority)
+  - AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreen(AdvancedSceneManager.Models.Scene)
+  - AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreen(System.Boolean)
+  - AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreenCallback(System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  langs:
+  - csharp
+  - vb
+  name: SceneOperation<ReturnValue>
+  nameWithType: SceneOperation<ReturnValue>
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SceneOperation
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 261
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: 'A scene operation is a queueable operation that can open or close scenes. See also: <xref href="AdvancedSceneManager.Core.Actions.SceneAction" data-throw-if-not-resolved="false"></xref>.'
+  remarks: 'See also: <xref href="AdvancedSceneManager.Core.SceneOperation" data-throw-if-not-resolved="false"></xref>.'
+  example: []
+  syntax:
+    content: 'public class SceneOperation<ReturnValue> : SceneOperation, IEnumerator, IQueueable'
+    typeParameters:
+    - id: ReturnValue
+    content.vb: >-
+      Public Class SceneOperation(Of ReturnValue)
+          Inherits SceneOperation
+          Implements IEnumerator, IQueueable
+  inheritance:
+  - System.Object
+  - UnityEngine.CustomYieldInstruction
+  - AdvancedSceneManager.Core.SceneOperation
+  implements:
+  - AdvancedSceneManager.Utility.IQueueable
+  inheritedMembers:
+  - AdvancedSceneManager.Core.SceneOperation.Add(AdvancedSceneManager.Core.SceneManagerBase,System.Boolean)
+  - AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Boolean)
+  - AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Func{AdvancedSceneManager.Core.SceneOperation,{ReturnValue}},System.Boolean)
+  - AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnTurn(System.Action)
+  - AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnCancel
+  - AdvancedSceneManager.Core.SceneOperation.friendlyText
+  - AdvancedSceneManager.Core.SceneOperation.open
+  - AdvancedSceneManager.Core.SceneOperation.close
+  - AdvancedSceneManager.Core.SceneOperation.reopen
+  - AdvancedSceneManager.Core.SceneOperation.customActions
+  - AdvancedSceneManager.Core.SceneOperation.callbacks
+  - AdvancedSceneManager.Core.SceneOperation.collection
+  - AdvancedSceneManager.Core.SceneOperation.loadingScreen
+  - AdvancedSceneManager.Core.SceneOperation.useLoadingScreen
+  - AdvancedSceneManager.Core.SceneOperation.clearUnusedAssets
+  - AdvancedSceneManager.Core.SceneOperation.doCollectionCallbacks
+  - AdvancedSceneManager.Core.SceneOperation.loadingScreenCallback
+  - AdvancedSceneManager.Core.SceneOperation.loadingPriority
+  - AdvancedSceneManager.Core.SceneOperation.closeBehavior
+  - AdvancedSceneManager.Core.SceneOperation._extCallbacks
+  - AdvancedSceneManager.Core.SceneOperation.AddCallback(AdvancedSceneManager.Core.Callback)
+  - AdvancedSceneManager.Core.SceneOperation.RemoveCallback(AdvancedSceneManager.Core.Callback)
+  - AdvancedSceneManager.Core.SceneOperation.keepWaiting
+  - AdvancedSceneManager.Core.SceneOperation.phase
+  - AdvancedSceneManager.Core.SceneOperation.sceneManager
+  - AdvancedSceneManager.Core.SceneOperation.current
+  - AdvancedSceneManager.Core.SceneOperation.cancelled
+  - AdvancedSceneManager.Core.SceneOperation.openedLoadingScreen
+  - AdvancedSceneManager.Core.SceneOperation.actions
+  - AdvancedSceneManager.Core.SceneOperation.totalProgress
+  - AdvancedSceneManager.Core.SceneOperation.Cancel(System.Action)
+  - AdvancedSceneManager.Core.SceneOperation.isDone
+  - AdvancedSceneManager.Core.SceneOperation.FindActions``1
+  - AdvancedSceneManager.Core.SceneOperation.FindLastAction``1
+  - AdvancedSceneManager.Core.SceneOperation.openedScenes
+  nameWithType.vb: SceneOperation(Of ReturnValue)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue)
+  name.vb: SceneOperation(Of ReturnValue)
+- uid: AdvancedSceneManager.Core.SceneOperation`1.done
+  commentId: P:AdvancedSceneManager.Core.SceneOperation`1.done
+  id: done
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: done
+  nameWithType: SceneOperation<ReturnValue>.done
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.done
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: done
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 265
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Gets a <xref href="AdvancedSceneManager.Core.SceneOperation" data-throw-if-not-resolved="false"></xref> that has already completed.
+  example: []
+  syntax:
+    content: public static SceneOperation<ReturnValue> done { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Shared ReadOnly Property done As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.done*
+  nameWithType.vb: SceneOperation(Of ReturnValue).done
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).done
+- uid: AdvancedSceneManager.Core.SceneOperation`1.value
+  commentId: P:AdvancedSceneManager.Core.SceneOperation`1.value
+  id: value
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: value
+  nameWithType: SceneOperation<ReturnValue>.value
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.value
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: value
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 268
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: The return value of this <xref href="AdvancedSceneManager.Core.SceneOperation%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public ReturnValue value { get; }
+    parameters: []
+    return:
+      type: '{ReturnValue}'
+    content.vb: Public ReadOnly Property value As ReturnValue
+  overload: AdvancedSceneManager.Core.SceneOperation`1.value*
+  nameWithType.vb: SceneOperation(Of ReturnValue).value
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).value
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Return(System.Func{AdvancedSceneManager.Core.SceneOperation{`0},`0})
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.Return(System.Func{AdvancedSceneManager.Core.SceneOperation{`0},`0})
+  id: Return(System.Func{AdvancedSceneManager.Core.SceneOperation{`0},`0})
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: Return(Func<SceneOperation<ReturnValue>, ReturnValue>)
+  nameWithType: SceneOperation<ReturnValue>.Return(Func<SceneOperation<ReturnValue>, ReturnValue>)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Return(System.Func<AdvancedSceneManager.Core.SceneOperation<ReturnValue>, ReturnValue>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Return
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 290
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Callback that is called when <xref href="AdvancedSceneManager.Core.SceneOperation" data-throw-if-not-resolved="false"></xref> is done, that is meant to retrieve the return value of this operation.
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> Return(Func<SceneOperation<ReturnValue>, ReturnValue> action)
+    parameters:
+    - id: action
+      type: System.Func{AdvancedSceneManager.Core.SceneOperation`1,{ReturnValue}}
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function Return(action As Func(Of SceneOperation(Of ReturnValue), ReturnValue)) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.Return*
+  nameWithType.vb: SceneOperation(Of ReturnValue).Return(Func(Of SceneOperation(Of ReturnValue), ReturnValue))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Return(System.Func(Of AdvancedSceneManager.Core.SceneOperation(Of ReturnValue), ReturnValue))
+  name.vb: Return(Func(Of SceneOperation(Of ReturnValue), ReturnValue))
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithFriendlyText(System.String)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.WithFriendlyText(System.String)
+  id: WithFriendlyText(System.String)
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: WithFriendlyText(String)
+  nameWithType: SceneOperation<ReturnValue>.WithFriendlyText(String)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithFriendlyText(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: WithFriendlyText
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 299
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public SceneOperation<ReturnValue> WithFriendlyText(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function WithFriendlyText(text As String) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.WithFriendlyText*
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithFriendlyText(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithFriendlyText(System.String)
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Open(AdvancedSceneManager.Models.Scene[])
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.Open(AdvancedSceneManager.Models.Scene[])
+  id: Open(AdvancedSceneManager.Models.Scene[])
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: Open(Scene[])
+  nameWithType: SceneOperation<ReturnValue>.Open(Scene[])
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Open(AdvancedSceneManager.Models.Scene[])
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Open
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 308
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> Open(params Scene[] scene)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene[]
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function Open(ParamArray scene As Scene()) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.Open*
+  nameWithType.vb: SceneOperation(Of ReturnValue).Open(Scene())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Open(AdvancedSceneManager.Models.Scene())
+  name.vb: Open(Scene())
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Open(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene},System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.Open(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene},System.Boolean)
+  id: Open(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene},System.Boolean)
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: Open(IEnumerable<Scene>, Boolean)
+  nameWithType: SceneOperation<ReturnValue>.Open(IEnumerable<Scene>, Boolean)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Open(System.Collections.Generic.IEnumerable<AdvancedSceneManager.Models.Scene>, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Open
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 310
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> Open(IEnumerable<Scene> scene, bool force = true)
+    parameters:
+    - id: scene
+      type: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}
+    - id: force
+      type: System.Boolean
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function Open(scene As IEnumerable(Of Scene), force As Boolean = True) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.Open*
+  nameWithType.vb: SceneOperation(Of ReturnValue).Open(IEnumerable(Of Scene), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Open(System.Collections.Generic.IEnumerable(Of AdvancedSceneManager.Models.Scene), System.Boolean)
+  name.vb: Open(IEnumerable(Of Scene), Boolean)
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Close(AdvancedSceneManager.Core.OpenSceneInfo[])
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.Close(AdvancedSceneManager.Core.OpenSceneInfo[])
+  id: Close(AdvancedSceneManager.Core.OpenSceneInfo[])
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: Close(OpenSceneInfo[])
+  nameWithType: SceneOperation<ReturnValue>.Close(OpenSceneInfo[])
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Close(AdvancedSceneManager.Core.OpenSceneInfo[])
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Close
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 312
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> Close(params OpenSceneInfo[] scenes)
+    parameters:
+    - id: scenes
+      type: AdvancedSceneManager.Core.OpenSceneInfo[]
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function Close(ParamArray scenes As OpenSceneInfo()) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.Close*
+  nameWithType.vb: SceneOperation(Of ReturnValue).Close(OpenSceneInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Close(AdvancedSceneManager.Core.OpenSceneInfo())
+  name.vb: Close(OpenSceneInfo())
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Close(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo},System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.Close(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo},System.Boolean)
+  id: Close(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo},System.Boolean)
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: Close(IEnumerable<OpenSceneInfo>, Boolean)
+  nameWithType: SceneOperation<ReturnValue>.Close(IEnumerable<OpenSceneInfo>, Boolean)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Close(System.Collections.Generic.IEnumerable<AdvancedSceneManager.Core.OpenSceneInfo>, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Close
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 314
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> Close(IEnumerable<OpenSceneInfo> scenes, bool force = true)
+    parameters:
+    - id: scenes
+      type: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo}
+    - id: force
+      type: System.Boolean
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function Close(scenes As IEnumerable(Of OpenSceneInfo), force As Boolean = True) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.Close*
+  nameWithType.vb: SceneOperation(Of ReturnValue).Close(IEnumerable(Of OpenSceneInfo), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Close(System.Collections.Generic.IEnumerable(Of AdvancedSceneManager.Core.OpenSceneInfo), System.Boolean)
+  name.vb: Close(IEnumerable(Of OpenSceneInfo), Boolean)
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Close(System.Boolean,AdvancedSceneManager.Core.OpenSceneInfo[])
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.Close(System.Boolean,AdvancedSceneManager.Core.OpenSceneInfo[])
+  id: Close(System.Boolean,AdvancedSceneManager.Core.OpenSceneInfo[])
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: Close(Boolean, OpenSceneInfo[])
+  nameWithType: SceneOperation<ReturnValue>.Close(Boolean, OpenSceneInfo[])
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Close(System.Boolean, AdvancedSceneManager.Core.OpenSceneInfo[])
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Close
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 316
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> Close(bool force, params OpenSceneInfo[] scenes)
+    parameters:
+    - id: force
+      type: System.Boolean
+    - id: scenes
+      type: AdvancedSceneManager.Core.OpenSceneInfo[]
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function Close(force As Boolean, ParamArray scenes As OpenSceneInfo()) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.Close*
+  nameWithType.vb: SceneOperation(Of ReturnValue).Close(Boolean, OpenSceneInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Close(System.Boolean, AdvancedSceneManager.Core.OpenSceneInfo())
+  name.vb: Close(Boolean, OpenSceneInfo())
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Reopen(AdvancedSceneManager.Core.OpenSceneInfo[])
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.Reopen(AdvancedSceneManager.Core.OpenSceneInfo[])
+  id: Reopen(AdvancedSceneManager.Core.OpenSceneInfo[])
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: Reopen(OpenSceneInfo[])
+  nameWithType: SceneOperation<ReturnValue>.Reopen(OpenSceneInfo[])
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Reopen(AdvancedSceneManager.Core.OpenSceneInfo[])
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Reopen
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 318
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> Reopen(params OpenSceneInfo[] scene)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Core.OpenSceneInfo[]
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function Reopen(ParamArray scene As OpenSceneInfo()) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.Reopen*
+  nameWithType.vb: SceneOperation(Of ReturnValue).Reopen(OpenSceneInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Reopen(AdvancedSceneManager.Core.OpenSceneInfo())
+  name.vb: Reopen(OpenSceneInfo())
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Reopen(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo})
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.Reopen(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo})
+  id: Reopen(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo})
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: Reopen(IEnumerable<OpenSceneInfo>)
+  nameWithType: SceneOperation<ReturnValue>.Reopen(IEnumerable<OpenSceneInfo>)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Reopen(System.Collections.Generic.IEnumerable<AdvancedSceneManager.Core.OpenSceneInfo>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Reopen
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 320
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> Reopen(IEnumerable<OpenSceneInfo> scene)
+    parameters:
+    - id: scene
+      type: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo}
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function Reopen(scene As IEnumerable(Of OpenSceneInfo)) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.Reopen*
+  nameWithType.vb: SceneOperation(Of ReturnValue).Reopen(IEnumerable(Of OpenSceneInfo))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Reopen(System.Collections.Generic.IEnumerable(Of AdvancedSceneManager.Core.OpenSceneInfo))
+  name.vb: Reopen(IEnumerable(Of OpenSceneInfo))
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithAction(AdvancedSceneManager.Core.Actions.SceneAction[])
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.WithAction(AdvancedSceneManager.Core.Actions.SceneAction[])
+  id: WithAction(AdvancedSceneManager.Core.Actions.SceneAction[])
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: WithAction(SceneAction[])
+  nameWithType: SceneOperation<ReturnValue>.WithAction(SceneAction[])
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithAction(AdvancedSceneManager.Core.Actions.SceneAction[])
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: WithAction
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 322
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> WithAction(params SceneAction[] actions)
+    parameters:
+    - id: actions
+      type: AdvancedSceneManager.Core.Actions.SceneAction[]
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function WithAction(ParamArray actions As SceneAction()) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.WithAction*
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithAction(SceneAction())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithAction(AdvancedSceneManager.Core.Actions.SceneAction())
+  name.vb: WithAction(SceneAction())
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithCallback(AdvancedSceneManager.Core.Callback)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.WithCallback(AdvancedSceneManager.Core.Callback)
+  id: WithCallback(AdvancedSceneManager.Core.Callback)
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: WithCallback(Callback)
+  nameWithType: SceneOperation<ReturnValue>.WithCallback(Callback)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithCallback(AdvancedSceneManager.Core.Callback)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: WithCallback
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 324
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> WithCallback(Callback actions)
+    parameters:
+    - id: actions
+      type: AdvancedSceneManager.Core.Callback
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function WithCallback(actions As Callback) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.WithCallback*
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithCallback(Callback)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithCallback(AdvancedSceneManager.Core.Callback)
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithCollection(AdvancedSceneManager.Models.SceneCollection,System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.WithCollection(AdvancedSceneManager.Models.SceneCollection,System.Boolean)
+  id: WithCollection(AdvancedSceneManager.Models.SceneCollection,System.Boolean)
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: WithCollection(SceneCollection, Boolean)
+  nameWithType: SceneOperation<ReturnValue>.WithCollection(SceneCollection, Boolean)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithCollection(AdvancedSceneManager.Models.SceneCollection, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: WithCollection
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 326
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> WithCollection(SceneCollection collection, bool withCallbacks = true)
+    parameters:
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    - id: withCallbacks
+      type: System.Boolean
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function WithCollection(collection As SceneCollection, withCallbacks As Boolean = True) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.WithCollection*
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithCollection(SceneCollection, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithCollection(AdvancedSceneManager.Models.SceneCollection, System.Boolean)
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreen(System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreen(System.Boolean)
+  id: WithLoadingScreen(System.Boolean)
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: WithLoadingScreen(Boolean)
+  nameWithType: SceneOperation<ReturnValue>.WithLoadingScreen(Boolean)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithLoadingScreen(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: WithLoadingScreen
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 328
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> WithLoadingScreen(bool use)
+    parameters:
+    - id: use
+      type: System.Boolean
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function WithLoadingScreen(use As Boolean) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreen*
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithLoadingScreen(Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithLoadingScreen(System.Boolean)
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreen(AdvancedSceneManager.Models.Scene)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreen(AdvancedSceneManager.Models.Scene)
+  id: WithLoadingScreen(AdvancedSceneManager.Models.Scene)
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: WithLoadingScreen(Scene)
+  nameWithType: SceneOperation<ReturnValue>.WithLoadingScreen(Scene)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithLoadingScreen(AdvancedSceneManager.Models.Scene)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: WithLoadingScreen
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 330
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> WithLoadingScreen(Scene scene)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function WithLoadingScreen(scene As Scene) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreen*
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithLoadingScreen(Scene)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithLoadingScreen(AdvancedSceneManager.Models.Scene)
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithClearUnusedAssets(System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.WithClearUnusedAssets(System.Boolean)
+  id: WithClearUnusedAssets(System.Boolean)
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: WithClearUnusedAssets(Boolean)
+  nameWithType: SceneOperation<ReturnValue>.WithClearUnusedAssets(Boolean)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithClearUnusedAssets(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: WithClearUnusedAssets
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 332
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> WithClearUnusedAssets(bool enable = true)
+    parameters:
+    - id: enable
+      type: System.Boolean
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function WithClearUnusedAssets(enable As Boolean = True) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.WithClearUnusedAssets*
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithClearUnusedAssets(Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithClearUnusedAssets(System.Boolean)
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreenCallback(System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreenCallback(System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  id: WithLoadingScreenCallback(System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: WithLoadingScreenCallback(Action<LoadingScreen>)
+  nameWithType: SceneOperation<ReturnValue>.WithLoadingScreenCallback(Action<LoadingScreen>)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithLoadingScreenCallback(System.Action<AdvancedSceneManager.Callbacks.LoadingScreen>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: WithLoadingScreenCallback
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 334
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> WithLoadingScreenCallback(Action<LoadingScreen> callback)
+    parameters:
+    - id: callback
+      type: System.Action{AdvancedSceneManager.Callbacks.LoadingScreen}
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function WithLoadingScreenCallback(callback As Action(Of LoadingScreen)) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreenCallback*
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithLoadingScreenCallback(Action(Of LoadingScreen))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithLoadingScreenCallback(System.Action(Of AdvancedSceneManager.Callbacks.LoadingScreen))
+  name.vb: WithLoadingScreenCallback(Action(Of LoadingScreen))
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithLoadingPriority(UnityEngine.ThreadPriority)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.WithLoadingPriority(UnityEngine.ThreadPriority)
+  id: WithLoadingPriority(UnityEngine.ThreadPriority)
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: WithLoadingPriority(ThreadPriority)
+  nameWithType: SceneOperation<ReturnValue>.WithLoadingPriority(ThreadPriority)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithLoadingPriority(UnityEngine.ThreadPriority)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: WithLoadingPriority
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 336
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> WithLoadingPriority(ThreadPriority priority)
+    parameters:
+    - id: priority
+      type: UnityEngine.ThreadPriority
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function WithLoadingPriority(priority As ThreadPriority) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.WithLoadingPriority*
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithLoadingPriority(ThreadPriority)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithLoadingPriority(UnityEngine.ThreadPriority)
+- uid: AdvancedSceneManager.Core.SceneOperation`1.AsPersistent(AdvancedSceneManager.Models.SceneCloseBehavior)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.AsPersistent(AdvancedSceneManager.Models.SceneCloseBehavior)
+  id: AsPersistent(AdvancedSceneManager.Models.SceneCloseBehavior)
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: AsPersistent(SceneCloseBehavior)
+  nameWithType: SceneOperation<ReturnValue>.AsPersistent(SceneCloseBehavior)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.AsPersistent(AdvancedSceneManager.Models.SceneCloseBehavior)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: AsPersistent
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 338
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> AsPersistent(SceneCloseBehavior closeBehavior = SceneCloseBehavior.KeepOpenAlways)
+    parameters:
+    - id: closeBehavior
+      type: AdvancedSceneManager.Models.SceneCloseBehavior
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function AsPersistent(closeBehavior As SceneCloseBehavior = SceneCloseBehavior.KeepOpenAlways) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.AsPersistent*
+  nameWithType.vb: SceneOperation(Of ReturnValue).AsPersistent(SceneCloseBehavior)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).AsPersistent(AdvancedSceneManager.Models.SceneCloseBehavior)
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Reopen(AdvancedSceneManager.Models.Scene[])
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.Reopen(AdvancedSceneManager.Models.Scene[])
+  id: Reopen(AdvancedSceneManager.Models.Scene[])
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: Reopen(Scene[])
+  nameWithType: SceneOperation<ReturnValue>.Reopen(Scene[])
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Reopen(AdvancedSceneManager.Models.Scene[])
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Reopen
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 340
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> Reopen(params Scene[] scene)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene[]
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function Reopen(ParamArray scene As Scene()) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.Reopen*
+  nameWithType.vb: SceneOperation(Of ReturnValue).Reopen(Scene())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Reopen(AdvancedSceneManager.Models.Scene())
+  name.vb: Reopen(Scene())
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Reopen(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene})
+  commentId: M:AdvancedSceneManager.Core.SceneOperation`1.Reopen(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene})
+  id: Reopen(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene})
+  parent: AdvancedSceneManager.Core.SceneOperation`1
+  langs:
+  - csharp
+  - vb
+  name: Reopen(IEnumerable<Scene>)
+  nameWithType: SceneOperation<ReturnValue>.Reopen(IEnumerable<Scene>)
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Reopen(System.Collections.Generic.IEnumerable<AdvancedSceneManager.Models.Scene>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Reopen
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 342
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  example: []
+  syntax:
+    content: public SceneOperation<ReturnValue> Reopen(IEnumerable<Scene> scene)
+    parameters:
+    - id: scene
+      type: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation`1
+    content.vb: Public Function Reopen(scene As IEnumerable(Of Scene)) As SceneOperation(Of ReturnValue)
+  overload: AdvancedSceneManager.Core.SceneOperation`1.Reopen*
+  nameWithType.vb: SceneOperation(Of ReturnValue).Reopen(IEnumerable(Of Scene))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Reopen(System.Collections.Generic.IEnumerable(Of AdvancedSceneManager.Models.Scene))
+  name.vb: Reopen(IEnumerable(Of Scene))
+references:
+- uid: AdvancedSceneManager.Core.SceneOperation
+  commentId: T:AdvancedSceneManager.Core.SceneOperation
+  parent: AdvancedSceneManager.Core
+  name: SceneOperation
+  nameWithType: SceneOperation
+  fullName: AdvancedSceneManager.Core.SceneOperation
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.CustomYieldInstruction
+  commentId: T:UnityEngine.CustomYieldInstruction
+  parent: UnityEngine
+  isExternal: true
+  name: CustomYieldInstruction
+  nameWithType: CustomYieldInstruction
+  fullName: UnityEngine.CustomYieldInstruction
+- uid: AdvancedSceneManager.Utility.IQueueable
+  commentId: T:AdvancedSceneManager.Utility.IQueueable
+  parent: AdvancedSceneManager.Utility
+  name: IQueueable
+  nameWithType: IQueueable
+  fullName: AdvancedSceneManager.Utility.IQueueable
+- uid: AdvancedSceneManager.Core.SceneOperation.Add(AdvancedSceneManager.Core.SceneManagerBase,System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation.Add(AdvancedSceneManager.Core.SceneManagerBase,System.Boolean)
+  parent: AdvancedSceneManager.Core.SceneOperation
+  isExternal: true
+  name: Add(SceneManagerBase, Boolean)
+  nameWithType: SceneOperation.Add(SceneManagerBase, Boolean)
+  fullName: AdvancedSceneManager.Core.SceneOperation.Add(AdvancedSceneManager.Core.SceneManagerBase, System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation.Add(AdvancedSceneManager.Core.SceneManagerBase,System.Boolean)
+    name: Add
+    nameWithType: SceneOperation.Add
+    fullName: AdvancedSceneManager.Core.SceneOperation.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation.Add(AdvancedSceneManager.Core.SceneManagerBase,System.Boolean)
+    name: Add
+    nameWithType: SceneOperation.Add
+    fullName: AdvancedSceneManager.Core.SceneOperation.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Boolean)
+  parent: AdvancedSceneManager.Core.SceneOperation
+  isExternal: true
+  name: Add<ReturnValue>(SceneManagerBase, Boolean)
+  nameWithType: SceneOperation.Add<ReturnValue>(SceneManagerBase, Boolean)
+  fullName: AdvancedSceneManager.Core.SceneOperation.Add<ReturnValue>(AdvancedSceneManager.Core.SceneManagerBase, System.Boolean)
+  nameWithType.vb: SceneOperation.Add(Of ReturnValue)(SceneManagerBase, Boolean)
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation.Add(Of ReturnValue)(AdvancedSceneManager.Core.SceneManagerBase, System.Boolean)
+  name.vb: Add(Of ReturnValue)(SceneManagerBase, Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Boolean)
+    name: Add<ReturnValue>
+    nameWithType: SceneOperation.Add<ReturnValue>
+    fullName: AdvancedSceneManager.Core.SceneOperation.Add<ReturnValue>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Boolean)
+    name: Add(Of ReturnValue)
+    nameWithType: SceneOperation.Add(Of ReturnValue)
+    fullName: AdvancedSceneManager.Core.SceneOperation.Add(Of ReturnValue)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Func{AdvancedSceneManager.Core.SceneOperation,{ReturnValue}},System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Func{AdvancedSceneManager.Core.SceneOperation,``0},System.Boolean)
+  parent: AdvancedSceneManager.Core.SceneOperation
+  definition: AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Func{AdvancedSceneManager.Core.SceneOperation,``0},System.Boolean)
+  name: Add<ReturnValue>(SceneManagerBase, Func<SceneOperation, ReturnValue>, Boolean)
+  nameWithType: SceneOperation.Add<ReturnValue>(SceneManagerBase, Func<SceneOperation, ReturnValue>, Boolean)
+  fullName: AdvancedSceneManager.Core.SceneOperation.Add<ReturnValue>(AdvancedSceneManager.Core.SceneManagerBase, System.Func<AdvancedSceneManager.Core.SceneOperation, ReturnValue>, System.Boolean)
+  nameWithType.vb: SceneOperation.Add(Of ReturnValue)(SceneManagerBase, Func(Of SceneOperation, ReturnValue), Boolean)
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation.Add(Of ReturnValue)(AdvancedSceneManager.Core.SceneManagerBase, System.Func(Of AdvancedSceneManager.Core.SceneOperation, ReturnValue), System.Boolean)
+  name.vb: Add(Of ReturnValue)(SceneManagerBase, Func(Of SceneOperation, ReturnValue), Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Func{AdvancedSceneManager.Core.SceneOperation,``0},System.Boolean)
+    name: Add<ReturnValue>
+    nameWithType: SceneOperation.Add<ReturnValue>
+    fullName: AdvancedSceneManager.Core.SceneOperation.Add<ReturnValue>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ReturnValue
+    nameWithType: ReturnValue
+    fullName: ReturnValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Func{AdvancedSceneManager.Core.SceneOperation,``0},System.Boolean)
+    name: Add(Of ReturnValue)
+    nameWithType: SceneOperation.Add(Of ReturnValue)
+    fullName: AdvancedSceneManager.Core.SceneOperation.Add(Of ReturnValue)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ReturnValue
+    nameWithType: ReturnValue
+    fullName: ReturnValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnTurn(System.Action)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnTurn(System.Action)
+  parent: AdvancedSceneManager.Core.SceneOperation
+  isExternal: true
+  name: IQueueable.OnTurn(Action)
+  nameWithType: SceneOperation.IQueueable.OnTurn(Action)
+  fullName: AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager.Utility.IQueueable.OnTurn(System.Action)
+  nameWithType.vb: SceneOperation.AdvancedSceneManager.Utility.IQueueable.OnTurn(Action)
+  name.vb: AdvancedSceneManager.Utility.IQueueable.OnTurn(Action)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnTurn(System.Action)
+    name: IQueueable.OnTurn
+    nameWithType: SceneOperation.IQueueable.OnTurn
+    fullName: AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager.Utility.IQueueable.OnTurn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnTurn(System.Action)
+    name: AdvancedSceneManager.Utility.IQueueable.OnTurn
+    nameWithType: SceneOperation.AdvancedSceneManager.Utility.IQueueable.OnTurn
+    fullName: AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager.Utility.IQueueable.OnTurn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnCancel
+  commentId: M:AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnCancel
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: IQueueable.OnCancel()
+  nameWithType: SceneOperation.IQueueable.OnCancel()
+  fullName: AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager.Utility.IQueueable.OnCancel()
+  nameWithType.vb: SceneOperation.AdvancedSceneManager.Utility.IQueueable.OnCancel()
+  name.vb: AdvancedSceneManager.Utility.IQueueable.OnCancel()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnCancel
+    name: IQueueable.OnCancel
+    nameWithType: SceneOperation.IQueueable.OnCancel
+    fullName: AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager.Utility.IQueueable.OnCancel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnCancel
+    name: AdvancedSceneManager.Utility.IQueueable.OnCancel
+    nameWithType: SceneOperation.AdvancedSceneManager.Utility.IQueueable.OnCancel
+    fullName: AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager.Utility.IQueueable.OnCancel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation.friendlyText
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.friendlyText
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: friendlyText
+  nameWithType: SceneOperation.friendlyText
+  fullName: AdvancedSceneManager.Core.SceneOperation.friendlyText
+- uid: AdvancedSceneManager.Core.SceneOperation.open
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.open
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: open
+  nameWithType: SceneOperation.open
+  fullName: AdvancedSceneManager.Core.SceneOperation.open
+- uid: AdvancedSceneManager.Core.SceneOperation.close
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.close
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: close
+  nameWithType: SceneOperation.close
+  fullName: AdvancedSceneManager.Core.SceneOperation.close
+- uid: AdvancedSceneManager.Core.SceneOperation.reopen
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.reopen
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: reopen
+  nameWithType: SceneOperation.reopen
+  fullName: AdvancedSceneManager.Core.SceneOperation.reopen
+- uid: AdvancedSceneManager.Core.SceneOperation.customActions
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.customActions
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: customActions
+  nameWithType: SceneOperation.customActions
+  fullName: AdvancedSceneManager.Core.SceneOperation.customActions
+- uid: AdvancedSceneManager.Core.SceneOperation.callbacks
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.callbacks
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: callbacks
+  nameWithType: SceneOperation.callbacks
+  fullName: AdvancedSceneManager.Core.SceneOperation.callbacks
+- uid: AdvancedSceneManager.Core.SceneOperation.collection
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.collection
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: collection
+  nameWithType: SceneOperation.collection
+  fullName: AdvancedSceneManager.Core.SceneOperation.collection
+- uid: AdvancedSceneManager.Core.SceneOperation.loadingScreen
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.loadingScreen
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: loadingScreen
+  nameWithType: SceneOperation.loadingScreen
+  fullName: AdvancedSceneManager.Core.SceneOperation.loadingScreen
+- uid: AdvancedSceneManager.Core.SceneOperation.useLoadingScreen
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.useLoadingScreen
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: useLoadingScreen
+  nameWithType: SceneOperation.useLoadingScreen
+  fullName: AdvancedSceneManager.Core.SceneOperation.useLoadingScreen
+- uid: AdvancedSceneManager.Core.SceneOperation.clearUnusedAssets
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.clearUnusedAssets
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: clearUnusedAssets
+  nameWithType: SceneOperation.clearUnusedAssets
+  fullName: AdvancedSceneManager.Core.SceneOperation.clearUnusedAssets
+- uid: AdvancedSceneManager.Core.SceneOperation.doCollectionCallbacks
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.doCollectionCallbacks
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: doCollectionCallbacks
+  nameWithType: SceneOperation.doCollectionCallbacks
+  fullName: AdvancedSceneManager.Core.SceneOperation.doCollectionCallbacks
+- uid: AdvancedSceneManager.Core.SceneOperation.loadingScreenCallback
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.loadingScreenCallback
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: loadingScreenCallback
+  nameWithType: SceneOperation.loadingScreenCallback
+  fullName: AdvancedSceneManager.Core.SceneOperation.loadingScreenCallback
+- uid: AdvancedSceneManager.Core.SceneOperation.loadingPriority
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.loadingPriority
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: loadingPriority
+  nameWithType: SceneOperation.loadingPriority
+  fullName: AdvancedSceneManager.Core.SceneOperation.loadingPriority
+- uid: AdvancedSceneManager.Core.SceneOperation.closeBehavior
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.closeBehavior
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: closeBehavior
+  nameWithType: SceneOperation.closeBehavior
+  fullName: AdvancedSceneManager.Core.SceneOperation.closeBehavior
+- uid: AdvancedSceneManager.Core.SceneOperation._extCallbacks
+  commentId: F:AdvancedSceneManager.Core.SceneOperation._extCallbacks
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: _extCallbacks
+  nameWithType: SceneOperation._extCallbacks
+  fullName: AdvancedSceneManager.Core.SceneOperation._extCallbacks
+- uid: AdvancedSceneManager.Core.SceneOperation.AddCallback(AdvancedSceneManager.Core.Callback)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation.AddCallback(AdvancedSceneManager.Core.Callback)
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: AddCallback(Callback)
+  nameWithType: SceneOperation.AddCallback(Callback)
+  fullName: AdvancedSceneManager.Core.SceneOperation.AddCallback(AdvancedSceneManager.Core.Callback)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation.AddCallback(AdvancedSceneManager.Core.Callback)
+    name: AddCallback
+    nameWithType: SceneOperation.AddCallback
+    fullName: AdvancedSceneManager.Core.SceneOperation.AddCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.Callback
+    name: Callback
+    nameWithType: Callback
+    fullName: AdvancedSceneManager.Core.Callback
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation.AddCallback(AdvancedSceneManager.Core.Callback)
+    name: AddCallback
+    nameWithType: SceneOperation.AddCallback
+    fullName: AdvancedSceneManager.Core.SceneOperation.AddCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.Callback
+    name: Callback
+    nameWithType: Callback
+    fullName: AdvancedSceneManager.Core.Callback
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation.RemoveCallback(AdvancedSceneManager.Core.Callback)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation.RemoveCallback(AdvancedSceneManager.Core.Callback)
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: RemoveCallback(Callback)
+  nameWithType: SceneOperation.RemoveCallback(Callback)
+  fullName: AdvancedSceneManager.Core.SceneOperation.RemoveCallback(AdvancedSceneManager.Core.Callback)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation.RemoveCallback(AdvancedSceneManager.Core.Callback)
+    name: RemoveCallback
+    nameWithType: SceneOperation.RemoveCallback
+    fullName: AdvancedSceneManager.Core.SceneOperation.RemoveCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.Callback
+    name: Callback
+    nameWithType: Callback
+    fullName: AdvancedSceneManager.Core.Callback
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation.RemoveCallback(AdvancedSceneManager.Core.Callback)
+    name: RemoveCallback
+    nameWithType: SceneOperation.RemoveCallback
+    fullName: AdvancedSceneManager.Core.SceneOperation.RemoveCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.Callback
+    name: Callback
+    nameWithType: Callback
+    fullName: AdvancedSceneManager.Core.Callback
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation.keepWaiting
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.keepWaiting
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: keepWaiting
+  nameWithType: SceneOperation.keepWaiting
+  fullName: AdvancedSceneManager.Core.SceneOperation.keepWaiting
+- uid: AdvancedSceneManager.Core.SceneOperation.phase
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.phase
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: phase
+  nameWithType: SceneOperation.phase
+  fullName: AdvancedSceneManager.Core.SceneOperation.phase
+- uid: AdvancedSceneManager.Core.SceneOperation.sceneManager
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.sceneManager
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: sceneManager
+  nameWithType: SceneOperation.sceneManager
+  fullName: AdvancedSceneManager.Core.SceneOperation.sceneManager
+- uid: AdvancedSceneManager.Core.SceneOperation.current
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.current
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: current
+  nameWithType: SceneOperation.current
+  fullName: AdvancedSceneManager.Core.SceneOperation.current
+- uid: AdvancedSceneManager.Core.SceneOperation.cancelled
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.cancelled
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: cancelled
+  nameWithType: SceneOperation.cancelled
+  fullName: AdvancedSceneManager.Core.SceneOperation.cancelled
+- uid: AdvancedSceneManager.Core.SceneOperation.openedLoadingScreen
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.openedLoadingScreen
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: openedLoadingScreen
+  nameWithType: SceneOperation.openedLoadingScreen
+  fullName: AdvancedSceneManager.Core.SceneOperation.openedLoadingScreen
+- uid: AdvancedSceneManager.Core.SceneOperation.actions
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.actions
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: actions
+  nameWithType: SceneOperation.actions
+  fullName: AdvancedSceneManager.Core.SceneOperation.actions
+- uid: AdvancedSceneManager.Core.SceneOperation.totalProgress
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.totalProgress
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: totalProgress
+  nameWithType: SceneOperation.totalProgress
+  fullName: AdvancedSceneManager.Core.SceneOperation.totalProgress
+- uid: AdvancedSceneManager.Core.SceneOperation.Cancel(System.Action)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation.Cancel(System.Action)
+  parent: AdvancedSceneManager.Core.SceneOperation
+  isExternal: true
+  name: Cancel(Action)
+  nameWithType: SceneOperation.Cancel(Action)
+  fullName: AdvancedSceneManager.Core.SceneOperation.Cancel(System.Action)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation.Cancel(System.Action)
+    name: Cancel
+    nameWithType: SceneOperation.Cancel
+    fullName: AdvancedSceneManager.Core.SceneOperation.Cancel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation.Cancel(System.Action)
+    name: Cancel
+    nameWithType: SceneOperation.Cancel
+    fullName: AdvancedSceneManager.Core.SceneOperation.Cancel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation.isDone
+  commentId: F:AdvancedSceneManager.Core.SceneOperation.isDone
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: isDone
+  nameWithType: SceneOperation.isDone
+  fullName: AdvancedSceneManager.Core.SceneOperation.isDone
+- uid: AdvancedSceneManager.Core.SceneOperation.FindActions``1
+  commentId: M:AdvancedSceneManager.Core.SceneOperation.FindActions``1
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: FindActions<T>()
+  nameWithType: SceneOperation.FindActions<T>()
+  fullName: AdvancedSceneManager.Core.SceneOperation.FindActions<T>()
+  nameWithType.vb: SceneOperation.FindActions(Of T)()
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation.FindActions(Of T)()
+  name.vb: FindActions(Of T)()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation.FindActions``1
+    name: FindActions<T>
+    nameWithType: SceneOperation.FindActions<T>
+    fullName: AdvancedSceneManager.Core.SceneOperation.FindActions<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation.FindActions``1
+    name: FindActions(Of T)
+    nameWithType: SceneOperation.FindActions(Of T)
+    fullName: AdvancedSceneManager.Core.SceneOperation.FindActions(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation.FindLastAction``1
+  commentId: M:AdvancedSceneManager.Core.SceneOperation.FindLastAction``1
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: FindLastAction<T>()
+  nameWithType: SceneOperation.FindLastAction<T>()
+  fullName: AdvancedSceneManager.Core.SceneOperation.FindLastAction<T>()
+  nameWithType.vb: SceneOperation.FindLastAction(Of T)()
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation.FindLastAction(Of T)()
+  name.vb: FindLastAction(Of T)()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation.FindLastAction``1
+    name: FindLastAction<T>
+    nameWithType: SceneOperation.FindLastAction<T>
+    fullName: AdvancedSceneManager.Core.SceneOperation.FindLastAction<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation.FindLastAction``1
+    name: FindLastAction(Of T)
+    nameWithType: SceneOperation.FindLastAction(Of T)
+    fullName: AdvancedSceneManager.Core.SceneOperation.FindLastAction(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation.openedScenes
+  commentId: P:AdvancedSceneManager.Core.SceneOperation.openedScenes
+  parent: AdvancedSceneManager.Core.SceneOperation
+  name: openedScenes
+  nameWithType: SceneOperation.openedScenes
+  fullName: AdvancedSceneManager.Core.SceneOperation.openedScenes
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Func{AdvancedSceneManager.Core.SceneOperation,``0},System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Func{AdvancedSceneManager.Core.SceneOperation,``0},System.Boolean)
+  isExternal: true
+  name: Add<ReturnValue>(SceneManagerBase, Func<SceneOperation, ReturnValue>, Boolean)
+  nameWithType: SceneOperation.Add<ReturnValue>(SceneManagerBase, Func<SceneOperation, ReturnValue>, Boolean)
+  fullName: AdvancedSceneManager.Core.SceneOperation.Add<ReturnValue>(AdvancedSceneManager.Core.SceneManagerBase, System.Func<AdvancedSceneManager.Core.SceneOperation, ReturnValue>, System.Boolean)
+  nameWithType.vb: SceneOperation.Add(Of ReturnValue)(SceneManagerBase, Func(Of SceneOperation, ReturnValue), Boolean)
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation.Add(Of ReturnValue)(AdvancedSceneManager.Core.SceneManagerBase, System.Func(Of AdvancedSceneManager.Core.SceneOperation, ReturnValue), System.Boolean)
+  name.vb: Add(Of ReturnValue)(SceneManagerBase, Func(Of SceneOperation, ReturnValue), Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Func{AdvancedSceneManager.Core.SceneOperation,``0},System.Boolean)
+    name: Add<ReturnValue>
+    nameWithType: SceneOperation.Add<ReturnValue>
+    fullName: AdvancedSceneManager.Core.SceneOperation.Add<ReturnValue>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ReturnValue
+    nameWithType: ReturnValue
+    fullName: ReturnValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Func{AdvancedSceneManager.Core.SceneOperation,``0},System.Boolean)
+    name: Add(Of ReturnValue)
+    nameWithType: SceneOperation.Add(Of ReturnValue)
+    fullName: AdvancedSceneManager.Core.SceneOperation.Add(Of ReturnValue)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ReturnValue
+    nameWithType: ReturnValue
+    fullName: ReturnValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation`1.done*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.done
+  name: done
+  nameWithType: SceneOperation<ReturnValue>.done
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.done
+  nameWithType.vb: SceneOperation(Of ReturnValue).done
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).done
+- uid: AdvancedSceneManager.Core.SceneOperation`1
+  commentId: T:AdvancedSceneManager.Core.SceneOperation`1
+  parent: AdvancedSceneManager.Core
+  name: SceneOperation<ReturnValue>
+  nameWithType: SceneOperation<ReturnValue>
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>
+  nameWithType.vb: SceneOperation(Of ReturnValue)
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue)
+  name.vb: SceneOperation(Of ReturnValue)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation`1
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ReturnValue
+    nameWithType: ReturnValue
+    fullName: ReturnValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation`1
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ReturnValue
+    nameWithType: ReturnValue
+    fullName: ReturnValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation`1.value*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.value
+  name: value
+  nameWithType: SceneOperation<ReturnValue>.value
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.value
+  nameWithType.vb: SceneOperation(Of ReturnValue).value
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).value
+- uid: '{ReturnValue}'
+  commentId: '!:ReturnValue'
+  definition: ReturnValue
+  name: ReturnValue
+  nameWithType: ReturnValue
+  fullName: ReturnValue
+- uid: ReturnValue
+  commentId: '!:ReturnValue'
+  name: ReturnValue
+  nameWithType: ReturnValue
+  fullName: ReturnValue
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Return*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.Return
+  name: Return
+  nameWithType: SceneOperation<ReturnValue>.Return
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Return
+  nameWithType.vb: SceneOperation(Of ReturnValue).Return
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Return
+- uid: System.Func{AdvancedSceneManager.Core.SceneOperation`1,{ReturnValue}}
+  commentId: T:System.Func{AdvancedSceneManager.Core.SceneOperation`1,`0}
+  parent: System
+  definition: System.Func`2
+  name: Func<SceneOperation<ReturnValue>, ReturnValue>
+  nameWithType: Func<SceneOperation<ReturnValue>, ReturnValue>
+  fullName: System.Func<AdvancedSceneManager.Core.SceneOperation<ReturnValue>, ReturnValue>
+  nameWithType.vb: Func(Of SceneOperation(Of ReturnValue), ReturnValue)
+  fullName.vb: System.Func(Of AdvancedSceneManager.Core.SceneOperation(Of ReturnValue), ReturnValue)
+  name.vb: Func(Of SceneOperation(Of ReturnValue), ReturnValue)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Core.SceneOperation`1
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ReturnValue
+    nameWithType: ReturnValue
+    fullName: ReturnValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ReturnValue
+    nameWithType: ReturnValue
+    fullName: ReturnValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Core.SceneOperation`1
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ReturnValue
+    nameWithType: ReturnValue
+    fullName: ReturnValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ReturnValue
+    nameWithType: ReturnValue
+    fullName: ReturnValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithFriendlyText*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.WithFriendlyText
+  name: WithFriendlyText
+  nameWithType: SceneOperation<ReturnValue>.WithFriendlyText
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithFriendlyText
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithFriendlyText
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithFriendlyText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Core.IFluent`1.Open(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene},System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.IFluent`1.Open(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene},System.Boolean)
+  isExternal: true
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Open*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.Open
+  name: Open
+  nameWithType: SceneOperation<ReturnValue>.Open
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Open
+  nameWithType.vb: SceneOperation(Of ReturnValue).Open
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Open
+- uid: AdvancedSceneManager.Models.Scene[]
+  isExternal: true
+  name: Scene[]
+  nameWithType: Scene[]
+  fullName: AdvancedSceneManager.Models.Scene[]
+  nameWithType.vb: Scene()
+  fullName.vb: AdvancedSceneManager.Models.Scene()
+  name.vb: Scene()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}
+  commentId: T:System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Scene>
+  nameWithType: IEnumerable<Scene>
+  fullName: System.Collections.Generic.IEnumerable<AdvancedSceneManager.Models.Scene>
+  nameWithType.vb: IEnumerable(Of Scene)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of AdvancedSceneManager.Models.Scene)
+  name.vb: IEnumerable(Of Scene)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: AdvancedSceneManager.Core.IFluent`1.Close(System.Boolean,AdvancedSceneManager.Core.OpenSceneInfo[])
+  commentId: M:AdvancedSceneManager.Core.IFluent`1.Close(System.Boolean,AdvancedSceneManager.Core.OpenSceneInfo[])
+  isExternal: true
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Close*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.Close
+  name: Close
+  nameWithType: SceneOperation<ReturnValue>.Close
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Close
+  nameWithType.vb: SceneOperation(Of ReturnValue).Close
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Close
+- uid: AdvancedSceneManager.Core.OpenSceneInfo[]
+  isExternal: true
+  name: OpenSceneInfo[]
+  nameWithType: OpenSceneInfo[]
+  fullName: AdvancedSceneManager.Core.OpenSceneInfo[]
+  nameWithType.vb: OpenSceneInfo()
+  fullName.vb: AdvancedSceneManager.Core.OpenSceneInfo()
+  name.vb: OpenSceneInfo()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.OpenSceneInfo
+    name: OpenSceneInfo
+    nameWithType: OpenSceneInfo
+    fullName: AdvancedSceneManager.Core.OpenSceneInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.OpenSceneInfo
+    name: OpenSceneInfo
+    nameWithType: OpenSceneInfo
+    fullName: AdvancedSceneManager.Core.OpenSceneInfo
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<OpenSceneInfo>
+  nameWithType: IEnumerable<OpenSceneInfo>
+  fullName: System.Collections.Generic.IEnumerable<AdvancedSceneManager.Core.OpenSceneInfo>
+  nameWithType.vb: IEnumerable(Of OpenSceneInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of AdvancedSceneManager.Core.OpenSceneInfo)
+  name.vb: IEnumerable(Of OpenSceneInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Core.OpenSceneInfo
+    name: OpenSceneInfo
+    nameWithType: OpenSceneInfo
+    fullName: AdvancedSceneManager.Core.OpenSceneInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Core.OpenSceneInfo
+    name: OpenSceneInfo
+    nameWithType: OpenSceneInfo
+    fullName: AdvancedSceneManager.Core.OpenSceneInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.IFluent`1.Reopen(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo})
+  commentId: M:AdvancedSceneManager.Core.IFluent`1.Reopen(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo})
+  isExternal: true
+- uid: AdvancedSceneManager.Core.SceneOperation`1.Reopen*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.Reopen
+  name: Reopen
+  nameWithType: SceneOperation<ReturnValue>.Reopen
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.Reopen
+  nameWithType.vb: SceneOperation(Of ReturnValue).Reopen
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).Reopen
+- uid: AdvancedSceneManager.Core.IFluent`1.WithAction(AdvancedSceneManager.Core.Actions.SceneAction[])
+  commentId: M:AdvancedSceneManager.Core.IFluent`1.WithAction(AdvancedSceneManager.Core.Actions.SceneAction[])
+  isExternal: true
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithAction*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.WithAction
+  name: WithAction
+  nameWithType: SceneOperation<ReturnValue>.WithAction
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithAction
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithAction
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithAction
+- uid: AdvancedSceneManager.Core.Actions.SceneAction[]
+  isExternal: true
+  name: SceneAction[]
+  nameWithType: SceneAction[]
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction[]
+  nameWithType.vb: SceneAction()
+  fullName.vb: AdvancedSceneManager.Core.Actions.SceneAction()
+  name.vb: SceneAction()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction
+    name: SceneAction
+    nameWithType: SceneAction
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction
+    name: SceneAction
+    nameWithType: SceneAction
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: AdvancedSceneManager.Core.IFluent`1.WithCallback(AdvancedSceneManager.Core.Callback)
+  commentId: M:AdvancedSceneManager.Core.IFluent`1.WithCallback(AdvancedSceneManager.Core.Callback)
+  isExternal: true
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithCallback*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.WithCallback
+  name: WithCallback
+  nameWithType: SceneOperation<ReturnValue>.WithCallback
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithCallback
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithCallback
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithCallback
+- uid: AdvancedSceneManager.Core.Callback
+  commentId: T:AdvancedSceneManager.Core.Callback
+  parent: AdvancedSceneManager.Core
+  name: Callback
+  nameWithType: Callback
+  fullName: AdvancedSceneManager.Core.Callback
+- uid: AdvancedSceneManager.Core.IFluent`1.WithCollection(AdvancedSceneManager.Models.SceneCollection,System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.IFluent`1.WithCollection(AdvancedSceneManager.Models.SceneCollection,System.Boolean)
+  isExternal: true
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithCollection*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.WithCollection
+  name: WithCollection
+  nameWithType: SceneOperation<ReturnValue>.WithCollection
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithCollection
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithCollection
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithCollection
+- uid: AdvancedSceneManager.Models.SceneCollection
+  commentId: T:AdvancedSceneManager.Models.SceneCollection
+  parent: AdvancedSceneManager.Models
+  name: SceneCollection
+  nameWithType: SceneCollection
+  fullName: AdvancedSceneManager.Models.SceneCollection
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: AdvancedSceneManager.Core.IFluent`1.WithLoadingScreen(System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.IFluent`1.WithLoadingScreen(System.Boolean)
+  isExternal: true
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreen*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreen
+  name: WithLoadingScreen
+  nameWithType: SceneOperation<ReturnValue>.WithLoadingScreen
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithLoadingScreen
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithLoadingScreen
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithLoadingScreen
+- uid: AdvancedSceneManager.Core.IFluent`1.WithLoadingScreen(AdvancedSceneManager.Models.Scene)
+  commentId: M:AdvancedSceneManager.Core.IFluent`1.WithLoadingScreen(AdvancedSceneManager.Models.Scene)
+  isExternal: true
+- uid: AdvancedSceneManager.Models.Scene
+  commentId: T:AdvancedSceneManager.Models.Scene
+  parent: AdvancedSceneManager.Models
+  name: Scene
+  nameWithType: Scene
+  fullName: AdvancedSceneManager.Models.Scene
+- uid: AdvancedSceneManager.Core.IFluent`1.WithClearUnusedAssets(System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.IFluent`1.WithClearUnusedAssets(System.Boolean)
+  isExternal: true
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithClearUnusedAssets*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.WithClearUnusedAssets
+  name: WithClearUnusedAssets
+  nameWithType: SceneOperation<ReturnValue>.WithClearUnusedAssets
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithClearUnusedAssets
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithClearUnusedAssets
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithClearUnusedAssets
+- uid: AdvancedSceneManager.Core.IFluent`1.WithLoadingScreenCallback(System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  commentId: M:AdvancedSceneManager.Core.IFluent`1.WithLoadingScreenCallback(System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  isExternal: true
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreenCallback*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.WithLoadingScreenCallback
+  name: WithLoadingScreenCallback
+  nameWithType: SceneOperation<ReturnValue>.WithLoadingScreenCallback
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithLoadingScreenCallback
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithLoadingScreenCallback
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithLoadingScreenCallback
+- uid: System.Action{AdvancedSceneManager.Callbacks.LoadingScreen}
+  commentId: T:System.Action{AdvancedSceneManager.Callbacks.LoadingScreen}
+  parent: System
+  definition: System.Action`1
+  name: Action<LoadingScreen>
+  nameWithType: Action<LoadingScreen>
+  fullName: System.Action<AdvancedSceneManager.Callbacks.LoadingScreen>
+  nameWithType.vb: Action(Of LoadingScreen)
+  fullName.vb: System.Action(Of AdvancedSceneManager.Callbacks.LoadingScreen)
+  name.vb: Action(Of LoadingScreen)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen
+    name: LoadingScreen
+    nameWithType: LoadingScreen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen
+    name: LoadingScreen
+    nameWithType: LoadingScreen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.IFluent`1.WithLoadingPriority(UnityEngine.ThreadPriority)
+  commentId: M:AdvancedSceneManager.Core.IFluent`1.WithLoadingPriority(UnityEngine.ThreadPriority)
+  isExternal: true
+- uid: AdvancedSceneManager.Core.SceneOperation`1.WithLoadingPriority*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.WithLoadingPriority
+  name: WithLoadingPriority
+  nameWithType: SceneOperation<ReturnValue>.WithLoadingPriority
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.WithLoadingPriority
+  nameWithType.vb: SceneOperation(Of ReturnValue).WithLoadingPriority
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).WithLoadingPriority
+- uid: UnityEngine.ThreadPriority
+  commentId: T:UnityEngine.ThreadPriority
+  parent: UnityEngine
+  isExternal: true
+  name: ThreadPriority
+  nameWithType: ThreadPriority
+  fullName: UnityEngine.ThreadPriority
+- uid: AdvancedSceneManager.Core.IFluent`1.AsPersistent(AdvancedSceneManager.Models.SceneCloseBehavior)
+  commentId: M:AdvancedSceneManager.Core.IFluent`1.AsPersistent(AdvancedSceneManager.Models.SceneCloseBehavior)
+  isExternal: true
+- uid: AdvancedSceneManager.Core.SceneOperation`1.AsPersistent*
+  commentId: Overload:AdvancedSceneManager.Core.SceneOperation`1.AsPersistent
+  name: AsPersistent
+  nameWithType: SceneOperation<ReturnValue>.AsPersistent
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>.AsPersistent
+  nameWithType.vb: SceneOperation(Of ReturnValue).AsPersistent
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue).AsPersistent
+- uid: AdvancedSceneManager.Models.SceneCloseBehavior
+  commentId: T:AdvancedSceneManager.Models.SceneCloseBehavior
+  parent: AdvancedSceneManager.Models
+  name: SceneCloseBehavior
+  nameWithType: SceneCloseBehavior
+  fullName: AdvancedSceneManager.Models.SceneCloseBehavior

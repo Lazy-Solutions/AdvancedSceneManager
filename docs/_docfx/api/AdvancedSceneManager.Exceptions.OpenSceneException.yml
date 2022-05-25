@@ -1,0 +1,221 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Exceptions.OpenSceneException
+  commentId: T:AdvancedSceneManager.Exceptions.OpenSceneException
+  id: OpenSceneException
+  parent: AdvancedSceneManager.Exceptions
+  children:
+  - AdvancedSceneManager.Exceptions.OpenSceneException.#ctor(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneCollection,System.String)
+  - AdvancedSceneManager.Exceptions.OpenSceneException.collection
+  - AdvancedSceneManager.Exceptions.OpenSceneException.scene
+  langs:
+  - csharp
+  - vb
+  name: OpenSceneException
+  nameWithType: OpenSceneException
+  fullName: AdvancedSceneManager.Exceptions.OpenSceneException
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Exceptions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OpenSceneException
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Exceptions.cs
+    startLine: 8
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Exceptions
+  summary: Thrown when a scene could not be opened.
+  example: []
+  syntax:
+    content: 'public class OpenSceneException : Exception, ISerializable'
+    content.vb: >-
+      Public Class OpenSceneException
+          Inherits Exception
+          Implements ISerializable
+  inheritance:
+  - System.Object
+  - System.Exception
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Exceptions.OpenSceneException.#ctor(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneCollection,System.String)
+  commentId: M:AdvancedSceneManager.Exceptions.OpenSceneException.#ctor(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneCollection,System.String)
+  id: '#ctor(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.SceneCollection,System.String)'
+  parent: AdvancedSceneManager.Exceptions.OpenSceneException
+  langs:
+  - csharp
+  - vb
+  name: OpenSceneException(Scene, SceneCollection, String)
+  nameWithType: OpenSceneException.OpenSceneException(Scene, SceneCollection, String)
+  fullName: AdvancedSceneManager.Exceptions.OpenSceneException.OpenSceneException(AdvancedSceneManager.Models.Scene, AdvancedSceneManager.Models.SceneCollection, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Exceptions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: .ctor
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Exceptions.cs
+    startLine: 11
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Exceptions
+  syntax:
+    content: public OpenSceneException(Scene scene, SceneCollection collection = null, string message = null)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(scene As Scene, collection As SceneCollection = Nothing, message As String = Nothing)
+  overload: AdvancedSceneManager.Exceptions.OpenSceneException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Exceptions.OpenSceneException.collection
+  commentId: P:AdvancedSceneManager.Exceptions.OpenSceneException.collection
+  id: collection
+  parent: AdvancedSceneManager.Exceptions.OpenSceneException
+  langs:
+  - csharp
+  - vb
+  name: collection
+  nameWithType: OpenSceneException.collection
+  fullName: AdvancedSceneManager.Exceptions.OpenSceneException.collection
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Exceptions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: collection
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Exceptions.cs
+    startLine: 22
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Exceptions
+  summary: "\n<p>The collection that the scene was associated with.</p>\n<p>Null if scene was opened as stand-alone.</p>\n"
+  example: []
+  syntax:
+    content: public SceneCollection collection { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Models.SceneCollection
+    content.vb: Public ReadOnly Property collection As SceneCollection
+  overload: AdvancedSceneManager.Exceptions.OpenSceneException.collection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Exceptions.OpenSceneException.scene
+  commentId: P:AdvancedSceneManager.Exceptions.OpenSceneException.scene
+  id: scene
+  parent: AdvancedSceneManager.Exceptions.OpenSceneException
+  langs:
+  - csharp
+  - vb
+  name: scene
+  nameWithType: OpenSceneException.scene
+  fullName: AdvancedSceneManager.Exceptions.OpenSceneException.scene
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Exceptions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: scene
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Exceptions.cs
+    startLine: 25
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Exceptions
+  summary: The scene that was attempted to be opened.
+  example: []
+  syntax:
+    content: public Scene scene { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: Public ReadOnly Property scene As Scene
+  overload: AdvancedSceneManager.Exceptions.OpenSceneException.scene*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: AdvancedSceneManager.Exceptions
+  commentId: N:AdvancedSceneManager.Exceptions
+  name: AdvancedSceneManager.Exceptions
+  nameWithType: AdvancedSceneManager.Exceptions
+  fullName: AdvancedSceneManager.Exceptions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Exceptions.OpenSceneException.#ctor*
+  commentId: Overload:AdvancedSceneManager.Exceptions.OpenSceneException.#ctor
+  name: OpenSceneException
+  nameWithType: OpenSceneException.OpenSceneException
+  fullName: AdvancedSceneManager.Exceptions.OpenSceneException.OpenSceneException
+- uid: AdvancedSceneManager.Models.Scene
+  commentId: T:AdvancedSceneManager.Models.Scene
+  parent: AdvancedSceneManager.Models
+  name: Scene
+  nameWithType: Scene
+  fullName: AdvancedSceneManager.Models.Scene
+- uid: AdvancedSceneManager.Models.SceneCollection
+  commentId: T:AdvancedSceneManager.Models.SceneCollection
+  parent: AdvancedSceneManager.Models
+  name: SceneCollection
+  nameWithType: SceneCollection
+  fullName: AdvancedSceneManager.Models.SceneCollection
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: AdvancedSceneManager.Exceptions.OpenSceneException.collection*
+  commentId: Overload:AdvancedSceneManager.Exceptions.OpenSceneException.collection
+  name: collection
+  nameWithType: OpenSceneException.collection
+  fullName: AdvancedSceneManager.Exceptions.OpenSceneException.collection
+- uid: AdvancedSceneManager.Exceptions.OpenSceneException.scene*
+  commentId: Overload:AdvancedSceneManager.Exceptions.OpenSceneException.scene
+  name: scene
+  nameWithType: OpenSceneException.scene
+  fullName: AdvancedSceneManager.Exceptions.OpenSceneException.scene

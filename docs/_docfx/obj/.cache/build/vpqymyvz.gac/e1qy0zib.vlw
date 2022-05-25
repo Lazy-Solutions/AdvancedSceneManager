@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h2 id="scenes">Scenes</h2>
+
+<p><br></p>
+<p>An ASM scene is our representation of a <a href="https://docs.unity3d.com/ScriptReference/SceneAsset.html">SceneAsset</a> Unity scene. All <a href="https://docs.unity3d.com/ScriptReference/SceneAsset.html">SceneAssets</a> in the project will have a corresponding Scene <a href="https://docs.unity3d.com/Manual/class-ScriptableObject.html">ScriptableObject</a> generated for it. Aside from the slight confusion that might arise at first, this approach has numerous advantages:</p>
+<ul>
+<li><p>Drag and drop references in inspector:</p>
+<p><img src="../image/Scene-reference.png" alt="" title="Unity event"></p>
+</li>
+<li><p><a href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a> support (it might be easier to use <a href="SceneHelper.html">SceneHelper</a> as target though, since that will help filter the <a href="https://docs.unity3d.com/ScriptReference/EditorGUI.ObjectField.html">object picker</a> to only display scenes):</p>
+<p><img src="../image/Unity-event.png" alt="" title="Unity event"></p>
+</li>
+<li><p>More robust:</p>
+<p>Consider this:</p>
+</li>
+</ul>
+<pre><code class="lang-csharp">  using UnityEngine.SceneManagement;
+  using AdvancedSceneManager.Models;
+
+  //------Unity, Out-of-the-box------
+
+  //Path: Loses reference when scene is moved, renamed, deleted...
+  //Name: Loses reference when scene renamed, deleted, also
+  //      conflicts occur when duplicate names exist...
+  public string scene;
+
+  //Loses reference when build index changes...
+  public int sceneIndex;
+
+  public void OpenSceneUnity()
+  {
+      SceneManager.LoadScene(scene);
+      SceneManager.LoadScene(sceneIndex);
+  }
+</code></pre><p>Which could be transformed into this:</p>
+<pre><code class="lang-csharp">  //------Advanced Scene Manager------
+
+  //Is automatically updated when its associated SceneAsset is moved,
+  //renamed and deleted.
+  //Does not rely on build index.
+  public Scene scene;
+
+  public void OpenSceneASM()
+  {
+      scene.Open();
+  }
+</code></pre><h3 id="persistent-scenes">Persistent scenes</h3>
+<p>Scenes can be opened as persistent either by using <a href="SceneManagerWindow.html#tags">tags</a>:</p>
+<p><img src="../image/tags.png" alt="">
+<img src="../image/collection.png" alt=""></p>
+<p>Or by using <a href="../api/AdvancedSceneManager.Utility.PersistentUtility.html">PersistentUtility</a> in code.</p>
+<h2 id="scene-merge">Scene merge</h2>
+<p>Merging scenes can be done in two ways:<br>
+(API methods are contained in <a href="../api/AdvancedSceneManager.Utility.SceneUtility.html">SceneUtility</a>)</p>
+<p>Pressing the <img src="../image/combine-scenes.png" alt=""> button:</p>
+<p><img src="../image/selection.png" alt=""></p>
+<p>Or by selecting two or more SceneAsset in project window:</p>
+<p><img src="../image/merge-scenes-menu.png" alt=""></p>
+<p>The scenes will then be merged like this:</p>
+<p><img src="../image/combine-scenes-result.png" alt=""></p>
+<h2 id="scene-split">Scene split</h2>
+<p>Scenes can be split by selecting two GameObjects in the hierarchy:</p>
+<p><img src="../image/scene-split-menu.png" alt=""></p>
+<p>And will be split like this:</p>
+<p><img src="../image/split-scene-result.png" alt=""></p>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

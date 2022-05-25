@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase
+  commentId: T:AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase
+  id: ISceneManagerCallbackBase
+  parent: AdvancedSceneManager.Callbacks
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ISceneManagerCallbackBase
+  nameWithType: ISceneManagerCallbackBase
+  fullName: AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase
+  type: Interface
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/Open_CloseCallbacks.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ISceneManagerCallbackBase
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/Open_CloseCallbacks.cs
+    startLine: 8
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: Base interface for <xref href="AdvancedSceneManager.Callbacks.ISceneOpen" data-throw-if-not-resolved="false"></xref>, <xref href="AdvancedSceneManager.Callbacks.ISceneClose" data-throw-if-not-resolved="false"></xref>, <xref href="AdvancedSceneManager.Callbacks.ICollectionOpen" data-throw-if-not-resolved="false"></xref>, <xref href="AdvancedSceneManager.Callbacks.ICollectionClose" data-throw-if-not-resolved="false"></xref>. Does nothing on its own, used by <xref href="AdvancedSceneManager.Callbacks.CallbackUtility" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public interface ISceneManagerCallbackBase
+    content.vb: Public Interface ISceneManagerCallbackBase
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: AdvancedSceneManager.Callbacks.ISceneOpen
+  commentId: T:AdvancedSceneManager.Callbacks.ISceneOpen
+  name: ISceneOpen
+  nameWithType: ISceneOpen
+  fullName: AdvancedSceneManager.Callbacks.ISceneOpen
+- uid: AdvancedSceneManager.Callbacks.ISceneClose
+  commentId: T:AdvancedSceneManager.Callbacks.ISceneClose
+  name: ISceneClose
+  nameWithType: ISceneClose
+  fullName: AdvancedSceneManager.Callbacks.ISceneClose
+- uid: AdvancedSceneManager.Callbacks.ICollectionOpen
+  commentId: T:AdvancedSceneManager.Callbacks.ICollectionOpen
+  parent: AdvancedSceneManager.Callbacks
+  name: ICollectionOpen
+  nameWithType: ICollectionOpen
+  fullName: AdvancedSceneManager.Callbacks.ICollectionOpen
+- uid: AdvancedSceneManager.Callbacks.ICollectionClose
+  commentId: T:AdvancedSceneManager.Callbacks.ICollectionClose
+  parent: AdvancedSceneManager.Callbacks
+  name: ICollectionClose
+  nameWithType: ICollectionClose
+  fullName: AdvancedSceneManager.Callbacks.ICollectionClose
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility
+  commentId: T:AdvancedSceneManager.Callbacks.CallbackUtility
+  name: CallbackUtility
+  nameWithType: CallbackUtility
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks

@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Defaults.Quotes.Quote
+  commentId: T:AdvancedSceneManager.Defaults.Quotes.Quote
+  id: Quotes.Quote
+  parent: AdvancedSceneManager.Defaults
+  children:
+  - AdvancedSceneManager.Defaults.Quotes.Quote.name
+  - AdvancedSceneManager.Defaults.Quotes.Quote.quote
+  langs:
+  - csharp
+  - vb
+  name: Quotes.Quote
+  nameWithType: Quotes.Quote
+  fullName: AdvancedSceneManager.Defaults.Quotes.Quote
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Quote/Quotes.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Quote
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Quote/Quotes.cs
+    startLine: 15
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  summary: A quote.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Quote
+    content.vb: >-
+      <Serializable>
+
+      Public Class Quote
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Defaults.Quotes.Quote.name
+  commentId: F:AdvancedSceneManager.Defaults.Quotes.Quote.name
+  id: name
+  parent: AdvancedSceneManager.Defaults.Quotes.Quote
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Quotes.Quote.name
+  fullName: AdvancedSceneManager.Defaults.Quotes.Quote.name
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Quote/Quotes.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: name
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Quote/Quotes.cs
+    startLine: 19
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  summary: The name of this quote.
+  example: []
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Defaults.Quotes.Quote.quote
+  commentId: F:AdvancedSceneManager.Defaults.Quotes.Quote.quote
+  id: quote
+  parent: AdvancedSceneManager.Defaults.Quotes.Quote
+  langs:
+  - csharp
+  - vb
+  name: quote
+  nameWithType: Quotes.Quote.quote
+  fullName: AdvancedSceneManager.Defaults.Quotes.Quote.quote
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Quote/Quotes.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: quote
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Quote/Quotes.cs
+    startLine: 21
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  summary: The quote text itself.
+  example: []
+  syntax:
+    content: public string quote
+    return:
+      type: System.String
+    content.vb: Public quote As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Defaults
+  commentId: N:AdvancedSceneManager.Defaults
+  name: AdvancedSceneManager.Defaults
+  nameWithType: AdvancedSceneManager.Defaults
+  fullName: AdvancedSceneManager.Defaults
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

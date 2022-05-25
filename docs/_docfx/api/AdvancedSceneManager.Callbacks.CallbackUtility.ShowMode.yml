@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode
+  commentId: T:AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode
+  id: CallbackUtility.ShowMode
+  parent: AdvancedSceneManager.Callbacks
+  children:
+  - AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode.Frames
+  - AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode.Time
+  langs:
+  - csharp
+  - vb
+  name: CallbackUtility.ShowMode
+  nameWithType: CallbackUtility.ShowMode
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode
+  type: Enum
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ShowMode
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 366
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public enum ShowMode
+    content.vb: Public Enum ShowMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode.Time
+  commentId: F:AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode.Time
+  id: Time
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: CallbackUtility.ShowMode.Time
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode.Time
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Time
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 368
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: Time = 0
+    return:
+      type: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode.Frames
+  commentId: F:AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode.Frames
+  id: Frames
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode
+  langs:
+  - csharp
+  - vb
+  name: Frames
+  nameWithType: CallbackUtility.ShowMode.Frames
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode.Frames
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Frames
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 368
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: Frames = 1
+    return:
+      type: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode
+  commentId: T:AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode
+  parent: AdvancedSceneManager.Callbacks
+  name: CallbackUtility.ShowMode
+  nameWithType: CallbackUtility.ShowMode
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Models_IsOpenReturnValue" data-uid="AdvancedSceneManager.Models.IsOpenReturnValue" class="text-break">Struct IsOpenReturnValue
+  </h1>
+  <div class="markdown level0 summary"><p>A struct to make working with the return value of the IsOpen() function a bit easier.</p>
+<p>Implicitly casts to bool, which can be used to check if scene is open in either.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Models.html">AdvancedSceneManager.Models</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Models_IsOpenReturnValue_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct IsOpenReturnValue</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="AdvancedSceneManager_Models_IsOpenReturnValue_asStandalone" data-uid="AdvancedSceneManager.Models.IsOpenReturnValue.asStandalone">asStandalone</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.IsOpenReturnValue.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The scene was opened as standalone.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool asStandalone</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="AdvancedSceneManager_Models_IsOpenReturnValue_isPreloaded" data-uid="AdvancedSceneManager.Models.IsOpenReturnValue.isPreloaded">isPreloaded</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.IsOpenReturnValue.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The scene is currently preloaded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isPreloaded</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="AdvancedSceneManager_Models_IsOpenReturnValue_withCollection" data-uid="AdvancedSceneManager.Models.IsOpenReturnValue.withCollection">withCollection</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.IsOpenReturnValue.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The scene was opened as part of a collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool withCollection</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <a id="AdvancedSceneManager_Models_IsOpenReturnValue_op_Implicit_" data-uid="AdvancedSceneManager.Models.IsOpenReturnValue.op_Implicit*"></a>
+  <h4 id="AdvancedSceneManager_Models_IsOpenReturnValue_op_Implicit_AdvancedSceneManager_Models_IsOpenReturnValue__System_Boolean" data-uid="AdvancedSceneManager.Models.IsOpenReturnValue.op_Implicit(AdvancedSceneManager.Models.IsOpenReturnValue)~System.Boolean">Implicit(IsOpenReturnValue to Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator bool (IsOpenReturnValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.IsOpenReturnValue.html">IsOpenReturnValue</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_IsOpenReturnValue_op_Implicit_" data-uid="AdvancedSceneManager.Models.IsOpenReturnValue.op_Implicit*"></a>
+  <h4 id="AdvancedSceneManager_Models_IsOpenReturnValue_op_Implicit_System_ValueTuple_System_Boolean_System_Boolean_System_Boolean___AdvancedSceneManager_Models_IsOpenReturnValue" data-uid="AdvancedSceneManager.Models.IsOpenReturnValue.op_Implicit(System.ValueTuple{System.Boolean,System.Boolean,System.Boolean})~AdvancedSceneManager.Models.IsOpenReturnValue">Implicit((Boolean withCollection, Boolean asStandalone, Boolean isPreloaded) to IsOpenReturnValue)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator IsOpenReturnValue((bool withCollection, bool asStandalone, bool isPreloaded) value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Boolean</span>, <span class="xref">System.Boolean</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.IsOpenReturnValue.html">IsOpenReturnValue</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_IsOpenReturnValue_op_Implicit_" data-uid="AdvancedSceneManager.Models.IsOpenReturnValue.op_Implicit*"></a>
+  <h4 id="AdvancedSceneManager_Models_IsOpenReturnValue_op_Implicit_System_ValueTuple_System_Boolean_System_Boolean___AdvancedSceneManager_Models_IsOpenReturnValue" data-uid="AdvancedSceneManager.Models.IsOpenReturnValue.op_Implicit(System.ValueTuple{System.Boolean,System.Boolean})~AdvancedSceneManager.Models.IsOpenReturnValue">Implicit((Boolean withCollection, Boolean asStandalone) to IsOpenReturnValue)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator IsOpenReturnValue((bool withCollection, bool asStandalone) value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Boolean</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.IsOpenReturnValue.html">IsOpenReturnValue</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

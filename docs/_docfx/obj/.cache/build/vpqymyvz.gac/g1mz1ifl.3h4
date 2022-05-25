@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h2 id="preloading" sourcefile="guides/PreloadedSceneHelper.md" sourcestartlinenumber="1" sourceendlinenumber="1">Preloading</h2>
+
+<p sourcefile="guides/PreloadedSceneHelper.md" sourcestartlinenumber="3" sourceendlinenumber="3"><br></p>
+<p sourcefile="guides/PreloadedSceneHelper.md" sourcestartlinenumber="5" sourceendlinenumber="5">Preloaded scene helper is a class that helps with scenes that have been preloaded, and is returned from any methods that preloads scenes.</p>
+<blockquote sourcefile="guides/PreloadedSceneHelper.md" sourcestartlinenumber="7" sourceendlinenumber="7"><p sourcefile="guides/PreloadedSceneHelper.md" sourcestartlinenumber="7" sourceendlinenumber="7">Please note that Unity only supports a single preloaded scene at a time, and that all subsequent scene operations will be halted until this scene is fully loaded and activated, or closed.</p>
+</blockquote>
+<p sourcefile="guides/PreloadedSceneHelper.md" sourcestartlinenumber="9" sourceendlinenumber="9"><img src="../image/preload-example.png?raw=true" alt="" sourcefile="guides/PreloadedSceneHelper.md" sourcestartlinenumber="9" sourceendlinenumber="9"></p>
+<pre sourcefile="guides/PreloadedSceneHelper.md" sourcestartlinenumber="11" sourceendlinenumber="36"><code class="lang-csharp">using System;
+using UnityEngine;
+using UnityEngine.Events;
+
+public class TriggerEvents : MonoBehaviour
+{
+
+    [Serializable]
+    public struct Event
+    {
+        [Space]
+        public UnityEvent m_event;
+    }
+
+    public Event OnTriggerEnter;
+    public Event OnTriggerExit;
+    public Event OnTriggerStay;
+
+    void OnTriggerEnter2D(Collider2D collision) =&gt; OnTriggerEnter.m_event.Invoke();
+    void OnTriggerExit2D(Collider2D collision) =&gt; OnTriggerExit.m_event.Invoke();
+    void OnTriggerStay2D(Collider2D collision) =&gt; OnTriggerStay.m_event.Invoke();
+
+}
+</code></pre></article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

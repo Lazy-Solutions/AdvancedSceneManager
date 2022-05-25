@@ -1,0 +1,528 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Core.Actions.QuickStartupAction
+  commentId: T:AdvancedSceneManager.Core.Actions.QuickStartupAction
+  id: QuickStartupAction
+  parent: AdvancedSceneManager.Core.Actions
+  children:
+  - AdvancedSceneManager.Core.Actions.QuickStartupAction.#ctor
+  langs:
+  - csharp
+  - vb
+  name: QuickStartupAction
+  nameWithType: QuickStartupAction
+  fullName: AdvancedSceneManager.Core.Actions.QuickStartupAction
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/QuickStartupAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: QuickStartupAction
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/QuickStartupAction.cs
+    startLine: 8
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  summary: "\nPerforms startup sequence, but without splash screen and loading screens.\n<p><xref href=\"AdvancedSceneManager.Core.Actions.CloseAllUnityScenesAction\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n<p><xref href=\"AdvancedSceneManager.Core.Actions.OpenStartupCollections\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+  example: []
+  syntax:
+    content: 'public class QuickStartupAction : StartupAction'
+    content.vb: >-
+      Public Class QuickStartupAction
+          Inherits StartupAction
+  inheritance:
+  - System.Object
+  - AdvancedSceneManager.Core.Actions.SceneAction
+  - AdvancedSceneManager.Core.Actions.AggregateAction
+  - AdvancedSceneManager.Core.Actions.StartupAction
+  inheritedMembers:
+  - AdvancedSceneManager.Core.Actions.AggregateAction.reportsProgress
+  - AdvancedSceneManager.Core.Actions.AggregateAction.actions
+  - AdvancedSceneManager.Core.Actions.AggregateAction.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  - AdvancedSceneManager.Core.Actions.AggregateAction.OnDone
+  - AdvancedSceneManager.Core.Actions.SceneAction.openScene
+  - AdvancedSceneManager.Core.Actions.SceneAction.scene
+  - AdvancedSceneManager.Core.Actions.SceneAction.collection
+  - AdvancedSceneManager.Core.Actions.SceneAction.progress
+  - AdvancedSceneManager.Core.Actions.SceneAction.isDone
+  - AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+  - AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+  - AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+  - AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+  - AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+  - AdvancedSceneManager.Core.Actions.SceneAction.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Core.Actions.QuickStartupAction.#ctor
+  commentId: M:AdvancedSceneManager.Core.Actions.QuickStartupAction.#ctor
+  id: '#ctor'
+  parent: AdvancedSceneManager.Core.Actions.QuickStartupAction
+  langs:
+  - csharp
+  - vb
+  name: QuickStartupAction()
+  nameWithType: QuickStartupAction.QuickStartupAction()
+  fullName: AdvancedSceneManager.Core.Actions.QuickStartupAction.QuickStartupAction()
+  type: Constructor
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/QuickStartupAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: .ctor
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/QuickStartupAction.cs
+    startLine: 12
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  example: []
+  syntax:
+    content: public QuickStartupAction()
+    content.vb: Public Sub New
+  overload: AdvancedSceneManager.Core.Actions.QuickStartupAction.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Core.Actions.CloseAllUnityScenesAction
+  commentId: T:AdvancedSceneManager.Core.Actions.CloseAllUnityScenesAction
+  name: CloseAllUnityScenesAction
+  nameWithType: CloseAllUnityScenesAction
+  fullName: AdvancedSceneManager.Core.Actions.CloseAllUnityScenesAction
+- uid: AdvancedSceneManager.Core.Actions.OpenStartupCollections
+  commentId: T:AdvancedSceneManager.Core.Actions.OpenStartupCollections
+  name: OpenStartupCollections
+  nameWithType: OpenStartupCollections
+  fullName: AdvancedSceneManager.Core.Actions.OpenStartupCollections
+- uid: AdvancedSceneManager.Core.Actions
+  commentId: N:AdvancedSceneManager.Core.Actions
+  name: AdvancedSceneManager.Core.Actions
+  nameWithType: AdvancedSceneManager.Core.Actions
+  fullName: AdvancedSceneManager.Core.Actions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: AdvancedSceneManager.Core.Actions.SceneAction
+  commentId: T:AdvancedSceneManager.Core.Actions.SceneAction
+  parent: AdvancedSceneManager.Core.Actions
+  name: SceneAction
+  nameWithType: SceneAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction
+- uid: AdvancedSceneManager.Core.Actions.AggregateAction
+  commentId: T:AdvancedSceneManager.Core.Actions.AggregateAction
+  parent: AdvancedSceneManager.Core.Actions
+  name: AggregateAction
+  nameWithType: AggregateAction
+  fullName: AdvancedSceneManager.Core.Actions.AggregateAction
+- uid: AdvancedSceneManager.Core.Actions.StartupAction
+  commentId: T:AdvancedSceneManager.Core.Actions.StartupAction
+  parent: AdvancedSceneManager.Core.Actions
+  name: StartupAction
+  nameWithType: StartupAction
+  fullName: AdvancedSceneManager.Core.Actions.StartupAction
+- uid: AdvancedSceneManager.Core.Actions.AggregateAction.reportsProgress
+  commentId: P:AdvancedSceneManager.Core.Actions.AggregateAction.reportsProgress
+  parent: AdvancedSceneManager.Core.Actions.AggregateAction
+  name: reportsProgress
+  nameWithType: AggregateAction.reportsProgress
+  fullName: AdvancedSceneManager.Core.Actions.AggregateAction.reportsProgress
+- uid: AdvancedSceneManager.Core.Actions.AggregateAction.actions
+  commentId: P:AdvancedSceneManager.Core.Actions.AggregateAction.actions
+  parent: AdvancedSceneManager.Core.Actions.AggregateAction
+  name: actions
+  nameWithType: AggregateAction.actions
+  fullName: AdvancedSceneManager.Core.Actions.AggregateAction.actions
+- uid: AdvancedSceneManager.Core.Actions.AggregateAction.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  commentId: M:AdvancedSceneManager.Core.Actions.AggregateAction.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  parent: AdvancedSceneManager.Core.Actions.AggregateAction
+  name: DoAction(SceneManagerBase)
+  nameWithType: AggregateAction.DoAction(SceneManagerBase)
+  fullName: AdvancedSceneManager.Core.Actions.AggregateAction.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.AggregateAction.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+    name: DoAction
+    nameWithType: AggregateAction.DoAction
+    fullName: AdvancedSceneManager.Core.Actions.AggregateAction.DoAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.AggregateAction.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+    name: DoAction
+    nameWithType: AggregateAction.DoAction
+    fullName: AdvancedSceneManager.Core.Actions.AggregateAction.DoAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.AggregateAction.OnDone
+  commentId: M:AdvancedSceneManager.Core.Actions.AggregateAction.OnDone
+  parent: AdvancedSceneManager.Core.Actions.AggregateAction
+  name: OnDone()
+  nameWithType: AggregateAction.OnDone()
+  fullName: AdvancedSceneManager.Core.Actions.AggregateAction.OnDone()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.AggregateAction.OnDone
+    name: OnDone
+    nameWithType: AggregateAction.OnDone
+    fullName: AdvancedSceneManager.Core.Actions.AggregateAction.OnDone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.AggregateAction.OnDone
+    name: OnDone
+    nameWithType: AggregateAction.OnDone
+    fullName: AdvancedSceneManager.Core.Actions.AggregateAction.OnDone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.openScene
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.openScene
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: openScene
+  nameWithType: SceneAction.openScene
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.openScene
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.scene
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.scene
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: scene
+  nameWithType: SceneAction.scene
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.scene
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.collection
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.collection
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: collection
+  nameWithType: SceneAction.collection
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.collection
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.progress
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.progress
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: progress
+  nameWithType: SceneAction.progress
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.progress
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.isDone
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.isDone
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: isDone
+  nameWithType: SceneAction.isDone
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.isDone
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  isExternal: true
+  name: RegisterCallback(Action)
+  nameWithType: SceneAction.RegisterCallback(Action)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+    name: RegisterCallback
+    nameWithType: SceneAction.RegisterCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+    name: RegisterCallback
+    nameWithType: SceneAction.RegisterCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  isExternal: true
+  name: UnregisterCallback(Action)
+  nameWithType: SceneAction.UnregisterCallback(Action)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+    name: UnregisterCallback
+    nameWithType: SceneAction.UnregisterCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+    name: UnregisterCallback
+    nameWithType: SceneAction.UnregisterCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  isExternal: true
+  name: OnProgressCallback(Action<Single>)
+  nameWithType: SceneAction.OnProgressCallback(Action<Single>)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action<System.Single>)
+  nameWithType.vb: SceneAction.OnProgressCallback(Action(Of Single))
+  fullName.vb: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action(Of System.Single))
+  name.vb: OnProgressCallback(Action(Of Single))
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+    name: OnProgressCallback
+    nameWithType: SceneAction.OnProgressCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+    name: OnProgressCallback
+    nameWithType: SceneAction.OnProgressCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  isExternal: true
+  name: OnProgress(Single)
+  nameWithType: SceneAction.OnProgress(Single)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+    name: OnProgress
+    nameWithType: SceneAction.OnProgress
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+    name: OnProgress
+    nameWithType: SceneAction.OnProgress
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.Done
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: Done()
+  nameWithType: SceneAction.Done()
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.Done
+    name: Done
+    nameWithType: SceneAction.Done
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.Done
+    name: Done
+    nameWithType: SceneAction.Done
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: Done(OpenSceneInfo)
+  nameWithType: SceneAction.Done(OpenSceneInfo)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+    name: Done
+    nameWithType: SceneAction.Done
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.OpenSceneInfo
+    name: OpenSceneInfo
+    nameWithType: OpenSceneInfo
+    fullName: AdvancedSceneManager.Core.OpenSceneInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+    name: Done
+    nameWithType: SceneAction.Done
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.OpenSceneInfo
+    name: OpenSceneInfo
+    nameWithType: OpenSceneInfo
+    fullName: AdvancedSceneManager.Core.OpenSceneInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.ToString
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.ToString
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: ToString()
+  nameWithType: SceneAction.ToString()
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.ToString()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.ToString
+    name: ToString
+    nameWithType: SceneAction.ToString
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.ToString
+    name: ToString
+    nameWithType: SceneAction.ToString
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Core.Actions.QuickStartupAction
+  commentId: T:AdvancedSceneManager.Core.Actions.QuickStartupAction
+  name: QuickStartupAction
+  nameWithType: QuickStartupAction
+  fullName: AdvancedSceneManager.Core.Actions.QuickStartupAction
+- uid: AdvancedSceneManager.Core.Actions.QuickStartupAction.#ctor*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.QuickStartupAction.#ctor
+  name: QuickStartupAction
+  nameWithType: QuickStartupAction.QuickStartupAction
+  fullName: AdvancedSceneManager.Core.Actions.QuickStartupAction.QuickStartupAction

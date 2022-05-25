@@ -1,0 +1,263 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  id: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.EditCollectionPopup
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  - AdvancedSceneManager.Editor.GenericPopup
+  - AdvancedSceneManager.Editor.GenericPopup.Item
+  - AdvancedSceneManager.Editor.IUIToolkitEditor
+  - AdvancedSceneManager.Editor.ObjectField
+  - AdvancedSceneManager.Editor.ObjectField.UxmlFactory
+  - AdvancedSceneManager.Editor.ObjectField.UxmlTraits
+  - AdvancedSceneManager.Editor.OpenInEditorPopup
+  - AdvancedSceneManager.Editor.PickTagPopup
+  - AdvancedSceneManager.Editor.Popup
+  - AdvancedSceneManager.Editor.Popup`1
+  - AdvancedSceneManager.Editor.SceneAssetEditor
+  - AdvancedSceneManager.Editor.SceneField
+  - AdvancedSceneManager.Editor.SceneField.SceneChangedEvent
+  - AdvancedSceneManager.Editor.SceneField.UxmlFactory
+  - AdvancedSceneManager.Editor.SceneField.UxmlTraits
+  - AdvancedSceneManager.Editor.SceneManagerWindow
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  - AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  - AdvancedSceneManager.Editor.SceneManagerWindow.PostProcess
+  - AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  - AdvancedSceneManager.Editor.SceneOverviewWindow
+  - AdvancedSceneManager.Editor.ScenePropertyDrawer
+  - AdvancedSceneManager.Editor.ScenesTab
+  - AdvancedSceneManager.Editor.SettingsTab
+  - AdvancedSceneManager.Editor.TagsTab
+  langs:
+  - csharp
+  - vb
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+  type: Namespace
+  assemblies:
+  - AdvancedSceneManager.Editor
+references:
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  commentId: T:AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  name: EditorWindow_UIElements<T>
+  nameWithType: EditorWindow_UIElements<T>
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>
+  nameWithType.vb: EditorWindow_UIElements(Of T)
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T)
+  name.vb: EditorWindow_UIElements(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+    name: EditorWindow_UIElements
+    nameWithType: EditorWindow_UIElements
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+    name: EditorWindow_UIElements
+    nameWithType: EditorWindow_UIElements
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.GenericPopup
+  commentId: T:AdvancedSceneManager.Editor.GenericPopup
+  parent: AdvancedSceneManager.Editor
+  name: GenericPopup
+  nameWithType: GenericPopup
+  fullName: AdvancedSceneManager.Editor.GenericPopup
+- uid: AdvancedSceneManager.Editor.GenericPopup.Item
+  commentId: T:AdvancedSceneManager.Editor.GenericPopup.Item
+  parent: AdvancedSceneManager.Editor
+  name: GenericPopup.Item
+  nameWithType: GenericPopup.Item
+  fullName: AdvancedSceneManager.Editor.GenericPopup.Item
+- uid: AdvancedSceneManager.Editor.ObjectField
+  commentId: T:AdvancedSceneManager.Editor.ObjectField
+  parent: AdvancedSceneManager.Editor
+  name: ObjectField
+  nameWithType: ObjectField
+  fullName: AdvancedSceneManager.Editor.ObjectField
+- uid: AdvancedSceneManager.Editor.ObjectField.UxmlFactory
+  commentId: T:AdvancedSceneManager.Editor.ObjectField.UxmlFactory
+  name: ObjectField.UxmlFactory
+  nameWithType: ObjectField.UxmlFactory
+  fullName: AdvancedSceneManager.Editor.ObjectField.UxmlFactory
+- uid: AdvancedSceneManager.Editor.ObjectField.UxmlTraits
+  commentId: T:AdvancedSceneManager.Editor.ObjectField.UxmlTraits
+  name: ObjectField.UxmlTraits
+  nameWithType: ObjectField.UxmlTraits
+  fullName: AdvancedSceneManager.Editor.ObjectField.UxmlTraits
+- uid: AdvancedSceneManager.Editor.IUIToolkitEditor
+  commentId: T:AdvancedSceneManager.Editor.IUIToolkitEditor
+  parent: AdvancedSceneManager.Editor
+  name: IUIToolkitEditor
+  nameWithType: IUIToolkitEditor
+  fullName: AdvancedSceneManager.Editor.IUIToolkitEditor
+- uid: AdvancedSceneManager.Editor.Popup
+  commentId: T:AdvancedSceneManager.Editor.Popup
+  parent: AdvancedSceneManager.Editor
+  name: Popup
+  nameWithType: Popup
+  fullName: AdvancedSceneManager.Editor.Popup
+- uid: AdvancedSceneManager.Editor.Popup`1
+  commentId: T:AdvancedSceneManager.Editor.Popup`1
+  name: Popup<T>
+  nameWithType: Popup<T>
+  fullName: AdvancedSceneManager.Editor.Popup<T>
+  nameWithType.vb: Popup(Of T)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T)
+  name.vb: Popup(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1
+    name: Popup
+    nameWithType: Popup
+    fullName: AdvancedSceneManager.Editor.Popup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1
+    name: Popup
+    nameWithType: Popup
+    fullName: AdvancedSceneManager.Editor.Popup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.SceneAssetEditor
+  commentId: T:AdvancedSceneManager.Editor.SceneAssetEditor
+  name: SceneAssetEditor
+  nameWithType: SceneAssetEditor
+  fullName: AdvancedSceneManager.Editor.SceneAssetEditor
+- uid: AdvancedSceneManager.Editor.SceneField
+  commentId: T:AdvancedSceneManager.Editor.SceneField
+  parent: AdvancedSceneManager.Editor
+  name: SceneField
+  nameWithType: SceneField
+  fullName: AdvancedSceneManager.Editor.SceneField
+- uid: AdvancedSceneManager.Editor.SceneField.SceneChangedEvent
+  commentId: T:AdvancedSceneManager.Editor.SceneField.SceneChangedEvent
+  name: SceneField.SceneChangedEvent
+  nameWithType: SceneField.SceneChangedEvent
+  fullName: AdvancedSceneManager.Editor.SceneField.SceneChangedEvent
+- uid: AdvancedSceneManager.Editor.SceneField.UxmlFactory
+  commentId: T:AdvancedSceneManager.Editor.SceneField.UxmlFactory
+  name: SceneField.UxmlFactory
+  nameWithType: SceneField.UxmlFactory
+  fullName: AdvancedSceneManager.Editor.SceneField.UxmlFactory
+- uid: AdvancedSceneManager.Editor.SceneField.UxmlTraits
+  commentId: T:AdvancedSceneManager.Editor.SceneField.UxmlTraits
+  name: SceneField.UxmlTraits
+  nameWithType: SceneField.UxmlTraits
+  fullName: AdvancedSceneManager.Editor.SceneField.UxmlTraits
+- uid: AdvancedSceneManager.Editor.ScenePropertyDrawer
+  commentId: T:AdvancedSceneManager.Editor.ScenePropertyDrawer
+  name: ScenePropertyDrawer
+  nameWithType: ScenePropertyDrawer
+  fullName: AdvancedSceneManager.Editor.ScenePropertyDrawer
+- uid: AdvancedSceneManager.Editor.EditCollectionPopup
+  commentId: T:AdvancedSceneManager.Editor.EditCollectionPopup
+  parent: AdvancedSceneManager.Editor
+  name: EditCollectionPopup
+  nameWithType: EditCollectionPopup
+  fullName: AdvancedSceneManager.Editor.EditCollectionPopup
+- uid: AdvancedSceneManager.Editor.OpenInEditorPopup
+  commentId: T:AdvancedSceneManager.Editor.OpenInEditorPopup
+  parent: AdvancedSceneManager.Editor
+  name: OpenInEditorPopup
+  nameWithType: OpenInEditorPopup
+  fullName: AdvancedSceneManager.Editor.OpenInEditorPopup
+- uid: AdvancedSceneManager.Editor.PickTagPopup
+  commentId: T:AdvancedSceneManager.Editor.PickTagPopup
+  parent: AdvancedSceneManager.Editor
+  name: PickTagPopup
+  nameWithType: PickTagPopup
+  fullName: AdvancedSceneManager.Editor.PickTagPopup
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow
+  name: SceneManagerWindow
+  nameWithType: SceneManagerWindow
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  parent: AdvancedSceneManager.Editor
+  name: SceneManagerWindow.Tab
+  nameWithType: SceneManagerWindow.Tab
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.PostProcess
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.PostProcess
+  name: SceneManagerWindow.PostProcess
+  nameWithType: SceneManagerWindow.PostProcess
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.PostProcess
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  name: SceneManagerWindow.DragAndDropReorder
+  nameWithType: SceneManagerWindow.DragAndDropReorder
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  parent: AdvancedSceneManager.Editor
+  name: SceneManagerWindow.DragAndDropReorder.DragElement
+  nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  parent: AdvancedSceneManager.Editor
+  name: SceneManagerWindow.FooterItem
+  nameWithType: SceneManagerWindow.FooterItem
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+- uid: AdvancedSceneManager.Editor.SceneOverviewWindow
+  commentId: T:AdvancedSceneManager.Editor.SceneOverviewWindow
+  name: SceneOverviewWindow
+  nameWithType: SceneOverviewWindow
+  fullName: AdvancedSceneManager.Editor.SceneOverviewWindow
+- uid: AdvancedSceneManager.Editor.ScenesTab
+  commentId: T:AdvancedSceneManager.Editor.ScenesTab
+  name: ScenesTab
+  nameWithType: ScenesTab
+  fullName: AdvancedSceneManager.Editor.ScenesTab
+- uid: AdvancedSceneManager.Editor.SettingsTab
+  commentId: T:AdvancedSceneManager.Editor.SettingsTab
+  name: SettingsTab
+  nameWithType: SettingsTab
+  fullName: AdvancedSceneManager.Editor.SettingsTab
+- uid: AdvancedSceneManager.Editor.TagsTab
+  commentId: T:AdvancedSceneManager.Editor.TagsTab
+  name: TagsTab
+  nameWithType: TagsTab
+  fullName: AdvancedSceneManager.Editor.TagsTab
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor

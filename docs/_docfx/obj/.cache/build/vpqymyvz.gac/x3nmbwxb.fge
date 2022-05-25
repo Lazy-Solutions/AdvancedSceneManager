@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h3 id="addressables">Addressables</h3>
+
+<p><br></p>
+<p>Addressables support package adds support to open and close addressable <a href="../guides/Scene.html">scenes</a> in ASM.</p>
+<p>This package automatically finds all <a href="../guides/Scene.html">scenes</a> that are addressable and overrides default <a href="../guides/Scene.html">scene</a> open and close behavior. Which means, after tweaking settings in addressables, ASM should just work like it usually does.</p>
+<p>In addition to <a href="../guides/Scene.html">scene</a> open and close support, a button is added to
+<a href="../guides/Scene.html">scenes</a> and <a href="../guides/SceneCollection.html">collections</a> in ui.</p>
+<p><img src="../image/addressables.png" alt=""></p>
+<p>Pressing &#39;Addr.&#39; button on a <a href="../guides/Scene.html">scene</a> toggles the <a href="../guides/Scene.html">scene</a> as addressable.<br>
+Pressing &#39;Addressable&#39; on collection will toggle all <a href="../guides/Scene.html">scenes</a> in <a href="../guides/SceneCollection.html">collection</a> as addressable.</p>
+<p>Please note:</p>
+<blockquote><p>When ASM adds a <a href="../guides/Scene.html">scene</a> to addressables, it will add it under a default group, named after the <a href="../guides/SceneCollection.html">collection</a> the <a href="../guides/Scene.html">scene</a> is contained in. This group will not have a schema assigned to it by ASM, and is expected to be assigned manually, or have all scenes reassigned to other groups.</p>
+</blockquote>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

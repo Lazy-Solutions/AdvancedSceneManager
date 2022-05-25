@@ -1,0 +1,310 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.SceneField.SceneChangedEvent
+  commentId: T:AdvancedSceneManager.Editor.SceneField.SceneChangedEvent
+  id: SceneField.SceneChangedEvent
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.SceneField.SceneChangedEvent.#ctor(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.Scene)
+  langs:
+  - csharp
+  - vb
+  name: SceneField.SceneChangedEvent
+  nameWithType: SceneField.SceneChangedEvent
+  fullName: AdvancedSceneManager.Editor.SceneField.SceneChangedEvent
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SceneChangedEvent
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+    startLine: 358
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: 'public class SceneChangedEvent : ChangeEvent<Scene>, IDisposable, IChangeEvent'
+    content.vb: >-
+      Public Class SceneChangedEvent
+          Inherits ChangeEvent(Of Scene)
+          Implements IDisposable, IChangeEvent
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.EventBase
+  - UnityEngine.UIElements.EventBase{UnityEngine.UIElements.ChangeEvent{AdvancedSceneManager.Models.Scene}}
+  - UnityEngine.UIElements.ChangeEvent{AdvancedSceneManager.Models.Scene}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Editor.SceneField.SceneChangedEvent.#ctor(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.Scene)
+  commentId: M:AdvancedSceneManager.Editor.SceneField.SceneChangedEvent.#ctor(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.Scene)
+  id: '#ctor(AdvancedSceneManager.Models.Scene,AdvancedSceneManager.Models.Scene)'
+  parent: AdvancedSceneManager.Editor.SceneField.SceneChangedEvent
+  langs:
+  - csharp
+  - vb
+  name: SceneChangedEvent(Scene, Scene)
+  nameWithType: SceneField.SceneChangedEvent.SceneChangedEvent(Scene, Scene)
+  fullName: AdvancedSceneManager.Editor.SceneField.SceneChangedEvent.SceneChangedEvent(AdvancedSceneManager.Models.Scene, AdvancedSceneManager.Models.Scene)
+  type: Constructor
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: .ctor
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+    startLine: 361
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public SceneChangedEvent(Scene newValue, Scene oldValue)
+    parameters:
+    - id: newValue
+      type: AdvancedSceneManager.Models.Scene
+    - id: oldValue
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: Public Sub New(newValue As Scene, oldValue As Scene)
+  overload: AdvancedSceneManager.Editor.SceneField.SceneChangedEvent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.UIElements.EventBase
+  commentId: T:UnityEngine.UIElements.EventBase
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: EventBase
+  nameWithType: EventBase
+  fullName: UnityEngine.UIElements.EventBase
+- uid: UnityEngine.UIElements.EventBase{UnityEngine.UIElements.ChangeEvent{AdvancedSceneManager.Models.Scene}}
+  commentId: T:UnityEngine.UIElements.EventBase{UnityEngine.UIElements.ChangeEvent{AdvancedSceneManager.Models.Scene}}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.EventBase`1
+  name: EventBase<ChangeEvent<Scene>>
+  nameWithType: EventBase<ChangeEvent<Scene>>
+  fullName: UnityEngine.UIElements.EventBase<UnityEngine.UIElements.ChangeEvent<AdvancedSceneManager.Models.Scene>>
+  nameWithType.vb: EventBase(Of ChangeEvent(Of Scene))
+  fullName.vb: UnityEngine.UIElements.EventBase(Of UnityEngine.UIElements.ChangeEvent(Of AdvancedSceneManager.Models.Scene))
+  name.vb: EventBase(Of ChangeEvent(Of Scene))
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventBase`1
+    name: EventBase
+    nameWithType: EventBase
+    fullName: UnityEngine.UIElements.EventBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    nameWithType: ChangeEvent
+    fullName: UnityEngine.UIElements.ChangeEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventBase`1
+    name: EventBase
+    nameWithType: EventBase
+    fullName: UnityEngine.UIElements.EventBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    nameWithType: ChangeEvent
+    fullName: UnityEngine.UIElements.ChangeEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UIElements.ChangeEvent{AdvancedSceneManager.Models.Scene}
+  commentId: T:UnityEngine.UIElements.ChangeEvent{AdvancedSceneManager.Models.Scene}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.ChangeEvent`1
+  name: ChangeEvent<Scene>
+  nameWithType: ChangeEvent<Scene>
+  fullName: UnityEngine.UIElements.ChangeEvent<AdvancedSceneManager.Models.Scene>
+  nameWithType.vb: ChangeEvent(Of Scene)
+  fullName.vb: UnityEngine.UIElements.ChangeEvent(Of AdvancedSceneManager.Models.Scene)
+  name.vb: ChangeEvent(Of Scene)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    nameWithType: ChangeEvent
+    fullName: UnityEngine.UIElements.ChangeEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    nameWithType: ChangeEvent
+    fullName: UnityEngine.UIElements.ChangeEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+- uid: UnityEngine.UIElements.EventBase`1
+  commentId: T:UnityEngine.UIElements.EventBase`1
+  isExternal: true
+  name: EventBase<T>
+  nameWithType: EventBase<T>
+  fullName: UnityEngine.UIElements.EventBase<T>
+  nameWithType.vb: EventBase(Of T)
+  fullName.vb: UnityEngine.UIElements.EventBase(Of T)
+  name.vb: EventBase(Of T)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventBase`1
+    name: EventBase
+    nameWithType: EventBase
+    fullName: UnityEngine.UIElements.EventBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventBase`1
+    name: EventBase
+    nameWithType: EventBase
+    fullName: UnityEngine.UIElements.EventBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UIElements.ChangeEvent`1
+  commentId: T:UnityEngine.UIElements.ChangeEvent`1
+  isExternal: true
+  name: ChangeEvent<T>
+  nameWithType: ChangeEvent<T>
+  fullName: UnityEngine.UIElements.ChangeEvent<T>
+  nameWithType.vb: ChangeEvent(Of T)
+  fullName.vb: UnityEngine.UIElements.ChangeEvent(Of T)
+  name.vb: ChangeEvent(Of T)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    nameWithType: ChangeEvent
+    fullName: UnityEngine.UIElements.ChangeEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    nameWithType: ChangeEvent
+    fullName: UnityEngine.UIElements.ChangeEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.SceneField.SceneChangedEvent.#ctor*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneField.SceneChangedEvent.#ctor
+  name: SceneChangedEvent
+  nameWithType: SceneField.SceneChangedEvent.SceneChangedEvent
+  fullName: AdvancedSceneManager.Editor.SceneField.SceneChangedEvent.SceneChangedEvent
+- uid: AdvancedSceneManager.Models.Scene
+  commentId: T:AdvancedSceneManager.Models.Scene
+  parent: AdvancedSceneManager.Models
+  name: Scene
+  nameWithType: Scene
+  fullName: AdvancedSceneManager.Models.Scene
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models

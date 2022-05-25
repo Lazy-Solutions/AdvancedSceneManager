@@ -1,0 +1,506 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+  id: BuildSettingsUtility
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetEnabledState(System.String)
+  - AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetOrderedList
+  - AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.IsIncluded(AdvancedSceneManager.Models.Scene)
+  - AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.UpdateBuildSettings
+  langs:
+  - csharp
+  - vb
+  name: BuildSettingsUtility
+  nameWithType: BuildSettingsUtility
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: BuildSettingsUtility
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+    startLine: 17
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: An utility class for managing build settings scene order.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public static class BuildSettingsUtility
+    content.vb: Public Module BuildSettingsUtility
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.UpdateBuildSettings
+  commentId: M:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.UpdateBuildSettings
+  id: UpdateBuildSettings
+  parent: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+  langs:
+  - csharp
+  - vb
+  name: UpdateBuildSettings()
+  nameWithType: BuildSettingsUtility.UpdateBuildSettings()
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.UpdateBuildSettings()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: UpdateBuildSettings
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+    startLine: 139
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Updates the scene build settings.
+  example: []
+  syntax:
+    content: public static void UpdateBuildSettings()
+    content.vb: Public Shared Sub UpdateBuildSettings
+  overload: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.UpdateBuildSettings*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetOrderedList
+  commentId: M:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetOrderedList
+  id: GetOrderedList
+  parent: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+  langs:
+  - csharp
+  - vb
+  name: GetOrderedList()
+  nameWithType: BuildSettingsUtility.GetOrderedList()
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetOrderedList()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: GetOrderedList
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+    startLine: 158
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Get an ordered list of all scenes that would be set as scene build settings.
+  example: []
+  syntax:
+    content: public static IEnumerable<(string scene, EditorBuildSettingsScene buildScene, BuildSettingsUtility.Reason reason)> GetOrderedList()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.ValueTuple{System.String,UnityEditor.EditorBuildSettingsScene,AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason}}
+    content.vb: Public Shared Function GetOrderedList As IEnumerable(Of(scene As String, buildScene As EditorBuildSettingsScene, reason As BuildSettingsUtility.Reason)(Of String , EditorBuildSettingsScene, BuildSettingsUtility.Reason))
+  overload: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetOrderedList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.IsIncluded(AdvancedSceneManager.Models.Scene)
+  commentId: M:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.IsIncluded(AdvancedSceneManager.Models.Scene)
+  id: IsIncluded(AdvancedSceneManager.Models.Scene)
+  parent: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+  langs:
+  - csharp
+  - vb
+  name: IsIncluded(Scene)
+  nameWithType: BuildSettingsUtility.IsIncluded(Scene)
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.IsIncluded(AdvancedSceneManager.Models.Scene)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IsIncluded
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+    startLine: 184
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Get if scene is included in build.
+  example: []
+  syntax:
+    content: public static bool IsIncluded(Scene scene)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsIncluded(scene As Scene) As Boolean
+  overload: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.IsIncluded*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetEnabledState(System.String)
+  commentId: M:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetEnabledState(System.String)
+  id: GetEnabledState(System.String)
+  parent: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+  langs:
+  - csharp
+  - vb
+  name: GetEnabledState(String)
+  nameWithType: BuildSettingsUtility.GetEnabledState(String)
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetEnabledState(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: GetEnabledState
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+    startLine: 188
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Gets the enabled state of a scene.
+  example: []
+  syntax:
+    content: public static (bool enabled, BuildSettingsUtility.Reason reason) GetEnabledState(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.ValueTuple{System.Boolean,AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason}
+    content.vb: Public Shared Function GetEnabledState(path As String) As(enabled As Boolean, reason As BuildSettingsUtility.Reason)(Of Boolean , BuildSettingsUtility.Reason)
+  overload: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetEnabledState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.UpdateBuildSettings*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.UpdateBuildSettings
+  name: UpdateBuildSettings
+  nameWithType: BuildSettingsUtility.UpdateBuildSettings
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.UpdateBuildSettings
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetOrderedList*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetOrderedList
+  name: GetOrderedList
+  nameWithType: BuildSettingsUtility.GetOrderedList
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetOrderedList
+- uid: System.Collections.Generic.IEnumerable{System.ValueTuple{System.String,UnityEditor.EditorBuildSettingsScene,AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.ValueTuple{System.String,UnityEditor.EditorBuildSettingsScene,AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<(T1, T2, T3)<String, EditorBuildSettingsScene, BuildSettingsUtility.Reason>>
+  nameWithType: IEnumerable<(T1, T2, T3)<String, EditorBuildSettingsScene, BuildSettingsUtility.Reason>>
+  fullName: System.Collections.Generic.IEnumerable<System.ValueTuple<System.String, UnityEditor.EditorBuildSettingsScene, AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason>>
+  nameWithType.vb: IEnumerable(Of (T1, T2, T3)(Of String, EditorBuildSettingsScene, BuildSettingsUtility.Reason))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.ValueTuple(Of System.String, UnityEditor.EditorBuildSettingsScene, AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason))
+  name.vb: IEnumerable(Of (T1, T2, T3)(Of String, EditorBuildSettingsScene, BuildSettingsUtility.Reason))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`3
+    name: (T1, T2, T3)
+    nameWithType: (T1, T2, T3)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEditor.EditorBuildSettingsScene
+    name: EditorBuildSettingsScene
+    nameWithType: EditorBuildSettingsScene
+    fullName: UnityEditor.EditorBuildSettingsScene
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+    name: BuildSettingsUtility.Reason
+    nameWithType: BuildSettingsUtility.Reason
+    fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`3
+    name: (T1, T2, T3)
+    nameWithType: (T1, T2, T3)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEditor.EditorBuildSettingsScene
+    name: EditorBuildSettingsScene
+    nameWithType: EditorBuildSettingsScene
+    fullName: UnityEditor.EditorBuildSettingsScene
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+    name: BuildSettingsUtility.Reason
+    nameWithType: BuildSettingsUtility.Reason
+    fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.IsIncluded*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.IsIncluded
+  name: IsIncluded
+  nameWithType: BuildSettingsUtility.IsIncluded
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.IsIncluded
+- uid: AdvancedSceneManager.Models.Scene
+  commentId: T:AdvancedSceneManager.Models.Scene
+  parent: AdvancedSceneManager.Models
+  name: Scene
+  nameWithType: Scene
+  fullName: AdvancedSceneManager.Models.Scene
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetEnabledState*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetEnabledState
+  name: GetEnabledState
+  nameWithType: BuildSettingsUtility.GetEnabledState
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.GetEnabledState
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.ValueTuple{System.Boolean,AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason}
+  commentId: T:System.ValueTuple{System.Boolean,AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason}
+  parent: System
+  definition: System.ValueTuple`2
+  name: (T1, T2)<Boolean, BuildSettingsUtility.Reason>
+  nameWithType: (T1, T2)<Boolean, BuildSettingsUtility.Reason>
+  fullName: System.ValueTuple<System.Boolean, AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason>
+  nameWithType.vb: (T1, T2)(Of Boolean, BuildSettingsUtility.Reason)
+  fullName.vb: System.ValueTuple(Of System.Boolean, AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason)
+  name.vb: (T1, T2)(Of Boolean, BuildSettingsUtility.Reason)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+    name: BuildSettingsUtility.Reason
+    nameWithType: BuildSettingsUtility.Reason
+    fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+    name: BuildSettingsUtility.Reason
+    nameWithType: BuildSettingsUtility.Reason
+    fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  isExternal: true
+  name: (T1, T2)<T1, T2>
+  nameWithType: (T1, T2)<T1, T2>
+  fullName: System.ValueTuple<T1, T2>
+  nameWithType.vb: (T1, T2)(Of T1, T2)
+  fullName.vb: System.ValueTuple(Of T1, T2)
+  name.vb: (T1, T2)(Of T1, T2)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Models_Profile" data-uid="AdvancedSceneManager.Models.Profile" class="text-break">Class Profile
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A profile, contains settings, collections and scenes.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><span class="xref">Profile</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Models.html">AdvancedSceneManager.Models</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Models_Profile_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Profile : ScriptableObject, INotifyPropertyChanged</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="AdvancedSceneManager_Models_Profile_tagDefinitions" data-uid="AdvancedSceneManager.Models.Profile.tagDefinitions">tagDefinitions</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The layers defined in the tags tab in the scene manager window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneTag[] tagDefinitions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.SceneTag.html">SceneTag</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Models_Profile_backgroundLoadingPriority_" data-uid="AdvancedSceneManager.Models.Profile.backgroundLoadingPriority*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_backgroundLoadingPriority" data-uid="AdvancedSceneManager.Models.Profile.backgroundLoadingPriority">backgroundLoadingPriority</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1"><span class="xref">UnityEngine.Application.backgroundLoadingPriority</span> setting is not saved, and must be manually set every time build or editor starts, this property persists the value and automatically sets it during startup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ThreadPriority backgroundLoadingPriority { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.ThreadPriority</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_blacklist_" data-uid="AdvancedSceneManager.Models.Profile.blacklist*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_blacklist" data-uid="AdvancedSceneManager.Models.Profile.blacklist">blacklist</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The blacklist settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SettingsModule blacklist { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">plugin.asm.dependency_manager.Blacklist.SettingsModule</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_blacklist_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Only available in editor.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_Profile_collections_" data-uid="AdvancedSceneManager.Models.Profile.collections*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_collections" data-uid="AdvancedSceneManager.Models.Profile.collections">collections</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets the collections contained within this profile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;SceneCollection&gt; collections { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_createCameraDuringStartup_" data-uid="AdvancedSceneManager.Models.Profile.createCameraDuringStartup*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_createCameraDuringStartup" data-uid="AdvancedSceneManager.Models.Profile.createCameraDuringStartup">createCameraDuringStartup</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Enable or disable ASM automatically creating a camera during startup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool createCameraDuringStartup { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_current_" data-uid="AdvancedSceneManager.Models.Profile.current*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_current" data-uid="AdvancedSceneManager.Models.Profile.current">current</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets the currently active profile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Profile current { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Profile.html">Profile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_dynamicCollectionPaths_" data-uid="AdvancedSceneManager.Models.Profile.dynamicCollectionPaths*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_dynamicCollectionPaths" data-uid="AdvancedSceneManager.Models.Profile.dynamicCollectionPaths">dynamicCollectionPaths</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The paths of which all scenes should be included in build, as a dynamic collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] dynamicCollectionPaths { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_dynamicCollectionPaths_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">These are only evaluated and used in <a class="xref" href="AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.html">BuildSettingsUtility</a>.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_Profile_dynamicCollections_" data-uid="AdvancedSceneManager.Models.Profile.dynamicCollections*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_dynamicCollections" data-uid="AdvancedSceneManager.Models.Profile.dynamicCollections">dynamicCollections</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets the dynamic collections specified on this profile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DynamicCollection[] dynamicCollections { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.DynamicCollection.html">DynamicCollection</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_enableChangingBackgroundLoadingPriority_" data-uid="AdvancedSceneManager.Models.Profile.enableChangingBackgroundLoadingPriority*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_enableChangingBackgroundLoadingPriority" data-uid="AdvancedSceneManager.Models.Profile.enableChangingBackgroundLoadingPriority">enableChangingBackgroundLoadingPriority</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Enable or disable ASM automatically changing <span class="xref">UnityEngine.Application.backgroundLoadingPriority</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool enableChangingBackgroundLoadingPriority { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_includeFadeLoadingScene_" data-uid="AdvancedSceneManager.Models.Profile.includeFadeLoadingScene*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_includeFadeLoadingScene" data-uid="AdvancedSceneManager.Models.Profile.includeFadeLoadingScene">includeFadeLoadingScene</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Enables the fade loading scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool includeFadeLoadingScene { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_includeFadeLoadingScene_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Has no effect while in play mode.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_Profile_loadingScreen_" data-uid="AdvancedSceneManager.Models.Profile.loadingScreen*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_loadingScreen" data-uid="AdvancedSceneManager.Models.Profile.loadingScreen">loadingScreen</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The default loading screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene loadingScreen { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_name_" data-uid="AdvancedSceneManager.Models.Profile.name*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_name" data-uid="AdvancedSceneManager.Models.Profile.name">name</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_scenePaths_" data-uid="AdvancedSceneManager.Models.Profile.scenePaths*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_scenePaths" data-uid="AdvancedSceneManager.Models.Profile.scenePaths">scenePaths</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets the scenes managed by this profile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; scenePaths { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_scenePaths_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Includes both collection and standalone scenes.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_Profile_scenes_" data-uid="AdvancedSceneManager.Models.Profile.scenes*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_scenes" data-uid="AdvancedSceneManager.Models.Profile.scenes">scenes</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets the scenes managed by this profile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Scene&gt; scenes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_scenes_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Includes both collection and standalone scenes.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_Profile_splashScreen_" data-uid="AdvancedSceneManager.Models.Profile.splashScreen*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_splashScreen" data-uid="AdvancedSceneManager.Models.Profile.splashScreen">splashScreen</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The splash screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene splashScreen { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_startupLoadingScreen_" data-uid="AdvancedSceneManager.Models.Profile.startupLoadingScreen*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_startupLoadingScreen" data-uid="AdvancedSceneManager.Models.Profile.startupLoadingScreen">startupLoadingScreen</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The loading screen to use during startup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene startupLoadingScreen { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_startupScene_" data-uid="AdvancedSceneManager.Models.Profile.startupScene*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_startupScene" data-uid="AdvancedSceneManager.Models.Profile.startupScene">startupScene</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The startup scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene startupScene { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_useDefaultPauseScreen_" data-uid="AdvancedSceneManager.Models.Profile.useDefaultPauseScreen*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_useDefaultPauseScreen" data-uid="AdvancedSceneManager.Models.Profile.useDefaultPauseScreen">useDefaultPauseScreen</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Enables the default pause screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool useDefaultPauseScreen { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_useDefaultPauseScreen_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Has no effect while in play mode.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Models_Profile_Add_" data-uid="AdvancedSceneManager.Models.Profile.Add*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_Add_AdvancedSceneManager_Models_Scene_System_String_System_Boolean_" data-uid="AdvancedSceneManager.Models.Profile.Add(AdvancedSceneManager.Models.Scene,System.String,System.Boolean)">Add(Scene, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Adds a scene to a dynamic collection on this profile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(Scene scene, string collectionTitle = &quot;&quot;, bool updateBuildSettings = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionTitle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">updateBuildSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_Add_AdvancedSceneManager_Models_Scene_System_String_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Only available in editor.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_Profile_Add_" data-uid="AdvancedSceneManager.Models.Profile.Add*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_Add_AdvancedSceneManager_Models_SceneCollection_" data-uid="AdvancedSceneManager.Models.Profile.Add(AdvancedSceneManager.Models.SceneCollection)">Add(SceneCollection)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Adds a collection to this profile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(SceneCollection collection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a></td>
+        <td><span class="parametername">collection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_Add_AdvancedSceneManager_Models_SceneCollection__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Only available in editor.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_Profile_Clear_" data-uid="AdvancedSceneManager.Models.Profile.Clear*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_Clear_System_String_System_Boolean_System_Boolean_" data-uid="AdvancedSceneManager.Models.Profile.Clear(System.String,System.Boolean,System.Boolean)">Clear(String, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Clears a dynamic collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear(string collectionTitle, bool save = true, bool updateBuildSettings = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionTitle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">save</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">updateBuildSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_Clear_System_String_System_Boolean_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Only available in editor.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_Profile_CreateCollection_" data-uid="AdvancedSceneManager.Models.Profile.CreateCollection*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_CreateCollection_System_String_System_Action_AdvancedSceneManager_Models_SceneCollection__" data-uid="AdvancedSceneManager.Models.Profile.CreateCollection(System.String,System.Action{AdvancedSceneManager.Models.SceneCollection})">CreateCollection(String, Action&lt;SceneCollection&gt;)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Create a collection and add it to this profile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneCollection CreateCollection(string name, Action&lt;SceneCollection&gt; initializeBeforeSave = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a>&gt;</td>
+        <td><span class="parametername">initializeBeforeSave</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_CreateCollection_System_String_System_Action_AdvancedSceneManager_Models_SceneCollection___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Only available in editor.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_Profile_Delete_" data-uid="AdvancedSceneManager.Models.Profile.Delete*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_Delete" data-uid="AdvancedSceneManager.Models.Profile.Delete">Delete()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Delete()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_Profile_Find_" data-uid="AdvancedSceneManager.Models.Profile.Find*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_Find_System_Func_AdvancedSceneManager_Models_Profile_System_Boolean__" data-uid="AdvancedSceneManager.Models.Profile.Find(System.Func{AdvancedSceneManager.Models.Profile,System.Boolean})">Find(Func&lt;Profile, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Profile Find(Func&lt;Profile, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="AdvancedSceneManager.Models.Profile.html">Profile</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Profile.html">Profile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_Find_" data-uid="AdvancedSceneManager.Models.Profile.Find*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_Find_System_String_" data-uid="AdvancedSceneManager.Models.Profile.Find(System.String)">Find(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Profile Find(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Profile.html">Profile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_FindAll_" data-uid="AdvancedSceneManager.Models.Profile.FindAll*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_FindAll" data-uid="AdvancedSceneManager.Models.Profile.FindAll">FindAll()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Profile[] FindAll()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Profile.html">Profile</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_IsSet_" data-uid="AdvancedSceneManager.Models.Profile.IsSet*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_IsSet_System_String_System_Boolean_" data-uid="AdvancedSceneManager.Models.Profile.IsSet(System.String,System.Boolean)">IsSet(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets if the scene is added in a dynamic collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSet(string scene, bool includeStandalone = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeStandalone</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_IsSet_" data-uid="AdvancedSceneManager.Models.Profile.IsSet*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_IsSet_System_String_System_String_" data-uid="AdvancedSceneManager.Models.Profile.IsSet(System.String,System.String)">IsSet(String, String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets if the scene is added in a dynamic collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSet(string key, string scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_MarkAsDirty_" data-uid="AdvancedSceneManager.Models.Profile.MarkAsDirty*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_MarkAsDirty" data-uid="AdvancedSceneManager.Models.Profile.MarkAsDirty">MarkAsDirty()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Mark scriptable object as dirty after modifying.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MarkAsDirty()</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Models_Profile_MarkAsDirty_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">No effect in build.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_Profile_Order_" data-uid="AdvancedSceneManager.Models.Profile.Order*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_Order_AdvancedSceneManager_Models_SceneCollection_" data-uid="AdvancedSceneManager.Models.Profile.Order(AdvancedSceneManager.Models.SceneCollection)">Order(SceneCollection)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns the order of this collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Order(SceneCollection collection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a></td>
+        <td><span class="parametername">collection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_Profile_Order_" data-uid="AdvancedSceneManager.Models.Profile.Order*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_Order_AdvancedSceneManager_Models_SceneCollection_System_Nullable_System_Int32__" data-uid="AdvancedSceneManager.Models.Profile.Order(AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32})">Order(SceneCollection, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns and/or sets the order of this collection in the scene manager window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Order(SceneCollection collection, int? newIndex = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a></td>
+        <td><span class="parametername">collection</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">newIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_Order_AdvancedSceneManager_Models_SceneCollection_System_Nullable_System_Int32___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Cannot use in build.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_Profile_Remove_" data-uid="AdvancedSceneManager.Models.Profile.Remove*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_Remove_AdvancedSceneManager_Models_Scene_System_String_System_Boolean_" data-uid="AdvancedSceneManager.Models.Profile.Remove(AdvancedSceneManager.Models.Scene,System.String,System.Boolean)">Remove(Scene, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Removes the scene from the specified dynamic collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove(Scene scene, string collectionTitle = &quot;&quot;, bool updateBuildSettings = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionTitle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">updateBuildSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_Remove_AdvancedSceneManager_Models_Scene_System_String_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Only available in editor.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_Profile_Remove_" data-uid="AdvancedSceneManager.Models.Profile.Remove*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_Remove_AdvancedSceneManager_Models_SceneCollection_" data-uid="AdvancedSceneManager.Models.Profile.Remove(AdvancedSceneManager.Models.SceneCollection)">Remove(SceneCollection)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Removes a collection from this profile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove(SceneCollection collection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a></td>
+        <td><span class="parametername">collection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_Remove_AdvancedSceneManager_Models_SceneCollection__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Only available in editor.</p>
+</div>
+  <a id="AdvancedSceneManager_Models_Profile_StartupCollections_" data-uid="AdvancedSceneManager.Models.Profile.StartupCollections*"></a>
+  <h4 id="AdvancedSceneManager_Models_Profile_StartupCollections" data-uid="AdvancedSceneManager.Models.Profile.StartupCollections">StartupCollections()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets the collections that will be opened on startup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;SceneCollection&gt; StartupCollections()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Models_Profile_StartupCollections_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Models.Profile.yml" sourcestartlinenumber="1" sourceendlinenumber="1">If no collection is explicitly defined to be opened during startup, then the first available collection in list will be returned.</p>
+</div>
+  <h3 id="events">Events
+  </h3>
+  <h4 id="AdvancedSceneManager_Models_Profile_onProfileChanged" data-uid="AdvancedSceneManager.Models.Profile.onProfileChanged">onProfileChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action onProfileChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="AdvancedSceneManager_Models_Profile_PropertyChanged" data-uid="AdvancedSceneManager.Models.Profile.PropertyChanged">PropertyChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ComponentModel.PropertyChangedEventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.ScriptableObjectUtility.html#AdvancedSceneManager_Utility_ScriptableObjectUtility_Save_UnityEngine_ScriptableObject_">ScriptableObjectUtility.Save(ScriptableObject)</a>
+  </div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

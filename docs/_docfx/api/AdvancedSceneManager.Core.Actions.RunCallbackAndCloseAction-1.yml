@@ -1,0 +1,903 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+  commentId: T:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+  id: RunCallbackAndCloseAction`1
+  parent: AdvancedSceneManager.Core.Actions
+  children:
+  - AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.#ctor(`0,System.Func{`0,System.Collections.IEnumerator},System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.callback
+  - AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.closeScene
+  - AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  - AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.isLoadingScreen
+  - AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.reportsProgress
+  - AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.runCallback
+  langs:
+  - csharp
+  - vb
+  name: RunCallbackAndCloseAction<T>
+  nameWithType: RunCallbackAndCloseAction<T>
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: RunCallbackAndCloseAction
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+    startLine: 10
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  summary: Runs a callback and closes the scene.
+  example: []
+  syntax:
+    content: 'public class RunCallbackAndCloseAction<T> : SceneAction where T : MonoBehaviour'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public Class RunCallbackAndCloseAction(Of T As MonoBehaviour)
+          Inherits SceneAction
+  inheritance:
+  - System.Object
+  - AdvancedSceneManager.Core.Actions.SceneAction
+  inheritedMembers:
+  - AdvancedSceneManager.Core.Actions.SceneAction.openScene
+  - AdvancedSceneManager.Core.Actions.SceneAction.scene
+  - AdvancedSceneManager.Core.Actions.SceneAction.collection
+  - AdvancedSceneManager.Core.Actions.SceneAction.progress
+  - AdvancedSceneManager.Core.Actions.SceneAction.isDone
+  - AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+  - AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+  - AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+  - AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+  - AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+  - AdvancedSceneManager.Core.Actions.SceneAction.ToString
+  nameWithType.vb: RunCallbackAndCloseAction(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T)
+  name.vb: RunCallbackAndCloseAction(Of T)
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.reportsProgress
+  commentId: P:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.reportsProgress
+  id: reportsProgress
+  parent: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+  langs:
+  - csharp
+  - vb
+  name: reportsProgress
+  nameWithType: RunCallbackAndCloseAction<T>.reportsProgress
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.reportsProgress
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: reportsProgress
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+    startLine: 13
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  syntax:
+    content: public override bool reportsProgress { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property reportsProgress As Boolean
+  overridden: AdvancedSceneManager.Core.Actions.SceneAction.reportsProgress
+  overload: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.reportsProgress*
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).reportsProgress
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).reportsProgress
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.#ctor(`0,System.Func{`0,System.Collections.IEnumerator},System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.#ctor(`0,System.Func{`0,System.Collections.IEnumerator},System.Boolean,System.Boolean)
+  id: '#ctor(`0,System.Func{`0,System.Collections.IEnumerator},System.Boolean,System.Boolean)'
+  parent: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+  langs:
+  - csharp
+  - vb
+  name: RunCallbackAndCloseAction(T, Func<T, IEnumerator>, Boolean, Boolean)
+  nameWithType: RunCallbackAndCloseAction<T>.RunCallbackAndCloseAction(T, Func<T, IEnumerator>, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.RunCallbackAndCloseAction(T, System.Func<T, System.Collections.IEnumerator>, System.Boolean, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: .ctor
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+    startLine: 15
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  syntax:
+    content: public RunCallbackAndCloseAction(T callback, Func<T, IEnumerator> runCallback, bool closeScene = true, bool isLoadingScreen = false)
+    parameters:
+    - id: callback
+      type: '{T}'
+    - id: runCallback
+      type: System.Func{{T},System.Collections.IEnumerator}
+    - id: closeScene
+      type: System.Boolean
+    - id: isLoadingScreen
+      type: System.Boolean
+    content.vb: Public Sub New(callback As T, runCallback As Func(Of T, IEnumerator), closeScene As Boolean = True, isLoadingScreen As Boolean = False)
+  overload: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.#ctor*
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).RunCallbackAndCloseAction(T, Func(Of T, IEnumerator), Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).RunCallbackAndCloseAction(T, System.Func(Of T, System.Collections.IEnumerator), System.Boolean, System.Boolean)
+  name.vb: RunCallbackAndCloseAction(T, Func(Of T, IEnumerator), Boolean, Boolean)
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.closeScene
+  commentId: P:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.closeScene
+  id: closeScene
+  parent: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+  langs:
+  - csharp
+  - vb
+  name: closeScene
+  nameWithType: RunCallbackAndCloseAction<T>.closeScene
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.closeScene
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: closeScene
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+    startLine: 25
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  syntax:
+    content: public bool closeScene { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property closeScene As Boolean
+  overload: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.closeScene*
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).closeScene
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).closeScene
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.callback
+  commentId: P:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.callback
+  id: callback
+  parent: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+  langs:
+  - csharp
+  - vb
+  name: callback
+  nameWithType: RunCallbackAndCloseAction<T>.callback
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.callback
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: callback
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+    startLine: 26
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  syntax:
+    content: public T callback { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public ReadOnly Property callback As T
+  overload: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.callback*
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).callback
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).callback
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.runCallback
+  commentId: P:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.runCallback
+  id: runCallback
+  parent: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+  langs:
+  - csharp
+  - vb
+  name: runCallback
+  nameWithType: RunCallbackAndCloseAction<T>.runCallback
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.runCallback
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: runCallback
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+    startLine: 27
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  syntax:
+    content: public Func<T, IEnumerator> runCallback { get; }
+    parameters: []
+    return:
+      type: System.Func{{T},System.Collections.IEnumerator}
+    content.vb: Public ReadOnly Property runCallback As Func(Of T, IEnumerator)
+  overload: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.runCallback*
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).runCallback
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).runCallback
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.isLoadingScreen
+  commentId: P:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.isLoadingScreen
+  id: isLoadingScreen
+  parent: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+  langs:
+  - csharp
+  - vb
+  name: isLoadingScreen
+  nameWithType: RunCallbackAndCloseAction<T>.isLoadingScreen
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.isLoadingScreen
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: isLoadingScreen
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+    startLine: 28
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  syntax:
+    content: public bool isLoadingScreen { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isLoadingScreen As Boolean
+  overload: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.isLoadingScreen*
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).isLoadingScreen
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).isLoadingScreen
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  commentId: M:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  id: DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  parent: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+  langs:
+  - csharp
+  - vb
+  name: DoAction(SceneManagerBase)
+  nameWithType: RunCallbackAndCloseAction<T>.DoAction(SceneManagerBase)
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DoAction
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/RunCallbackAndCloseAction.cs
+    startLine: 30
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core.Actions
+  syntax:
+    content: public override IEnumerator DoAction(SceneManagerBase _sceneManager)
+    parameters:
+    - id: _sceneManager
+      type: AdvancedSceneManager.Core.SceneManagerBase
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overrides Function DoAction(_sceneManager As SceneManagerBase) As IEnumerator
+  overridden: AdvancedSceneManager.Core.Actions.SceneAction.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  overload: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.DoAction*
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).DoAction(SceneManagerBase)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+references:
+- uid: AdvancedSceneManager.Core.Actions
+  commentId: N:AdvancedSceneManager.Core.Actions
+  name: AdvancedSceneManager.Core.Actions
+  nameWithType: AdvancedSceneManager.Core.Actions
+  fullName: AdvancedSceneManager.Core.Actions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: AdvancedSceneManager.Core.Actions.SceneAction
+  commentId: T:AdvancedSceneManager.Core.Actions.SceneAction
+  parent: AdvancedSceneManager.Core.Actions
+  name: SceneAction
+  nameWithType: SceneAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.openScene
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.openScene
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: openScene
+  nameWithType: SceneAction.openScene
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.openScene
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.scene
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.scene
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: scene
+  nameWithType: SceneAction.scene
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.scene
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.collection
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.collection
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: collection
+  nameWithType: SceneAction.collection
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.collection
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.progress
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.progress
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: progress
+  nameWithType: SceneAction.progress
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.progress
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.isDone
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.isDone
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: isDone
+  nameWithType: SceneAction.isDone
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.isDone
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  isExternal: true
+  name: RegisterCallback(Action)
+  nameWithType: SceneAction.RegisterCallback(Action)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+    name: RegisterCallback
+    nameWithType: SceneAction.RegisterCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback(System.Action)
+    name: RegisterCallback
+    nameWithType: SceneAction.RegisterCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.RegisterCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  isExternal: true
+  name: UnregisterCallback(Action)
+  nameWithType: SceneAction.UnregisterCallback(Action)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+    name: UnregisterCallback
+    nameWithType: SceneAction.UnregisterCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback(System.Action)
+    name: UnregisterCallback
+    nameWithType: SceneAction.UnregisterCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.UnregisterCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  isExternal: true
+  name: OnProgressCallback(Action<Single>)
+  nameWithType: SceneAction.OnProgressCallback(Action<Single>)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action<System.Single>)
+  nameWithType.vb: SceneAction.OnProgressCallback(Action(Of Single))
+  fullName.vb: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action(Of System.Single))
+  name.vb: OnProgressCallback(Action(Of Single))
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+    name: OnProgressCallback
+    nameWithType: SceneAction.OnProgressCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback(System.Action{System.Single})
+    name: OnProgressCallback
+    nameWithType: SceneAction.OnProgressCallback
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgressCallback
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  isExternal: true
+  name: OnProgress(Single)
+  nameWithType: SceneAction.OnProgress(Single)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+    name: OnProgress
+    nameWithType: SceneAction.OnProgress
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress(System.Single)
+    name: OnProgress
+    nameWithType: SceneAction.OnProgress
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.OnProgress
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.Done
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: Done()
+  nameWithType: SceneAction.Done()
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.Done
+    name: Done
+    nameWithType: SceneAction.Done
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.Done
+    name: Done
+    nameWithType: SceneAction.Done
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: Done(OpenSceneInfo)
+  nameWithType: SceneAction.Done(OpenSceneInfo)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+    name: Done
+    nameWithType: SceneAction.Done
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.OpenSceneInfo
+    name: OpenSceneInfo
+    nameWithType: OpenSceneInfo
+    fullName: AdvancedSceneManager.Core.OpenSceneInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.Done(AdvancedSceneManager.Core.OpenSceneInfo)
+    name: Done
+    nameWithType: SceneAction.Done
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.Done
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.OpenSceneInfo
+    name: OpenSceneInfo
+    nameWithType: OpenSceneInfo
+    fullName: AdvancedSceneManager.Core.OpenSceneInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.ToString
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.ToString
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: ToString()
+  nameWithType: SceneAction.ToString()
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.ToString()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.ToString
+    name: ToString
+    nameWithType: SceneAction.ToString
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.ToString
+    name: ToString
+    nameWithType: SceneAction.ToString
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.reportsProgress
+  commentId: P:AdvancedSceneManager.Core.Actions.SceneAction.reportsProgress
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: reportsProgress
+  nameWithType: SceneAction.reportsProgress
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.reportsProgress
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.reportsProgress*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.reportsProgress
+  name: reportsProgress
+  nameWithType: RunCallbackAndCloseAction<T>.reportsProgress
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.reportsProgress
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).reportsProgress
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).reportsProgress
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.#ctor*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.#ctor
+  name: RunCallbackAndCloseAction
+  nameWithType: RunCallbackAndCloseAction<T>.RunCallbackAndCloseAction
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.RunCallbackAndCloseAction
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).RunCallbackAndCloseAction
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).RunCallbackAndCloseAction
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Func{{T},System.Collections.IEnumerator}
+  commentId: T:System.Func{``0,System.Collections.IEnumerator}
+  parent: System
+  definition: System.Func`2
+  name: Func<T, IEnumerator>
+  nameWithType: Func<T, IEnumerator>
+  fullName: System.Func<T, System.Collections.IEnumerator>
+  nameWithType.vb: Func(Of T, IEnumerator)
+  fullName.vb: System.Func(Of T, System.Collections.IEnumerator)
+  name.vb: Func(Of T, IEnumerator)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.closeScene*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.closeScene
+  name: closeScene
+  nameWithType: RunCallbackAndCloseAction<T>.closeScene
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.closeScene
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).closeScene
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).closeScene
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.callback*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.callback
+  name: callback
+  nameWithType: RunCallbackAndCloseAction<T>.callback
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.callback
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).callback
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).callback
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.runCallback*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.runCallback
+  name: runCallback
+  nameWithType: RunCallbackAndCloseAction<T>.runCallback
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.runCallback
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).runCallback
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).runCallback
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.isLoadingScreen*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.isLoadingScreen
+  name: isLoadingScreen
+  nameWithType: RunCallbackAndCloseAction<T>.isLoadingScreen
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.isLoadingScreen
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).isLoadingScreen
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).isLoadingScreen
+- uid: AdvancedSceneManager.Core.Actions.SceneAction.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  commentId: M:AdvancedSceneManager.Core.Actions.SceneAction.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  parent: AdvancedSceneManager.Core.Actions.SceneAction
+  name: DoAction(SceneManagerBase)
+  nameWithType: SceneAction.DoAction(SceneManagerBase)
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+    name: DoAction
+    nameWithType: SceneAction.DoAction
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.DoAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.SceneAction.DoAction(AdvancedSceneManager.Core.SceneManagerBase)
+    name: DoAction
+    nameWithType: SceneAction.DoAction
+    fullName: AdvancedSceneManager.Core.Actions.SceneAction.DoAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneManagerBase
+    name: SceneManagerBase
+    nameWithType: SceneManagerBase
+    fullName: AdvancedSceneManager.Core.SceneManagerBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.DoAction*
+  commentId: Overload:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1.DoAction
+  name: DoAction
+  nameWithType: RunCallbackAndCloseAction<T>.DoAction
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>.DoAction
+  nameWithType.vb: RunCallbackAndCloseAction(Of T).DoAction
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T).DoAction
+- uid: AdvancedSceneManager.Core.SceneManagerBase
+  commentId: T:AdvancedSceneManager.Core.SceneManagerBase
+  parent: AdvancedSceneManager.Core
+  name: SceneManagerBase
+  nameWithType: SceneManagerBase
+  fullName: AdvancedSceneManager.Core.SceneManagerBase
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections

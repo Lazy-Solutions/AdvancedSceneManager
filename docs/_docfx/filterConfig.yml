@@ -1,0 +1,7 @@
+apiRules:
+- include:
+    uidRegex: ^AdvancedSceneManager
+    type: Namespace
+- exclude:
+    uidRegex: .*
+    type: Namespace

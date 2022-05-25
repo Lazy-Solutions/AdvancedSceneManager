@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h2 id="profiles" sourcefile="guides/Profile.md" sourcestartlinenumber="1" sourceendlinenumber="1">Profiles</h2>
+
+<p sourcefile="guides/Profile.md" sourcestartlinenumber="3" sourceendlinenumber="3"><br></p>
+<p sourcefile="guides/Profile.md" sourcestartlinenumber="5" sourceendlinenumber="5">A profile stores the <a href="SceneManagerWindow.html#settings" data-raw-source="[settings](SceneManagerWindow.md#settings)" sourcefile="guides/Profile.md" sourcestartlinenumber="5" sourceendlinenumber="5">settings</a>, <a href="SceneCollection.html" data-raw-source="[collections](SceneCollection.md)" sourcefile="guides/Profile.md" sourcestartlinenumber="5" sourceendlinenumber="5">collections</a> and any <a href="SceneManager.html#standalone-scene-manager" data-raw-source="[standalone](SceneManager.md#standalone-scene-manager)" sourcefile="guides/Profile.md" sourcestartlinenumber="5" sourceendlinenumber="5">standalone</a> <a href="Scene.html" data-raw-source="[scenes](Scene.md)" sourcefile="guides/Profile.md" sourcestartlinenumber="5" sourceendlinenumber="5">scenes</a> that should be included in build in ASM. Profiles are easily swappable in <a href="SceneManagerWindow.html#settings" data-raw-source="[SceneManagerWindow](SceneManagerWindow.md#settings)" sourcefile="guides/Profile.md" sourcestartlinenumber="5" sourceendlinenumber="5">SceneManagerWindow</a> and active profile is saved locally, which means that different members of a team can use their own profiles and then the project might use a profile specifically for build or release, if desired.</p>
+<p sourcefile="guides/Profile.md" sourcestartlinenumber="7" sourceendlinenumber="7"><img src="../image/settings.png" alt="" sourcefile="guides/Profile.md" sourcestartlinenumber="7" sourceendlinenumber="7"></p>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

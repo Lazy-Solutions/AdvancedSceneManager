@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Models_ASMSettings_SettingsProxy" data-uid="AdvancedSceneManager.Models.ASMSettings.SettingsProxy" class="text-break">Class ASMSettings.SettingsProxy
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="api/AdvancedSceneManager.Models.ASMSettings.SettingsProxy.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Used to make <a class="xref" href="AdvancedSceneManager.SceneManager.html#AdvancedSceneManager_SceneManager_settings">settings</a> a bit more intuitive.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ASMSettings.SettingsProxy</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Models.html">AdvancedSceneManager.Models</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Models_ASMSettings_SettingsProxy_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SettingsProxy</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Models_ASMSettings_SettingsProxy_local_" data-uid="AdvancedSceneManager.Models.ASMSettings.SettingsProxy.local*"></a>
+  <h4 id="AdvancedSceneManager_Models_ASMSettings_SettingsProxy_local" data-uid="AdvancedSceneManager.Models.ASMSettings.SettingsProxy.local">local</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.ASMSettings.SettingsProxy.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The local asm settings, not synced to source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ASMSettings.Local local { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.ASMSettings.Local.html">ASMSettings.Local</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_ASMSettings_SettingsProxy_profile_" data-uid="AdvancedSceneManager.Models.ASMSettings.SettingsProxy.profile*"></a>
+  <h4 id="AdvancedSceneManager_Models_ASMSettings_SettingsProxy_profile" data-uid="AdvancedSceneManager.Models.ASMSettings.SettingsProxy.profile">profile</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.ASMSettings.SettingsProxy.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The profile-wide asm settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Profile profile { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Profile.html">Profile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Models_ASMSettings_SettingsProxy_project_" data-uid="AdvancedSceneManager.Models.ASMSettings.SettingsProxy.project*"></a>
+  <h4 id="AdvancedSceneManager_Models_ASMSettings_SettingsProxy_project" data-uid="AdvancedSceneManager.Models.ASMSettings.SettingsProxy.project">project</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.ASMSettings.SettingsProxy.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The project-wide asm settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ASMSettings project { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.ASMSettings.html">ASMSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

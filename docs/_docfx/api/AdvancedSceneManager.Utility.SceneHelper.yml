@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Utility.SceneHelper
+  commentId: T:AdvancedSceneManager.Utility.SceneHelper
+  id: SceneHelper
+  parent: AdvancedSceneManager.Utility
+  children:
+  - AdvancedSceneManager.Utility.SceneHelper.current
+  langs:
+  - csharp
+  - vb
+  name: SceneHelper
+  nameWithType: SceneHelper
+  fullName: AdvancedSceneManager.Utility.SceneHelper
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/ASM.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SceneHelper
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/ASM.cs
+    startLine: 18
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: "\n<p>An helper for opening and closing scenes or scene collections.</p>\n<p>Most common use case would be to open / close scenes or scene collections from <xref href=\"UnityEngine.Events.UnityEvent\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+  remarks: 'See also: <xref href="AdvancedSceneManager.Utility.ASM" data-throw-if-not-resolved="false"></xref>.'
+  example: []
+  syntax:
+    content: public static class SceneHelper
+    content.vb: Public Module SceneHelper
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Utility.SceneHelper.current
+  commentId: P:AdvancedSceneManager.Utility.SceneHelper.current
+  id: current
+  parent: AdvancedSceneManager.Utility.SceneHelper
+  langs:
+  - csharp
+  - vb
+  name: current
+  nameWithType: SceneHelper.current
+  fullName: AdvancedSceneManager.Utility.SceneHelper.current
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/ASM.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: current
+    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/ASM.cs
+    startLine: 20
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  syntax:
+    content: public static ASM current { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Utility.ASM
+    content.vb: Public Shared ReadOnly Property current As ASM
+  overload: AdvancedSceneManager.Utility.SceneHelper.current*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: UnityEngine.Events.UnityEvent
+  commentId: T:UnityEngine.Events.UnityEvent
+  isExternal: true
+- uid: AdvancedSceneManager.Utility.ASM
+  commentId: T:AdvancedSceneManager.Utility.ASM
+  parent: AdvancedSceneManager.Utility
+  name: ASM
+  nameWithType: ASM
+  fullName: AdvancedSceneManager.Utility.ASM
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Utility.SceneHelper.current*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneHelper.current
+  name: current
+  nameWithType: SceneHelper.current
+  fullName: AdvancedSceneManager.Utility.SceneHelper.current
