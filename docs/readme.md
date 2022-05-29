@@ -28,9 +28,9 @@ Want to get into contact with us? Report issues?\
 [Splash screen](SplashScreen.md#guide)
 
 ###### Plugins
-[Addressables support](plugin.asm.addressables.md)\
-[Locking](plugin.asm.locking.md)\
-[Cross-scene references (experimental)](plugin.asm.cross-scene-references.md)
+[Addressables support](https://lazy-solutions.github.io/AdvancedSceneManager/plugins/plugin.asm.addressables.html)\
+[Locking](https://lazy-solutions.github.io/AdvancedSceneManager/plugins/plugin.asm.locking.html)\
+[Cross-scene references (experimental)](https://lazy-solutions.github.io/AdvancedSceneManager/plugins/plugin.asm.cross-scene-references.html)
 
 ###### Models
 [Scene](Scene.md)\
