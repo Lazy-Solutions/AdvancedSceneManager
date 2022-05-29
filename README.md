@@ -81,52 +81,52 @@ Want to get into contact with us? Report issues?\
 >Note: We accept bug reports and offer help on all three channels. Which one you wish to use, is up to your preference!
 
 ###### Highlight ★
-[Loading screens](LoadingScreen.md)\
-[Splash screen](SplashScreen.md)\
-[SceneHelper](SceneHelper.md)\
-[In-game Toolbar](InGameToolbar.md)\
-[ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](Callbacks.md)
+[Loading screens](docs/LoadingScreen.md)\
+[Splash screen](docs/SplashScreen.md)\
+[SceneHelper](docs/SceneHelper.md)\
+[In-game Toolbar](docs/InGameToolbar.md)\
+[ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](docs/Callbacks.md)
 
 ###### Guides
-[Quick start](QuickStart.md)\
-[Loading screen](LoadingScreen.md#guide)\
-[Splash screen](SplashScreen.md#guide)
+[Quick start](docs/QuickStart.md)\
+[Loading screen](docs/LoadingScreen.md#guide)\
+[Splash screen](docs/SplashScreen.md#guide)
 
 ###### Plugins
-[Addressables support](plugin.asm.addressables.md)\
-[Locking](plugin.asm.locking.md)\
-[Cross-scene references (experimental)](plugin.asm.cross-scene-references.md)
+[Addressables support](https://lazy-solutions.github.io/AdvancedSceneManager/plugins/plugin.asm.addressables.html)\
+[Locking](https://lazy-solutions.github.io/AdvancedSceneManager/plugins/plugin.asm.locking.html)\
+[Cross-scene references (experimental)](https://lazy-solutions.github.io/AdvancedSceneManager/plugins/plugin.asm.cross-scene-references.html)
 
 ###### Models
-[Scene](Scene.md)\
-[SceneCollection](SceneCollection.md)\
-[Profile](Profile.md)
+[Scene](docs/Scene.md)\
+[SceneCollection](docs/SceneCollection.md)\
+[Profile](docs/Profile.md)
 
 ###### Frontend
-[SceneManagerWindow](SceneManagerWindow.md)\
-[SceneOverviewWindow](SceneOverviewWindow.md)
+[SceneManagerWindow](docs/SceneManagerWindow.md)\
+[SceneOverviewWindow](docs/SceneOverviewWindow.md)
 
 ##### Backend
-[SceneManager](SceneManager.md)\
-[SceneOperation](SceneOperation.md)\
-[SceneAction](SceneAction.md)\
-[AssetManagement](AssetManagement.md)\
-[OpenSceneInfo](OpenSceneInfo.md)\
-[PreloadedSceneHelper](PreloadedSceneHelper.md)
+[SceneManager](docs/SceneManager.md)\
+[SceneOperation](docs/SceneOperation.md)\
+[SceneAction](docs/SceneAction.md)\
+[AssetManagement](docs/AssetManagement.md)\
+[OpenSceneInfo](docs/OpenSceneInfo.md)\
+[PreloadedSceneHelper](docs/PreloadedSceneHelper.md)
 
 ###### Utilities
-[SceneUtility](SceneUtility.md)\
-[SceneCollectionUtility](SceneCollectionUtility.md)\
-[LoadingScreenUtility](LoadingScreenUtility.md)\
-[PersistentUtility](PersistentUtility.md)\
-[CanvasSortOrderUtility](CanvasSortOrderUtility.md)\
-[AssetRefreshUtility](AssetRefreshUtility.md)\
-[Scene merge, split](SceneMergeSplit.md)\
-[HierarchyGUIUtility](HierarchyGUIUtility.md)\
-[SceneDataUtility](SceneDataUtility.md)\
-[GuidReferenceUtility](GuidReferenceUtility.md)\
-[CallbackUtility, Callback analyzer](CallbackUtility.md)\
-[PauseScreenUtility](DefaultPauseScreen.md)
+[SceneUtility](docs/SceneUtility.md)\
+[SceneCollectionUtility](docs/SceneCollectionUtility.md)\
+[LoadingScreenUtility](docs/LoadingScreenUtility.md)\
+[PersistentUtility](docs/PersistentUtility.md)\
+[CanvasSortOrderUtility](docs/CanvasSortOrderUtility.md)\
+[AssetRefreshUtility](docs/AssetRefreshUtility.md)\
+[Scene merge, split](docs/SceneMergeSplit.md)\
+[HierarchyGUIUtility](docs/HierarchyGUIUtility.md)\
+[SceneDataUtility](docs/SceneDataUtility.md)\
+[GuidReferenceUtility](docs/GuidReferenceUtility.md)\
+[CallbackUtility, Callback analyzer](docs/CallbackUtility.md)\
+[PauseScreenUtility](docs/DefaultPauseScreen.md)
 
 ## Where can I get it!?
 Advanced Scene Manager is available at the Unity Asset Store, [get it now!](https://assetstore.unity.com/packages/slug/174152)<br/>
