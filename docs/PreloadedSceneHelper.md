@@ -22,6 +22,7 @@ Closes the [scene](Scene.md).
 
 ![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/image/preload-example.png?raw=true)
 
+TriggerEvents script:
 ```csharp
 using System;
 using UnityEngine;
