@@ -69,6 +69,7 @@ public class Preloader : MonoBehaviour
 
     IEnumerator DoPreload()
     {
+        Discard(); //Make sure we only have one scene being preloaded, since this is a unity limitation
         var operation = sceneToPreload.Preload();
         yield return operation;
         preloadedScene = operation.value;
@@ -78,12 +79,14 @@ public class Preloader : MonoBehaviour
     {
         if (preloadedScene != null && preloadedScene.isStillPreloaded)
             preloadedScene.FinishLoading();
+        preloadedScene = null;
     }
 
     public void Discard()
     {
         if (preloadedScene != null && preloadedScene.isStillPreloaded)
             preloadedScene.Discard();
+        preloadedScene = null;
     }
 
 }
