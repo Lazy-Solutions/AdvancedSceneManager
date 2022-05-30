@@ -49,3 +49,43 @@ public class TriggerEvents : MonoBehaviour
 }
 
 ```
+#### Example 2
+```csharp
+using System;
+using UnityEngine;
+
+public class Preloader : MonoBehaviour
+{
+
+    public Scene sceneToPreload;
+
+    //Can also be accessed by SceneManager.utility.preloadedScene;
+    PreloadedSceneHelper preloadedScene;
+
+    public void TriggerPreload()
+    {
+        DoPreload().StartCoroutine();
+    }
+
+    IEnumerator DoPreload()
+    {
+        var operation = sceneToPreload.Preload();
+        yield return operation;
+        preloadedScene = operation.value;
+    }
+
+    public void FinishPreload()
+    {
+        if (preloadedScene != null && preloadedScene.isStillPreloaded)
+            preloadedScene.FinishLoading();
+    }
+
+    public void Discard()
+    {
+        if (preloadedScene != null && preloadedScene.isStillPreloaded)
+            preloadedScene.Discard();
+    }
+
+}
+
+```
