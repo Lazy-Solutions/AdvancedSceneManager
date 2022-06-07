@@ -62,9 +62,8 @@ public MyScript : MonoBehaviour
 
 [Collections](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) and [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) can also be opened from [UnityEvents](https://docs.unity3d.com/Manual/UnityEvents.html), such as from a [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html), but it might be easier to use the [SceneHelper](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneHelper.html), since that will make it easier to find the [scene](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) or [collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) in the Object Picker.
 
-## Documentation
-###### Advanced Scene Manager
-This wiki is available both [online](https://lazy-solutions.github.io/AdvancedSceneManager/guides/readme.html) and [offline](https://raw.githubusercontent.com/wiki/Lazy-Solutions/AdvancedSceneManager/https://lazy-solutions.github.io/AdvancedSceneManager/guides/ToPdf/ASM.pdf)
+###### Documentation
+This wiki is available both [online](https://lazy-solutions.github.io/AdvancedSceneManager/guides/readme.html) and [<s>offline</s>](https://raw.githubusercontent.com/wiki/Lazy-Solutions/AdvancedSceneManager/https://lazy-solutions.github.io/AdvancedSceneManager/guides/ToPdf/ASM.pdf)
 
 > Offline currently unavailable, working on improving pdf converter.
 
