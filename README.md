@@ -1,4 +1,4 @@
-## What is Advanced Scene Manager?
+###### What is Advanced Scene Manager?
 
 Advanced Scene Manager is a new and improved scene management system for [Unity](https://unity.com/). Get it at the [Unity Asset Store!](https://assetstore.unity.com/packages/slug/174152)
 
@@ -7,7 +7,7 @@ When a [Scene Collection](https://lazy-solutions.github.io/AdvancedSceneManager/
 
 Only one [collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) can be open at a time, but individual [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) can still be opened as standalone.
 
-## How do I use it?
+###### How do I use it?
 
 The [Scene Manager Window](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneManagerWindow.html) can be accessed from 'File -> Scene Manager...' menu item. The [Scene Manager window](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneManagerWindow.html) can be used to create and remove [collections](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) and assign any [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) as children.
 
