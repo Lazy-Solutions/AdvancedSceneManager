@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  id: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility
+  - AdvancedSceneManager.Editor.Utility.AssetsSavedUtility
+  - AdvancedSceneManager.Editor.Utility.BlacklistUtility
+  - AdvancedSceneManager.Editor.Utility.BuildEventsUtility
+  - AdvancedSceneManager.Editor.Utility.BuildEventsUtility.BuildError
+  - AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+  - AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  - AdvancedSceneManager.Editor.Utility.EditorFolderUtility
+  - AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt
+  - AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  - AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility
+  - AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.HierarchyGameObjectGUI
+  - AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.HierarchySceneGUI
+  - AdvancedSceneManager.Editor.Utility.ListUtility
+  - AdvancedSceneManager.Editor.Utility.MenuItemHelper
+  - AdvancedSceneManager.Editor.Utility.OnGUIPrompt
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+  - AdvancedSceneManager.Editor.Utility.PromptInt
+  - AdvancedSceneManager.Editor.Utility.PromptKey
+  - AdvancedSceneManager.Editor.Utility.PromptName
+  - AdvancedSceneManager.Editor.Utility.PromptNameAndMessage
+  - AdvancedSceneManager.Editor.Utility.PromptVersion
+  - AdvancedSceneManager.Editor.Utility.SettingsTab
+  - AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders
+  - AdvancedSceneManager.Editor.Utility.StyleExtensions
+  - AdvancedSceneManager.Editor.Utility.TrimUtility
+  - AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+  type: Namespace
+  assemblies:
+  - AdvancedSceneManager
+references:
+- uid: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility
+  name: AssetDatabaseUtility
+  nameWithType: AssetDatabaseUtility
+  fullName: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility
+- uid: AdvancedSceneManager.Editor.Utility.AssetsSavedUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.AssetsSavedUtility
+  name: AssetsSavedUtility
+  nameWithType: AssetsSavedUtility
+  fullName: AdvancedSceneManager.Editor.Utility.AssetsSavedUtility
+- uid: AdvancedSceneManager.Editor.Utility.BlacklistUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.BlacklistUtility
+  name: BlacklistUtility
+  nameWithType: BlacklistUtility
+  fullName: AdvancedSceneManager.Editor.Utility.BlacklistUtility
+- uid: AdvancedSceneManager.Editor.Utility.BuildEventsUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.BuildEventsUtility
+  name: BuildEventsUtility
+  nameWithType: BuildEventsUtility
+  fullName: AdvancedSceneManager.Editor.Utility.BuildEventsUtility
+- uid: AdvancedSceneManager.Editor.Utility.BuildEventsUtility.BuildError
+  commentId: T:AdvancedSceneManager.Editor.Utility.BuildEventsUtility.BuildError
+  parent: AdvancedSceneManager.Editor.Utility
+  name: BuildEventsUtility.BuildError
+  nameWithType: BuildEventsUtility.BuildError
+  fullName: AdvancedSceneManager.Editor.Utility.BuildEventsUtility.BuildError
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+  name: BuildSettingsUtility
+  nameWithType: BuildSettingsUtility
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  commentId: T:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  parent: AdvancedSceneManager.Editor.Utility
+  name: BuildSettingsUtility.Reason
+  nameWithType: BuildSettingsUtility.Reason
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+- uid: AdvancedSceneManager.Editor.Utility.EditorFolderUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.EditorFolderUtility
+  name: EditorFolderUtility
+  nameWithType: EditorFolderUtility
+  fullName: AdvancedSceneManager.Editor.Utility.EditorFolderUtility
+- uid: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt
+  commentId: T:AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt
+  name: EditorGUIUtilityExt
+  nameWithType: EditorGUIUtilityExt
+  fullName: AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt
+- uid: AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility
+  name: HierarchyGUIUtility
+  nameWithType: HierarchyGUIUtility
+  fullName: AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility
+- uid: AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.HierarchySceneGUI
+  commentId: T:AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.HierarchySceneGUI
+  parent: AdvancedSceneManager.Editor.Utility
+  name: HierarchyGUIUtility.HierarchySceneGUI
+  nameWithType: HierarchyGUIUtility.HierarchySceneGUI
+  fullName: AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.HierarchySceneGUI
+- uid: AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.HierarchyGameObjectGUI
+  commentId: T:AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.HierarchyGameObjectGUI
+  parent: AdvancedSceneManager.Editor.Utility
+  name: HierarchyGUIUtility.HierarchyGameObjectGUI
+  nameWithType: HierarchyGUIUtility.HierarchyGameObjectGUI
+  fullName: AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.HierarchyGameObjectGUI
+- uid: AdvancedSceneManager.Editor.Utility.ListUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.ListUtility
+  parent: AdvancedSceneManager.Editor.Utility
+  name: ListUtility
+  nameWithType: ListUtility
+  fullName: AdvancedSceneManager.Editor.Utility.ListUtility
+- uid: AdvancedSceneManager.Editor.Utility.MenuItemHelper
+  commentId: T:AdvancedSceneManager.Editor.Utility.MenuItemHelper
+  name: MenuItemHelper
+  nameWithType: MenuItemHelper
+  fullName: AdvancedSceneManager.Editor.Utility.MenuItemHelper
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility
+  name: PersistentSceneInEditorUtility
+  nameWithType: PersistentSceneInEditorUtility
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  commentId: T:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  parent: AdvancedSceneManager.Editor.Utility
+  name: PersistentSceneInEditorUtility.OpenInEditorOption
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorOption
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+  commentId: T:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+  parent: AdvancedSceneManager.Editor.Utility
+  name: PersistentSceneInEditorUtility.OpenInEditorSetting
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorSetting
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab
+  commentId: T:AdvancedSceneManager.Editor.Utility.SettingsTab
+  parent: AdvancedSceneManager.Editor.Utility
+  name: SettingsTab
+  nameWithType: SettingsTab
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab
+- uid: AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders
+  commentId: T:AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders
+  parent: AdvancedSceneManager.Editor.Utility
+  name: SettingsTab._DefaultHeaders
+  nameWithType: SettingsTab._DefaultHeaders
+  fullName: AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders
+- uid: AdvancedSceneManager.Editor.Utility.TrimUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.TrimUtility
+  name: TrimUtility
+  nameWithType: TrimUtility
+  fullName: AdvancedSceneManager.Editor.Utility.TrimUtility
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt
+  commentId: T:AdvancedSceneManager.Editor.Utility.GenericPrompt
+  name: GenericPrompt
+  nameWithType: GenericPrompt
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt
+- uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  commentId: T:AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+  name: GenericPrompt<T, TSelf>
+  nameWithType: GenericPrompt<T, TSelf>
+  fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt<T, TSelf>
+  nameWithType.vb: GenericPrompt(Of T, TSelf)
+  fullName.vb: AdvancedSceneManager.Editor.Utility.GenericPrompt(Of T, TSelf)
+  name.vb: GenericPrompt(Of T, TSelf)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+    name: GenericPrompt
+    nameWithType: GenericPrompt
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSelf
+    nameWithType: TSelf
+    fullName: TSelf
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Utility.GenericPrompt`2
+    name: GenericPrompt
+    nameWithType: GenericPrompt
+    fullName: AdvancedSceneManager.Editor.Utility.GenericPrompt
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSelf
+    nameWithType: TSelf
+    fullName: TSelf
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.OnGUIPrompt
+  commentId: T:AdvancedSceneManager.Editor.Utility.OnGUIPrompt
+  name: OnGUIPrompt
+  nameWithType: OnGUIPrompt
+  fullName: AdvancedSceneManager.Editor.Utility.OnGUIPrompt
+- uid: AdvancedSceneManager.Editor.Utility.PromptInt
+  commentId: T:AdvancedSceneManager.Editor.Utility.PromptInt
+  name: PromptInt
+  nameWithType: PromptInt
+  fullName: AdvancedSceneManager.Editor.Utility.PromptInt
+- uid: AdvancedSceneManager.Editor.Utility.PromptKey
+  commentId: T:AdvancedSceneManager.Editor.Utility.PromptKey
+  name: PromptKey
+  nameWithType: PromptKey
+  fullName: AdvancedSceneManager.Editor.Utility.PromptKey
+- uid: AdvancedSceneManager.Editor.Utility.PromptName
+  commentId: T:AdvancedSceneManager.Editor.Utility.PromptName
+  name: PromptName
+  nameWithType: PromptName
+  fullName: AdvancedSceneManager.Editor.Utility.PromptName
+- uid: AdvancedSceneManager.Editor.Utility.PromptNameAndMessage
+  commentId: T:AdvancedSceneManager.Editor.Utility.PromptNameAndMessage
+  name: PromptNameAndMessage
+  nameWithType: PromptNameAndMessage
+  fullName: AdvancedSceneManager.Editor.Utility.PromptNameAndMessage
+- uid: AdvancedSceneManager.Editor.Utility.PromptVersion
+  commentId: T:AdvancedSceneManager.Editor.Utility.PromptVersion
+  name: PromptVersion
+  nameWithType: PromptVersion
+  fullName: AdvancedSceneManager.Editor.Utility.PromptVersion
+- uid: AdvancedSceneManager.Editor.Utility.StyleExtensions
+  commentId: T:AdvancedSceneManager.Editor.Utility.StyleExtensions
+  name: StyleExtensions
+  nameWithType: StyleExtensions
+  fullName: AdvancedSceneManager.Editor.Utility.StyleExtensions
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  commentId: T:AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  parent: AdvancedSceneManager.Editor.Utility
+  name: VisualElementExtensions
+  nameWithType: VisualElementExtensions
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility

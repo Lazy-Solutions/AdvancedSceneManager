@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Editor_Utility_GenericPrompt" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt" class="text-break">Class GenericPrompt
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><span class="xref">UnityEditor.EditorWindow</span></div>
+    <div class="level4"><a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html">GenericPrompt</a>&lt;<span class="xref">System.Object</span>, <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt.html">GenericPrompt</a>&gt;</div>
+    <div class="level5"><span class="xref">GenericPrompt</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_validate">GenericPrompt&lt;Object, GenericPrompt&gt;.validate</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_Validate__0_">GenericPrompt&lt;Object, GenericPrompt&gt;.Validate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_Prompt__0_System_Func__0_System_ValueTuple_System_Boolean_System_String_____">GenericPrompt&lt;Object, GenericPrompt&gt;.Prompt(Object, Func&lt;Object, (T1, T2)&lt;Boolean, String&gt;&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_OnContentGUI__0__">GenericPrompt&lt;Object, GenericPrompt&gt;.OnContentGUI(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_title">GenericPrompt&lt;Object, GenericPrompt&gt;.title</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_updateSizeAutomatically">GenericPrompt&lt;Object, GenericPrompt&gt;.updateSizeAutomatically</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_extraHeight">GenericPrompt&lt;Object, GenericPrompt&gt;.extraHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_width">GenericPrompt&lt;Object, GenericPrompt&gt;.width</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_okButton">GenericPrompt&lt;Object, GenericPrompt&gt;.okButton</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_cancelButton">GenericPrompt&lt;Object, GenericPrompt&gt;.cancelButton</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Editor.Utility.html">AdvancedSceneManager.Editor.Utility</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Editor_Utility_GenericPrompt_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GenericPrompt : GenericPrompt&lt;object, GenericPrompt&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Editor_Utility_GenericPrompt_cancelButton_" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.cancelButton*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_GenericPrompt_cancelButton" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.cancelButton">cancelButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string cancelButton { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Editor.Utility.GenericPrompt&lt;System.Object, AdvancedSceneManager.Editor.Utility.GenericPrompt&gt;.cancelButton</span></div>
+  <a id="AdvancedSceneManager_Editor_Utility_GenericPrompt_extraHeight_" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.extraHeight*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_GenericPrompt_extraHeight" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.extraHeight">extraHeight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float extraHeight { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Editor.Utility.GenericPrompt&lt;System.Object, AdvancedSceneManager.Editor.Utility.GenericPrompt&gt;.extraHeight</span></div>
+  <a id="AdvancedSceneManager_Editor_Utility_GenericPrompt_okButton_" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.okButton*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_GenericPrompt_okButton" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.okButton">okButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string okButton { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Editor.Utility.GenericPrompt&lt;System.Object, AdvancedSceneManager.Editor.Utility.GenericPrompt&gt;.okButton</span></div>
+  <a id="AdvancedSceneManager_Editor_Utility_GenericPrompt_title_" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.title*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_GenericPrompt_title" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.title">title</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string title { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Editor.Utility.GenericPrompt&lt;System.Object, AdvancedSceneManager.Editor.Utility.GenericPrompt&gt;.title</span></div>
+  <a id="AdvancedSceneManager_Editor_Utility_GenericPrompt_width_" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.width*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_GenericPrompt_width" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.width">width</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float width { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Editor.Utility.GenericPrompt&lt;System.Object, AdvancedSceneManager.Editor.Utility.GenericPrompt&gt;.width</span></div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Editor_Utility_GenericPrompt_OnContentGUI_" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.OnContentGUI*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_GenericPrompt_OnContentGUI_System_Object__" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.OnContentGUI(System.Object@)">OnContentGUI(ref Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnContentGUI(ref object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Editor.Utility.GenericPrompt&lt;System.Object, AdvancedSceneManager.Editor.Utility.GenericPrompt&gt;.OnContentGUI(System.Object)</span></div>
+  <a id="AdvancedSceneManager_Editor_Utility_GenericPrompt_Prompt_" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.Prompt*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_GenericPrompt_Prompt_System_String_System_String_System_String_System_String_System_Single_" data-uid="AdvancedSceneManager.Editor.Utility.GenericPrompt.Prompt(System.String,System.String,System.String,System.String,System.Single)">Prompt(String, String, String, String, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Prompt(string title, string message, string OkButton = &quot;Ok&quot;, string cancelButton = &quot;Cancel&quot;, float maxContentHeight = 400F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">OkButton</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cancelButton</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">maxContentHeight</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.ScriptableObjectUtility.html#AdvancedSceneManager_Utility_ScriptableObjectUtility_Save_UnityEngine_ScriptableObject_">ScriptableObjectUtility.Save(ScriptableObject)</a>
+  </div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

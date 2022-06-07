@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Core.Phase
+  commentId: T:AdvancedSceneManager.Core.Phase
+  id: Phase
+  parent: AdvancedSceneManager.Core
+  children:
+  - AdvancedSceneManager.Core.Phase.CloseCallbacks
+  - AdvancedSceneManager.Core.Phase.CustomActions
+  - AdvancedSceneManager.Core.Phase.FinishLoad
+  - AdvancedSceneManager.Core.Phase.LoadScenes
+  - AdvancedSceneManager.Core.Phase.OpenCallbacks
+  - AdvancedSceneManager.Core.Phase.UnloadScenes
+  langs:
+  - csharp
+  - vb
+  name: Phase
+  nameWithType: Phase
+  fullName: AdvancedSceneManager.Core.Phase
+  type: Enum
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Phase
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 243
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: The phase that a <xref href="AdvancedSceneManager.Core.SceneOperation" data-throw-if-not-resolved="false"></xref> is currently in.
+  example: []
+  syntax:
+    content: public enum Phase
+    content.vb: Public Enum Phase
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: AdvancedSceneManager.Core.Phase.CloseCallbacks
+  commentId: F:AdvancedSceneManager.Core.Phase.CloseCallbacks
+  id: CloseCallbacks
+  parent: AdvancedSceneManager.Core.Phase
+  langs:
+  - csharp
+  - vb
+  name: CloseCallbacks
+  nameWithType: Phase.CloseCallbacks
+  fullName: AdvancedSceneManager.Core.Phase.CloseCallbacks
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CloseCallbacks
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 246
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: The scene operation is currently executing close callbacks on the scenes that are being closed, if any.
+  example: []
+  syntax:
+    content: CloseCallbacks = 0
+    return:
+      type: AdvancedSceneManager.Core.Phase
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Core.Phase.UnloadScenes
+  commentId: F:AdvancedSceneManager.Core.Phase.UnloadScenes
+  id: UnloadScenes
+  parent: AdvancedSceneManager.Core.Phase
+  langs:
+  - csharp
+  - vb
+  name: UnloadScenes
+  nameWithType: Phase.UnloadScenes
+  fullName: AdvancedSceneManager.Core.Phase.UnloadScenes
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: UnloadScenes
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 248
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: The scene operation is currently unloading the scenes, if any.
+  example: []
+  syntax:
+    content: UnloadScenes = 1
+    return:
+      type: AdvancedSceneManager.Core.Phase
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Core.Phase.LoadScenes
+  commentId: F:AdvancedSceneManager.Core.Phase.LoadScenes
+  id: LoadScenes
+  parent: AdvancedSceneManager.Core.Phase
+  langs:
+  - csharp
+  - vb
+  name: LoadScenes
+  nameWithType: Phase.LoadScenes
+  fullName: AdvancedSceneManager.Core.Phase.LoadScenes
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: LoadScenes
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 250
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: The scene operation is currently loading the scenes, if any.
+  example: []
+  syntax:
+    content: LoadScenes = 2
+    return:
+      type: AdvancedSceneManager.Core.Phase
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Core.Phase.OpenCallbacks
+  commentId: F:AdvancedSceneManager.Core.Phase.OpenCallbacks
+  id: OpenCallbacks
+  parent: AdvancedSceneManager.Core.Phase
+  langs:
+  - csharp
+  - vb
+  name: OpenCallbacks
+  nameWithType: Phase.OpenCallbacks
+  fullName: AdvancedSceneManager.Core.Phase.OpenCallbacks
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OpenCallbacks
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 252
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: The scene operation is currently executing open callbacks on the scenes that are being opened, if any.
+  example: []
+  syntax:
+    content: OpenCallbacks = 3
+    return:
+      type: AdvancedSceneManager.Core.Phase
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Core.Phase.FinishLoad
+  commentId: F:AdvancedSceneManager.Core.Phase.FinishLoad
+  id: FinishLoad
+  parent: AdvancedSceneManager.Core.Phase
+  langs:
+  - csharp
+  - vb
+  name: FinishLoad
+  nameWithType: Phase.FinishLoad
+  fullName: AdvancedSceneManager.Core.Phase.FinishLoad
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FinishLoad
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 254
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: The scene operation is currently finishing loading / activating the scenes, if any.
+  example: []
+  syntax:
+    content: FinishLoad = 4
+    return:
+      type: AdvancedSceneManager.Core.Phase
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Core.Phase.CustomActions
+  commentId: F:AdvancedSceneManager.Core.Phase.CustomActions
+  id: CustomActions
+  parent: AdvancedSceneManager.Core.Phase
+  langs:
+  - csharp
+  - vb
+  name: CustomActions
+  nameWithType: Phase.CustomActions
+  fullName: AdvancedSceneManager.Core.Phase.CustomActions
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CustomActions
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/SceneOperation.cs
+    startLine: 256
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: The scene operation is currently executing custom actions, added through <xref href="AdvancedSceneManager.Core.SceneOperation.WithAction(AdvancedSceneManager.Core.Actions.SceneAction%5b%5d)" data-throw-if-not-resolved="false"></xref> or similar methods, if any.
+  example: []
+  syntax:
+    content: CustomActions = 5
+    return:
+      type: AdvancedSceneManager.Core.Phase
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: AdvancedSceneManager.Core.SceneOperation
+  commentId: T:AdvancedSceneManager.Core.SceneOperation
+  parent: AdvancedSceneManager.Core
+  name: SceneOperation
+  nameWithType: SceneOperation
+  fullName: AdvancedSceneManager.Core.SceneOperation
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: AdvancedSceneManager.Core.Phase
+  commentId: T:AdvancedSceneManager.Core.Phase
+  parent: AdvancedSceneManager.Core
+  name: Phase
+  nameWithType: Phase
+  fullName: AdvancedSceneManager.Core.Phase
+- uid: AdvancedSceneManager.Core.SceneOperation.WithAction(AdvancedSceneManager.Core.Actions.SceneAction[])
+  commentId: M:AdvancedSceneManager.Core.SceneOperation.WithAction(AdvancedSceneManager.Core.Actions.SceneAction[])
+  isExternal: true

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Callbacks_ICollectionExtraData" data-uid="AdvancedSceneManager.Callbacks.ICollectionExtraData" class="text-break">Interface ICollectionExtraData
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="api/AdvancedSceneManager.Callbacks.ICollectionExtraData.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Callbacks for a <span class="xref">UnityEngine.ScriptableObject</span> that has been set as extra data for a collection.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Callbacks.ICollectionOpen.html#AdvancedSceneManager_Callbacks_ICollectionOpen_OnCollectionOpen_AdvancedSceneManager_Models_SceneCollection_">ICollectionOpen.OnCollectionOpen(SceneCollection)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Callbacks.ICollectionClose.html#AdvancedSceneManager_Callbacks_ICollectionClose_OnCollectionClose_AdvancedSceneManager_Models_SceneCollection_">ICollectionClose.OnCollectionClose(SceneCollection)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Callbacks.html">AdvancedSceneManager.Callbacks</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Callbacks_ICollectionExtraData_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ICollectionExtraData : ICollectionOpen, ICollectionClose, ISceneManagerCallbackBase</code></pre>
+  </div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

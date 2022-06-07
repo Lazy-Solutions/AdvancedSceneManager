@@ -1,0 +1,1577 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility
+  commentId: T:AdvancedSceneManager.Utility.LoadingScreenUtility
+  id: LoadingScreenUtility
+  parent: AdvancedSceneManager.Utility
+  children:
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.CloseAll
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen(AdvancedSceneManager.Callbacks.LoadingScreen)
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen(AdvancedSceneManager.Models.Scene)
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction(AdvancedSceneManager.Models.Scene,System.Action,System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction(AdvancedSceneManager.Models.Scene,System.Func{System.Collections.IEnumerator},System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade(System.Action,System.Single,System.Nullable{UnityEngine.Color})
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade(System.Func{System.Collections.IEnumerator},System.Single,System.Nullable{UnityEngine.Color})
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.fade
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.FadeIn(AdvancedSceneManager.Callbacks.LoadingScreen,System.Single,System.Nullable{UnityEngine.Color})
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.FadeOut(System.Single,System.Nullable{UnityEngine.Color})
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.FindLoadingScreen(AdvancedSceneManager.Models.SceneCollection)
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.IsAnyLoadingScreenOpen
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen(AdvancedSceneManager.Core.OpenSceneInfo)
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen(AdvancedSceneManager.Models.Scene)
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen(UnityEngine.SceneManagement.Scene)
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.loadingScreens
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen(AdvancedSceneManager.Models.Scene,System.Nullable{System.Single},System.Action{AdvancedSceneManager.Callbacks.LoadingScreen},System.String)
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen(AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Single},System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  - AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen``1(AdvancedSceneManager.Models.Scene,System.Nullable{System.Single},System.Action{``0},System.String)
+  langs:
+  - csharp
+  - vb
+  name: LoadingScreenUtility
+  nameWithType: LoadingScreenUtility
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: LoadingScreenUtility
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 20
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Manager for loading screens.
+  example: []
+  syntax:
+    content: public static class LoadingScreenUtility
+    content.vb: Public Module LoadingScreenUtility
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen(UnityEngine.SceneManagement.Scene)
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen(UnityEngine.SceneManagement.Scene)
+  id: IsLoadingScreenOpen(UnityEngine.SceneManagement.Scene)
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: IsLoadingScreenOpen(Scene)
+  nameWithType: LoadingScreenUtility.IsLoadingScreenOpen(Scene)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen(UnityEngine.SceneManagement.Scene)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IsLoadingScreenOpen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 26
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Gets if this scene is a loading screen.
+  example: []
+  syntax:
+    content: public static bool IsLoadingScreenOpen(Scene scene)
+    parameters:
+    - id: scene
+      type: UnityEngine.SceneManagement.Scene
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsLoadingScreenOpen(scene As Scene) As Boolean
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen(AdvancedSceneManager.Models.Scene)
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen(AdvancedSceneManager.Models.Scene)
+  id: IsLoadingScreenOpen(AdvancedSceneManager.Models.Scene)
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: IsLoadingScreenOpen(Scene)
+  nameWithType: LoadingScreenUtility.IsLoadingScreenOpen(Scene)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen(AdvancedSceneManager.Models.Scene)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IsLoadingScreenOpen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 30
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Gets if this scene is a loading screen.
+  example: []
+  syntax:
+    content: public static bool IsLoadingScreenOpen(Scene scene)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsLoadingScreenOpen(scene As Scene) As Boolean
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen(AdvancedSceneManager.Core.OpenSceneInfo)
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen(AdvancedSceneManager.Core.OpenSceneInfo)
+  id: IsLoadingScreenOpen(AdvancedSceneManager.Core.OpenSceneInfo)
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: IsLoadingScreenOpen(OpenSceneInfo)
+  nameWithType: LoadingScreenUtility.IsLoadingScreenOpen(OpenSceneInfo)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen(AdvancedSceneManager.Core.OpenSceneInfo)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IsLoadingScreenOpen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 34
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Gets if this scene is a loading screen.
+  example: []
+  syntax:
+    content: public static bool IsLoadingScreenOpen(OpenSceneInfo scene)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Core.OpenSceneInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsLoadingScreenOpen(scene As OpenSceneInfo) As Boolean
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.IsAnyLoadingScreenOpen
+  commentId: P:AdvancedSceneManager.Utility.LoadingScreenUtility.IsAnyLoadingScreenOpen
+  id: IsAnyLoadingScreenOpen
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: IsAnyLoadingScreenOpen
+  nameWithType: LoadingScreenUtility.IsAnyLoadingScreenOpen
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.IsAnyLoadingScreenOpen
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IsAnyLoadingScreenOpen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 38
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Gets if any loading screens are open.
+  example: []
+  syntax:
+    content: public static bool IsAnyLoadingScreenOpen { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsAnyLoadingScreenOpen As Boolean
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.IsAnyLoadingScreenOpen*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen(AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Single},System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen(AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Single},System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  id: OpenLoadingScreen(AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Single},System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: OpenLoadingScreen(SceneCollection, Nullable<Single>, Action<LoadingScreen>)
+  nameWithType: LoadingScreenUtility.OpenLoadingScreen(SceneCollection, Nullable<Single>, Action<LoadingScreen>)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen(AdvancedSceneManager.Models.SceneCollection, System.Nullable<System.Single>, System.Action<AdvancedSceneManager.Callbacks.LoadingScreen>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OpenLoadingScreen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 43
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Shows the loading screen associated with this collection.
+  example: []
+  syntax:
+    content: public static SceneOperation<LoadingScreen> OpenLoadingScreen(SceneCollection collection, float? timeout = null, Action<LoadingScreen> callbackBeforeBegin = null)
+    parameters:
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    - id: timeout
+      type: System.Nullable{System.Single}
+      description: The time to wait after opening scene before cancelling load screen.
+    - id: callbackBeforeBegin
+      type: System.Action{AdvancedSceneManager.Callbacks.LoadingScreen}
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation{AdvancedSceneManager.Callbacks.LoadingScreen}
+    content.vb: Public Shared Function OpenLoadingScreen(collection As SceneCollection, timeout As Single? = Nothing, callbackBeforeBegin As Action(Of LoadingScreen) = Nothing) As SceneOperation(Of LoadingScreen)
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen*
+  nameWithType.vb: LoadingScreenUtility.OpenLoadingScreen(SceneCollection, Nullable(Of Single), Action(Of LoadingScreen))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen(AdvancedSceneManager.Models.SceneCollection, System.Nullable(Of System.Single), System.Action(Of AdvancedSceneManager.Callbacks.LoadingScreen))
+  name.vb: OpenLoadingScreen(SceneCollection, Nullable(Of Single), Action(Of LoadingScreen))
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen(AdvancedSceneManager.Models.Scene,System.Nullable{System.Single},System.Action{AdvancedSceneManager.Callbacks.LoadingScreen},System.String)
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen(AdvancedSceneManager.Models.Scene,System.Nullable{System.Single},System.Action{AdvancedSceneManager.Callbacks.LoadingScreen},System.String)
+  id: OpenLoadingScreen(AdvancedSceneManager.Models.Scene,System.Nullable{System.Single},System.Action{AdvancedSceneManager.Callbacks.LoadingScreen},System.String)
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: OpenLoadingScreen(Scene, Nullable<Single>, Action<LoadingScreen>, String)
+  nameWithType: LoadingScreenUtility.OpenLoadingScreen(Scene, Nullable<Single>, Action<LoadingScreen>, String)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen(AdvancedSceneManager.Models.Scene, System.Nullable<System.Single>, System.Action<AdvancedSceneManager.Callbacks.LoadingScreen>, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OpenLoadingScreen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 60
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Shows a loading screen.
+  example: []
+  syntax:
+    content: public static SceneOperation<LoadingScreen> OpenLoadingScreen(Scene scene, float? timeout = null, Action<LoadingScreen> callbackBeforeBegin = null, string typeName = null)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    - id: timeout
+      type: System.Nullable{System.Single}
+      description: The time to wait after opening scene before cancelling load screen.
+    - id: callbackBeforeBegin
+      type: System.Action{AdvancedSceneManager.Callbacks.LoadingScreen}
+    - id: typeName
+      type: System.String
+      description: Overrides the name of the type in the missing script message.
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation{AdvancedSceneManager.Callbacks.LoadingScreen}
+    content.vb: Public Shared Function OpenLoadingScreen(scene As Scene, timeout As Single? = Nothing, callbackBeforeBegin As Action(Of LoadingScreen) = Nothing, typeName As String = Nothing) As SceneOperation(Of LoadingScreen)
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen*
+  nameWithType.vb: LoadingScreenUtility.OpenLoadingScreen(Scene, Nullable(Of Single), Action(Of LoadingScreen), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen(AdvancedSceneManager.Models.Scene, System.Nullable(Of System.Single), System.Action(Of AdvancedSceneManager.Callbacks.LoadingScreen), System.String)
+  name.vb: OpenLoadingScreen(Scene, Nullable(Of Single), Action(Of LoadingScreen), String)
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen``1(AdvancedSceneManager.Models.Scene,System.Nullable{System.Single},System.Action{``0},System.String)
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen``1(AdvancedSceneManager.Models.Scene,System.Nullable{System.Single},System.Action{``0},System.String)
+  id: OpenLoadingScreen``1(AdvancedSceneManager.Models.Scene,System.Nullable{System.Single},System.Action{``0},System.String)
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: OpenLoadingScreen<T>(Scene, Nullable<Single>, Action<T>, String)
+  nameWithType: LoadingScreenUtility.OpenLoadingScreen<T>(Scene, Nullable<Single>, Action<T>, String)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen<T>(AdvancedSceneManager.Models.Scene, System.Nullable<System.Single>, System.Action<T>, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OpenLoadingScreen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 66
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Shows a loading screen.
+  example: []
+  syntax:
+    content: >-
+      public static SceneOperation<T> OpenLoadingScreen<T>(Scene scene, float? timeout = null, Action<T> callbackBeforeBegin = null, string typeName = null)
+          where T : LoadingScreen
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    - id: timeout
+      type: System.Nullable{System.Single}
+      description: The time to wait after opening scene before cancelling load screen.
+    - id: callbackBeforeBegin
+      type: System.Action{{T}}
+    - id: typeName
+      type: System.String
+      description: Overrides the name of the type in the missing script message.
+    typeParameters:
+    - id: T
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation{{T}}
+    content.vb: Public Shared Function OpenLoadingScreen(Of T As LoadingScreen)(scene As Scene, timeout As Single? = Nothing, callbackBeforeBegin As Action(Of T) = Nothing, typeName As String = Nothing) As SceneOperation(Of T)
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen*
+  nameWithType.vb: LoadingScreenUtility.OpenLoadingScreen(Of T)(Scene, Nullable(Of Single), Action(Of T), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen(Of T)(AdvancedSceneManager.Models.Scene, System.Nullable(Of System.Single), System.Action(Of T), System.String)
+  name.vb: OpenLoadingScreen(Of T)(Scene, Nullable(Of Single), Action(Of T), String)
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen(AdvancedSceneManager.Models.Scene)
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen(AdvancedSceneManager.Models.Scene)
+  id: CloseLoadingScreen(AdvancedSceneManager.Models.Scene)
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: CloseLoadingScreen(Scene)
+  nameWithType: LoadingScreenUtility.CloseLoadingScreen(Scene)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen(AdvancedSceneManager.Models.Scene)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CloseLoadingScreen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 89
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Hide the loading screen.
+  example: []
+  syntax:
+    content: public static SceneOperation CloseLoadingScreen(Scene scene)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation
+    content.vb: Public Shared Function CloseLoadingScreen(scene As Scene) As SceneOperation
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen(AdvancedSceneManager.Callbacks.LoadingScreen)
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen(AdvancedSceneManager.Callbacks.LoadingScreen)
+  id: CloseLoadingScreen(AdvancedSceneManager.Callbacks.LoadingScreen)
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: CloseLoadingScreen(LoadingScreen)
+  nameWithType: LoadingScreenUtility.CloseLoadingScreen(LoadingScreen)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen(AdvancedSceneManager.Callbacks.LoadingScreen)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CloseLoadingScreen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 93
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Hide the loading screen.
+  example: []
+  syntax:
+    content: public static SceneOperation CloseLoadingScreen(LoadingScreen loadingScreen)
+    parameters:
+    - id: loadingScreen
+      type: AdvancedSceneManager.Callbacks.LoadingScreen
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation
+    content.vb: Public Shared Function CloseLoadingScreen(loadingScreen As LoadingScreen) As SceneOperation
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseAll
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.CloseAll
+  id: CloseAll
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: CloseAll()
+  nameWithType: LoadingScreenUtility.CloseAll()
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseAll()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CloseAll
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 108
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Hide all loading screens.
+  example: []
+  syntax:
+    content: public static SceneOperation CloseAll()
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation
+    content.vb: Public Shared Function CloseAll As SceneOperation
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseAll*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.FindLoadingScreen(AdvancedSceneManager.Models.SceneCollection)
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.FindLoadingScreen(AdvancedSceneManager.Models.SceneCollection)
+  id: FindLoadingScreen(AdvancedSceneManager.Models.SceneCollection)
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: FindLoadingScreen(SceneCollection)
+  nameWithType: LoadingScreenUtility.FindLoadingScreen(SceneCollection)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.FindLoadingScreen(AdvancedSceneManager.Models.SceneCollection)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FindLoadingScreen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 123
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Find the loading screen that is associated with this collection.
+  example: []
+  syntax:
+    content: public static Scene FindLoadingScreen(SceneCollection collection)
+    parameters:
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    return:
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: Public Shared Function FindLoadingScreen(collection As SceneCollection) As Scene
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.FindLoadingScreen*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.fade
+  commentId: P:AdvancedSceneManager.Utility.LoadingScreenUtility.fade
+  id: fade
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: fade
+  nameWithType: LoadingScreenUtility.fade
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.fade
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: fade
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 156
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Finds the default fade loading screen. Will be null if not included in build.
+  example: []
+  syntax:
+    content: public static Scene fade { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: Public Shared ReadOnly Property fade As Scene
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.fade*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade(System.Func{System.Collections.IEnumerator},System.Single,System.Nullable{UnityEngine.Color})
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade(System.Func{System.Collections.IEnumerator},System.Single,System.Nullable{UnityEngine.Color})
+  id: DoActionWithFade(System.Func{System.Collections.IEnumerator},System.Single,System.Nullable{UnityEngine.Color})
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: DoActionWithFade(Func<IEnumerator>, Single, Nullable<Color>)
+  nameWithType: LoadingScreenUtility.DoActionWithFade(Func<IEnumerator>, Single, Nullable<Color>)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade(System.Func<System.Collections.IEnumerator>, System.Single, System.Nullable<UnityEngine.Color>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DoActionWithFade
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 160
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Fades screen out, performs action and fades in again.
+  example: []
+  syntax:
+    content: public static SceneOperation DoActionWithFade(Func<IEnumerator> action, float duration = 1F, Color? color = null)
+    parameters:
+    - id: action
+      type: System.Func{System.Collections.IEnumerator}
+    - id: duration
+      type: System.Single
+    - id: color
+      type: System.Nullable{UnityEngine.Color}
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation
+    content.vb: Public Shared Function DoActionWithFade(action As Func(Of IEnumerator), duration As Single = 1F, color As Color? = Nothing) As SceneOperation
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade*
+  nameWithType.vb: LoadingScreenUtility.DoActionWithFade(Func(Of IEnumerator), Single, Nullable(Of Color))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade(System.Func(Of System.Collections.IEnumerator), System.Single, System.Nullable(Of UnityEngine.Color))
+  name.vb: DoActionWithFade(Func(Of IEnumerator), Single, Nullable(Of Color))
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade(System.Action,System.Single,System.Nullable{UnityEngine.Color})
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade(System.Action,System.Single,System.Nullable{UnityEngine.Color})
+  id: DoActionWithFade(System.Action,System.Single,System.Nullable{UnityEngine.Color})
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: DoActionWithFade(Action, Single, Nullable<Color>)
+  nameWithType: LoadingScreenUtility.DoActionWithFade(Action, Single, Nullable<Color>)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade(System.Action, System.Single, System.Nullable<UnityEngine.Color>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DoActionWithFade
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 164
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Fades screen out, performs action and fades in again.
+  example: []
+  syntax:
+    content: public static SceneOperation DoActionWithFade(Action action, float duration = 1F, Color? color = null)
+    parameters:
+    - id: action
+      type: System.Action
+    - id: duration
+      type: System.Single
+    - id: color
+      type: System.Nullable{UnityEngine.Color}
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation
+    content.vb: Public Shared Function DoActionWithFade(action As Action, duration As Single = 1F, color As Color? = Nothing) As SceneOperation
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade*
+  nameWithType.vb: LoadingScreenUtility.DoActionWithFade(Action, Single, Nullable(Of Color))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade(System.Action, System.Single, System.Nullable(Of UnityEngine.Color))
+  name.vb: DoActionWithFade(Action, Single, Nullable(Of Color))
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.FadeOut(System.Single,System.Nullable{UnityEngine.Color})
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.FadeOut(System.Single,System.Nullable{UnityEngine.Color})
+  id: FadeOut(System.Single,System.Nullable{UnityEngine.Color})
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: FadeOut(Single, Nullable<Color>)
+  nameWithType: LoadingScreenUtility.FadeOut(Single, Nullable<Color>)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.FadeOut(System.Single, System.Nullable<UnityEngine.Color>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FadeOut
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 168
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Fades out the screen.
+  example: []
+  syntax:
+    content: public static SceneOperation<LoadingScreen> FadeOut(float duration = 1F, Color? color = null)
+    parameters:
+    - id: duration
+      type: System.Single
+    - id: color
+      type: System.Nullable{UnityEngine.Color}
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation{AdvancedSceneManager.Callbacks.LoadingScreen}
+    content.vb: Public Shared Function FadeOut(duration As Single = 1F, color As Color? = Nothing) As SceneOperation(Of LoadingScreen)
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.FadeOut*
+  nameWithType.vb: LoadingScreenUtility.FadeOut(Single, Nullable(Of Color))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.LoadingScreenUtility.FadeOut(System.Single, System.Nullable(Of UnityEngine.Color))
+  name.vb: FadeOut(Single, Nullable(Of Color))
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.FadeIn(AdvancedSceneManager.Callbacks.LoadingScreen,System.Single,System.Nullable{UnityEngine.Color})
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.FadeIn(AdvancedSceneManager.Callbacks.LoadingScreen,System.Single,System.Nullable{UnityEngine.Color})
+  id: FadeIn(AdvancedSceneManager.Callbacks.LoadingScreen,System.Single,System.Nullable{UnityEngine.Color})
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: FadeIn(LoadingScreen, Single, Nullable<Color>)
+  nameWithType: LoadingScreenUtility.FadeIn(LoadingScreen, Single, Nullable<Color>)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.FadeIn(AdvancedSceneManager.Callbacks.LoadingScreen, System.Single, System.Nullable<UnityEngine.Color>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FadeIn
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 172
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Fades in the screen.
+  example: []
+  syntax:
+    content: public static SceneOperation FadeIn(LoadingScreen loadingScreen, float duration = 1F, Color? color = null)
+    parameters:
+    - id: loadingScreen
+      type: AdvancedSceneManager.Callbacks.LoadingScreen
+    - id: duration
+      type: System.Single
+    - id: color
+      type: System.Nullable{UnityEngine.Color}
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation
+    content.vb: Public Shared Function FadeIn(loadingScreen As LoadingScreen, duration As Single = 1F, color As Color? = Nothing) As SceneOperation
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.FadeIn*
+  nameWithType.vb: LoadingScreenUtility.FadeIn(LoadingScreen, Single, Nullable(Of Color))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.LoadingScreenUtility.FadeIn(AdvancedSceneManager.Callbacks.LoadingScreen, System.Single, System.Nullable(Of UnityEngine.Color))
+  name.vb: FadeIn(LoadingScreen, Single, Nullable(Of Color))
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction(AdvancedSceneManager.Models.Scene,System.Action,System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction(AdvancedSceneManager.Models.Scene,System.Action,System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  id: DoAction(AdvancedSceneManager.Models.Scene,System.Action,System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: DoAction(Scene, Action, Action<LoadingScreen>)
+  nameWithType: LoadingScreenUtility.DoAction(Scene, Action, Action<LoadingScreen>)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction(AdvancedSceneManager.Models.Scene, System.Action, System.Action<AdvancedSceneManager.Callbacks.LoadingScreen>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DoAction
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 190
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Opens loading screen, performs action and hides loading screen again.
+  example: []
+  syntax:
+    content: public static SceneOperation DoAction(Scene scene, Action action, Action<LoadingScreen> loadingScreenCallback)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    - id: action
+      type: System.Action
+    - id: loadingScreenCallback
+      type: System.Action{AdvancedSceneManager.Callbacks.LoadingScreen}
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation
+    content.vb: Public Shared Function DoAction(scene As Scene, action As Action, loadingScreenCallback As Action(Of LoadingScreen)) As SceneOperation
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction*
+  nameWithType.vb: LoadingScreenUtility.DoAction(Scene, Action, Action(Of LoadingScreen))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction(AdvancedSceneManager.Models.Scene, System.Action, System.Action(Of AdvancedSceneManager.Callbacks.LoadingScreen))
+  name.vb: DoAction(Scene, Action, Action(Of LoadingScreen))
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction(AdvancedSceneManager.Models.Scene,System.Func{System.Collections.IEnumerator},System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction(AdvancedSceneManager.Models.Scene,System.Func{System.Collections.IEnumerator},System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  id: DoAction(AdvancedSceneManager.Models.Scene,System.Func{System.Collections.IEnumerator},System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: DoAction(Scene, Func<IEnumerator>, Action<LoadingScreen>)
+  nameWithType: LoadingScreenUtility.DoAction(Scene, Func<IEnumerator>, Action<LoadingScreen>)
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction(AdvancedSceneManager.Models.Scene, System.Func<System.Collections.IEnumerator>, System.Action<AdvancedSceneManager.Callbacks.LoadingScreen>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DoAction
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 195
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Opens loading screen, performs action and hides loading screen again.
+  remarks: Throws <xref href="AdvancedSceneManager.Exceptions.OpenSceneException" data-throw-if-not-resolved="false"></xref> if <code data-dev-comment-type="paramref" class="paramref">scene</code> is null.
+  example: []
+  syntax:
+    content: public static SceneOperation DoAction(Scene scene, Func<IEnumerator> coroutine, Action<LoadingScreen> loadingScreenCallback)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    - id: coroutine
+      type: System.Func{System.Collections.IEnumerator}
+    - id: loadingScreenCallback
+      type: System.Action{AdvancedSceneManager.Callbacks.LoadingScreen}
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation
+    content.vb: Public Shared Function DoAction(scene As Scene, coroutine As Func(Of IEnumerator), loadingScreenCallback As Action(Of LoadingScreen)) As SceneOperation
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction*
+  nameWithType.vb: LoadingScreenUtility.DoAction(Scene, Func(Of IEnumerator), Action(Of LoadingScreen))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction(AdvancedSceneManager.Models.Scene, System.Func(Of System.Collections.IEnumerator), System.Action(Of AdvancedSceneManager.Callbacks.LoadingScreen))
+  name.vb: DoAction(Scene, Func(Of IEnumerator), Action(Of LoadingScreen))
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.loadingScreens
+  commentId: P:AdvancedSceneManager.Utility.LoadingScreenUtility.loadingScreens
+  id: loadingScreens
+  parent: AdvancedSceneManager.Utility.LoadingScreenUtility
+  langs:
+  - csharp
+  - vb
+  name: loadingScreens
+  nameWithType: LoadingScreenUtility.loadingScreens
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.loadingScreens
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: loadingScreens
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LoadingScreenUtility.cs
+    startLine: 226
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: The currently open loading screens.
+  example: []
+  syntax:
+    content: public static ReadOnlyCollection<LoadingScreen> loadingScreens { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Callbacks.LoadingScreen}
+    content.vb: Public Shared ReadOnly Property loadingScreens As ReadOnlyCollection(Of LoadingScreen)
+  overload: AdvancedSceneManager.Utility.LoadingScreenUtility.loadingScreens*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen*
+  commentId: Overload:AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen
+  name: IsLoadingScreenOpen
+  nameWithType: LoadingScreenUtility.IsLoadingScreenOpen
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.IsLoadingScreenOpen
+- uid: UnityEngine.SceneManagement.Scene
+  commentId: T:UnityEngine.SceneManagement.Scene
+  parent: UnityEngine.SceneManagement
+  isExternal: true
+  name: Scene
+  nameWithType: Scene
+  fullName: UnityEngine.SceneManagement.Scene
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEngine.SceneManagement
+  commentId: N:UnityEngine.SceneManagement
+  isExternal: true
+  name: UnityEngine.SceneManagement
+  nameWithType: UnityEngine.SceneManagement
+  fullName: UnityEngine.SceneManagement
+- uid: AdvancedSceneManager.Models.Scene
+  commentId: T:AdvancedSceneManager.Models.Scene
+  parent: AdvancedSceneManager.Models
+  name: Scene
+  nameWithType: Scene
+  fullName: AdvancedSceneManager.Models.Scene
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: AdvancedSceneManager.Core.OpenSceneInfo
+  commentId: T:AdvancedSceneManager.Core.OpenSceneInfo
+  parent: AdvancedSceneManager.Core
+  name: OpenSceneInfo
+  nameWithType: OpenSceneInfo
+  fullName: AdvancedSceneManager.Core.OpenSceneInfo
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.IsAnyLoadingScreenOpen*
+  commentId: Overload:AdvancedSceneManager.Utility.LoadingScreenUtility.IsAnyLoadingScreenOpen
+  name: IsAnyLoadingScreenOpen
+  nameWithType: LoadingScreenUtility.IsAnyLoadingScreenOpen
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.IsAnyLoadingScreenOpen
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen*
+  commentId: Overload:AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen
+  name: OpenLoadingScreen
+  nameWithType: LoadingScreenUtility.OpenLoadingScreen
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.OpenLoadingScreen
+- uid: AdvancedSceneManager.Models.SceneCollection
+  commentId: T:AdvancedSceneManager.Models.SceneCollection
+  parent: AdvancedSceneManager.Models
+  name: SceneCollection
+  nameWithType: SceneCollection
+  fullName: AdvancedSceneManager.Models.SceneCollection
+- uid: System.Nullable{System.Single}
+  commentId: T:System.Nullable{System.Single}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Single>
+  nameWithType: Nullable<Single>
+  fullName: System.Nullable<System.Single>
+  nameWithType.vb: Nullable(Of Single)
+  fullName.vb: System.Nullable(Of System.Single)
+  name.vb: Nullable(Of Single)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{AdvancedSceneManager.Callbacks.LoadingScreen}
+  commentId: T:System.Action{AdvancedSceneManager.Callbacks.LoadingScreen}
+  parent: System
+  definition: System.Action`1
+  name: Action<LoadingScreen>
+  nameWithType: Action<LoadingScreen>
+  fullName: System.Action<AdvancedSceneManager.Callbacks.LoadingScreen>
+  nameWithType.vb: Action(Of LoadingScreen)
+  fullName.vb: System.Action(Of AdvancedSceneManager.Callbacks.LoadingScreen)
+  name.vb: Action(Of LoadingScreen)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen
+    name: LoadingScreen
+    nameWithType: LoadingScreen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen
+    name: LoadingScreen
+    nameWithType: LoadingScreen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation{AdvancedSceneManager.Callbacks.LoadingScreen}
+  commentId: T:AdvancedSceneManager.Core.SceneOperation{AdvancedSceneManager.Callbacks.LoadingScreen}
+  parent: AdvancedSceneManager.Core
+  definition: AdvancedSceneManager.Core.SceneOperation`1
+  name: SceneOperation<LoadingScreen>
+  nameWithType: SceneOperation<LoadingScreen>
+  fullName: AdvancedSceneManager.Core.SceneOperation<AdvancedSceneManager.Callbacks.LoadingScreen>
+  nameWithType.vb: SceneOperation(Of LoadingScreen)
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of AdvancedSceneManager.Callbacks.LoadingScreen)
+  name.vb: SceneOperation(Of LoadingScreen)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation`1
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen
+    name: LoadingScreen
+    nameWithType: LoadingScreen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation`1
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen
+    name: LoadingScreen
+    nameWithType: LoadingScreen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation`1
+  commentId: T:AdvancedSceneManager.Core.SceneOperation`1
+  parent: AdvancedSceneManager.Core
+  name: SceneOperation<ReturnValue>
+  nameWithType: SceneOperation<ReturnValue>
+  fullName: AdvancedSceneManager.Core.SceneOperation<ReturnValue>
+  nameWithType.vb: SceneOperation(Of ReturnValue)
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of ReturnValue)
+  name.vb: SceneOperation(Of ReturnValue)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation`1
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ReturnValue
+    nameWithType: ReturnValue
+    fullName: ReturnValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation`1
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ReturnValue
+    nameWithType: ReturnValue
+    fullName: ReturnValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Action{{T}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.SceneOperation{{T}}
+  commentId: T:AdvancedSceneManager.Core.SceneOperation{``0}
+  parent: AdvancedSceneManager.Core
+  definition: AdvancedSceneManager.Core.SceneOperation`1
+  name: SceneOperation<T>
+  nameWithType: SceneOperation<T>
+  fullName: AdvancedSceneManager.Core.SceneOperation<T>
+  nameWithType.vb: SceneOperation(Of T)
+  fullName.vb: AdvancedSceneManager.Core.SceneOperation(Of T)
+  name.vb: SceneOperation(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.SceneOperation`1
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.SceneOperation`1
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen(AdvancedSceneManager.Callbacks.LoadingScreen)
+  commentId: M:AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen(AdvancedSceneManager.Callbacks.LoadingScreen)
+  isExternal: true
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen*
+  commentId: Overload:AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen
+  name: CloseLoadingScreen
+  nameWithType: LoadingScreenUtility.CloseLoadingScreen
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseLoadingScreen
+- uid: AdvancedSceneManager.Core.SceneOperation
+  commentId: T:AdvancedSceneManager.Core.SceneOperation
+  parent: AdvancedSceneManager.Core
+  name: SceneOperation
+  nameWithType: SceneOperation
+  fullName: AdvancedSceneManager.Core.SceneOperation
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen
+  commentId: T:AdvancedSceneManager.Callbacks.LoadingScreen
+  parent: AdvancedSceneManager.Callbacks
+  name: LoadingScreen
+  nameWithType: LoadingScreen
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseAll*
+  commentId: Overload:AdvancedSceneManager.Utility.LoadingScreenUtility.CloseAll
+  name: CloseAll
+  nameWithType: LoadingScreenUtility.CloseAll
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.CloseAll
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.FindLoadingScreen*
+  commentId: Overload:AdvancedSceneManager.Utility.LoadingScreenUtility.FindLoadingScreen
+  name: FindLoadingScreen
+  nameWithType: LoadingScreenUtility.FindLoadingScreen
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.FindLoadingScreen
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.fade*
+  commentId: Overload:AdvancedSceneManager.Utility.LoadingScreenUtility.fade
+  name: fade
+  nameWithType: LoadingScreenUtility.fade
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.fade
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade*
+  commentId: Overload:AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade
+  name: DoActionWithFade
+  nameWithType: LoadingScreenUtility.DoActionWithFade
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.DoActionWithFade
+- uid: System.Func{System.Collections.IEnumerator}
+  commentId: T:System.Func{System.Collections.IEnumerator}
+  parent: System
+  definition: System.Func`1
+  name: Func<IEnumerator>
+  nameWithType: Func<IEnumerator>
+  fullName: System.Func<System.Collections.IEnumerator>
+  nameWithType.vb: Func(Of IEnumerator)
+  fullName.vb: System.Func(Of System.Collections.IEnumerator)
+  name.vb: Func(Of IEnumerator)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Nullable{UnityEngine.Color}
+  commentId: T:System.Nullable{UnityEngine.Color}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Color>
+  nameWithType: Nullable<Color>
+  fullName: System.Nullable<UnityEngine.Color>
+  nameWithType.vb: Nullable(Of Color)
+  fullName.vb: System.Nullable(Of UnityEngine.Color)
+  name.vb: Nullable(Of Color)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Color
+    name: Color
+    nameWithType: Color
+    fullName: UnityEngine.Color
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Color
+    name: Color
+    nameWithType: Color
+    fullName: UnityEngine.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.FadeOut*
+  commentId: Overload:AdvancedSceneManager.Utility.LoadingScreenUtility.FadeOut
+  name: FadeOut
+  nameWithType: LoadingScreenUtility.FadeOut
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.FadeOut
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.FadeIn*
+  commentId: Overload:AdvancedSceneManager.Utility.LoadingScreenUtility.FadeIn
+  name: FadeIn
+  nameWithType: LoadingScreenUtility.FadeIn
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.FadeIn
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction*
+  commentId: Overload:AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction
+  name: DoAction
+  nameWithType: LoadingScreenUtility.DoAction
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.DoAction
+- uid: AdvancedSceneManager.Exceptions.OpenSceneException
+  commentId: T:AdvancedSceneManager.Exceptions.OpenSceneException
+  name: OpenSceneException
+  nameWithType: OpenSceneException
+  fullName: AdvancedSceneManager.Exceptions.OpenSceneException
+- uid: AdvancedSceneManager.Utility.LoadingScreenUtility.loadingScreens*
+  commentId: Overload:AdvancedSceneManager.Utility.LoadingScreenUtility.loadingScreens
+  name: loadingScreens
+  nameWithType: LoadingScreenUtility.loadingScreens
+  fullName: AdvancedSceneManager.Utility.LoadingScreenUtility.loadingScreens
+- uid: System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Callbacks.LoadingScreen}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Callbacks.LoadingScreen}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  name: ReadOnlyCollection<LoadingScreen>
+  nameWithType: ReadOnlyCollection<LoadingScreen>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<AdvancedSceneManager.Callbacks.LoadingScreen>
+  nameWithType.vb: ReadOnlyCollection(Of LoadingScreen)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of AdvancedSceneManager.Callbacks.LoadingScreen)
+  name.vb: ReadOnlyCollection(Of LoadingScreen)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen
+    name: LoadingScreen
+    nameWithType: LoadingScreen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen
+    name: LoadingScreen
+    nameWithType: LoadingScreen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection`1
+  isExternal: true
+  name: ReadOnlyCollection<T>
+  nameWithType: ReadOnlyCollection<T>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
+  nameWithType.vb: ReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T)
+  name.vb: ReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel

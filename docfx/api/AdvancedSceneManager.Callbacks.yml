@@ -1,0 +1,221 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  id: AdvancedSceneManager.Callbacks
+  children:
+  - AdvancedSceneManager.Callbacks.CallbackUtility
+  - AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  - AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode
+  - AdvancedSceneManager.Callbacks.CombineNull
+  - AdvancedSceneManager.Callbacks.CoroutineDiagHelper
+  - AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails
+  - AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails
+  - AdvancedSceneManager.Callbacks.ICollectionClose
+  - AdvancedSceneManager.Callbacks.ICollectionExtraData
+  - AdvancedSceneManager.Callbacks.ICollectionOpen
+  - AdvancedSceneManager.Callbacks.ISceneClose
+  - AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase
+  - AdvancedSceneManager.Callbacks.ISceneOpen
+  - AdvancedSceneManager.Callbacks.LoadingScreen
+  - AdvancedSceneManager.Callbacks.ParallelASMCallbacks
+  - AdvancedSceneManager.Callbacks.Serializable`2
+  - AdvancedSceneManager.Callbacks.SerializableDateTime
+  - AdvancedSceneManager.Callbacks.SerializableTimeSpan
+  - AdvancedSceneManager.Callbacks.SplashScreen
+  langs:
+  - csharp
+  - vb
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+  type: Namespace
+  assemblies:
+  - AdvancedSceneManager
+references:
+- uid: AdvancedSceneManager.Callbacks.ParallelASMCallbacks
+  commentId: T:AdvancedSceneManager.Callbacks.ParallelASMCallbacks
+  name: ParallelASMCallbacks
+  nameWithType: ParallelASMCallbacks
+  fullName: AdvancedSceneManager.Callbacks.ParallelASMCallbacks
+- uid: AdvancedSceneManager.Callbacks.CombineNull
+  commentId: T:AdvancedSceneManager.Callbacks.CombineNull
+  parent: AdvancedSceneManager.Callbacks
+  name: CombineNull
+  nameWithType: CombineNull
+  fullName: AdvancedSceneManager.Callbacks.CombineNull
+- uid: AdvancedSceneManager.Callbacks.Serializable`2
+  commentId: T:AdvancedSceneManager.Callbacks.Serializable`2
+  name: Serializable<T, TValue>
+  nameWithType: Serializable<T, TValue>
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>
+  nameWithType.vb: Serializable(Of T, TValue)
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue)
+  name.vb: Serializable(Of T, TValue)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2
+    name: Serializable
+    nameWithType: Serializable
+    fullName: AdvancedSceneManager.Callbacks.Serializable
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.Serializable`2
+    name: Serializable
+    nameWithType: Serializable
+    fullName: AdvancedSceneManager.Callbacks.Serializable
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.SerializableDateTime
+  commentId: T:AdvancedSceneManager.Callbacks.SerializableDateTime
+  parent: AdvancedSceneManager.Callbacks
+  name: SerializableDateTime
+  nameWithType: SerializableDateTime
+  fullName: AdvancedSceneManager.Callbacks.SerializableDateTime
+- uid: AdvancedSceneManager.Callbacks.SerializableTimeSpan
+  commentId: T:AdvancedSceneManager.Callbacks.SerializableTimeSpan
+  parent: AdvancedSceneManager.Callbacks
+  name: SerializableTimeSpan
+  nameWithType: SerializableTimeSpan
+  fullName: AdvancedSceneManager.Callbacks.SerializableTimeSpan
+- uid: AdvancedSceneManager.Callbacks.CoroutineDiagHelper
+  commentId: T:AdvancedSceneManager.Callbacks.CoroutineDiagHelper
+  parent: AdvancedSceneManager.Callbacks
+  name: CoroutineDiagHelper
+  nameWithType: CoroutineDiagHelper
+  fullName: AdvancedSceneManager.Callbacks.CoroutineDiagHelper
+- uid: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails
+  commentId: T:AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails
+  parent: AdvancedSceneManager.Callbacks
+  name: CoroutineDiagHelper.CallerDetails
+  nameWithType: CoroutineDiagHelper.CallerDetails
+  fullName: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails
+- uid: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails
+  commentId: T:AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails
+  parent: AdvancedSceneManager.Callbacks
+  name: CoroutineDiagHelper.SubroutineDetails
+  nameWithType: CoroutineDiagHelper.SubroutineDetails
+  fullName: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility
+  commentId: T:AdvancedSceneManager.Callbacks.CallbackUtility
+  name: CallbackUtility
+  nameWithType: CallbackUtility
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode
+  commentId: T:AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode
+  parent: AdvancedSceneManager.Callbacks
+  name: CallbackUtility.ShowMode
+  nameWithType: CallbackUtility.ShowMode
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  commentId: T:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  parent: AdvancedSceneManager.Callbacks
+  name: CallbackUtility.FluentInvokeAPI<T>
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T)
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T)
+  name.vb: CallbackUtility.FluentInvokeAPI(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+    name: CallbackUtility.FluentInvokeAPI
+    nameWithType: CallbackUtility.FluentInvokeAPI
+    fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+    name: CallbackUtility.FluentInvokeAPI
+    nameWithType: CallbackUtility.FluentInvokeAPI
+    fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen
+  commentId: T:AdvancedSceneManager.Callbacks.LoadingScreen
+  parent: AdvancedSceneManager.Callbacks
+  name: LoadingScreen
+  nameWithType: LoadingScreen
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+- uid: AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase
+  commentId: T:AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase
+  name: ISceneManagerCallbackBase
+  nameWithType: ISceneManagerCallbackBase
+  fullName: AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase
+- uid: AdvancedSceneManager.Callbacks.ISceneOpen
+  commentId: T:AdvancedSceneManager.Callbacks.ISceneOpen
+  name: ISceneOpen
+  nameWithType: ISceneOpen
+  fullName: AdvancedSceneManager.Callbacks.ISceneOpen
+- uid: AdvancedSceneManager.Callbacks.ISceneClose
+  commentId: T:AdvancedSceneManager.Callbacks.ISceneClose
+  name: ISceneClose
+  nameWithType: ISceneClose
+  fullName: AdvancedSceneManager.Callbacks.ISceneClose
+- uid: AdvancedSceneManager.Callbacks.ICollectionOpen
+  commentId: T:AdvancedSceneManager.Callbacks.ICollectionOpen
+  parent: AdvancedSceneManager.Callbacks
+  name: ICollectionOpen
+  nameWithType: ICollectionOpen
+  fullName: AdvancedSceneManager.Callbacks.ICollectionOpen
+- uid: AdvancedSceneManager.Callbacks.ICollectionClose
+  commentId: T:AdvancedSceneManager.Callbacks.ICollectionClose
+  parent: AdvancedSceneManager.Callbacks
+  name: ICollectionClose
+  nameWithType: ICollectionClose
+  fullName: AdvancedSceneManager.Callbacks.ICollectionClose
+- uid: AdvancedSceneManager.Callbacks.ICollectionExtraData
+  commentId: T:AdvancedSceneManager.Callbacks.ICollectionExtraData
+  name: ICollectionExtraData
+  nameWithType: ICollectionExtraData
+  fullName: AdvancedSceneManager.Callbacks.ICollectionExtraData
+- uid: AdvancedSceneManager.Callbacks.SplashScreen
+  commentId: T:AdvancedSceneManager.Callbacks.SplashScreen
+  parent: AdvancedSceneManager.Callbacks
+  name: SplashScreen
+  nameWithType: SplashScreen
+  fullName: AdvancedSceneManager.Callbacks.SplashScreen
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks

@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.BuildEventsUtility.BuildError
+  commentId: T:AdvancedSceneManager.Editor.Utility.BuildEventsUtility.BuildError
+  id: BuildEventsUtility.BuildError
+  parent: AdvancedSceneManager.Editor.Utility
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: BuildEventsUtility.BuildError
+  nameWithType: BuildEventsUtility.BuildError
+  fullName: AdvancedSceneManager.Editor.Utility.BuildEventsUtility.BuildError
+  type: Delegate
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildEventsUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: BuildError
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildEventsUtility.cs
+    startLine: 17
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public delegate void BuildError(string condition, string stacktrace, LogType type);
+    parameters:
+    - id: condition
+      type: System.String
+    - id: stacktrace
+      type: System.String
+    - id: type
+      type: UnityEngine.LogType
+    content.vb: Public Delegate Sub BuildError(condition As String, stacktrace As String, type As LogType)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.LogType
+  commentId: T:UnityEngine.LogType
+  parent: UnityEngine
+  isExternal: true
+  name: LogType
+  nameWithType: LogType
+  fullName: UnityEngine.LogType
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

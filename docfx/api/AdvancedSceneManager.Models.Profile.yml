@@ -1,0 +1,2393 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Models.Profile
+  commentId: T:AdvancedSceneManager.Models.Profile
+  id: Profile
+  parent: AdvancedSceneManager.Models
+  children:
+  - AdvancedSceneManager.Models.Profile.Add(AdvancedSceneManager.Models.Scene,System.String,System.Boolean)
+  - AdvancedSceneManager.Models.Profile.Add(AdvancedSceneManager.Models.SceneCollection)
+  - AdvancedSceneManager.Models.Profile.backgroundLoadingPriority
+  - AdvancedSceneManager.Models.Profile.blacklist
+  - AdvancedSceneManager.Models.Profile.Clear(System.String,System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Models.Profile.collections
+  - AdvancedSceneManager.Models.Profile.createCameraDuringStartup
+  - AdvancedSceneManager.Models.Profile.CreateCollection(System.String,System.Action{AdvancedSceneManager.Models.SceneCollection})
+  - AdvancedSceneManager.Models.Profile.current
+  - AdvancedSceneManager.Models.Profile.Delete
+  - AdvancedSceneManager.Models.Profile.dynamicCollectionPaths
+  - AdvancedSceneManager.Models.Profile.dynamicCollections
+  - AdvancedSceneManager.Models.Profile.enableChangingBackgroundLoadingPriority
+  - AdvancedSceneManager.Models.Profile.Find(System.Func{AdvancedSceneManager.Models.Profile,System.Boolean})
+  - AdvancedSceneManager.Models.Profile.Find(System.String)
+  - AdvancedSceneManager.Models.Profile.FindAll
+  - AdvancedSceneManager.Models.Profile.includeFadeLoadingScene
+  - AdvancedSceneManager.Models.Profile.IsSet(System.String,System.Boolean)
+  - AdvancedSceneManager.Models.Profile.IsSet(System.String,System.String)
+  - AdvancedSceneManager.Models.Profile.loadingScreen
+  - AdvancedSceneManager.Models.Profile.MarkAsDirty
+  - AdvancedSceneManager.Models.Profile.name
+  - AdvancedSceneManager.Models.Profile.onProfileChanged
+  - AdvancedSceneManager.Models.Profile.Order(AdvancedSceneManager.Models.SceneCollection)
+  - AdvancedSceneManager.Models.Profile.Order(AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32})
+  - AdvancedSceneManager.Models.Profile.PropertyChanged
+  - AdvancedSceneManager.Models.Profile.Remove(AdvancedSceneManager.Models.Scene,System.String,System.Boolean)
+  - AdvancedSceneManager.Models.Profile.Remove(AdvancedSceneManager.Models.SceneCollection)
+  - AdvancedSceneManager.Models.Profile.scenePaths
+  - AdvancedSceneManager.Models.Profile.scenes
+  - AdvancedSceneManager.Models.Profile.splashScreen
+  - AdvancedSceneManager.Models.Profile.StartupCollections
+  - AdvancedSceneManager.Models.Profile.startupLoadingScreen
+  - AdvancedSceneManager.Models.Profile.startupScene
+  - AdvancedSceneManager.Models.Profile.tagDefinitions
+  - AdvancedSceneManager.Models.Profile.useDefaultPauseScreen
+  langs:
+  - csharp
+  - vb
+  name: Profile
+  nameWithType: Profile
+  fullName: AdvancedSceneManager.Models.Profile
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Profile
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 22
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: A profile, contains settings, collections and scenes.
+  example: []
+  syntax:
+    content: 'public class Profile : ScriptableObject, INotifyPropertyChanged'
+    content.vb: >-
+      Public Class Profile
+          Inherits ScriptableObject
+          Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  extensionMethods:
+  - UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Models.Profile.FindAll
+  commentId: M:AdvancedSceneManager.Models.Profile.FindAll
+  id: FindAll
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: FindAll()
+  nameWithType: Profile.FindAll()
+  fullName: AdvancedSceneManager.Models.Profile.FindAll()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FindAll
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 25
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public static Profile[] FindAll()
+    return:
+      type: AdvancedSceneManager.Models.Profile[]
+    content.vb: Public Shared Function FindAll As Profile()
+  overload: AdvancedSceneManager.Models.Profile.FindAll*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Models.Profile.Find(System.Func{AdvancedSceneManager.Models.Profile,System.Boolean})
+  commentId: M:AdvancedSceneManager.Models.Profile.Find(System.Func{AdvancedSceneManager.Models.Profile,System.Boolean})
+  id: Find(System.Func{AdvancedSceneManager.Models.Profile,System.Boolean})
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: Find(Func<Profile, Boolean>)
+  nameWithType: Profile.Find(Func<Profile, Boolean>)
+  fullName: AdvancedSceneManager.Models.Profile.Find(System.Func<AdvancedSceneManager.Models.Profile, System.Boolean>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Find
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 28
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public static Profile Find(Func<Profile, bool> predicate)
+    parameters:
+    - id: predicate
+      type: System.Func{AdvancedSceneManager.Models.Profile,System.Boolean}
+    return:
+      type: AdvancedSceneManager.Models.Profile
+    content.vb: Public Shared Function Find(predicate As Func(Of Profile, Boolean)) As Profile
+  overload: AdvancedSceneManager.Models.Profile.Find*
+  nameWithType.vb: Profile.Find(Func(Of Profile, Boolean))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Models.Profile.Find(System.Func(Of AdvancedSceneManager.Models.Profile, System.Boolean))
+  name.vb: Find(Func(Of Profile, Boolean))
+- uid: AdvancedSceneManager.Models.Profile.Find(System.String)
+  commentId: M:AdvancedSceneManager.Models.Profile.Find(System.String)
+  id: Find(System.String)
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: Find(String)
+  nameWithType: Profile.Find(String)
+  fullName: AdvancedSceneManager.Models.Profile.Find(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Find
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 31
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public static Profile Find(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: AdvancedSceneManager.Models.Profile
+    content.vb: Public Shared Function Find(name As String) As Profile
+  overload: AdvancedSceneManager.Models.Profile.Find*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Models.Profile.name
+  commentId: P:AdvancedSceneManager.Models.Profile.name
+  id: name
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Profile.name
+  fullName: AdvancedSceneManager.Models.Profile.name
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: name
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 40
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public string name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property name As String
+  overload: AdvancedSceneManager.Models.Profile.name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Models.Profile.MarkAsDirty
+  commentId: M:AdvancedSceneManager.Models.Profile.MarkAsDirty
+  id: MarkAsDirty
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: MarkAsDirty()
+  nameWithType: Profile.MarkAsDirty()
+  fullName: AdvancedSceneManager.Models.Profile.MarkAsDirty()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: MarkAsDirty
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 48
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Mark scriptable object as dirty after modifying.
+  remarks: No effect in build.
+  example: []
+  syntax:
+    content: public void MarkAsDirty()
+    content.vb: Public Sub MarkAsDirty
+  overload: AdvancedSceneManager.Models.Profile.MarkAsDirty*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.current
+  commentId: P:AdvancedSceneManager.Models.Profile.current
+  id: current
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: current
+  nameWithType: Profile.current
+  fullName: AdvancedSceneManager.Models.Profile.current
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: current
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 106
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Gets the currently active profile.
+  example: []
+  syntax:
+    content: public static Profile current { get; set; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Models.Profile
+    content.vb: Public Shared Property current As Profile
+  overload: AdvancedSceneManager.Models.Profile.current*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Models.Profile.onProfileChanged
+  commentId: E:AdvancedSceneManager.Models.Profile.onProfileChanged
+  id: onProfileChanged
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: onProfileChanged
+  nameWithType: Profile.onProfileChanged
+  fullName: AdvancedSceneManager.Models.Profile.onProfileChanged
+  type: Event
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: onProfileChanged
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 136
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public static event Action onProfileChanged
+    return:
+      type: System.Action
+    content.vb: Public Shared Event onProfileChanged As Action
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Models.Profile.collections
+  commentId: P:AdvancedSceneManager.Models.Profile.collections
+  id: collections
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: collections
+  nameWithType: Profile.collections
+  fullName: AdvancedSceneManager.Models.Profile.collections
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: collections
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 145
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Gets the collections contained within this profile.
+  example: []
+  syntax:
+    content: public ReadOnlyCollection<SceneCollection> collections { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Models.SceneCollection}
+    content.vb: Public ReadOnly Property collections As ReadOnlyCollection(Of SceneCollection)
+  overload: AdvancedSceneManager.Models.Profile.collections*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Models.Profile.scenes
+  commentId: P:AdvancedSceneManager.Models.Profile.scenes
+  id: scenes
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: scenes
+  nameWithType: Profile.scenes
+  fullName: AdvancedSceneManager.Models.Profile.scenes
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: scenes
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 150
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Gets the scenes managed by this profile.
+  remarks: Includes both collection and standalone scenes.
+  example: []
+  syntax:
+    content: public IEnumerable<Scene> scenes { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}
+    content.vb: Public ReadOnly Property scenes As IEnumerable(Of Scene)
+  overload: AdvancedSceneManager.Models.Profile.scenes*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Models.Profile.scenePaths
+  commentId: P:AdvancedSceneManager.Models.Profile.scenePaths
+  id: scenePaths
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: scenePaths
+  nameWithType: Profile.scenePaths
+  fullName: AdvancedSceneManager.Models.Profile.scenePaths
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: scenePaths
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 159
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Gets the scenes managed by this profile.
+  remarks: Includes both collection and standalone scenes.
+  example: []
+  syntax:
+    content: public IEnumerable<string> scenePaths { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public ReadOnly Property scenePaths As IEnumerable(Of String)
+  overload: AdvancedSceneManager.Models.Profile.scenePaths*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Models.Profile.StartupCollections
+  commentId: M:AdvancedSceneManager.Models.Profile.StartupCollections
+  id: StartupCollections
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: StartupCollections()
+  nameWithType: Profile.StartupCollections()
+  fullName: AdvancedSceneManager.Models.Profile.StartupCollections()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: StartupCollections
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 164
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Gets the collections that will be opened on startup.
+  remarks: If no collection is explicitly defined to be opened during startup, then the first available collection in list will be returned.
+  example: []
+  syntax:
+    content: public IEnumerable<SceneCollection> StartupCollections()
+    return:
+      type: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.SceneCollection}
+    content.vb: Public Function StartupCollections As IEnumerable(Of SceneCollection)
+  overload: AdvancedSceneManager.Models.Profile.StartupCollections*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.CreateCollection(System.String,System.Action{AdvancedSceneManager.Models.SceneCollection})
+  commentId: M:AdvancedSceneManager.Models.Profile.CreateCollection(System.String,System.Action{AdvancedSceneManager.Models.SceneCollection})
+  id: CreateCollection(System.String,System.Action{AdvancedSceneManager.Models.SceneCollection})
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: CreateCollection(String, Action<SceneCollection>)
+  nameWithType: Profile.CreateCollection(String, Action<SceneCollection>)
+  fullName: AdvancedSceneManager.Models.Profile.CreateCollection(System.String, System.Action<AdvancedSceneManager.Models.SceneCollection>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CreateCollection
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 180
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Create a collection and add it to this profile.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public SceneCollection CreateCollection(string name, Action<SceneCollection> initializeBeforeSave = null)
+    parameters:
+    - id: name
+      type: System.String
+    - id: initializeBeforeSave
+      type: System.Action{AdvancedSceneManager.Models.SceneCollection}
+    return:
+      type: AdvancedSceneManager.Models.SceneCollection
+    content.vb: Public Function CreateCollection(name As String, initializeBeforeSave As Action(Of SceneCollection) = Nothing) As SceneCollection
+  overload: AdvancedSceneManager.Models.Profile.CreateCollection*
+  nameWithType.vb: Profile.CreateCollection(String, Action(Of SceneCollection))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Models.Profile.CreateCollection(System.String, System.Action(Of AdvancedSceneManager.Models.SceneCollection))
+  name.vb: CreateCollection(String, Action(Of SceneCollection))
+- uid: AdvancedSceneManager.Models.Profile.Add(AdvancedSceneManager.Models.SceneCollection)
+  commentId: M:AdvancedSceneManager.Models.Profile.Add(AdvancedSceneManager.Models.SceneCollection)
+  id: Add(AdvancedSceneManager.Models.SceneCollection)
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: Add(SceneCollection)
+  nameWithType: Profile.Add(SceneCollection)
+  fullName: AdvancedSceneManager.Models.Profile.Add(AdvancedSceneManager.Models.SceneCollection)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Add
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 185
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Adds a collection to this profile.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public void Add(SceneCollection collection)
+    parameters:
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    content.vb: Public Sub Add(collection As SceneCollection)
+  overload: AdvancedSceneManager.Models.Profile.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.Remove(AdvancedSceneManager.Models.SceneCollection)
+  commentId: M:AdvancedSceneManager.Models.Profile.Remove(AdvancedSceneManager.Models.SceneCollection)
+  id: Remove(AdvancedSceneManager.Models.SceneCollection)
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: Remove(SceneCollection)
+  nameWithType: Profile.Remove(SceneCollection)
+  fullName: AdvancedSceneManager.Models.Profile.Remove(AdvancedSceneManager.Models.SceneCollection)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Remove
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 190
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Removes a collection from this profile.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public void Remove(SceneCollection collection)
+    parameters:
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    content.vb: Public Sub Remove(collection As SceneCollection)
+  overload: AdvancedSceneManager.Models.Profile.Remove*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.PropertyChanged
+  commentId: E:AdvancedSceneManager.Models.Profile.PropertyChanged
+  id: PropertyChanged
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: PropertyChanged
+  nameWithType: Profile.PropertyChanged
+  fullName: AdvancedSceneManager.Models.Profile.PropertyChanged
+  type: Event
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: PropertyChanged
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 197
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public event PropertyChangedEventHandler PropertyChanged
+    return:
+      type: System.ComponentModel.PropertyChangedEventHandler
+    content.vb: Public Event PropertyChanged As PropertyChangedEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.startupScene
+  commentId: P:AdvancedSceneManager.Models.Profile.startupScene
+  id: startupScene
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: startupScene
+  nameWithType: Profile.startupScene
+  fullName: AdvancedSceneManager.Models.Profile.startupScene
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: startupScene
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 224
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: The startup scene.
+  example: []
+  syntax:
+    content: public Scene startupScene { get; set; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: Public Property startupScene As Scene
+  overload: AdvancedSceneManager.Models.Profile.startupScene*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.startupLoadingScreen
+  commentId: P:AdvancedSceneManager.Models.Profile.startupLoadingScreen
+  id: startupLoadingScreen
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: startupLoadingScreen
+  nameWithType: Profile.startupLoadingScreen
+  fullName: AdvancedSceneManager.Models.Profile.startupLoadingScreen
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: startupLoadingScreen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 231
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: The loading screen to use during startup.
+  example: []
+  syntax:
+    content: public Scene startupLoadingScreen { get; set; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: Public Property startupLoadingScreen As Scene
+  overload: AdvancedSceneManager.Models.Profile.startupLoadingScreen*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.loadingScreen
+  commentId: P:AdvancedSceneManager.Models.Profile.loadingScreen
+  id: loadingScreen
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: loadingScreen
+  nameWithType: Profile.loadingScreen
+  fullName: AdvancedSceneManager.Models.Profile.loadingScreen
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: loadingScreen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 238
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: The default loading screen.
+  example: []
+  syntax:
+    content: public Scene loadingScreen { get; set; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: Public Property loadingScreen As Scene
+  overload: AdvancedSceneManager.Models.Profile.loadingScreen*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.splashScreen
+  commentId: P:AdvancedSceneManager.Models.Profile.splashScreen
+  id: splashScreen
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: splashScreen
+  nameWithType: Profile.splashScreen
+  fullName: AdvancedSceneManager.Models.Profile.splashScreen
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: splashScreen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 245
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: The splash screen.
+  example: []
+  syntax:
+    content: public Scene splashScreen { get; set; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: Public Property splashScreen As Scene
+  overload: AdvancedSceneManager.Models.Profile.splashScreen*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.useDefaultPauseScreen
+  commentId: P:AdvancedSceneManager.Models.Profile.useDefaultPauseScreen
+  id: useDefaultPauseScreen
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: useDefaultPauseScreen
+  nameWithType: Profile.useDefaultPauseScreen
+  fullName: AdvancedSceneManager.Models.Profile.useDefaultPauseScreen
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: useDefaultPauseScreen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 253
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Enables the default pause screen.
+  remarks: Has no effect while in play mode.
+  example: []
+  syntax:
+    content: public bool useDefaultPauseScreen { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property useDefaultPauseScreen As Boolean
+  overload: AdvancedSceneManager.Models.Profile.useDefaultPauseScreen*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.includeFadeLoadingScene
+  commentId: P:AdvancedSceneManager.Models.Profile.includeFadeLoadingScene
+  id: includeFadeLoadingScene
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: includeFadeLoadingScene
+  nameWithType: Profile.includeFadeLoadingScene
+  fullName: AdvancedSceneManager.Models.Profile.includeFadeLoadingScene
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: includeFadeLoadingScene
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 262
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Enables the fade loading scene.
+  remarks: Has no effect while in play mode.
+  example: []
+  syntax:
+    content: public bool includeFadeLoadingScene { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property includeFadeLoadingScene As Boolean
+  overload: AdvancedSceneManager.Models.Profile.includeFadeLoadingScene*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.backgroundLoadingPriority
+  commentId: P:AdvancedSceneManager.Models.Profile.backgroundLoadingPriority
+  id: backgroundLoadingPriority
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: backgroundLoadingPriority
+  nameWithType: Profile.backgroundLoadingPriority
+  fullName: AdvancedSceneManager.Models.Profile.backgroundLoadingPriority
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: backgroundLoadingPriority
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 270
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: <xref href="UnityEngine.Application.backgroundLoadingPriority" data-throw-if-not-resolved="false"></xref> setting is not saved, and must be manually set every time build or editor starts, this property persists the value and automatically sets it during startup.
+  example: []
+  syntax:
+    content: public ThreadPriority backgroundLoadingPriority { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.ThreadPriority
+    content.vb: Public Property backgroundLoadingPriority As ThreadPriority
+  overload: AdvancedSceneManager.Models.Profile.backgroundLoadingPriority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.enableChangingBackgroundLoadingPriority
+  commentId: P:AdvancedSceneManager.Models.Profile.enableChangingBackgroundLoadingPriority
+  id: enableChangingBackgroundLoadingPriority
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: enableChangingBackgroundLoadingPriority
+  nameWithType: Profile.enableChangingBackgroundLoadingPriority
+  fullName: AdvancedSceneManager.Models.Profile.enableChangingBackgroundLoadingPriority
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: enableChangingBackgroundLoadingPriority
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 278
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Enable or disable ASM automatically changing <xref href="UnityEngine.Application.backgroundLoadingPriority" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool enableChangingBackgroundLoadingPriority { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property enableChangingBackgroundLoadingPriority As Boolean
+  overload: AdvancedSceneManager.Models.Profile.enableChangingBackgroundLoadingPriority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.createCameraDuringStartup
+  commentId: P:AdvancedSceneManager.Models.Profile.createCameraDuringStartup
+  id: createCameraDuringStartup
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: createCameraDuringStartup
+  nameWithType: Profile.createCameraDuringStartup
+  fullName: AdvancedSceneManager.Models.Profile.createCameraDuringStartup
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: createCameraDuringStartup
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 285
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Enable or disable ASM automatically creating a camera during startup.
+  example: []
+  syntax:
+    content: public bool createCameraDuringStartup { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property createCameraDuringStartup As Boolean
+  overload: AdvancedSceneManager.Models.Profile.createCameraDuringStartup*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.tagDefinitions
+  commentId: F:AdvancedSceneManager.Models.Profile.tagDefinitions
+  id: tagDefinitions
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: tagDefinitions
+  nameWithType: Profile.tagDefinitions
+  fullName: AdvancedSceneManager.Models.Profile.tagDefinitions
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: tagDefinitions
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 292
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: The layers defined in the tags tab in the scene manager window.
+  example: []
+  syntax:
+    content: public SceneTag[] tagDefinitions
+    return:
+      type: AdvancedSceneManager.Models.SceneTag[]
+    content.vb: Public tagDefinitions As SceneTag()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.dynamicCollectionPaths
+  commentId: P:AdvancedSceneManager.Models.Profile.dynamicCollectionPaths
+  id: dynamicCollectionPaths
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: dynamicCollectionPaths
+  nameWithType: Profile.dynamicCollectionPaths
+  fullName: AdvancedSceneManager.Models.Profile.dynamicCollectionPaths
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: dynamicCollectionPaths
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 296
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: The paths of which all scenes should be included in build, as a dynamic collection.
+  remarks: These are only evaluated and used in <xref href="AdvancedSceneManager.Editor.Utility.BuildSettingsUtility" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public string[] dynamicCollectionPaths { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property dynamicCollectionPaths As String()
+  overload: AdvancedSceneManager.Models.Profile.dynamicCollectionPaths*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Models.Profile.blacklist
+  commentId: P:AdvancedSceneManager.Models.Profile.blacklist
+  id: blacklist
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: blacklist
+  nameWithType: Profile.blacklist
+  fullName: AdvancedSceneManager.Models.Profile.blacklist
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: blacklist
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 301
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: The blacklist settings.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public SettingsModule blacklist { get; }
+    parameters: []
+    return:
+      type: plugin.asm.dependency_manager.Blacklist.SettingsModule
+    content.vb: Public ReadOnly Property blacklist As SettingsModule
+  overload: AdvancedSceneManager.Models.Profile.blacklist*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Models.Profile.Order(AdvancedSceneManager.Models.SceneCollection)
+  commentId: M:AdvancedSceneManager.Models.Profile.Order(AdvancedSceneManager.Models.SceneCollection)
+  id: Order(AdvancedSceneManager.Models.SceneCollection)
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: Order(SceneCollection)
+  nameWithType: Profile.Order(SceneCollection)
+  fullName: AdvancedSceneManager.Models.Profile.Order(AdvancedSceneManager.Models.SceneCollection)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Order
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 308
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Returns the order of this collection.
+  example: []
+  syntax:
+    content: public int Order(SceneCollection collection)
+    parameters:
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    return:
+      type: System.Int32
+    content.vb: Public Function Order(collection As SceneCollection) As Integer
+  overload: AdvancedSceneManager.Models.Profile.Order*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.Order(AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32})
+  commentId: M:AdvancedSceneManager.Models.Profile.Order(AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32})
+  id: Order(AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32})
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: Order(SceneCollection, Nullable<Int32>)
+  nameWithType: Profile.Order(SceneCollection, Nullable<Int32>)
+  fullName: AdvancedSceneManager.Models.Profile.Order(AdvancedSceneManager.Models.SceneCollection, System.Nullable<System.Int32>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Order
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 317
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Returns and/or sets the order of this collection in the scene manager window.
+  remarks: Cannot use in build.
+  example: []
+  syntax:
+    content: public int Order(SceneCollection collection, int? newIndex = null)
+    parameters:
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    - id: newIndex
+      type: System.Nullable{System.Int32}
+    return:
+      type: System.Int32
+    content.vb: Public Function Order(collection As SceneCollection, newIndex As Integer? = Nothing) As Integer
+  overload: AdvancedSceneManager.Models.Profile.Order*
+  nameWithType.vb: Profile.Order(SceneCollection, Nullable(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Models.Profile.Order(AdvancedSceneManager.Models.SceneCollection, System.Nullable(Of System.Int32))
+  name.vb: Order(SceneCollection, Nullable(Of Int32))
+- uid: AdvancedSceneManager.Models.Profile.dynamicCollections
+  commentId: P:AdvancedSceneManager.Models.Profile.dynamicCollections
+  id: dynamicCollections
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: dynamicCollections
+  nameWithType: Profile.dynamicCollections
+  fullName: AdvancedSceneManager.Models.Profile.dynamicCollections
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: dynamicCollections
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 366
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Gets the dynamic collections specified on this profile.
+  example: []
+  syntax:
+    content: public DynamicCollection[] dynamicCollections { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Models.DynamicCollection[]
+    content.vb: Public ReadOnly Property dynamicCollections As DynamicCollection()
+  overload: AdvancedSceneManager.Models.Profile.dynamicCollections*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Models.Profile.Add(AdvancedSceneManager.Models.Scene,System.String,System.Boolean)
+  commentId: M:AdvancedSceneManager.Models.Profile.Add(AdvancedSceneManager.Models.Scene,System.String,System.Boolean)
+  id: Add(AdvancedSceneManager.Models.Scene,System.String,System.Boolean)
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: Add(Scene, String, Boolean)
+  nameWithType: Profile.Add(Scene, String, Boolean)
+  fullName: AdvancedSceneManager.Models.Profile.Add(AdvancedSceneManager.Models.Scene, System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Add
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 409
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Adds a scene to a dynamic collection on this profile.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public void Add(Scene scene, string collectionTitle = "", bool updateBuildSettings = true)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    - id: collectionTitle
+      type: System.String
+    - id: updateBuildSettings
+      type: System.Boolean
+    content.vb: Public Sub Add(scene As Scene, collectionTitle As String = "", updateBuildSettings As Boolean = True)
+  overload: AdvancedSceneManager.Models.Profile.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.Remove(AdvancedSceneManager.Models.Scene,System.String,System.Boolean)
+  commentId: M:AdvancedSceneManager.Models.Profile.Remove(AdvancedSceneManager.Models.Scene,System.String,System.Boolean)
+  id: Remove(AdvancedSceneManager.Models.Scene,System.String,System.Boolean)
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: Remove(Scene, String, Boolean)
+  nameWithType: Profile.Remove(Scene, String, Boolean)
+  fullName: AdvancedSceneManager.Models.Profile.Remove(AdvancedSceneManager.Models.Scene, System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Remove
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 441
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Removes the scene from the specified dynamic collection.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public void Remove(Scene scene, string collectionTitle = "", bool updateBuildSettings = true)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    - id: collectionTitle
+      type: System.String
+    - id: updateBuildSettings
+      type: System.Boolean
+    content.vb: Public Sub Remove(scene As Scene, collectionTitle As String = "", updateBuildSettings As Boolean = True)
+  overload: AdvancedSceneManager.Models.Profile.Remove*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.Clear(System.String,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Models.Profile.Clear(System.String,System.Boolean,System.Boolean)
+  id: Clear(System.String,System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: Clear(String, Boolean, Boolean)
+  nameWithType: Profile.Clear(String, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Models.Profile.Clear(System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Clear
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 471
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Clears a dynamic collection.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public void Clear(string collectionTitle, bool save = true, bool updateBuildSettings = true)
+    parameters:
+    - id: collectionTitle
+      type: System.String
+    - id: save
+      type: System.Boolean
+    - id: updateBuildSettings
+      type: System.Boolean
+    content.vb: Public Sub Clear(collectionTitle As String, save As Boolean = True, updateBuildSettings As Boolean = True)
+  overload: AdvancedSceneManager.Models.Profile.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.IsSet(System.String,System.String)
+  commentId: M:AdvancedSceneManager.Models.Profile.IsSet(System.String,System.String)
+  id: IsSet(System.String,System.String)
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: IsSet(String, String)
+  nameWithType: Profile.IsSet(String, String)
+  fullName: AdvancedSceneManager.Models.Profile.IsSet(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IsSet
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 492
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Gets if the scene is added in a dynamic collection.
+  example: []
+  syntax:
+    content: public bool IsSet(string key, string scene)
+    parameters:
+    - id: key
+      type: System.String
+    - id: scene
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsSet(key As String, scene As String) As Boolean
+  overload: AdvancedSceneManager.Models.Profile.IsSet*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.IsSet(System.String,System.Boolean)
+  commentId: M:AdvancedSceneManager.Models.Profile.IsSet(System.String,System.Boolean)
+  id: IsSet(System.String,System.Boolean)
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: IsSet(String, Boolean)
+  nameWithType: Profile.IsSet(String, Boolean)
+  fullName: AdvancedSceneManager.Models.Profile.IsSet(System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IsSet
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 496
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Gets if the scene is added in a dynamic collection.
+  example: []
+  syntax:
+    content: public bool IsSet(string scene, bool includeStandalone = true)
+    parameters:
+    - id: scene
+      type: System.String
+    - id: includeStandalone
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsSet(scene As String, includeStandalone As Boolean = True) As Boolean
+  overload: AdvancedSceneManager.Models.Profile.IsSet*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.Profile.Delete
+  commentId: M:AdvancedSceneManager.Models.Profile.Delete
+  id: Delete
+  parent: AdvancedSceneManager.Models.Profile
+  langs:
+  - csharp
+  - vb
+  name: Delete()
+  nameWithType: Profile.Delete()
+  fullName: AdvancedSceneManager.Models.Profile.Delete()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Delete
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/Profile.cs
+    startLine: 506
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public void Delete()
+    content.vb: Public Sub Delete
+  overload: AdvancedSceneManager.Models.Profile.Delete*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  parent: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  definition: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  name: Save()
+  nameWithType: ScriptableObjectUtility.Save()
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  isExternal: true
+  name: Save(ScriptableObject)
+  nameWithType: ScriptableObjectUtility.Save(ScriptableObject)
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  commentId: T:AdvancedSceneManager.Utility.ScriptableObjectUtility
+  parent: AdvancedSceneManager.Utility
+  name: ScriptableObjectUtility
+  nameWithType: ScriptableObjectUtility
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: AdvancedSceneManager.Models.Profile.FindAll*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.FindAll
+  name: FindAll
+  nameWithType: Profile.FindAll
+  fullName: AdvancedSceneManager.Models.Profile.FindAll
+- uid: AdvancedSceneManager.Models.Profile[]
+  isExternal: true
+  name: Profile[]
+  nameWithType: Profile[]
+  fullName: AdvancedSceneManager.Models.Profile[]
+  nameWithType.vb: Profile()
+  fullName.vb: AdvancedSceneManager.Models.Profile()
+  name.vb: Profile()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.Profile
+    name: Profile
+    nameWithType: Profile
+    fullName: AdvancedSceneManager.Models.Profile
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.Profile
+    name: Profile
+    nameWithType: Profile
+    fullName: AdvancedSceneManager.Models.Profile
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: AdvancedSceneManager.Models.Profile.Find*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.Find
+  name: Find
+  nameWithType: Profile.Find
+  fullName: AdvancedSceneManager.Models.Profile.Find
+- uid: System.Func{AdvancedSceneManager.Models.Profile,System.Boolean}
+  commentId: T:System.Func{AdvancedSceneManager.Models.Profile,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  name: Func<Profile, Boolean>
+  nameWithType: Func<Profile, Boolean>
+  fullName: System.Func<AdvancedSceneManager.Models.Profile, System.Boolean>
+  nameWithType.vb: Func(Of Profile, Boolean)
+  fullName.vb: System.Func(Of AdvancedSceneManager.Models.Profile, System.Boolean)
+  name.vb: Func(Of Profile, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Profile
+    name: Profile
+    nameWithType: Profile
+    fullName: AdvancedSceneManager.Models.Profile
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Profile
+    name: Profile
+    nameWithType: Profile
+    fullName: AdvancedSceneManager.Models.Profile
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.Profile
+  commentId: T:AdvancedSceneManager.Models.Profile
+  parent: AdvancedSceneManager.Models
+  name: Profile
+  nameWithType: Profile
+  fullName: AdvancedSceneManager.Models.Profile
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Models.Profile.name*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.name
+  name: name
+  nameWithType: Profile.name
+  fullName: AdvancedSceneManager.Models.Profile.name
+- uid: AdvancedSceneManager.Models.Profile.MarkAsDirty*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.MarkAsDirty
+  name: MarkAsDirty
+  nameWithType: Profile.MarkAsDirty
+  fullName: AdvancedSceneManager.Models.Profile.MarkAsDirty
+- uid: AdvancedSceneManager.Models.Profile.current*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.current
+  name: current
+  nameWithType: Profile.current
+  fullName: AdvancedSceneManager.Models.Profile.current
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: AdvancedSceneManager.Models.Profile.collections*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.collections
+  name: collections
+  nameWithType: Profile.collections
+  fullName: AdvancedSceneManager.Models.Profile.collections
+- uid: System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Models.SceneCollection}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Models.SceneCollection}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  name: ReadOnlyCollection<SceneCollection>
+  nameWithType: ReadOnlyCollection<SceneCollection>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<AdvancedSceneManager.Models.SceneCollection>
+  nameWithType.vb: ReadOnlyCollection(Of SceneCollection)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of AdvancedSceneManager.Models.SceneCollection)
+  name.vb: ReadOnlyCollection(Of SceneCollection)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.SceneCollection
+    name: SceneCollection
+    nameWithType: SceneCollection
+    fullName: AdvancedSceneManager.Models.SceneCollection
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.SceneCollection
+    name: SceneCollection
+    nameWithType: SceneCollection
+    fullName: AdvancedSceneManager.Models.SceneCollection
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection`1
+  isExternal: true
+  name: ReadOnlyCollection<T>
+  nameWithType: ReadOnlyCollection<T>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
+  nameWithType.vb: ReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T)
+  name.vb: ReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+- uid: AdvancedSceneManager.Models.Profile.scenes*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.scenes
+  name: scenes
+  nameWithType: Profile.scenes
+  fullName: AdvancedSceneManager.Models.Profile.scenes
+- uid: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}
+  commentId: T:System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Scene>
+  nameWithType: IEnumerable<Scene>
+  fullName: System.Collections.Generic.IEnumerable<AdvancedSceneManager.Models.Scene>
+  nameWithType.vb: IEnumerable(Of Scene)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of AdvancedSceneManager.Models.Scene)
+  name.vb: IEnumerable(Of Scene)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: AdvancedSceneManager.Models.Profile.scenes
+  commentId: P:AdvancedSceneManager.Models.Profile.scenes
+  isExternal: true
+- uid: AdvancedSceneManager.Models.Profile.scenePaths*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.scenePaths
+  name: scenePaths
+  nameWithType: Profile.scenePaths
+  fullName: AdvancedSceneManager.Models.Profile.scenePaths
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.Profile.StartupCollections*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.StartupCollections
+  name: StartupCollections
+  nameWithType: Profile.StartupCollections
+  fullName: AdvancedSceneManager.Models.Profile.StartupCollections
+- uid: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.SceneCollection}
+  commentId: T:System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.SceneCollection}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SceneCollection>
+  nameWithType: IEnumerable<SceneCollection>
+  fullName: System.Collections.Generic.IEnumerable<AdvancedSceneManager.Models.SceneCollection>
+  nameWithType.vb: IEnumerable(Of SceneCollection)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of AdvancedSceneManager.Models.SceneCollection)
+  name.vb: IEnumerable(Of SceneCollection)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.SceneCollection
+    name: SceneCollection
+    nameWithType: SceneCollection
+    fullName: AdvancedSceneManager.Models.SceneCollection
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.SceneCollection
+    name: SceneCollection
+    nameWithType: SceneCollection
+    fullName: AdvancedSceneManager.Models.SceneCollection
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.Profile.CreateCollection*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.CreateCollection
+  name: CreateCollection
+  nameWithType: Profile.CreateCollection
+  fullName: AdvancedSceneManager.Models.Profile.CreateCollection
+- uid: System.Action{AdvancedSceneManager.Models.SceneCollection}
+  commentId: T:System.Action{AdvancedSceneManager.Models.SceneCollection}
+  parent: System
+  definition: System.Action`1
+  name: Action<SceneCollection>
+  nameWithType: Action<SceneCollection>
+  fullName: System.Action<AdvancedSceneManager.Models.SceneCollection>
+  nameWithType.vb: Action(Of SceneCollection)
+  fullName.vb: System.Action(Of AdvancedSceneManager.Models.SceneCollection)
+  name.vb: Action(Of SceneCollection)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.SceneCollection
+    name: SceneCollection
+    nameWithType: SceneCollection
+    fullName: AdvancedSceneManager.Models.SceneCollection
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.SceneCollection
+    name: SceneCollection
+    nameWithType: SceneCollection
+    fullName: AdvancedSceneManager.Models.SceneCollection
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection
+  commentId: T:AdvancedSceneManager.Models.SceneCollection
+  parent: AdvancedSceneManager.Models
+  name: SceneCollection
+  nameWithType: SceneCollection
+  fullName: AdvancedSceneManager.Models.SceneCollection
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.Profile.Add*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.Add
+  name: Add
+  nameWithType: Profile.Add
+  fullName: AdvancedSceneManager.Models.Profile.Add
+- uid: AdvancedSceneManager.Models.Profile.Remove*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.Remove
+  name: Remove
+  nameWithType: Profile.Remove
+  fullName: AdvancedSceneManager.Models.Profile.Remove
+- uid: System.ComponentModel.PropertyChangedEventHandler
+  commentId: T:System.ComponentModel.PropertyChangedEventHandler
+  parent: System.ComponentModel
+  isExternal: true
+  name: PropertyChangedEventHandler
+  nameWithType: PropertyChangedEventHandler
+  fullName: System.ComponentModel.PropertyChangedEventHandler
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: AdvancedSceneManager.Models.Profile.startupScene*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.startupScene
+  name: startupScene
+  nameWithType: Profile.startupScene
+  fullName: AdvancedSceneManager.Models.Profile.startupScene
+- uid: AdvancedSceneManager.Models.Scene
+  commentId: T:AdvancedSceneManager.Models.Scene
+  parent: AdvancedSceneManager.Models
+  name: Scene
+  nameWithType: Scene
+  fullName: AdvancedSceneManager.Models.Scene
+- uid: AdvancedSceneManager.Models.Profile.startupLoadingScreen*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.startupLoadingScreen
+  name: startupLoadingScreen
+  nameWithType: Profile.startupLoadingScreen
+  fullName: AdvancedSceneManager.Models.Profile.startupLoadingScreen
+- uid: AdvancedSceneManager.Models.Profile.loadingScreen*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.loadingScreen
+  name: loadingScreen
+  nameWithType: Profile.loadingScreen
+  fullName: AdvancedSceneManager.Models.Profile.loadingScreen
+- uid: AdvancedSceneManager.Models.Profile.splashScreen*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.splashScreen
+  name: splashScreen
+  nameWithType: Profile.splashScreen
+  fullName: AdvancedSceneManager.Models.Profile.splashScreen
+- uid: AdvancedSceneManager.Models.Profile.useDefaultPauseScreen*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.useDefaultPauseScreen
+  name: useDefaultPauseScreen
+  nameWithType: Profile.useDefaultPauseScreen
+  fullName: AdvancedSceneManager.Models.Profile.useDefaultPauseScreen
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Models.Profile.includeFadeLoadingScene*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.includeFadeLoadingScene
+  name: includeFadeLoadingScene
+  nameWithType: Profile.includeFadeLoadingScene
+  fullName: AdvancedSceneManager.Models.Profile.includeFadeLoadingScene
+- uid: UnityEngine.Application.backgroundLoadingPriority
+  commentId: P:UnityEngine.Application.backgroundLoadingPriority
+  isExternal: true
+- uid: AdvancedSceneManager.Models.Profile.backgroundLoadingPriority*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.backgroundLoadingPriority
+  name: backgroundLoadingPriority
+  nameWithType: Profile.backgroundLoadingPriority
+  fullName: AdvancedSceneManager.Models.Profile.backgroundLoadingPriority
+- uid: UnityEngine.ThreadPriority
+  commentId: T:UnityEngine.ThreadPriority
+  parent: UnityEngine
+  isExternal: true
+  name: ThreadPriority
+  nameWithType: ThreadPriority
+  fullName: UnityEngine.ThreadPriority
+- uid: AdvancedSceneManager.Models.Profile.enableChangingBackgroundLoadingPriority*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.enableChangingBackgroundLoadingPriority
+  name: enableChangingBackgroundLoadingPriority
+  nameWithType: Profile.enableChangingBackgroundLoadingPriority
+  fullName: AdvancedSceneManager.Models.Profile.enableChangingBackgroundLoadingPriority
+- uid: AdvancedSceneManager.Models.Profile.createCameraDuringStartup*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.createCameraDuringStartup
+  name: createCameraDuringStartup
+  nameWithType: Profile.createCameraDuringStartup
+  fullName: AdvancedSceneManager.Models.Profile.createCameraDuringStartup
+- uid: AdvancedSceneManager.Models.SceneTag[]
+  isExternal: true
+  name: SceneTag[]
+  nameWithType: SceneTag[]
+  fullName: AdvancedSceneManager.Models.SceneTag[]
+  nameWithType.vb: SceneTag()
+  fullName.vb: AdvancedSceneManager.Models.SceneTag()
+  name.vb: SceneTag()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.SceneTag
+    name: SceneTag
+    nameWithType: SceneTag
+    fullName: AdvancedSceneManager.Models.SceneTag
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.SceneTag
+    name: SceneTag
+    nameWithType: SceneTag
+    fullName: AdvancedSceneManager.Models.SceneTag
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+  name: BuildSettingsUtility
+  nameWithType: BuildSettingsUtility
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility
+- uid: AdvancedSceneManager.Models.Profile.dynamicCollectionPaths*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.dynamicCollectionPaths
+  name: dynamicCollectionPaths
+  nameWithType: Profile.dynamicCollectionPaths
+  fullName: AdvancedSceneManager.Models.Profile.dynamicCollectionPaths
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: AdvancedSceneManager.Models.Profile.blacklist*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.blacklist
+  name: blacklist
+  nameWithType: Profile.blacklist
+  fullName: AdvancedSceneManager.Models.Profile.blacklist
+- uid: plugin.asm.dependency_manager.Blacklist.SettingsModule
+  commentId: T:plugin.asm.dependency_manager.Blacklist.SettingsModule
+  parent: plugin.asm.dependency_manager.Blacklist
+  isExternal: true
+  name: SettingsModule
+  nameWithType: SettingsModule
+  fullName: plugin.asm.dependency_manager.Blacklist.SettingsModule
+- uid: plugin.asm.dependency_manager.Blacklist
+  commentId: N:plugin.asm.dependency_manager.Blacklist
+  isExternal: true
+  name: plugin.asm.dependency_manager.Blacklist
+  nameWithType: plugin.asm.dependency_manager.Blacklist
+  fullName: plugin.asm.dependency_manager.Blacklist
+- uid: AdvancedSceneManager.Models.Profile.Order*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.Order
+  name: Order
+  nameWithType: Profile.Order
+  fullName: AdvancedSceneManager.Models.Profile.Order
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.Profile.dynamicCollections*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.dynamicCollections
+  name: dynamicCollections
+  nameWithType: Profile.dynamicCollections
+  fullName: AdvancedSceneManager.Models.Profile.dynamicCollections
+- uid: AdvancedSceneManager.Models.DynamicCollection[]
+  isExternal: true
+  name: DynamicCollection[]
+  nameWithType: DynamicCollection[]
+  fullName: AdvancedSceneManager.Models.DynamicCollection[]
+  nameWithType.vb: DynamicCollection()
+  fullName.vb: AdvancedSceneManager.Models.DynamicCollection()
+  name.vb: DynamicCollection()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.DynamicCollection
+    name: DynamicCollection
+    nameWithType: DynamicCollection
+    fullName: AdvancedSceneManager.Models.DynamicCollection
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.DynamicCollection
+    name: DynamicCollection
+    nameWithType: DynamicCollection
+    fullName: AdvancedSceneManager.Models.DynamicCollection
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: AdvancedSceneManager.Models.Profile.Clear*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.Clear
+  name: Clear
+  nameWithType: Profile.Clear
+  fullName: AdvancedSceneManager.Models.Profile.Clear
+- uid: AdvancedSceneManager.Models.Profile.IsSet*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.IsSet
+  name: IsSet
+  nameWithType: Profile.IsSet
+  fullName: AdvancedSceneManager.Models.Profile.IsSet
+- uid: AdvancedSceneManager.Models.Profile.Delete*
+  commentId: Overload:AdvancedSceneManager.Models.Profile.Delete
+  name: Delete
+  nameWithType: Profile.Delete
+  fullName: AdvancedSceneManager.Models.Profile.Delete

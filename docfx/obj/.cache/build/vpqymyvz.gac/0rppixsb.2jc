@@ -1,0 +1,1812 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Core_SceneOperation" data-uid="AdvancedSceneManager.Core.SceneOperation" class="text-break">Class SceneOperation
+  </h1>
+  <div class="markdown level0 summary"><p>A scene operation is a queueable operation that can open or close scenes. See also: <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html">SceneAction</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.CustomYieldInstruction</span></div>
+    <div class="level2"><span class="xref">SceneOperation</span></div>
+      <div class="level3"><a class="xref" href="AdvancedSceneManager.Core.SceneOperation-1.html">SceneOperation</a>&lt;ReturnValue&gt;</div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AdvancedSceneManager.Utility.IQueueable.html">IQueueable</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Core.html">AdvancedSceneManager.Core</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Core_SceneOperation_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SceneOperation : CustomYieldInstruction, IEnumerator, IQueueable</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Core_SceneOperation_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>See also: <a class="xref" href="AdvancedSceneManager.Core.SceneOperation-1.html">SceneOperation&lt;ReturnValue&gt;</a>.</p>
+</div>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation__extCallbacks" data-uid="AdvancedSceneManager.Core.SceneOperation._extCallbacks">_extCallbacks</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly List&lt;Callback&gt; _extCallbacks</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_isDone" data-uid="AdvancedSceneManager.Core.SceneOperation.isDone">isDone</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool isDone</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Core_SceneOperation_actions_" data-uid="AdvancedSceneManager.Core.SceneOperation.actions*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_actions" data-uid="AdvancedSceneManager.Core.SceneOperation.actions">actions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;SceneAction&gt; actions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html">SceneAction</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_callbacks_" data-uid="AdvancedSceneManager.Core.SceneOperation.callbacks*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_callbacks" data-uid="AdvancedSceneManager.Core.SceneOperation.callbacks">callbacks</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;Callback&gt; callbacks { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_cancelled_" data-uid="AdvancedSceneManager.Core.SceneOperation.cancelled*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_cancelled" data-uid="AdvancedSceneManager.Core.SceneOperation.cancelled">cancelled</h4>
+  <div class="markdown level1 summary"><p>Gets if this scene operation is cancelled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool cancelled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_clearUnusedAssets_" data-uid="AdvancedSceneManager.Core.SceneOperation.clearUnusedAssets*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_clearUnusedAssets" data-uid="AdvancedSceneManager.Core.SceneOperation.clearUnusedAssets">clearUnusedAssets</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? clearUnusedAssets { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_close_" data-uid="AdvancedSceneManager.Core.SceneOperation.close*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_close" data-uid="AdvancedSceneManager.Core.SceneOperation.close">close</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;(OpenSceneInfo scene, bool force)&gt; close { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a>, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_closeBehavior_" data-uid="AdvancedSceneManager.Core.SceneOperation.closeBehavior*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_closeBehavior" data-uid="AdvancedSceneManager.Core.SceneOperation.closeBehavior">closeBehavior</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneCloseBehavior? closeBehavior { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="AdvancedSceneManager.Models.SceneCloseBehavior.html">SceneCloseBehavior</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_collection_" data-uid="AdvancedSceneManager.Core.SceneOperation.collection*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_collection" data-uid="AdvancedSceneManager.Core.SceneOperation.collection">collection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneCollection collection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_current_" data-uid="AdvancedSceneManager.Core.SceneOperation.current*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_current" data-uid="AdvancedSceneManager.Core.SceneOperation.current">current</h4>
+  <div class="markdown level1 summary"><p>The current action that is executing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneAction current { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html">SceneAction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_customActions_" data-uid="AdvancedSceneManager.Core.SceneOperation.customActions*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_customActions" data-uid="AdvancedSceneManager.Core.SceneOperation.customActions">customActions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;SceneAction&gt; customActions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html">SceneAction</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_doCollectionCallbacks_" data-uid="AdvancedSceneManager.Core.SceneOperation.doCollectionCallbacks*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_doCollectionCallbacks" data-uid="AdvancedSceneManager.Core.SceneOperation.doCollectionCallbacks">doCollectionCallbacks</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool doCollectionCallbacks { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_done_" data-uid="AdvancedSceneManager.Core.SceneOperation.done*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_done" data-uid="AdvancedSceneManager.Core.SceneOperation.done">done</h4>
+  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a> that has already completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneOperation done { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_friendlyText_" data-uid="AdvancedSceneManager.Core.SceneOperation.friendlyText*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_friendlyText" data-uid="AdvancedSceneManager.Core.SceneOperation.friendlyText">friendlyText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string friendlyText { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_keepWaiting_" data-uid="AdvancedSceneManager.Core.SceneOperation.keepWaiting*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_keepWaiting" data-uid="AdvancedSceneManager.Core.SceneOperation.keepWaiting">keepWaiting</h4>
+  <div class="markdown level1 summary"><p>Inherited from <span class="xref">UnityEngine.CustomYieldInstruction</span>. Tells unity whatever the operation is done or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool keepWaiting { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEngine.CustomYieldInstruction.keepWaiting</span></div>
+  <a id="AdvancedSceneManager_Core_SceneOperation_loadingPriority_" data-uid="AdvancedSceneManager.Core.SceneOperation.loadingPriority*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_loadingPriority" data-uid="AdvancedSceneManager.Core.SceneOperation.loadingPriority">loadingPriority</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ThreadPriority? loadingPriority { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">UnityEngine.ThreadPriority</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_loadingScreen_" data-uid="AdvancedSceneManager.Core.SceneOperation.loadingScreen*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_loadingScreen" data-uid="AdvancedSceneManager.Core.SceneOperation.loadingScreen">loadingScreen</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene loadingScreen { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_loadingScreenCallback_" data-uid="AdvancedSceneManager.Core.SceneOperation.loadingScreenCallback*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_loadingScreenCallback" data-uid="AdvancedSceneManager.Core.SceneOperation.loadingScreenCallback">loadingScreenCallback</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;LoadingScreen&gt; loadingScreenCallback { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="AdvancedSceneManager.Callbacks.LoadingScreen.html">LoadingScreen</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_open_" data-uid="AdvancedSceneManager.Core.SceneOperation.open*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_open" data-uid="AdvancedSceneManager.Core.SceneOperation.open">open</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;(Scene scene, bool force)&gt; open { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a>, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_openedLoadingScreen_" data-uid="AdvancedSceneManager.Core.SceneOperation.openedLoadingScreen*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_openedLoadingScreen" data-uid="AdvancedSceneManager.Core.SceneOperation.openedLoadingScreen">openedLoadingScreen</h4>
+  <div class="markdown level1 summary"><p>Gets the loading screen that was opened.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation&lt;LoadingScreen&gt; openedLoadingScreen { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation-1.html">SceneOperation</a>&lt;<a class="xref" href="AdvancedSceneManager.Callbacks.LoadingScreen.html">LoadingScreen</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_openedScenes_" data-uid="AdvancedSceneManager.Core.SceneOperation.openedScenes*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_openedScenes" data-uid="AdvancedSceneManager.Core.SceneOperation.openedScenes">openedScenes</h4>
+  <div class="markdown level1 summary"><p>Gets the scenes that was opened in this operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;OpenSceneInfo&gt; openedScenes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_phase_" data-uid="AdvancedSceneManager.Core.SceneOperation.phase*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_phase" data-uid="AdvancedSceneManager.Core.SceneOperation.phase">phase</h4>
+  <div class="markdown level1 summary"><p>The phase the this scene operation is currently in.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Phase phase { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Phase.html">Phase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_reopen_" data-uid="AdvancedSceneManager.Core.SceneOperation.reopen*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_reopen" data-uid="AdvancedSceneManager.Core.SceneOperation.reopen">reopen</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;OpenSceneInfo&gt; reopen { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_sceneManager_" data-uid="AdvancedSceneManager.Core.SceneOperation.sceneManager*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_sceneManager" data-uid="AdvancedSceneManager.Core.SceneOperation.sceneManager">sceneManager</h4>
+  <div class="markdown level1 summary"><p>The scene manager that requested this scene operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneManagerBase sceneManager { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AdvancedSceneManager.Core.SceneManagerBase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_totalProgress_" data-uid="AdvancedSceneManager.Core.SceneOperation.totalProgress*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_totalProgress" data-uid="AdvancedSceneManager.Core.SceneOperation.totalProgress">totalProgress</h4>
+  <div class="markdown level1 summary"><p>The total progress made by this operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float totalProgress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_useLoadingScreen_" data-uid="AdvancedSceneManager.Core.SceneOperation.useLoadingScreen*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_useLoadingScreen" data-uid="AdvancedSceneManager.Core.SceneOperation.useLoadingScreen">useLoadingScreen</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool useLoadingScreen { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Core_SceneOperation_Add_" data-uid="AdvancedSceneManager.Core.SceneOperation.Add*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_Add_AdvancedSceneManager_Core_SceneManagerBase_System_Boolean_" data-uid="AdvancedSceneManager.Core.SceneOperation.Add(AdvancedSceneManager.Core.SceneManagerBase,System.Boolean)">Add(SceneManagerBase, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Adds a new scene operation to the queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneOperation Add(SceneManagerBase sceneManager, bool ignoreQueue = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AdvancedSceneManager.Core.SceneManagerBase</span></td>
+        <td><span class="parametername">sceneManager</span></td>
+        <td><p>The scene manager that should manage the scenes when opened.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignoreQueue</span></td>
+        <td><p>Sets whatever this operation should ignore the queue, and start immediately.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_Add_" data-uid="AdvancedSceneManager.Core.SceneOperation.Add*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_Add__1_AdvancedSceneManager_Core_SceneManagerBase_System_Boolean_" data-uid="AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Boolean)">Add&lt;ReturnValue&gt;(SceneManagerBase, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Adds a new scene operation to the queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneOperation&lt;ReturnValue&gt; Add&lt;ReturnValue&gt;(SceneManagerBase sceneManager, bool ignoreQueue = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AdvancedSceneManager.Core.SceneManagerBase</span></td>
+        <td><span class="parametername">sceneManager</span></td>
+        <td><p>The scene manager that should manage the scenes when opened.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignoreQueue</span></td>
+        <td><p>Sets whatever this operation should ignore the queue, and start immediately.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation-1.html">SceneOperation</a>&lt;ReturnValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">ReturnValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_Add_" data-uid="AdvancedSceneManager.Core.SceneOperation.Add*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_Add__1_AdvancedSceneManager_Core_SceneManagerBase_System_Func_AdvancedSceneManager_Core_SceneOperation___0__System_Boolean_" data-uid="AdvancedSceneManager.Core.SceneOperation.Add``1(AdvancedSceneManager.Core.SceneManagerBase,System.Func{AdvancedSceneManager.Core.SceneOperation,``0},System.Boolean)">Add&lt;ReturnValue&gt;(SceneManagerBase, Func&lt;SceneOperation, ReturnValue&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Adds a new scene operation to the queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneOperation&lt;ReturnValue&gt; Add&lt;ReturnValue&gt;(SceneManagerBase sceneManager, Func&lt;SceneOperation, ReturnValue&gt; return, bool ignoreQueue = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AdvancedSceneManager.Core.SceneManagerBase</span></td>
+        <td><span class="parametername">sceneManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a>, ReturnValue&gt;</td>
+        <td><span class="parametername">return</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignoreQueue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation-1.html">SceneOperation</a>&lt;ReturnValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">ReturnValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_AddCallback_" data-uid="AdvancedSceneManager.Core.SceneOperation.AddCallback*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_AddCallback_AdvancedSceneManager_Core_Callback_" data-uid="AdvancedSceneManager.Core.SceneOperation.AddCallback(AdvancedSceneManager.Core.Callback)">AddCallback(Callback)</h4>
+  <div class="markdown level1 summary"><p>Adds the callback to every scene operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddCallback(Callback callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_AsPersistent_" data-uid="AdvancedSceneManager.Core.SceneOperation.AsPersistent*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_AsPersistent_AdvancedSceneManager_Models_SceneCloseBehavior_" data-uid="AdvancedSceneManager.Core.SceneOperation.AsPersistent(AdvancedSceneManager.Models.SceneCloseBehavior)">AsPersistent(SceneCloseBehavior)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation AsPersistent(SceneCloseBehavior closeBehavior)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.SceneCloseBehavior.html">SceneCloseBehavior</a></td>
+        <td><span class="parametername">closeBehavior</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_Cancel_" data-uid="AdvancedSceneManager.Core.SceneOperation.Cancel*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_Cancel_System_Action_" data-uid="AdvancedSceneManager.Core.SceneOperation.Cancel(System.Action)">Cancel(Action)</h4>
+  <div class="markdown level1 summary"><p>Cancel this operation.
+<p>Note that the operation might not be cancelled immediately, if user defined callbacks are currently running
+(WithAction(), WithCallback()) they will run to completion before operation is cancelled. &apos;cancelled&apos; property can be used in callbacks to check whatever a operation is cancelled.</p></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Cancel(Action callbackWhenFullyCancelled = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">callbackWhenFullyCancelled</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_Close_" data-uid="AdvancedSceneManager.Core.SceneOperation.Close*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_Close_AdvancedSceneManager_Core_OpenSceneInfo___" data-uid="AdvancedSceneManager.Core.SceneOperation.Close(AdvancedSceneManager.Core.OpenSceneInfo[])">Close(OpenSceneInfo[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Close(params OpenSceneInfo[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_Close_" data-uid="AdvancedSceneManager.Core.SceneOperation.Close*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_Close_System_Boolean_AdvancedSceneManager_Core_OpenSceneInfo___" data-uid="AdvancedSceneManager.Core.SceneOperation.Close(System.Boolean,AdvancedSceneManager.Core.OpenSceneInfo[])">Close(Boolean, OpenSceneInfo[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Close(bool force, params OpenSceneInfo[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_Close_" data-uid="AdvancedSceneManager.Core.SceneOperation.Close*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_Close_System_Collections_Generic_IEnumerable_AdvancedSceneManager_Core_OpenSceneInfo__System_Boolean_" data-uid="AdvancedSceneManager.Core.SceneOperation.Close(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo},System.Boolean)">Close(IEnumerable&lt;OpenSceneInfo&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Close(IEnumerable&lt;OpenSceneInfo&gt; scenes, bool force = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a>&gt;</td>
+        <td><span class="parametername">scenes</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_FindActions_" data-uid="AdvancedSceneManager.Core.SceneOperation.FindActions*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_FindActions__1" data-uid="AdvancedSceneManager.Core.SceneOperation.FindActions``1">FindActions&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Finds the actions of a specified type that was used in this operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;SceneAction&gt; FindActions&lt;T&gt;()
+    where T : SceneAction</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html">SceneAction</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_FindLastAction_" data-uid="AdvancedSceneManager.Core.SceneOperation.FindLastAction*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_FindLastAction__1" data-uid="AdvancedSceneManager.Core.SceneOperation.FindLastAction``1">FindLastAction&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Finds the last action of a specified type that was used in this operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneAction FindLastAction&lt;T&gt;()
+    where T : SceneAction</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html">SceneAction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_Open_" data-uid="AdvancedSceneManager.Core.SceneOperation.Open*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_Open_AdvancedSceneManager_Models_Scene___" data-uid="AdvancedSceneManager.Core.SceneOperation.Open(AdvancedSceneManager.Models.Scene[])">Open(Scene[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Open(params Scene[] scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a>[]</td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_Open_" data-uid="AdvancedSceneManager.Core.SceneOperation.Open*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_Open_System_Collections_Generic_IEnumerable_AdvancedSceneManager_Models_Scene__System_Boolean_" data-uid="AdvancedSceneManager.Core.SceneOperation.Open(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene},System.Boolean)">Open(IEnumerable&lt;Scene&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Open(IEnumerable&lt;Scene&gt; scene, bool force = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a>&gt;</td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_RemoveCallback_" data-uid="AdvancedSceneManager.Core.SceneOperation.RemoveCallback*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_RemoveCallback_AdvancedSceneManager_Core_Callback_" data-uid="AdvancedSceneManager.Core.SceneOperation.RemoveCallback(AdvancedSceneManager.Core.Callback)">RemoveCallback(Callback)</h4>
+  <div class="markdown level1 summary"><p>Removes a callback that was added to every scene operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveCallback(Callback callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_Reopen_" data-uid="AdvancedSceneManager.Core.SceneOperation.Reopen*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_Reopen_AdvancedSceneManager_Core_OpenSceneInfo___" data-uid="AdvancedSceneManager.Core.SceneOperation.Reopen(AdvancedSceneManager.Core.OpenSceneInfo[])">Reopen(OpenSceneInfo[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Reopen(params OpenSceneInfo[] scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a>[]</td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_Reopen_" data-uid="AdvancedSceneManager.Core.SceneOperation.Reopen*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_Reopen_AdvancedSceneManager_Models_Scene___" data-uid="AdvancedSceneManager.Core.SceneOperation.Reopen(AdvancedSceneManager.Models.Scene[])">Reopen(Scene[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Reopen(params Scene[] scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a>[]</td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_Reopen_" data-uid="AdvancedSceneManager.Core.SceneOperation.Reopen*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_Reopen_System_Collections_Generic_IEnumerable_AdvancedSceneManager_Core_OpenSceneInfo__" data-uid="AdvancedSceneManager.Core.SceneOperation.Reopen(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Core.OpenSceneInfo})">Reopen(IEnumerable&lt;OpenSceneInfo&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Reopen(IEnumerable&lt;OpenSceneInfo&gt; scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a>&gt;</td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_Reopen_" data-uid="AdvancedSceneManager.Core.SceneOperation.Reopen*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_Reopen_System_Collections_Generic_IEnumerable_AdvancedSceneManager_Models_Scene__" data-uid="AdvancedSceneManager.Core.SceneOperation.Reopen(System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene})">Reopen(IEnumerable&lt;Scene&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation Reopen(IEnumerable&lt;Scene&gt; scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a>&gt;</td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_WithAction_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithAction*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_WithAction_AdvancedSceneManager_Core_Actions_SceneAction___" data-uid="AdvancedSceneManager.Core.SceneOperation.WithAction(AdvancedSceneManager.Core.Actions.SceneAction[])">WithAction(SceneAction[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation WithAction(params SceneAction[] actions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html">SceneAction</a>[]</td>
+        <td><span class="parametername">actions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_WithCallback_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithCallback*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_WithCallback_AdvancedSceneManager_Core_Callback_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithCallback(AdvancedSceneManager.Core.Callback)">WithCallback(Callback)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation WithCallback(Callback actions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.Callback.html">Callback</a></td>
+        <td><span class="parametername">actions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_WithClearUnusedAssets_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithClearUnusedAssets*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_WithClearUnusedAssets_System_Boolean_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithClearUnusedAssets(System.Boolean)">WithClearUnusedAssets(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation WithClearUnusedAssets(bool enable = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_WithCollection_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithCollection*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_WithCollection_AdvancedSceneManager_Models_SceneCollection_System_Boolean_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithCollection(AdvancedSceneManager.Models.SceneCollection,System.Boolean)">WithCollection(SceneCollection, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation WithCollection(SceneCollection collection, bool withCallbacks = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a></td>
+        <td><span class="parametername">collection</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">withCallbacks</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_WithFriendlyText_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithFriendlyText*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_WithFriendlyText_System_String_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithFriendlyText(System.String)">WithFriendlyText(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation WithFriendlyText(string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_WithLoadingPriority_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithLoadingPriority*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_WithLoadingPriority_UnityEngine_ThreadPriority_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithLoadingPriority(UnityEngine.ThreadPriority)">WithLoadingPriority(ThreadPriority)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation WithLoadingPriority(ThreadPriority priority)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.ThreadPriority</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_WithLoadingScreen_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithLoadingScreen*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_WithLoadingScreen_AdvancedSceneManager_Models_Scene_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithLoadingScreen(AdvancedSceneManager.Models.Scene)">WithLoadingScreen(Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation WithLoadingScreen(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_WithLoadingScreen_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithLoadingScreen*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_WithLoadingScreen_System_Boolean_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithLoadingScreen(System.Boolean)">WithLoadingScreen(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation WithLoadingScreen(bool use)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">use</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Core_SceneOperation_WithLoadingScreenCallback_" data-uid="AdvancedSceneManager.Core.SceneOperation.WithLoadingScreenCallback*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_WithLoadingScreenCallback_System_Action_AdvancedSceneManager_Callbacks_LoadingScreen__" data-uid="AdvancedSceneManager.Core.SceneOperation.WithLoadingScreenCallback(System.Action{AdvancedSceneManager.Callbacks.LoadingScreen})">WithLoadingScreenCallback(Action&lt;LoadingScreen&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOperation WithLoadingScreenCallback(Action&lt;LoadingScreen&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="AdvancedSceneManager.Callbacks.LoadingScreen.html">LoadingScreen</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <a id="AdvancedSceneManager_Core_SceneOperation_AdvancedSceneManager_Utility_IQueueable_OnCancel_" data-uid="AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnCancel*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_AdvancedSceneManager_Utility_IQueueable_OnCancel" data-uid="AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnCancel">IQueueable.OnCancel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IQueueable.OnCancel()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_SceneOperation_AdvancedSceneManager_Utility_IQueueable_OnTurn_" data-uid="AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnTurn*"></a>
+  <h4 id="AdvancedSceneManager_Core_SceneOperation_AdvancedSceneManager_Utility_IQueueable_OnTurn_System_Action_" data-uid="AdvancedSceneManager.Core.SceneOperation.AdvancedSceneManager#Utility#IQueueable#OnTurn(System.Action)">IQueueable.OnTurn(Action)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IQueueable.OnTurn(Action onComplete)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">onComplete</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.IQueueable.html">IQueueable</a>
+  </div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

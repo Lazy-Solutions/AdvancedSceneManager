@@ -1,0 +1,316 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Callbacks.Serializable`2
+  commentId: T:AdvancedSceneManager.Callbacks.Serializable`2
+  id: Serializable`2
+  parent: AdvancedSceneManager.Callbacks
+  children:
+  - AdvancedSceneManager.Callbacks.Serializable`2.Convert(`0)
+  - AdvancedSceneManager.Callbacks.Serializable`2.ConvertBack(`1)
+  - AdvancedSceneManager.Callbacks.Serializable`2.OnAfterDeserialize
+  - AdvancedSceneManager.Callbacks.Serializable`2.OnBeforeSerialize
+  - AdvancedSceneManager.Callbacks.Serializable`2.value
+  langs:
+  - csharp
+  - vb
+  name: Serializable<T, TValue>
+  nameWithType: Serializable<T, TValue>
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Serializable
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 43
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: >-
+      [Serializable]
+
+      public abstract class Serializable<T, TValue> : ISerializationCallbackReceiver
+    typeParameters:
+    - id: T
+    - id: TValue
+    content.vb: >-
+      <Serializable>
+
+      Public MustInherit Class Serializable(Of T, TValue)
+          Implements ISerializationCallbackReceiver
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - AdvancedSceneManager.Callbacks.SerializableDateTime
+  - AdvancedSceneManager.Callbacks.SerializableTimeSpan
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  nameWithType.vb: Serializable(Of T, TValue)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue)
+  name.vb: Serializable(Of T, TValue)
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.value
+  commentId: P:AdvancedSceneManager.Callbacks.Serializable`2.value
+  id: value
+  parent: AdvancedSceneManager.Callbacks.Serializable`2
+  langs:
+  - csharp
+  - vb
+  name: value
+  nameWithType: Serializable<T, TValue>.value
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.value
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: value
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 49
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public T value { get; set; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Property value As T
+  overload: AdvancedSceneManager.Callbacks.Serializable`2.value*
+  nameWithType.vb: Serializable(Of T, TValue).value
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).value
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.Convert(`0)
+  commentId: M:AdvancedSceneManager.Callbacks.Serializable`2.Convert(`0)
+  id: Convert(`0)
+  parent: AdvancedSceneManager.Callbacks.Serializable`2
+  langs:
+  - csharp
+  - vb
+  name: Convert(T)
+  nameWithType: Serializable<T, TValue>.Convert(T)
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.Convert(T)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Convert
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 50
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public abstract TValue Convert(T value)
+    parameters:
+    - id: value
+      type: '{T}'
+    return:
+      type: '{TValue}'
+    content.vb: Public MustOverride Function Convert(value As T) As TValue
+  overload: AdvancedSceneManager.Callbacks.Serializable`2.Convert*
+  nameWithType.vb: Serializable(Of T, TValue).Convert(T)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).Convert(T)
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.ConvertBack(`1)
+  commentId: M:AdvancedSceneManager.Callbacks.Serializable`2.ConvertBack(`1)
+  id: ConvertBack(`1)
+  parent: AdvancedSceneManager.Callbacks.Serializable`2
+  langs:
+  - csharp
+  - vb
+  name: ConvertBack(TValue)
+  nameWithType: Serializable<T, TValue>.ConvertBack(TValue)
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.ConvertBack(TValue)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ConvertBack
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 51
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public abstract T ConvertBack(TValue value)
+    parameters:
+    - id: value
+      type: '{TValue}'
+    return:
+      type: '{T}'
+    content.vb: Public MustOverride Function ConvertBack(value As TValue) As T
+  overload: AdvancedSceneManager.Callbacks.Serializable`2.ConvertBack*
+  nameWithType.vb: Serializable(Of T, TValue).ConvertBack(TValue)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).ConvertBack(TValue)
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.OnAfterDeserialize
+  commentId: M:AdvancedSceneManager.Callbacks.Serializable`2.OnAfterDeserialize
+  id: OnAfterDeserialize
+  parent: AdvancedSceneManager.Callbacks.Serializable`2
+  langs:
+  - csharp
+  - vb
+  name: OnAfterDeserialize()
+  nameWithType: Serializable<T, TValue>.OnAfterDeserialize()
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.OnAfterDeserialize()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnAfterDeserialize
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 53
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public void OnAfterDeserialize()
+    content.vb: Public Sub OnAfterDeserialize
+  overload: AdvancedSceneManager.Callbacks.Serializable`2.OnAfterDeserialize*
+  nameWithType.vb: Serializable(Of T, TValue).OnAfterDeserialize()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).OnAfterDeserialize()
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.OnBeforeSerialize
+  commentId: M:AdvancedSceneManager.Callbacks.Serializable`2.OnBeforeSerialize
+  id: OnBeforeSerialize
+  parent: AdvancedSceneManager.Callbacks.Serializable`2
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeSerialize()
+  nameWithType: Serializable<T, TValue>.OnBeforeSerialize()
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.OnBeforeSerialize()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnBeforeSerialize
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 58
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public void OnBeforeSerialize()
+    content.vb: Public Sub OnBeforeSerialize
+  overload: AdvancedSceneManager.Callbacks.Serializable`2.OnBeforeSerialize*
+  nameWithType.vb: Serializable(Of T, TValue).OnBeforeSerialize()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).OnBeforeSerialize()
+references:
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.value*
+  commentId: Overload:AdvancedSceneManager.Callbacks.Serializable`2.value
+  name: value
+  nameWithType: Serializable<T, TValue>.value
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.value
+  nameWithType.vb: Serializable(Of T, TValue).value
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).value
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.Convert*
+  commentId: Overload:AdvancedSceneManager.Callbacks.Serializable`2.Convert
+  name: Convert
+  nameWithType: Serializable<T, TValue>.Convert
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.Convert
+  nameWithType.vb: Serializable(Of T, TValue).Convert
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).Convert
+- uid: '{TValue}'
+  commentId: '!:TValue'
+  definition: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.ConvertBack*
+  commentId: Overload:AdvancedSceneManager.Callbacks.Serializable`2.ConvertBack
+  name: ConvertBack
+  nameWithType: Serializable<T, TValue>.ConvertBack
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.ConvertBack
+  nameWithType.vb: Serializable(Of T, TValue).ConvertBack
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).ConvertBack
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.OnAfterDeserialize*
+  commentId: Overload:AdvancedSceneManager.Callbacks.Serializable`2.OnAfterDeserialize
+  name: OnAfterDeserialize
+  nameWithType: Serializable<T, TValue>.OnAfterDeserialize
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.OnAfterDeserialize
+  nameWithType.vb: Serializable(Of T, TValue).OnAfterDeserialize
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).OnAfterDeserialize
+- uid: AdvancedSceneManager.Callbacks.Serializable`2.OnBeforeSerialize*
+  commentId: Overload:AdvancedSceneManager.Callbacks.Serializable`2.OnBeforeSerialize
+  name: OnBeforeSerialize
+  nameWithType: Serializable<T, TValue>.OnBeforeSerialize
+  fullName: AdvancedSceneManager.Callbacks.Serializable<T, TValue>.OnBeforeSerialize
+  nameWithType.vb: Serializable(Of T, TValue).OnBeforeSerialize
+  fullName.vb: AdvancedSceneManager.Callbacks.Serializable(Of T, TValue).OnBeforeSerialize

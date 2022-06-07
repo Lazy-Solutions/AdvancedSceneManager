@@ -1,0 +1,1417 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.SceneOverviewWindow
+  commentId: T:AdvancedSceneManager.Editor.SceneOverviewWindow
+  id: SceneOverviewWindow
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.SceneOverviewWindow.autoReloadOnWindowFocus
+  - AdvancedSceneManager.Editor.SceneOverviewWindow.OnEnable
+  - AdvancedSceneManager.Editor.SceneOverviewWindow.path
+  langs:
+  - csharp
+  - vb
+  name: SceneOverviewWindow
+  nameWithType: SceneOverviewWindow
+  fullName: AdvancedSceneManager.Editor.SceneOverviewWindow
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneOverviewWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SceneOverviewWindow
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneOverviewWindow.cs
+    startLine: 14
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: 'public class SceneOverviewWindow : EditorWindow_UIElements<SceneOverviewWindow>, IUIToolkitEditor'
+    content.vb: >-
+      Public Class SceneOverviewWindow
+          Inherits EditorWindow_UIElements(Of SceneOverviewWindow)
+          Implements IUIToolkitEditor
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - UnityEditor.EditorWindow
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  implements:
+  - AdvancedSceneManager.Editor.IUIToolkitEditor
+  inheritedMembers:
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.title
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.window
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.Open
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.Close
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.OnClose
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.DoShow
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.OnShow
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.Reopen
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.isMainContentLoaded
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.ShowSuspendMessage
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.ReloadContent
+  - AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.OnFocus
+  extensionMethods:
+  - UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Editor.SceneOverviewWindow.path
+  commentId: P:AdvancedSceneManager.Editor.SceneOverviewWindow.path
+  id: path
+  parent: AdvancedSceneManager.Editor.SceneOverviewWindow
+  langs:
+  - csharp
+  - vb
+  name: path
+  nameWithType: SceneOverviewWindow.path
+  fullName: AdvancedSceneManager.Editor.SceneOverviewWindow.path
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneOverviewWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: path
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneOverviewWindow.cs
+    startLine: 17
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public override string path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property path As String
+  overridden: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.path
+  overload: AdvancedSceneManager.Editor.SceneOverviewWindow.path*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.SceneOverviewWindow.autoReloadOnWindowFocus
+  commentId: P:AdvancedSceneManager.Editor.SceneOverviewWindow.autoReloadOnWindowFocus
+  id: autoReloadOnWindowFocus
+  parent: AdvancedSceneManager.Editor.SceneOverviewWindow
+  langs:
+  - csharp
+  - vb
+  name: autoReloadOnWindowFocus
+  nameWithType: SceneOverviewWindow.autoReloadOnWindowFocus
+  fullName: AdvancedSceneManager.Editor.SceneOverviewWindow.autoReloadOnWindowFocus
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneOverviewWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: autoReloadOnWindowFocus
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneOverviewWindow.cs
+    startLine: 19
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public override bool autoReloadOnWindowFocus { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property autoReloadOnWindowFocus As Boolean
+  overridden: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.autoReloadOnWindowFocus
+  overload: AdvancedSceneManager.Editor.SceneOverviewWindow.autoReloadOnWindowFocus*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.SceneOverviewWindow.OnEnable
+  commentId: M:AdvancedSceneManager.Editor.SceneOverviewWindow.OnEnable
+  id: OnEnable
+  parent: AdvancedSceneManager.Editor.SceneOverviewWindow
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: SceneOverviewWindow.OnEnable()
+  fullName: AdvancedSceneManager.Editor.SceneOverviewWindow.OnEnable()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneOverviewWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnEnable
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneOverviewWindow.cs
+    startLine: 42
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public override void OnEnable()
+    content.vb: Public Overrides Sub OnEnable
+  overridden: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.OnEnable
+  overload: AdvancedSceneManager.Editor.SceneOverviewWindow.OnEnable*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEditor.EditorWindow
+  commentId: T:UnityEditor.EditorWindow
+  parent: UnityEditor
+  isExternal: true
+  name: EditorWindow
+  nameWithType: EditorWindow
+  fullName: UnityEditor.EditorWindow
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  commentId: T:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  parent: AdvancedSceneManager.Editor
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  name: EditorWindow_UIElements<SceneOverviewWindow>
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow)
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow)
+  name.vb: EditorWindow_UIElements(Of SceneOverviewWindow)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+    name: EditorWindow_UIElements
+    nameWithType: EditorWindow_UIElements
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Editor.SceneOverviewWindow
+    name: SceneOverviewWindow
+    nameWithType: SceneOverviewWindow
+    fullName: AdvancedSceneManager.Editor.SceneOverviewWindow
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+    name: EditorWindow_UIElements
+    nameWithType: EditorWindow_UIElements
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Editor.SceneOverviewWindow
+    name: SceneOverviewWindow
+    nameWithType: SceneOverviewWindow
+    fullName: AdvancedSceneManager.Editor.SceneOverviewWindow
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.IUIToolkitEditor
+  commentId: T:AdvancedSceneManager.Editor.IUIToolkitEditor
+  parent: AdvancedSceneManager.Editor
+  name: IUIToolkitEditor
+  nameWithType: IUIToolkitEditor
+  fullName: AdvancedSceneManager.Editor.IUIToolkitEditor
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.title
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.title
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.title
+  name: title
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.title
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.title
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).title
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).title
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.window
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.window
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.window
+  name: window
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.window
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.window
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).window
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).window
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.Open
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.Open
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Open
+  name: Open()
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.Open()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.Open()
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).Open()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).Open()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Open
+    name: Open
+    nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.Open
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Open
+    name: Open
+    nameWithType: EditorWindow_UIElements(Of SceneOverviewWindow).Open
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.Close
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.Close
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Close
+  name: Close()
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.Close()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.Close()
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).Close()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).Close()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Close
+    name: Close
+    nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.Close
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Close
+    name: Close
+    nameWithType: EditorWindow_UIElements(Of SceneOverviewWindow).Close
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.OnClose
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.OnClose
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnClose
+  name: OnClose()
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.OnClose()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.OnClose()
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).OnClose()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).OnClose()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnClose
+    name: OnClose
+    nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.OnClose
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnClose
+    name: OnClose
+    nameWithType: EditorWindow_UIElements(Of SceneOverviewWindow).OnClose
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.DoShow
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.DoShow
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.DoShow
+  name: DoShow()
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.DoShow()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.DoShow()
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).DoShow()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).DoShow()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.DoShow
+    name: DoShow
+    nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.DoShow
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.DoShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.DoShow
+    name: DoShow
+    nameWithType: EditorWindow_UIElements(Of SceneOverviewWindow).DoShow
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).DoShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.OnShow
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.OnShow
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnShow
+  name: OnShow()
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.OnShow()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.OnShow()
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).OnShow()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).OnShow()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnShow
+    name: OnShow
+    nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.OnShow
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.OnShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnShow
+    name: OnShow
+    nameWithType: EditorWindow_UIElements(Of SceneOverviewWindow).OnShow
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).OnShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.Reopen
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.Reopen
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Reopen
+  name: Reopen()
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.Reopen()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.Reopen()
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).Reopen()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).Reopen()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Reopen
+    name: Reopen
+    nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.Reopen
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Reopen
+    name: Reopen
+    nameWithType: EditorWindow_UIElements(Of SceneOverviewWindow).Reopen
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.isMainContentLoaded
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.isMainContentLoaded
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.isMainContentLoaded
+  name: isMainContentLoaded
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.isMainContentLoaded
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.isMainContentLoaded
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).isMainContentLoaded
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).isMainContentLoaded
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.ShowSuspendMessage
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.ShowSuspendMessage
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ShowSuspendMessage
+  name: ShowSuspendMessage()
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.ShowSuspendMessage()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.ShowSuspendMessage()
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).ShowSuspendMessage()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).ShowSuspendMessage()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ShowSuspendMessage
+    name: ShowSuspendMessage
+    nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.ShowSuspendMessage
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.ShowSuspendMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ShowSuspendMessage
+    name: ShowSuspendMessage
+    nameWithType: EditorWindow_UIElements(Of SceneOverviewWindow).ShowSuspendMessage
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).ShowSuspendMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  name: LoadContent(String, VisualElement)
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.LoadContent(String, VisualElement)
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).LoadContent(String, VisualElement)
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+    name: LoadContent
+    nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.LoadContent
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+    name: LoadContent
+    nameWithType: EditorWindow_UIElements(Of SceneOverviewWindow).LoadContent
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  name: LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+    name: LoadContent
+    nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.LoadContent
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+    name: LoadContent
+    nameWithType: EditorWindow_UIElements(Of SceneOverviewWindow).LoadContent
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.ReloadContent
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.ReloadContent
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ReloadContent
+  name: ReloadContent()
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.ReloadContent()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.ReloadContent()
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).ReloadContent()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).ReloadContent()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ReloadContent
+    name: ReloadContent
+    nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.ReloadContent
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.ReloadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ReloadContent
+    name: ReloadContent
+    nameWithType: EditorWindow_UIElements(Of SceneOverviewWindow).ReloadContent
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).ReloadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.OnFocus
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.OnFocus
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnFocus
+  name: OnFocus()
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.OnFocus()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.OnFocus()
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).OnFocus()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).OnFocus()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnFocus
+    name: OnFocus
+    nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.OnFocus
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.OnFocus
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnFocus
+    name: OnFocus
+    nameWithType: EditorWindow_UIElements(Of SceneOverviewWindow).OnFocus
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).OnFocus
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  parent: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  definition: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  name: Save()
+  nameWithType: ScriptableObjectUtility.Save()
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  commentId: T:AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+  name: EditorWindow_UIElements<T>
+  nameWithType: EditorWindow_UIElements<T>
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>
+  nameWithType.vb: EditorWindow_UIElements(Of T)
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T)
+  name.vb: EditorWindow_UIElements(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+    name: EditorWindow_UIElements
+    nameWithType: EditorWindow_UIElements
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1
+    name: EditorWindow_UIElements
+    nameWithType: EditorWindow_UIElements
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.title
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.title
+  name: title
+  nameWithType: EditorWindow_UIElements<T>.title
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.title
+  nameWithType.vb: EditorWindow_UIElements(Of T).title
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).title
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.window
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.window
+  name: window
+  nameWithType: EditorWindow_UIElements<T>.window
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.window
+  nameWithType.vb: EditorWindow_UIElements(Of T).window
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).window
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Open
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Open
+  name: Open()
+  nameWithType: EditorWindow_UIElements<T>.Open()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.Open()
+  nameWithType.vb: EditorWindow_UIElements(Of T).Open()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).Open()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Open
+    name: Open
+    nameWithType: EditorWindow_UIElements<T>.Open
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Open
+    name: Open
+    nameWithType: EditorWindow_UIElements(Of T).Open
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Close
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Close
+  name: Close()
+  nameWithType: EditorWindow_UIElements<T>.Close()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.Close()
+  nameWithType.vb: EditorWindow_UIElements(Of T).Close()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).Close()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Close
+    name: Close
+    nameWithType: EditorWindow_UIElements<T>.Close
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Close
+    name: Close
+    nameWithType: EditorWindow_UIElements(Of T).Close
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnClose
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnClose
+  name: OnClose()
+  nameWithType: EditorWindow_UIElements<T>.OnClose()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnClose()
+  nameWithType.vb: EditorWindow_UIElements(Of T).OnClose()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnClose()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnClose
+    name: OnClose
+    nameWithType: EditorWindow_UIElements<T>.OnClose
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnClose
+    name: OnClose
+    nameWithType: EditorWindow_UIElements(Of T).OnClose
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.DoShow
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.DoShow
+  name: DoShow()
+  nameWithType: EditorWindow_UIElements<T>.DoShow()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.DoShow()
+  nameWithType.vb: EditorWindow_UIElements(Of T).DoShow()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).DoShow()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.DoShow
+    name: DoShow
+    nameWithType: EditorWindow_UIElements<T>.DoShow
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.DoShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.DoShow
+    name: DoShow
+    nameWithType: EditorWindow_UIElements(Of T).DoShow
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).DoShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnShow
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnShow
+  name: OnShow()
+  nameWithType: EditorWindow_UIElements<T>.OnShow()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnShow()
+  nameWithType.vb: EditorWindow_UIElements(Of T).OnShow()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnShow()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnShow
+    name: OnShow
+    nameWithType: EditorWindow_UIElements<T>.OnShow
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnShow
+    name: OnShow
+    nameWithType: EditorWindow_UIElements(Of T).OnShow
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Reopen
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Reopen
+  name: Reopen()
+  nameWithType: EditorWindow_UIElements<T>.Reopen()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.Reopen()
+  nameWithType.vb: EditorWindow_UIElements(Of T).Reopen()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).Reopen()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Reopen
+    name: Reopen
+    nameWithType: EditorWindow_UIElements<T>.Reopen
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.Reopen
+    name: Reopen
+    nameWithType: EditorWindow_UIElements(Of T).Reopen
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.isMainContentLoaded
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.isMainContentLoaded
+  name: isMainContentLoaded
+  nameWithType: EditorWindow_UIElements<T>.isMainContentLoaded
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.isMainContentLoaded
+  nameWithType.vb: EditorWindow_UIElements(Of T).isMainContentLoaded
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).isMainContentLoaded
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ShowSuspendMessage
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ShowSuspendMessage
+  name: ShowSuspendMessage()
+  nameWithType: EditorWindow_UIElements<T>.ShowSuspendMessage()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.ShowSuspendMessage()
+  nameWithType.vb: EditorWindow_UIElements(Of T).ShowSuspendMessage()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).ShowSuspendMessage()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ShowSuspendMessage
+    name: ShowSuspendMessage
+    nameWithType: EditorWindow_UIElements<T>.ShowSuspendMessage
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.ShowSuspendMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ShowSuspendMessage
+    name: ShowSuspendMessage
+    nameWithType: EditorWindow_UIElements(Of T).ShowSuspendMessage
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).ShowSuspendMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  isExternal: true
+  name: LoadContent(String, VisualElement)
+  nameWithType: EditorWindow_UIElements<T>.LoadContent(String, VisualElement)
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  nameWithType.vb: EditorWindow_UIElements(Of T).LoadContent(String, VisualElement)
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+    name: LoadContent
+    nameWithType: EditorWindow_UIElements<T>.LoadContent
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+    name: LoadContent
+    nameWithType: EditorWindow_UIElements(Of T).LoadContent
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  isExternal: true
+  name: LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  nameWithType: EditorWindow_UIElements<T>.LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: EditorWindow_UIElements(Of T).LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+    name: LoadContent
+    nameWithType: EditorWindow_UIElements<T>.LoadContent
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+    name: LoadContent
+    nameWithType: EditorWindow_UIElements(Of T).LoadContent
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ReloadContent
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ReloadContent
+  name: ReloadContent()
+  nameWithType: EditorWindow_UIElements<T>.ReloadContent()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.ReloadContent()
+  nameWithType.vb: EditorWindow_UIElements(Of T).ReloadContent()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).ReloadContent()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ReloadContent
+    name: ReloadContent
+    nameWithType: EditorWindow_UIElements<T>.ReloadContent
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.ReloadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.ReloadContent
+    name: ReloadContent
+    nameWithType: EditorWindow_UIElements(Of T).ReloadContent
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).ReloadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnFocus
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnFocus
+  name: OnFocus()
+  nameWithType: EditorWindow_UIElements<T>.OnFocus()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnFocus()
+  nameWithType.vb: EditorWindow_UIElements(Of T).OnFocus()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnFocus()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnFocus
+    name: OnFocus
+    nameWithType: EditorWindow_UIElements<T>.OnFocus
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnFocus
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnFocus
+    name: OnFocus
+    nameWithType: EditorWindow_UIElements(Of T).OnFocus
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnFocus
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  isExternal: true
+  name: Save(ScriptableObject)
+  nameWithType: ScriptableObjectUtility.Save(ScriptableObject)
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  commentId: T:AdvancedSceneManager.Utility.ScriptableObjectUtility
+  parent: AdvancedSceneManager.Utility
+  name: ScriptableObjectUtility
+  nameWithType: ScriptableObjectUtility
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.path
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.path
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.path
+  name: path
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.path
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.path
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).path
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).path
+- uid: AdvancedSceneManager.Editor.SceneOverviewWindow.path*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneOverviewWindow.path
+  name: path
+  nameWithType: SceneOverviewWindow.path
+  fullName: AdvancedSceneManager.Editor.SceneOverviewWindow.path
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.path
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.path
+  name: path
+  nameWithType: EditorWindow_UIElements<T>.path
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.path
+  nameWithType.vb: EditorWindow_UIElements(Of T).path
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).path
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.autoReloadOnWindowFocus
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.autoReloadOnWindowFocus
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.autoReloadOnWindowFocus
+  name: autoReloadOnWindowFocus
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.autoReloadOnWindowFocus
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.autoReloadOnWindowFocus
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).autoReloadOnWindowFocus
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).autoReloadOnWindowFocus
+- uid: AdvancedSceneManager.Editor.SceneOverviewWindow.autoReloadOnWindowFocus*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneOverviewWindow.autoReloadOnWindowFocus
+  name: autoReloadOnWindowFocus
+  nameWithType: SceneOverviewWindow.autoReloadOnWindowFocus
+  fullName: AdvancedSceneManager.Editor.SceneOverviewWindow.autoReloadOnWindowFocus
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.autoReloadOnWindowFocus
+  commentId: P:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.autoReloadOnWindowFocus
+  name: autoReloadOnWindowFocus
+  nameWithType: EditorWindow_UIElements<T>.autoReloadOnWindowFocus
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.autoReloadOnWindowFocus
+  nameWithType.vb: EditorWindow_UIElements(Of T).autoReloadOnWindowFocus
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).autoReloadOnWindowFocus
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.OnEnable
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}.OnEnable
+  parent: AdvancedSceneManager.Editor.EditorWindow_UIElements{AdvancedSceneManager.Editor.SceneOverviewWindow}
+  definition: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnEnable
+  name: OnEnable()
+  nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.OnEnable()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.OnEnable()
+  nameWithType.vb: EditorWindow_UIElements(Of SceneOverviewWindow).OnEnable()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).OnEnable()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnEnable
+    name: OnEnable
+    nameWithType: EditorWindow_UIElements<SceneOverviewWindow>.OnEnable
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<AdvancedSceneManager.Editor.SceneOverviewWindow>.OnEnable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnEnable
+    name: OnEnable
+    nameWithType: EditorWindow_UIElements(Of SceneOverviewWindow).OnEnable
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of AdvancedSceneManager.Editor.SceneOverviewWindow).OnEnable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.SceneOverviewWindow.OnEnable*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneOverviewWindow.OnEnable
+  name: OnEnable
+  nameWithType: SceneOverviewWindow.OnEnable
+  fullName: AdvancedSceneManager.Editor.SceneOverviewWindow.OnEnable
+- uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnEnable
+  commentId: M:AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnEnable
+  name: OnEnable()
+  nameWithType: EditorWindow_UIElements<T>.OnEnable()
+  fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnEnable()
+  nameWithType.vb: EditorWindow_UIElements(Of T).OnEnable()
+  fullName.vb: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnEnable()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnEnable
+    name: OnEnable
+    nameWithType: EditorWindow_UIElements<T>.OnEnable
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements<T>.OnEnable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.EditorWindow_UIElements`1.OnEnable
+    name: OnEnable
+    nameWithType: EditorWindow_UIElements(Of T).OnEnable
+    fullName: AdvancedSceneManager.Editor.EditorWindow_UIElements(Of T).OnEnable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

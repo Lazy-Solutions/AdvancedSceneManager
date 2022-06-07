@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>SceneManagerWindow.FooterItem
+   | Advanced Scene Manager </title>
+    <meta name="title" content="SceneManagerWindow.FooterItem
+   | Advanced Scene Manager ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../guides/readme.html">
+                <img id="logo" class="svg" src="..//resources/logo.png" alt="" style="width: 50px;height: 50px;">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem">
+  
+  
+  <h1 id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem" class="text-break">SceneManagerWindow.FooterItem
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">SceneManagerWindow.FooterItem</span></div>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_element_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.element*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_element" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.element">element</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VisualElement element { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_left_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.left*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_left" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.left">left</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool left { get; }</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_Button_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Button*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_Button_System_String_System_Action_System_String_System_Action_UnityEngine_UIElements_Button__" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Button(System.String,System.Action,System.String,System.Action{UnityEngine.UIElements.Button})">Button(String, Action, String, Action&lt;Button&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneManagerWindow.FooterItem Button(string text, Action click, string tooltip = &quot;&quot;, Action&lt;Button&gt; setup = null)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_Create_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Create*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_Create" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Create">Create()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneManagerWindow.FooterItem Create()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_Element_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Element*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_Element__1_System_String_System_Action___0__System_String_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Element``1(System.String,System.Action{``0},System.String)">Element&lt;T&gt;(String, Action&lt;T&gt;, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneManagerWindow.FooterItem Element&lt;T&gt;(string text = &quot;&quot;, Action&lt;T&gt; setup = null, string tooltip = &quot;&quot;)
+    where T : VisualElement, new()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_Hidden_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Hidden*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_Hidden" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Hidden">Hidden()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneManagerWindow.FooterItem Hidden()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_OnLeft_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnLeft*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_OnLeft" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnLeft">OnLeft()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneManagerWindow.FooterItem OnLeft()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_OnRight_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnRight*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_OnRight" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.OnRight">OnRight()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneManagerWindow.FooterItem OnRight()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_Visible_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Visible*"></a>
+  <h4 id="AdvancedSceneManager_Editor_SceneManagerWindow_FooterItem_Visible_System_Boolean_" data-uid="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.Visible(System.Boolean)">Visible(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneManagerWindow.FooterItem Visible(bool visible = true)</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <a href='https://assetstore.unity.com/packages/slug/174152'>Advanced Scene Manager</a> - <a href='https://assetstore.unity.com/publishers/48996'>Lazy Solutions</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

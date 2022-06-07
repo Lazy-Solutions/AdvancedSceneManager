@@ -1,0 +1,759 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Models.ASMSettings.Local
+  commentId: T:AdvancedSceneManager.Models.ASMSettings.Local
+  id: ASMSettings.Local
+  parent: AdvancedSceneManager.Models
+  children:
+  - AdvancedSceneManager.Models.ASMSettings.Local.allowEditingOfBuildSettings
+  - AdvancedSceneManager.Models.ASMSettings.Local.allowExcludingCollectionsFromBuild
+  - AdvancedSceneManager.Models.ASMSettings.Local.autoOpenScenesWhenCreated
+  - AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionAdditiveButton
+  - AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionOpenButton
+  - AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionPlayButton
+  - AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionTitleOnScenesInHierarchy
+  - AdvancedSceneManager.Models.ASMSettings.Local.displayDynamicCollections
+  - AdvancedSceneManager.Models.ASMSettings.Local.displayExtraAddCollectionButton
+  - AdvancedSceneManager.Models.ASMSettings.Local.displayPersistentIndicatorInHierarchy
+  - AdvancedSceneManager.Models.ASMSettings.Local.displaySceneHelperDragButton
+  - AdvancedSceneManager.Models.ASMSettings.Local.Get``1(``0,System.String)
+  - AdvancedSceneManager.Models.ASMSettings.Local.openAssociatedCollectionOnSceneAssetOpen
+  - AdvancedSceneManager.Models.ASMSettings.Local.saveActionWhenUsingASMPlayButton
+  - AdvancedSceneManager.Models.ASMSettings.Local.Set``1(``0,System.String)
+  - AdvancedSceneManager.Models.ASMSettings.Local.useSaveDialogWhenCreatingScenesFromSceneField
+  langs:
+  - csharp
+  - vb
+  name: ASMSettings.Local
+  nameWithType: ASMSettings.Local
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Local
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 37
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public class Local
+    content.vb: Public Class Local
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.allowExcludingCollectionsFromBuild
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.allowExcludingCollectionsFromBuild
+  id: allowExcludingCollectionsFromBuild
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: allowExcludingCollectionsFromBuild
+  nameWithType: ASMSettings.Local.allowExcludingCollectionsFromBuild
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.allowExcludingCollectionsFromBuild
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: allowExcludingCollectionsFromBuild
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 42
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public bool allowExcludingCollectionsFromBuild { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property allowExcludingCollectionsFromBuild As Boolean
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.allowExcludingCollectionsFromBuild*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionPlayButton
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionPlayButton
+  id: displayCollectionPlayButton
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: displayCollectionPlayButton
+  nameWithType: ASMSettings.Local.displayCollectionPlayButton
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionPlayButton
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: displayCollectionPlayButton
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 48
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public bool displayCollectionPlayButton { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property displayCollectionPlayButton As Boolean
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionPlayButton*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionOpenButton
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionOpenButton
+  id: displayCollectionOpenButton
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: displayCollectionOpenButton
+  nameWithType: ASMSettings.Local.displayCollectionOpenButton
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionOpenButton
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: displayCollectionOpenButton
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 54
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public bool displayCollectionOpenButton { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property displayCollectionOpenButton As Boolean
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionOpenButton*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionAdditiveButton
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionAdditiveButton
+  id: displayCollectionAdditiveButton
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: displayCollectionAdditiveButton
+  nameWithType: ASMSettings.Local.displayCollectionAdditiveButton
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionAdditiveButton
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: displayCollectionAdditiveButton
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 60
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public bool displayCollectionAdditiveButton { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property displayCollectionAdditiveButton As Boolean
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionAdditiveButton*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayExtraAddCollectionButton
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.displayExtraAddCollectionButton
+  id: displayExtraAddCollectionButton
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: displayExtraAddCollectionButton
+  nameWithType: ASMSettings.Local.displayExtraAddCollectionButton
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayExtraAddCollectionButton
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: displayExtraAddCollectionButton
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 66
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public bool displayExtraAddCollectionButton { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property displayExtraAddCollectionButton As Boolean
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.displayExtraAddCollectionButton*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displaySceneHelperDragButton
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.displaySceneHelperDragButton
+  id: displaySceneHelperDragButton
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: displaySceneHelperDragButton
+  nameWithType: ASMSettings.Local.displaySceneHelperDragButton
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displaySceneHelperDragButton
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: displaySceneHelperDragButton
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 72
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public bool displaySceneHelperDragButton { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property displaySceneHelperDragButton As Boolean
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.displaySceneHelperDragButton*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayPersistentIndicatorInHierarchy
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.displayPersistentIndicatorInHierarchy
+  id: displayPersistentIndicatorInHierarchy
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: displayPersistentIndicatorInHierarchy
+  nameWithType: ASMSettings.Local.displayPersistentIndicatorInHierarchy
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayPersistentIndicatorInHierarchy
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: displayPersistentIndicatorInHierarchy
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 78
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public bool displayPersistentIndicatorInHierarchy { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property displayPersistentIndicatorInHierarchy As Boolean
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.displayPersistentIndicatorInHierarchy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionTitleOnScenesInHierarchy
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionTitleOnScenesInHierarchy
+  id: displayCollectionTitleOnScenesInHierarchy
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: displayCollectionTitleOnScenesInHierarchy
+  nameWithType: ASMSettings.Local.displayCollectionTitleOnScenesInHierarchy
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionTitleOnScenesInHierarchy
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: displayCollectionTitleOnScenesInHierarchy
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 84
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public bool displayCollectionTitleOnScenesInHierarchy { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property displayCollectionTitleOnScenesInHierarchy As Boolean
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionTitleOnScenesInHierarchy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayDynamicCollections
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.displayDynamicCollections
+  id: displayDynamicCollections
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: displayDynamicCollections
+  nameWithType: ASMSettings.Local.displayDynamicCollections
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayDynamicCollections
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: displayDynamicCollections
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 90
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public bool displayDynamicCollections { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property displayDynamicCollections As Boolean
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.displayDynamicCollections*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.allowEditingOfBuildSettings
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.allowEditingOfBuildSettings
+  id: allowEditingOfBuildSettings
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: allowEditingOfBuildSettings
+  nameWithType: ASMSettings.Local.allowEditingOfBuildSettings
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.allowEditingOfBuildSettings
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: allowEditingOfBuildSettings
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 99
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public bool allowEditingOfBuildSettings { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property allowEditingOfBuildSettings As Boolean
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.allowEditingOfBuildSettings*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.autoOpenScenesWhenCreated
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.autoOpenScenesWhenCreated
+  id: autoOpenScenesWhenCreated
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: autoOpenScenesWhenCreated
+  nameWithType: ASMSettings.Local.autoOpenScenesWhenCreated
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.autoOpenScenesWhenCreated
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: autoOpenScenesWhenCreated
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 105
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public bool autoOpenScenesWhenCreated { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property autoOpenScenesWhenCreated As Boolean
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.autoOpenScenesWhenCreated*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.useSaveDialogWhenCreatingScenesFromSceneField
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.useSaveDialogWhenCreatingScenesFromSceneField
+  id: useSaveDialogWhenCreatingScenesFromSceneField
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: useSaveDialogWhenCreatingScenesFromSceneField
+  nameWithType: ASMSettings.Local.useSaveDialogWhenCreatingScenesFromSceneField
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.useSaveDialogWhenCreatingScenesFromSceneField
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: useSaveDialogWhenCreatingScenesFromSceneField
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 111
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public bool useSaveDialogWhenCreatingScenesFromSceneField { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property useSaveDialogWhenCreatingScenesFromSceneField As Boolean
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.useSaveDialogWhenCreatingScenesFromSceneField*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.openAssociatedCollectionOnSceneAssetOpen
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.openAssociatedCollectionOnSceneAssetOpen
+  id: openAssociatedCollectionOnSceneAssetOpen
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: openAssociatedCollectionOnSceneAssetOpen
+  nameWithType: ASMSettings.Local.openAssociatedCollectionOnSceneAssetOpen
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.openAssociatedCollectionOnSceneAssetOpen
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: openAssociatedCollectionOnSceneAssetOpen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 118
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: 'When <xref uid="langword_csharp_true" name="true" href=""></xref>: opens the first found collection that a scene is contained in when opening an SceneAsset in editor.'
+  example: []
+  syntax:
+    content: public bool openAssociatedCollectionOnSceneAssetOpen { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property openAssociatedCollectionOnSceneAssetOpen As Boolean
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.openAssociatedCollectionOnSceneAssetOpen*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.saveActionWhenUsingASMPlayButton
+  commentId: P:AdvancedSceneManager.Models.ASMSettings.Local.saveActionWhenUsingASMPlayButton
+  id: saveActionWhenUsingASMPlayButton
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: saveActionWhenUsingASMPlayButton
+  nameWithType: ASMSettings.Local.saveActionWhenUsingASMPlayButton
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.saveActionWhenUsingASMPlayButton
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: saveActionWhenUsingASMPlayButton
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 129
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  syntax:
+    content: public ASMSettings.Local.SaveAction saveActionWhenUsingASMPlayButton { get; set; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Models.ASMSettings.Local.SaveAction
+    content.vb: Public Property saveActionWhenUsingASMPlayButton As ASMSettings.Local.SaveAction
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.saveActionWhenUsingASMPlayButton*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.Get``1(``0,System.String)
+  commentId: M:AdvancedSceneManager.Models.ASMSettings.Local.Get``1(``0,System.String)
+  id: Get``1(``0,System.String)
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: Get<T>(T, String)
+  nameWithType: ASMSettings.Local.Get<T>(T, String)
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.Get<T>(T, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Get
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 141
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Gets a value from local storage.
+  example: []
+  syntax:
+    content: public T Get<T>(T defaultValue = null, string key = "")
+    parameters:
+    - id: defaultValue
+      type: '{T}'
+    - id: key
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function Get(Of T)(defaultValue As T = Nothing, key As String = "") As T
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.Get*
+  nameWithType.vb: ASMSettings.Local.Get(Of T)(T, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Models.ASMSettings.Local.Get(Of T)(T, System.String)
+  name.vb: Get(Of T)(T, String)
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.Set``1(``0,System.String)
+  commentId: M:AdvancedSceneManager.Models.ASMSettings.Local.Set``1(``0,System.String)
+  id: Set``1(``0,System.String)
+  parent: AdvancedSceneManager.Models.ASMSettings.Local
+  langs:
+  - csharp
+  - vb
+  name: Set<T>(T, String)
+  nameWithType: ASMSettings.Local.Set<T>(T, String)
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.Set<T>(T, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Set
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/ASMSettings.cs
+    startLine: 163
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Models
+  summary: Sets a value from local storage.
+  example: []
+  syntax:
+    content: public void Set<T>(T value, string key = "")
+    parameters:
+    - id: value
+      type: '{T}'
+    - id: key
+      type: System.String
+    typeParameters:
+    - id: T
+    content.vb: Public Sub Set(Of T)(value As T, key As String = "")
+  overload: AdvancedSceneManager.Models.ASMSettings.Local.Set*
+  nameWithType.vb: ASMSettings.Local.Set(Of T)(T, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Models.ASMSettings.Local.Set(Of T)(T, System.String)
+  name.vb: Set(Of T)(T, String)
+references:
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.allowExcludingCollectionsFromBuild*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.allowExcludingCollectionsFromBuild
+  name: allowExcludingCollectionsFromBuild
+  nameWithType: ASMSettings.Local.allowExcludingCollectionsFromBuild
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.allowExcludingCollectionsFromBuild
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionPlayButton*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionPlayButton
+  name: displayCollectionPlayButton
+  nameWithType: ASMSettings.Local.displayCollectionPlayButton
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionPlayButton
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionOpenButton*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionOpenButton
+  name: displayCollectionOpenButton
+  nameWithType: ASMSettings.Local.displayCollectionOpenButton
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionOpenButton
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionAdditiveButton*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionAdditiveButton
+  name: displayCollectionAdditiveButton
+  nameWithType: ASMSettings.Local.displayCollectionAdditiveButton
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionAdditiveButton
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayExtraAddCollectionButton*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.displayExtraAddCollectionButton
+  name: displayExtraAddCollectionButton
+  nameWithType: ASMSettings.Local.displayExtraAddCollectionButton
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayExtraAddCollectionButton
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displaySceneHelperDragButton*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.displaySceneHelperDragButton
+  name: displaySceneHelperDragButton
+  nameWithType: ASMSettings.Local.displaySceneHelperDragButton
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displaySceneHelperDragButton
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayPersistentIndicatorInHierarchy*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.displayPersistentIndicatorInHierarchy
+  name: displayPersistentIndicatorInHierarchy
+  nameWithType: ASMSettings.Local.displayPersistentIndicatorInHierarchy
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayPersistentIndicatorInHierarchy
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionTitleOnScenesInHierarchy*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionTitleOnScenesInHierarchy
+  name: displayCollectionTitleOnScenesInHierarchy
+  nameWithType: ASMSettings.Local.displayCollectionTitleOnScenesInHierarchy
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayCollectionTitleOnScenesInHierarchy
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.displayDynamicCollections*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.displayDynamicCollections
+  name: displayDynamicCollections
+  nameWithType: ASMSettings.Local.displayDynamicCollections
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.displayDynamicCollections
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.allowEditingOfBuildSettings*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.allowEditingOfBuildSettings
+  name: allowEditingOfBuildSettings
+  nameWithType: ASMSettings.Local.allowEditingOfBuildSettings
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.allowEditingOfBuildSettings
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.autoOpenScenesWhenCreated*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.autoOpenScenesWhenCreated
+  name: autoOpenScenesWhenCreated
+  nameWithType: ASMSettings.Local.autoOpenScenesWhenCreated
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.autoOpenScenesWhenCreated
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.useSaveDialogWhenCreatingScenesFromSceneField*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.useSaveDialogWhenCreatingScenesFromSceneField
+  name: useSaveDialogWhenCreatingScenesFromSceneField
+  nameWithType: ASMSettings.Local.useSaveDialogWhenCreatingScenesFromSceneField
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.useSaveDialogWhenCreatingScenesFromSceneField
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.openAssociatedCollectionOnSceneAssetOpen*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.openAssociatedCollectionOnSceneAssetOpen
+  name: openAssociatedCollectionOnSceneAssetOpen
+  nameWithType: ASMSettings.Local.openAssociatedCollectionOnSceneAssetOpen
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.openAssociatedCollectionOnSceneAssetOpen
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.saveActionWhenUsingASMPlayButton*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.saveActionWhenUsingASMPlayButton
+  name: saveActionWhenUsingASMPlayButton
+  nameWithType: ASMSettings.Local.saveActionWhenUsingASMPlayButton
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.saveActionWhenUsingASMPlayButton
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.SaveAction
+  commentId: T:AdvancedSceneManager.Models.ASMSettings.Local.SaveAction
+  parent: AdvancedSceneManager.Models
+  name: ASMSettings.Local.SaveAction
+  nameWithType: ASMSettings.Local.SaveAction
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.SaveAction
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.Get*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.Get
+  name: Get
+  nameWithType: ASMSettings.Local.Get
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.Get
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: AdvancedSceneManager.Models.ASMSettings.Local.Set*
+  commentId: Overload:AdvancedSceneManager.Models.ASMSettings.Local.Set
+  name: Set
+  nameWithType: ASMSettings.Local.Set
+  fullName: AdvancedSceneManager.Models.ASMSettings.Local.Set

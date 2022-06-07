@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility
+  id: AssetDatabaseUtility
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.AllowAutoRefresh(System.Object)
+  - AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.DisallowAutoRefresh(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: AssetDatabaseUtility
+  nameWithType: AssetDatabaseUtility
+  fullName: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/AssetDatabaseUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: AssetDatabaseUtility
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/AssetDatabaseUtility.cs
+    startLine: 8
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Provides methods to make using <xref href="UnityEditor.AssetDatabase.AllowAutoRefresh" data-throw-if-not-resolved="false"></xref> easier.
+  example: []
+  syntax:
+    content: public static class AssetDatabaseUtility
+    content.vb: Public Module AssetDatabaseUtility
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.DisallowAutoRefresh(System.Object)
+  commentId: M:AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.DisallowAutoRefresh(System.Object)
+  id: DisallowAutoRefresh(System.Object)
+  parent: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility
+  langs:
+  - csharp
+  - vb
+  name: DisallowAutoRefresh(Object)
+  nameWithType: AssetDatabaseUtility.DisallowAutoRefresh(Object)
+  fullName: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.DisallowAutoRefresh(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/AssetDatabaseUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DisallowAutoRefresh
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/AssetDatabaseUtility.cs
+    startLine: 12
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static void DisallowAutoRefresh(object key)
+    parameters:
+    - id: key
+      type: System.Object
+    content.vb: Public Shared Sub DisallowAutoRefresh(key As Object)
+  overload: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.DisallowAutoRefresh*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.AllowAutoRefresh(System.Object)
+  commentId: M:AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.AllowAutoRefresh(System.Object)
+  id: AllowAutoRefresh(System.Object)
+  parent: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility
+  langs:
+  - csharp
+  - vb
+  name: AllowAutoRefresh(Object)
+  nameWithType: AssetDatabaseUtility.AllowAutoRefresh(Object)
+  fullName: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.AllowAutoRefresh(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/AssetDatabaseUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: AllowAutoRefresh
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/AssetDatabaseUtility.cs
+    startLine: 22
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static void AllowAutoRefresh(object key)
+    parameters:
+    - id: key
+      type: System.Object
+    content.vb: Public Shared Sub AllowAutoRefresh(key As Object)
+  overload: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.AllowAutoRefresh*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEditor.AssetDatabase.AllowAutoRefresh
+  commentId: M:UnityEditor.AssetDatabase.AllowAutoRefresh
+  isExternal: true
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.DisallowAutoRefresh*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.DisallowAutoRefresh
+  name: DisallowAutoRefresh
+  nameWithType: AssetDatabaseUtility.DisallowAutoRefresh
+  fullName: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.DisallowAutoRefresh
+- uid: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.AllowAutoRefresh*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.AllowAutoRefresh
+  name: AllowAutoRefresh
+  nameWithType: AssetDatabaseUtility.AllowAutoRefresh
+  fullName: AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.AllowAutoRefresh

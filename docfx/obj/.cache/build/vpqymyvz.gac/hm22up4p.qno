@@ -1,0 +1,313 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1" class="text-break">Class CallbackUtility.FluentInvokeAPI&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>An helper class to facilitate a fluent api.</p>
+<p>Usage: <a class="xref" href="AdvancedSceneManager.Callbacks.CallbackUtility.html#AdvancedSceneManager_Callbacks_CallbackUtility_Invoke__1">Invoke&lt;T&gt;()</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CallbackUtility.FluentInvokeAPI&lt;T&gt;</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Callbacks.html">AdvancedSceneManager.Callbacks</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class FluentInvokeAPI&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_hasDefaultCallback_" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.hasDefaultCallback*"></a>
+  <h4 id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_hasDefaultCallback" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.hasDefaultCallback">hasDefaultCallback</h4>
+  <div class="markdown level1 summary"><p>Gets whatever <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> has a default callback. All callbacks inheriting from <a class="xref" href="AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase.html">ISceneManagerCallbackBase</a> should have one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasDefaultCallback { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_On_" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On*"></a>
+  <h4 id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_On_AdvancedSceneManager_Core_OpenSceneInfo___" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On(AdvancedSceneManager.Core.OpenSceneInfo[])">On(OpenSceneInfo[])</h4>
+  <div class="markdown level1 summary"><p>Specify the scenes to run this callback on and start execution.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator On(params OpenSceneInfo[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_On_" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On*"></a>
+  <h4 id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_On_AdvancedSceneManager_Models_Scene___" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On(AdvancedSceneManager.Models.Scene[])">On(Scene[])</h4>
+  <div class="markdown level1 summary"><p>Specify the open scenes to run this callback on and start execution..</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator On(params Scene[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_On_" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On*"></a>
+  <h4 id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_On_AdvancedSceneManager_Models_SceneCollection_AdvancedSceneManager_Models_Scene___" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On(AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Scene[])">On(SceneCollection, Scene[])</h4>
+  <div class="markdown level1 summary"><p>Specify the collection scenes to run this callback on and start execution.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator On(SceneCollection collection, params Scene[] additionalScenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a></td>
+        <td><span class="parametername">collection</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a>[]</td>
+        <td><span class="parametername">additionalScenes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_OnAllOpenScenes_" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.OnAllOpenScenes*"></a>
+  <h4 id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_OnAllOpenScenes" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.OnAllOpenScenes">OnAllOpenScenes()</h4>
+  <div class="markdown level1 summary"><p>Specify the collection scenes to run this callback on and start execution..</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator OnAllOpenScenes()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_WithCallback_" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithCallback*"></a>
+  <h4 id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_WithCallback_System_Func__0_System_Collections_IEnumerator__" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithCallback(System.Func{`0,System.Collections.IEnumerator})">WithCallback(Func&lt;T, IEnumerator&gt;)</h4>
+  <div class="markdown level1 summary"><p>Specify a callback, this should point to the interface method which provides a <span class="xref">System.Collections.IEnumerator</span>.</p>
+<p>This is not needed for callback interfaces inheriting from <a class="xref" href="AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase.html">ISceneManagerCallbackBase</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CallbackUtility.FluentInvokeAPI&lt;T&gt; WithCallback(Func&lt;T, IEnumerator&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Collections.IEnumerator</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI-1.html">CallbackUtility.FluentInvokeAPI</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_WithParam_" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithParam*"></a>
+  <h4 id="AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_WithParam_System_Object_" data-uid="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithParam(System.Object)">WithParam(Object)</h4>
+  <div class="markdown level1 summary"><p>Specify a parameter to use when invoking the callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CallbackUtility.FluentInvokeAPI&lt;T&gt; WithParam(object param)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">param</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI-1.html">CallbackUtility.FluentInvokeAPI</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

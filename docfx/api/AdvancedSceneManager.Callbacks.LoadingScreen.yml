@@ -1,0 +1,692 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen
+  commentId: T:AdvancedSceneManager.Callbacks.LoadingScreen
+  id: LoadingScreen
+  parent: AdvancedSceneManager.Callbacks
+  children:
+  - AdvancedSceneManager.Callbacks.LoadingScreen.canvas
+  - AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+  - AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  - AdvancedSceneManager.Callbacks.LoadingScreen.onDestroy
+  - AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  - AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  - AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+  - AdvancedSceneManager.Callbacks.LoadingScreen.operation
+  langs:
+  - csharp
+  - vb
+  name: LoadingScreen
+  nameWithType: LoadingScreen
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: LoadingScreen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+    startLine: 13
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: "\n<p>A class that contains callbacks for loading screens.</p>\n<p>One instance must exist in a scene that specified as a loading screen.</p>\n"
+  example: []
+  syntax:
+    content: 'public abstract class LoadingScreen : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class LoadingScreen
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  derivedClasses:
+  - AdvancedSceneManager.Callbacks.SplashScreen
+  - AdvancedSceneManager.Defaults.DefaultLoadingScreen
+  - AdvancedSceneManager.Defaults.IconBounceLoadingScreen
+  - AdvancedSceneManager.Defaults.PressAnyButtonLoadingScreen
+  - AdvancedSceneManager.Defaults.QuoteLoadingScreen
+  - AdvancedSceneManager.Defaults.VideoLoadingScreen
+  extensionMethods:
+  - UnityEngine.Component.AdvancedSceneManager.Utility.SceneUtility.Scene
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.onDestroy
+  commentId: F:AdvancedSceneManager.Callbacks.LoadingScreen.onDestroy
+  id: onDestroy
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: onDestroy
+  nameWithType: LoadingScreen.onDestroy
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.onDestroy
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: onDestroy
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+    startLine: 21
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: Occurs when loading screen is destroyed.
+  example: []
+  syntax:
+    content: public Action<LoadingScreen> onDestroy
+    return:
+      type: System.Action{AdvancedSceneManager.Callbacks.LoadingScreen}
+    content.vb: Public onDestroy As Action(Of LoadingScreen)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  id: OnDestroy
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: OnDestroy()
+  nameWithType: LoadingScreen.OnDestroy()
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnDestroy
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+    startLine: 22
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: protected virtual void OnDestroy()
+    content.vb: Protected Overridable Sub OnDestroy
+  overload: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.canvas
+  commentId: F:AdvancedSceneManager.Callbacks.LoadingScreen.canvas
+  id: canvas
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: canvas
+  nameWithType: LoadingScreen.canvas
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.canvas
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: canvas
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+    startLine: 31
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: "\n<p>The canvas that this loading screen uses.</p>\n<p>This will automatically register canvas with <xref href=\"AdvancedSceneManager.Utility.CanvasSortOrderUtility\" data-throw-if-not-resolved=\"false\"></xref>, to automatically manage canvas sort order.</p>\n<p>You probably want to set this through the inspector.</p>\n"
+  example: []
+  syntax:
+    content: >-
+      [Tooltip("The canvas to automatically manage sort order for, optional.")]
+
+      public Canvas canvas
+    return:
+      type: UnityEngine.Canvas
+    content.vb: >-
+      <Tooltip("The canvas to automatically manage sort order for, optional.")>
+
+      Public canvas As Canvas
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: The canvas to automatically manage sort order for, optional.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.operation
+  commentId: P:AdvancedSceneManager.Callbacks.LoadingScreen.operation
+  id: operation
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: operation
+  nameWithType: LoadingScreen.operation
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.operation
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: operation
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+    startLine: 34
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: The current scene operation that this loading screen is associated with. May be null for the first few frames, before loading has actually begun.
+  example: []
+  syntax:
+    content: public SceneOperation operation { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Core.SceneOperation
+    content.vb: Public ReadOnly Property operation As SceneOperation
+  overload: AdvancedSceneManager.Callbacks.LoadingScreen.operation*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  id: OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: OnOpen(SceneOperation)
+  nameWithType: LoadingScreen.OnOpen(SceneOperation)
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnOpen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+    startLine: 40
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: "\n<p>Called when the associated <xref href=\"AdvancedSceneManager.Core.SceneOperation\" data-throw-if-not-resolved=\"false\"></xref> is about to start.</p>\n<p>Use this callback to show your loading screen, the scene manager will wait until its done.</p>\n"
+  example: []
+  syntax:
+    content: public abstract IEnumerator OnOpen(SceneOperation operation)
+    parameters:
+    - id: operation
+      type: AdvancedSceneManager.Core.SceneOperation
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public MustOverride Function OnOpen(operation As SceneOperation) As IEnumerator
+  overload: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  id: OnClose(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: OnClose(SceneOperation)
+  nameWithType: LoadingScreen.OnClose(SceneOperation)
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnClose
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+    startLine: 46
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: "\n<p>Called when the associated <xref href=\"AdvancedSceneManager.Core.SceneOperation\" data-throw-if-not-resolved=\"false\"></xref> has ended.</p>\n<p>Use this callback to hide your loading screen.</p>\n"
+  example: []
+  syntax:
+    content: public abstract IEnumerator OnClose(SceneOperation operation)
+    parameters:
+    - id: operation
+      type: AdvancedSceneManager.Core.SceneOperation
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public MustOverride Function OnClose(operation As SceneOperation) As IEnumerator
+  overload: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+  id: OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: OnScenePhaseChanged(SceneOperation, Phase, Phase)
+  nameWithType: LoadingScreen.OnScenePhaseChanged(SceneOperation, Phase, Phase)
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation, AdvancedSceneManager.Core.Phase, AdvancedSceneManager.Core.Phase)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnScenePhaseChanged
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+    startLine: 49
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: Called when the associated <xref href="AdvancedSceneManager.Core.SceneOperation" data-throw-if-not-resolved="false"></xref> is moving to a different phase.
+  example: []
+  syntax:
+    content: public virtual void OnScenePhaseChanged(SceneOperation operation, Phase previousPhase, Phase nextPhase)
+    parameters:
+    - id: operation
+      type: AdvancedSceneManager.Core.SceneOperation
+    - id: previousPhase
+      type: AdvancedSceneManager.Core.Phase
+    - id: nextPhase
+      type: AdvancedSceneManager.Core.Phase
+    content.vb: Public Overridable Sub OnScenePhaseChanged(operation As SceneOperation, previousPhase As Phase, nextPhase As Phase)
+  overload: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+  id: OnCancel(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: OnCancel(SceneOperation)
+  nameWithType: LoadingScreen.OnCancel(SceneOperation)
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnCancel
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/LoadingScreen.cs
+    startLine: 56
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: "\n<p>Called when the associated <xref href=\"AdvancedSceneManager.Core.SceneOperation\" data-throw-if-not-resolved=\"false\"></xref> is cancelled.</p>\n<p>Note that <xref href=\"AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)\" data-throw-if-not-resolved=\"false\"></xref> is not called.</p>\n"
+  example: []
+  syntax:
+    content: public virtual void OnCancel(SceneOperation operation)
+    parameters:
+    - id: operation
+      type: AdvancedSceneManager.Core.SceneOperation
+    content.vb: Public Overridable Sub OnCancel(operation As SceneOperation)
+  overload: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Component.AdvancedSceneManager.Utility.SceneUtility.Scene
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  definition: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  name: Scene()
+  nameWithType: SceneUtility.Scene()
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Scene()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  isExternal: true
+  name: Scene(Component)
+  nameWithType: SceneUtility.Scene(Component)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Component
+    name: Component
+    nameWithType: Component
+    fullName: UnityEngine.Component
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Component
+    name: Component
+    nameWithType: Component
+    fullName: UnityEngine.Component
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.SceneUtility
+  commentId: T:AdvancedSceneManager.Utility.SceneUtility
+  parent: AdvancedSceneManager.Utility
+  name: SceneUtility
+  nameWithType: SceneUtility
+  fullName: AdvancedSceneManager.Utility.SceneUtility
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: System.Action{AdvancedSceneManager.Callbacks.LoadingScreen}
+  commentId: T:System.Action{AdvancedSceneManager.Callbacks.LoadingScreen}
+  parent: System
+  definition: System.Action`1
+  name: Action<LoadingScreen>
+  nameWithType: Action<LoadingScreen>
+  fullName: System.Action<AdvancedSceneManager.Callbacks.LoadingScreen>
+  nameWithType.vb: Action(Of LoadingScreen)
+  fullName.vb: System.Action(Of AdvancedSceneManager.Callbacks.LoadingScreen)
+  name.vb: Action(Of LoadingScreen)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen
+    name: LoadingScreen
+    nameWithType: LoadingScreen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen
+    name: LoadingScreen
+    nameWithType: LoadingScreen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy*
+  commentId: Overload:AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  name: OnDestroy
+  nameWithType: LoadingScreen.OnDestroy
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+- uid: AdvancedSceneManager.Utility.CanvasSortOrderUtility
+  commentId: T:AdvancedSceneManager.Utility.CanvasSortOrderUtility
+  name: CanvasSortOrderUtility
+  nameWithType: CanvasSortOrderUtility
+  fullName: AdvancedSceneManager.Utility.CanvasSortOrderUtility
+- uid: UnityEngine.Canvas
+  commentId: T:UnityEngine.Canvas
+  parent: UnityEngine
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: UnityEngine.Canvas
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.operation*
+  commentId: Overload:AdvancedSceneManager.Callbacks.LoadingScreen.operation
+  name: operation
+  nameWithType: LoadingScreen.operation
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.operation
+- uid: AdvancedSceneManager.Core.SceneOperation
+  commentId: T:AdvancedSceneManager.Core.SceneOperation
+  parent: AdvancedSceneManager.Core
+  name: SceneOperation
+  nameWithType: SceneOperation
+  fullName: AdvancedSceneManager.Core.SceneOperation
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen*
+  commentId: Overload:AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen
+  name: OnOpen
+  nameWithType: LoadingScreen.OnOpen
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose*
+  commentId: Overload:AdvancedSceneManager.Callbacks.LoadingScreen.OnClose
+  name: OnClose
+  nameWithType: LoadingScreen.OnClose
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged*
+  commentId: Overload:AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged
+  name: OnScenePhaseChanged
+  nameWithType: LoadingScreen.OnScenePhaseChanged
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged
+- uid: AdvancedSceneManager.Core.Phase
+  commentId: T:AdvancedSceneManager.Core.Phase
+  parent: AdvancedSceneManager.Core
+  name: Phase
+  nameWithType: Phase
+  fullName: AdvancedSceneManager.Core.Phase
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: OnClose(SceneOperation)
+  nameWithType: LoadingScreen.OnClose(SceneOperation)
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+    name: OnClose
+    nameWithType: LoadingScreen.OnClose
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+    name: OnClose
+    nameWithType: LoadingScreen.OnClose
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel*
+  commentId: Overload:AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel
+  name: OnCancel
+  nameWithType: LoadingScreen.OnCancel
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen
+  commentId: T:AdvancedSceneManager.Callbacks.LoadingScreen
+  parent: AdvancedSceneManager.Callbacks
+  name: LoadingScreen
+  nameWithType: LoadingScreen
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen

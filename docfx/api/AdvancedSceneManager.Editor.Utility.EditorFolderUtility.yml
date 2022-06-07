@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.EditorFolderUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.EditorFolderUtility
+  id: EditorFolderUtility
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.EditorFolderUtility.EnsureFolderExists(System.String)
+  langs:
+  - csharp
+  - vb
+  name: EditorFolderUtility
+  nameWithType: EditorFolderUtility
+  fullName: AdvancedSceneManager.Editor.Utility.EditorFolderUtility
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorFolderUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: EditorFolderUtility
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorFolderUtility.cs
+    startLine: 10
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Contains functions for folders in editor.
+  example: []
+  syntax:
+    content: public static class EditorFolderUtility
+    content.vb: Public Module EditorFolderUtility
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Editor.Utility.EditorFolderUtility.EnsureFolderExists(System.String)
+  commentId: M:AdvancedSceneManager.Editor.Utility.EditorFolderUtility.EnsureFolderExists(System.String)
+  id: EnsureFolderExists(System.String)
+  parent: AdvancedSceneManager.Editor.Utility.EditorFolderUtility
+  langs:
+  - csharp
+  - vb
+  name: EnsureFolderExists(String)
+  nameWithType: EditorFolderUtility.EnsureFolderExists(String)
+  fullName: AdvancedSceneManager.Editor.Utility.EditorFolderUtility.EnsureFolderExists(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorFolderUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: EnsureFolderExists
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorFolderUtility.cs
+    startLine: 13
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static void EnsureFolderExists(string folder)
+    parameters:
+    - id: folder
+      type: System.String
+    content.vb: Public Shared Sub EnsureFolderExists(folder As String)
+  overload: AdvancedSceneManager.Editor.Utility.EditorFolderUtility.EnsureFolderExists*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.Utility.EditorFolderUtility.EnsureFolderExists*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.EditorFolderUtility.EnsureFolderExists
+  name: EnsureFolderExists
+  nameWithType: EditorFolderUtility.EnsureFolderExists
+  fullName: AdvancedSceneManager.Editor.Utility.EditorFolderUtility.EnsureFolderExists
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

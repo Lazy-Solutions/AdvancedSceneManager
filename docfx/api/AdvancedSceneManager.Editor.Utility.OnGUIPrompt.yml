@@ -1,0 +1,512 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.OnGUIPrompt
+  commentId: T:AdvancedSceneManager.Editor.Utility.OnGUIPrompt
+  id: OnGUIPrompt
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt(UnityEngine.GUIContent,System.Action,System.Action,System.Action,System.Action,System.Action,System.Boolean,System.Boolean,System.String,UnityEngine.RectOffset,System.Nullable{UnityEngine.Vector2})
+  - AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt(UnityEngine.GUIContent,System.Action,System.Action{System.Boolean}@,System.Action{System.Boolean}@,System.Action,System.Action,System.Action,System.Action,System.Boolean,System.Boolean,System.String,UnityEngine.RectOffset,System.Nullable{UnityEngine.Vector2})
+  langs:
+  - csharp
+  - vb
+  name: OnGUIPrompt
+  nameWithType: OnGUIPrompt
+  fullName: AdvancedSceneManager.Editor.Utility.OnGUIPrompt
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/OnGUIPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnGUIPrompt
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/OnGUIPrompt.cs
+    startLine: 11
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: 'public class OnGUIPrompt : EditorWindow'
+    content.vb: >-
+      Public Class OnGUIPrompt
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - UnityEditor.EditorWindow
+  extensionMethods:
+  - UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt(UnityEngine.GUIContent,System.Action,System.Action,System.Action,System.Action,System.Action,System.Boolean,System.Boolean,System.String,UnityEngine.RectOffset,System.Nullable{UnityEngine.Vector2})
+  commentId: M:AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt(UnityEngine.GUIContent,System.Action,System.Action,System.Action,System.Action,System.Action,System.Boolean,System.Boolean,System.String,UnityEngine.RectOffset,System.Nullable{UnityEngine.Vector2})
+  id: Prompt(UnityEngine.GUIContent,System.Action,System.Action,System.Action,System.Action,System.Action,System.Boolean,System.Boolean,System.String,UnityEngine.RectOffset,System.Nullable{UnityEngine.Vector2})
+  parent: AdvancedSceneManager.Editor.Utility.OnGUIPrompt
+  langs:
+  - csharp
+  - vb
+  name: Prompt(GUIContent, Action, Action, Action, Action, Action, Boolean, Boolean, String, RectOffset, Nullable<Vector2>)
+  nameWithType: OnGUIPrompt.Prompt(GUIContent, Action, Action, Action, Action, Action, Boolean, Boolean, String, RectOffset, Nullable<Vector2>)
+  fullName: AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt(UnityEngine.GUIContent, System.Action, System.Action, System.Action, System.Action, System.Action, System.Boolean, System.Boolean, System.String, UnityEngine.RectOffset, System.Nullable<UnityEngine.Vector2>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/OnGUIPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Prompt
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/OnGUIPrompt.cs
+    startLine: 15
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  example: []
+  syntax:
+    content: public static bool Prompt(GUIContent title, Action onGUI, Action onEnable = null, Action onDisable = null, Action onFocus = null, Action onLostFocus = null, bool drawDefaultFooter = true, bool show = true, string acceptButton = "Continue", RectOffset margin = null, Vector2? size = null)
+    parameters:
+    - id: title
+      type: UnityEngine.GUIContent
+    - id: onGUI
+      type: System.Action
+    - id: onEnable
+      type: System.Action
+    - id: onDisable
+      type: System.Action
+    - id: onFocus
+      type: System.Action
+    - id: onLostFocus
+      type: System.Action
+    - id: drawDefaultFooter
+      type: System.Boolean
+    - id: show
+      type: System.Boolean
+    - id: acceptButton
+      type: System.String
+    - id: margin
+      type: UnityEngine.RectOffset
+    - id: size
+      type: System.Nullable{UnityEngine.Vector2}
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Prompt(title As GUIContent, onGUI As Action, onEnable As Action = Nothing, onDisable As Action = Nothing, onFocus As Action = Nothing, onLostFocus As Action = Nothing, drawDefaultFooter As Boolean = True, show As Boolean = True, acceptButton As String = "Continue", margin As RectOffset = Nothing, size As Vector2? = Nothing) As Boolean
+  overload: AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt*
+  nameWithType.vb: OnGUIPrompt.Prompt(GUIContent, Action, Action, Action, Action, Action, Boolean, Boolean, String, RectOffset, Nullable(Of Vector2))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt(UnityEngine.GUIContent, System.Action, System.Action, System.Action, System.Action, System.Action, System.Boolean, System.Boolean, System.String, UnityEngine.RectOffset, System.Nullable(Of UnityEngine.Vector2))
+  name.vb: Prompt(GUIContent, Action, Action, Action, Action, Action, Boolean, Boolean, String, RectOffset, Nullable(Of Vector2))
+- uid: AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt(UnityEngine.GUIContent,System.Action,System.Action{System.Boolean}@,System.Action{System.Boolean}@,System.Action,System.Action,System.Action,System.Action,System.Boolean,System.Boolean,System.String,UnityEngine.RectOffset,System.Nullable{UnityEngine.Vector2})
+  commentId: M:AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt(UnityEngine.GUIContent,System.Action,System.Action{System.Boolean}@,System.Action{System.Boolean}@,System.Action,System.Action,System.Action,System.Action,System.Boolean,System.Boolean,System.String,UnityEngine.RectOffset,System.Nullable{UnityEngine.Vector2})
+  id: Prompt(UnityEngine.GUIContent,System.Action,System.Action{System.Boolean}@,System.Action{System.Boolean}@,System.Action,System.Action,System.Action,System.Action,System.Boolean,System.Boolean,System.String,UnityEngine.RectOffset,System.Nullable{UnityEngine.Vector2})
+  parent: AdvancedSceneManager.Editor.Utility.OnGUIPrompt
+  langs:
+  - csharp
+  - vb
+  name: Prompt(GUIContent, Action, out Action<Boolean>, out Action<Boolean>, Action, Action, Action, Action, Boolean, Boolean, String, RectOffset, Nullable<Vector2>)
+  nameWithType: OnGUIPrompt.Prompt(GUIContent, Action, out Action<Boolean>, out Action<Boolean>, Action, Action, Action, Action, Boolean, Boolean, String, RectOffset, Nullable<Vector2>)
+  fullName: AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt(UnityEngine.GUIContent, System.Action, out System.Action<System.Boolean>, out System.Action<System.Boolean>, System.Action, System.Action, System.Action, System.Action, System.Boolean, System.Boolean, System.String, UnityEngine.RectOffset, System.Nullable<UnityEngine.Vector2>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/OnGUIPrompt.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Prompt
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/OnGUIPrompt.cs
+    startLine: 23
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Shows an editor window with the specified OnGUI callback.
+  example: []
+  syntax:
+    content: public static bool Prompt(GUIContent title, Action onGUI, out Action<bool> setResult, out Action<bool> setCanContinue, Action onEnable = null, Action onDisable = null, Action onFocus = null, Action onLostFocus = null, bool drawDefaultFooter = true, bool show = true, string acceptButton = "Continue", RectOffset margin = null, Vector2? size = null)
+    parameters:
+    - id: title
+      type: UnityEngine.GUIContent
+    - id: onGUI
+      type: System.Action
+    - id: setResult
+      type: System.Action{System.Boolean}
+      description: 'Sets the result and closes this prompt. Use in combination with <code data-dev-comment-type="paramref" class="paramref">drawDefaultFooter</code>: <xref uid="langword_csharp_false" name="false" href=""></xref>. You probably want to declare a variable before calling this and set that as out variable.'
+    - id: setCanContinue
+      type: System.Action{System.Boolean}
+      description: Sets whatever <code data-dev-comment-type="paramref" class="paramref">acceptButton</code> is enabled .You probably want to declare a variable before calling this and set that as out variable.
+    - id: onEnable
+      type: System.Action
+    - id: onDisable
+      type: System.Action
+    - id: onFocus
+      type: System.Action
+    - id: onLostFocus
+      type: System.Action
+    - id: drawDefaultFooter
+      type: System.Boolean
+    - id: show
+      type: System.Boolean
+      description: Determines whatever we should show window. Set to <xref uid="langword_csharp_false" name="false" href=""></xref> to show manually.
+    - id: acceptButton
+      type: System.String
+    - id: margin
+      type: UnityEngine.RectOffset
+    - id: size
+      type: System.Nullable{UnityEngine.Vector2}
+    return:
+      type: System.Boolean
+      description: <xref uid="langword_csharp_true" name="true" href=""></xref> if user pressed <code data-dev-comment-type="paramref" class="paramref">acceptButton</code>. No effect if <code data-dev-comment-type="paramref" class="paramref">drawDefaultFooter</code> is <xref uid="langword_csharp_false" name="false" href=""></xref>.
+    content.vb: Public Shared Function Prompt(title As GUIContent, onGUI As Action, ByRef setResult As Action(Of Boolean), ByRef setCanContinue As Action(Of Boolean), onEnable As Action = Nothing, onDisable As Action = Nothing, onFocus As Action = Nothing, onLostFocus As Action = Nothing, drawDefaultFooter As Boolean = True, show As Boolean = True, acceptButton As String = "Continue", margin As RectOffset = Nothing, size As Vector2? = Nothing) As Boolean
+  overload: AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt*
+  nameWithType.vb: OnGUIPrompt.Prompt(GUIContent, Action, ByRef Action(Of Boolean), ByRef Action(Of Boolean), Action, Action, Action, Action, Boolean, Boolean, String, RectOffset, Nullable(Of Vector2))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt(UnityEngine.GUIContent, System.Action, ByRef System.Action(Of System.Boolean), ByRef System.Action(Of System.Boolean), System.Action, System.Action, System.Action, System.Action, System.Boolean, System.Boolean, System.String, UnityEngine.RectOffset, System.Nullable(Of UnityEngine.Vector2))
+  name.vb: Prompt(GUIContent, Action, ByRef Action(Of Boolean), ByRef Action(Of Boolean), Action, Action, Action, Action, Boolean, Boolean, String, RectOffset, Nullable(Of Vector2))
+references:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEditor.EditorWindow
+  commentId: T:UnityEditor.EditorWindow
+  parent: UnityEditor
+  isExternal: true
+  name: EditorWindow
+  nameWithType: EditorWindow
+  fullName: UnityEditor.EditorWindow
+- uid: UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  parent: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  definition: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  name: Save()
+  nameWithType: ScriptableObjectUtility.Save()
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  isExternal: true
+  name: Save(ScriptableObject)
+  nameWithType: ScriptableObjectUtility.Save(ScriptableObject)
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  commentId: T:AdvancedSceneManager.Utility.ScriptableObjectUtility
+  parent: AdvancedSceneManager.Utility
+  name: ScriptableObjectUtility
+  nameWithType: ScriptableObjectUtility
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt
+  name: Prompt
+  nameWithType: OnGUIPrompt.Prompt
+  fullName: AdvancedSceneManager.Editor.Utility.OnGUIPrompt.Prompt
+- uid: UnityEngine.GUIContent
+  commentId: T:UnityEngine.GUIContent
+  parent: UnityEngine
+  isExternal: true
+  name: GUIContent
+  nameWithType: GUIContent
+  fullName: UnityEngine.GUIContent
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.RectOffset
+  commentId: T:UnityEngine.RectOffset
+  parent: UnityEngine
+  isExternal: true
+  name: RectOffset
+  nameWithType: RectOffset
+  fullName: UnityEngine.RectOffset
+- uid: System.Nullable{UnityEngine.Vector2}
+  commentId: T:System.Nullable{UnityEngine.Vector2}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Vector2>
+  nameWithType: Nullable<Vector2>
+  fullName: System.Nullable<UnityEngine.Vector2>
+  nameWithType.vb: Nullable(Of Vector2)
+  fullName.vb: System.Nullable(Of UnityEngine.Vector2)
+  name.vb: Nullable(Of Vector2)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{System.Boolean}
+  commentId: T:System.Action{System.Boolean}
+  parent: System
+  definition: System.Action`1
+  name: Action<Boolean>
+  nameWithType: Action<Boolean>
+  fullName: System.Action<System.Boolean>
+  nameWithType.vb: Action(Of Boolean)
+  fullName.vb: System.Action(Of System.Boolean)
+  name.vb: Action(Of Boolean)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

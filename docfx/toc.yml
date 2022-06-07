@@ -1,0 +1,8 @@
+- name: Guides
+  href: guides/
+- name: Scripting API
+  href: api/
+- name: Plugins
+  href: plugins/
+- name: FAQ
+  href: faq.html

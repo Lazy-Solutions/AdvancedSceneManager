@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h3 id="locking" sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="1" sourceendlinenumber="1">Locking</h3>
+
+<p sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="3" sourceendlinenumber="3"><br></p>
+<p sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="5" sourceendlinenumber="5">The locking package adds support for locking scenes and collection from being edited.</p>
+<blockquote sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="7" sourceendlinenumber="7"><p sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="7" sourceendlinenumber="7">Note we can only prevent edit from inside of unity, any modifications from outside, including source control, cannot be prevented.</p>
+</blockquote>
+<p sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="9" sourceendlinenumber="12"><img src="../image/locking-collection.png" alt="" sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="9" sourceendlinenumber="9">
+<br>
+<img src="../image/locking-scene.png" alt="" sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="11" sourceendlinenumber="11">
+</br><br></p>
+<p sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="14" sourceendlinenumber="14">When scene has been modified and user attempts to save, the following dialog will open, with customizable name and message:</p>
+<p sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="16" sourceendlinenumber="16"><img src="../image/locking-warning.png" alt="" sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="16" sourceendlinenumber="16"></p>
+<p sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="18" sourceendlinenumber="19">Save as: Opens file dialog to save as new scene.
+Cancel: Discards changes and reloads scene</p>
+<blockquote sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="21" sourceendlinenumber="21"><p sourcefile="plugins/plugin.asm.locking.md" sourcestartlinenumber="21" sourceendlinenumber="21">Unlocking a collection or scene will display a similar dialog.</p>
+</blockquote>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,484 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.MenuItemHelper
+  commentId: T:AdvancedSceneManager.Editor.Utility.MenuItemHelper
+  id: MenuItemHelper
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.MenuItemHelper.InvokeThisMenuItem
+  - AdvancedSceneManager.Editor.Utility.MenuItemHelper.Refresh
+  - AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase,System.Action)
+  - AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase,System.Func{System.Boolean},System.Action{System.Boolean})
+  - AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase,System.Reflection.PropertyInfo,System.Action{System.Boolean},System.Object)
+  langs:
+  - csharp
+  - vb
+  name: MenuItemHelper
+  nameWithType: MenuItemHelper
+  fullName: AdvancedSceneManager.Editor.Utility.MenuItemHelper
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/MenuItemHelper.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: MenuItemHelper
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/MenuItemHelper.cs
+    startLine: 14
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: An helper class for creating <xref href="UnityEditor.MenuItem" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static class MenuItemHelper
+    content.vb: Public Module MenuItemHelper
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Editor.Utility.MenuItemHelper.InvokeThisMenuItem
+  commentId: M:AdvancedSceneManager.Editor.Utility.MenuItemHelper.InvokeThisMenuItem
+  id: InvokeThisMenuItem
+  parent: AdvancedSceneManager.Editor.Utility.MenuItemHelper
+  langs:
+  - csharp
+  - vb
+  name: InvokeThisMenuItem()
+  nameWithType: MenuItemHelper.InvokeThisMenuItem()
+  fullName: AdvancedSceneManager.Editor.Utility.MenuItemHelper.InvokeThisMenuItem()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/MenuItemHelper.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: InvokeThisMenuItem
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/MenuItemHelper.cs
+    startLine: 26
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Invokes a menu item, only usable when called from a method decorated with <xref href="UnityEditor.MenuItem" data-throw-if-not-resolved="false"></xref> that has been Setup() using <xref href="AdvancedSceneManager.Editor.Utility.MenuItemHelper" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static void InvokeThisMenuItem()
+    content.vb: Public Shared Sub InvokeThisMenuItem
+  overload: AdvancedSceneManager.Editor.Utility.MenuItemHelper.InvokeThisMenuItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase,System.Action)
+  commentId: M:AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase,System.Action)
+  id: Setup(System.Reflection.MethodBase,System.Action)
+  parent: AdvancedSceneManager.Editor.Utility.MenuItemHelper
+  langs:
+  - csharp
+  - vb
+  name: Setup(MethodBase, Action)
+  nameWithType: MenuItemHelper.Setup(MethodBase, Action)
+  fullName: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase, System.Action)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/MenuItemHelper.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Setup
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/MenuItemHelper.cs
+    startLine: 35
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Sets up an clickable menu item.
+  example: []
+  syntax:
+    content: public static void Setup(MethodBase method, Action onClick = null)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodBase
+    - id: onClick
+      type: System.Action
+    content.vb: Public Shared Sub Setup(method As MethodBase, onClick As Action = Nothing)
+  overload: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase,System.Func{System.Boolean},System.Action{System.Boolean})
+  commentId: M:AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase,System.Func{System.Boolean},System.Action{System.Boolean})
+  id: Setup(System.Reflection.MethodBase,System.Func{System.Boolean},System.Action{System.Boolean})
+  parent: AdvancedSceneManager.Editor.Utility.MenuItemHelper
+  langs:
+  - csharp
+  - vb
+  name: Setup(MethodBase, Func<Boolean>, Action<Boolean>)
+  nameWithType: MenuItemHelper.Setup(MethodBase, Func<Boolean>, Action<Boolean>)
+  fullName: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase, System.Func<System.Boolean>, System.Action<System.Boolean>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/MenuItemHelper.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Setup
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/MenuItemHelper.cs
+    startLine: 47
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Sets up an toggleable menu item.
+  example: []
+  syntax:
+    content: public static void Setup(MethodBase method, Func<bool> get, Action<bool> set = null)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodBase
+    - id: get
+      type: System.Func{System.Boolean}
+    - id: set
+      type: System.Action{System.Boolean}
+    content.vb: Public Shared Sub Setup(method As MethodBase, get As Func(Of Boolean), set As Action(Of Boolean) = Nothing)
+  overload: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup*
+  nameWithType.vb: MenuItemHelper.Setup(MethodBase, Func(Of Boolean), Action(Of Boolean))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase, System.Func(Of System.Boolean), System.Action(Of System.Boolean))
+  name.vb: Setup(MethodBase, Func(Of Boolean), Action(Of Boolean))
+- uid: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase,System.Reflection.PropertyInfo,System.Action{System.Boolean},System.Object)
+  commentId: M:AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase,System.Reflection.PropertyInfo,System.Action{System.Boolean},System.Object)
+  id: Setup(System.Reflection.MethodBase,System.Reflection.PropertyInfo,System.Action{System.Boolean},System.Object)
+  parent: AdvancedSceneManager.Editor.Utility.MenuItemHelper
+  langs:
+  - csharp
+  - vb
+  name: Setup(MethodBase, PropertyInfo, Action<Boolean>, Object)
+  nameWithType: MenuItemHelper.Setup(MethodBase, PropertyInfo, Action<Boolean>, Object)
+  fullName: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase, System.Reflection.PropertyInfo, System.Action<System.Boolean>, System.Object)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/MenuItemHelper.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Setup
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/MenuItemHelper.cs
+    startLine: 71
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Sets up an toggleable menu item, using property as backing value.
+  example: []
+  syntax:
+    content: public static void Setup(MethodBase method, PropertyInfo property, Action<bool> onChecked = null, object propertyTarget = null)
+    parameters:
+    - id: method
+      type: System.Reflection.MethodBase
+    - id: property
+      type: System.Reflection.PropertyInfo
+    - id: onChecked
+      type: System.Action{System.Boolean}
+    - id: propertyTarget
+      type: System.Object
+    content.vb: Public Shared Sub Setup(method As MethodBase, property As PropertyInfo, onChecked As Action(Of Boolean) = Nothing, propertyTarget As Object = Nothing)
+  overload: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup*
+  nameWithType.vb: MenuItemHelper.Setup(MethodBase, PropertyInfo, Action(Of Boolean), Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup(System.Reflection.MethodBase, System.Reflection.PropertyInfo, System.Action(Of System.Boolean), System.Object)
+  name.vb: Setup(MethodBase, PropertyInfo, Action(Of Boolean), Object)
+- uid: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Refresh
+  commentId: M:AdvancedSceneManager.Editor.Utility.MenuItemHelper.Refresh
+  id: Refresh
+  parent: AdvancedSceneManager.Editor.Utility.MenuItemHelper
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: MenuItemHelper.Refresh()
+  fullName: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Refresh()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/MenuItemHelper.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Refresh
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/MenuItemHelper.cs
+    startLine: 83
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: >-
+      [InitializeOnLoadMethod]
+
+      public static void Refresh()
+    content.vb: >-
+      <InitializeOnLoadMethod>
+
+      Public Shared Sub Refresh
+  overload: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Refresh*
+  attributes:
+  - type: UnityEditor.InitializeOnLoadMethodAttribute
+    ctor: UnityEditor.InitializeOnLoadMethodAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEditor.MenuItem
+  commentId: T:UnityEditor.MenuItem
+  isExternal: true
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.Utility.MenuItemHelper
+  commentId: T:AdvancedSceneManager.Editor.Utility.MenuItemHelper
+  name: MenuItemHelper
+  nameWithType: MenuItemHelper
+  fullName: AdvancedSceneManager.Editor.Utility.MenuItemHelper
+- uid: AdvancedSceneManager.Editor.Utility.MenuItemHelper.InvokeThisMenuItem*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.MenuItemHelper.InvokeThisMenuItem
+  name: InvokeThisMenuItem
+  nameWithType: MenuItemHelper.InvokeThisMenuItem
+  fullName: AdvancedSceneManager.Editor.Utility.MenuItemHelper.InvokeThisMenuItem
+- uid: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup
+  name: Setup
+  nameWithType: MenuItemHelper.Setup
+  fullName: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Setup
+- uid: System.Reflection.MethodBase
+  commentId: T:System.Reflection.MethodBase
+  parent: System.Reflection
+  isExternal: true
+  name: MethodBase
+  nameWithType: MethodBase
+  fullName: System.Reflection.MethodBase
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: System.Func{System.Boolean}
+  commentId: T:System.Func{System.Boolean}
+  parent: System
+  definition: System.Func`1
+  name: Func<Boolean>
+  nameWithType: Func<Boolean>
+  fullName: System.Func<System.Boolean>
+  nameWithType.vb: Func(Of Boolean)
+  fullName.vb: System.Func(Of System.Boolean)
+  name.vb: Func(Of Boolean)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{System.Boolean}
+  commentId: T:System.Action{System.Boolean}
+  parent: System
+  definition: System.Action`1
+  name: Action<Boolean>
+  nameWithType: Action<Boolean>
+  fullName: System.Action<System.Boolean>
+  nameWithType.vb: Action(Of Boolean)
+  fullName.vb: System.Action(Of System.Boolean)
+  name.vb: Action(Of Boolean)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Reflection.PropertyInfo
+  commentId: T:System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: true
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+- uid: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Refresh*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.MenuItemHelper.Refresh
+  name: Refresh
+  nameWithType: MenuItemHelper.Refresh
+  fullName: AdvancedSceneManager.Editor.Utility.MenuItemHelper.Refresh

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>SettingsTab._DefaultHeaders
+   | Advanced Scene Manager </title>
+    <meta name="title" content="SettingsTab._DefaultHeaders
+   | Advanced Scene Manager ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../guides/readme.html">
+                <img id="logo" class="svg" src="..//resources/logo.png" alt="" style="width: 50px;height: 50px;">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders">
+  
+  
+  <h1 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders" class="text-break">SettingsTab._DefaultHeaders
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">SettingsTab._DefaultHeaders</span></div>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Appearance_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Appearance*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Appearance" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Appearance">Appearance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Appearance { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Appearance_CollectionHeader_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Appearance_CollectionHeader*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Appearance_CollectionHeader" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Appearance_CollectionHeader">Appearance_CollectionHeader</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Appearance_CollectionHeader { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Appearance_Hierarchy_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Appearance_Hierarchy*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Appearance_Hierarchy" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Appearance_Hierarchy">Appearance_Hierarchy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Appearance_Hierarchy { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Appearance_ScenesTab_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Appearance_ScenesTab*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Appearance_ScenesTab" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Appearance_ScenesTab">Appearance_ScenesTab</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Appearance_ScenesTab { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Appearance_WindowHeader_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Appearance_WindowHeader*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Appearance_WindowHeader" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Appearance_WindowHeader">Appearance_WindowHeader</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Appearance_WindowHeader { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Blacklist_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Blacklist*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Blacklist" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Blacklist">Blacklist</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Blacklist { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_DynamicCollections_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.DynamicCollections*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_DynamicCollections" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.DynamicCollections">DynamicCollections</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DynamicCollections { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Options_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Options*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Options" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Options">Options</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Options { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Options_Local_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Options_Local*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Options_Local" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Options_Local">Options_Local</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Options_Local { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Options_Log_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Options_Log*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Options_Log" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Options_Log">Options_Log</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Options_Log { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Options_Profile_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Options_Profile*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Options_Profile" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Options_Profile">Options_Profile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Options_Profile { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Options_Project_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Options_Project*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_Options_Project" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.Options_Project">Options_Project</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Options_Project { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_PluginsAndExamples_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.PluginsAndExamples*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_PluginsAndExamples" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.PluginsAndExamples">PluginsAndExamples</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PluginsAndExamples { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_PluginsAndExamples_Examples_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.PluginsAndExamples_Examples*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_PluginsAndExamples_Examples" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.PluginsAndExamples_Examples">PluginsAndExamples_Examples</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PluginsAndExamples_Examples { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_PluginsAndExamples_Experiments_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.PluginsAndExamples_Experiments*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_PluginsAndExamples_Experiments" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.PluginsAndExamples_Experiments">PluginsAndExamples_Experiments</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PluginsAndExamples_Experiments { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_PluginsAndExamples_Plugins_" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.PluginsAndExamples_Plugins*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_SettingsTab__DefaultHeaders_PluginsAndExamples_Plugins" data-uid="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.PluginsAndExamples_Plugins">PluginsAndExamples_Plugins</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PluginsAndExamples_Plugins { get; }</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <a href='https://assetstore.unity.com/packages/slug/174152'>Advanced Scene Manager</a> - <a href='https://assetstore.unity.com/publishers/48996'>Lazy Solutions</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

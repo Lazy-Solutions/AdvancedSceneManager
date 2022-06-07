@@ -1,0 +1,299 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility
+  id: PersistentSceneInEditorUtility
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetAssociatedScenes(AdvancedSceneManager.Models.Scene)
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetPersistentOption(AdvancedSceneManager.Models.Scene)
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.IsPersistent(UnityEngine.SceneManagement.Scene)
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenAssociatedPersistentScenes(AdvancedSceneManager.Models.Scene,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: PersistentSceneInEditorUtility
+  nameWithType: PersistentSceneInEditorUtility
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: PersistentSceneInEditorUtility
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 14
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: An utility class to automatically open persistent scenes in editor.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public static class PersistentSceneInEditorUtility
+    content.vb: Public Module PersistentSceneInEditorUtility
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetPersistentOption(AdvancedSceneManager.Models.Scene)
+  commentId: M:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetPersistentOption(AdvancedSceneManager.Models.Scene)
+  id: GetPersistentOption(AdvancedSceneManager.Models.Scene)
+  parent: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility
+  langs:
+  - csharp
+  - vb
+  name: GetPersistentOption(Scene)
+  nameWithType: PersistentSceneInEditorUtility.GetPersistentOption(Scene)
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetPersistentOption(AdvancedSceneManager.Models.Scene)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: GetPersistentOption
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 18
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Gets the persistent option of a scene.
+  example: []
+  syntax:
+    content: public static PersistentSceneInEditorUtility.OpenInEditorSetting GetPersistentOption(Scene scene)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    return:
+      type: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+    content.vb: Public Shared Function GetPersistentOption(scene As Scene) As PersistentSceneInEditorUtility.OpenInEditorSetting
+  overload: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetPersistentOption*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenAssociatedPersistentScenes(AdvancedSceneManager.Models.Scene,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenAssociatedPersistentScenes(AdvancedSceneManager.Models.Scene,System.Boolean)
+  id: OpenAssociatedPersistentScenes(AdvancedSceneManager.Models.Scene,System.Boolean)
+  parent: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility
+  langs:
+  - csharp
+  - vb
+  name: OpenAssociatedPersistentScenes(Scene, Boolean)
+  nameWithType: PersistentSceneInEditorUtility.OpenAssociatedPersistentScenes(Scene, Boolean)
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenAssociatedPersistentScenes(AdvancedSceneManager.Models.Scene, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OpenAssociatedPersistentScenes
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 29
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Open all scenes that are flagged to open when the specified scene is opened.
+  example: []
+  syntax:
+    content: public static void OpenAssociatedPersistentScenes(Scene scene, bool promptSave = false)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    - id: promptSave
+      type: System.Boolean
+      description: If <xref uid="langword_csharp_true" name="true" href=""></xref>, then the user will be prompted to save any unsaved scenes before opening the scenes.
+    content.vb: Public Shared Sub OpenAssociatedPersistentScenes(scene As Scene, promptSave As Boolean = False)
+  overload: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenAssociatedPersistentScenes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetAssociatedScenes(AdvancedSceneManager.Models.Scene)
+  commentId: M:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetAssociatedScenes(AdvancedSceneManager.Models.Scene)
+  id: GetAssociatedScenes(AdvancedSceneManager.Models.Scene)
+  parent: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility
+  langs:
+  - csharp
+  - vb
+  name: GetAssociatedScenes(Scene)
+  nameWithType: PersistentSceneInEditorUtility.GetAssociatedScenes(Scene)
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetAssociatedScenes(AdvancedSceneManager.Models.Scene)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: GetAssociatedScenes
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 45
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Gets the scenes flagged to open when the specified scene is opened.
+  example: []
+  syntax:
+    content: public static Scene[] GetAssociatedScenes(Scene scene)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    return:
+      type: AdvancedSceneManager.Models.Scene[]
+    content.vb: Public Shared Function GetAssociatedScenes(scene As Scene) As Scene()
+  overload: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetAssociatedScenes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.IsPersistent(UnityEngine.SceneManagement.Scene)
+  commentId: M:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.IsPersistent(UnityEngine.SceneManagement.Scene)
+  id: IsPersistent(UnityEngine.SceneManagement.Scene)
+  parent: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility
+  langs:
+  - csharp
+  - vb
+  name: IsPersistent(Scene)
+  nameWithType: PersistentSceneInEditorUtility.IsPersistent(Scene)
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.IsPersistent(UnityEngine.SceneManagement.Scene)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IsPersistent
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 62
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static bool IsPersistent(Scene scene)
+    parameters:
+    - id: scene
+      type: UnityEngine.SceneManagement.Scene
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsPersistent(scene As Scene) As Boolean
+  overload: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.IsPersistent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetPersistentOption*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetPersistentOption
+  name: GetPersistentOption
+  nameWithType: PersistentSceneInEditorUtility.GetPersistentOption
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetPersistentOption
+- uid: AdvancedSceneManager.Models.Scene
+  commentId: T:AdvancedSceneManager.Models.Scene
+  parent: AdvancedSceneManager.Models
+  name: Scene
+  nameWithType: Scene
+  fullName: AdvancedSceneManager.Models.Scene
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+  commentId: T:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+  parent: AdvancedSceneManager.Editor.Utility
+  name: PersistentSceneInEditorUtility.OpenInEditorSetting
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorSetting
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenAssociatedPersistentScenes*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenAssociatedPersistentScenes
+  name: OpenAssociatedPersistentScenes
+  nameWithType: PersistentSceneInEditorUtility.OpenAssociatedPersistentScenes
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenAssociatedPersistentScenes
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetAssociatedScenes*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetAssociatedScenes
+  name: GetAssociatedScenes
+  nameWithType: PersistentSceneInEditorUtility.GetAssociatedScenes
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetAssociatedScenes
+- uid: AdvancedSceneManager.Models.Scene[]
+  isExternal: true
+  name: Scene[]
+  nameWithType: Scene[]
+  fullName: AdvancedSceneManager.Models.Scene[]
+  nameWithType.vb: Scene()
+  fullName.vb: AdvancedSceneManager.Models.Scene()
+  name.vb: Scene()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.IsPersistent*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.IsPersistent
+  name: IsPersistent
+  nameWithType: PersistentSceneInEditorUtility.IsPersistent
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.IsPersistent
+- uid: UnityEngine.SceneManagement.Scene
+  commentId: T:UnityEngine.SceneManagement.Scene
+  parent: UnityEngine.SceneManagement
+  isExternal: true
+  name: Scene
+  nameWithType: Scene
+  fullName: UnityEngine.SceneManagement.Scene
+- uid: UnityEngine.SceneManagement
+  commentId: N:UnityEngine.SceneManagement
+  isExternal: true
+  name: UnityEngine.SceneManagement
+  nameWithType: UnityEngine.SceneManagement
+  fullName: UnityEngine.SceneManagement

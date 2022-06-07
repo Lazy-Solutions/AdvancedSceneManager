@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Core.Actions
+  commentId: N:AdvancedSceneManager.Core.Actions
+  id: AdvancedSceneManager.Core.Actions
+  children:
+  - AdvancedSceneManager.Core.Actions.AggregateAction
+  - AdvancedSceneManager.Core.Actions.CallbackAction
+  - AdvancedSceneManager.Core.Actions.CloseAllUnityScenesAction
+  - AdvancedSceneManager.Core.Actions.OpenAndRunCallbackAction`1
+  - AdvancedSceneManager.Core.Actions.OpenStartupCollections
+  - AdvancedSceneManager.Core.Actions.OverridableAction`1
+  - AdvancedSceneManager.Core.Actions.PlaySplashScreenAction
+  - AdvancedSceneManager.Core.Actions.QuickStartupAction
+  - AdvancedSceneManager.Core.Actions.QuitAction
+  - AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+  - AdvancedSceneManager.Core.Actions.SceneAction
+  - AdvancedSceneManager.Core.Actions.SceneCloseAction
+  - AdvancedSceneManager.Core.Actions.SceneCloseCallbackAction
+  - AdvancedSceneManager.Core.Actions.SceneFinishLoadAction
+  - AdvancedSceneManager.Core.Actions.SceneLoadAction
+  - AdvancedSceneManager.Core.Actions.SceneOpenAction
+  - AdvancedSceneManager.Core.Actions.SceneOpenCallbackAction
+  - AdvancedSceneManager.Core.Actions.SceneUnloadAction
+  - AdvancedSceneManager.Core.Actions.StartupAction
+  langs:
+  - csharp
+  - vb
+  name: AdvancedSceneManager.Core.Actions
+  nameWithType: AdvancedSceneManager.Core.Actions
+  fullName: AdvancedSceneManager.Core.Actions
+  type: Namespace
+  assemblies:
+  - AdvancedSceneManager
+references:
+- uid: AdvancedSceneManager.Core.Actions.SceneCloseCallbackAction
+  commentId: T:AdvancedSceneManager.Core.Actions.SceneCloseCallbackAction
+  name: SceneCloseCallbackAction
+  nameWithType: SceneCloseCallbackAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneCloseCallbackAction
+- uid: AdvancedSceneManager.Core.Actions.SceneUnloadAction
+  commentId: T:AdvancedSceneManager.Core.Actions.SceneUnloadAction
+  name: SceneUnloadAction
+  nameWithType: SceneUnloadAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneUnloadAction
+- uid: AdvancedSceneManager.Core.Actions.SceneCloseAction
+  commentId: T:AdvancedSceneManager.Core.Actions.SceneCloseAction
+  name: SceneCloseAction
+  nameWithType: SceneCloseAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneCloseAction
+- uid: AdvancedSceneManager.Core.Actions.SceneFinishLoadAction
+  commentId: T:AdvancedSceneManager.Core.Actions.SceneFinishLoadAction
+  name: SceneFinishLoadAction
+  nameWithType: SceneFinishLoadAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneFinishLoadAction
+- uid: AdvancedSceneManager.Core.Actions.SceneLoadAction
+  commentId: T:AdvancedSceneManager.Core.Actions.SceneLoadAction
+  name: SceneLoadAction
+  nameWithType: SceneLoadAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneLoadAction
+- uid: AdvancedSceneManager.Core.Actions.SceneOpenCallbackAction
+  commentId: T:AdvancedSceneManager.Core.Actions.SceneOpenCallbackAction
+  name: SceneOpenCallbackAction
+  nameWithType: SceneOpenCallbackAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneOpenCallbackAction
+- uid: AdvancedSceneManager.Core.Actions.SceneOpenAction
+  commentId: T:AdvancedSceneManager.Core.Actions.SceneOpenAction
+  name: SceneOpenAction
+  nameWithType: SceneOpenAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneOpenAction
+- uid: AdvancedSceneManager.Core.Actions.OpenAndRunCallbackAction`1
+  commentId: T:AdvancedSceneManager.Core.Actions.OpenAndRunCallbackAction`1
+  name: OpenAndRunCallbackAction<T>
+  nameWithType: OpenAndRunCallbackAction<T>
+  fullName: AdvancedSceneManager.Core.Actions.OpenAndRunCallbackAction<T>
+  nameWithType.vb: OpenAndRunCallbackAction(Of T)
+  fullName.vb: AdvancedSceneManager.Core.Actions.OpenAndRunCallbackAction(Of T)
+  name.vb: OpenAndRunCallbackAction(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OpenAndRunCallbackAction`1
+    name: OpenAndRunCallbackAction
+    nameWithType: OpenAndRunCallbackAction
+    fullName: AdvancedSceneManager.Core.Actions.OpenAndRunCallbackAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OpenAndRunCallbackAction`1
+    name: OpenAndRunCallbackAction
+    nameWithType: OpenAndRunCallbackAction
+    fullName: AdvancedSceneManager.Core.Actions.OpenAndRunCallbackAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+  commentId: T:AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+  name: RunCallbackAndCloseAction<T>
+  nameWithType: RunCallbackAndCloseAction<T>
+  fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction<T>
+  nameWithType.vb: RunCallbackAndCloseAction(Of T)
+  fullName.vb: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction(Of T)
+  name.vb: RunCallbackAndCloseAction(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+    name: RunCallbackAndCloseAction
+    nameWithType: RunCallbackAndCloseAction
+    fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction`1
+    name: RunCallbackAndCloseAction
+    nameWithType: RunCallbackAndCloseAction
+    fullName: AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.CloseAllUnityScenesAction
+  commentId: T:AdvancedSceneManager.Core.Actions.CloseAllUnityScenesAction
+  name: CloseAllUnityScenesAction
+  nameWithType: CloseAllUnityScenesAction
+  fullName: AdvancedSceneManager.Core.Actions.CloseAllUnityScenesAction
+- uid: AdvancedSceneManager.Core.Actions.OpenStartupCollections
+  commentId: T:AdvancedSceneManager.Core.Actions.OpenStartupCollections
+  name: OpenStartupCollections
+  nameWithType: OpenStartupCollections
+  fullName: AdvancedSceneManager.Core.Actions.OpenStartupCollections
+- uid: AdvancedSceneManager.Core.Actions.PlaySplashScreenAction
+  commentId: T:AdvancedSceneManager.Core.Actions.PlaySplashScreenAction
+  name: PlaySplashScreenAction
+  nameWithType: PlaySplashScreenAction
+  fullName: AdvancedSceneManager.Core.Actions.PlaySplashScreenAction
+- uid: AdvancedSceneManager.Core.Actions.QuickStartupAction
+  commentId: T:AdvancedSceneManager.Core.Actions.QuickStartupAction
+  name: QuickStartupAction
+  nameWithType: QuickStartupAction
+  fullName: AdvancedSceneManager.Core.Actions.QuickStartupAction
+- uid: AdvancedSceneManager.Core.Actions.QuitAction
+  commentId: T:AdvancedSceneManager.Core.Actions.QuitAction
+  name: QuitAction
+  nameWithType: QuitAction
+  fullName: AdvancedSceneManager.Core.Actions.QuitAction
+- uid: AdvancedSceneManager.Core.Actions.StartupAction
+  commentId: T:AdvancedSceneManager.Core.Actions.StartupAction
+  parent: AdvancedSceneManager.Core.Actions
+  name: StartupAction
+  nameWithType: StartupAction
+  fullName: AdvancedSceneManager.Core.Actions.StartupAction
+- uid: AdvancedSceneManager.Core.Actions.AggregateAction
+  commentId: T:AdvancedSceneManager.Core.Actions.AggregateAction
+  parent: AdvancedSceneManager.Core.Actions
+  name: AggregateAction
+  nameWithType: AggregateAction
+  fullName: AdvancedSceneManager.Core.Actions.AggregateAction
+- uid: AdvancedSceneManager.Core.Actions.CallbackAction
+  commentId: T:AdvancedSceneManager.Core.Actions.CallbackAction
+  parent: AdvancedSceneManager.Core.Actions
+  name: CallbackAction
+  nameWithType: CallbackAction
+  fullName: AdvancedSceneManager.Core.Actions.CallbackAction
+- uid: AdvancedSceneManager.Core.Actions.OverridableAction`1
+  commentId: T:AdvancedSceneManager.Core.Actions.OverridableAction`1
+  name: OverridableAction<T>
+  nameWithType: OverridableAction<T>
+  fullName: AdvancedSceneManager.Core.Actions.OverridableAction<T>
+  nameWithType.vb: OverridableAction(Of T)
+  fullName.vb: AdvancedSceneManager.Core.Actions.OverridableAction(Of T)
+  name.vb: OverridableAction(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1
+    name: OverridableAction
+    nameWithType: OverridableAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.Actions.OverridableAction`1
+    name: OverridableAction
+    nameWithType: OverridableAction
+    fullName: AdvancedSceneManager.Core.Actions.OverridableAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Actions.SceneAction
+  commentId: T:AdvancedSceneManager.Core.Actions.SceneAction
+  parent: AdvancedSceneManager.Core.Actions
+  name: SceneAction
+  nameWithType: SceneAction
+  fullName: AdvancedSceneManager.Core.Actions.SceneAction
+- uid: AdvancedSceneManager.Core.Actions
+  commentId: N:AdvancedSceneManager.Core.Actions
+  name: AdvancedSceneManager.Core.Actions
+  nameWithType: AdvancedSceneManager.Core.Actions
+  fullName: AdvancedSceneManager.Core.Actions

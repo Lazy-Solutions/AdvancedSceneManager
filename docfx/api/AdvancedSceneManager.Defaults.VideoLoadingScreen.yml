@@ -1,0 +1,780 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Defaults.VideoLoadingScreen
+  commentId: T:AdvancedSceneManager.Defaults.VideoLoadingScreen
+  id: VideoLoadingScreen
+  parent: AdvancedSceneManager.Defaults
+  children:
+  - AdvancedSceneManager.Defaults.VideoLoadingScreen.defaultVideoClip
+  - AdvancedSceneManager.Defaults.VideoLoadingScreen.fadeDuration
+  - AdvancedSceneManager.Defaults.VideoLoadingScreen.group
+  - AdvancedSceneManager.Defaults.VideoLoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  - AdvancedSceneManager.Defaults.VideoLoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  - AdvancedSceneManager.Defaults.VideoLoadingScreen.videoClip
+  - AdvancedSceneManager.Defaults.VideoLoadingScreen.videoPlayer
+  - AdvancedSceneManager.Defaults.VideoLoadingScreen.VideoRenderer
+  langs:
+  - csharp
+  - vb
+  name: VideoLoadingScreen
+  nameWithType: VideoLoadingScreen
+  fullName: AdvancedSceneManager.Defaults.VideoLoadingScreen
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: VideoLoadingScreen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+    startLine: 13
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  summary: A default loading screen script. Displays a video.
+  example: []
+  syntax:
+    content: 'public class VideoLoadingScreen : LoadingScreen'
+    content.vb: >-
+      Public Class VideoLoadingScreen
+          Inherits LoadingScreen
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - AdvancedSceneManager.Callbacks.LoadingScreen
+  inheritedMembers:
+  - AdvancedSceneManager.Callbacks.LoadingScreen.onDestroy
+  - AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  - AdvancedSceneManager.Callbacks.LoadingScreen.canvas
+  - AdvancedSceneManager.Callbacks.LoadingScreen.operation
+  - AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+  - AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+  extensionMethods:
+  - UnityEngine.Component.AdvancedSceneManager.Utility.SceneUtility.Scene
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Defaults.VideoLoadingScreen.defaultVideoClip
+  commentId: F:AdvancedSceneManager.Defaults.VideoLoadingScreen.defaultVideoClip
+  id: defaultVideoClip
+  parent: AdvancedSceneManager.Defaults.VideoLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: defaultVideoClip
+  nameWithType: VideoLoadingScreen.defaultVideoClip
+  fullName: AdvancedSceneManager.Defaults.VideoLoadingScreen.defaultVideoClip
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: defaultVideoClip
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+    startLine: 19
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  example: []
+  syntax:
+    content: public VideoClip defaultVideoClip
+    return:
+      type: UnityEngine.Video.VideoClip
+    content.vb: Public defaultVideoClip As VideoClip
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Defaults.VideoLoadingScreen.videoClip
+  commentId: F:AdvancedSceneManager.Defaults.VideoLoadingScreen.videoClip
+  id: videoClip
+  parent: AdvancedSceneManager.Defaults.VideoLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: videoClip
+  nameWithType: VideoLoadingScreen.videoClip
+  fullName: AdvancedSceneManager.Defaults.VideoLoadingScreen.videoClip
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: videoClip
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+    startLine: 20
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: public static VideoClip videoClip
+    return:
+      type: UnityEngine.Video.VideoClip
+    content.vb: Public Shared videoClip As VideoClip
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Defaults.VideoLoadingScreen.group
+  commentId: F:AdvancedSceneManager.Defaults.VideoLoadingScreen.group
+  id: group
+  parent: AdvancedSceneManager.Defaults.VideoLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: group
+  nameWithType: VideoLoadingScreen.group
+  fullName: AdvancedSceneManager.Defaults.VideoLoadingScreen.group
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: group
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+    startLine: 21
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: public CanvasGroup group
+    return:
+      type: UnityEngine.CanvasGroup
+    content.vb: Public group As CanvasGroup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Defaults.VideoLoadingScreen.VideoRenderer
+  commentId: F:AdvancedSceneManager.Defaults.VideoLoadingScreen.VideoRenderer
+  id: VideoRenderer
+  parent: AdvancedSceneManager.Defaults.VideoLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: VideoRenderer
+  nameWithType: VideoLoadingScreen.VideoRenderer
+  fullName: AdvancedSceneManager.Defaults.VideoLoadingScreen.VideoRenderer
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: VideoRenderer
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+    startLine: 22
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: public RawImage VideoRenderer
+    return:
+      type: UnityEngine.UI.RawImage
+    content.vb: Public VideoRenderer As RawImage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Defaults.VideoLoadingScreen.fadeDuration
+  commentId: F:AdvancedSceneManager.Defaults.VideoLoadingScreen.fadeDuration
+  id: fadeDuration
+  parent: AdvancedSceneManager.Defaults.VideoLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: fadeDuration
+  nameWithType: VideoLoadingScreen.fadeDuration
+  fullName: AdvancedSceneManager.Defaults.VideoLoadingScreen.fadeDuration
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: fadeDuration
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+    startLine: 23
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: public float fadeDuration
+    return:
+      type: System.Single
+    content.vb: Public fadeDuration As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Defaults.VideoLoadingScreen.videoPlayer
+  commentId: F:AdvancedSceneManager.Defaults.VideoLoadingScreen.videoPlayer
+  id: videoPlayer
+  parent: AdvancedSceneManager.Defaults.VideoLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: videoPlayer
+  nameWithType: VideoLoadingScreen.videoPlayer
+  fullName: AdvancedSceneManager.Defaults.VideoLoadingScreen.videoPlayer
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: videoPlayer
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+    startLine: 27
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: >-
+      [Header("VideoClip is static, Apply it before loading")]
+
+      public VideoPlayer videoPlayer
+    return:
+      type: UnityEngine.Video.VideoPlayer
+    content.vb: >-
+      <Header("VideoClip is static, Apply it before loading")>
+
+      Public videoPlayer As VideoPlayer
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: VideoClip is static, Apply it before loading
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Defaults.VideoLoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Defaults.VideoLoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  id: OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Defaults.VideoLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: OnOpen(SceneOperation)
+  nameWithType: VideoLoadingScreen.OnOpen(SceneOperation)
+  fullName: AdvancedSceneManager.Defaults.VideoLoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnOpen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+    startLine: 31
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: public override IEnumerator OnOpen(SceneOperation operation)
+    parameters:
+    - id: operation
+      type: AdvancedSceneManager.Core.SceneOperation
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overrides Function OnOpen(operation As SceneOperation) As IEnumerator
+  overridden: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  overload: AdvancedSceneManager.Defaults.VideoLoadingScreen.OnOpen*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: AdvancedSceneManager.Defaults.VideoLoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Defaults.VideoLoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  id: OnClose(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Defaults.VideoLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: OnClose(SceneOperation)
+  nameWithType: VideoLoadingScreen.OnClose(SceneOperation)
+  fullName: AdvancedSceneManager.Defaults.VideoLoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnClose
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/Video/VideoLoadingScreen.cs
+    startLine: 36
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: public override IEnumerator OnClose(SceneOperation operation)
+    parameters:
+    - id: operation
+      type: AdvancedSceneManager.Core.SceneOperation
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overrides Function OnClose(operation As SceneOperation) As IEnumerator
+  overridden: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  overload: AdvancedSceneManager.Defaults.VideoLoadingScreen.OnClose*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: AdvancedSceneManager.Defaults
+  commentId: N:AdvancedSceneManager.Defaults
+  name: AdvancedSceneManager.Defaults
+  nameWithType: AdvancedSceneManager.Defaults
+  fullName: AdvancedSceneManager.Defaults
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen
+  commentId: T:AdvancedSceneManager.Callbacks.LoadingScreen
+  parent: AdvancedSceneManager.Callbacks
+  name: LoadingScreen
+  nameWithType: LoadingScreen
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.onDestroy
+  commentId: F:AdvancedSceneManager.Callbacks.LoadingScreen.onDestroy
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: onDestroy
+  nameWithType: LoadingScreen.onDestroy
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.onDestroy
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: OnDestroy()
+  nameWithType: LoadingScreen.OnDestroy()
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+    name: OnDestroy
+    nameWithType: LoadingScreen.OnDestroy
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+    name: OnDestroy
+    nameWithType: LoadingScreen.OnDestroy
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.canvas
+  commentId: F:AdvancedSceneManager.Callbacks.LoadingScreen.canvas
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: canvas
+  nameWithType: LoadingScreen.canvas
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.canvas
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.operation
+  commentId: P:AdvancedSceneManager.Callbacks.LoadingScreen.operation
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: operation
+  nameWithType: LoadingScreen.operation
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.operation
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: OnScenePhaseChanged(SceneOperation, Phase, Phase)
+  nameWithType: LoadingScreen.OnScenePhaseChanged(SceneOperation, Phase, Phase)
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation, AdvancedSceneManager.Core.Phase, AdvancedSceneManager.Core.Phase)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+    name: OnScenePhaseChanged
+    nameWithType: LoadingScreen.OnScenePhaseChanged
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Core.Phase
+    name: Phase
+    nameWithType: Phase
+    fullName: AdvancedSceneManager.Core.Phase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Core.Phase
+    name: Phase
+    nameWithType: Phase
+    fullName: AdvancedSceneManager.Core.Phase
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+    name: OnScenePhaseChanged
+    nameWithType: LoadingScreen.OnScenePhaseChanged
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Core.Phase
+    name: Phase
+    nameWithType: Phase
+    fullName: AdvancedSceneManager.Core.Phase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Core.Phase
+    name: Phase
+    nameWithType: Phase
+    fullName: AdvancedSceneManager.Core.Phase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: OnCancel(SceneOperation)
+  nameWithType: LoadingScreen.OnCancel(SceneOperation)
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+    name: OnCancel
+    nameWithType: LoadingScreen.OnCancel
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+    name: OnCancel
+    nameWithType: LoadingScreen.OnCancel
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Component.AdvancedSceneManager.Utility.SceneUtility.Scene
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  definition: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  name: Scene()
+  nameWithType: SceneUtility.Scene()
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Scene()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  isExternal: true
+  name: Scene(Component)
+  nameWithType: SceneUtility.Scene(Component)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Component
+    name: Component
+    nameWithType: Component
+    fullName: UnityEngine.Component
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Component
+    name: Component
+    nameWithType: Component
+    fullName: UnityEngine.Component
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.SceneUtility
+  commentId: T:AdvancedSceneManager.Utility.SceneUtility
+  parent: AdvancedSceneManager.Utility
+  name: SceneUtility
+  nameWithType: SceneUtility
+  fullName: AdvancedSceneManager.Utility.SceneUtility
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: UnityEngine.Video.VideoClip
+  commentId: T:UnityEngine.Video.VideoClip
+  parent: UnityEngine.Video
+  isExternal: true
+  name: VideoClip
+  nameWithType: VideoClip
+  fullName: UnityEngine.Video.VideoClip
+- uid: UnityEngine.Video
+  commentId: N:UnityEngine.Video
+  isExternal: true
+  name: UnityEngine.Video
+  nameWithType: UnityEngine.Video
+  fullName: UnityEngine.Video
+- uid: UnityEngine.CanvasGroup
+  commentId: T:UnityEngine.CanvasGroup
+  parent: UnityEngine
+  isExternal: true
+  name: CanvasGroup
+  nameWithType: CanvasGroup
+  fullName: UnityEngine.CanvasGroup
+- uid: UnityEngine.UI.RawImage
+  commentId: T:UnityEngine.UI.RawImage
+  parent: UnityEngine.UI
+  isExternal: true
+  name: RawImage
+  nameWithType: RawImage
+  fullName: UnityEngine.UI.RawImage
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEngine.Video.VideoPlayer
+  commentId: T:UnityEngine.Video.VideoPlayer
+  parent: UnityEngine.Video
+  isExternal: true
+  name: VideoPlayer
+  nameWithType: VideoPlayer
+  fullName: UnityEngine.Video.VideoPlayer
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: OnOpen(SceneOperation)
+  nameWithType: LoadingScreen.OnOpen(SceneOperation)
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+    name: OnOpen
+    nameWithType: LoadingScreen.OnOpen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+    name: OnOpen
+    nameWithType: LoadingScreen.OnOpen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Defaults.VideoLoadingScreen.OnOpen*
+  commentId: Overload:AdvancedSceneManager.Defaults.VideoLoadingScreen.OnOpen
+  name: OnOpen
+  nameWithType: VideoLoadingScreen.OnOpen
+  fullName: AdvancedSceneManager.Defaults.VideoLoadingScreen.OnOpen
+- uid: AdvancedSceneManager.Core.SceneOperation
+  commentId: T:AdvancedSceneManager.Core.SceneOperation
+  parent: AdvancedSceneManager.Core
+  name: SceneOperation
+  nameWithType: SceneOperation
+  fullName: AdvancedSceneManager.Core.SceneOperation
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: OnClose(SceneOperation)
+  nameWithType: LoadingScreen.OnClose(SceneOperation)
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+    name: OnClose
+    nameWithType: LoadingScreen.OnClose
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+    name: OnClose
+    nameWithType: LoadingScreen.OnClose
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Defaults.VideoLoadingScreen.OnClose*
+  commentId: Overload:AdvancedSceneManager.Defaults.VideoLoadingScreen.OnClose
+  name: OnClose
+  nameWithType: VideoLoadingScreen.OnClose
+  fullName: AdvancedSceneManager.Defaults.VideoLoadingScreen.OnClose

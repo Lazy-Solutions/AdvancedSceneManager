@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Defaults.IconBounceLoadingScreen
+  commentId: T:AdvancedSceneManager.Defaults.IconBounceLoadingScreen
+  id: IconBounceLoadingScreen
+  parent: AdvancedSceneManager.Defaults
+  children:
+  - AdvancedSceneManager.Defaults.IconBounceLoadingScreen.BackgroundTransform
+  - AdvancedSceneManager.Defaults.IconBounceLoadingScreen.duration
+  - AdvancedSceneManager.Defaults.IconBounceLoadingScreen.IconStartRotationZ
+  - AdvancedSceneManager.Defaults.IconBounceLoadingScreen.IconStartSize
+  - AdvancedSceneManager.Defaults.IconBounceLoadingScreen.IconTransform
+  - AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  - AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  langs:
+  - csharp
+  - vb
+  name: IconBounceLoadingScreen
+  nameWithType: IconBounceLoadingScreen
+  fullName: AdvancedSceneManager.Defaults.IconBounceLoadingScreen
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IconBounceLoadingScreen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    startLine: 10
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  summary: A default loading screen script. Displays progress with a bouncing icon.
+  example: []
+  syntax:
+    content: 'public class IconBounceLoadingScreen : LoadingScreen'
+    content.vb: >-
+      Public Class IconBounceLoadingScreen
+          Inherits LoadingScreen
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - AdvancedSceneManager.Callbacks.LoadingScreen
+  inheritedMembers:
+  - AdvancedSceneManager.Callbacks.LoadingScreen.onDestroy
+  - AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  - AdvancedSceneManager.Callbacks.LoadingScreen.canvas
+  - AdvancedSceneManager.Callbacks.LoadingScreen.operation
+  - AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+  - AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+  extensionMethods:
+  - UnityEngine.Component.AdvancedSceneManager.Utility.SceneUtility.Scene
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.IconStartSize
+  commentId: F:AdvancedSceneManager.Defaults.IconBounceLoadingScreen.IconStartSize
+  id: IconStartSize
+  parent: AdvancedSceneManager.Defaults.IconBounceLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: IconStartSize
+  nameWithType: IconBounceLoadingScreen.IconStartSize
+  fullName: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.IconStartSize
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IconStartSize
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    startLine: 12
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: public Vector2 IconStartSize
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public IconStartSize As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.IconStartRotationZ
+  commentId: F:AdvancedSceneManager.Defaults.IconBounceLoadingScreen.IconStartRotationZ
+  id: IconStartRotationZ
+  parent: AdvancedSceneManager.Defaults.IconBounceLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: IconStartRotationZ
+  nameWithType: IconBounceLoadingScreen.IconStartRotationZ
+  fullName: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.IconStartRotationZ
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IconStartRotationZ
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    startLine: 13
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: public float IconStartRotationZ
+    return:
+      type: System.Single
+    content.vb: Public IconStartRotationZ As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.duration
+  commentId: F:AdvancedSceneManager.Defaults.IconBounceLoadingScreen.duration
+  id: duration
+  parent: AdvancedSceneManager.Defaults.IconBounceLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: duration
+  nameWithType: IconBounceLoadingScreen.duration
+  fullName: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.duration
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: duration
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    startLine: 14
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: public float duration
+    return:
+      type: System.Single
+    content.vb: Public duration As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.IconTransform
+  commentId: F:AdvancedSceneManager.Defaults.IconBounceLoadingScreen.IconTransform
+  id: IconTransform
+  parent: AdvancedSceneManager.Defaults.IconBounceLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: IconTransform
+  nameWithType: IconBounceLoadingScreen.IconTransform
+  fullName: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.IconTransform
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IconTransform
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    startLine: 16
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: public RectTransform IconTransform
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: Public IconTransform As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.BackgroundTransform
+  commentId: F:AdvancedSceneManager.Defaults.IconBounceLoadingScreen.BackgroundTransform
+  id: BackgroundTransform
+  parent: AdvancedSceneManager.Defaults.IconBounceLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: BackgroundTransform
+  nameWithType: IconBounceLoadingScreen.BackgroundTransform
+  fullName: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.BackgroundTransform
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: BackgroundTransform
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    startLine: 17
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: public RectTransform BackgroundTransform
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: Public BackgroundTransform As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  id: OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Defaults.IconBounceLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: OnOpen(SceneOperation)
+  nameWithType: IconBounceLoadingScreen.OnOpen(SceneOperation)
+  fullName: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnOpen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    startLine: 19
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: public override IEnumerator OnOpen(SceneOperation operation)
+    parameters:
+    - id: operation
+      type: AdvancedSceneManager.Core.SceneOperation
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overrides Function OnOpen(operation As SceneOperation) As IEnumerator
+  overridden: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  overload: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnOpen*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  id: OnClose(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Defaults.IconBounceLoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: OnClose(SceneOperation)
+  nameWithType: IconBounceLoadingScreen.OnClose(SceneOperation)
+  fullName: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnClose
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    startLine: 27
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Defaults
+  syntax:
+    content: public override IEnumerator OnClose(SceneOperation operation)
+    parameters:
+    - id: operation
+      type: AdvancedSceneManager.Core.SceneOperation
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Overrides Function OnClose(operation As SceneOperation) As IEnumerator
+  overridden: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  overload: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnClose*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: AdvancedSceneManager.Defaults
+  commentId: N:AdvancedSceneManager.Defaults
+  name: AdvancedSceneManager.Defaults
+  nameWithType: AdvancedSceneManager.Defaults
+  fullName: AdvancedSceneManager.Defaults
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen
+  commentId: T:AdvancedSceneManager.Callbacks.LoadingScreen
+  parent: AdvancedSceneManager.Callbacks
+  name: LoadingScreen
+  nameWithType: LoadingScreen
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.onDestroy
+  commentId: F:AdvancedSceneManager.Callbacks.LoadingScreen.onDestroy
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: onDestroy
+  nameWithType: LoadingScreen.onDestroy
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.onDestroy
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: OnDestroy()
+  nameWithType: LoadingScreen.OnDestroy()
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+    name: OnDestroy
+    nameWithType: LoadingScreen.OnDestroy
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+    name: OnDestroy
+    nameWithType: LoadingScreen.OnDestroy
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnDestroy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.canvas
+  commentId: F:AdvancedSceneManager.Callbacks.LoadingScreen.canvas
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: canvas
+  nameWithType: LoadingScreen.canvas
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.canvas
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.operation
+  commentId: P:AdvancedSceneManager.Callbacks.LoadingScreen.operation
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: operation
+  nameWithType: LoadingScreen.operation
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.operation
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: OnScenePhaseChanged(SceneOperation, Phase, Phase)
+  nameWithType: LoadingScreen.OnScenePhaseChanged(SceneOperation, Phase, Phase)
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation, AdvancedSceneManager.Core.Phase, AdvancedSceneManager.Core.Phase)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+    name: OnScenePhaseChanged
+    nameWithType: LoadingScreen.OnScenePhaseChanged
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Core.Phase
+    name: Phase
+    nameWithType: Phase
+    fullName: AdvancedSceneManager.Core.Phase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Core.Phase
+    name: Phase
+    nameWithType: Phase
+    fullName: AdvancedSceneManager.Core.Phase
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged(AdvancedSceneManager.Core.SceneOperation,AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Core.Phase)
+    name: OnScenePhaseChanged
+    nameWithType: LoadingScreen.OnScenePhaseChanged
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnScenePhaseChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Core.Phase
+    name: Phase
+    nameWithType: Phase
+    fullName: AdvancedSceneManager.Core.Phase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Core.Phase
+    name: Phase
+    nameWithType: Phase
+    fullName: AdvancedSceneManager.Core.Phase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: OnCancel(SceneOperation)
+  nameWithType: LoadingScreen.OnCancel(SceneOperation)
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+    name: OnCancel
+    nameWithType: LoadingScreen.OnCancel
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel(AdvancedSceneManager.Core.SceneOperation)
+    name: OnCancel
+    nameWithType: LoadingScreen.OnCancel
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnCancel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Component.AdvancedSceneManager.Utility.SceneUtility.Scene
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  definition: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  name: Scene()
+  nameWithType: SceneUtility.Scene()
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Scene()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  isExternal: true
+  name: Scene(Component)
+  nameWithType: SceneUtility.Scene(Component)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Component
+    name: Component
+    nameWithType: Component
+    fullName: UnityEngine.Component
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Component
+    name: Component
+    nameWithType: Component
+    fullName: UnityEngine.Component
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.SceneUtility
+  commentId: T:AdvancedSceneManager.Utility.SceneUtility
+  parent: AdvancedSceneManager.Utility
+  name: SceneUtility
+  nameWithType: SceneUtility
+  fullName: AdvancedSceneManager.Utility.SceneUtility
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEngine.RectTransform
+  commentId: T:UnityEngine.RectTransform
+  parent: UnityEngine
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: UnityEngine.RectTransform
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: OnOpen(SceneOperation)
+  nameWithType: LoadingScreen.OnOpen(SceneOperation)
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+    name: OnOpen
+    nameWithType: LoadingScreen.OnOpen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen(AdvancedSceneManager.Core.SceneOperation)
+    name: OnOpen
+    nameWithType: LoadingScreen.OnOpen
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnOpen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnOpen*
+  commentId: Overload:AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnOpen
+  name: OnOpen
+  nameWithType: IconBounceLoadingScreen.OnOpen
+  fullName: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnOpen
+- uid: AdvancedSceneManager.Core.SceneOperation
+  commentId: T:AdvancedSceneManager.Core.SceneOperation
+  parent: AdvancedSceneManager.Core
+  name: SceneOperation
+  nameWithType: SceneOperation
+  fullName: AdvancedSceneManager.Core.SceneOperation
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  commentId: M:AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  parent: AdvancedSceneManager.Callbacks.LoadingScreen
+  name: OnClose(SceneOperation)
+  nameWithType: LoadingScreen.OnClose(SceneOperation)
+  fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+    name: OnClose
+    nameWithType: LoadingScreen.OnClose
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose(AdvancedSceneManager.Core.SceneOperation)
+    name: OnClose
+    nameWithType: LoadingScreen.OnClose
+    fullName: AdvancedSceneManager.Callbacks.LoadingScreen.OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnClose*
+  commentId: Overload:AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnClose
+  name: OnClose
+  nameWithType: IconBounceLoadingScreen.OnClose
+  fullName: AdvancedSceneManager.Defaults.IconBounceLoadingScreen.OnClose

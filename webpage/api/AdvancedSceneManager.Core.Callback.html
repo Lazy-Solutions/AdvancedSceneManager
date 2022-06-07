@@ -1,0 +1,303 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Callback
+   | Advanced Scene Manager </title>
+    <meta name="title" content="Callback
+   | Advanced Scene Manager ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../guides/readme.html">
+                <img id="logo" class="svg" src="..//resources/logo.png" alt="" style="width: 50px;height: 50px;">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AdvancedSceneManager.Core.Callback">
+  
+  
+  <h1 id="AdvancedSceneManager_Core_Callback" data-uid="AdvancedSceneManager.Core.Callback" class="text-break">Callback
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a callback that can be run on <a class="xref" href="AdvancedSceneManager.Core.Phase.html">Phase</a> change, or right before loading screen hide (or when it would, if it was enabled).</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Callback</span></div>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Core_Callback_action_" data-uid="AdvancedSceneManager.Core.Callback.action*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_action" data-uid="AdvancedSceneManager.Core.Callback.action">action</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action action { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_action2_" data-uid="AdvancedSceneManager.Core.Callback.action2*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_action2" data-uid="AdvancedSceneManager.Core.Callback.action2">action2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;SceneOperation&gt; action2 { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_coroutine_" data-uid="AdvancedSceneManager.Core.Callback.coroutine*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_coroutine" data-uid="AdvancedSceneManager.Core.Callback.coroutine">coroutine</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalCoroutine coroutine { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_enumerator_" data-uid="AdvancedSceneManager.Core.Callback.enumerator*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_enumerator" data-uid="AdvancedSceneManager.Core.Callback.enumerator">enumerator</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;IEnumerator&gt; enumerator { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_phase_" data-uid="AdvancedSceneManager.Core.Callback.phase*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_phase" data-uid="AdvancedSceneManager.Core.Callback.phase">phase</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Phase? phase { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_scene_" data-uid="AdvancedSceneManager.Core.Callback.scene*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_scene" data-uid="AdvancedSceneManager.Core.Callback.scene">scene</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene scene { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_when_" data-uid="AdvancedSceneManager.Core.Callback.when*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_when" data-uid="AdvancedSceneManager.Core.Callback.when">when</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Callback.When when { get; }</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Core_Callback_After_" data-uid="AdvancedSceneManager.Core.Callback.After*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_After_AdvancedSceneManager_Core_Phase_" data-uid="AdvancedSceneManager.Core.Callback.After(AdvancedSceneManager.Core.Phase)">After(Phase)</h4>
+  <div class="markdown level1 summary"><p>Runs a callback after the specified phase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Callback After(Phase phase)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_After_" data-uid="AdvancedSceneManager.Core.Callback.After*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_After_AdvancedSceneManager_Core_Phase_AdvancedSceneManager_Models_Scene_" data-uid="AdvancedSceneManager.Core.Callback.After(AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Models.Scene)">After(Phase, Scene)</h4>
+  <div class="markdown level1 summary"><p>Runs a callback after the specified phase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Callback After(Phase phase, Scene on)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_AfterLoadingScreenOpen_" data-uid="AdvancedSceneManager.Core.Callback.AfterLoadingScreenOpen*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_AfterLoadingScreenOpen" data-uid="AdvancedSceneManager.Core.Callback.AfterLoadingScreenOpen">AfterLoadingScreenOpen()</h4>
+  <div class="markdown level1 summary"><p>Runs a callback after loading screen has opened.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Callback AfterLoadingScreenOpen()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_Before_" data-uid="AdvancedSceneManager.Core.Callback.Before*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Before_AdvancedSceneManager_Core_Phase_" data-uid="AdvancedSceneManager.Core.Callback.Before(AdvancedSceneManager.Core.Phase)">Before(Phase)</h4>
+  <div class="markdown level1 summary"><p>Runs a callback before the specified phase, when processing the specified scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Callback Before(Phase phase)</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Core_Callback_Before_AdvancedSceneManager_Core_Phase__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Phase will still have changed to the next though, but scene actions won&apos;t run until after callback.</p>
+</div>
+  <a id="AdvancedSceneManager_Core_Callback_Before_" data-uid="AdvancedSceneManager.Core.Callback.Before*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Before_AdvancedSceneManager_Core_Phase_AdvancedSceneManager_Models_Scene_" data-uid="AdvancedSceneManager.Core.Callback.Before(AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Models.Scene)">Before(Phase, Scene)</h4>
+  <div class="markdown level1 summary"><p>Runs a callback before the specified phase, when processing the specified scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Callback Before(Phase phase, Scene on)</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Core_Callback_Before_AdvancedSceneManager_Core_Phase_AdvancedSceneManager_Models_Scene__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Phase will still have changed to the next though, but scene actions won&apos;t run until after callback.</p>
+</div>
+  <a id="AdvancedSceneManager_Core_Callback_BeforeLoadingScreenClose_" data-uid="AdvancedSceneManager.Core.Callback.BeforeLoadingScreenClose*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_BeforeLoadingScreenClose" data-uid="AdvancedSceneManager.Core.Callback.BeforeLoadingScreenClose">BeforeLoadingScreenClose()</h4>
+  <div class="markdown level1 summary"><p>Runs a callback before loading screen closes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Callback BeforeLoadingScreenClose()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_Do_" data-uid="AdvancedSceneManager.Core.Callback.Do*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Do_Lazy_Utility_GlobalCoroutine_" data-uid="AdvancedSceneManager.Core.Callback.Do(Lazy.Utility.GlobalCoroutine)">Do(GlobalCoroutine)</h4>
+  <div class="markdown level1 summary"><p>Performs the specified callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Callback Do(GlobalCoroutine coroutine)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_Do_" data-uid="AdvancedSceneManager.Core.Callback.Do*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Do_System_Action_" data-uid="AdvancedSceneManager.Core.Callback.Do(System.Action)">Do(Action)</h4>
+  <div class="markdown level1 summary"><p>Performs the specified callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Callback Do(Action action)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_Do_" data-uid="AdvancedSceneManager.Core.Callback.Do*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Do_System_Action_AdvancedSceneManager_Core_SceneOperation__" data-uid="AdvancedSceneManager.Core.Callback.Do(System.Action{AdvancedSceneManager.Core.SceneOperation})">Do(Action&lt;SceneOperation&gt;)</h4>
+  <div class="markdown level1 summary"><p>Performs the specified callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Callback Do(Action&lt;SceneOperation&gt; action)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_Do_" data-uid="AdvancedSceneManager.Core.Callback.Do*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Do_System_Func_System_Collections_IEnumerator__" data-uid="AdvancedSceneManager.Core.Callback.Do(System.Func{System.Collections.IEnumerator})">Do(Func&lt;IEnumerator&gt;)</h4>
+  <div class="markdown level1 summary"><p>Performs the specified callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Callback Do(Func&lt;IEnumerator&gt; enumerator)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_Do_" data-uid="AdvancedSceneManager.Core.Callback.Do*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_Do_System_Single_" data-uid="AdvancedSceneManager.Core.Callback.Do(System.Single)">Do(Single)</h4>
+  <div class="markdown level1 summary"><p>Performs the specified callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Callback Do(float delay)</code></pre>
+  </div>
+  <h3 id="operators">Operators
+  </h3>
+  <a id="AdvancedSceneManager_Core_Callback_op_Implicit_" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_op_Implicit_Lazy_Utility_GlobalCoroutine__AdvancedSceneManager_Core_Callback" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit(Lazy.Utility.GlobalCoroutine)~AdvancedSceneManager.Core.Callback">Implicit(GlobalCoroutine to Callback)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Callback(GlobalCoroutine coroutine)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_op_Implicit_" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_op_Implicit_System_Action__AdvancedSceneManager_Core_Callback" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit(System.Action)~AdvancedSceneManager.Core.Callback">Implicit(Action to Callback)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Callback(Action action)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_op_Implicit_" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_op_Implicit_System_Action_AdvancedSceneManager_Core_SceneOperation___AdvancedSceneManager_Core_Callback" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit(System.Action{AdvancedSceneManager.Core.SceneOperation})~AdvancedSceneManager.Core.Callback">Implicit(Action&lt;SceneOperation&gt; to Callback)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Callback(Action&lt;SceneOperation&gt; action)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_Callback_op_Implicit_" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit*"></a>
+  <h4 id="AdvancedSceneManager_Core_Callback_op_Implicit_System_Func_System_Collections_IEnumerator___AdvancedSceneManager_Core_Callback" data-uid="AdvancedSceneManager.Core.Callback.op_Implicit(System.Func{System.Collections.IEnumerator})~AdvancedSceneManager.Core.Callback">Implicit(Func&lt;IEnumerator&gt; to Callback)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Callback(Func&lt;IEnumerator&gt; enumerator)</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <a href='https://assetstore.unity.com/packages/slug/174152'>Advanced Scene Manager</a> - <a href='https://assetstore.unity.com/publishers/48996'>Lazy Solutions</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

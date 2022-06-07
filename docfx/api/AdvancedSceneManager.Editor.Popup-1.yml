@@ -1,0 +1,1121 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Popup`1
+  commentId: T:AdvancedSceneManager.Editor.Popup`1
+  id: Popup`1
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.Popup`1.alignRight
+  - AdvancedSceneManager.Editor.Popup`1.Close
+  - AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+  - AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+  - AdvancedSceneManager.Editor.Popup`1.enableBorder
+  - AdvancedSceneManager.Editor.Popup`1.hasBorder
+  - AdvancedSceneManager.Editor.Popup`1.isMainContentLoaded
+  - AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  - AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Editor.Popup`1.offset
+  - AdvancedSceneManager.Editor.Popup`1.OnClose
+  - AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+  - AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Editor.Popup`1.overlay
+  - AdvancedSceneManager.Editor.Popup`1.parent
+  - AdvancedSceneManager.Editor.Popup`1.path
+  - AdvancedSceneManager.Editor.Popup`1.placementTarget
+  - AdvancedSceneManager.Editor.Popup`1.ReloadContent
+  - AdvancedSceneManager.Editor.Popup`1.Reopen
+  - AdvancedSceneManager.Editor.Popup`1.rootVisualElement
+  - AdvancedSceneManager.Editor.Popup`1.SetPosition
+  langs:
+  - csharp
+  - vb
+  name: Popup<T>
+  nameWithType: Popup<T>
+  fullName: AdvancedSceneManager.Editor.Popup<T>
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Popup
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 30
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: 'public abstract class Popup<T> : Popup where T : Popup<T>, new()'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public MustInherit Class Popup(Of T As {Popup(Of T), New})
+          Inherits Popup
+  inheritance:
+  - System.Object
+  - AdvancedSceneManager.Editor.Popup
+  derivedClasses:
+  - AdvancedSceneManager.Editor.EditCollectionPopup
+  - AdvancedSceneManager.Editor.GenericPopup
+  - AdvancedSceneManager.Editor.OpenInEditorPopup
+  - AdvancedSceneManager.Editor.PickTagPopup
+  inheritedMembers:
+  - AdvancedSceneManager.Editor.Popup.OnClosed
+  - AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  nameWithType.vb: Popup(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T)
+  name.vb: Popup(Of T)
+- uid: AdvancedSceneManager.Editor.Popup`1.Reopen
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.Reopen
+  id: Reopen
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: Reopen()
+  nameWithType: Popup<T>.Reopen()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Reopen()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Reopen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 33
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public override void Reopen()
+    content.vb: Public Overrides Sub Reopen
+  overridden: AdvancedSceneManager.Editor.Popup.Reopen
+  overload: AdvancedSceneManager.Editor.Popup`1.Reopen*
+  nameWithType.vb: Popup(Of T).Reopen()
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Reopen()
+- uid: AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+  id: OnReopen(`0)
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: OnReopen(T)
+  nameWithType: Popup<T>.OnReopen(T)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.OnReopen(T)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnReopen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 36
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: protected abstract void OnReopen(T newPopup)
+    parameters:
+    - id: newPopup
+      type: '{T}'
+    content.vb: Protected MustOverride Sub OnReopen(newPopup As T)
+  overload: AdvancedSceneManager.Editor.Popup`1.OnReopen*
+  nameWithType.vb: Popup(Of T).OnReopen(T)
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).OnReopen(T)
+- uid: AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  id: Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  nameWithType: Popup<T>.Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Open(UnityEngine.UIElements.VisualElement, AdvancedSceneManager.Editor.IUIToolkitEditor, System.Boolean, UnityEngine.Vector2, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Open
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 40
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static T Open(VisualElement placementTarget, IUIToolkitEditor parent, bool alignRight = false, Vector2 offset = default(Vector2), bool stretchToPlacementTargetWidth = false, bool ignoreAnimation = false)
+    parameters:
+    - id: placementTarget
+      type: UnityEngine.UIElements.VisualElement
+    - id: parent
+      type: AdvancedSceneManager.Editor.IUIToolkitEditor
+    - id: alignRight
+      type: System.Boolean
+    - id: offset
+      type: UnityEngine.Vector2
+    - id: stretchToPlacementTargetWidth
+      type: System.Boolean
+    - id: ignoreAnimation
+      type: System.Boolean
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Open(placementTarget As VisualElement, parent As IUIToolkitEditor, alignRight As Boolean = False, offset As Vector2 = Nothing, stretchToPlacementTargetWidth As Boolean = False, ignoreAnimation As Boolean = False) As T
+  overload: AdvancedSceneManager.Editor.Popup`1.Open*
+  nameWithType.vb: Popup(Of T).Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Open(UnityEngine.UIElements.VisualElement, AdvancedSceneManager.Editor.IUIToolkitEditor, System.Boolean, UnityEngine.Vector2, System.Boolean, System.Boolean)
+- uid: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+  id: CloseWithoutAnimation(System.Boolean)
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: CloseWithoutAnimation(Boolean)
+  nameWithType: Popup<T>.CloseWithoutAnimation(Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.CloseWithoutAnimation(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CloseWithoutAnimation
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 138
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public void CloseWithoutAnimation(bool raiseOnClosed = true)
+    parameters:
+    - id: raiseOnClosed
+      type: System.Boolean
+    content.vb: Public Sub CloseWithoutAnimation(raiseOnClosed As Boolean = True)
+  overload: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation*
+  nameWithType.vb: Popup(Of T).CloseWithoutAnimation(Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).CloseWithoutAnimation(System.Boolean)
+- uid: AdvancedSceneManager.Editor.Popup`1.Close
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.Close
+  id: Close
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: Popup<T>.Close()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Close()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Close
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 155
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close
+  overload: AdvancedSceneManager.Editor.Popup`1.Close*
+  nameWithType.vb: Popup(Of T).Close()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Close()
+- uid: AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+  id: Close(System.Action)
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: Close(Action)
+  nameWithType: Popup<T>.Close(Action)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Close(System.Action)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Close
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 159
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public void Close(Action onAnimationComplete = null)
+    parameters:
+    - id: onAnimationComplete
+      type: System.Action
+    content.vb: Public Sub Close(onAnimationComplete As Action = Nothing)
+  overload: AdvancedSceneManager.Editor.Popup`1.Close*
+  nameWithType.vb: Popup(Of T).Close(Action)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Close(System.Action)
+- uid: AdvancedSceneManager.Editor.Popup`1.OnClose
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.OnClose
+  id: OnClose
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: OnClose()
+  nameWithType: Popup<T>.OnClose()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.OnClose()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnClose
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 173
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: protected virtual void OnClose()
+    content.vb: Protected Overridable Sub OnClose
+  overload: AdvancedSceneManager.Editor.Popup`1.OnClose*
+  nameWithType.vb: Popup(Of T).OnClose()
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).OnClose()
+- uid: AdvancedSceneManager.Editor.Popup`1.path
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.path
+  id: path
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: path
+  nameWithType: Popup<T>.path
+  fullName: AdvancedSceneManager.Editor.Popup<T>.path
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: path
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 178
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public abstract string path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property path As String
+  overload: AdvancedSceneManager.Editor.Popup`1.path*
+  nameWithType.vb: Popup(Of T).path
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).path
+- uid: AdvancedSceneManager.Editor.Popup`1.overlay
+  commentId: F:AdvancedSceneManager.Editor.Popup`1.overlay
+  id: overlay
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: overlay
+  nameWithType: Popup<T>.overlay
+  fullName: AdvancedSceneManager.Editor.Popup<T>.overlay
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: overlay
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 180
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public VisualElement overlay
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public overlay As VisualElement
+  nameWithType.vb: Popup(Of T).overlay
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).overlay
+- uid: AdvancedSceneManager.Editor.Popup`1.rootVisualElement
+  commentId: F:AdvancedSceneManager.Editor.Popup`1.rootVisualElement
+  id: rootVisualElement
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: rootVisualElement
+  nameWithType: Popup<T>.rootVisualElement
+  fullName: AdvancedSceneManager.Editor.Popup<T>.rootVisualElement
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: rootVisualElement
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 181
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public VisualElement rootVisualElement
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public rootVisualElement As VisualElement
+  nameWithType.vb: Popup(Of T).rootVisualElement
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).rootVisualElement
+- uid: AdvancedSceneManager.Editor.Popup`1.isMainContentLoaded
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.isMainContentLoaded
+  id: isMainContentLoaded
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: isMainContentLoaded
+  nameWithType: Popup<T>.isMainContentLoaded
+  fullName: AdvancedSceneManager.Editor.Popup<T>.isMainContentLoaded
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: isMainContentLoaded
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 183
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public bool isMainContentLoaded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isMainContentLoaded As Boolean
+  overload: AdvancedSceneManager.Editor.Popup`1.isMainContentLoaded*
+  nameWithType.vb: Popup(Of T).isMainContentLoaded
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).isMainContentLoaded
+- uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  id: LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: LoadContent(String, VisualElement)
+  nameWithType: Popup<T>.LoadContent(String, VisualElement)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: LoadContent
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 186
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  summary: Loads the <xref href="UnityEngine.UIElements.VisualTreeAsset" data-throw-if-not-resolved="false"></xref> and its associated <xref href="UnityEngine.UIElements.StyleSheet" data-throw-if-not-resolved="false"></xref> at the same path.
+  example: []
+  syntax:
+    content: public void LoadContent(string path, VisualElement element)
+    parameters:
+    - id: path
+      type: System.String
+    - id: element
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Sub LoadContent(path As String, element As VisualElement)
+  overload: AdvancedSceneManager.Editor.Popup`1.LoadContent*
+  nameWithType.vb: Popup(Of T).LoadContent(String, VisualElement)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+- uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  id: LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  nameWithType: Popup<T>.LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: LoadContent
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 190
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  summary: Loads the <xref href="UnityEngine.UIElements.VisualTreeAsset" data-throw-if-not-resolved="false"></xref> and its associated <xref href="UnityEngine.UIElements.StyleSheet" data-throw-if-not-resolved="false"></xref> at the same path.
+  example: []
+  syntax:
+    content: public void LoadContent(string path, VisualElement element, bool loadTree = false, bool loadStyle = false, bool clearChildren = false)
+    parameters:
+    - id: path
+      type: System.String
+    - id: element
+      type: UnityEngine.UIElements.VisualElement
+    - id: loadTree
+      type: System.Boolean
+    - id: loadStyle
+      type: System.Boolean
+    - id: clearChildren
+      type: System.Boolean
+    content.vb: Public Sub LoadContent(path As String, element As VisualElement, loadTree As Boolean = False, loadStyle As Boolean = False, clearChildren As Boolean = False)
+  overload: AdvancedSceneManager.Editor.Popup`1.LoadContent*
+  nameWithType.vb: Popup(Of T).LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+- uid: AdvancedSceneManager.Editor.Popup`1.ReloadContent
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.ReloadContent
+  id: ReloadContent
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: ReloadContent()
+  nameWithType: Popup<T>.ReloadContent()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.ReloadContent()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ReloadContent
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 211
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public void ReloadContent()
+    content.vb: Public Sub ReloadContent
+  overload: AdvancedSceneManager.Editor.Popup`1.ReloadContent*
+  nameWithType.vb: Popup(Of T).ReloadContent()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).ReloadContent()
+- uid: AdvancedSceneManager.Editor.Popup`1.enableBorder
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.enableBorder
+  id: enableBorder
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: enableBorder
+  nameWithType: Popup<T>.enableBorder
+  fullName: AdvancedSceneManager.Editor.Popup<T>.enableBorder
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: enableBorder
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 216
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: protected virtual bool enableBorder { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable ReadOnly Property enableBorder As Boolean
+  overload: AdvancedSceneManager.Editor.Popup`1.enableBorder*
+  nameWithType.vb: Popup(Of T).enableBorder
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).enableBorder
+- uid: AdvancedSceneManager.Editor.Popup`1.hasBorder
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.hasBorder
+  id: hasBorder
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: hasBorder
+  nameWithType: Popup<T>.hasBorder
+  fullName: AdvancedSceneManager.Editor.Popup<T>.hasBorder
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: hasBorder
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 218
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public bool hasBorder { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property hasBorder As Boolean
+  overload: AdvancedSceneManager.Editor.Popup`1.hasBorder*
+  nameWithType.vb: Popup(Of T).hasBorder
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).hasBorder
+- uid: AdvancedSceneManager.Editor.Popup`1.offset
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.offset
+  id: offset
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: offset
+  nameWithType: Popup<T>.offset
+  fullName: AdvancedSceneManager.Editor.Popup<T>.offset
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: offset
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 224
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public Vector2 offset { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public ReadOnly Property offset As Vector2
+  overload: AdvancedSceneManager.Editor.Popup`1.offset*
+  nameWithType.vb: Popup(Of T).offset
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).offset
+- uid: AdvancedSceneManager.Editor.Popup`1.alignRight
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.alignRight
+  id: alignRight
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: alignRight
+  nameWithType: Popup<T>.alignRight
+  fullName: AdvancedSceneManager.Editor.Popup<T>.alignRight
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: alignRight
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 225
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public bool alignRight { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property alignRight As Boolean
+  overload: AdvancedSceneManager.Editor.Popup`1.alignRight*
+  nameWithType.vb: Popup(Of T).alignRight
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).alignRight
+- uid: AdvancedSceneManager.Editor.Popup`1.placementTarget
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.placementTarget
+  id: placementTarget
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: placementTarget
+  nameWithType: Popup<T>.placementTarget
+  fullName: AdvancedSceneManager.Editor.Popup<T>.placementTarget
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: placementTarget
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 226
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public VisualElement placementTarget { get; }
+    parameters: []
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public ReadOnly Property placementTarget As VisualElement
+  overload: AdvancedSceneManager.Editor.Popup`1.placementTarget*
+  nameWithType.vb: Popup(Of T).placementTarget
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).placementTarget
+- uid: AdvancedSceneManager.Editor.Popup`1.parent
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.parent
+  id: parent
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: parent
+  nameWithType: Popup<T>.parent
+  fullName: AdvancedSceneManager.Editor.Popup<T>.parent
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: parent
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 227
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public IUIToolkitEditor parent { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Editor.IUIToolkitEditor
+    content.vb: Public ReadOnly Property parent As IUIToolkitEditor
+  overload: AdvancedSceneManager.Editor.Popup`1.parent*
+  nameWithType.vb: Popup(Of T).parent
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).parent
+- uid: AdvancedSceneManager.Editor.Popup`1.SetPosition
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.SetPosition
+  id: SetPosition
+  parent: AdvancedSceneManager.Editor.Popup`1
+  langs:
+  - csharp
+  - vb
+  name: SetPosition()
+  nameWithType: Popup<T>.SetPosition()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.SetPosition()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SetPosition
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/Popup.cs
+    startLine: 241
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: protected void SetPosition()
+    content.vb: Protected Sub SetPosition
+  overload: AdvancedSceneManager.Editor.Popup`1.SetPosition*
+  nameWithType.vb: Popup(Of T).SetPosition()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).SetPosition()
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: AdvancedSceneManager.Editor.Popup
+  commentId: T:AdvancedSceneManager.Editor.Popup
+  parent: AdvancedSceneManager.Editor
+  name: Popup
+  nameWithType: Popup
+  fullName: AdvancedSceneManager.Editor.Popup
+- uid: AdvancedSceneManager.Editor.Popup.OnClosed
+  commentId: E:AdvancedSceneManager.Editor.Popup.OnClosed
+  parent: AdvancedSceneManager.Editor.Popup
+  name: OnClosed
+  nameWithType: Popup.OnClosed
+  fullName: AdvancedSceneManager.Editor.Popup.OnClosed
+- uid: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  commentId: M:AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  parent: AdvancedSceneManager.Editor.Popup
+  name: RaiseOnClosed()
+  nameWithType: Popup.RaiseOnClosed()
+  fullName: AdvancedSceneManager.Editor.Popup.RaiseOnClosed()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+    name: RaiseOnClosed
+    nameWithType: Popup.RaiseOnClosed
+    fullName: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+    name: RaiseOnClosed
+    nameWithType: Popup.RaiseOnClosed
+    fullName: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.Popup.Reopen
+  commentId: M:AdvancedSceneManager.Editor.Popup.Reopen
+  parent: AdvancedSceneManager.Editor.Popup
+  name: Reopen()
+  nameWithType: Popup.Reopen()
+  fullName: AdvancedSceneManager.Editor.Popup.Reopen()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup.Reopen
+    name: Reopen
+    nameWithType: Popup.Reopen
+    fullName: AdvancedSceneManager.Editor.Popup.Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup.Reopen
+    name: Reopen
+    nameWithType: Popup.Reopen
+    fullName: AdvancedSceneManager.Editor.Popup.Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.Reopen*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.Reopen
+  name: Reopen
+  nameWithType: Popup<T>.Reopen
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Reopen
+  nameWithType.vb: Popup(Of T).Reopen
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Reopen
+- uid: AdvancedSceneManager.Editor.Popup`1.OnReopen*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.OnReopen
+  name: OnReopen
+  nameWithType: Popup<T>.OnReopen
+  fullName: AdvancedSceneManager.Editor.Popup<T>.OnReopen
+  nameWithType.vb: Popup(Of T).OnReopen
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).OnReopen
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: AdvancedSceneManager.Editor.Popup`1.Open*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.Open
+  name: Open
+  nameWithType: Popup<T>.Open
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Open
+  nameWithType.vb: Popup(Of T).Open
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Open
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: AdvancedSceneManager.Editor.IUIToolkitEditor
+  commentId: T:AdvancedSceneManager.Editor.IUIToolkitEditor
+  parent: AdvancedSceneManager.Editor
+  name: IUIToolkitEditor
+  nameWithType: IUIToolkitEditor
+  fullName: AdvancedSceneManager.Editor.IUIToolkitEditor
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation
+  name: CloseWithoutAnimation
+  nameWithType: Popup<T>.CloseWithoutAnimation
+  fullName: AdvancedSceneManager.Editor.Popup<T>.CloseWithoutAnimation
+  nameWithType.vb: Popup(Of T).CloseWithoutAnimation
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).CloseWithoutAnimation
+- uid: AdvancedSceneManager.Editor.Popup`1.Close*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.Close
+  name: Close
+  nameWithType: Popup<T>.Close
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Close
+  nameWithType.vb: Popup(Of T).Close
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Close
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: AdvancedSceneManager.Editor.Popup`1.OnClose*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.OnClose
+  name: OnClose
+  nameWithType: Popup<T>.OnClose
+  fullName: AdvancedSceneManager.Editor.Popup<T>.OnClose
+  nameWithType.vb: Popup(Of T).OnClose
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).OnClose
+- uid: AdvancedSceneManager.Editor.Popup`1.path*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.path
+  name: path
+  nameWithType: Popup<T>.path
+  fullName: AdvancedSceneManager.Editor.Popup<T>.path
+  nameWithType.vb: Popup(Of T).path
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).path
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Editor.Popup`1.isMainContentLoaded*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.isMainContentLoaded
+  name: isMainContentLoaded
+  nameWithType: Popup<T>.isMainContentLoaded
+  fullName: AdvancedSceneManager.Editor.Popup<T>.isMainContentLoaded
+  nameWithType.vb: Popup(Of T).isMainContentLoaded
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).isMainContentLoaded
+- uid: UnityEngine.UIElements.VisualTreeAsset
+  commentId: T:UnityEngine.UIElements.VisualTreeAsset
+  isExternal: true
+- uid: UnityEngine.UIElements.StyleSheet
+  commentId: T:UnityEngine.UIElements.StyleSheet
+  isExternal: true
+- uid: AdvancedSceneManager.Editor.Popup`1.LoadContent*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.LoadContent
+  name: LoadContent
+  nameWithType: Popup<T>.LoadContent
+  fullName: AdvancedSceneManager.Editor.Popup<T>.LoadContent
+  nameWithType.vb: Popup(Of T).LoadContent
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).LoadContent
+- uid: AdvancedSceneManager.Editor.Popup`1.ReloadContent*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.ReloadContent
+  name: ReloadContent
+  nameWithType: Popup<T>.ReloadContent
+  fullName: AdvancedSceneManager.Editor.Popup<T>.ReloadContent
+  nameWithType.vb: Popup(Of T).ReloadContent
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).ReloadContent
+- uid: AdvancedSceneManager.Editor.Popup`1.enableBorder*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.enableBorder
+  name: enableBorder
+  nameWithType: Popup<T>.enableBorder
+  fullName: AdvancedSceneManager.Editor.Popup<T>.enableBorder
+  nameWithType.vb: Popup(Of T).enableBorder
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).enableBorder
+- uid: AdvancedSceneManager.Editor.Popup`1.hasBorder*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.hasBorder
+  name: hasBorder
+  nameWithType: Popup<T>.hasBorder
+  fullName: AdvancedSceneManager.Editor.Popup<T>.hasBorder
+  nameWithType.vb: Popup(Of T).hasBorder
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).hasBorder
+- uid: AdvancedSceneManager.Editor.Popup`1.offset*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.offset
+  name: offset
+  nameWithType: Popup<T>.offset
+  fullName: AdvancedSceneManager.Editor.Popup<T>.offset
+  nameWithType.vb: Popup(Of T).offset
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).offset
+- uid: AdvancedSceneManager.Editor.Popup`1.alignRight*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.alignRight
+  name: alignRight
+  nameWithType: Popup<T>.alignRight
+  fullName: AdvancedSceneManager.Editor.Popup<T>.alignRight
+  nameWithType.vb: Popup(Of T).alignRight
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).alignRight
+- uid: AdvancedSceneManager.Editor.Popup`1.placementTarget*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.placementTarget
+  name: placementTarget
+  nameWithType: Popup<T>.placementTarget
+  fullName: AdvancedSceneManager.Editor.Popup<T>.placementTarget
+  nameWithType.vb: Popup(Of T).placementTarget
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).placementTarget
+- uid: AdvancedSceneManager.Editor.Popup`1.parent*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.parent
+  name: parent
+  nameWithType: Popup<T>.parent
+  fullName: AdvancedSceneManager.Editor.Popup<T>.parent
+  nameWithType.vb: Popup(Of T).parent
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).parent
+- uid: AdvancedSceneManager.Editor.Popup`1.SetPosition*
+  commentId: Overload:AdvancedSceneManager.Editor.Popup`1.SetPosition
+  name: SetPosition
+  nameWithType: Popup<T>.SetPosition
+  fullName: AdvancedSceneManager.Editor.Popup<T>.SetPosition
+  nameWithType.vb: Popup(Of T).SetPosition
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).SetPosition

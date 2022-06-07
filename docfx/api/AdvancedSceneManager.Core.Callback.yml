@@ -1,0 +1,1276 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Core.Callback
+  commentId: T:AdvancedSceneManager.Core.Callback
+  id: Callback
+  parent: AdvancedSceneManager.Core
+  children:
+  - AdvancedSceneManager.Core.Callback.action
+  - AdvancedSceneManager.Core.Callback.action2
+  - AdvancedSceneManager.Core.Callback.After(AdvancedSceneManager.Core.Phase)
+  - AdvancedSceneManager.Core.Callback.After(AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Models.Scene)
+  - AdvancedSceneManager.Core.Callback.AfterLoadingScreenOpen
+  - AdvancedSceneManager.Core.Callback.Before(AdvancedSceneManager.Core.Phase)
+  - AdvancedSceneManager.Core.Callback.Before(AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Models.Scene)
+  - AdvancedSceneManager.Core.Callback.BeforeLoadingScreenClose
+  - AdvancedSceneManager.Core.Callback.coroutine
+  - AdvancedSceneManager.Core.Callback.Do(Lazy.Utility.GlobalCoroutine)
+  - AdvancedSceneManager.Core.Callback.Do(System.Action)
+  - AdvancedSceneManager.Core.Callback.Do(System.Action{AdvancedSceneManager.Core.SceneOperation})
+  - AdvancedSceneManager.Core.Callback.Do(System.Func{System.Collections.IEnumerator})
+  - AdvancedSceneManager.Core.Callback.Do(System.Single)
+  - AdvancedSceneManager.Core.Callback.enumerator
+  - AdvancedSceneManager.Core.Callback.op_Implicit(Lazy.Utility.GlobalCoroutine)~AdvancedSceneManager.Core.Callback
+  - AdvancedSceneManager.Core.Callback.op_Implicit(System.Action)~AdvancedSceneManager.Core.Callback
+  - AdvancedSceneManager.Core.Callback.op_Implicit(System.Action{AdvancedSceneManager.Core.SceneOperation})~AdvancedSceneManager.Core.Callback
+  - AdvancedSceneManager.Core.Callback.op_Implicit(System.Func{System.Collections.IEnumerator})~AdvancedSceneManager.Core.Callback
+  - AdvancedSceneManager.Core.Callback.phase
+  - AdvancedSceneManager.Core.Callback.scene
+  - AdvancedSceneManager.Core.Callback.when
+  langs:
+  - csharp
+  - vb
+  name: Callback
+  nameWithType: Callback
+  fullName: AdvancedSceneManager.Core.Callback
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Callback
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 21
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Represents a callback that can be run on <xref href="AdvancedSceneManager.Core.Phase" data-throw-if-not-resolved="false"></xref> change, or right before loading screen hide (or when it would, if it was enabled).
+  example: []
+  syntax:
+    content: public class Callback
+    content.vb: Public Class Callback
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Core.Callback.phase
+  commentId: P:AdvancedSceneManager.Core.Callback.phase
+  id: phase
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: phase
+  nameWithType: Callback.phase
+  fullName: AdvancedSceneManager.Core.Callback.phase
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: phase
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 29
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public Phase? phase { get; }
+    parameters: []
+    return:
+      type: System.Nullable{AdvancedSceneManager.Core.Phase}
+    content.vb: Public ReadOnly Property phase As Phase?
+  overload: AdvancedSceneManager.Core.Callback.phase*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.Callback.when
+  commentId: P:AdvancedSceneManager.Core.Callback.when
+  id: when
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: when
+  nameWithType: Callback.when
+  fullName: AdvancedSceneManager.Core.Callback.when
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: when
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 30
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public Callback.When when { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Core.Callback.When
+    content.vb: Public ReadOnly Property when As Callback.When
+  overload: AdvancedSceneManager.Core.Callback.when*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.Callback.action
+  commentId: P:AdvancedSceneManager.Core.Callback.action
+  id: action
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: action
+  nameWithType: Callback.action
+  fullName: AdvancedSceneManager.Core.Callback.action
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: action
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 31
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public Action action { get; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public ReadOnly Property action As Action
+  overload: AdvancedSceneManager.Core.Callback.action*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.Callback.action2
+  commentId: P:AdvancedSceneManager.Core.Callback.action2
+  id: action2
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: action2
+  nameWithType: Callback.action2
+  fullName: AdvancedSceneManager.Core.Callback.action2
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: action2
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 32
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public Action<SceneOperation> action2 { get; }
+    parameters: []
+    return:
+      type: System.Action{AdvancedSceneManager.Core.SceneOperation}
+    content.vb: Public ReadOnly Property action2 As Action(Of SceneOperation)
+  overload: AdvancedSceneManager.Core.Callback.action2*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.Callback.enumerator
+  commentId: P:AdvancedSceneManager.Core.Callback.enumerator
+  id: enumerator
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: enumerator
+  nameWithType: Callback.enumerator
+  fullName: AdvancedSceneManager.Core.Callback.enumerator
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: enumerator
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 33
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public Func<IEnumerator> enumerator { get; }
+    parameters: []
+    return:
+      type: System.Func{System.Collections.IEnumerator}
+    content.vb: Public ReadOnly Property enumerator As Func(Of IEnumerator)
+  overload: AdvancedSceneManager.Core.Callback.enumerator*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.Callback.coroutine
+  commentId: P:AdvancedSceneManager.Core.Callback.coroutine
+  id: coroutine
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: coroutine
+  nameWithType: Callback.coroutine
+  fullName: AdvancedSceneManager.Core.Callback.coroutine
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: coroutine
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 34
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public GlobalCoroutine coroutine { get; }
+    parameters: []
+    return:
+      type: Lazy.Utility.GlobalCoroutine
+    content.vb: Public ReadOnly Property coroutine As GlobalCoroutine
+  overload: AdvancedSceneManager.Core.Callback.coroutine*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.Callback.scene
+  commentId: P:AdvancedSceneManager.Core.Callback.scene
+  id: scene
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: scene
+  nameWithType: Callback.scene
+  fullName: AdvancedSceneManager.Core.Callback.scene
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: scene
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 35
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public Scene scene { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: Public ReadOnly Property scene As Scene
+  overload: AdvancedSceneManager.Core.Callback.scene*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.Callback.op_Implicit(System.Action)~AdvancedSceneManager.Core.Callback
+  commentId: M:AdvancedSceneManager.Core.Callback.op_Implicit(System.Action)~AdvancedSceneManager.Core.Callback
+  id: op_Implicit(System.Action)~AdvancedSceneManager.Core.Callback
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Action to Callback)
+  nameWithType: Callback.Implicit(Action to Callback)
+  fullName: AdvancedSceneManager.Core.Callback.Implicit(System.Action to AdvancedSceneManager.Core.Callback)
+  type: Operator
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: op_Implicit
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 61
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public static implicit operator Callback(Action action)
+    parameters:
+    - id: action
+      type: System.Action
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Shared Widening Operator CType(action As Action) As Callback
+  overload: AdvancedSceneManager.Core.Callback.op_Implicit*
+  nameWithType.vb: Callback.Widening(Action to Callback)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Core.Callback.Widening(System.Action to AdvancedSceneManager.Core.Callback)
+  name.vb: Widening(Action to Callback)
+- uid: AdvancedSceneManager.Core.Callback.op_Implicit(System.Action{AdvancedSceneManager.Core.SceneOperation})~AdvancedSceneManager.Core.Callback
+  commentId: M:AdvancedSceneManager.Core.Callback.op_Implicit(System.Action{AdvancedSceneManager.Core.SceneOperation})~AdvancedSceneManager.Core.Callback
+  id: op_Implicit(System.Action{AdvancedSceneManager.Core.SceneOperation})~AdvancedSceneManager.Core.Callback
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Action<SceneOperation> to Callback)
+  nameWithType: Callback.Implicit(Action<SceneOperation> to Callback)
+  fullName: AdvancedSceneManager.Core.Callback.Implicit(System.Action<AdvancedSceneManager.Core.SceneOperation> to AdvancedSceneManager.Core.Callback)
+  type: Operator
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: op_Implicit
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 62
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public static implicit operator Callback(Action<SceneOperation> action)
+    parameters:
+    - id: action
+      type: System.Action{AdvancedSceneManager.Core.SceneOperation}
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Shared Widening Operator CType(action As Action(Of SceneOperation)) As Callback
+  overload: AdvancedSceneManager.Core.Callback.op_Implicit*
+  nameWithType.vb: Callback.Widening(Action(Of SceneOperation) to Callback)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Core.Callback.Widening(System.Action(Of AdvancedSceneManager.Core.SceneOperation) to AdvancedSceneManager.Core.Callback)
+  name.vb: Widening(Action(Of SceneOperation) to Callback)
+- uid: AdvancedSceneManager.Core.Callback.op_Implicit(System.Func{System.Collections.IEnumerator})~AdvancedSceneManager.Core.Callback
+  commentId: M:AdvancedSceneManager.Core.Callback.op_Implicit(System.Func{System.Collections.IEnumerator})~AdvancedSceneManager.Core.Callback
+  id: op_Implicit(System.Func{System.Collections.IEnumerator})~AdvancedSceneManager.Core.Callback
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Func<IEnumerator> to Callback)
+  nameWithType: Callback.Implicit(Func<IEnumerator> to Callback)
+  fullName: AdvancedSceneManager.Core.Callback.Implicit(System.Func<System.Collections.IEnumerator> to AdvancedSceneManager.Core.Callback)
+  type: Operator
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: op_Implicit
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 63
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public static implicit operator Callback(Func<IEnumerator> enumerator)
+    parameters:
+    - id: enumerator
+      type: System.Func{System.Collections.IEnumerator}
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Shared Widening Operator CType(enumerator As Func(Of IEnumerator)) As Callback
+  overload: AdvancedSceneManager.Core.Callback.op_Implicit*
+  nameWithType.vb: Callback.Widening(Func(Of IEnumerator) to Callback)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Core.Callback.Widening(System.Func(Of System.Collections.IEnumerator) to AdvancedSceneManager.Core.Callback)
+  name.vb: Widening(Func(Of IEnumerator) to Callback)
+- uid: AdvancedSceneManager.Core.Callback.op_Implicit(Lazy.Utility.GlobalCoroutine)~AdvancedSceneManager.Core.Callback
+  commentId: M:AdvancedSceneManager.Core.Callback.op_Implicit(Lazy.Utility.GlobalCoroutine)~AdvancedSceneManager.Core.Callback
+  id: op_Implicit(Lazy.Utility.GlobalCoroutine)~AdvancedSceneManager.Core.Callback
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: Implicit(GlobalCoroutine to Callback)
+  nameWithType: Callback.Implicit(GlobalCoroutine to Callback)
+  fullName: AdvancedSceneManager.Core.Callback.Implicit(Lazy.Utility.GlobalCoroutine to AdvancedSceneManager.Core.Callback)
+  type: Operator
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: op_Implicit
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 64
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public static implicit operator Callback(GlobalCoroutine coroutine)
+    parameters:
+    - id: coroutine
+      type: Lazy.Utility.GlobalCoroutine
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Shared Widening Operator CType(coroutine As GlobalCoroutine) As Callback
+  overload: AdvancedSceneManager.Core.Callback.op_Implicit*
+  nameWithType.vb: Callback.Widening(GlobalCoroutine to Callback)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Core.Callback.Widening(Lazy.Utility.GlobalCoroutine to AdvancedSceneManager.Core.Callback)
+  name.vb: Widening(GlobalCoroutine to Callback)
+- uid: AdvancedSceneManager.Core.Callback.AfterLoadingScreenOpen
+  commentId: M:AdvancedSceneManager.Core.Callback.AfterLoadingScreenOpen
+  id: AfterLoadingScreenOpen
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: AfterLoadingScreenOpen()
+  nameWithType: Callback.AfterLoadingScreenOpen()
+  fullName: AdvancedSceneManager.Core.Callback.AfterLoadingScreenOpen()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: AfterLoadingScreenOpen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 72
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Runs a callback after loading screen has opened.
+  example: []
+  syntax:
+    content: public static Callback AfterLoadingScreenOpen()
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Shared Function AfterLoadingScreenOpen As Callback
+  overload: AdvancedSceneManager.Core.Callback.AfterLoadingScreenOpen*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Core.Callback.BeforeLoadingScreenClose
+  commentId: M:AdvancedSceneManager.Core.Callback.BeforeLoadingScreenClose
+  id: BeforeLoadingScreenClose
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: BeforeLoadingScreenClose()
+  nameWithType: Callback.BeforeLoadingScreenClose()
+  fullName: AdvancedSceneManager.Core.Callback.BeforeLoadingScreenClose()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: BeforeLoadingScreenClose
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 76
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Runs a callback before loading screen closes.
+  example: []
+  syntax:
+    content: public static Callback BeforeLoadingScreenClose()
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Shared Function BeforeLoadingScreenClose As Callback
+  overload: AdvancedSceneManager.Core.Callback.BeforeLoadingScreenClose*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Core.Callback.Before(AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Models.Scene)
+  commentId: M:AdvancedSceneManager.Core.Callback.Before(AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Models.Scene)
+  id: Before(AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Models.Scene)
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: Before(Phase, Scene)
+  nameWithType: Callback.Before(Phase, Scene)
+  fullName: AdvancedSceneManager.Core.Callback.Before(AdvancedSceneManager.Core.Phase, AdvancedSceneManager.Models.Scene)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Before
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 81
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Runs a callback before the specified phase, when processing the specified scene.
+  remarks: Phase will still have changed to the next though, but scene actions won&apos;t run until after callback.
+  example: []
+  syntax:
+    content: public static Callback Before(Phase phase, Scene on)
+    parameters:
+    - id: phase
+      type: AdvancedSceneManager.Core.Phase
+    - id: on
+      type: AdvancedSceneManager.Models.Scene
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Shared Function Before(phase As Phase, on As Scene) As Callback
+  overload: AdvancedSceneManager.Core.Callback.Before*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Core.Callback.After(AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Models.Scene)
+  commentId: M:AdvancedSceneManager.Core.Callback.After(AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Models.Scene)
+  id: After(AdvancedSceneManager.Core.Phase,AdvancedSceneManager.Models.Scene)
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: After(Phase, Scene)
+  nameWithType: Callback.After(Phase, Scene)
+  fullName: AdvancedSceneManager.Core.Callback.After(AdvancedSceneManager.Core.Phase, AdvancedSceneManager.Models.Scene)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: After
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 85
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Runs a callback after the specified phase.
+  example: []
+  syntax:
+    content: public static Callback After(Phase phase, Scene on)
+    parameters:
+    - id: phase
+      type: AdvancedSceneManager.Core.Phase
+    - id: on
+      type: AdvancedSceneManager.Models.Scene
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Shared Function After(phase As Phase, on As Scene) As Callback
+  overload: AdvancedSceneManager.Core.Callback.After*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Core.Callback.Before(AdvancedSceneManager.Core.Phase)
+  commentId: M:AdvancedSceneManager.Core.Callback.Before(AdvancedSceneManager.Core.Phase)
+  id: Before(AdvancedSceneManager.Core.Phase)
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: Before(Phase)
+  nameWithType: Callback.Before(Phase)
+  fullName: AdvancedSceneManager.Core.Callback.Before(AdvancedSceneManager.Core.Phase)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Before
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 90
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Runs a callback before the specified phase, when processing the specified scene.
+  remarks: Phase will still have changed to the next though, but scene actions won&apos;t run until after callback.
+  example: []
+  syntax:
+    content: public static Callback Before(Phase phase)
+    parameters:
+    - id: phase
+      type: AdvancedSceneManager.Core.Phase
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Shared Function Before(phase As Phase) As Callback
+  overload: AdvancedSceneManager.Core.Callback.Before*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Core.Callback.After(AdvancedSceneManager.Core.Phase)
+  commentId: M:AdvancedSceneManager.Core.Callback.After(AdvancedSceneManager.Core.Phase)
+  id: After(AdvancedSceneManager.Core.Phase)
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: After(Phase)
+  nameWithType: Callback.After(Phase)
+  fullName: AdvancedSceneManager.Core.Callback.After(AdvancedSceneManager.Core.Phase)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: After
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 94
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Runs a callback after the specified phase.
+  example: []
+  syntax:
+    content: public static Callback After(Phase phase)
+    parameters:
+    - id: phase
+      type: AdvancedSceneManager.Core.Phase
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Shared Function After(phase As Phase) As Callback
+  overload: AdvancedSceneManager.Core.Callback.After*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Core.Callback.Do(System.Action)
+  commentId: M:AdvancedSceneManager.Core.Callback.Do(System.Action)
+  id: Do(System.Action)
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: Do(Action)
+  nameWithType: Callback.Do(Action)
+  fullName: AdvancedSceneManager.Core.Callback.Do(System.Action)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Do
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 101
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Performs the specified callback.
+  example: []
+  syntax:
+    content: public Callback Do(Action action)
+    parameters:
+    - id: action
+      type: System.Action
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Function Do(action As Action) As Callback
+  overload: AdvancedSceneManager.Core.Callback.Do*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.Callback.Do(System.Action{AdvancedSceneManager.Core.SceneOperation})
+  commentId: M:AdvancedSceneManager.Core.Callback.Do(System.Action{AdvancedSceneManager.Core.SceneOperation})
+  id: Do(System.Action{AdvancedSceneManager.Core.SceneOperation})
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: Do(Action<SceneOperation>)
+  nameWithType: Callback.Do(Action<SceneOperation>)
+  fullName: AdvancedSceneManager.Core.Callback.Do(System.Action<AdvancedSceneManager.Core.SceneOperation>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Do
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 105
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Performs the specified callback.
+  example: []
+  syntax:
+    content: public Callback Do(Action<SceneOperation> action)
+    parameters:
+    - id: action
+      type: System.Action{AdvancedSceneManager.Core.SceneOperation}
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Function Do(action As Action(Of SceneOperation)) As Callback
+  overload: AdvancedSceneManager.Core.Callback.Do*
+  nameWithType.vb: Callback.Do(Action(Of SceneOperation))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.Callback.Do(System.Action(Of AdvancedSceneManager.Core.SceneOperation))
+  name.vb: Do(Action(Of SceneOperation))
+- uid: AdvancedSceneManager.Core.Callback.Do(System.Func{System.Collections.IEnumerator})
+  commentId: M:AdvancedSceneManager.Core.Callback.Do(System.Func{System.Collections.IEnumerator})
+  id: Do(System.Func{System.Collections.IEnumerator})
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: Do(Func<IEnumerator>)
+  nameWithType: Callback.Do(Func<IEnumerator>)
+  fullName: AdvancedSceneManager.Core.Callback.Do(System.Func<System.Collections.IEnumerator>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Do
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 109
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Performs the specified callback.
+  example: []
+  syntax:
+    content: public Callback Do(Func<IEnumerator> enumerator)
+    parameters:
+    - id: enumerator
+      type: System.Func{System.Collections.IEnumerator}
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Function Do(enumerator As Func(Of IEnumerator)) As Callback
+  overload: AdvancedSceneManager.Core.Callback.Do*
+  nameWithType.vb: Callback.Do(Func(Of IEnumerator))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.Callback.Do(System.Func(Of System.Collections.IEnumerator))
+  name.vb: Do(Func(Of IEnumerator))
+- uid: AdvancedSceneManager.Core.Callback.Do(Lazy.Utility.GlobalCoroutine)
+  commentId: M:AdvancedSceneManager.Core.Callback.Do(Lazy.Utility.GlobalCoroutine)
+  id: Do(Lazy.Utility.GlobalCoroutine)
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: Do(GlobalCoroutine)
+  nameWithType: Callback.Do(GlobalCoroutine)
+  fullName: AdvancedSceneManager.Core.Callback.Do(Lazy.Utility.GlobalCoroutine)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Do
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 113
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Performs the specified callback.
+  example: []
+  syntax:
+    content: public Callback Do(GlobalCoroutine coroutine)
+    parameters:
+    - id: coroutine
+      type: Lazy.Utility.GlobalCoroutine
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Function Do(coroutine As GlobalCoroutine) As Callback
+  overload: AdvancedSceneManager.Core.Callback.Do*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.Callback.Do(System.Single)
+  commentId: M:AdvancedSceneManager.Core.Callback.Do(System.Single)
+  id: Do(System.Single)
+  parent: AdvancedSceneManager.Core.Callback
+  langs:
+  - csharp
+  - vb
+  name: Do(Single)
+  nameWithType: Callback.Do(Single)
+  fullName: AdvancedSceneManager.Core.Callback.Do(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Do
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Callback.cs
+    startLine: 117
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Performs the specified callback.
+  example: []
+  syntax:
+    content: public Callback Do(float delay)
+    parameters:
+    - id: delay
+      type: System.Single
+    return:
+      type: AdvancedSceneManager.Core.Callback
+    content.vb: Public Function Do(delay As Single) As Callback
+  overload: AdvancedSceneManager.Core.Callback.Do*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Core.Phase
+  commentId: T:AdvancedSceneManager.Core.Phase
+  parent: AdvancedSceneManager.Core
+  name: Phase
+  nameWithType: Phase
+  fullName: AdvancedSceneManager.Core.Phase
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Core.Callback.phase*
+  commentId: Overload:AdvancedSceneManager.Core.Callback.phase
+  name: phase
+  nameWithType: Callback.phase
+  fullName: AdvancedSceneManager.Core.Callback.phase
+- uid: System.Nullable{AdvancedSceneManager.Core.Phase}
+  commentId: T:System.Nullable{AdvancedSceneManager.Core.Phase}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Phase>
+  nameWithType: Nullable<Phase>
+  fullName: System.Nullable<AdvancedSceneManager.Core.Phase>
+  nameWithType.vb: Nullable(Of Phase)
+  fullName.vb: System.Nullable(Of AdvancedSceneManager.Core.Phase)
+  name.vb: Nullable(Of Phase)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Core.Phase
+    name: Phase
+    nameWithType: Phase
+    fullName: AdvancedSceneManager.Core.Phase
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Core.Phase
+    name: Phase
+    nameWithType: Phase
+    fullName: AdvancedSceneManager.Core.Phase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Callback.when*
+  commentId: Overload:AdvancedSceneManager.Core.Callback.when
+  name: when
+  nameWithType: Callback.when
+  fullName: AdvancedSceneManager.Core.Callback.when
+- uid: AdvancedSceneManager.Core.Callback.When
+  commentId: T:AdvancedSceneManager.Core.Callback.When
+  parent: AdvancedSceneManager.Core
+  name: Callback.When
+  nameWithType: Callback.When
+  fullName: AdvancedSceneManager.Core.Callback.When
+- uid: AdvancedSceneManager.Core.Callback.action*
+  commentId: Overload:AdvancedSceneManager.Core.Callback.action
+  name: action
+  nameWithType: Callback.action
+  fullName: AdvancedSceneManager.Core.Callback.action
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: AdvancedSceneManager.Core.Callback.action2*
+  commentId: Overload:AdvancedSceneManager.Core.Callback.action2
+  name: action2
+  nameWithType: Callback.action2
+  fullName: AdvancedSceneManager.Core.Callback.action2
+- uid: System.Action{AdvancedSceneManager.Core.SceneOperation}
+  commentId: T:System.Action{AdvancedSceneManager.Core.SceneOperation}
+  parent: System
+  definition: System.Action`1
+  name: Action<SceneOperation>
+  nameWithType: Action<SceneOperation>
+  fullName: System.Action<AdvancedSceneManager.Core.SceneOperation>
+  nameWithType.vb: Action(Of SceneOperation)
+  fullName.vb: System.Action(Of AdvancedSceneManager.Core.SceneOperation)
+  name.vb: Action(Of SceneOperation)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Core.SceneOperation
+    name: SceneOperation
+    nameWithType: SceneOperation
+    fullName: AdvancedSceneManager.Core.SceneOperation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Callback.enumerator*
+  commentId: Overload:AdvancedSceneManager.Core.Callback.enumerator
+  name: enumerator
+  nameWithType: Callback.enumerator
+  fullName: AdvancedSceneManager.Core.Callback.enumerator
+- uid: System.Func{System.Collections.IEnumerator}
+  commentId: T:System.Func{System.Collections.IEnumerator}
+  parent: System
+  definition: System.Func`1
+  name: Func<IEnumerator>
+  nameWithType: Func<IEnumerator>
+  fullName: System.Func<System.Collections.IEnumerator>
+  nameWithType.vb: Func(Of IEnumerator)
+  fullName.vb: System.Func(Of System.Collections.IEnumerator)
+  name.vb: Func(Of IEnumerator)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.Callback.coroutine*
+  commentId: Overload:AdvancedSceneManager.Core.Callback.coroutine
+  name: coroutine
+  nameWithType: Callback.coroutine
+  fullName: AdvancedSceneManager.Core.Callback.coroutine
+- uid: Lazy.Utility.GlobalCoroutine
+  commentId: T:Lazy.Utility.GlobalCoroutine
+  parent: Lazy.Utility
+  name: GlobalCoroutine
+  nameWithType: GlobalCoroutine
+  fullName: Lazy.Utility.GlobalCoroutine
+- uid: Lazy.Utility
+  commentId: N:Lazy.Utility
+  name: Lazy.Utility
+  nameWithType: Lazy.Utility
+  fullName: Lazy.Utility
+- uid: AdvancedSceneManager.Core.Callback.scene*
+  commentId: Overload:AdvancedSceneManager.Core.Callback.scene
+  name: scene
+  nameWithType: Callback.scene
+  fullName: AdvancedSceneManager.Core.Callback.scene
+- uid: AdvancedSceneManager.Models.Scene
+  commentId: T:AdvancedSceneManager.Models.Scene
+  parent: AdvancedSceneManager.Models
+  name: Scene
+  nameWithType: Scene
+  fullName: AdvancedSceneManager.Models.Scene
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: AdvancedSceneManager.Core.Callback.op_Implicit*
+  commentId: Overload:AdvancedSceneManager.Core.Callback.op_Implicit
+  name: Implicit
+  nameWithType: Callback.Implicit
+  fullName: AdvancedSceneManager.Core.Callback.Implicit
+  nameWithType.vb: Callback.Widening
+  fullName.vb: AdvancedSceneManager.Core.Callback.Widening
+  name.vb: Widening
+- uid: AdvancedSceneManager.Core.Callback
+  commentId: T:AdvancedSceneManager.Core.Callback
+  parent: AdvancedSceneManager.Core
+  name: Callback
+  nameWithType: Callback
+  fullName: AdvancedSceneManager.Core.Callback
+- uid: AdvancedSceneManager.Core.Callback.AfterLoadingScreenOpen*
+  commentId: Overload:AdvancedSceneManager.Core.Callback.AfterLoadingScreenOpen
+  name: AfterLoadingScreenOpen
+  nameWithType: Callback.AfterLoadingScreenOpen
+  fullName: AdvancedSceneManager.Core.Callback.AfterLoadingScreenOpen
+- uid: AdvancedSceneManager.Core.Callback.BeforeLoadingScreenClose*
+  commentId: Overload:AdvancedSceneManager.Core.Callback.BeforeLoadingScreenClose
+  name: BeforeLoadingScreenClose
+  nameWithType: Callback.BeforeLoadingScreenClose
+  fullName: AdvancedSceneManager.Core.Callback.BeforeLoadingScreenClose
+- uid: AdvancedSceneManager.Core.Callback.Before*
+  commentId: Overload:AdvancedSceneManager.Core.Callback.Before
+  name: Before
+  nameWithType: Callback.Before
+  fullName: AdvancedSceneManager.Core.Callback.Before
+- uid: AdvancedSceneManager.Core.Callback.After*
+  commentId: Overload:AdvancedSceneManager.Core.Callback.After
+  name: After
+  nameWithType: Callback.After
+  fullName: AdvancedSceneManager.Core.Callback.After
+- uid: AdvancedSceneManager.Core.Callback.Do*
+  commentId: Overload:AdvancedSceneManager.Core.Callback.Do
+  name: Do
+  nameWithType: Callback.Do
+  fullName: AdvancedSceneManager.Core.Callback.Do
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

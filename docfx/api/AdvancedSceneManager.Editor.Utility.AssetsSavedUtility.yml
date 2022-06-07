@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.AssetsSavedUtility
+  commentId: T:AdvancedSceneManager.Editor.Utility.AssetsSavedUtility
+  id: AssetsSavedUtility
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.onAssetsSaved
+  - AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.onAssetsSaved2
+  langs:
+  - csharp
+  - vb
+  name: AssetsSavedUtility
+  nameWithType: AssetsSavedUtility
+  fullName: AdvancedSceneManager.Editor.Utility.AssetsSavedUtility
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/AssetsSavedUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: AssetsSavedUtility
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/AssetsSavedUtility.cs
+    startLine: 10
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Provides an event that is called when <xref href="UnityEditor.AssetModificationProcessor" data-throw-if-not-resolved="false"></xref>.OnWillSaveAssets(string[] paths) is called.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: 'public class AssetsSavedUtility : AssetModificationProcessor'
+    content.vb: >-
+      Public Class AssetsSavedUtility
+          Inherits AssetModificationProcessor
+  inheritance:
+  - System.Object
+  - UnityEditor.AssetModificationProcessor
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.onAssetsSaved
+  commentId: E:AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.onAssetsSaved
+  id: onAssetsSaved
+  parent: AdvancedSceneManager.Editor.Utility.AssetsSavedUtility
+  langs:
+  - csharp
+  - vb
+  name: onAssetsSaved
+  nameWithType: AssetsSavedUtility.onAssetsSaved
+  fullName: AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.onAssetsSaved
+  type: Event
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/AssetsSavedUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: onAssetsSaved
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/AssetsSavedUtility.cs
+    startLine: 13
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static event Action<string[]> onAssetsSaved
+    return:
+      type: System.Action{System.String[]}
+    content.vb: Public Shared Event onAssetsSaved As Action(Of String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.onAssetsSaved2
+  commentId: E:AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.onAssetsSaved2
+  id: onAssetsSaved2
+  parent: AdvancedSceneManager.Editor.Utility.AssetsSavedUtility
+  langs:
+  - csharp
+  - vb
+  name: onAssetsSaved2
+  nameWithType: AssetsSavedUtility.onAssetsSaved2
+  fullName: AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.onAssetsSaved2
+  type: Event
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/AssetsSavedUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: onAssetsSaved2
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/AssetsSavedUtility.cs
+    startLine: 14
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static event Action onAssetsSaved2
+    return:
+      type: System.Action
+    content.vb: Public Shared Event onAssetsSaved2 As Action
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEditor.AssetModificationProcessor
+  commentId: T:UnityEditor.AssetModificationProcessor
+  parent: UnityEditor
+  isExternal: true
+  name: AssetModificationProcessor
+  nameWithType: AssetModificationProcessor
+  fullName: UnityEditor.AssetModificationProcessor
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Action{System.String[]}
+  commentId: T:System.Action{System.String[]}
+  parent: System
+  definition: System.Action`1
+  name: Action<String[]>
+  nameWithType: Action<String[]>
+  fullName: System.Action<System.String[]>
+  nameWithType.vb: Action(Of String())
+  fullName.vb: System.Action(Of System.String())
+  name.vb: Action(Of String())
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action

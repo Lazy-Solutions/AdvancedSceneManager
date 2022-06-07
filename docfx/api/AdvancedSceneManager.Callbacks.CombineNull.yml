@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Callbacks.CombineNull
+  commentId: T:AdvancedSceneManager.Callbacks.CombineNull
+  id: CombineNull
+  parent: AdvancedSceneManager.Callbacks
+  children:
+  - AdvancedSceneManager.Callbacks.CombineNull.IsCombineNull(AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails)
+  - AdvancedSceneManager.Callbacks.CombineNull.value
+  langs:
+  - csharp
+  - vb
+  name: CombineNull
+  nameWithType: CombineNull
+  fullName: AdvancedSceneManager.Callbacks.CombineNull
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CombineNull
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 28
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public class CombineNull
+    content.vb: Public Class CombineNull
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Callbacks.CombineNull.value
+  commentId: F:AdvancedSceneManager.Callbacks.CombineNull.value
+  id: value
+  parent: AdvancedSceneManager.Callbacks.CombineNull
+  langs:
+  - csharp
+  - vb
+  name: value
+  nameWithType: CombineNull.value
+  fullName: AdvancedSceneManager.Callbacks.CombineNull.value
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: value
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 30
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public static readonly CombineNull value
+    return:
+      type: AdvancedSceneManager.Callbacks.CombineNull
+    content.vb: Public Shared ReadOnly value As CombineNull
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Callbacks.CombineNull.IsCombineNull(AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails)
+  commentId: M:AdvancedSceneManager.Callbacks.CombineNull.IsCombineNull(AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails)
+  id: IsCombineNull(AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails)
+  parent: AdvancedSceneManager.Callbacks.CombineNull
+  langs:
+  - csharp
+  - vb
+  name: IsCombineNull(CoroutineDiagHelper.SubroutineDetails)
+  nameWithType: CombineNull.IsCombineNull(CoroutineDiagHelper.SubroutineDetails)
+  fullName: AdvancedSceneManager.Callbacks.CombineNull.IsCombineNull(AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IsCombineNull
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 33
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  syntax:
+    content: public static bool IsCombineNull(CoroutineDiagHelper.SubroutineDetails coroutine)
+    parameters:
+    - id: coroutine
+      type: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsCombineNull(coroutine As CoroutineDiagHelper.SubroutineDetails) As Boolean
+  overload: AdvancedSceneManager.Callbacks.CombineNull.IsCombineNull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Callbacks.CombineNull
+  commentId: T:AdvancedSceneManager.Callbacks.CombineNull
+  parent: AdvancedSceneManager.Callbacks
+  name: CombineNull
+  nameWithType: CombineNull
+  fullName: AdvancedSceneManager.Callbacks.CombineNull
+- uid: AdvancedSceneManager.Callbacks.CombineNull.IsCombineNull*
+  commentId: Overload:AdvancedSceneManager.Callbacks.CombineNull.IsCombineNull
+  name: IsCombineNull
+  nameWithType: CombineNull.IsCombineNull
+  fullName: AdvancedSceneManager.Callbacks.CombineNull.IsCombineNull
+- uid: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails
+  commentId: T:AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails
+  parent: AdvancedSceneManager.Callbacks
+  name: CoroutineDiagHelper.SubroutineDetails
+  nameWithType: CoroutineDiagHelper.SubroutineDetails
+  fullName: AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

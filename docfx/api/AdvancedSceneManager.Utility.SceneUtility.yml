@@ -1,0 +1,1678 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Utility.SceneUtility
+  commentId: T:AdvancedSceneManager.Utility.SceneUtility
+  id: SceneUtility
+  parent: AdvancedSceneManager.Utility
+  children:
+  - AdvancedSceneManager.Utility.SceneUtility.Create(System.Action{AdvancedSceneManager.Models.Scene},AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32},System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Utility.SceneUtility.Create(System.String,AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Utility.SceneUtility.CreateDynamic(System.String,UnityEngine.SceneManagement.LocalPhysicsMode)
+  - AdvancedSceneManager.Utility.SceneUtility.CreateInCurrentFolder(System.Action{AdvancedSceneManager.Models.Scene},AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32},System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Utility.SceneUtility.Find(System.Func{AdvancedSceneManager.Models.Scene,System.Boolean},AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Profile)
+  - AdvancedSceneManager.Utility.SceneUtility.Find(System.String,AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Profile)
+  - AdvancedSceneManager.Utility.SceneUtility.FindASMScene(UnityEditor.SceneAsset)
+  - AdvancedSceneManager.Utility.SceneUtility.FindOpen(System.Func{AdvancedSceneManager.Models.Scene,System.Boolean})
+  - AdvancedSceneManager.Utility.SceneUtility.FindOpen(System.String)
+  - AdvancedSceneManager.Utility.SceneUtility.GetAllOpenUnityScenes
+  - AdvancedSceneManager.Utility.SceneUtility.hasAnyScenes
+  - AdvancedSceneManager.Utility.SceneUtility.isStartupScene
+  - AdvancedSceneManager.Utility.SceneUtility.MergeScenes(System.String[])
+  - AdvancedSceneManager.Utility.SceneUtility.Move(UnityEngine.GameObject,AdvancedSceneManager.Core.OpenSceneInfo)
+  - AdvancedSceneManager.Utility.SceneUtility.Move(UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+  - AdvancedSceneManager.Utility.SceneUtility.MoveToNewScene(UnityEngine.GameObject[])
+  - AdvancedSceneManager.Utility.SceneUtility.Remove(AdvancedSceneManager.Models.Scene)
+  - AdvancedSceneManager.Utility.SceneUtility.Remove(System.String)
+  - AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  - AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.GameObject)
+  - AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.SceneManagement.Scene)
+  - AdvancedSceneManager.Utility.SceneUtility.sceneCount
+  langs:
+  - csharp
+  - vb
+  name: SceneUtility
+  nameWithType: SceneUtility
+  fullName: AdvancedSceneManager.Utility.SceneUtility
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SceneUtility
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 27
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: An utility class to perform actions on scenes.
+  example: []
+  syntax:
+    content: public static class SceneUtility
+    content.vb: Public Module SceneUtility
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Utility.SceneUtility.GetAllOpenUnityScenes
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.GetAllOpenUnityScenes
+  id: GetAllOpenUnityScenes
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: GetAllOpenUnityScenes()
+  nameWithType: SceneUtility.GetAllOpenUnityScenes()
+  fullName: AdvancedSceneManager.Utility.SceneUtility.GetAllOpenUnityScenes()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: GetAllOpenUnityScenes
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 31
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Get all open unity scenes.
+  example: []
+  syntax:
+    content: public static IEnumerable<Scene> GetAllOpenUnityScenes()
+    return:
+      type: System.Collections.Generic.IEnumerable{UnityEngine.SceneManagement.Scene}
+    content.vb: Public Shared Function GetAllOpenUnityScenes As IEnumerable(Of Scene)
+  overload: AdvancedSceneManager.Utility.SceneUtility.GetAllOpenUnityScenes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.SceneUtility.isStartupScene
+  commentId: P:AdvancedSceneManager.Utility.SceneUtility.isStartupScene
+  id: isStartupScene
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: isStartupScene
+  nameWithType: SceneUtility.isStartupScene
+  fullName: AdvancedSceneManager.Utility.SceneUtility.isStartupScene
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: isStartupScene
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 38
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Gets if current, and only, scene is the startup scene.
+  example: []
+  syntax:
+    content: public static bool isStartupScene { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property isStartupScene As Boolean
+  overload: AdvancedSceneManager.Utility.SceneUtility.isStartupScene*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Utility.SceneUtility.hasAnyScenes
+  commentId: P:AdvancedSceneManager.Utility.SceneUtility.hasAnyScenes
+  id: hasAnyScenes
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: hasAnyScenes
+  nameWithType: SceneUtility.hasAnyScenes
+  fullName: AdvancedSceneManager.Utility.SceneUtility.hasAnyScenes
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: hasAnyScenes
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 55
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Gets if there are any scenes open that are not dynamically created, and not yet saved to disk.
+  example: []
+  syntax:
+    content: public static bool hasAnyScenes { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property hasAnyScenes As Boolean
+  overload: AdvancedSceneManager.Utility.SceneUtility.hasAnyScenes*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Utility.SceneUtility.sceneCount
+  commentId: P:AdvancedSceneManager.Utility.SceneUtility.sceneCount
+  id: sceneCount
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: sceneCount
+  nameWithType: SceneUtility.sceneCount
+  fullName: AdvancedSceneManager.Utility.SceneUtility.sceneCount
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: sceneCount
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 58
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  example: []
+  syntax:
+    content: public static int sceneCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property sceneCount As Integer
+  overload: AdvancedSceneManager.Utility.SceneUtility.sceneCount*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Utility.SceneUtility.Move(UnityEngine.GameObject,AdvancedSceneManager.Core.OpenSceneInfo)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Move(UnityEngine.GameObject,AdvancedSceneManager.Core.OpenSceneInfo)
+  id: Move(UnityEngine.GameObject,AdvancedSceneManager.Core.OpenSceneInfo)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: Move(GameObject, OpenSceneInfo)
+  nameWithType: SceneUtility.Move(GameObject, OpenSceneInfo)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Move(UnityEngine.GameObject, AdvancedSceneManager.Core.OpenSceneInfo)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Move
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 61
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  example: []
+  syntax:
+    content: public static void Move(this GameObject obj, OpenSceneInfo scene)
+    parameters:
+    - id: obj
+      type: UnityEngine.GameObject
+    - id: scene
+      type: AdvancedSceneManager.Core.OpenSceneInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Move(obj As GameObject, scene As OpenSceneInfo)
+  overload: AdvancedSceneManager.Utility.SceneUtility.Move*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.SceneUtility.Move(UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Move(UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+  id: Move(UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: Move(GameObject, Scene)
+  nameWithType: SceneUtility.Move(GameObject, Scene)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Move(UnityEngine.GameObject, UnityEngine.SceneManagement.Scene)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Move
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 65
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  example: []
+  syntax:
+    content: public static void Move(this GameObject obj, Scene scene)
+    parameters:
+    - id: obj
+      type: UnityEngine.GameObject
+    - id: scene
+      type: UnityEngine.SceneManagement.Scene
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Move(obj As GameObject, scene As Scene)
+  overload: AdvancedSceneManager.Utility.SceneUtility.Move*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.SceneUtility.CreateDynamic(System.String,UnityEngine.SceneManagement.LocalPhysicsMode)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.CreateDynamic(System.String,UnityEngine.SceneManagement.LocalPhysicsMode)
+  id: CreateDynamic(System.String,UnityEngine.SceneManagement.LocalPhysicsMode)
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateDynamic(String, LocalPhysicsMode)
+  nameWithType: SceneUtility.CreateDynamic(String, LocalPhysicsMode)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.CreateDynamic(System.String, UnityEngine.SceneManagement.LocalPhysicsMode)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CreateDynamic
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 78
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Creates a scene at runtime, that is not saved to disk.
+  example: []
+  syntax:
+    content: public static OpenSceneInfo CreateDynamic(string name, LocalPhysicsMode localPhysicsMode = LocalPhysicsMode.None)
+    parameters:
+    - id: name
+      type: System.String
+    - id: localPhysicsMode
+      type: UnityEngine.SceneManagement.LocalPhysicsMode
+    return:
+      type: AdvancedSceneManager.Core.OpenSceneInfo
+    content.vb: Public Shared Function CreateDynamic(name As String, localPhysicsMode As LocalPhysicsMode = LocalPhysicsMode.None) As OpenSceneInfo
+  overload: AdvancedSceneManager.Utility.SceneUtility.CreateDynamic*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.SceneUtility.CreateInCurrentFolder(System.Action{AdvancedSceneManager.Models.Scene},AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32},System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.CreateInCurrentFolder(System.Action{AdvancedSceneManager.Models.Scene},AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32},System.Boolean,System.Boolean)
+  id: CreateInCurrentFolder(System.Action{AdvancedSceneManager.Models.Scene},AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32},System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: CreateInCurrentFolder(Action<Scene>, SceneCollection, Nullable<Int32>, Boolean, Boolean)
+  nameWithType: SceneUtility.CreateInCurrentFolder(Action<Scene>, SceneCollection, Nullable<Int32>, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.CreateInCurrentFolder(System.Action<AdvancedSceneManager.Models.Scene>, AdvancedSceneManager.Models.SceneCollection, System.Nullable<System.Int32>, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CreateInCurrentFolder
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 94
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Creates a scene, using <xref href="UnityEditor.ProjectWindowUtil.CreateScene" data-throw-if-not-resolved="false"></xref>.
+  remarks: Only usable in editor
+  example: []
+  syntax:
+    content: public static void CreateInCurrentFolder(Action<Scene> onCreated, SceneCollection collection = null, int? index = null, bool replaceIndex = false, bool save = true)
+    parameters:
+    - id: onCreated
+      type: System.Action{AdvancedSceneManager.Models.Scene}
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+      description: The collection to add the scene to.
+    - id: index
+      type: System.Nullable{System.Int32}
+      description: The index of the scene in <code data-dev-comment-type="paramref" class="paramref">collection</code>, no effect if <code data-dev-comment-type="paramref" class="paramref">collection</code> is <xref uid="langword_csharp_null" name="null" href=""></xref>.
+    - id: replaceIndex
+      type: System.Boolean
+      description: Replaces the scene at the specified index, rather than insert it.
+    - id: save
+      type: System.Boolean
+      description: Save collection to disk.
+    content.vb: Public Shared Sub CreateInCurrentFolder(onCreated As Action(Of Scene), collection As SceneCollection = Nothing, index As Integer? = Nothing, replaceIndex As Boolean = False, save As Boolean = True)
+  overload: AdvancedSceneManager.Utility.SceneUtility.CreateInCurrentFolder*
+  nameWithType.vb: SceneUtility.CreateInCurrentFolder(Action(Of Scene), SceneCollection, Nullable(Of Int32), Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.SceneUtility.CreateInCurrentFolder(System.Action(Of AdvancedSceneManager.Models.Scene), AdvancedSceneManager.Models.SceneCollection, System.Nullable(Of System.Int32), System.Boolean, System.Boolean)
+  name.vb: CreateInCurrentFolder(Action(Of Scene), SceneCollection, Nullable(Of Int32), Boolean, Boolean)
+- uid: AdvancedSceneManager.Utility.SceneUtility.Create(System.Action{AdvancedSceneManager.Models.Scene},AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32},System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Create(System.Action{AdvancedSceneManager.Models.Scene},AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32},System.Boolean,System.Boolean)
+  id: Create(System.Action{AdvancedSceneManager.Models.Scene},AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32},System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: Create(Action<Scene>, SceneCollection, Nullable<Int32>, Boolean, Boolean)
+  nameWithType: SceneUtility.Create(Action<Scene>, SceneCollection, Nullable<Int32>, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Create(System.Action<AdvancedSceneManager.Models.Scene>, AdvancedSceneManager.Models.SceneCollection, System.Nullable<System.Int32>, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Create
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 133
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Creates a scene, using save prompt for path. Returns <xref uid="langword_csharp_null" name="null" href=""></xref> if save dialog cancelled.
+  remarks: Only usable in editor
+  example: []
+  syntax:
+    content: public static void Create(Action<Scene> onCreated, SceneCollection collection = null, int? index = null, bool replaceIndex = false, bool save = true)
+    parameters:
+    - id: onCreated
+      type: System.Action{AdvancedSceneManager.Models.Scene}
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+      description: The collection to add the scene to.
+    - id: index
+      type: System.Nullable{System.Int32}
+      description: The index of the scene in <code data-dev-comment-type="paramref" class="paramref">collection</code>, no effect if <code data-dev-comment-type="paramref" class="paramref">collection</code> is <xref uid="langword_csharp_null" name="null" href=""></xref>.
+    - id: replaceIndex
+      type: System.Boolean
+      description: Replaces the scene at the specified index, rather than insert it.
+    - id: save
+      type: System.Boolean
+      description: Save collection to disk.
+    content.vb: Public Shared Sub Create(onCreated As Action(Of Scene), collection As SceneCollection = Nothing, index As Integer? = Nothing, replaceIndex As Boolean = False, save As Boolean = True)
+  overload: AdvancedSceneManager.Utility.SceneUtility.Create*
+  nameWithType.vb: SceneUtility.Create(Action(Of Scene), SceneCollection, Nullable(Of Int32), Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.SceneUtility.Create(System.Action(Of AdvancedSceneManager.Models.Scene), AdvancedSceneManager.Models.SceneCollection, System.Nullable(Of System.Int32), System.Boolean, System.Boolean)
+  name.vb: Create(Action(Of Scene), SceneCollection, Nullable(Of Int32), Boolean, Boolean)
+- uid: AdvancedSceneManager.Utility.SceneUtility.Create(System.String,AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Create(System.String,AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean)
+  id: Create(System.String,AdvancedSceneManager.Models.SceneCollection,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: Create(String, SceneCollection, Nullable<Int32>, Boolean, Boolean, Boolean)
+  nameWithType: SceneUtility.Create(String, SceneCollection, Nullable<Int32>, Boolean, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Create(System.String, AdvancedSceneManager.Models.SceneCollection, System.Nullable<System.Int32>, System.Boolean, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Create
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 167
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Creates a scene at the specified path.
+  remarks: Only usable in editor
+  example: []
+  syntax:
+    content: public static Scene Create(string path, SceneCollection collection = null, int? index = null, bool replaceIndex = false, bool save = true, bool createSceneScriptableObject = true)
+    parameters:
+    - id: path
+      type: System.String
+      description: The path that the scene should be saved to.
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+      description: The collection to add the scene to.
+    - id: index
+      type: System.Nullable{System.Int32}
+      description: The index of the scene in <code data-dev-comment-type="paramref" class="paramref">collection</code>, no effect if <code data-dev-comment-type="paramref" class="paramref">collection</code> is <xref uid="langword_csharp_null" name="null" href=""></xref>.
+    - id: replaceIndex
+      type: System.Boolean
+      description: Replaces the scene at the specified index, rather than insert it.
+    - id: save
+      type: System.Boolean
+      description: Save collection to disk.
+    - id: createSceneScriptableObject
+      type: System.Boolean
+      description: If <xref uid="langword_csharp_false" name="false" href=""></xref>, no <xref href="AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.GameObject)" data-throw-if-not-resolved="false"></xref> <xref href="UnityEngine.ScriptableObject" data-throw-if-not-resolved="false"></xref> will be created, scene also won&apos;t be added to <code data-dev-comment-type="paramref" class="paramref">collection</code>. Returns <xref uid="langword_csharp_null" name="null" href=""></xref>.
+    return:
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: Public Shared Function Create(path As String, collection As SceneCollection = Nothing, index As Integer? = Nothing, replaceIndex As Boolean = False, save As Boolean = True, createSceneScriptableObject As Boolean = True) As Scene
+  overload: AdvancedSceneManager.Utility.SceneUtility.Create*
+  nameWithType.vb: SceneUtility.Create(String, SceneCollection, Nullable(Of Int32), Boolean, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.SceneUtility.Create(System.String, AdvancedSceneManager.Models.SceneCollection, System.Nullable(Of System.Int32), System.Boolean, System.Boolean, System.Boolean)
+  name.vb: Create(String, SceneCollection, Nullable(Of Int32), Boolean, Boolean, Boolean)
+- uid: AdvancedSceneManager.Utility.SceneUtility.Remove(System.String)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Remove(System.String)
+  id: Remove(System.String)
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: Remove(String)
+  nameWithType: SceneUtility.Remove(String)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Remove(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Remove
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 261
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Removes the <xref href="UnityEditor.SceneAsset" data-throw-if-not-resolved="false"></xref> at the specified path and its associated <xref href="AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.GameObject)" data-throw-if-not-resolved="false"></xref>, and removes any references to it from any <xref href="AdvancedSceneManager.Models.SceneCollection" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static void Remove(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Shared Sub Remove(path As String)
+  overload: AdvancedSceneManager.Utility.SceneUtility.Remove*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.SceneUtility.Remove(AdvancedSceneManager.Models.Scene)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Remove(AdvancedSceneManager.Models.Scene)
+  id: Remove(AdvancedSceneManager.Models.Scene)
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: Remove(Scene)
+  nameWithType: SceneUtility.Remove(Scene)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Remove(AdvancedSceneManager.Models.Scene)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Remove
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 295
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Removes the <code data-dev-comment-type="paramref" class="paramref">scene</code> and its associated <xref href="UnityEditor.SceneAsset" data-throw-if-not-resolved="false"></xref>, and removes any references to it from any <xref href="AdvancedSceneManager.Models.SceneCollection" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static void Remove(Scene scene)
+    parameters:
+    - id: scene
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: Public Shared Sub Remove(scene As Scene)
+  overload: AdvancedSceneManager.Utility.SceneUtility.Remove*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.SceneUtility.FindOpen(System.String)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.FindOpen(System.String)
+  id: FindOpen(System.String)
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: FindOpen(String)
+  nameWithType: SceneUtility.FindOpen(String)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.FindOpen(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FindOpen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 304
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Find open scenes by name.
+  example: []
+  syntax:
+    content: public static IEnumerable<Scene> FindOpen(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}
+    content.vb: Public Shared Function FindOpen(name As String) As IEnumerable(Of Scene)
+  overload: AdvancedSceneManager.Utility.SceneUtility.FindOpen*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.SceneUtility.FindOpen(System.Func{AdvancedSceneManager.Models.Scene,System.Boolean})
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.FindOpen(System.Func{AdvancedSceneManager.Models.Scene,System.Boolean})
+  id: FindOpen(System.Func{AdvancedSceneManager.Models.Scene,System.Boolean})
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: FindOpen(Func<Scene, Boolean>)
+  nameWithType: SceneUtility.FindOpen(Func<Scene, Boolean>)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.FindOpen(System.Func<AdvancedSceneManager.Models.Scene, System.Boolean>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FindOpen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 308
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Find open scenes by predicate.
+  example: []
+  syntax:
+    content: public static IEnumerable<Scene> FindOpen(Func<Scene, bool> predicate)
+    parameters:
+    - id: predicate
+      type: System.Func{AdvancedSceneManager.Models.Scene,System.Boolean}
+    return:
+      type: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}
+    content.vb: Public Shared Function FindOpen(predicate As Func(Of Scene, Boolean)) As IEnumerable(Of Scene)
+  overload: AdvancedSceneManager.Utility.SceneUtility.FindOpen*
+  nameWithType.vb: SceneUtility.FindOpen(Func(Of Scene, Boolean))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.SceneUtility.FindOpen(System.Func(Of AdvancedSceneManager.Models.Scene, System.Boolean))
+  name.vb: FindOpen(Func(Of Scene, Boolean))
+- uid: AdvancedSceneManager.Utility.SceneUtility.Find(System.String,AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Profile)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Find(System.String,AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Profile)
+  id: Find(System.String,AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Profile)
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: Find(String, SceneCollection, Profile)
+  nameWithType: SceneUtility.Find(String, SceneCollection, Profile)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Find(System.String, AdvancedSceneManager.Models.SceneCollection, AdvancedSceneManager.Models.Profile)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Find
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 312
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Find scenes by name, in the specified collection or profile, if defined.
+  example: []
+  syntax:
+    content: public static IEnumerable<Scene> Find(string name, SceneCollection inCollection = null, Profile inProfile = null)
+    parameters:
+    - id: name
+      type: System.String
+    - id: inCollection
+      type: AdvancedSceneManager.Models.SceneCollection
+    - id: inProfile
+      type: AdvancedSceneManager.Models.Profile
+    return:
+      type: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}
+    content.vb: Public Shared Function Find(name As String, inCollection As SceneCollection = Nothing, inProfile As Profile = Nothing) As IEnumerable(Of Scene)
+  overload: AdvancedSceneManager.Utility.SceneUtility.Find*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.SceneUtility.Find(System.Func{AdvancedSceneManager.Models.Scene,System.Boolean},AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Profile)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Find(System.Func{AdvancedSceneManager.Models.Scene,System.Boolean},AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Profile)
+  id: Find(System.Func{AdvancedSceneManager.Models.Scene,System.Boolean},AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Profile)
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: Find(Func<Scene, Boolean>, SceneCollection, Profile)
+  nameWithType: SceneUtility.Find(Func<Scene, Boolean>, SceneCollection, Profile)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Find(System.Func<AdvancedSceneManager.Models.Scene, System.Boolean>, AdvancedSceneManager.Models.SceneCollection, AdvancedSceneManager.Models.Profile)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Find
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 316
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Find scenes by predicate, in the specified collection or profile, if defined.
+  example: []
+  syntax:
+    content: public static IEnumerable<Scene> Find(Func<Scene, bool> predicate, SceneCollection inCollection = null, Profile inProfile = null)
+    parameters:
+    - id: predicate
+      type: System.Func{AdvancedSceneManager.Models.Scene,System.Boolean}
+    - id: inCollection
+      type: AdvancedSceneManager.Models.SceneCollection
+    - id: inProfile
+      type: AdvancedSceneManager.Models.Profile
+    return:
+      type: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}
+    content.vb: Public Shared Function Find(predicate As Func(Of Scene, Boolean), inCollection As SceneCollection = Nothing, inProfile As Profile = Nothing) As IEnumerable(Of Scene)
+  overload: AdvancedSceneManager.Utility.SceneUtility.Find*
+  nameWithType.vb: SceneUtility.Find(Func(Of Scene, Boolean), SceneCollection, Profile)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.SceneUtility.Find(System.Func(Of AdvancedSceneManager.Models.Scene, System.Boolean), AdvancedSceneManager.Models.SceneCollection, AdvancedSceneManager.Models.Profile)
+  name.vb: Find(Func(Of Scene, Boolean), SceneCollection, Profile)
+- uid: AdvancedSceneManager.Utility.SceneUtility.MoveToNewScene(UnityEngine.GameObject[])
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.MoveToNewScene(UnityEngine.GameObject[])
+  id: MoveToNewScene(UnityEngine.GameObject[])
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: MoveToNewScene(GameObject[])
+  nameWithType: SceneUtility.MoveToNewScene(GameObject[])
+  fullName: AdvancedSceneManager.Utility.SceneUtility.MoveToNewScene(UnityEngine.GameObject[])
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: MoveToNewScene
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 355
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: "\n<p>Moves the object to a new scene.</p>\n<p>Only available in editor.</p>\n"
+  example: []
+  syntax:
+    content: public static void MoveToNewScene(params GameObject[] objects)
+    parameters:
+    - id: objects
+      type: UnityEngine.GameObject[]
+    content.vb: Public Shared Sub MoveToNewScene(ParamArray objects As GameObject())
+  overload: AdvancedSceneManager.Utility.SceneUtility.MoveToNewScene*
+  nameWithType.vb: SceneUtility.MoveToNewScene(GameObject())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.SceneUtility.MoveToNewScene(UnityEngine.GameObject())
+  name.vb: MoveToNewScene(GameObject())
+- uid: AdvancedSceneManager.Utility.SceneUtility.MergeScenes(System.String[])
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.MergeScenes(System.String[])
+  id: MergeScenes(System.String[])
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: MergeScenes(String[])
+  nameWithType: SceneUtility.MergeScenes(String[])
+  fullName: AdvancedSceneManager.Utility.SceneUtility.MergeScenes(System.String[])
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: MergeScenes
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 394
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Merges the scenes together, the first scene in the list will be the output scene.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public static void MergeScenes(params string[] scenes)
+    parameters:
+    - id: scenes
+      type: System.String[]
+    content.vb: Public Shared Sub MergeScenes(ParamArray scenes As String())
+  overload: AdvancedSceneManager.Utility.SceneUtility.MergeScenes*
+  nameWithType.vb: SceneUtility.MergeScenes(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.SceneUtility.MergeScenes(System.String())
+  name.vb: MergeScenes(String())
+- uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.GameObject)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.GameObject)
+  id: Scene(UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: Scene(GameObject)
+  nameWithType: SceneUtility.Scene(GameObject)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Scene
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 443
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Gets the runtime info of the associated scene to this <xref href="UnityEngine.GameObject" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static OpenSceneInfo Scene(this GameObject gameObject)
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    return:
+      type: AdvancedSceneManager.Core.OpenSceneInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Scene(gameObject As GameObject) As OpenSceneInfo
+  overload: AdvancedSceneManager.Utility.SceneUtility.Scene*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  id: Scene(UnityEngine.Component)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: Scene(Component)
+  nameWithType: SceneUtility.Scene(Component)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Scene
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 449
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Gets the runtime info of the associated scene to this <xref href="UnityEngine.Component" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static OpenSceneInfo Scene(this Component component)
+    parameters:
+    - id: component
+      type: UnityEngine.Component
+    return:
+      type: AdvancedSceneManager.Core.OpenSceneInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Scene(component As Component) As OpenSceneInfo
+  overload: AdvancedSceneManager.Utility.SceneUtility.Scene*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.SceneManagement.Scene)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.SceneManagement.Scene)
+  id: Scene(UnityEngine.SceneManagement.Scene)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: Scene(Scene)
+  nameWithType: SceneUtility.Scene(Scene)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.SceneManagement.Scene)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Scene
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 455
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Gets the ASM runtime info of this <xref href="UnityEngine.SceneManagement.Scene" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static OpenSceneInfo Scene(this Scene scene)
+    parameters:
+    - id: scene
+      type: UnityEngine.SceneManagement.Scene
+    return:
+      type: AdvancedSceneManager.Core.OpenSceneInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Scene(scene As Scene) As OpenSceneInfo
+  overload: AdvancedSceneManager.Utility.SceneUtility.Scene*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.SceneUtility.FindASMScene(UnityEditor.SceneAsset)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.FindASMScene(UnityEditor.SceneAsset)
+  id: FindASMScene(UnityEditor.SceneAsset)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  langs:
+  - csharp
+  - vb
+  name: FindASMScene(SceneAsset)
+  nameWithType: SceneUtility.FindASMScene(SceneAsset)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.FindASMScene(UnityEditor.SceneAsset)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FindASMScene
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/SceneUtility.cs
+    startLine: 461
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Finds the asm representation of this <xref href="UnityEditor.SceneAsset" data-throw-if-not-resolved="false"></xref>.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public static Scene FindASMScene(this SceneAsset scene)
+    parameters:
+    - id: scene
+      type: UnityEditor.SceneAsset
+    return:
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FindASMScene(scene As SceneAsset) As Scene
+  overload: AdvancedSceneManager.Utility.SceneUtility.FindASMScene*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Utility.SceneUtility.GetAllOpenUnityScenes*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.GetAllOpenUnityScenes
+  name: GetAllOpenUnityScenes
+  nameWithType: SceneUtility.GetAllOpenUnityScenes
+  fullName: AdvancedSceneManager.Utility.SceneUtility.GetAllOpenUnityScenes
+- uid: System.Collections.Generic.IEnumerable{UnityEngine.SceneManagement.Scene}
+  commentId: T:System.Collections.Generic.IEnumerable{UnityEngine.SceneManagement.Scene}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Scene>
+  nameWithType: IEnumerable<Scene>
+  fullName: System.Collections.Generic.IEnumerable<UnityEngine.SceneManagement.Scene>
+  nameWithType.vb: IEnumerable(Of Scene)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of UnityEngine.SceneManagement.Scene)
+  name.vb: IEnumerable(Of Scene)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.SceneManagement.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: UnityEngine.SceneManagement.Scene
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.SceneManagement.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: UnityEngine.SceneManagement.Scene
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: AdvancedSceneManager.Utility.SceneUtility.isStartupScene*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.isStartupScene
+  name: isStartupScene
+  nameWithType: SceneUtility.isStartupScene
+  fullName: AdvancedSceneManager.Utility.SceneUtility.isStartupScene
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Utility.SceneUtility.hasAnyScenes*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.hasAnyScenes
+  name: hasAnyScenes
+  nameWithType: SceneUtility.hasAnyScenes
+  fullName: AdvancedSceneManager.Utility.SceneUtility.hasAnyScenes
+- uid: UnityEngine.SceneManagement.SceneManager.sceneCount
+  commentId: P:UnityEngine.SceneManagement.SceneManager.sceneCount
+  isExternal: true
+- uid: AdvancedSceneManager.Utility.SceneUtility.sceneCount*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.sceneCount
+  name: sceneCount
+  nameWithType: SceneUtility.sceneCount
+  fullName: AdvancedSceneManager.Utility.SceneUtility.sceneCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+  commentId: M:UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+  isExternal: true
+- uid: AdvancedSceneManager.Utility.SceneUtility.Move*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.Move
+  name: Move
+  nameWithType: SceneUtility.Move
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Move
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: AdvancedSceneManager.Core.OpenSceneInfo
+  commentId: T:AdvancedSceneManager.Core.OpenSceneInfo
+  parent: AdvancedSceneManager.Core
+  name: OpenSceneInfo
+  nameWithType: OpenSceneInfo
+  fullName: AdvancedSceneManager.Core.OpenSceneInfo
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: UnityEngine.SceneManagement.Scene
+  commentId: T:UnityEngine.SceneManagement.Scene
+  parent: UnityEngine.SceneManagement
+  isExternal: true
+  name: Scene
+  nameWithType: Scene
+  fullName: UnityEngine.SceneManagement.Scene
+- uid: UnityEngine.SceneManagement
+  commentId: N:UnityEngine.SceneManagement
+  isExternal: true
+  name: UnityEngine.SceneManagement
+  nameWithType: UnityEngine.SceneManagement
+  fullName: UnityEngine.SceneManagement
+- uid: AdvancedSceneManager.Utility.SceneUtility.CreateDynamic*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.CreateDynamic
+  name: CreateDynamic
+  nameWithType: SceneUtility.CreateDynamic
+  fullName: AdvancedSceneManager.Utility.SceneUtility.CreateDynamic
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.SceneManagement.LocalPhysicsMode
+  commentId: T:UnityEngine.SceneManagement.LocalPhysicsMode
+  parent: UnityEngine.SceneManagement
+  isExternal: true
+  name: LocalPhysicsMode
+  nameWithType: LocalPhysicsMode
+  fullName: UnityEngine.SceneManagement.LocalPhysicsMode
+- uid: UnityEditor.ProjectWindowUtil.CreateScene
+  commentId: M:UnityEditor.ProjectWindowUtil.CreateScene
+  isExternal: true
+- uid: AdvancedSceneManager.Utility.SceneUtility.CreateInCurrentFolder*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.CreateInCurrentFolder
+  name: CreateInCurrentFolder
+  nameWithType: SceneUtility.CreateInCurrentFolder
+  fullName: AdvancedSceneManager.Utility.SceneUtility.CreateInCurrentFolder
+- uid: System.Action{AdvancedSceneManager.Models.Scene}
+  commentId: T:System.Action{AdvancedSceneManager.Models.Scene}
+  parent: System
+  definition: System.Action`1
+  name: Action<Scene>
+  nameWithType: Action<Scene>
+  fullName: System.Action<AdvancedSceneManager.Models.Scene>
+  nameWithType.vb: Action(Of Scene)
+  fullName.vb: System.Action(Of AdvancedSceneManager.Models.Scene)
+  name.vb: Action(Of Scene)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models.SceneCollection
+  commentId: T:AdvancedSceneManager.Models.SceneCollection
+  parent: AdvancedSceneManager.Models
+  name: SceneCollection
+  nameWithType: SceneCollection
+  fullName: AdvancedSceneManager.Models.SceneCollection
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.SceneUtility.Create*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.Create
+  name: Create
+  nameWithType: SceneUtility.Create
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Create
+- uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.GameObject)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.GameObject)
+  isExternal: true
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: AdvancedSceneManager.Models.Scene
+  commentId: T:AdvancedSceneManager.Models.Scene
+  parent: AdvancedSceneManager.Models
+  name: Scene
+  nameWithType: Scene
+  fullName: AdvancedSceneManager.Models.Scene
+- uid: UnityEditor.SceneAsset
+  commentId: T:UnityEditor.SceneAsset
+  parent: UnityEditor
+  isExternal: true
+  name: SceneAsset
+  nameWithType: SceneAsset
+  fullName: UnityEditor.SceneAsset
+- uid: AdvancedSceneManager.Utility.SceneUtility.Remove*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.Remove
+  name: Remove
+  nameWithType: SceneUtility.Remove
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Remove
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: AdvancedSceneManager.Utility.SceneUtility.FindOpen*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.FindOpen
+  name: FindOpen
+  nameWithType: SceneUtility.FindOpen
+  fullName: AdvancedSceneManager.Utility.SceneUtility.FindOpen
+- uid: System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}
+  commentId: T:System.Collections.Generic.IEnumerable{AdvancedSceneManager.Models.Scene}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Scene>
+  nameWithType: IEnumerable<Scene>
+  fullName: System.Collections.Generic.IEnumerable<AdvancedSceneManager.Models.Scene>
+  nameWithType.vb: IEnumerable(Of Scene)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of AdvancedSceneManager.Models.Scene)
+  name.vb: IEnumerable(Of Scene)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func{AdvancedSceneManager.Models.Scene,System.Boolean}
+  commentId: T:System.Func{AdvancedSceneManager.Models.Scene,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  name: Func<Scene, Boolean>
+  nameWithType: Func<Scene, Boolean>
+  fullName: System.Func<AdvancedSceneManager.Models.Scene, System.Boolean>
+  nameWithType.vb: Func(Of Scene, Boolean)
+  fullName.vb: System.Func(Of AdvancedSceneManager.Models.Scene, System.Boolean)
+  name.vb: Func(Of Scene, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.SceneUtility.Find*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.Find
+  name: Find
+  nameWithType: SceneUtility.Find
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Find
+- uid: AdvancedSceneManager.Models.Profile
+  commentId: T:AdvancedSceneManager.Models.Profile
+  parent: AdvancedSceneManager.Models
+  name: Profile
+  nameWithType: Profile
+  fullName: AdvancedSceneManager.Models.Profile
+- uid: AdvancedSceneManager.Utility.SceneUtility.MoveToNewScene*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.MoveToNewScene
+  name: MoveToNewScene
+  nameWithType: SceneUtility.MoveToNewScene
+  fullName: AdvancedSceneManager.Utility.SceneUtility.MoveToNewScene
+- uid: UnityEngine.GameObject[]
+  isExternal: true
+  name: GameObject[]
+  nameWithType: GameObject[]
+  fullName: UnityEngine.GameObject[]
+  nameWithType.vb: GameObject()
+  fullName.vb: UnityEngine.GameObject()
+  name.vb: GameObject()
+  spec.csharp:
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: AdvancedSceneManager.Utility.SceneUtility.MergeScenes*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.MergeScenes
+  name: MergeScenes
+  nameWithType: SceneUtility.MergeScenes
+  fullName: AdvancedSceneManager.Utility.SceneUtility.MergeScenes
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: AdvancedSceneManager.Utility.SceneUtility.Scene*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.Scene
+  name: Scene
+  nameWithType: SceneUtility.Scene
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: AdvancedSceneManager.Utility.SceneUtility.FindASMScene*
+  commentId: Overload:AdvancedSceneManager.Utility.SceneUtility.FindASMScene
+  name: FindASMScene
+  nameWithType: SceneUtility.FindASMScene
+  fullName: AdvancedSceneManager.Utility.SceneUtility.FindASMScene

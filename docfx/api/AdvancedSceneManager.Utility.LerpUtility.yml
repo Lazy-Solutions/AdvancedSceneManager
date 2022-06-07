@@ -1,0 +1,446 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Utility.LerpUtility
+  commentId: T:AdvancedSceneManager.Utility.LerpUtility
+  id: LerpUtility
+  parent: AdvancedSceneManager.Utility
+  children:
+  - AdvancedSceneManager.Utility.LerpUtility.Lerp(System.Single,System.Single,System.Single,System.Action{System.Single},System.Action)
+  - AdvancedSceneManager.Utility.LerpUtility.Lerp(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Action{UnityEngine.Vector2},System.Action)
+  - AdvancedSceneManager.Utility.LerpUtility.Lerp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Action{UnityEngine.Vector3},System.Action)
+  langs:
+  - csharp
+  - vb
+  name: LerpUtility
+  nameWithType: LerpUtility
+  fullName: AdvancedSceneManager.Utility.LerpUtility
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LerpUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: LerpUtility
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LerpUtility.cs
+    startLine: 8
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Provides some convinience functions for lerping.
+  example: []
+  syntax:
+    content: public static class LerpUtility
+    content.vb: Public Module LerpUtility
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Utility.LerpUtility.Lerp(System.Single,System.Single,System.Single,System.Action{System.Single},System.Action)
+  commentId: M:AdvancedSceneManager.Utility.LerpUtility.Lerp(System.Single,System.Single,System.Single,System.Action{System.Single},System.Action)
+  id: Lerp(System.Single,System.Single,System.Single,System.Action{System.Single},System.Action)
+  parent: AdvancedSceneManager.Utility.LerpUtility
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Single, Single, Single, Action<Single>, Action)
+  nameWithType: LerpUtility.Lerp(Single, Single, Single, Action<Single>, Action)
+  fullName: AdvancedSceneManager.Utility.LerpUtility.Lerp(System.Single, System.Single, System.Single, System.Action<System.Single>, System.Action)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LerpUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Lerp
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LerpUtility.cs
+    startLine: 17
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Lerp from <code data-dev-comment-type="paramref" class="paramref">start</code> to <code data-dev-comment-type="paramref" class="paramref">end</code> over <code data-dev-comment-type="paramref" class="paramref">duration</code> seconds.
+  example: []
+  syntax:
+    content: public static IEnumerator Lerp(float start, float end, float duration, Action<float> callback, Action onComplete = null)
+    parameters:
+    - id: start
+      type: System.Single
+      description: The start value.
+    - id: end
+      type: System.Single
+      description: The end value.
+    - id: duration
+      type: System.Single
+      description: The duration in seconds to lerp for.
+    - id: callback
+      type: System.Action{System.Single}
+      description: The callback each lerp interval.
+    - id: onComplete
+      type: System.Action
+      description: Callback when complete.
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Shared Function Lerp(start As Single, end As Single, duration As Single, callback As Action(Of Single), onComplete As Action = Nothing) As IEnumerator
+  overload: AdvancedSceneManager.Utility.LerpUtility.Lerp*
+  nameWithType.vb: LerpUtility.Lerp(Single, Single, Single, Action(Of Single), Action)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.LerpUtility.Lerp(System.Single, System.Single, System.Single, System.Action(Of System.Single), System.Action)
+  name.vb: Lerp(Single, Single, Single, Action(Of Single), Action)
+- uid: AdvancedSceneManager.Utility.LerpUtility.Lerp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Action{UnityEngine.Vector3},System.Action)
+  commentId: M:AdvancedSceneManager.Utility.LerpUtility.Lerp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Action{UnityEngine.Vector3},System.Action)
+  id: Lerp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Action{UnityEngine.Vector3},System.Action)
+  parent: AdvancedSceneManager.Utility.LerpUtility
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Vector3, Vector3, Single, Action<Vector3>, Action)
+  nameWithType: LerpUtility.Lerp(Vector3, Vector3, Single, Action<Vector3>, Action)
+  fullName: AdvancedSceneManager.Utility.LerpUtility.Lerp(UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Action<UnityEngine.Vector3>, System.Action)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LerpUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Lerp
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LerpUtility.cs
+    startLine: 40
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Lerp from <code data-dev-comment-type="paramref" class="paramref">start</code> to <code data-dev-comment-type="paramref" class="paramref">end</code> over <code data-dev-comment-type="paramref" class="paramref">duration</code> seconds.
+  example: []
+  syntax:
+    content: public static IEnumerator Lerp(Vector3 start, Vector3 end, float duration, Action<Vector3> callback, Action onComplete = null)
+    parameters:
+    - id: start
+      type: UnityEngine.Vector3
+    - id: end
+      type: UnityEngine.Vector3
+    - id: duration
+      type: System.Single
+      description: The duration in seconds to lerp for.
+    - id: callback
+      type: System.Action{UnityEngine.Vector3}
+    - id: onComplete
+      type: System.Action
+      description: Callback when complete.
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Shared Function Lerp(start As Vector3, end As Vector3, duration As Single, callback As Action(Of Vector3), onComplete As Action = Nothing) As IEnumerator
+  overload: AdvancedSceneManager.Utility.LerpUtility.Lerp*
+  nameWithType.vb: LerpUtility.Lerp(Vector3, Vector3, Single, Action(Of Vector3), Action)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.LerpUtility.Lerp(UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Action(Of UnityEngine.Vector3), System.Action)
+  name.vb: Lerp(Vector3, Vector3, Single, Action(Of Vector3), Action)
+- uid: AdvancedSceneManager.Utility.LerpUtility.Lerp(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Action{UnityEngine.Vector2},System.Action)
+  commentId: M:AdvancedSceneManager.Utility.LerpUtility.Lerp(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Action{UnityEngine.Vector2},System.Action)
+  id: Lerp(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Action{UnityEngine.Vector2},System.Action)
+  parent: AdvancedSceneManager.Utility.LerpUtility
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Vector2, Vector2, Single, Action<Vector2>, Action)
+  nameWithType: LerpUtility.Lerp(Vector2, Vector2, Single, Action<Vector2>, Action)
+  fullName: AdvancedSceneManager.Utility.LerpUtility.Lerp(UnityEngine.Vector2, UnityEngine.Vector2, System.Single, System.Action<UnityEngine.Vector2>, System.Action)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LerpUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Lerp
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/LerpUtility.cs
+    startLine: 63
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Lerp from <code data-dev-comment-type="paramref" class="paramref">start</code> to <code data-dev-comment-type="paramref" class="paramref">end</code> over <code data-dev-comment-type="paramref" class="paramref">duration</code> seconds.
+  example: []
+  syntax:
+    content: public static IEnumerator Lerp(Vector2 start, Vector2 end, float duration, Action<Vector2> callback, Action onComplete = null)
+    parameters:
+    - id: start
+      type: UnityEngine.Vector2
+    - id: end
+      type: UnityEngine.Vector2
+    - id: duration
+      type: System.Single
+      description: The duration in seconds to lerp for.
+    - id: callback
+      type: System.Action{UnityEngine.Vector2}
+    - id: onComplete
+      type: System.Action
+      description: Callback when complete.
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Shared Function Lerp(start As Vector2, end As Vector2, duration As Single, callback As Action(Of Vector2), onComplete As Action = Nothing) As IEnumerator
+  overload: AdvancedSceneManager.Utility.LerpUtility.Lerp*
+  nameWithType.vb: LerpUtility.Lerp(Vector2, Vector2, Single, Action(Of Vector2), Action)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.LerpUtility.Lerp(UnityEngine.Vector2, UnityEngine.Vector2, System.Single, System.Action(Of UnityEngine.Vector2), System.Action)
+  name.vb: Lerp(Vector2, Vector2, Single, Action(Of Vector2), Action)
+references:
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Utility.LerpUtility.Lerp*
+  commentId: Overload:AdvancedSceneManager.Utility.LerpUtility.Lerp
+  name: Lerp
+  nameWithType: LerpUtility.Lerp
+  fullName: AdvancedSceneManager.Utility.LerpUtility.Lerp
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Action{System.Single}
+  commentId: T:System.Action{System.Single}
+  parent: System
+  definition: System.Action`1
+  name: Action<Single>
+  nameWithType: Action<Single>
+  fullName: System.Action<System.Single>
+  nameWithType.vb: Action(Of Single)
+  fullName.vb: System.Action(Of System.Single)
+  name.vb: Action(Of Single)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: AdvancedSceneManager.Utility.LerpUtility.Lerp(System.Single,System.Single,System.Single,System.Action{System.Single},System.Action)
+  commentId: M:AdvancedSceneManager.Utility.LerpUtility.Lerp(System.Single,System.Single,System.Single,System.Action{System.Single},System.Action)
+  isExternal: true
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: System.Action{UnityEngine.Vector3}
+  commentId: T:System.Action{UnityEngine.Vector3}
+  parent: System
+  definition: System.Action`1
+  name: Action<Vector3>
+  nameWithType: Action<Vector3>
+  fullName: System.Action<UnityEngine.Vector3>
+  nameWithType.vb: Action(Of Vector3)
+  fullName.vb: System.Action(Of UnityEngine.Vector3)
+  name.vb: Action(Of Vector3)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: System.Action{UnityEngine.Vector2}
+  commentId: T:System.Action{UnityEngine.Vector2}
+  parent: System
+  definition: System.Action`1
+  name: Action<Vector2>
+  nameWithType: Action<Vector2>
+  fullName: System.Action<UnityEngine.Vector2>
+  nameWithType.vb: Action(Of Vector2)
+  fullName.vb: System.Action(Of UnityEngine.Vector2)
+  name.vb: Action(Of Vector2)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

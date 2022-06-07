@@ -1,0 +1,444 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.StyleExtensions
+  commentId: T:AdvancedSceneManager.Editor.Utility.StyleExtensions
+  id: StyleExtensions
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderColor(UnityEngine.UIElements.IStyle,System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color})
+  - AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderWidth(UnityEngine.UIElements.IStyle,System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})
+  - AdvancedSceneManager.Editor.Utility.StyleExtensions.SetMargin(UnityEngine.UIElements.IStyle,System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})
+  - AdvancedSceneManager.Editor.Utility.StyleExtensions.SetPadding(UnityEngine.UIElements.IStyle,System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})
+  langs:
+  - csharp
+  - vb
+  name: StyleExtensions
+  nameWithType: StyleExtensions
+  fullName: AdvancedSceneManager.Editor.Utility.StyleExtensions
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/StyleExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: StyleExtensions
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/StyleExtensions.cs
+    startLine: 6
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static class StyleExtensions
+    content.vb: Public Module StyleExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderWidth(UnityEngine.UIElements.IStyle,System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})
+  commentId: M:AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderWidth(UnityEngine.UIElements.IStyle,System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})
+  id: SetBorderWidth(UnityEngine.UIElements.IStyle,System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Editor.Utility.StyleExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetBorderWidth(IStyle, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>)
+  nameWithType: StyleExtensions.SetBorderWidth(IStyle, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>)
+  fullName: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderWidth(UnityEngine.UIElements.IStyle, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/StyleExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SetBorderWidth
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/StyleExtensions.cs
+    startLine: 9
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static void SetBorderWidth(this IStyle style, float? all = null, float? vertical = null, float? horizontal = null, float? left = null, float? right = null, float? top = null, float? bottom = null)
+    parameters:
+    - id: style
+      type: UnityEngine.UIElements.IStyle
+    - id: all
+      type: System.Nullable{System.Single}
+    - id: vertical
+      type: System.Nullable{System.Single}
+    - id: horizontal
+      type: System.Nullable{System.Single}
+    - id: left
+      type: System.Nullable{System.Single}
+    - id: right
+      type: System.Nullable{System.Single}
+    - id: top
+      type: System.Nullable{System.Single}
+    - id: bottom
+      type: System.Nullable{System.Single}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetBorderWidth(style As IStyle, all As Single? = Nothing, vertical As Single? = Nothing, horizontal As Single? = Nothing, left As Single? = Nothing, right As Single? = Nothing, top As Single? = Nothing, bottom As Single? = Nothing)
+  overload: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderWidth*
+  nameWithType.vb: StyleExtensions.SetBorderWidth(IStyle, Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderWidth(UnityEngine.UIElements.IStyle, System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single))
+  name.vb: SetBorderWidth(IStyle, Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single))
+- uid: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderColor(UnityEngine.UIElements.IStyle,System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color})
+  commentId: M:AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderColor(UnityEngine.UIElements.IStyle,System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color})
+  id: SetBorderColor(UnityEngine.UIElements.IStyle,System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color})
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Editor.Utility.StyleExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetBorderColor(IStyle, Nullable<Color>, Nullable<Color>, Nullable<Color>, Nullable<Color>, Nullable<Color>, Nullable<Color>, Nullable<Color>)
+  nameWithType: StyleExtensions.SetBorderColor(IStyle, Nullable<Color>, Nullable<Color>, Nullable<Color>, Nullable<Color>, Nullable<Color>, Nullable<Color>, Nullable<Color>)
+  fullName: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderColor(UnityEngine.UIElements.IStyle, System.Nullable<UnityEngine.Color>, System.Nullable<UnityEngine.Color>, System.Nullable<UnityEngine.Color>, System.Nullable<UnityEngine.Color>, System.Nullable<UnityEngine.Color>, System.Nullable<UnityEngine.Color>, System.Nullable<UnityEngine.Color>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/StyleExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SetBorderColor
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/StyleExtensions.cs
+    startLine: 24
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static void SetBorderColor(this IStyle style, Color? all = null, Color? vertical = null, Color? horizontal = null, Color? left = null, Color? right = null, Color? top = null, Color? bottom = null)
+    parameters:
+    - id: style
+      type: UnityEngine.UIElements.IStyle
+    - id: all
+      type: System.Nullable{UnityEngine.Color}
+    - id: vertical
+      type: System.Nullable{UnityEngine.Color}
+    - id: horizontal
+      type: System.Nullable{UnityEngine.Color}
+    - id: left
+      type: System.Nullable{UnityEngine.Color}
+    - id: right
+      type: System.Nullable{UnityEngine.Color}
+    - id: top
+      type: System.Nullable{UnityEngine.Color}
+    - id: bottom
+      type: System.Nullable{UnityEngine.Color}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetBorderColor(style As IStyle, all As Color? = Nothing, vertical As Color? = Nothing, horizontal As Color? = Nothing, left As Color? = Nothing, right As Color? = Nothing, top As Color? = Nothing, bottom As Color? = Nothing)
+  overload: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderColor*
+  nameWithType.vb: StyleExtensions.SetBorderColor(IStyle, Nullable(Of Color), Nullable(Of Color), Nullable(Of Color), Nullable(Of Color), Nullable(Of Color), Nullable(Of Color), Nullable(Of Color))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderColor(UnityEngine.UIElements.IStyle, System.Nullable(Of UnityEngine.Color), System.Nullable(Of UnityEngine.Color), System.Nullable(Of UnityEngine.Color), System.Nullable(Of UnityEngine.Color), System.Nullable(Of UnityEngine.Color), System.Nullable(Of UnityEngine.Color), System.Nullable(Of UnityEngine.Color))
+  name.vb: SetBorderColor(IStyle, Nullable(Of Color), Nullable(Of Color), Nullable(Of Color), Nullable(Of Color), Nullable(Of Color), Nullable(Of Color), Nullable(Of Color))
+- uid: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetMargin(UnityEngine.UIElements.IStyle,System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})
+  commentId: M:AdvancedSceneManager.Editor.Utility.StyleExtensions.SetMargin(UnityEngine.UIElements.IStyle,System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})
+  id: SetMargin(UnityEngine.UIElements.IStyle,System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Editor.Utility.StyleExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetMargin(IStyle, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>)
+  nameWithType: StyleExtensions.SetMargin(IStyle, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>)
+  fullName: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetMargin(UnityEngine.UIElements.IStyle, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/StyleExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SetMargin
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/StyleExtensions.cs
+    startLine: 39
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static void SetMargin(this IStyle style, float? all = null, float? vertical = null, float? horizontal = null, float? left = null, float? right = null, float? top = null, float? bottom = null)
+    parameters:
+    - id: style
+      type: UnityEngine.UIElements.IStyle
+    - id: all
+      type: System.Nullable{System.Single}
+    - id: vertical
+      type: System.Nullable{System.Single}
+    - id: horizontal
+      type: System.Nullable{System.Single}
+    - id: left
+      type: System.Nullable{System.Single}
+    - id: right
+      type: System.Nullable{System.Single}
+    - id: top
+      type: System.Nullable{System.Single}
+    - id: bottom
+      type: System.Nullable{System.Single}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetMargin(style As IStyle, all As Single? = Nothing, vertical As Single? = Nothing, horizontal As Single? = Nothing, left As Single? = Nothing, right As Single? = Nothing, top As Single? = Nothing, bottom As Single? = Nothing)
+  overload: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetMargin*
+  nameWithType.vb: StyleExtensions.SetMargin(IStyle, Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetMargin(UnityEngine.UIElements.IStyle, System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single))
+  name.vb: SetMargin(IStyle, Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single))
+- uid: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetPadding(UnityEngine.UIElements.IStyle,System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})
+  commentId: M:AdvancedSceneManager.Editor.Utility.StyleExtensions.SetPadding(UnityEngine.UIElements.IStyle,System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})
+  id: SetPadding(UnityEngine.UIElements.IStyle,System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Editor.Utility.StyleExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetPadding(IStyle, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>)
+  nameWithType: StyleExtensions.SetPadding(IStyle, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>, Nullable<Single>)
+  fullName: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetPadding(UnityEngine.UIElements.IStyle, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>, System.Nullable<System.Single>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/StyleExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SetPadding
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/StyleExtensions.cs
+    startLine: 54
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static void SetPadding(this IStyle style, float? all = null, float? vertical = null, float? horizontal = null, float? left = null, float? right = null, float? top = null, float? bottom = null)
+    parameters:
+    - id: style
+      type: UnityEngine.UIElements.IStyle
+    - id: all
+      type: System.Nullable{System.Single}
+    - id: vertical
+      type: System.Nullable{System.Single}
+    - id: horizontal
+      type: System.Nullable{System.Single}
+    - id: left
+      type: System.Nullable{System.Single}
+    - id: right
+      type: System.Nullable{System.Single}
+    - id: top
+      type: System.Nullable{System.Single}
+    - id: bottom
+      type: System.Nullable{System.Single}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetPadding(style As IStyle, all As Single? = Nothing, vertical As Single? = Nothing, horizontal As Single? = Nothing, left As Single? = Nothing, right As Single? = Nothing, top As Single? = Nothing, bottom As Single? = Nothing)
+  overload: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetPadding*
+  nameWithType.vb: StyleExtensions.SetPadding(IStyle, Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetPadding(UnityEngine.UIElements.IStyle, System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single), System.Nullable(Of System.Single))
+  name.vb: SetPadding(IStyle, Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single), Nullable(Of Single))
+references:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderWidth*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderWidth
+  name: SetBorderWidth
+  nameWithType: StyleExtensions.SetBorderWidth
+  fullName: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderWidth
+- uid: UnityEngine.UIElements.IStyle
+  commentId: T:UnityEngine.UIElements.IStyle
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: IStyle
+  nameWithType: IStyle
+  fullName: UnityEngine.UIElements.IStyle
+- uid: System.Nullable{System.Single}
+  commentId: T:System.Nullable{System.Single}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Single>
+  nameWithType: Nullable<Single>
+  fullName: System.Nullable<System.Single>
+  nameWithType.vb: Nullable(Of Single)
+  fullName.vb: System.Nullable(Of System.Single)
+  name.vb: Nullable(Of Single)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderColor*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderColor
+  name: SetBorderColor
+  nameWithType: StyleExtensions.SetBorderColor
+  fullName: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetBorderColor
+- uid: System.Nullable{UnityEngine.Color}
+  commentId: T:System.Nullable{UnityEngine.Color}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Color>
+  nameWithType: Nullable<Color>
+  fullName: System.Nullable<UnityEngine.Color>
+  nameWithType.vb: Nullable(Of Color)
+  fullName.vb: System.Nullable(Of UnityEngine.Color)
+  name.vb: Nullable(Of Color)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Color
+    name: Color
+    nameWithType: Color
+    fullName: UnityEngine.Color
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Color
+    name: Color
+    nameWithType: Color
+    fullName: UnityEngine.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetMargin*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.StyleExtensions.SetMargin
+  name: SetMargin
+  nameWithType: StyleExtensions.SetMargin
+  fullName: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetMargin
+- uid: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetPadding*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.StyleExtensions.SetPadding
+  name: SetPadding
+  nameWithType: StyleExtensions.SetPadding
+  fullName: AdvancedSceneManager.Editor.Utility.StyleExtensions.SetPadding

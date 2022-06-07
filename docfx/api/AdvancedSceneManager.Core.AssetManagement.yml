@@ -1,0 +1,1391 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Core.AssetManagement
+  commentId: T:AdvancedSceneManager.Core.AssetManagement
+  id: AssetManagement
+  parent: AdvancedSceneManager.Core
+  children:
+  - AdvancedSceneManager.Core.AssetManagement.Add(UnityEditor.SceneAsset,System.Boolean)
+  - AdvancedSceneManager.Core.AssetManagement.Add``1(``0,AdvancedSceneManager.Models.Profile,System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Core.AssetManagement.AddCollectionToProfile(AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Profile)
+  - AdvancedSceneManager.Core.AssetManagement.allowAutoRefresh
+  - AdvancedSceneManager.Core.AssetManagement.AssetsChanged
+  - AdvancedSceneManager.Core.AssetManagement.AssetsCleared
+  - AdvancedSceneManager.Core.AssetManagement.Clear
+  - AdvancedSceneManager.Core.AssetManagement.collections
+  - AdvancedSceneManager.Core.AssetManagement.Create``1(System.String,AdvancedSceneManager.Models.Profile,System.Action{``0},System.Boolean)
+  - AdvancedSceneManager.Core.AssetManagement.Create``1(System.String,System.Action{``0},System.Boolean)
+  - AdvancedSceneManager.Core.AssetManagement.CreateProfile(System.String,System.Boolean)
+  - AdvancedSceneManager.Core.AssetManagement.CreateProfileAndAssign(System.Boolean)
+  - AdvancedSceneManager.Core.AssetManagement.DuplicateProfile
+  - AdvancedSceneManager.Core.AssetManagement.DuplicateProfileAndAssign
+  - AdvancedSceneManager.Core.AssetManagement.FindAssetByID``1(System.String)
+  - AdvancedSceneManager.Core.AssetManagement.FindAssetByPath``1(System.String)
+  - AdvancedSceneManager.Core.AssetManagement.FindSceneByPath(System.String)
+  - AdvancedSceneManager.Core.AssetManagement.Ignore(System.String)
+  - AdvancedSceneManager.Core.AssetManagement.IsIgnored(System.String)
+  - AdvancedSceneManager.Core.AssetManagement.profiles
+  - AdvancedSceneManager.Core.AssetManagement.Remove``1(``0)
+  - AdvancedSceneManager.Core.AssetManagement.Rename``1(``0,System.String)
+  - AdvancedSceneManager.Core.AssetManagement.scenes
+  langs:
+  - csharp
+  - vb
+  name: AssetManagement
+  nameWithType: AssetManagement
+  fullName: AdvancedSceneManager.Core.AssetManagement
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: AssetManagement
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 24
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Manages assets related to ASM.
+  example: []
+  syntax:
+    content: public class AssetManagement
+    content.vb: Public Class AssetManagement
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Core.AssetManagement.collections
+  commentId: P:AdvancedSceneManager.Core.AssetManagement.collections
+  id: collections
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: collections
+  nameWithType: AssetManagement.collections
+  fullName: AdvancedSceneManager.Core.AssetManagement.collections
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: collections
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 44
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: The collections in this project.
+  example: []
+  syntax:
+    content: public ReadOnlyCollection<SceneCollection> collections { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Models.SceneCollection}
+    content.vb: Public ReadOnly Property collections As ReadOnlyCollection(Of SceneCollection)
+  overload: AdvancedSceneManager.Core.AssetManagement.collections*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.AssetManagement.scenes
+  commentId: P:AdvancedSceneManager.Core.AssetManagement.scenes
+  id: scenes
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: scenes
+  nameWithType: AssetManagement.scenes
+  fullName: AdvancedSceneManager.Core.AssetManagement.scenes
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: scenes
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 47
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: The scenes in this project.
+  example: []
+  syntax:
+    content: public ReadOnlyCollection<Scene> scenes { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Models.Scene}
+    content.vb: Public ReadOnly Property scenes As ReadOnlyCollection(Of Scene)
+  overload: AdvancedSceneManager.Core.AssetManagement.scenes*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.AssetManagement.profiles
+  commentId: P:AdvancedSceneManager.Core.AssetManagement.profiles
+  id: profiles
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: profiles
+  nameWithType: AssetManagement.profiles
+  fullName: AdvancedSceneManager.Core.AssetManagement.profiles
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: profiles
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 50
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: The scenes in this project.
+  example: []
+  syntax:
+    content: public ReadOnlyCollection<Profile> profiles { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Models.Profile}
+    content.vb: Public ReadOnly Property profiles As ReadOnlyCollection(Of Profile)
+  overload: AdvancedSceneManager.Core.AssetManagement.profiles*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Core.AssetManagement.AssetsChanged
+  commentId: E:AdvancedSceneManager.Core.AssetManagement.AssetsChanged
+  id: AssetsChanged
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: AssetsChanged
+  nameWithType: AssetManagement.AssetsChanged
+  fullName: AdvancedSceneManager.Core.AssetManagement.AssetsChanged
+  type: Event
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: AssetsChanged
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 53
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Called when assets changed.
+  example: []
+  syntax:
+    content: public event Action AssetsChanged
+    return:
+      type: System.Action
+    content.vb: Public Event AssetsChanged As Action
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.AssetManagement.AssetsCleared
+  commentId: E:AdvancedSceneManager.Core.AssetManagement.AssetsCleared
+  id: AssetsCleared
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: AssetsCleared
+  nameWithType: AssetManagement.AssetsCleared
+  fullName: AdvancedSceneManager.Core.AssetManagement.AssetsCleared
+  type: Event
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: AssetsCleared
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 56
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Called when assets are cleared, by either <xref href="AdvancedSceneManager.Core.AssetManagement.Clear" data-throw-if-not-resolved="false"></xref> or from ui.
+  example: []
+  syntax:
+    content: public event Action AssetsCleared
+    return:
+      type: System.Action
+    content.vb: Public Event AssetsCleared As Action
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.AssetManagement.allowAutoRefresh
+  commentId: P:AdvancedSceneManager.Core.AssetManagement.allowAutoRefresh
+  id: allowAutoRefresh
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: allowAutoRefresh
+  nameWithType: AssetManagement.allowAutoRefresh
+  fullName: AdvancedSceneManager.Core.AssetManagement.allowAutoRefresh
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: allowAutoRefresh
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 59
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: If <xref uid="langword_csharp_false" name="false" href=""></xref>, then assets will not be refreshed, this will mean that no Scene ScriptableObject will be created when a SceneAsset added, and a Scene will also not be removed when its associated SceneAsset is removed.
+  example: []
+  syntax:
+    content: public bool allowAutoRefresh { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property allowAutoRefresh As Boolean
+  overload: AdvancedSceneManager.Core.AssetManagement.allowAutoRefresh*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.AssetManagement.Rename``1(``0,System.String)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.Rename``1(``0,System.String)
+  id: Rename``1(``0,System.String)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: Rename<T>(T, String)
+  nameWithType: AssetManagement.Rename<T>(T, String)
+  fullName: AdvancedSceneManager.Core.AssetManagement.Rename<T>(T, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Rename
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 62
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Renames the <xref href="AdvancedSceneManager.Models.Scene" data-throw-if-not-resolved="false"></xref> or <xref href="AdvancedSceneManager.Models.SceneCollection" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      public void Rename<T>(T obj, string newName)
+          where T : ScriptableObject, ISceneObject
+    parameters:
+    - id: obj
+      type: '{T}'
+    - id: newName
+      type: System.String
+    typeParameters:
+    - id: T
+    content.vb: Public Sub Rename(Of T As {ScriptableObject, ISceneObject})(obj As T, newName As String)
+  overload: AdvancedSceneManager.Core.AssetManagement.Rename*
+  nameWithType.vb: AssetManagement.Rename(Of T)(T, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.AssetManagement.Rename(Of T)(T, System.String)
+  name.vb: Rename(Of T)(T, String)
+- uid: AdvancedSceneManager.Core.AssetManagement.Ignore(System.String)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.Ignore(System.String)
+  id: Ignore(System.String)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: Ignore(String)
+  nameWithType: AssetManagement.Ignore(String)
+  fullName: AdvancedSceneManager.Core.AssetManagement.Ignore(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Ignore
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 120
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Ignores the scene at the specified path.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public void Ignore(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Sub Ignore(path As String)
+  overload: AdvancedSceneManager.Core.AssetManagement.Ignore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.AssetManagement.IsIgnored(System.String)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.IsIgnored(System.String)
+  id: IsIgnored(System.String)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: IsIgnored(String)
+  nameWithType: AssetManagement.IsIgnored(String)
+  fullName: AdvancedSceneManager.Core.AssetManagement.IsIgnored(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IsIgnored
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 128
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Gets if the scene should be ignored.
+  remarks: Only available in editor.
+  example: []
+  syntax:
+    content: public bool IsIgnored(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsIgnored(path As String) As Boolean
+  overload: AdvancedSceneManager.Core.AssetManagement.IsIgnored*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.AssetManagement.FindSceneByPath(System.String)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.FindSceneByPath(System.String)
+  id: FindSceneByPath(System.String)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: FindSceneByPath(String)
+  nameWithType: AssetManagement.FindSceneByPath(String)
+  fullName: AdvancedSceneManager.Core.AssetManagement.FindSceneByPath(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FindSceneByPath
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 133
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Find the <xref href="AdvancedSceneManager.Models.Scene" data-throw-if-not-resolved="false"></xref> with the associated path (this is the path to the <xref href="UnityEditor.SceneAsset" data-throw-if-not-resolved="false"></xref>).
+  example: []
+  syntax:
+    content: public Scene FindSceneByPath(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: Public Function FindSceneByPath(path As String) As Scene
+  overload: AdvancedSceneManager.Core.AssetManagement.FindSceneByPath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.AssetManagement.DuplicateProfileAndAssign
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.DuplicateProfileAndAssign
+  id: DuplicateProfileAndAssign
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: DuplicateProfileAndAssign()
+  nameWithType: AssetManagement.DuplicateProfileAndAssign()
+  fullName: AdvancedSceneManager.Core.AssetManagement.DuplicateProfileAndAssign()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DuplicateProfileAndAssign
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 141
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Duplicates active profile and assigns it as active.
+  example: []
+  syntax:
+    content: public void DuplicateProfileAndAssign()
+    content.vb: Public Sub DuplicateProfileAndAssign
+  overload: AdvancedSceneManager.Core.AssetManagement.DuplicateProfileAndAssign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.AssetManagement.CreateProfileAndAssign(System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.CreateProfileAndAssign(System.Boolean)
+  id: CreateProfileAndAssign(System.Boolean)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: CreateProfileAndAssign(Boolean)
+  nameWithType: AssetManagement.CreateProfileAndAssign(Boolean)
+  fullName: AdvancedSceneManager.Core.AssetManagement.CreateProfileAndAssign(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CreateProfileAndAssign
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 149
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Creates a new profile and assigns it as active.
+  example: []
+  syntax:
+    content: public void CreateProfileAndAssign(bool promptBlacklist = true)
+    parameters:
+    - id: promptBlacklist
+      type: System.Boolean
+    content.vb: Public Sub CreateProfileAndAssign(promptBlacklist As Boolean = True)
+  overload: AdvancedSceneManager.Core.AssetManagement.CreateProfileAndAssign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.AssetManagement.DuplicateProfile
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.DuplicateProfile
+  id: DuplicateProfile
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: DuplicateProfile()
+  nameWithType: AssetManagement.DuplicateProfile()
+  fullName: AdvancedSceneManager.Core.AssetManagement.DuplicateProfile()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DuplicateProfile
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 157
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Duplicates the active profile.
+  example: []
+  syntax:
+    content: public Profile DuplicateProfile()
+    return:
+      type: AdvancedSceneManager.Models.Profile
+    content.vb: Public Function DuplicateProfile As Profile
+  overload: AdvancedSceneManager.Core.AssetManagement.DuplicateProfile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.AssetManagement.CreateProfile(System.String,System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.CreateProfile(System.String,System.Boolean)
+  id: CreateProfile(System.String,System.Boolean)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: CreateProfile(String, Boolean)
+  nameWithType: AssetManagement.CreateProfile(String, Boolean)
+  fullName: AdvancedSceneManager.Core.AssetManagement.CreateProfile(System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CreateProfile
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 186
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Create a new profile.
+  example: []
+  syntax:
+    content: public Profile CreateProfile(string name = null, bool promptBlacklist = true)
+    parameters:
+    - id: name
+      type: System.String
+    - id: promptBlacklist
+      type: System.Boolean
+    return:
+      type: AdvancedSceneManager.Models.Profile
+    content.vb: Public Function CreateProfile(name As String = Nothing, promptBlacklist As Boolean = True) As Profile
+  overload: AdvancedSceneManager.Core.AssetManagement.CreateProfile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.AssetManagement.FindAssetByID``1(System.String)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.FindAssetByID``1(System.String)
+  id: FindAssetByID``1(System.String)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: FindAssetByID<T>(String)
+  nameWithType: AssetManagement.FindAssetByID<T>(String)
+  fullName: AdvancedSceneManager.Core.AssetManagement.FindAssetByID<T>(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FindAssetByID
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 303
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Find the <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> with the associated asset ID.
+  example: []
+  syntax:
+    content: >-
+      public T FindAssetByID<T>(string assetID)
+          where T : Object
+    parameters:
+    - id: assetID
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function FindAssetByID(Of T As Object)(assetID As String) As T
+  overload: AdvancedSceneManager.Core.AssetManagement.FindAssetByID*
+  nameWithType.vb: AssetManagement.FindAssetByID(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.AssetManagement.FindAssetByID(Of T)(System.String)
+  name.vb: FindAssetByID(Of T)(String)
+- uid: AdvancedSceneManager.Core.AssetManagement.FindAssetByPath``1(System.String)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.FindAssetByPath``1(System.String)
+  id: FindAssetByPath``1(System.String)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: FindAssetByPath<T>(String)
+  nameWithType: AssetManagement.FindAssetByPath<T>(String)
+  fullName: AdvancedSceneManager.Core.AssetManagement.FindAssetByPath<T>(System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FindAssetByPath
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 307
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Find the <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> with the specified path.
+  example: []
+  syntax:
+    content: >-
+      public T FindAssetByPath<T>(string path)
+          where T : Object
+    parameters:
+    - id: path
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function FindAssetByPath(Of T As Object)(path As String) As T
+  overload: AdvancedSceneManager.Core.AssetManagement.FindAssetByPath*
+  nameWithType.vb: AssetManagement.FindAssetByPath(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.AssetManagement.FindAssetByPath(Of T)(System.String)
+  name.vb: FindAssetByPath(Of T)(String)
+- uid: AdvancedSceneManager.Core.AssetManagement.Add``1(``0,AdvancedSceneManager.Models.Profile,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.Add``1(``0,AdvancedSceneManager.Models.Profile,System.Boolean,System.Boolean)
+  id: Add``1(``0,AdvancedSceneManager.Models.Profile,System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: Add<T>(T, Profile, Boolean, Boolean)
+  nameWithType: AssetManagement.Add<T>(T, Profile, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Core.AssetManagement.Add<T>(T, AdvancedSceneManager.Models.Profile, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Add
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 342
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Adds the asset.
+  example: []
+  syntax:
+    content: >-
+      public void Add<T>(T obj, Profile profile = null, bool import = true, bool ignoreBlacklist = false)
+          where T : ScriptableObject, ISceneObject
+    parameters:
+    - id: obj
+      type: '{T}'
+    - id: profile
+      type: AdvancedSceneManager.Models.Profile
+    - id: import
+      type: System.Boolean
+    - id: ignoreBlacklist
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    content.vb: Public Sub Add(Of T As {ScriptableObject, ISceneObject})(obj As T, profile As Profile = Nothing, import As Boolean = True, ignoreBlacklist As Boolean = False)
+  overload: AdvancedSceneManager.Core.AssetManagement.Add*
+  nameWithType.vb: AssetManagement.Add(Of T)(T, Profile, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.AssetManagement.Add(Of T)(T, AdvancedSceneManager.Models.Profile, System.Boolean, System.Boolean)
+  name.vb: Add(Of T)(T, Profile, Boolean, Boolean)
+- uid: AdvancedSceneManager.Core.AssetManagement.Remove``1(``0)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.Remove``1(``0)
+  id: Remove``1(``0)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: Remove<T>(T)
+  nameWithType: AssetManagement.Remove<T>(T)
+  fullName: AdvancedSceneManager.Core.AssetManagement.Remove<T>(T)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Remove
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 368
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Removes the asset.
+  example: []
+  syntax:
+    content: >-
+      public void Remove<T>(T obj)
+          where T : ScriptableObject, ISceneObject
+    parameters:
+    - id: obj
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub Remove(Of T As {ScriptableObject, ISceneObject})(obj As T)
+  overload: AdvancedSceneManager.Core.AssetManagement.Remove*
+  nameWithType.vb: AssetManagement.Remove(Of T)(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.AssetManagement.Remove(Of T)(T)
+  name.vb: Remove(Of T)(T)
+- uid: AdvancedSceneManager.Core.AssetManagement.AddCollectionToProfile(AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Profile)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.AddCollectionToProfile(AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Profile)
+  id: AddCollectionToProfile(AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Profile)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: AddCollectionToProfile(SceneCollection, Profile)
+  nameWithType: AssetManagement.AddCollectionToProfile(SceneCollection, Profile)
+  fullName: AdvancedSceneManager.Core.AssetManagement.AddCollectionToProfile(AdvancedSceneManager.Models.SceneCollection, AdvancedSceneManager.Models.Profile)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: AddCollectionToProfile
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 396
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Adds the collection to the profile.
+  remarks: This removes collection from profile, if already associated with one.
+  example: []
+  syntax:
+    content: public void AddCollectionToProfile(SceneCollection collection, Profile profile)
+    parameters:
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    - id: profile
+      type: AdvancedSceneManager.Models.Profile
+    content.vb: Public Sub AddCollectionToProfile(collection As SceneCollection, profile As Profile)
+  overload: AdvancedSceneManager.Core.AssetManagement.AddCollectionToProfile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.AssetManagement.Add(UnityEditor.SceneAsset,System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.Add(UnityEditor.SceneAsset,System.Boolean)
+  id: Add(UnityEditor.SceneAsset,System.Boolean)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: Add(SceneAsset, Boolean)
+  nameWithType: AssetManagement.Add(SceneAsset, Boolean)
+  fullName: AdvancedSceneManager.Core.AssetManagement.Add(UnityEditor.SceneAsset, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Add
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 442
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Adds the <xref href="UnityEditor.SceneAsset" data-throw-if-not-resolved="false"></xref> to asm. Returns existing <xref href="AdvancedSceneManager.Models.Scene" data-throw-if-not-resolved="false"></xref> if already exist.
+  remarks: Returns <xref uid="langword_csharp_null" name="null" href=""></xref> if scene has been added to <xref href="AdvancedSceneManager.Core.AssetManagement.Ignore(System.String)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Scene Add(SceneAsset asset, bool ignoreBlacklist = false)
+    parameters:
+    - id: asset
+      type: UnityEditor.SceneAsset
+    - id: ignoreBlacklist
+      type: System.Boolean
+    return:
+      type: AdvancedSceneManager.Models.Scene
+    content.vb: Public Function Add(asset As SceneAsset, ignoreBlacklist As Boolean = False) As Scene
+  overload: AdvancedSceneManager.Core.AssetManagement.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Core.AssetManagement.Create``1(System.String,System.Action{``0},System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.Create``1(System.String,System.Action{``0},System.Boolean)
+  id: Create``1(System.String,System.Action{``0},System.Boolean)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: Create<T>(String, Action<T>, Boolean)
+  nameWithType: AssetManagement.Create<T>(String, Action<T>, Boolean)
+  fullName: AdvancedSceneManager.Core.AssetManagement.Create<T>(System.String, System.Action<T>, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Create
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 460
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: >-
+      public T Create<T>(string name, Action<T> initializeBeforeSave = null, bool ignoreBlacklist = false)
+          where T : ScriptableObject, ISceneObject
+    parameters:
+    - id: name
+      type: System.String
+    - id: initializeBeforeSave
+      type: System.Action{{T}}
+    - id: ignoreBlacklist
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function Create(Of T As {ScriptableObject, ISceneObject})(name As String, initializeBeforeSave As Action(Of T) = Nothing, ignoreBlacklist As Boolean = False) As T
+  overload: AdvancedSceneManager.Core.AssetManagement.Create*
+  nameWithType.vb: AssetManagement.Create(Of T)(String, Action(Of T), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.AssetManagement.Create(Of T)(System.String, System.Action(Of T), System.Boolean)
+  name.vb: Create(Of T)(String, Action(Of T), Boolean)
+- uid: AdvancedSceneManager.Core.AssetManagement.Create``1(System.String,AdvancedSceneManager.Models.Profile,System.Action{``0},System.Boolean)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.Create``1(System.String,AdvancedSceneManager.Models.Profile,System.Action{``0},System.Boolean)
+  id: Create``1(System.String,AdvancedSceneManager.Models.Profile,System.Action{``0},System.Boolean)
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: Create<T>(String, Profile, Action<T>, Boolean)
+  nameWithType: AssetManagement.Create<T>(String, Profile, Action<T>, Boolean)
+  fullName: AdvancedSceneManager.Core.AssetManagement.Create<T>(System.String, AdvancedSceneManager.Models.Profile, System.Action<T>, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Create
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 464
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Create and add an asset.
+  example: []
+  syntax:
+    content: >-
+      public T Create<T>(string name, Profile profile = null, Action<T> initializeBeforeSave = null, bool ignoreBlacklist = false)
+          where T : ScriptableObject, ISceneObject
+    parameters:
+    - id: name
+      type: System.String
+    - id: profile
+      type: AdvancedSceneManager.Models.Profile
+    - id: initializeBeforeSave
+      type: System.Action{{T}}
+    - id: ignoreBlacklist
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function Create(Of T As {ScriptableObject, ISceneObject})(name As String, profile As Profile = Nothing, initializeBeforeSave As Action(Of T) = Nothing, ignoreBlacklist As Boolean = False) As T
+  overload: AdvancedSceneManager.Core.AssetManagement.Create*
+  nameWithType.vb: AssetManagement.Create(Of T)(String, Profile, Action(Of T), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Core.AssetManagement.Create(Of T)(System.String, AdvancedSceneManager.Models.Profile, System.Action(Of T), System.Boolean)
+  name.vb: Create(Of T)(String, Profile, Action(Of T), Boolean)
+- uid: AdvancedSceneManager.Core.AssetManagement.Clear
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.Clear
+  id: Clear
+  parent: AdvancedSceneManager.Core.AssetManagement
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: AssetManagement.Clear()
+  fullName: AdvancedSceneManager.Core.AssetManagement.Clear()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Clear
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/AssetManagement.cs
+    startLine: 492
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  summary: Clear assets.
+  example: []
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: AdvancedSceneManager.Core.AssetManagement.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Core.AssetManagement.collections*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.collections
+  name: collections
+  nameWithType: AssetManagement.collections
+  fullName: AdvancedSceneManager.Core.AssetManagement.collections
+- uid: System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Models.SceneCollection}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Models.SceneCollection}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  name: ReadOnlyCollection<SceneCollection>
+  nameWithType: ReadOnlyCollection<SceneCollection>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<AdvancedSceneManager.Models.SceneCollection>
+  nameWithType.vb: ReadOnlyCollection(Of SceneCollection)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of AdvancedSceneManager.Models.SceneCollection)
+  name.vb: ReadOnlyCollection(Of SceneCollection)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.SceneCollection
+    name: SceneCollection
+    nameWithType: SceneCollection
+    fullName: AdvancedSceneManager.Models.SceneCollection
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.SceneCollection
+    name: SceneCollection
+    nameWithType: SceneCollection
+    fullName: AdvancedSceneManager.Models.SceneCollection
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection`1
+  isExternal: true
+  name: ReadOnlyCollection<T>
+  nameWithType: ReadOnlyCollection<T>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
+  nameWithType.vb: ReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T)
+  name.vb: ReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+- uid: AdvancedSceneManager.Core.AssetManagement.scenes*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.scenes
+  name: scenes
+  nameWithType: AssetManagement.scenes
+  fullName: AdvancedSceneManager.Core.AssetManagement.scenes
+- uid: System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Models.Scene}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Models.Scene}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  name: ReadOnlyCollection<Scene>
+  nameWithType: ReadOnlyCollection<Scene>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<AdvancedSceneManager.Models.Scene>
+  nameWithType.vb: ReadOnlyCollection(Of Scene)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of AdvancedSceneManager.Models.Scene)
+  name.vb: ReadOnlyCollection(Of Scene)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.AssetManagement.profiles*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.profiles
+  name: profiles
+  nameWithType: AssetManagement.profiles
+  fullName: AdvancedSceneManager.Core.AssetManagement.profiles
+- uid: System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Models.Profile}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection{AdvancedSceneManager.Models.Profile}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  name: ReadOnlyCollection<Profile>
+  nameWithType: ReadOnlyCollection<Profile>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<AdvancedSceneManager.Models.Profile>
+  nameWithType.vb: ReadOnlyCollection(Of Profile)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of AdvancedSceneManager.Models.Profile)
+  name.vb: ReadOnlyCollection(Of Profile)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.Profile
+    name: Profile
+    nameWithType: Profile
+    fullName: AdvancedSceneManager.Models.Profile
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.Profile
+    name: Profile
+    nameWithType: Profile
+    fullName: AdvancedSceneManager.Models.Profile
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: AdvancedSceneManager.Core.AssetManagement.Clear
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.Clear
+  isExternal: true
+- uid: AdvancedSceneManager.Core.AssetManagement.allowAutoRefresh*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.allowAutoRefresh
+  name: allowAutoRefresh
+  nameWithType: AssetManagement.allowAutoRefresh
+  fullName: AdvancedSceneManager.Core.AssetManagement.allowAutoRefresh
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Models.Scene
+  commentId: T:AdvancedSceneManager.Models.Scene
+  parent: AdvancedSceneManager.Models
+  name: Scene
+  nameWithType: Scene
+  fullName: AdvancedSceneManager.Models.Scene
+- uid: AdvancedSceneManager.Models.SceneCollection
+  commentId: T:AdvancedSceneManager.Models.SceneCollection
+  parent: AdvancedSceneManager.Models
+  name: SceneCollection
+  nameWithType: SceneCollection
+  fullName: AdvancedSceneManager.Models.SceneCollection
+- uid: AdvancedSceneManager.Core.AssetManagement.Rename*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.Rename
+  name: Rename
+  nameWithType: AssetManagement.Rename
+  fullName: AdvancedSceneManager.Core.AssetManagement.Rename
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: AdvancedSceneManager.Core.AssetManagement.Ignore*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.Ignore
+  name: Ignore
+  nameWithType: AssetManagement.Ignore
+  fullName: AdvancedSceneManager.Core.AssetManagement.Ignore
+- uid: AdvancedSceneManager.Core.AssetManagement.IsIgnored*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.IsIgnored
+  name: IsIgnored
+  nameWithType: AssetManagement.IsIgnored
+  fullName: AdvancedSceneManager.Core.AssetManagement.IsIgnored
+- uid: UnityEditor.SceneAsset
+  commentId: T:UnityEditor.SceneAsset
+  parent: UnityEditor
+  isExternal: true
+  name: SceneAsset
+  nameWithType: SceneAsset
+  fullName: UnityEditor.SceneAsset
+- uid: AdvancedSceneManager.Core.AssetManagement.FindSceneByPath*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.FindSceneByPath
+  name: FindSceneByPath
+  nameWithType: AssetManagement.FindSceneByPath
+  fullName: AdvancedSceneManager.Core.AssetManagement.FindSceneByPath
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: AdvancedSceneManager.Core.AssetManagement.DuplicateProfileAndAssign*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.DuplicateProfileAndAssign
+  name: DuplicateProfileAndAssign
+  nameWithType: AssetManagement.DuplicateProfileAndAssign
+  fullName: AdvancedSceneManager.Core.AssetManagement.DuplicateProfileAndAssign
+- uid: AdvancedSceneManager.Core.AssetManagement.CreateProfileAndAssign*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.CreateProfileAndAssign
+  name: CreateProfileAndAssign
+  nameWithType: AssetManagement.CreateProfileAndAssign
+  fullName: AdvancedSceneManager.Core.AssetManagement.CreateProfileAndAssign
+- uid: AdvancedSceneManager.Core.AssetManagement.DuplicateProfile*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.DuplicateProfile
+  name: DuplicateProfile
+  nameWithType: AssetManagement.DuplicateProfile
+  fullName: AdvancedSceneManager.Core.AssetManagement.DuplicateProfile
+- uid: AdvancedSceneManager.Models.Profile
+  commentId: T:AdvancedSceneManager.Models.Profile
+  parent: AdvancedSceneManager.Models
+  name: Profile
+  nameWithType: Profile
+  fullName: AdvancedSceneManager.Models.Profile
+- uid: AdvancedSceneManager.Core.AssetManagement.CreateProfile*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.CreateProfile
+  name: CreateProfile
+  nameWithType: AssetManagement.CreateProfile
+  fullName: AdvancedSceneManager.Core.AssetManagement.CreateProfile
+- uid: AdvancedSceneManager.Core.AssetManagement.FindAssetByID*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.FindAssetByID
+  name: FindAssetByID
+  nameWithType: AssetManagement.FindAssetByID
+  fullName: AdvancedSceneManager.Core.AssetManagement.FindAssetByID
+- uid: AdvancedSceneManager.Core.AssetManagement.FindAssetByPath*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.FindAssetByPath
+  name: FindAssetByPath
+  nameWithType: AssetManagement.FindAssetByPath
+  fullName: AdvancedSceneManager.Core.AssetManagement.FindAssetByPath
+- uid: AdvancedSceneManager.Core.AssetManagement.Add*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.Add
+  name: Add
+  nameWithType: AssetManagement.Add
+  fullName: AdvancedSceneManager.Core.AssetManagement.Add
+- uid: AdvancedSceneManager.Core.AssetManagement.Remove*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.Remove
+  name: Remove
+  nameWithType: AssetManagement.Remove
+  fullName: AdvancedSceneManager.Core.AssetManagement.Remove
+- uid: AdvancedSceneManager.Core.AssetManagement.AddCollectionToProfile*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.AddCollectionToProfile
+  name: AddCollectionToProfile
+  nameWithType: AssetManagement.AddCollectionToProfile
+  fullName: AdvancedSceneManager.Core.AssetManagement.AddCollectionToProfile
+- uid: AdvancedSceneManager.Core.AssetManagement.Ignore(System.String)
+  commentId: M:AdvancedSceneManager.Core.AssetManagement.Ignore(System.String)
+  isExternal: true
+- uid: AdvancedSceneManager.Core.AssetManagement.Create*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.Create
+  name: Create
+  nameWithType: AssetManagement.Create
+  fullName: AdvancedSceneManager.Core.AssetManagement.Create
+- uid: System.Action{{T}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Core.AssetManagement.Clear*
+  commentId: Overload:AdvancedSceneManager.Core.AssetManagement.Clear
+  name: Clear
+  nameWithType: AssetManagement.Clear
+  fullName: AdvancedSceneManager.Core.AssetManagement.Clear

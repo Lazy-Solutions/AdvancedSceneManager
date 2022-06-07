@@ -1,0 +1,1737 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.PickTagPopup
+  commentId: T:AdvancedSceneManager.Editor.PickTagPopup
+  id: PickTagPopup
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.PickTagPopup.enableBorder
+  - AdvancedSceneManager.Editor.PickTagPopup.OnReopen(AdvancedSceneManager.Editor.PickTagPopup)
+  - AdvancedSceneManager.Editor.PickTagPopup.path
+  - AdvancedSceneManager.Editor.PickTagPopup.Refresh(AdvancedSceneManager.Models.SceneTag,System.Action{AdvancedSceneManager.Models.SceneTag})
+  langs:
+  - csharp
+  - vb
+  name: PickTagPopup
+  nameWithType: PickTagPopup
+  fullName: AdvancedSceneManager.Editor.PickTagPopup
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Popups/PickTagPopup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: PickTagPopup
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Popups/PickTagPopup.cs
+    startLine: 8
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: 'public class PickTagPopup : Popup<PickTagPopup>'
+    content.vb: >-
+      Public Class PickTagPopup
+          Inherits Popup(Of PickTagPopup)
+  inheritance:
+  - System.Object
+  - AdvancedSceneManager.Editor.Popup
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  inheritedMembers:
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.Reopen
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.CloseWithoutAnimation(System.Boolean)
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.Close
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.Close(System.Action)
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.OnClose
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.overlay
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.rootVisualElement
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.isMainContentLoaded
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.ReloadContent
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.hasBorder
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.offset
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.alignRight
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.placementTarget
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.parent
+  - AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.SetPosition
+  - AdvancedSceneManager.Editor.Popup.OnClosed
+  - AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Editor.PickTagPopup.path
+  commentId: P:AdvancedSceneManager.Editor.PickTagPopup.path
+  id: path
+  parent: AdvancedSceneManager.Editor.PickTagPopup
+  langs:
+  - csharp
+  - vb
+  name: path
+  nameWithType: PickTagPopup.path
+  fullName: AdvancedSceneManager.Editor.PickTagPopup.path
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Popups/PickTagPopup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: path
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Popups/PickTagPopup.cs
+    startLine: 11
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public override string path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property path As String
+  overridden: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.path
+  overload: AdvancedSceneManager.Editor.PickTagPopup.path*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.PickTagPopup.enableBorder
+  commentId: P:AdvancedSceneManager.Editor.PickTagPopup.enableBorder
+  id: enableBorder
+  parent: AdvancedSceneManager.Editor.PickTagPopup
+  langs:
+  - csharp
+  - vb
+  name: enableBorder
+  nameWithType: PickTagPopup.enableBorder
+  fullName: AdvancedSceneManager.Editor.PickTagPopup.enableBorder
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Popups/PickTagPopup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: enableBorder
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Popups/PickTagPopup.cs
+    startLine: 12
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: protected override bool enableBorder { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides ReadOnly Property enableBorder As Boolean
+  overridden: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.enableBorder
+  overload: AdvancedSceneManager.Editor.PickTagPopup.enableBorder*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.PickTagPopup.Refresh(AdvancedSceneManager.Models.SceneTag,System.Action{AdvancedSceneManager.Models.SceneTag})
+  commentId: M:AdvancedSceneManager.Editor.PickTagPopup.Refresh(AdvancedSceneManager.Models.SceneTag,System.Action{AdvancedSceneManager.Models.SceneTag})
+  id: Refresh(AdvancedSceneManager.Models.SceneTag,System.Action{AdvancedSceneManager.Models.SceneTag})
+  parent: AdvancedSceneManager.Editor.PickTagPopup
+  langs:
+  - csharp
+  - vb
+  name: Refresh(SceneTag, Action<SceneTag>)
+  nameWithType: PickTagPopup.Refresh(SceneTag, Action<SceneTag>)
+  fullName: AdvancedSceneManager.Editor.PickTagPopup.Refresh(AdvancedSceneManager.Models.SceneTag, System.Action<AdvancedSceneManager.Models.SceneTag>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Popups/PickTagPopup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Refresh
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Popups/PickTagPopup.cs
+    startLine: 17
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public void Refresh(SceneTag selected, Action<SceneTag> onSelected)
+    parameters:
+    - id: selected
+      type: AdvancedSceneManager.Models.SceneTag
+    - id: onSelected
+      type: System.Action{AdvancedSceneManager.Models.SceneTag}
+    content.vb: Public Sub Refresh(selected As SceneTag, onSelected As Action(Of SceneTag))
+  overload: AdvancedSceneManager.Editor.PickTagPopup.Refresh*
+  nameWithType.vb: PickTagPopup.Refresh(SceneTag, Action(Of SceneTag))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Editor.PickTagPopup.Refresh(AdvancedSceneManager.Models.SceneTag, System.Action(Of AdvancedSceneManager.Models.SceneTag))
+  name.vb: Refresh(SceneTag, Action(Of SceneTag))
+- uid: AdvancedSceneManager.Editor.PickTagPopup.OnReopen(AdvancedSceneManager.Editor.PickTagPopup)
+  commentId: M:AdvancedSceneManager.Editor.PickTagPopup.OnReopen(AdvancedSceneManager.Editor.PickTagPopup)
+  id: OnReopen(AdvancedSceneManager.Editor.PickTagPopup)
+  parent: AdvancedSceneManager.Editor.PickTagPopup
+  langs:
+  - csharp
+  - vb
+  name: OnReopen(PickTagPopup)
+  nameWithType: PickTagPopup.OnReopen(PickTagPopup)
+  fullName: AdvancedSceneManager.Editor.PickTagPopup.OnReopen(AdvancedSceneManager.Editor.PickTagPopup)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Popups/PickTagPopup.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnReopen
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Popups/PickTagPopup.cs
+    startLine: 39
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: protected override void OnReopen(PickTagPopup newPopup)
+    parameters:
+    - id: newPopup
+      type: AdvancedSceneManager.Editor.PickTagPopup
+    content.vb: Protected Overrides Sub OnReopen(newPopup As PickTagPopup)
+  overridden: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.OnReopen(AdvancedSceneManager.Editor.PickTagPopup)
+  overload: AdvancedSceneManager.Editor.PickTagPopup.OnReopen*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: AdvancedSceneManager.Editor.Popup
+  commentId: T:AdvancedSceneManager.Editor.Popup
+  parent: AdvancedSceneManager.Editor
+  name: Popup
+  nameWithType: Popup
+  fullName: AdvancedSceneManager.Editor.Popup
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  commentId: T:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  parent: AdvancedSceneManager.Editor
+  definition: AdvancedSceneManager.Editor.Popup`1
+  name: Popup<PickTagPopup>
+  nameWithType: Popup<PickTagPopup>
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>
+  nameWithType.vb: Popup(Of PickTagPopup)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup)
+  name.vb: Popup(Of PickTagPopup)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1
+    name: Popup
+    nameWithType: Popup
+    fullName: AdvancedSceneManager.Editor.Popup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Editor.PickTagPopup
+    name: PickTagPopup
+    nameWithType: PickTagPopup
+    fullName: AdvancedSceneManager.Editor.PickTagPopup
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1
+    name: Popup
+    nameWithType: Popup
+    fullName: AdvancedSceneManager.Editor.Popup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Editor.PickTagPopup
+    name: PickTagPopup
+    nameWithType: PickTagPopup
+    fullName: AdvancedSceneManager.Editor.PickTagPopup
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.Reopen
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.Reopen
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.Reopen
+  name: Reopen()
+  nameWithType: Popup<PickTagPopup>.Reopen()
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.Reopen()
+  nameWithType.vb: Popup(Of PickTagPopup).Reopen()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).Reopen()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Reopen
+    name: Reopen
+    nameWithType: Popup<PickTagPopup>.Reopen
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Reopen
+    name: Reopen
+    nameWithType: Popup(Of PickTagPopup).Reopen
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  name: Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  nameWithType: Popup<PickTagPopup>.Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.Open(UnityEngine.UIElements.VisualElement, AdvancedSceneManager.Editor.IUIToolkitEditor, System.Boolean, UnityEngine.Vector2, System.Boolean, System.Boolean)
+  nameWithType.vb: Popup(Of PickTagPopup).Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).Open(UnityEngine.UIElements.VisualElement, AdvancedSceneManager.Editor.IUIToolkitEditor, System.Boolean, UnityEngine.Vector2, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+    name: Open
+    nameWithType: Popup<PickTagPopup>.Open
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.IUIToolkitEditor
+    name: IUIToolkitEditor
+    nameWithType: IUIToolkitEditor
+    fullName: AdvancedSceneManager.Editor.IUIToolkitEditor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+    name: Open
+    nameWithType: Popup(Of PickTagPopup).Open
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.IUIToolkitEditor
+    name: IUIToolkitEditor
+    nameWithType: IUIToolkitEditor
+    fullName: AdvancedSceneManager.Editor.IUIToolkitEditor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.CloseWithoutAnimation(System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.CloseWithoutAnimation(System.Boolean)
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+  name: CloseWithoutAnimation(Boolean)
+  nameWithType: Popup<PickTagPopup>.CloseWithoutAnimation(Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.CloseWithoutAnimation(System.Boolean)
+  nameWithType.vb: Popup(Of PickTagPopup).CloseWithoutAnimation(Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).CloseWithoutAnimation(System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+    name: CloseWithoutAnimation
+    nameWithType: Popup<PickTagPopup>.CloseWithoutAnimation
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.CloseWithoutAnimation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+    name: CloseWithoutAnimation
+    nameWithType: Popup(Of PickTagPopup).CloseWithoutAnimation
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).CloseWithoutAnimation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.Close
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.Close
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.Close
+  name: Close()
+  nameWithType: Popup<PickTagPopup>.Close()
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.Close()
+  nameWithType.vb: Popup(Of PickTagPopup).Close()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).Close()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close
+    name: Close
+    nameWithType: Popup<PickTagPopup>.Close
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close
+    name: Close
+    nameWithType: Popup(Of PickTagPopup).Close
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.Close(System.Action)
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.Close(System.Action)
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+  name: Close(Action)
+  nameWithType: Popup<PickTagPopup>.Close(Action)
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.Close(System.Action)
+  nameWithType.vb: Popup(Of PickTagPopup).Close(Action)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).Close(System.Action)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+    name: Close
+    nameWithType: Popup<PickTagPopup>.Close
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+    name: Close
+    nameWithType: Popup(Of PickTagPopup).Close
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.OnClose
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.OnClose
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.OnClose
+  name: OnClose()
+  nameWithType: Popup<PickTagPopup>.OnClose()
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.OnClose()
+  nameWithType.vb: Popup(Of PickTagPopup).OnClose()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).OnClose()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnClose
+    name: OnClose
+    nameWithType: Popup<PickTagPopup>.OnClose
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnClose
+    name: OnClose
+    nameWithType: Popup(Of PickTagPopup).OnClose
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.overlay
+  commentId: F:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.overlay
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.overlay
+  name: overlay
+  nameWithType: Popup<PickTagPopup>.overlay
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.overlay
+  nameWithType.vb: Popup(Of PickTagPopup).overlay
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).overlay
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.rootVisualElement
+  commentId: F:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.rootVisualElement
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.rootVisualElement
+  name: rootVisualElement
+  nameWithType: Popup<PickTagPopup>.rootVisualElement
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.rootVisualElement
+  nameWithType.vb: Popup(Of PickTagPopup).rootVisualElement
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).rootVisualElement
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.isMainContentLoaded
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.isMainContentLoaded
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.isMainContentLoaded
+  name: isMainContentLoaded
+  nameWithType: Popup<PickTagPopup>.isMainContentLoaded
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.isMainContentLoaded
+  nameWithType.vb: Popup(Of PickTagPopup).isMainContentLoaded
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).isMainContentLoaded
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  name: LoadContent(String, VisualElement)
+  nameWithType: Popup<PickTagPopup>.LoadContent(String, VisualElement)
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  nameWithType.vb: Popup(Of PickTagPopup).LoadContent(String, VisualElement)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+    name: LoadContent
+    nameWithType: Popup<PickTagPopup>.LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+    name: LoadContent
+    nameWithType: Popup(Of PickTagPopup).LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  name: LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  nameWithType: Popup<PickTagPopup>.LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Popup(Of PickTagPopup).LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+    name: LoadContent
+    nameWithType: Popup<PickTagPopup>.LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+    name: LoadContent
+    nameWithType: Popup(Of PickTagPopup).LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.ReloadContent
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.ReloadContent
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.ReloadContent
+  name: ReloadContent()
+  nameWithType: Popup<PickTagPopup>.ReloadContent()
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.ReloadContent()
+  nameWithType.vb: Popup(Of PickTagPopup).ReloadContent()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).ReloadContent()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.ReloadContent
+    name: ReloadContent
+    nameWithType: Popup<PickTagPopup>.ReloadContent
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.ReloadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.ReloadContent
+    name: ReloadContent
+    nameWithType: Popup(Of PickTagPopup).ReloadContent
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).ReloadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.hasBorder
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.hasBorder
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.hasBorder
+  name: hasBorder
+  nameWithType: Popup<PickTagPopup>.hasBorder
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.hasBorder
+  nameWithType.vb: Popup(Of PickTagPopup).hasBorder
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).hasBorder
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.offset
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.offset
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.offset
+  name: offset
+  nameWithType: Popup<PickTagPopup>.offset
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.offset
+  nameWithType.vb: Popup(Of PickTagPopup).offset
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).offset
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.alignRight
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.alignRight
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.alignRight
+  name: alignRight
+  nameWithType: Popup<PickTagPopup>.alignRight
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.alignRight
+  nameWithType.vb: Popup(Of PickTagPopup).alignRight
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).alignRight
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.placementTarget
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.placementTarget
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.placementTarget
+  name: placementTarget
+  nameWithType: Popup<PickTagPopup>.placementTarget
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.placementTarget
+  nameWithType.vb: Popup(Of PickTagPopup).placementTarget
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).placementTarget
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.parent
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.parent
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.parent
+  name: parent
+  nameWithType: Popup<PickTagPopup>.parent
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.parent
+  nameWithType.vb: Popup(Of PickTagPopup).parent
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).parent
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.SetPosition
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.SetPosition
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.SetPosition
+  name: SetPosition()
+  nameWithType: Popup<PickTagPopup>.SetPosition()
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.SetPosition()
+  nameWithType.vb: Popup(Of PickTagPopup).SetPosition()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).SetPosition()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.SetPosition
+    name: SetPosition
+    nameWithType: Popup<PickTagPopup>.SetPosition
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.SetPosition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.SetPosition
+    name: SetPosition
+    nameWithType: Popup(Of PickTagPopup).SetPosition
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).SetPosition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup.OnClosed
+  commentId: E:AdvancedSceneManager.Editor.Popup.OnClosed
+  parent: AdvancedSceneManager.Editor.Popup
+  name: OnClosed
+  nameWithType: Popup.OnClosed
+  fullName: AdvancedSceneManager.Editor.Popup.OnClosed
+- uid: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  commentId: M:AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  parent: AdvancedSceneManager.Editor.Popup
+  name: RaiseOnClosed()
+  nameWithType: Popup.RaiseOnClosed()
+  fullName: AdvancedSceneManager.Editor.Popup.RaiseOnClosed()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+    name: RaiseOnClosed
+    nameWithType: Popup.RaiseOnClosed
+    fullName: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+    name: RaiseOnClosed
+    nameWithType: Popup.RaiseOnClosed
+    fullName: AdvancedSceneManager.Editor.Popup.RaiseOnClosed
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.Popup`1
+  commentId: T:AdvancedSceneManager.Editor.Popup`1
+  name: Popup<T>
+  nameWithType: Popup<T>
+  fullName: AdvancedSceneManager.Editor.Popup<T>
+  nameWithType.vb: Popup(Of T)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T)
+  name.vb: Popup(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1
+    name: Popup
+    nameWithType: Popup
+    fullName: AdvancedSceneManager.Editor.Popup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1
+    name: Popup
+    nameWithType: Popup
+    fullName: AdvancedSceneManager.Editor.Popup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.Reopen
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.Reopen
+  name: Reopen()
+  nameWithType: Popup<T>.Reopen()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Reopen()
+  nameWithType.vb: Popup(Of T).Reopen()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Reopen()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Reopen
+    name: Reopen
+    nameWithType: Popup<T>.Reopen
+    fullName: AdvancedSceneManager.Editor.Popup<T>.Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Reopen
+    name: Reopen
+    nameWithType: Popup(Of T).Reopen
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).Reopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+  isExternal: true
+  name: Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  nameWithType: Popup<T>.Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Open(UnityEngine.UIElements.VisualElement, AdvancedSceneManager.Editor.IUIToolkitEditor, System.Boolean, UnityEngine.Vector2, System.Boolean, System.Boolean)
+  nameWithType.vb: Popup(Of T).Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Open(UnityEngine.UIElements.VisualElement, AdvancedSceneManager.Editor.IUIToolkitEditor, System.Boolean, UnityEngine.Vector2, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+    name: Open
+    nameWithType: Popup<T>.Open
+    fullName: AdvancedSceneManager.Editor.Popup<T>.Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.IUIToolkitEditor
+    name: IUIToolkitEditor
+    nameWithType: IUIToolkitEditor
+    fullName: AdvancedSceneManager.Editor.IUIToolkitEditor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Open(UnityEngine.UIElements.VisualElement,AdvancedSceneManager.Editor.IUIToolkitEditor,System.Boolean,UnityEngine.Vector2,System.Boolean,System.Boolean)
+    name: Open
+    nameWithType: Popup(Of T).Open
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AdvancedSceneManager.Editor.IUIToolkitEditor
+    name: IUIToolkitEditor
+    nameWithType: IUIToolkitEditor
+    fullName: AdvancedSceneManager.Editor.IUIToolkitEditor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+  isExternal: true
+  name: CloseWithoutAnimation(Boolean)
+  nameWithType: Popup<T>.CloseWithoutAnimation(Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.CloseWithoutAnimation(System.Boolean)
+  nameWithType.vb: Popup(Of T).CloseWithoutAnimation(Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).CloseWithoutAnimation(System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+    name: CloseWithoutAnimation
+    nameWithType: Popup<T>.CloseWithoutAnimation
+    fullName: AdvancedSceneManager.Editor.Popup<T>.CloseWithoutAnimation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.CloseWithoutAnimation(System.Boolean)
+    name: CloseWithoutAnimation
+    nameWithType: Popup(Of T).CloseWithoutAnimation
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).CloseWithoutAnimation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.Close
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.Close
+  name: Close()
+  nameWithType: Popup<T>.Close()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Close()
+  nameWithType.vb: Popup(Of T).Close()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Close()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close
+    name: Close
+    nameWithType: Popup<T>.Close
+    fullName: AdvancedSceneManager.Editor.Popup<T>.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close
+    name: Close
+    nameWithType: Popup(Of T).Close
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+  isExternal: true
+  name: Close(Action)
+  nameWithType: Popup<T>.Close(Action)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.Close(System.Action)
+  nameWithType.vb: Popup(Of T).Close(Action)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).Close(System.Action)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+    name: Close
+    nameWithType: Popup<T>.Close
+    fullName: AdvancedSceneManager.Editor.Popup<T>.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.Close(System.Action)
+    name: Close
+    nameWithType: Popup(Of T).Close
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.OnClose
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.OnClose
+  name: OnClose()
+  nameWithType: Popup<T>.OnClose()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.OnClose()
+  nameWithType.vb: Popup(Of T).OnClose()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).OnClose()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnClose
+    name: OnClose
+    nameWithType: Popup<T>.OnClose
+    fullName: AdvancedSceneManager.Editor.Popup<T>.OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnClose
+    name: OnClose
+    nameWithType: Popup(Of T).OnClose
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).OnClose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.overlay
+  commentId: F:AdvancedSceneManager.Editor.Popup`1.overlay
+  name: overlay
+  nameWithType: Popup<T>.overlay
+  fullName: AdvancedSceneManager.Editor.Popup<T>.overlay
+  nameWithType.vb: Popup(Of T).overlay
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).overlay
+- uid: AdvancedSceneManager.Editor.Popup`1.rootVisualElement
+  commentId: F:AdvancedSceneManager.Editor.Popup`1.rootVisualElement
+  name: rootVisualElement
+  nameWithType: Popup<T>.rootVisualElement
+  fullName: AdvancedSceneManager.Editor.Popup<T>.rootVisualElement
+  nameWithType.vb: Popup(Of T).rootVisualElement
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).rootVisualElement
+- uid: AdvancedSceneManager.Editor.Popup`1.isMainContentLoaded
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.isMainContentLoaded
+  name: isMainContentLoaded
+  nameWithType: Popup<T>.isMainContentLoaded
+  fullName: AdvancedSceneManager.Editor.Popup<T>.isMainContentLoaded
+  nameWithType.vb: Popup(Of T).isMainContentLoaded
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).isMainContentLoaded
+- uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+  isExternal: true
+  name: LoadContent(String, VisualElement)
+  nameWithType: Popup<T>.LoadContent(String, VisualElement)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  nameWithType.vb: Popup(Of T).LoadContent(String, VisualElement)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).LoadContent(System.String, UnityEngine.UIElements.VisualElement)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+    name: LoadContent
+    nameWithType: Popup<T>.LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup<T>.LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement)
+    name: LoadContent
+    nameWithType: Popup(Of T).LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+  isExternal: true
+  name: LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  nameWithType: Popup<T>.LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Popup(Of T).LoadContent(String, VisualElement, Boolean, Boolean, Boolean)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).LoadContent(System.String, UnityEngine.UIElements.VisualElement, System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+    name: LoadContent
+    nameWithType: Popup<T>.LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup<T>.LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.LoadContent(System.String,UnityEngine.UIElements.VisualElement,System.Boolean,System.Boolean,System.Boolean)
+    name: LoadContent
+    nameWithType: Popup(Of T).LoadContent
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).LoadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.ReloadContent
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.ReloadContent
+  name: ReloadContent()
+  nameWithType: Popup<T>.ReloadContent()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.ReloadContent()
+  nameWithType.vb: Popup(Of T).ReloadContent()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).ReloadContent()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.ReloadContent
+    name: ReloadContent
+    nameWithType: Popup<T>.ReloadContent
+    fullName: AdvancedSceneManager.Editor.Popup<T>.ReloadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.ReloadContent
+    name: ReloadContent
+    nameWithType: Popup(Of T).ReloadContent
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).ReloadContent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup`1.hasBorder
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.hasBorder
+  name: hasBorder
+  nameWithType: Popup<T>.hasBorder
+  fullName: AdvancedSceneManager.Editor.Popup<T>.hasBorder
+  nameWithType.vb: Popup(Of T).hasBorder
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).hasBorder
+- uid: AdvancedSceneManager.Editor.Popup`1.offset
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.offset
+  name: offset
+  nameWithType: Popup<T>.offset
+  fullName: AdvancedSceneManager.Editor.Popup<T>.offset
+  nameWithType.vb: Popup(Of T).offset
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).offset
+- uid: AdvancedSceneManager.Editor.Popup`1.alignRight
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.alignRight
+  name: alignRight
+  nameWithType: Popup<T>.alignRight
+  fullName: AdvancedSceneManager.Editor.Popup<T>.alignRight
+  nameWithType.vb: Popup(Of T).alignRight
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).alignRight
+- uid: AdvancedSceneManager.Editor.Popup`1.placementTarget
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.placementTarget
+  name: placementTarget
+  nameWithType: Popup<T>.placementTarget
+  fullName: AdvancedSceneManager.Editor.Popup<T>.placementTarget
+  nameWithType.vb: Popup(Of T).placementTarget
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).placementTarget
+- uid: AdvancedSceneManager.Editor.Popup`1.parent
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.parent
+  name: parent
+  nameWithType: Popup<T>.parent
+  fullName: AdvancedSceneManager.Editor.Popup<T>.parent
+  nameWithType.vb: Popup(Of T).parent
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).parent
+- uid: AdvancedSceneManager.Editor.Popup`1.SetPosition
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.SetPosition
+  name: SetPosition()
+  nameWithType: Popup<T>.SetPosition()
+  fullName: AdvancedSceneManager.Editor.Popup<T>.SetPosition()
+  nameWithType.vb: Popup(Of T).SetPosition()
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).SetPosition()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.SetPosition
+    name: SetPosition
+    nameWithType: Popup<T>.SetPosition
+    fullName: AdvancedSceneManager.Editor.Popup<T>.SetPosition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.SetPosition
+    name: SetPosition
+    nameWithType: Popup(Of T).SetPosition
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).SetPosition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.path
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.path
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.path
+  name: path
+  nameWithType: Popup<PickTagPopup>.path
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.path
+  nameWithType.vb: Popup(Of PickTagPopup).path
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).path
+- uid: AdvancedSceneManager.Editor.PickTagPopup.path*
+  commentId: Overload:AdvancedSceneManager.Editor.PickTagPopup.path
+  name: path
+  nameWithType: PickTagPopup.path
+  fullName: AdvancedSceneManager.Editor.PickTagPopup.path
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Editor.Popup`1.path
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.path
+  name: path
+  nameWithType: Popup<T>.path
+  fullName: AdvancedSceneManager.Editor.Popup<T>.path
+  nameWithType.vb: Popup(Of T).path
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).path
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.enableBorder
+  commentId: P:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.enableBorder
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.enableBorder
+  name: enableBorder
+  nameWithType: Popup<PickTagPopup>.enableBorder
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.enableBorder
+  nameWithType.vb: Popup(Of PickTagPopup).enableBorder
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).enableBorder
+- uid: AdvancedSceneManager.Editor.PickTagPopup.enableBorder*
+  commentId: Overload:AdvancedSceneManager.Editor.PickTagPopup.enableBorder
+  name: enableBorder
+  nameWithType: PickTagPopup.enableBorder
+  fullName: AdvancedSceneManager.Editor.PickTagPopup.enableBorder
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: AdvancedSceneManager.Editor.Popup`1.enableBorder
+  commentId: P:AdvancedSceneManager.Editor.Popup`1.enableBorder
+  name: enableBorder
+  nameWithType: Popup<T>.enableBorder
+  fullName: AdvancedSceneManager.Editor.Popup<T>.enableBorder
+  nameWithType.vb: Popup(Of T).enableBorder
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).enableBorder
+- uid: AdvancedSceneManager.Editor.PickTagPopup.Refresh*
+  commentId: Overload:AdvancedSceneManager.Editor.PickTagPopup.Refresh
+  name: Refresh
+  nameWithType: PickTagPopup.Refresh
+  fullName: AdvancedSceneManager.Editor.PickTagPopup.Refresh
+- uid: AdvancedSceneManager.Models.SceneTag
+  commentId: T:AdvancedSceneManager.Models.SceneTag
+  parent: AdvancedSceneManager.Models
+  name: SceneTag
+  nameWithType: SceneTag
+  fullName: AdvancedSceneManager.Models.SceneTag
+- uid: System.Action{AdvancedSceneManager.Models.SceneTag}
+  commentId: T:System.Action{AdvancedSceneManager.Models.SceneTag}
+  parent: System
+  definition: System.Action`1
+  name: Action<SceneTag>
+  nameWithType: Action<SceneTag>
+  fullName: System.Action<AdvancedSceneManager.Models.SceneTag>
+  nameWithType.vb: Action(Of SceneTag)
+  fullName.vb: System.Action(Of AdvancedSceneManager.Models.SceneTag)
+  name.vb: Action(Of SceneTag)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Models.SceneTag
+    name: SceneTag
+    nameWithType: SceneTag
+    fullName: AdvancedSceneManager.Models.SceneTag
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Models.SceneTag
+    name: SceneTag
+    nameWithType: SceneTag
+    fullName: AdvancedSceneManager.Models.SceneTag
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.OnReopen(AdvancedSceneManager.Editor.PickTagPopup)
+  commentId: M:AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}.OnReopen(AdvancedSceneManager.Editor.PickTagPopup)
+  parent: AdvancedSceneManager.Editor.Popup{AdvancedSceneManager.Editor.PickTagPopup}
+  definition: AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+  name: OnReopen(PickTagPopup)
+  nameWithType: Popup<PickTagPopup>.OnReopen(PickTagPopup)
+  fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.OnReopen(AdvancedSceneManager.Editor.PickTagPopup)
+  nameWithType.vb: Popup(Of PickTagPopup).OnReopen(PickTagPopup)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).OnReopen(AdvancedSceneManager.Editor.PickTagPopup)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+    name: OnReopen
+    nameWithType: Popup<PickTagPopup>.OnReopen
+    fullName: AdvancedSceneManager.Editor.Popup<AdvancedSceneManager.Editor.PickTagPopup>.OnReopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Editor.PickTagPopup
+    name: PickTagPopup
+    nameWithType: PickTagPopup
+    fullName: AdvancedSceneManager.Editor.PickTagPopup
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+    name: OnReopen
+    nameWithType: Popup(Of PickTagPopup).OnReopen
+    fullName: AdvancedSceneManager.Editor.Popup(Of AdvancedSceneManager.Editor.PickTagPopup).OnReopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: AdvancedSceneManager.Editor.PickTagPopup
+    name: PickTagPopup
+    nameWithType: PickTagPopup
+    fullName: AdvancedSceneManager.Editor.PickTagPopup
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.PickTagPopup.OnReopen*
+  commentId: Overload:AdvancedSceneManager.Editor.PickTagPopup.OnReopen
+  name: OnReopen
+  nameWithType: PickTagPopup.OnReopen
+  fullName: AdvancedSceneManager.Editor.PickTagPopup.OnReopen
+- uid: AdvancedSceneManager.Editor.PickTagPopup
+  commentId: T:AdvancedSceneManager.Editor.PickTagPopup
+  parent: AdvancedSceneManager.Editor
+  name: PickTagPopup
+  nameWithType: PickTagPopup
+  fullName: AdvancedSceneManager.Editor.PickTagPopup
+- uid: AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+  commentId: M:AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+  name: OnReopen(T)
+  nameWithType: Popup<T>.OnReopen(T)
+  fullName: AdvancedSceneManager.Editor.Popup<T>.OnReopen(T)
+  nameWithType.vb: Popup(Of T).OnReopen(T)
+  fullName.vb: AdvancedSceneManager.Editor.Popup(Of T).OnReopen(T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+    name: OnReopen
+    nameWithType: Popup<T>.OnReopen
+    fullName: AdvancedSceneManager.Editor.Popup<T>.OnReopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.Popup`1.OnReopen(`0)
+    name: OnReopen
+    nameWithType: Popup(Of T).OnReopen
+    fullName: AdvancedSceneManager.Editor.Popup(Of T).OnReopen
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

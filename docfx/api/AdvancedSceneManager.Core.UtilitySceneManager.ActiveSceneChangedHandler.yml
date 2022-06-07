@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Core.UtilitySceneManager.ActiveSceneChangedHandler
+  commentId: T:AdvancedSceneManager.Core.UtilitySceneManager.ActiveSceneChangedHandler
+  id: UtilitySceneManager.ActiveSceneChangedHandler
+  parent: AdvancedSceneManager.Core
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: UtilitySceneManager.ActiveSceneChangedHandler
+  nameWithType: UtilitySceneManager.ActiveSceneChangedHandler
+  fullName: AdvancedSceneManager.Core.UtilitySceneManager.ActiveSceneChangedHandler
+  type: Delegate
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/UtilityManager.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ActiveSceneChangedHandler
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/UtilityManager.cs
+    startLine: 107
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Core
+  syntax:
+    content: public delegate void ActiveSceneChangedHandler(OpenSceneInfo previousScene, OpenSceneInfo activeScene);
+    parameters:
+    - id: previousScene
+      type: AdvancedSceneManager.Core.OpenSceneInfo
+    - id: activeScene
+      type: AdvancedSceneManager.Core.OpenSceneInfo
+    content.vb: Public Delegate Sub ActiveSceneChangedHandler(previousScene As OpenSceneInfo, activeScene As OpenSceneInfo)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: AdvancedSceneManager.Core
+  commentId: N:AdvancedSceneManager.Core
+  name: AdvancedSceneManager.Core
+  nameWithType: AdvancedSceneManager.Core
+  fullName: AdvancedSceneManager.Core
+- uid: AdvancedSceneManager.Core.OpenSceneInfo
+  commentId: T:AdvancedSceneManager.Core.OpenSceneInfo
+  parent: AdvancedSceneManager.Core
+  name: OpenSceneInfo
+  nameWithType: OpenSceneInfo
+  fullName: AdvancedSceneManager.Core.OpenSceneInfo

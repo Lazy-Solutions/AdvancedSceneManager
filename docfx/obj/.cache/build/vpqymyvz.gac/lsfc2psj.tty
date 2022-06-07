@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  <h1 id="AdvancedSceneManager_Defaults" data-uid="AdvancedSceneManager.Defaults" class="text-break">Namespace AdvancedSceneManager.Defaults
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="AdvancedSceneManager.Defaults.DefaultLoadingScreen.html">DefaultLoadingScreen</a></h4>
+      <section><p>A default loading screen script. Fades the screen out and in. Provides progress if <a class="xref" href="AdvancedSceneManager.Defaults.DefaultLoadingScreen.html#AdvancedSceneManager_Defaults_DefaultLoadingScreen_slider">slider</a> is set.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Defaults.DefaultSplashScreen.html">DefaultSplashScreen</a></h4>
+      <section><p>A default splash screen script. Fades splash screen in and out.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Defaults.IconBounceLoadingScreen.html">IconBounceLoadingScreen</a></h4>
+      <section><p>A default loading screen script. Displays progress with a bouncing icon.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Defaults.PressAnyButtonLoadingScreen.html">PressAnyButtonLoadingScreen</a></h4>
+      <section><p>A default loading screen script. Requires the user to press any key before loading screen closes.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Defaults.QuoteLoadingScreen.html">QuoteLoadingScreen</a></h4>
+      <section><p>A default loading screen script. Displays quotes.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Defaults.Quotes.html">Quotes</a></h4>
+      <section><p>A list of quotes for <a class="xref" href="AdvancedSceneManager.Defaults.QuoteLoadingScreen.html">QuoteLoadingScreen</a>.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Defaults.Quotes.Quote.html">Quotes.Quote</a></h4>
+      <section><p>A quote.</p>
+</section>
+      <h4><a class="xref" href="AdvancedSceneManager.Defaults.VideoLoadingScreen.html">VideoLoadingScreen</a></h4>
+      <section><p>A default loading screen script. Displays a video.</p>
+</section>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

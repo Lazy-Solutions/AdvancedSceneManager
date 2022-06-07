@@ -1,0 +1,501 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Utility.QueueUtility`1
+  commentId: T:AdvancedSceneManager.Utility.QueueUtility`1
+  id: QueueUtility`1
+  parent: AdvancedSceneManager.Utility
+  children:
+  - AdvancedSceneManager.Utility.QueueUtility`1.isBusy
+  - AdvancedSceneManager.Utility.QueueUtility`1.IsQueued(`0)
+  - AdvancedSceneManager.Utility.QueueUtility`1.IsRunning(`0)
+  - AdvancedSceneManager.Utility.QueueUtility`1.queue
+  - AdvancedSceneManager.Utility.QueueUtility`1.queueEmpty
+  - AdvancedSceneManager.Utility.QueueUtility`1.running
+  - AdvancedSceneManager.Utility.QueueUtility`1.StopAll
+  langs:
+  - csharp
+  - vb
+  name: QueueUtility<T>
+  nameWithType: QueueUtility<T>
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: QueueUtility
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+    startLine: 23
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: A utility that provides queuing.
+  example: []
+  syntax:
+    content: >-
+      public static class QueueUtility<T>
+          where T : IQueueable
+    typeParameters:
+    - id: T
+    content.vb: Public Module QueueUtility(Of T As IQueueable)
+  inheritance:
+  - System.Object
+  nameWithType.vb: QueueUtility(Of T)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T)
+  name.vb: QueueUtility(Of T)
+- uid: AdvancedSceneManager.Utility.QueueUtility`1.isBusy
+  commentId: P:AdvancedSceneManager.Utility.QueueUtility`1.isBusy
+  id: isBusy
+  parent: AdvancedSceneManager.Utility.QueueUtility`1
+  langs:
+  - csharp
+  - vb
+  name: isBusy
+  nameWithType: QueueUtility<T>.isBusy
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>.isBusy
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: isBusy
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+    startLine: 30
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Gets whatever any items in the queue are running.
+  example: []
+  syntax:
+    content: public static bool isBusy { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property isBusy As Boolean
+  overload: AdvancedSceneManager.Utility.QueueUtility`1.isBusy*
+  nameWithType.vb: QueueUtility(Of T).isBusy
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T).isBusy
+- uid: AdvancedSceneManager.Utility.QueueUtility`1.queueEmpty
+  commentId: E:AdvancedSceneManager.Utility.QueueUtility`1.queueEmpty
+  id: queueEmpty
+  parent: AdvancedSceneManager.Utility.QueueUtility`1
+  langs:
+  - csharp
+  - vb
+  name: queueEmpty
+  nameWithType: QueueUtility<T>.queueEmpty
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>.queueEmpty
+  type: Event
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: queueEmpty
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+    startLine: 33
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Occurs when an queued item finishes and queue is empty.
+  example: []
+  syntax:
+    content: public static event Action queueEmpty
+    return:
+      type: System.Action
+    content.vb: Public Shared Event queueEmpty As Action
+  nameWithType.vb: QueueUtility(Of T).queueEmpty
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T).queueEmpty
+- uid: AdvancedSceneManager.Utility.QueueUtility`1.queue
+  commentId: P:AdvancedSceneManager.Utility.QueueUtility`1.queue
+  id: queue
+  parent: AdvancedSceneManager.Utility.QueueUtility`1
+  langs:
+  - csharp
+  - vb
+  name: queue
+  nameWithType: QueueUtility<T>.queue
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>.queue
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: queue
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+    startLine: 36
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Gets the items currently in queue.
+  example: []
+  syntax:
+    content: public static ReadOnlyCollection<T> queue { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
+    content.vb: Public Shared ReadOnly Property queue As ReadOnlyCollection(Of T)
+  overload: AdvancedSceneManager.Utility.QueueUtility`1.queue*
+  nameWithType.vb: QueueUtility(Of T).queue
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T).queue
+- uid: AdvancedSceneManager.Utility.QueueUtility`1.running
+  commentId: P:AdvancedSceneManager.Utility.QueueUtility`1.running
+  id: running
+  parent: AdvancedSceneManager.Utility.QueueUtility`1
+  langs:
+  - csharp
+  - vb
+  name: running
+  nameWithType: QueueUtility<T>.running
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>.running
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: running
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+    startLine: 39
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Gets the items that are currently running.
+  example: []
+  syntax:
+    content: public static ReadOnlyCollection<T> running { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
+    content.vb: Public Shared ReadOnly Property running As ReadOnlyCollection(Of T)
+  overload: AdvancedSceneManager.Utility.QueueUtility`1.running*
+  nameWithType.vb: QueueUtility(Of T).running
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T).running
+- uid: AdvancedSceneManager.Utility.QueueUtility`1.IsQueued(`0)
+  commentId: M:AdvancedSceneManager.Utility.QueueUtility`1.IsQueued(`0)
+  id: IsQueued(`0)
+  parent: AdvancedSceneManager.Utility.QueueUtility`1
+  langs:
+  - csharp
+  - vb
+  name: IsQueued(T)
+  nameWithType: QueueUtility<T>.IsQueued(T)
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>.IsQueued(T)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IsQueued
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+    startLine: 48
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Get if the item is queued.
+  example: []
+  syntax:
+    content: public static bool IsQueued(T queueable)
+    parameters:
+    - id: queueable
+      type: '{T}'
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsQueued(queueable As T) As Boolean
+  overload: AdvancedSceneManager.Utility.QueueUtility`1.IsQueued*
+  nameWithType.vb: QueueUtility(Of T).IsQueued(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T).IsQueued(T)
+- uid: AdvancedSceneManager.Utility.QueueUtility`1.IsRunning(`0)
+  commentId: M:AdvancedSceneManager.Utility.QueueUtility`1.IsRunning(`0)
+  id: IsRunning(`0)
+  parent: AdvancedSceneManager.Utility.QueueUtility`1
+  langs:
+  - csharp
+  - vb
+  name: IsRunning(T)
+  nameWithType: QueueUtility<T>.IsRunning(T)
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>.IsRunning(T)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IsRunning
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+    startLine: 52
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Gets if the item is running.
+  example: []
+  syntax:
+    content: public static bool IsRunning(T queueable)
+    parameters:
+    - id: queueable
+      type: '{T}'
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsRunning(queueable As T) As Boolean
+  overload: AdvancedSceneManager.Utility.QueueUtility`1.IsRunning*
+  nameWithType.vb: QueueUtility(Of T).IsRunning(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T).IsRunning(T)
+- uid: AdvancedSceneManager.Utility.QueueUtility`1.StopAll
+  commentId: M:AdvancedSceneManager.Utility.QueueUtility`1.StopAll
+  id: StopAll
+  parent: AdvancedSceneManager.Utility.QueueUtility`1
+  langs:
+  - csharp
+  - vb
+  name: StopAll()
+  nameWithType: QueueUtility<T>.StopAll()
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>.StopAll()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: StopAll
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/QueueUtility.cs
+    startLine: 70
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Cancels all queued and running items.
+  example: []
+  syntax:
+    content: public static void StopAll()
+    content.vb: Public Shared Sub StopAll
+  overload: AdvancedSceneManager.Utility.QueueUtility`1.StopAll*
+  nameWithType.vb: QueueUtility(Of T).StopAll()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T).StopAll()
+references:
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Utility.QueueUtility`1.isBusy*
+  commentId: Overload:AdvancedSceneManager.Utility.QueueUtility`1.isBusy
+  name: isBusy
+  nameWithType: QueueUtility<T>.isBusy
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>.isBusy
+  nameWithType.vb: QueueUtility(Of T).isBusy
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T).isBusy
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: AdvancedSceneManager.Utility.QueueUtility`1.queue*
+  commentId: Overload:AdvancedSceneManager.Utility.QueueUtility`1.queue
+  name: queue
+  nameWithType: QueueUtility<T>.queue
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>.queue
+  nameWithType.vb: QueueUtility(Of T).queue
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T).queue
+- uid: System.Collections.ObjectModel.ReadOnlyCollection{{T}}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection{`0}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  name: ReadOnlyCollection<T>
+  nameWithType: ReadOnlyCollection<T>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
+  nameWithType.vb: ReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T)
+  name.vb: ReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection`1
+  isExternal: true
+  name: ReadOnlyCollection<T>
+  nameWithType: ReadOnlyCollection<T>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
+  nameWithType.vb: ReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T)
+  name.vb: ReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+- uid: AdvancedSceneManager.Utility.QueueUtility`1.running*
+  commentId: Overload:AdvancedSceneManager.Utility.QueueUtility`1.running
+  name: running
+  nameWithType: QueueUtility<T>.running
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>.running
+  nameWithType.vb: QueueUtility(Of T).running
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T).running
+- uid: AdvancedSceneManager.Utility.QueueUtility`1.IsQueued*
+  commentId: Overload:AdvancedSceneManager.Utility.QueueUtility`1.IsQueued
+  name: IsQueued
+  nameWithType: QueueUtility<T>.IsQueued
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>.IsQueued
+  nameWithType.vb: QueueUtility(Of T).IsQueued
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T).IsQueued
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: AdvancedSceneManager.Utility.QueueUtility`1.IsRunning*
+  commentId: Overload:AdvancedSceneManager.Utility.QueueUtility`1.IsRunning
+  name: IsRunning
+  nameWithType: QueueUtility<T>.IsRunning
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>.IsRunning
+  nameWithType.vb: QueueUtility(Of T).IsRunning
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T).IsRunning
+- uid: AdvancedSceneManager.Utility.QueueUtility`1.StopAll*
+  commentId: Overload:AdvancedSceneManager.Utility.QueueUtility`1.StopAll
+  name: StopAll
+  nameWithType: QueueUtility<T>.StopAll
+  fullName: AdvancedSceneManager.Utility.QueueUtility<T>.StopAll
+  nameWithType.vb: QueueUtility(Of T).StopAll
+  fullName.vb: AdvancedSceneManager.Utility.QueueUtility(Of T).StopAll

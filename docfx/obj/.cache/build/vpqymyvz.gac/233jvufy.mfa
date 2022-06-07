@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h2 id="callbacks">Callbacks</h2>
+
+<p><br></p>
+<p>The following callbacks are called by the scene manager when a <a href="Scene.html">scene</a> is opened or closed, or a <a href="SceneCollection.html">collection</a> is opened or closed. The callbacks are called only for the <a href="Scene.html">scene</a> or <a href="SceneCollection.html">collection</a> they are attached to, and are called before <a href="LoadingScreen.html">loading screens</a> are closed, if one was opened, and is waited for. So any actions you may want to happen before <a href="LoadingScreen.html">loading screens</a> is closed, these callbacks may be what you want.</p>
+<p>Note that these callbacks will not be called when regular unity play button is used. This is because they are called by ASM SceneOperation directly, and will not be called when a scene is opened from a non-ASM way.</p>
+<blockquote><p>ISceneOpen<br>
+Called when the <a href="Scene.html">scene</a> that the script is attached to is opened.</p>
+</blockquote>
+<p><br></p>
+<blockquote><p>ISceneClosed<br>
+Called when the <a href="Scene.html">scene</a> that the script is attached to is closed.</p>
+</blockquote>
+<p><br></p>
+<blockquote><p>ICollectionOpen<br>
+Called when a <a href="SceneCollection.html">collection</a> containing a <a href="Scene.html">scene</a> with this script is opened.</p>
+</blockquote>
+<p><br></p>
+<blockquote><p>ICollectionClose<br>
+Called when a <a href="SceneCollection.html">collection</a> containing a <a href="Scene.html">scene</a> with this script is closed.</p>
+</blockquote>
+<pre><code class="lang-csharp">public class LogOnSceneCallback : ISceneOpen
+{
+
+  public IEnumerator OnSceneOpen()
+  {
+      Debug.Log(&quot;Scene opened&quot;);
+      yield break;
+  }
+
+  public IEnumerator OnSceneClose()
+  {
+      Debug.Log(&quot;Scene closed&quot;);
+      yield break;
+  }
+
+}
+</code></pre></article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

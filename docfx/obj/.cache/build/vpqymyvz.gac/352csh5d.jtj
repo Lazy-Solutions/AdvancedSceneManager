@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Editor_ObjectField_UxmlFactory" data-uid="AdvancedSceneManager.Editor.ObjectField.UxmlFactory" class="text-break">Class ObjectField.UxmlFactory
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.UIElements.UxmlFactory</span>&lt;<a class="xref" href="AdvancedSceneManager.Editor.ObjectField.html">ObjectField</a>, <a class="xref" href="AdvancedSceneManager.Editor.ObjectField.UxmlTraits.html">ObjectField.UxmlTraits</a>&gt;</div>
+    <div class="level2"><span class="xref">ObjectField.UxmlFactory</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Editor.html">AdvancedSceneManager.Editor</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.Editor.dll</h6>
+  <h5 id="AdvancedSceneManager_Editor_ObjectField_UxmlFactory_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UxmlFactory : UxmlFactory&lt;ObjectField, ObjectField.UxmlTraits&gt;, IUxmlFactory</code></pre>
+  </div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019",
+          "files": [
+            "AdvancedSceneManager.csproj",
+            "AdvancedSceneManager.Editor.csproj"
+          ],
+          "exclude": [
+          ]
+        }
+      ],
+      "globalNamespaceId": "Global",
+      "filter": "filterConfig.yml",
+      "dest": "api",
+      "properties": {
+        "DefineConstants": "UNITY_EDITOR"
+      }
+    }
+  ],
+  "build": {
+    "template": [
+      "default",
+      "templates/default"
+    ],
+    "globalMetadata": {
+      "_appTitle": "Advanced Scene Manager",
+      "_appFooter": "<a href='https://assetstore.unity.com/packages/slug/174152'>Advanced Scene Manager</a> - <a href='https://assetstore.unity.com/publishers/48996'>Lazy Solutions</a>",
+      "_enableSearch": true,
+      "_disableContribution": true
+    },
+    "content": [
+      {
+        "files": [
+          "toc.yml",
+          "index.md"
+        ]
+      },
+      {
+        "src": "api",
+        "files": [
+          "*.yml"
+        ],
+        "dest": "api"
+      },
+      {
+        "src": "guides",
+        "files": [
+          "toc.yml",
+          "*.md"
+        ],
+        "dest": "guides"
+      },
+      {
+        "src": "plugins",
+        "files": [
+          "toc.yml",
+          "*.md"
+        ],
+        "dest": "plugins"
+      }
+    ],
+    "overwrite": [
+      {
+        "src": "..",
+        "files": [
+          "Assets/Scripts/**/*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "resources/**/*",
+          "image/**/*"
+        ]
+      }
+    ],
+    "sitemap": {
+      "baseUrl": "https://lazy-solutions.github.io/AdvancedSceneManager",
+      "changefreq": "weekly",
+      "fileOptions": {
+        "api/*": {
+          "changefreq": "daily"
+        }
+      }
+    },
+    "xref": [
+      "https://normanderwan.github.io/UnityXrefMaps/xrefmap.yml"
+    ],
+    "xrefService": [
+      "https://xref.docs.microsoft.com/query?uid={uid}"
+    ],
+    "dest": "_site"
+  },
+  "pdf": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml"
+        ],
+        "exclude": [
+          "**/toc.yml",
+          "**/toc.md"
+        ]
+      },
+      {
+        "files": [
+          "guides/**.md",
+          "guides/**/toc.yml",
+          "plugins/**.md",
+          "plugins/**/toc.yml",
+          "toc.yml",
+          "*.md",
+          "pdf/*"
+        ],
+        "exclude": []
+      },
+      {
+        "files": "toc.yml"
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "resources/**/*"
+        ],
+        "exclude": []
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "_pdf/**"
+        ]
+      }
+    ],
+    "wkhtmltopdf": {
+      "additionalArguments": "--enable-local-file-access"
+    },
+    "dest": "_pdf"
+  }
+}

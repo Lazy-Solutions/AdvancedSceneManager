@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+  commentId: T:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+  id: PersistentSceneInEditorUtility.OpenInEditorSetting
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.list
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.name
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.option
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.Save
+  - AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.scene
+  langs:
+  - csharp
+  - vb
+  name: PersistentSceneInEditorUtility.OpenInEditorSetting
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorSetting
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OpenInEditorSetting
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 86
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public sealed class OpenInEditorSetting
+    content.vb: Public NotInheritable Class OpenInEditorSetting
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.Save
+  commentId: M:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.Save
+  id: Save
+  parent: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorSetting.Save()
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.Save()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Save
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 90
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Saves this persistent option.
+  example: []
+  syntax:
+    content: public void Save()
+    content.vb: Public Sub Save
+  overload: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.Save*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.name
+  commentId: F:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.name
+  id: name
+  parent: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorSetting.name
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.name
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: name
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 96
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.scene
+  commentId: F:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.scene
+  id: scene
+  parent: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+  langs:
+  - csharp
+  - vb
+  name: scene
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorSetting.scene
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.scene
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: scene
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 97
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public string scene
+    return:
+      type: System.String
+    content.vb: Public scene As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.option
+  commentId: F:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.option
+  id: option
+  parent: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+  langs:
+  - csharp
+  - vb
+  name: option
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorSetting.option
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.option
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: option
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 98
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public PersistentSceneInEditorUtility.OpenInEditorOption option
+    return:
+      type: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+    content.vb: Public option As PersistentSceneInEditorUtility.OpenInEditorOption
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.list
+  commentId: F:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.list
+  id: list
+  parent: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting
+  langs:
+  - csharp
+  - vb
+  name: list
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorSetting.list
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.list
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: list
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    startLine: 99
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public string[] list
+    return:
+      type: System.String[]
+    content.vb: Public list As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.Save*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.Save
+  name: Save
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorSetting.Save
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.Save
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  commentId: T:AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+  parent: AdvancedSceneManager.Editor.Utility
+  name: PersistentSceneInEditorUtility.OpenInEditorOption
+  nameWithType: PersistentSceneInEditorUtility.OpenInEditorOption
+  fullName: AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

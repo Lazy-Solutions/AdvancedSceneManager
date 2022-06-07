@@ -1,0 +1,552 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Utility_SceneDataUtility" data-uid="AdvancedSceneManager.Utility.SceneDataUtility" class="text-break">Class SceneDataUtility
+  </h1>
+  <div class="markdown level0 summary"><p>A utility for storing scene related data. Data can only be saved to disk in editor.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SceneDataUtility</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Utility.html">AdvancedSceneManager.Utility</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Utility_SceneDataUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class SceneDataUtility</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Utility_SceneDataUtility_Enumerate_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Enumerate*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SceneDataUtility_Enumerate__1_System_String_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Enumerate``1(System.String)">Enumerate&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"><p>Enumerates all <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> on all scenes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; Enumerate&lt;T&gt;(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_SceneDataUtility_Get_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Get*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SceneDataUtility_Get__1_AdvancedSceneManager_Models_Scene_System_String___0_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Get``1(AdvancedSceneManager.Models.Scene,System.String,``0)">Get&lt;T&gt;(Scene, String, T)</h4>
+  <div class="markdown level1 summary"><p>Gets the value with the specified key, for the specified scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Get&lt;T&gt;(Scene scene, string key, T defaultValue = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_SceneDataUtility_Get_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Get*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SceneDataUtility_Get__1_System_String_System_String___0_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Get``1(System.String,System.String,``0)">Get&lt;T&gt;(String, String, T)</h4>
+  <div class="markdown level1 summary"><p>Gets the value with the specified key, for the specified scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Get&lt;T&gt;(string scene, string key, T defaultValue = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_SceneDataUtility_GetDirect_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.GetDirect*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SceneDataUtility_GetDirect_AdvancedSceneManager_Models_Scene_System_String_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.GetDirect(AdvancedSceneManager.Models.Scene,System.String)">GetDirect(Scene, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the value with the specified key, for the specified scene. This is the direct version, all values are stores as string, which means <a class="xref" href="AdvancedSceneManager.Utility.SceneDataUtility.html#AdvancedSceneManager_Utility_SceneDataUtility_Get__1_System_String_System_String___0_">Get&lt;T&gt;(String, String, T)</a> must convert value beforehand, this method doesn&apos;t.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetDirect(Scene scene, string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_SceneDataUtility_GetDirect_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.GetDirect*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SceneDataUtility_GetDirect_System_String_System_String_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.GetDirect(System.String,System.String)">GetDirect(String, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the value with the specified key, for the specified scene. This is the direct version, all values are stores as string, which means <a class="xref" href="AdvancedSceneManager.Utility.SceneDataUtility.html#AdvancedSceneManager_Utility_SceneDataUtility_Get__1_System_String_System_String___0_">Get&lt;T&gt;(String, String, T)</a> must convert value beforehand, this method doesn&apos;t.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetDirect(string scene, string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_SceneDataUtility_Set_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Set*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SceneDataUtility_Set__1_AdvancedSceneManager_Models_Scene_System_String___0_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Set``1(AdvancedSceneManager.Models.Scene,System.String,``0)">Set&lt;T&gt;(Scene, String, T)</h4>
+  <div class="markdown level1 summary"><p>Sets the value with the specified key, for the specified scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Set&lt;T&gt;(Scene scene, string key, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_SceneDataUtility_Set_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Set*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SceneDataUtility_Set__1_System_String_System_String___0_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Set``1(System.String,System.String,``0)">Set&lt;T&gt;(String, String, T)</h4>
+  <div class="markdown level1 summary"><p>Sets the value with the specified key, for the specified scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Set&lt;T&gt;(string scene, string key, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_SceneDataUtility_SetDirect_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.SetDirect*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SceneDataUtility_SetDirect_AdvancedSceneManager_Models_Scene_System_String_System_String_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.SetDirect(AdvancedSceneManager.Models.Scene,System.String,System.String)">SetDirect(Scene, String, String)</h4>
+  <div class="markdown level1 summary"><p>Sets the value with the specified key, for the specified scene. This is the direct version, all values are stores as string, which means <a class="xref" href="AdvancedSceneManager.Utility.SceneDataUtility.html#AdvancedSceneManager_Utility_SceneDataUtility_Get__1_System_String_System_String___0_">Get&lt;T&gt;(String, String, T)</a> must convert value beforehand, this method doesn&apos;t.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetDirect(Scene scene, string key, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_SceneDataUtility_SetDirect_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.SetDirect*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SceneDataUtility_SetDirect_System_String_System_String_System_String_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.SetDirect(System.String,System.String,System.String)">SetDirect(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Sets the value with the specified key, for the specified scene. This is the direct version, all values are stores as string, which means <a class="xref" href="AdvancedSceneManager.Utility.SceneDataUtility.html#AdvancedSceneManager_Utility_SceneDataUtility_Get__1_System_String_System_String___0_">Get&lt;T&gt;(String, String, T)</a> must convert value beforehand, this method doesn&apos;t.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetDirect(string scene, string key, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_SceneDataUtility_Unset_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Unset*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SceneDataUtility_Unset_AdvancedSceneManager_Models_Scene_System_String_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Unset(AdvancedSceneManager.Models.Scene,System.String)">Unset(Scene, String)</h4>
+  <div class="markdown level1 summary"><p>Unsets the value with the specified key, for the specified scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Unset(Scene scene, string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_SceneDataUtility_Unset_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Unset*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SceneDataUtility_Unset_System_String_System_String_" data-uid="AdvancedSceneManager.Utility.SceneDataUtility.Unset(System.String,System.String)">Unset(String, String)</h4>
+  <div class="markdown level1 summary"><p>Unsets the value with the specified key, for the specified scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Unset(string scene, string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

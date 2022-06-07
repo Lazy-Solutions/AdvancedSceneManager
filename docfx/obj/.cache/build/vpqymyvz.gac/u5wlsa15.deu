@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Utility_PauseScreenUtility" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility" class="text-break">Class PauseScreenUtility
+  </h1>
+  <div class="markdown level0 summary"><p>Contains functions for interacting with the default pause screen.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">PauseScreenUtility</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Utility.html">AdvancedSceneManager.Utility</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Utility_PauseScreenUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;&quot;)]
+public class PauseScreenUtility : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_canvasGroup" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.canvasGroup">canvasGroup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CanvasGroup canvasGroup</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.CanvasGroup</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_quit" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.quit">quit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Button quit</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.Button</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_restartCollection" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.restartCollection">restartCollection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Button restartCollection</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.Button</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_restartGame" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.restartGame">restartGame</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Button restartGame</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.Button</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_resume" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.resume">resume</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Button resume</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.Button</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Utility_PauseScreenUtility_isOpen_" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.isOpen*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_isOpen" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.isOpen">isOpen</h4>
+  <div class="markdown level1 summary"><p>Gets if the pause screen is currently open.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isOpen { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Utility_PauseScreenUtility_Begin_" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.Begin*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_Begin" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.Begin">Begin()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator Begin()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_PauseScreenUtility_End_" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.End*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_End" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.End">End()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator End()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_PauseScreenUtility_Hide_" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.Hide*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_Hide_System_Boolean_" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.Hide(System.Boolean)">Hide(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Hides the pause screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Hide(bool ignoreAnimations = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignoreAnimations</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_PauseScreenUtility_ListenForKey_" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.ListenForKey*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_ListenForKey" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.ListenForKey">ListenForKey()</h4>
+  <div class="markdown level1 summary"><p>Starts listening keys and opens pause screen when keys pressed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ListenForKey()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Utility_PauseScreenUtility_Quit_" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.Quit*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_Quit" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.Quit">Quit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Quit()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Utility_PauseScreenUtility_RestartCollection_" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.RestartCollection*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_RestartCollection" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.RestartCollection">RestartCollection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RestartCollection()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Utility_PauseScreenUtility_RestartGame_" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.RestartGame*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_RestartGame" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.RestartGame">RestartGame()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RestartGame()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Utility_PauseScreenUtility_Resume_" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.Resume*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_Resume" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.Resume">Resume()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Resume()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Utility_PauseScreenUtility_Show_" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.Show*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_Show" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.Show">Show()</h4>
+  <div class="markdown level1 summary"><p>Shows the pause screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Show()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Utility_PauseScreenUtility_StopListening_" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.StopListening*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_StopListening" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.StopListening">StopListening()</h4>
+  <div class="markdown level1 summary"><p>Stops listening for keys, this will disable pause screen. (Manually calling <a class="xref" href="AdvancedSceneManager.Utility.PauseScreenUtility.html#AdvancedSceneManager_Utility_PauseScreenUtility_Show">Show()</a> will still work though)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void StopListening()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Utility_PauseScreenUtility_Toggle_" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.Toggle*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PauseScreenUtility_Toggle" data-uid="AdvancedSceneManager.Utility.PauseScreenUtility.Toggle">Toggle()</h4>
+  <div class="markdown level1 summary"><p>Toggles the pause screen on / off.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Toggle()</code></pre>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.SceneUtility.html#AdvancedSceneManager_Utility_SceneUtility_Scene_UnityEngine_Component_">SceneUtility.Scene(Component)</a>
+  </div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

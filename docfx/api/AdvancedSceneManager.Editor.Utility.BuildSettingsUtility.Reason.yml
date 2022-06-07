@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  commentId: T:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  id: BuildSettingsUtility.Reason
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.IncludedInProfile
+  - AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.IsAddressable
+  - AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.None
+  - AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.NotIncludedInProfile
+  - AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.Overriden
+  langs:
+  - csharp
+  - vb
+  name: BuildSettingsUtility.Reason
+  nameWithType: BuildSettingsUtility.Reason
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  type: Enum
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Reason
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+    startLine: 26
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public enum Reason
+    content.vb: Public Enum Reason
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.None
+  commentId: F:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.None
+  id: None
+  parent: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: BuildSettingsUtility.Reason.None
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.None
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: None
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+    startLine: 28
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: None = 0
+    return:
+      type: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.NotIncludedInProfile
+  commentId: F:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.NotIncludedInProfile
+  id: NotIncludedInProfile
+  parent: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  langs:
+  - csharp
+  - vb
+  name: NotIncludedInProfile
+  nameWithType: BuildSettingsUtility.Reason.NotIncludedInProfile
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.NotIncludedInProfile
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: NotIncludedInProfile
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+    startLine: 28
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: NotIncludedInProfile = 1
+    return:
+      type: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.IncludedInProfile
+  commentId: F:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.IncludedInProfile
+  id: IncludedInProfile
+  parent: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  langs:
+  - csharp
+  - vb
+  name: IncludedInProfile
+  nameWithType: BuildSettingsUtility.Reason.IncludedInProfile
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.IncludedInProfile
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IncludedInProfile
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+    startLine: 28
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: IncludedInProfile = 2
+    return:
+      type: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.IsAddressable
+  commentId: F:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.IsAddressable
+  id: IsAddressable
+  parent: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  langs:
+  - csharp
+  - vb
+  name: IsAddressable
+  nameWithType: BuildSettingsUtility.Reason.IsAddressable
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.IsAddressable
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: IsAddressable
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+    startLine: 28
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: IsAddressable = 3
+    return:
+      type: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.Overriden
+  commentId: F:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.Overriden
+  id: Overriden
+  parent: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  langs:
+  - csharp
+  - vb
+  name: Overriden
+  nameWithType: BuildSettingsUtility.Reason.Overriden
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.Overriden
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Overriden
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/BuildSettingsUtility.cs
+    startLine: 28
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: Overriden = 4
+    return:
+      type: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  commentId: T:AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason
+  parent: AdvancedSceneManager.Editor.Utility
+  name: BuildSettingsUtility.Reason
+  nameWithType: BuildSettingsUtility.Reason
+  fullName: AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason

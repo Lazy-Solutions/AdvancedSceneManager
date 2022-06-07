@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Utility.TimeSpanUtility
+  commentId: T:AdvancedSceneManager.Utility.TimeSpanUtility
+  id: TimeSpanUtility
+  parent: AdvancedSceneManager.Utility
+  children:
+  - AdvancedSceneManager.Utility.TimeSpanUtility.FormatUnits_Components(System.Single,System.String)
+  - AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString(System.Single,System.String)
+  - AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString(System.TimeSpan,System.String)
+  - AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString_Components(System.TimeSpan,System.String)
+  langs:
+  - csharp
+  - vb
+  name: TimeSpanUtility
+  nameWithType: TimeSpanUtility
+  fullName: AdvancedSceneManager.Utility.TimeSpanUtility
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: TimeSpanUtility
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+    startLine: 7
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  syntax:
+    content: public static class TimeSpanUtility
+    content.vb: Public Module TimeSpanUtility
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString(System.TimeSpan,System.String)
+  commentId: M:AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString(System.TimeSpan,System.String)
+  id: ToDisplayString(System.TimeSpan,System.String)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Utility.TimeSpanUtility
+  langs:
+  - csharp
+  - vb
+  name: ToDisplayString(TimeSpan, String)
+  nameWithType: TimeSpanUtility.ToDisplayString(TimeSpan, String)
+  fullName: AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString(System.TimeSpan, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ToDisplayString
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+    startLine: 27
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  example: []
+  syntax:
+    content: public static string ToDisplayString(this TimeSpan timeSpan, string format = "#.###")
+    parameters:
+    - id: timeSpan
+      type: System.TimeSpan
+    - id: format
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDisplayString(timeSpan As TimeSpan, format As String = "#.###") As String
+  overload: AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString(System.Single,System.String)
+  commentId: M:AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString(System.Single,System.String)
+  id: ToDisplayString(System.Single,System.String)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Utility.TimeSpanUtility
+  langs:
+  - csharp
+  - vb
+  name: ToDisplayString(Single, String)
+  nameWithType: TimeSpanUtility.ToDisplayString(Single, String)
+  fullName: AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString(System.Single, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ToDisplayString
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+    startLine: 34
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  example: []
+  syntax:
+    content: public static string ToDisplayString(this float milliseconds, string format = "#.###")
+    parameters:
+    - id: milliseconds
+      type: System.Single
+    - id: format
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDisplayString(milliseconds As Single, format As String = "#.###") As String
+  overload: AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString_Components(System.TimeSpan,System.String)
+  commentId: M:AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString_Components(System.TimeSpan,System.String)
+  id: ToDisplayString_Components(System.TimeSpan,System.String)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Utility.TimeSpanUtility
+  langs:
+  - csharp
+  - vb
+  name: ToDisplayString_Components(TimeSpan, String)
+  nameWithType: TimeSpanUtility.ToDisplayString_Components(TimeSpan, String)
+  fullName: AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString_Components(System.TimeSpan, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: ToDisplayString_Components
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+    startLine: 41
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  example: []
+  syntax:
+    content: public static (string time, string unit) ToDisplayString_Components(this TimeSpan timeSpan, string format = "#.###")
+    parameters:
+    - id: timeSpan
+      type: System.TimeSpan
+    - id: format
+      type: System.String
+    return:
+      type: System.ValueTuple{System.String,System.String}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDisplayString_Components(timeSpan As TimeSpan, format As String = "#.###") As(time As String, unit As String)(Of String , String)
+  overload: AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString_Components*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Utility.TimeSpanUtility.FormatUnits_Components(System.Single,System.String)
+  commentId: M:AdvancedSceneManager.Utility.TimeSpanUtility.FormatUnits_Components(System.Single,System.String)
+  id: FormatUnits_Components(System.Single,System.String)
+  parent: AdvancedSceneManager.Utility.TimeSpanUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatUnits_Components(Single, String)
+  nameWithType: TimeSpanUtility.FormatUnits_Components(Single, String)
+  fullName: AdvancedSceneManager.Utility.TimeSpanUtility.FormatUnits_Components(System.Single, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FormatUnits_Components
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+    startLine: 45
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  summary: Formats the time as a readable string.
+  example: []
+  syntax:
+    content: public static (string time, string unit) FormatUnits_Components(float milliseconds, string format = "#.###")
+    parameters:
+    - id: milliseconds
+      type: System.Single
+    - id: format
+      type: System.String
+    return:
+      type: System.ValueTuple{System.String,System.String}
+    content.vb: Public Shared Function FormatUnits_Components(milliseconds As Single, format As String = "#.###") As(time As String, unit As String)(Of String , String)
+  overload: AdvancedSceneManager.Utility.TimeSpanUtility.FormatUnits_Components*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString*
+  commentId: Overload:AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString
+  name: ToDisplayString
+  nameWithType: TimeSpanUtility.ToDisplayString
+  fullName: AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString_Components*
+  commentId: Overload:AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString_Components
+  name: ToDisplayString_Components
+  nameWithType: TimeSpanUtility.ToDisplayString_Components
+  fullName: AdvancedSceneManager.Utility.TimeSpanUtility.ToDisplayString_Components
+- uid: System.ValueTuple{System.String,System.String}
+  commentId: T:System.ValueTuple{System.String,System.String}
+  parent: System
+  definition: System.ValueTuple`2
+  name: (T1, T2)<String, String>
+  nameWithType: (T1, T2)<String, String>
+  fullName: System.ValueTuple<System.String, System.String>
+  nameWithType.vb: (T1, T2)(Of String, String)
+  fullName.vb: System.ValueTuple(Of System.String, System.String)
+  name.vb: (T1, T2)(Of String, String)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  isExternal: true
+  name: (T1, T2)<T1, T2>
+  nameWithType: (T1, T2)<T1, T2>
+  fullName: System.ValueTuple<T1, T2>
+  nameWithType.vb: (T1, T2)(Of T1, T2)
+  fullName.vb: System.ValueTuple(Of T1, T2)
+  name.vb: (T1, T2)(Of T1, T2)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.TimeSpanUtility.FormatUnits_Components*
+  commentId: Overload:AdvancedSceneManager.Utility.TimeSpanUtility.FormatUnits_Components
+  name: FormatUnits_Components
+  nameWithType: TimeSpanUtility.FormatUnits_Components
+  fullName: AdvancedSceneManager.Utility.TimeSpanUtility.FormatUnits_Components

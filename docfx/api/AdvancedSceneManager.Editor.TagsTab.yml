@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.TagsTab
+  commentId: T:AdvancedSceneManager.Editor.TagsTab
+  id: TagsTab
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.TagsTab.FooterButtons
+  - AdvancedSceneManager.Editor.TagsTab.OnEnable(UnityEngine.UIElements.VisualElement)
+  - AdvancedSceneManager.Editor.TagsTab.OnReorderEnd(AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: TagsTab
+  nameWithType: TagsTab
+  fullName: AdvancedSceneManager.Editor.TagsTab
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: TagsTab
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
+    startLine: 14
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static class TagsTab
+    content.vb: Public Module TagsTab
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Editor.TagsTab.OnEnable(UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.TagsTab.OnEnable(UnityEngine.UIElements.VisualElement)
+  id: OnEnable(UnityEngine.UIElements.VisualElement)
+  parent: AdvancedSceneManager.Editor.TagsTab
+  langs:
+  - csharp
+  - vb
+  name: OnEnable(VisualElement)
+  nameWithType: TagsTab.OnEnable(VisualElement)
+  fullName: AdvancedSceneManager.Editor.TagsTab.OnEnable(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnEnable
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
+    startLine: 19
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static void OnEnable(VisualElement element)
+    parameters:
+    - id: element
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Shared Sub OnEnable(element As VisualElement)
+  overload: AdvancedSceneManager.Editor.TagsTab.OnEnable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.TagsTab.OnReorderEnd(AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement,System.Int32)
+  commentId: M:AdvancedSceneManager.Editor.TagsTab.OnReorderEnd(AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement,System.Int32)
+  id: OnReorderEnd(AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement,System.Int32)
+  parent: AdvancedSceneManager.Editor.TagsTab
+  langs:
+  - csharp
+  - vb
+  name: OnReorderEnd(SceneManagerWindow.DragAndDropReorder.DragElement, Int32)
+  nameWithType: TagsTab.OnReorderEnd(SceneManagerWindow.DragAndDropReorder.DragElement, Int32)
+  fullName: AdvancedSceneManager.Editor.TagsTab.OnReorderEnd(AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnReorderEnd
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
+    startLine: 130
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static void OnReorderEnd(SceneManagerWindow.DragAndDropReorder.DragElement element, int newIndex)
+    parameters:
+    - id: element
+      type: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+    - id: newIndex
+      type: System.Int32
+    content.vb: Public Shared Sub OnReorderEnd(element As SceneManagerWindow.DragAndDropReorder.DragElement, newIndex As Integer)
+  overload: AdvancedSceneManager.Editor.TagsTab.OnReorderEnd*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.TagsTab.FooterButtons
+  commentId: P:AdvancedSceneManager.Editor.TagsTab.FooterButtons
+  id: FooterButtons
+  parent: AdvancedSceneManager.Editor.TagsTab
+  langs:
+  - csharp
+  - vb
+  name: FooterButtons
+  nameWithType: TagsTab.FooterButtons
+  fullName: AdvancedSceneManager.Editor.TagsTab.FooterButtons
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FooterButtons
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
+    startLine: 148
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static SceneManagerWindow.FooterItem[] FooterButtons { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem[]
+    content.vb: Public Shared ReadOnly Property FooterButtons As SceneManagerWindow.FooterItem()
+  overload: AdvancedSceneManager.Editor.TagsTab.FooterButtons*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.TagsTab.OnEnable*
+  commentId: Overload:AdvancedSceneManager.Editor.TagsTab.OnEnable
+  name: OnEnable
+  nameWithType: TagsTab.OnEnable
+  fullName: AdvancedSceneManager.Editor.TagsTab.OnEnable
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+- uid: AdvancedSceneManager.Editor.TagsTab.OnReorderEnd*
+  commentId: Overload:AdvancedSceneManager.Editor.TagsTab.OnReorderEnd
+  name: OnReorderEnd
+  nameWithType: TagsTab.OnReorderEnd
+  fullName: AdvancedSceneManager.Editor.TagsTab.OnReorderEnd
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  parent: AdvancedSceneManager.Editor
+  name: SceneManagerWindow.DragAndDropReorder.DragElement
+  nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: AdvancedSceneManager.Editor.TagsTab.FooterButtons*
+  commentId: Overload:AdvancedSceneManager.Editor.TagsTab.FooterButtons
+  name: FooterButtons
+  nameWithType: TagsTab.FooterButtons
+  fullName: AdvancedSceneManager.Editor.TagsTab.FooterButtons
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem[]
+  isExternal: true
+  name: SceneManagerWindow.FooterItem[]
+  nameWithType: SceneManagerWindow.FooterItem[]
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem[]
+  nameWithType.vb: SceneManagerWindow.FooterItem()
+  fullName.vb: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem()
+  name.vb: SceneManagerWindow.FooterItem()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+    name: SceneManagerWindow.FooterItem
+    nameWithType: SceneManagerWindow.FooterItem
+    fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+    name: SceneManagerWindow.FooterItem
+    nameWithType: SceneManagerWindow.FooterItem
+    fullName: AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem
+  - name: ()
+    nameWithType: ()
+    fullName: ()

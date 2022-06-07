@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Utility_LerpUtility" data-uid="AdvancedSceneManager.Utility.LerpUtility" class="text-break">Class LerpUtility
+  </h1>
+  <div class="markdown level0 summary"><p>Provides some convinience functions for lerping.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">LerpUtility</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Utility.html">AdvancedSceneManager.Utility</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Utility_LerpUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class LerpUtility</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Utility_LerpUtility_Lerp_" data-uid="AdvancedSceneManager.Utility.LerpUtility.Lerp*"></a>
+  <h4 id="AdvancedSceneManager_Utility_LerpUtility_Lerp_System_Single_System_Single_System_Single_System_Action_System_Single__System_Action_" data-uid="AdvancedSceneManager.Utility.LerpUtility.Lerp(System.Single,System.Single,System.Single,System.Action{System.Single},System.Action)">Lerp(Single, Single, Single, Action&lt;Single&gt;, Action)</h4>
+  <div class="markdown level1 summary"><p>Lerp from <code data-dev-comment-type="paramref" class="paramref">start</code> to <code data-dev-comment-type="paramref" class="paramref">end</code> over <code data-dev-comment-type="paramref" class="paramref">duration</code> seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerator Lerp(float start, float end, float duration, Action&lt;float&gt; callback, Action onComplete = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>The start value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>The end value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>The duration in seconds to lerp for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The callback each lerp interval.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">onComplete</span></td>
+        <td><p>Callback when complete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_LerpUtility_Lerp_" data-uid="AdvancedSceneManager.Utility.LerpUtility.Lerp*"></a>
+  <h4 id="AdvancedSceneManager_Utility_LerpUtility_Lerp_UnityEngine_Vector2_UnityEngine_Vector2_System_Single_System_Action_UnityEngine_Vector2__System_Action_" data-uid="AdvancedSceneManager.Utility.LerpUtility.Lerp(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Action{UnityEngine.Vector2},System.Action)">Lerp(Vector2, Vector2, Single, Action&lt;Vector2&gt;, Action)</h4>
+  <div class="markdown level1 summary"><p>Lerp from <code data-dev-comment-type="paramref" class="paramref">start</code> to <code data-dev-comment-type="paramref" class="paramref">end</code> over <code data-dev-comment-type="paramref" class="paramref">duration</code> seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerator Lerp(Vector2 start, Vector2 end, float duration, Action&lt;Vector2&gt; callback, Action onComplete = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>The duration in seconds to lerp for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">UnityEngine.Vector2</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">onComplete</span></td>
+        <td><p>Callback when complete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_LerpUtility_Lerp_" data-uid="AdvancedSceneManager.Utility.LerpUtility.Lerp*"></a>
+  <h4 id="AdvancedSceneManager_Utility_LerpUtility_Lerp_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_System_Action_UnityEngine_Vector3__System_Action_" data-uid="AdvancedSceneManager.Utility.LerpUtility.Lerp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Action{UnityEngine.Vector3},System.Action)">Lerp(Vector3, Vector3, Single, Action&lt;Vector3&gt;, Action)</h4>
+  <div class="markdown level1 summary"><p>Lerp from <code data-dev-comment-type="paramref" class="paramref">start</code> to <code data-dev-comment-type="paramref" class="paramref">end</code> over <code data-dev-comment-type="paramref" class="paramref">duration</code> seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerator Lerp(Vector3 start, Vector3 end, float duration, Action&lt;Vector3&gt; callback, Action onComplete = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>The duration in seconds to lerp for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">UnityEngine.Vector3</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">onComplete</span></td>
+        <td><p>Callback when complete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

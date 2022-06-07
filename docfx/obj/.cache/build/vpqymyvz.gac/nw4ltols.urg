@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Editor_Utility_PromptKey" data-uid="AdvancedSceneManager.Editor.Utility.PromptKey" class="text-break">Class PromptKey
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><span class="xref">UnityEditor.EditorWindow</span></div>
+    <div class="level4"><a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html">GenericPrompt</a>&lt;<span class="xref">System.ValueTuple</span>&lt;<a class="xref" href="https://docs.unity3d.com/ScriptReference/EventModifiers.html">EventModifiers</a>, <a class="xref" href="https://docs.unity3d.com/ScriptReference/KeyCode.html">KeyCode</a>&gt;, <a class="xref" href="AdvancedSceneManager.Editor.Utility.PromptKey.html">PromptKey</a>&gt;</div>
+    <div class="level5"><span class="xref">PromptKey</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_validate">GenericPrompt&lt;(EventModifiers modifiers, KeyCode key), PromptKey&gt;.validate</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_Validate__0_">GenericPrompt&lt;(EventModifiers modifiers, KeyCode key), PromptKey&gt;.Validate((T1, T2)&lt;EventModifiers, KeyCode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_Prompt__0_System_Func__0_System_ValueTuple_System_Boolean_System_String_____">GenericPrompt&lt;(EventModifiers modifiers, KeyCode key), PromptKey&gt;.Prompt((T1, T2)&lt;EventModifiers, KeyCode&gt;, Func&lt;(T1, T2)&lt;EventModifiers, KeyCode&gt;, (T1, T2)&lt;Boolean, String&gt;&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_OnContentGUI__0__">GenericPrompt&lt;(EventModifiers modifiers, KeyCode key), PromptKey&gt;.OnContentGUI((T1, T2)&lt;EventModifiers, KeyCode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_title">GenericPrompt&lt;(EventModifiers modifiers, KeyCode key), PromptKey&gt;.title</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_updateSizeAutomatically">GenericPrompt&lt;(EventModifiers modifiers, KeyCode key), PromptKey&gt;.updateSizeAutomatically</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_extraHeight">GenericPrompt&lt;(EventModifiers modifiers, KeyCode key), PromptKey&gt;.extraHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_width">GenericPrompt&lt;(EventModifiers modifiers, KeyCode key), PromptKey&gt;.width</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_okButton">GenericPrompt&lt;(EventModifiers modifiers, KeyCode key), PromptKey&gt;.okButton</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html#AdvancedSceneManager_Editor_Utility_GenericPrompt_2_cancelButton">GenericPrompt&lt;(EventModifiers modifiers, KeyCode key), PromptKey&gt;.cancelButton</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Editor.Utility.html">AdvancedSceneManager.Editor.Utility</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Editor_Utility_PromptKey_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PromptKey : GenericPrompt&lt;(EventModifiers modifiers, KeyCode key), PromptKey&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Editor_Utility_PromptKey_title_" data-uid="AdvancedSceneManager.Editor.Utility.PromptKey.title*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_PromptKey_title" data-uid="AdvancedSceneManager.Editor.Utility.PromptKey.title">title</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string title { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Editor.Utility.GenericPrompt&lt;System.ValueTuple&lt;UnityEngine.EventModifiers, UnityEngine.KeyCode&gt;, AdvancedSceneManager.Editor.Utility.PromptKey&gt;.title</span></div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Editor_Utility_PromptKey_OnContentGUI_" data-uid="AdvancedSceneManager.Editor.Utility.PromptKey.OnContentGUI*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_PromptKey_OnContentGUI_System_ValueTuple_UnityEngine_EventModifiers_UnityEngine_KeyCode___" data-uid="AdvancedSceneManager.Editor.Utility.PromptKey.OnContentGUI(System.ValueTuple{UnityEngine.EventModifiers,UnityEngine.KeyCode}@)">OnContentGUI(ref (EventModifiers modifiers, KeyCode key))</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnContentGUI(ref (EventModifiers modifiers, KeyCode key) value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<a class="xref" href="https://docs.unity3d.com/ScriptReference/EventModifiers.html">EventModifiers</a>, <a class="xref" href="https://docs.unity3d.com/ScriptReference/KeyCode.html">KeyCode</a>&gt;</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Editor.Utility.GenericPrompt&lt;System.ValueTuple&lt;UnityEngine.EventModifiers, UnityEngine.KeyCode&gt;, AdvancedSceneManager.Editor.Utility.PromptKey&gt;.OnContentGUI(System.ValueTuple&lt;UnityEngine.EventModifiers, UnityEngine.KeyCode&gt;)</span></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.ScriptableObjectUtility.html#AdvancedSceneManager_Utility_ScriptableObjectUtility_Save_UnityEngine_ScriptableObject_">ScriptableObjectUtility.Save(ScriptableObject)</a>
+  </div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

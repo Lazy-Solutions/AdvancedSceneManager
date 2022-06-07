@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Utility_PersistentUtility" data-uid="AdvancedSceneManager.Utility.PersistentUtility" class="text-break">Class PersistentUtility
+  </h1>
+  <div class="markdown level0 summary"><p>Manages persistent scenes.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">PersistentUtility</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Utility.html">AdvancedSceneManager.Utility</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Utility_PersistentUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class PersistentUtility</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Utility_PersistentUtility_GetPersistentOption_" data-uid="AdvancedSceneManager.Utility.PersistentUtility.GetPersistentOption*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PersistentUtility_GetPersistentOption_UnityEngine_SceneManagement_Scene_" data-uid="AdvancedSceneManager.Utility.PersistentUtility.GetPersistentOption(UnityEngine.SceneManagement.Scene)">GetPersistentOption(Scene)</h4>
+  <div class="markdown level1 summary"><p>Gets the persistent option that is set for this <span class="xref">UnityEngine.SceneManagement.Scene</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneCloseBehavior GetPersistentOption(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.SceneManagement.Scene</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.SceneCloseBehavior.html">SceneCloseBehavior</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_PersistentUtility_Set_" data-uid="AdvancedSceneManager.Utility.PersistentUtility.Set*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PersistentUtility_Set_UnityEngine_SceneManagement_Scene_AdvancedSceneManager_Models_SceneCloseBehavior_" data-uid="AdvancedSceneManager.Utility.PersistentUtility.Set(UnityEngine.SceneManagement.Scene,AdvancedSceneManager.Models.SceneCloseBehavior)">Set(Scene, SceneCloseBehavior)</h4>
+  <div class="markdown level1 summary"><p>Set <a class="xref" href="AdvancedSceneManager.Models.SceneCloseBehavior.html">SceneCloseBehavior</a> for this scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Set(Scene scene, SceneCloseBehavior behavior = SceneCloseBehavior.KeepOpenAlways)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.SceneManagement.Scene</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.SceneCloseBehavior.html">SceneCloseBehavior</a></td>
+        <td><span class="parametername">behavior</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_PersistentUtility_Unset_" data-uid="AdvancedSceneManager.Utility.PersistentUtility.Unset*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PersistentUtility_Unset_UnityEngine_SceneManagement_Scene_" data-uid="AdvancedSceneManager.Utility.PersistentUtility.Unset(UnityEngine.SceneManagement.Scene)">Unset(Scene)</h4>
+  <div class="markdown level1 summary"><p>Unset and revert to default <a class="xref" href="AdvancedSceneManager.Models.SceneCloseBehavior.html">SceneCloseBehavior</a> for this scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Unset(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.SceneManagement.Scene</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Utility_PersistentUtility_UnsetAll_" data-uid="AdvancedSceneManager.Utility.PersistentUtility.UnsetAll*"></a>
+  <h4 id="AdvancedSceneManager_Utility_PersistentUtility_UnsetAll" data-uid="AdvancedSceneManager.Utility.PersistentUtility.UnsetAll">UnsetAll()</h4>
+  <div class="markdown level1 summary"><p>Unsets <a class="xref" href="AdvancedSceneManager.Models.SceneCloseBehavior.html">SceneCloseBehavior</a> for all scenes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UnsetAll()</code></pre>
+  </div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

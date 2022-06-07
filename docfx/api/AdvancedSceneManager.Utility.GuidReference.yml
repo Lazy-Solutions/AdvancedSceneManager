@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Utility.GuidReference
+  commentId: T:AdvancedSceneManager.Utility.GuidReference
+  id: GuidReference
+  parent: AdvancedSceneManager.Utility
+  children:
+  - AdvancedSceneManager.Utility.GuidReference.guid
+  langs:
+  - csharp
+  - vb
+  name: GuidReference
+  nameWithType: GuidReference
+  fullName: AdvancedSceneManager.Utility.GuidReference
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/GuidReference.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: GuidReference
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/GuidReference.cs
+    startLine: 11
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  syntax:
+    content: >-
+      [ExecuteAlways]
+
+      [ExecuteInEditMode]
+
+      public class GuidReference : MonoBehaviour
+    content.vb: >-
+      <ExecuteAlways>
+
+      <ExecuteInEditMode>
+
+      Public Class GuidReference
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - UnityEngine.Component.AdvancedSceneManager.Utility.SceneUtility.Scene
+  attributes:
+  - type: UnityEngine.ExecuteAlways
+    ctor: UnityEngine.ExecuteAlways.#ctor
+    arguments: []
+  - type: UnityEngine.ExecuteInEditMode
+    ctor: UnityEngine.ExecuteInEditMode.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Utility.GuidReference.guid
+  commentId: F:AdvancedSceneManager.Utility.GuidReference.guid
+  id: guid
+  parent: AdvancedSceneManager.Utility.GuidReference
+  langs:
+  - csharp
+  - vb
+  name: guid
+  nameWithType: GuidReference.guid
+  fullName: AdvancedSceneManager.Utility.GuidReference.guid
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/GuidReference.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: guid
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/GuidReference.cs
+    startLine: 16
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Utility
+  syntax:
+    content: public string guid
+    return:
+      type: System.String
+    content.vb: Public guid As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine.Component.AdvancedSceneManager.Utility.SceneUtility.Scene
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  parent: AdvancedSceneManager.Utility.SceneUtility
+  definition: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  name: Scene()
+  nameWithType: SceneUtility.Scene()
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Scene()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  commentId: M:AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  isExternal: true
+  name: Scene(Component)
+  nameWithType: SceneUtility.Scene(Component)
+  fullName: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Component
+    name: Component
+    nameWithType: Component
+    fullName: UnityEngine.Component
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.SceneUtility.Scene(UnityEngine.Component)
+    name: Scene
+    nameWithType: SceneUtility.Scene
+    fullName: AdvancedSceneManager.Utility.SceneUtility.Scene
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.Component
+    name: Component
+    nameWithType: Component
+    fullName: UnityEngine.Component
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.SceneUtility
+  commentId: T:AdvancedSceneManager.Utility.SceneUtility
+  parent: AdvancedSceneManager.Utility
+  name: SceneUtility
+  nameWithType: SceneUtility
+  fullName: AdvancedSceneManager.Utility.SceneUtility
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

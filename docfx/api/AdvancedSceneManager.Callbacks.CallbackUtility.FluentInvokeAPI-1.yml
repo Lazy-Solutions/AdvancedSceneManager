@@ -1,0 +1,613 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  commentId: T:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  id: CallbackUtility.FluentInvokeAPI`1
+  parent: AdvancedSceneManager.Callbacks
+  children:
+  - AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.hasDefaultCallback
+  - AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On(AdvancedSceneManager.Core.OpenSceneInfo[])
+  - AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On(AdvancedSceneManager.Models.Scene[])
+  - AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On(AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Scene[])
+  - AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.OnAllOpenScenes
+  - AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithCallback(System.Func{`0,System.Collections.IEnumerator})
+  - AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithParam(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: CallbackUtility.FluentInvokeAPI<T>
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FluentInvokeAPI
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 961
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: "\n<p>An helper class to facilitate a fluent api.</p>\n<p>Usage: <xref href=\"AdvancedSceneManager.Callbacks.CallbackUtility.Invoke%60%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+  example: []
+  syntax:
+    content: public sealed class FluentInvokeAPI<T>
+    typeParameters:
+    - id: T
+    content.vb: Public NotInheritable Class FluentInvokeAPI(Of T)
+  inheritance:
+  - System.Object
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T)
+  name.vb: CallbackUtility.FluentInvokeAPI(Of T)
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.hasDefaultCallback
+  commentId: P:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.hasDefaultCallback
+  id: hasDefaultCallback
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  langs:
+  - csharp
+  - vb
+  name: hasDefaultCallback
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>.hasDefaultCallback
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>.hasDefaultCallback
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: hasDefaultCallback
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 968
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: Gets whatever <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> has a default callback. All callbacks inheriting from <xref href="AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase" data-throw-if-not-resolved="false"></xref> should have one.
+  example: []
+  syntax:
+    content: public bool hasDefaultCallback { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property hasDefaultCallback As Boolean
+  overload: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.hasDefaultCallback*
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T).hasDefaultCallback
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T).hasDefaultCallback
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithCallback(System.Func{`0,System.Collections.IEnumerator})
+  commentId: M:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithCallback(System.Func{`0,System.Collections.IEnumerator})
+  id: WithCallback(System.Func{`0,System.Collections.IEnumerator})
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  langs:
+  - csharp
+  - vb
+  name: WithCallback(Func<T, IEnumerator>)
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>.WithCallback(Func<T, IEnumerator>)
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>.WithCallback(System.Func<T, System.Collections.IEnumerator>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: WithCallback
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 975
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: "\n<p>Specify a callback, this should point to the interface method which provides a <xref href=\"System.Collections.IEnumerator\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n<p>This is not needed for callback interfaces inheriting from <xref href=\"AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+  example: []
+  syntax:
+    content: public CallbackUtility.FluentInvokeAPI<T> WithCallback(Func<T, IEnumerator> callback)
+    parameters:
+    - id: callback
+      type: System.Func{{T},System.Collections.IEnumerator}
+    return:
+      type: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+    content.vb: Public Function WithCallback(callback As Func(Of T, IEnumerator)) As CallbackUtility.FluentInvokeAPI(Of T)
+  overload: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithCallback*
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T).WithCallback(Func(Of T, IEnumerator))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T).WithCallback(System.Func(Of T, System.Collections.IEnumerator))
+  name.vb: WithCallback(Func(Of T, IEnumerator))
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithParam(System.Object)
+  commentId: M:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithParam(System.Object)
+  id: WithParam(System.Object)
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  langs:
+  - csharp
+  - vb
+  name: WithParam(Object)
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>.WithParam(Object)
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>.WithParam(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: WithParam
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 979
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: Specify a parameter to use when invoking the callback.
+  example: []
+  syntax:
+    content: public CallbackUtility.FluentInvokeAPI<T> WithParam(object param)
+    parameters:
+    - id: param
+      type: System.Object
+    return:
+      type: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+    content.vb: Public Function WithParam(param As Object) As CallbackUtility.FluentInvokeAPI(Of T)
+  overload: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithParam*
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T).WithParam(Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T).WithParam(System.Object)
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On(AdvancedSceneManager.Models.Scene[])
+  commentId: M:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On(AdvancedSceneManager.Models.Scene[])
+  id: On(AdvancedSceneManager.Models.Scene[])
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  langs:
+  - csharp
+  - vb
+  name: On(Scene[])
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>.On(Scene[])
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>.On(AdvancedSceneManager.Models.Scene[])
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: On
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 983
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: Specify the open scenes to run this callback on and start execution..
+  example: []
+  syntax:
+    content: public IEnumerator On(params Scene[] scenes)
+    parameters:
+    - id: scenes
+      type: AdvancedSceneManager.Models.Scene[]
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Function On(ParamArray scenes As Scene()) As IEnumerator
+  overload: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On*
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T).On(Scene())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T).On(AdvancedSceneManager.Models.Scene())
+  name.vb: On(Scene())
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On(AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Scene[])
+  commentId: M:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On(AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Scene[])
+  id: On(AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Scene[])
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  langs:
+  - csharp
+  - vb
+  name: On(SceneCollection, Scene[])
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>.On(SceneCollection, Scene[])
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>.On(AdvancedSceneManager.Models.SceneCollection, AdvancedSceneManager.Models.Scene[])
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: On
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 987
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: Specify the collection scenes to run this callback on and start execution.
+  example: []
+  syntax:
+    content: public IEnumerator On(SceneCollection collection, params Scene[] additionalScenes)
+    parameters:
+    - id: collection
+      type: AdvancedSceneManager.Models.SceneCollection
+    - id: additionalScenes
+      type: AdvancedSceneManager.Models.Scene[]
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Function On(collection As SceneCollection, ParamArray additionalScenes As Scene()) As IEnumerator
+  overload: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On*
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T).On(SceneCollection, Scene())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T).On(AdvancedSceneManager.Models.SceneCollection, AdvancedSceneManager.Models.Scene())
+  name.vb: On(SceneCollection, Scene())
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.OnAllOpenScenes
+  commentId: M:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.OnAllOpenScenes
+  id: OnAllOpenScenes
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  langs:
+  - csharp
+  - vb
+  name: OnAllOpenScenes()
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>.OnAllOpenScenes()
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>.OnAllOpenScenes()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnAllOpenScenes
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 991
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: Specify the collection scenes to run this callback on and start execution..
+  example: []
+  syntax:
+    content: public IEnumerator OnAllOpenScenes()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Function OnAllOpenScenes As IEnumerator
+  overload: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.OnAllOpenScenes*
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T).OnAllOpenScenes()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T).OnAllOpenScenes()
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On(AdvancedSceneManager.Core.OpenSceneInfo[])
+  commentId: M:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On(AdvancedSceneManager.Core.OpenSceneInfo[])
+  id: On(AdvancedSceneManager.Core.OpenSceneInfo[])
+  parent: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  langs:
+  - csharp
+  - vb
+  name: On(OpenSceneInfo[])
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>.On(OpenSceneInfo[])
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>.On(AdvancedSceneManager.Core.OpenSceneInfo[])
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: On
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Callbacks/CallbackUtility.cs
+    startLine: 995
+  assemblies:
+  - AdvancedSceneManager
+  namespace: AdvancedSceneManager.Callbacks
+  summary: Specify the scenes to run this callback on and start execution.
+  example: []
+  syntax:
+    content: public IEnumerator On(params OpenSceneInfo[] scenes)
+    parameters:
+    - id: scenes
+      type: AdvancedSceneManager.Core.OpenSceneInfo[]
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Function On(ParamArray scenes As OpenSceneInfo()) As IEnumerator
+  overload: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On*
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T).On(OpenSceneInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T).On(AdvancedSceneManager.Core.OpenSceneInfo())
+  name.vb: On(OpenSceneInfo())
+references:
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.Invoke``1
+  commentId: M:AdvancedSceneManager.Callbacks.CallbackUtility.Invoke``1
+  isExternal: true
+- uid: AdvancedSceneManager.Callbacks
+  commentId: N:AdvancedSceneManager.Callbacks
+  name: AdvancedSceneManager.Callbacks
+  nameWithType: AdvancedSceneManager.Callbacks
+  fullName: AdvancedSceneManager.Callbacks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase
+  commentId: T:AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase
+  name: ISceneManagerCallbackBase
+  nameWithType: ISceneManagerCallbackBase
+  fullName: AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.hasDefaultCallback*
+  commentId: Overload:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.hasDefaultCallback
+  name: hasDefaultCallback
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>.hasDefaultCallback
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>.hasDefaultCallback
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T).hasDefaultCallback
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T).hasDefaultCallback
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithCallback*
+  commentId: Overload:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithCallback
+  name: WithCallback
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>.WithCallback
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>.WithCallback
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T).WithCallback
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T).WithCallback
+- uid: System.Func{{T},System.Collections.IEnumerator}
+  commentId: T:System.Func{``0,System.Collections.IEnumerator}
+  parent: System
+  definition: System.Func`2
+  name: Func<T, IEnumerator>
+  nameWithType: Func<T, IEnumerator>
+  fullName: System.Func<T, System.Collections.IEnumerator>
+  nameWithType.vb: Func(Of T, IEnumerator)
+  fullName.vb: System.Func(Of T, System.Collections.IEnumerator)
+  name.vb: Func(Of T, IEnumerator)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  commentId: T:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+  parent: AdvancedSceneManager.Callbacks
+  name: CallbackUtility.FluentInvokeAPI<T>
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T)
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T)
+  name.vb: CallbackUtility.FluentInvokeAPI(Of T)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+    name: CallbackUtility.FluentInvokeAPI
+    nameWithType: CallbackUtility.FluentInvokeAPI
+    fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1
+    name: CallbackUtility.FluentInvokeAPI
+    nameWithType: CallbackUtility.FluentInvokeAPI
+    fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithParam*
+  commentId: Overload:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.WithParam
+  name: WithParam
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>.WithParam
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>.WithParam
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T).WithParam
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T).WithParam
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On*
+  commentId: Overload:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.On
+  name: On
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>.On
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>.On
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T).On
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T).On
+- uid: AdvancedSceneManager.Models.Scene[]
+  isExternal: true
+  name: Scene[]
+  nameWithType: Scene[]
+  fullName: AdvancedSceneManager.Models.Scene[]
+  nameWithType.vb: Scene()
+  fullName.vb: AdvancedSceneManager.Models.Scene()
+  name.vb: Scene()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: AdvancedSceneManager.Models.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: AdvancedSceneManager.Models.Scene
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: AdvancedSceneManager.Models.SceneCollection
+  commentId: T:AdvancedSceneManager.Models.SceneCollection
+  parent: AdvancedSceneManager.Models
+  name: SceneCollection
+  nameWithType: SceneCollection
+  fullName: AdvancedSceneManager.Models.SceneCollection
+- uid: AdvancedSceneManager.Models
+  commentId: N:AdvancedSceneManager.Models
+  name: AdvancedSceneManager.Models
+  nameWithType: AdvancedSceneManager.Models
+  fullName: AdvancedSceneManager.Models
+- uid: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.OnAllOpenScenes*
+  commentId: Overload:AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI`1.OnAllOpenScenes
+  name: OnAllOpenScenes
+  nameWithType: CallbackUtility.FluentInvokeAPI<T>.OnAllOpenScenes
+  fullName: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI<T>.OnAllOpenScenes
+  nameWithType.vb: CallbackUtility.FluentInvokeAPI(Of T).OnAllOpenScenes
+  fullName.vb: AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI(Of T).OnAllOpenScenes
+- uid: AdvancedSceneManager.Core.OpenSceneInfo[]
+  isExternal: true
+  name: OpenSceneInfo[]
+  nameWithType: OpenSceneInfo[]
+  fullName: AdvancedSceneManager.Core.OpenSceneInfo[]
+  nameWithType.vb: OpenSceneInfo()
+  fullName.vb: AdvancedSceneManager.Core.OpenSceneInfo()
+  name.vb: OpenSceneInfo()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Core.OpenSceneInfo
+    name: OpenSceneInfo
+    nameWithType: OpenSceneInfo
+    fullName: AdvancedSceneManager.Core.OpenSceneInfo
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: AdvancedSceneManager.Core.OpenSceneInfo
+    name: OpenSceneInfo
+    nameWithType: OpenSceneInfo
+    fullName: AdvancedSceneManager.Core.OpenSceneInfo
+  - name: ()
+    nameWithType: ()
+    fullName: ()

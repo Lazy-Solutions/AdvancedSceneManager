@@ -1,0 +1,690 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  id: SceneManagerWindow.DragAndDropReorder
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.currentDragElement
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.newIndex
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.offset
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragCancel
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragEnded
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragStarted
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.RegisterList(UnityEngine.UIElements.VisualElement,System.String,System.String,System.String,System.String)
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.rootVisualElement
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterList(UnityEngine.UIElements.VisualElement)
+  - AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterListAll
+  langs:
+  - csharp
+  - vb
+  name: SceneManagerWindow.DragAndDropReorder
+  nameWithType: SceneManagerWindow.DragAndDropReorder
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DragAndDropReorder
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 552
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  summary: An class that manages drag and drop reorder.
+  example: []
+  syntax:
+    content: public static class DragAndDropReorder
+    content.vb: Public Module DragAndDropReorder
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.rootVisualElement
+  commentId: P:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.rootVisualElement
+  id: rootVisualElement
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  langs:
+  - csharp
+  - vb
+  name: rootVisualElement
+  nameWithType: SceneManagerWindow.DragAndDropReorder.rootVisualElement
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.rootVisualElement
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: rootVisualElement
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 561
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static VisualElement rootVisualElement { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Shared Property rootVisualElement As VisualElement
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.rootVisualElement*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragStarted
+  commentId: E:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragStarted
+  id: OnDragStarted
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  langs:
+  - csharp
+  - vb
+  name: OnDragStarted
+  nameWithType: SceneManagerWindow.DragAndDropReorder.OnDragStarted
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragStarted
+  type: Event
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnDragStarted
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 563
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static event Action<SceneManagerWindow.DragAndDropReorder.DragElement> OnDragStarted
+    return:
+      type: System.Action{AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement}
+    content.vb: Public Shared Event OnDragStarted As Action(Of SceneManagerWindow.DragAndDropReorder.DragElement)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragEnded
+  commentId: E:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragEnded
+  id: OnDragEnded
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  langs:
+  - csharp
+  - vb
+  name: OnDragEnded
+  nameWithType: SceneManagerWindow.DragAndDropReorder.OnDragEnded
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragEnded
+  type: Event
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnDragEnded
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 564
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static event Action<SceneManagerWindow.DragAndDropReorder.DragElement, int> OnDragEnded
+    return:
+      type: System.Action{AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement,System.Int32}
+    content.vb: Public Shared Event OnDragEnded As Action(Of SceneManagerWindow.DragAndDropReorder.DragElement, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragCancel
+  commentId: E:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragCancel
+  id: OnDragCancel
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  langs:
+  - csharp
+  - vb
+  name: OnDragCancel
+  nameWithType: SceneManagerWindow.DragAndDropReorder.OnDragCancel
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.OnDragCancel
+  type: Event
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnDragCancel
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 565
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static event Action<SceneManagerWindow.DragAndDropReorder.DragElement> OnDragCancel
+    return:
+      type: System.Action{AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement}
+    content.vb: Public Shared Event OnDragCancel As Action(Of SceneManagerWindow.DragAndDropReorder.DragElement)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.currentDragElement
+  commentId: P:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.currentDragElement
+  id: currentDragElement
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  langs:
+  - csharp
+  - vb
+  name: currentDragElement
+  nameWithType: SceneManagerWindow.DragAndDropReorder.currentDragElement
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.currentDragElement
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: currentDragElement
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 567
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static SceneManagerWindow.DragAndDropReorder.DragElement currentDragElement { get; }
+    parameters: []
+    return:
+      type: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+    content.vb: Public Shared ReadOnly Property currentDragElement As SceneManagerWindow.DragAndDropReorder.DragElement
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.currentDragElement*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.newIndex
+  commentId: P:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.newIndex
+  id: newIndex
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  langs:
+  - csharp
+  - vb
+  name: newIndex
+  nameWithType: SceneManagerWindow.DragAndDropReorder.newIndex
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.newIndex
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: newIndex
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 568
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static int newIndex { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property newIndex As Integer
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.newIndex*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.offset
+  commentId: P:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.offset
+  id: offset
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  langs:
+  - csharp
+  - vb
+  name: offset
+  nameWithType: SceneManagerWindow.DragAndDropReorder.offset
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.offset
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: offset
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 569
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static float offset { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly Property offset As Single
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.offset*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.RegisterList(UnityEngine.UIElements.VisualElement,System.String,System.String,System.String,System.String)
+  commentId: M:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.RegisterList(UnityEngine.UIElements.VisualElement,System.String,System.String,System.String,System.String)
+  id: RegisterList(UnityEngine.UIElements.VisualElement,System.String,System.String,System.String,System.String)
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  langs:
+  - csharp
+  - vb
+  name: RegisterList(VisualElement, String, String, String, String)
+  nameWithType: SceneManagerWindow.DragAndDropReorder.RegisterList(VisualElement, String, String, String, String)
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.RegisterList(UnityEngine.UIElements.VisualElement, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: RegisterList
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 596
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static void RegisterList(VisualElement list, string dragButtonName = null, string dragButtonClass = null, string itemRootName = null, string itemRootClass = null)
+    parameters:
+    - id: list
+      type: UnityEngine.UIElements.VisualElement
+    - id: dragButtonName
+      type: System.String
+    - id: dragButtonClass
+      type: System.String
+    - id: itemRootName
+      type: System.String
+    - id: itemRootClass
+      type: System.String
+    content.vb: Public Shared Sub RegisterList(list As VisualElement, dragButtonName As String = Nothing, dragButtonClass As String = Nothing, itemRootName As String = Nothing, itemRootClass As String = Nothing)
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.RegisterList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterList(UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterList(UnityEngine.UIElements.VisualElement)
+  id: UnregisterList(UnityEngine.UIElements.VisualElement)
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  langs:
+  - csharp
+  - vb
+  name: UnregisterList(VisualElement)
+  nameWithType: SceneManagerWindow.DragAndDropReorder.UnregisterList(VisualElement)
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterList(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: UnregisterList
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 640
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static void UnregisterList(VisualElement list)
+    parameters:
+    - id: list
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Shared Sub UnregisterList(list As VisualElement)
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterListAll
+  commentId: M:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterListAll
+  id: UnregisterListAll
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder
+  langs:
+  - csharp
+  - vb
+  name: UnregisterListAll()
+  nameWithType: SceneManagerWindow.DragAndDropReorder.UnregisterListAll()
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterListAll()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: UnregisterListAll
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 655
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public static void UnregisterListAll()
+    content.vb: Public Shared Sub UnregisterListAll
+  overload: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterListAll*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.rootVisualElement*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.rootVisualElement
+  name: rootVisualElement
+  nameWithType: SceneManagerWindow.DragAndDropReorder.rootVisualElement
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.rootVisualElement
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+- uid: System.Action{AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement}
+  commentId: T:System.Action{AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement}
+  parent: System
+  definition: System.Action`1
+  name: Action<SceneManagerWindow.DragAndDropReorder.DragElement>
+  nameWithType: Action<SceneManagerWindow.DragAndDropReorder.DragElement>
+  fullName: System.Action<AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement>
+  nameWithType.vb: Action(Of SceneManagerWindow.DragAndDropReorder.DragElement)
+  fullName.vb: System.Action(Of AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement)
+  name.vb: Action(Of SceneManagerWindow.DragAndDropReorder.DragElement)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+    name: SceneManagerWindow.DragAndDropReorder.DragElement
+    nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement
+    fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+    name: SceneManagerWindow.DragAndDropReorder.DragElement
+    nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement
+    fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement,System.Int32}
+  commentId: T:System.Action{AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement,System.Int32}
+  parent: System
+  definition: System.Action`2
+  name: Action<SceneManagerWindow.DragAndDropReorder.DragElement, Int32>
+  nameWithType: Action<SceneManagerWindow.DragAndDropReorder.DragElement, Int32>
+  fullName: System.Action<AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement, System.Int32>
+  nameWithType.vb: Action(Of SceneManagerWindow.DragAndDropReorder.DragElement, Int32)
+  fullName.vb: System.Action(Of AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement, System.Int32)
+  name.vb: Action(Of SceneManagerWindow.DragAndDropReorder.DragElement, Int32)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+    name: SceneManagerWindow.DragAndDropReorder.DragElement
+    nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement
+    fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+    name: SceneManagerWindow.DragAndDropReorder.DragElement
+    nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement
+    fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`2
+  commentId: T:System.Action`2
+  isExternal: true
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.currentDragElement*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.currentDragElement
+  name: currentDragElement
+  nameWithType: SceneManagerWindow.DragAndDropReorder.currentDragElement
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.currentDragElement
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+  parent: AdvancedSceneManager.Editor
+  name: SceneManagerWindow.DragAndDropReorder.DragElement
+  nameWithType: SceneManagerWindow.DragAndDropReorder.DragElement
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.newIndex*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.newIndex
+  name: newIndex
+  nameWithType: SceneManagerWindow.DragAndDropReorder.newIndex
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.newIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.offset*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.offset
+  name: offset
+  nameWithType: SceneManagerWindow.DragAndDropReorder.offset
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.offset
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.RegisterList*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.RegisterList
+  name: RegisterList
+  nameWithType: SceneManagerWindow.DragAndDropReorder.RegisterList
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.RegisterList
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterList*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterList
+  name: UnregisterList
+  nameWithType: SceneManagerWindow.DragAndDropReorder.UnregisterList
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterList
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterListAll*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterListAll
+  name: UnregisterListAll
+  nameWithType: SceneManagerWindow.DragAndDropReorder.UnregisterListAll
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.UnregisterListAll

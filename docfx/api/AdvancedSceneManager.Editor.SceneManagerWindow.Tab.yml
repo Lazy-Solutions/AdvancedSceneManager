@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  id: SceneManagerWindow.Tab
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.SceneManagerWindow.Tab.Scenes
+  - AdvancedSceneManager.Editor.SceneManagerWindow.Tab.Settings
+  - AdvancedSceneManager.Editor.SceneManagerWindow.Tab.Tags
+  langs:
+  - csharp
+  - vb
+  name: SceneManagerWindow.Tab
+  nameWithType: SceneManagerWindow.Tab
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  type: Enum
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Tab
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 31
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public enum Tab
+    content.vb: Public Enum Tab
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.Tab.Scenes
+  commentId: F:AdvancedSceneManager.Editor.SceneManagerWindow.Tab.Scenes
+  id: Scenes
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  langs:
+  - csharp
+  - vb
+  name: Scenes
+  nameWithType: SceneManagerWindow.Tab.Scenes
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.Tab.Scenes
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Scenes
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 33
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: Scenes = 0
+    return:
+      type: AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.Tab.Tags
+  commentId: F:AdvancedSceneManager.Editor.SceneManagerWindow.Tab.Tags
+  id: Tags
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: SceneManagerWindow.Tab.Tags
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.Tab.Tags
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Tags
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 33
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: Tags = 1
+    return:
+      type: AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.Tab.Settings
+  commentId: F:AdvancedSceneManager.Editor.SceneManagerWindow.Tab.Settings
+  id: Settings
+  parent: AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: SceneManagerWindow.Tab.Settings
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.Tab.Settings
+  type: Field
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Settings
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 33
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: Settings = 2
+    return:
+      type: AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  commentId: T:AdvancedSceneManager.Editor.SceneManagerWindow.Tab
+  parent: AdvancedSceneManager.Editor
+  name: SceneManagerWindow.Tab
+  nameWithType: SceneManagerWindow.Tab
+  fullName: AdvancedSceneManager.Editor.SceneManagerWindow.Tab

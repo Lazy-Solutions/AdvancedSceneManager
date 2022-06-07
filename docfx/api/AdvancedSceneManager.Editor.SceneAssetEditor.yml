@@ -1,0 +1,455 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.SceneAssetEditor
+  commentId: T:AdvancedSceneManager.Editor.SceneAssetEditor
+  id: SceneAssetEditor
+  parent: AdvancedSceneManager.Editor
+  children:
+  - AdvancedSceneManager.Editor.SceneAssetEditor.CreateInspectorGUI
+  - AdvancedSceneManager.Editor.SceneAssetEditor.OnHeaderGUI
+  - AdvancedSceneManager.Editor.SceneAssetEditor.position
+  - AdvancedSceneManager.Editor.SceneAssetEditor.rootVisualElement
+  langs:
+  - csharp
+  - vb
+  name: SceneAssetEditor
+  nameWithType: SceneAssetEditor
+  fullName: AdvancedSceneManager.Editor.SceneAssetEditor
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneAssetEditor.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SceneAssetEditor
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneAssetEditor.cs
+    startLine: 10
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: >-
+      [CanEditMultipleObjects]
+
+      [CustomEditor(typeof(SceneAsset))]
+
+      public class SceneAssetEditor : Editor, IUIToolkitEditor
+    content.vb: >-
+      <CanEditMultipleObjects>
+
+      <CustomEditor(GetType(SceneAsset))>
+
+      Public Class SceneAssetEditor
+          Inherits Editor
+          Implements IUIToolkitEditor
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - UnityEditor.Editor
+  implements:
+  - AdvancedSceneManager.Editor.IUIToolkitEditor
+  extensionMethods:
+  - UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  attributes:
+  - type: UnityEditor.CanEditMultipleObjects
+    ctor: UnityEditor.CanEditMultipleObjects.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: AdvancedSceneManager.Editor.SceneAssetEditor.rootVisualElement
+  commentId: P:AdvancedSceneManager.Editor.SceneAssetEditor.rootVisualElement
+  id: rootVisualElement
+  parent: AdvancedSceneManager.Editor.SceneAssetEditor
+  langs:
+  - csharp
+  - vb
+  name: rootVisualElement
+  nameWithType: SceneAssetEditor.rootVisualElement
+  fullName: AdvancedSceneManager.Editor.SceneAssetEditor.rootVisualElement
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneAssetEditor.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: rootVisualElement
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneAssetEditor.cs
+    startLine: 15
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public VisualElement rootVisualElement { get; }
+    parameters: []
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public ReadOnly Property rootVisualElement As VisualElement
+  overload: AdvancedSceneManager.Editor.SceneAssetEditor.rootVisualElement*
+  implements:
+  - AdvancedSceneManager.Editor.IUIToolkitEditor.rootVisualElement
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.SceneAssetEditor.position
+  commentId: P:AdvancedSceneManager.Editor.SceneAssetEditor.position
+  id: position
+  parent: AdvancedSceneManager.Editor.SceneAssetEditor
+  langs:
+  - csharp
+  - vb
+  name: position
+  nameWithType: SceneAssetEditor.position
+  fullName: AdvancedSceneManager.Editor.SceneAssetEditor.position
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneAssetEditor.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: position
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneAssetEditor.cs
+    startLine: 16
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public Rect position { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Rect
+    content.vb: Public Property position As Rect
+  overload: AdvancedSceneManager.Editor.SceneAssetEditor.position*
+  implements:
+  - AdvancedSceneManager.Editor.IUIToolkitEditor.position
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: AdvancedSceneManager.Editor.SceneAssetEditor.OnHeaderGUI
+  commentId: M:AdvancedSceneManager.Editor.SceneAssetEditor.OnHeaderGUI
+  id: OnHeaderGUI
+  parent: AdvancedSceneManager.Editor.SceneAssetEditor
+  langs:
+  - csharp
+  - vb
+  name: OnHeaderGUI()
+  nameWithType: SceneAssetEditor.OnHeaderGUI()
+  fullName: AdvancedSceneManager.Editor.SceneAssetEditor.OnHeaderGUI()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneAssetEditor.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: OnHeaderGUI
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneAssetEditor.cs
+    startLine: 18
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: protected override void OnHeaderGUI()
+    content.vb: Protected Overrides Sub OnHeaderGUI
+  overridden: UnityEditor.Editor.OnHeaderGUI
+  overload: AdvancedSceneManager.Editor.SceneAssetEditor.OnHeaderGUI*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: AdvancedSceneManager.Editor.SceneAssetEditor.CreateInspectorGUI
+  commentId: M:AdvancedSceneManager.Editor.SceneAssetEditor.CreateInspectorGUI
+  id: CreateInspectorGUI
+  parent: AdvancedSceneManager.Editor.SceneAssetEditor
+  langs:
+  - csharp
+  - vb
+  name: CreateInspectorGUI()
+  nameWithType: SceneAssetEditor.CreateInspectorGUI()
+  fullName: AdvancedSceneManager.Editor.SceneAssetEditor.CreateInspectorGUI()
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneAssetEditor.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: CreateInspectorGUI
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneAssetEditor.cs
+    startLine: 21
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor
+  syntax:
+    content: public override VisualElement CreateInspectorGUI()
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Overrides Function CreateInspectorGUI As VisualElement
+  overridden: UnityEditor.Editor.CreateInspectorGUI
+  overload: AdvancedSceneManager.Editor.SceneAssetEditor.CreateInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEditor.Editor
+  commentId: T:UnityEditor.Editor
+  parent: UnityEditor
+  isExternal: true
+  name: Editor
+  nameWithType: Editor
+  fullName: UnityEditor.Editor
+- uid: AdvancedSceneManager.Editor.IUIToolkitEditor
+  commentId: T:AdvancedSceneManager.Editor.IUIToolkitEditor
+  parent: AdvancedSceneManager.Editor
+  name: IUIToolkitEditor
+  nameWithType: IUIToolkitEditor
+  fullName: AdvancedSceneManager.Editor.IUIToolkitEditor
+- uid: UnityEngine.ScriptableObject.AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  parent: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  definition: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  name: Save()
+  nameWithType: ScriptableObjectUtility.Save()
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save()
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  commentId: M:AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  isExternal: true
+  name: Save(ScriptableObject)
+  nameWithType: ScriptableObjectUtility.Save(ScriptableObject)
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+  spec.csharp:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save(UnityEngine.ScriptableObject)
+    name: Save
+    nameWithType: ScriptableObjectUtility.Save
+    fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility.Save
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.ScriptableObject
+    name: ScriptableObject
+    nameWithType: ScriptableObject
+    fullName: UnityEngine.ScriptableObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Utility.ScriptableObjectUtility
+  commentId: T:AdvancedSceneManager.Utility.ScriptableObjectUtility
+  parent: AdvancedSceneManager.Utility
+  name: ScriptableObjectUtility
+  nameWithType: ScriptableObjectUtility
+  fullName: AdvancedSceneManager.Utility.ScriptableObjectUtility
+- uid: AdvancedSceneManager.Utility
+  commentId: N:AdvancedSceneManager.Utility
+  name: AdvancedSceneManager.Utility
+  nameWithType: AdvancedSceneManager.Utility
+  fullName: AdvancedSceneManager.Utility
+- uid: AdvancedSceneManager.Editor.SceneAssetEditor.rootVisualElement*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneAssetEditor.rootVisualElement
+  name: rootVisualElement
+  nameWithType: SceneAssetEditor.rootVisualElement
+  fullName: AdvancedSceneManager.Editor.SceneAssetEditor.rootVisualElement
+- uid: AdvancedSceneManager.Editor.IUIToolkitEditor.rootVisualElement
+  commentId: P:AdvancedSceneManager.Editor.IUIToolkitEditor.rootVisualElement
+  parent: AdvancedSceneManager.Editor.IUIToolkitEditor
+  name: rootVisualElement
+  nameWithType: IUIToolkitEditor.rootVisualElement
+  fullName: AdvancedSceneManager.Editor.IUIToolkitEditor.rootVisualElement
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+- uid: AdvancedSceneManager.Editor.SceneAssetEditor.position*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneAssetEditor.position
+  name: position
+  nameWithType: SceneAssetEditor.position
+  fullName: AdvancedSceneManager.Editor.SceneAssetEditor.position
+- uid: AdvancedSceneManager.Editor.IUIToolkitEditor.position
+  commentId: P:AdvancedSceneManager.Editor.IUIToolkitEditor.position
+  parent: AdvancedSceneManager.Editor.IUIToolkitEditor
+  name: position
+  nameWithType: IUIToolkitEditor.position
+  fullName: AdvancedSceneManager.Editor.IUIToolkitEditor.position
+- uid: UnityEngine.Rect
+  commentId: T:UnityEngine.Rect
+  parent: UnityEngine
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: UnityEngine.Rect
+- uid: UnityEditor.Editor.OnHeaderGUI
+  commentId: M:UnityEditor.Editor.OnHeaderGUI
+  parent: UnityEditor.Editor
+  isExternal: true
+  name: OnHeaderGUI()
+  nameWithType: Editor.OnHeaderGUI()
+  fullName: UnityEditor.Editor.OnHeaderGUI()
+  spec.csharp:
+  - uid: UnityEditor.Editor.OnHeaderGUI
+    name: OnHeaderGUI
+    nameWithType: Editor.OnHeaderGUI
+    fullName: UnityEditor.Editor.OnHeaderGUI
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.Editor.OnHeaderGUI
+    name: OnHeaderGUI
+    nameWithType: Editor.OnHeaderGUI
+    fullName: UnityEditor.Editor.OnHeaderGUI
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.SceneAssetEditor.OnHeaderGUI*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneAssetEditor.OnHeaderGUI
+  name: OnHeaderGUI
+  nameWithType: SceneAssetEditor.OnHeaderGUI
+  fullName: AdvancedSceneManager.Editor.SceneAssetEditor.OnHeaderGUI
+- uid: UnityEditor.Editor.CreateInspectorGUI
+  commentId: M:UnityEditor.Editor.CreateInspectorGUI
+  parent: UnityEditor.Editor
+  isExternal: true
+  name: CreateInspectorGUI()
+  nameWithType: Editor.CreateInspectorGUI()
+  fullName: UnityEditor.Editor.CreateInspectorGUI()
+  spec.csharp:
+  - uid: UnityEditor.Editor.CreateInspectorGUI
+    name: CreateInspectorGUI
+    nameWithType: Editor.CreateInspectorGUI
+    fullName: UnityEditor.Editor.CreateInspectorGUI
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.Editor.CreateInspectorGUI
+    name: CreateInspectorGUI
+    nameWithType: Editor.CreateInspectorGUI
+    fullName: UnityEditor.Editor.CreateInspectorGUI
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.SceneAssetEditor.CreateInspectorGUI*
+  commentId: Overload:AdvancedSceneManager.Editor.SceneAssetEditor.CreateInspectorGUI
+  name: CreateInspectorGUI
+  nameWithType: SceneAssetEditor.CreateInspectorGUI
+  fullName: AdvancedSceneManager.Editor.SceneAssetEditor.CreateInspectorGUI

@@ -1,0 +1,828 @@
+### YamlMime:ManagedReference
+items:
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  commentId: T:AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  id: VisualElementExtensions
+  parent: AdvancedSceneManager.Editor.Utility
+  children:
+  - AdvancedSceneManager.Editor.Utility.VisualElementExtensions.DefaultBackgroundColor
+  - AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  - AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot(UnityEngine.UIElements.VisualElement)
+  - AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(``0,System.Boolean)
+  - AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(UnityEngine.UIElements.Button,System.Action)
+  - AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(UnityEngine.UIElements.Toggle,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}},System.Boolean,System.String)
+  - AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``1(AdvancedSceneManager.Editor.SceneField,System.String,``0,System.String,System.Action,System.Boolean,System.String)
+  - AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2(``0,``1,System.String,System.Action,System.Boolean,System.String)
+  - AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetValueWithoutNotifyExt(UnityEditor.UIElements.EnumField,System.Enum)
+  langs:
+  - csharp
+  - vb
+  name: VisualElementExtensions
+  nameWithType: VisualElementExtensions
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  type: Class
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: VisualElementExtensions
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+    startLine: 11
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static class VisualElementExtensions
+    content.vb: Public Module VisualElementExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.DefaultBackgroundColor
+  commentId: P:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.DefaultBackgroundColor
+  id: DefaultBackgroundColor
+  parent: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: DefaultBackgroundColor
+  nameWithType: VisualElementExtensions.DefaultBackgroundColor
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.DefaultBackgroundColor
+  type: Property
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: DefaultBackgroundColor
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+    startLine: 15
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static Color DefaultBackgroundColor { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Property DefaultBackgroundColor As Color
+  overload: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.DefaultBackgroundColor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(``0,System.Boolean)
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(``0,System.Boolean)
+  id: SetEnabledExt``1(``0,System.Boolean)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetEnabledExt<TElement>(TElement, Boolean)
+  nameWithType: VisualElementExtensions.SetEnabledExt<TElement>(TElement, Boolean)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt<TElement>(TElement, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SetEnabledExt
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+    startLine: 45
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: >-
+      public static TElement SetEnabledExt<TElement>(this TElement element, bool enabled)
+          where TElement : VisualElement
+    parameters:
+    - id: element
+      type: '{TElement}'
+    - id: enabled
+      type: System.Boolean
+    typeParameters:
+    - id: TElement
+    return:
+      type: '{TElement}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetEnabledExt(Of TElement As VisualElement)(element As TElement, enabled As Boolean) As TElement
+  overload: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt*
+  nameWithType.vb: VisualElementExtensions.SetEnabledExt(Of TElement)(TElement, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt(Of TElement)(TElement, System.Boolean)
+  name.vb: SetEnabledExt(Of TElement)(TElement, Boolean)
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetValueWithoutNotifyExt(UnityEditor.UIElements.EnumField,System.Enum)
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetValueWithoutNotifyExt(UnityEditor.UIElements.EnumField,System.Enum)
+  id: SetValueWithoutNotifyExt(UnityEditor.UIElements.EnumField,System.Enum)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetValueWithoutNotifyExt(EnumField, Enum)
+  nameWithType: VisualElementExtensions.SetValueWithoutNotifyExt(EnumField, Enum)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetValueWithoutNotifyExt(UnityEditor.UIElements.EnumField, System.Enum)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: SetValueWithoutNotifyExt
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+    startLine: 51
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static EnumField SetValueWithoutNotifyExt(this EnumField element, Enum value)
+    parameters:
+    - id: element
+      type: UnityEditor.UIElements.EnumField
+    - id: value
+      type: System.Enum
+    return:
+      type: UnityEditor.UIElements.EnumField
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetValueWithoutNotifyExt(element As EnumField, value As  Enum) As EnumField
+  overload: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetValueWithoutNotifyExt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``1(AdvancedSceneManager.Editor.SceneField,System.String,``0,System.String,System.Action,System.Boolean,System.String)
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``1(AdvancedSceneManager.Editor.SceneField,System.String,``0,System.String,System.Action,System.Boolean,System.String)
+  id: Setup``1(AdvancedSceneManager.Editor.SceneField,System.String,``0,System.String,System.Action,System.Boolean,System.String)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: Setup<T>(SceneField, String, T, String, Action, Boolean, String)
+  nameWithType: VisualElementExtensions.Setup<T>(SceneField, String, T, String, Action, Boolean, String)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup<T>(AdvancedSceneManager.Editor.SceneField, System.String, T, System.String, System.Action, System.Boolean, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Setup
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+    startLine: 57
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static SceneField Setup<T>(this SceneField element, string label, T target, string field, Action onChanged = null, bool saveInSceneManagerWindow = true, string tooltip = null)
+    parameters:
+    - id: element
+      type: AdvancedSceneManager.Editor.SceneField
+    - id: label
+      type: System.String
+    - id: target
+      type: '{T}'
+    - id: field
+      type: System.String
+    - id: onChanged
+      type: System.Action
+    - id: saveInSceneManagerWindow
+      type: System.Boolean
+    - id: tooltip
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: AdvancedSceneManager.Editor.SceneField
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Setup(Of T)(element As SceneField, label As String, target As T, field As String, onChanged As Action = Nothing, saveInSceneManagerWindow As Boolean = True, tooltip As String = Nothing) As SceneField
+  overload: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup*
+  nameWithType.vb: VisualElementExtensions.Setup(Of T)(SceneField, String, T, String, Action, Boolean, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(Of T)(AdvancedSceneManager.Editor.SceneField, System.String, T, System.String, System.Action, System.Boolean, System.String)
+  name.vb: Setup(Of T)(SceneField, String, T, String, Action, Boolean, String)
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2(``0,``1,System.String,System.Action,System.Boolean,System.String)
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2(``0,``1,System.String,System.Action,System.Boolean,System.String)
+  id: Setup``2(``0,``1,System.String,System.Action,System.Boolean,System.String)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: Setup<TElement, T>(TElement, T, String, Action, Boolean, String)
+  nameWithType: VisualElementExtensions.Setup<TElement, T>(TElement, T, String, Action, Boolean, String)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup<TElement, T>(TElement, T, System.String, System.Action, System.Boolean, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Setup
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+    startLine: 69
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  summary: Sets up an ui toolkit element, by setting current value and registers value changed callback and automatically sets the new value to target.
+  example: []
+  syntax:
+    content: >-
+      public static TElement Setup<TElement, T>(this TElement element, T target, string field, Action onChanged = null, bool saveInSceneManagerWindow = true, string tooltip = null)
+          where TElement : VisualElement
+    parameters:
+    - id: element
+      type: '{TElement}'
+    - id: target
+      type: '{T}'
+    - id: field
+      type: System.String
+    - id: onChanged
+      type: System.Action
+    - id: saveInSceneManagerWindow
+      type: System.Boolean
+    - id: tooltip
+      type: System.String
+    typeParameters:
+    - id: TElement
+    - id: T
+    return:
+      type: '{TElement}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Setup(Of TElement As VisualElement, T)(element As TElement, target As T, field As String, onChanged As Action = Nothing, saveInSceneManagerWindow As Boolean = True, tooltip As String = Nothing) As TElement
+  overload: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup*
+  nameWithType.vb: VisualElementExtensions.Setup(Of TElement, T)(TElement, T, String, Action, Boolean, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(Of TElement, T)(TElement, T, System.String, System.Action, System.Boolean, System.String)
+  name.vb: Setup(Of TElement, T)(TElement, T, String, Action, Boolean, String)
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(UnityEngine.UIElements.Toggle,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}},System.Boolean,System.String)
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(UnityEngine.UIElements.Toggle,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}},System.Boolean,System.String)
+  id: Setup(UnityEngine.UIElements.Toggle,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}},System.Boolean,System.String)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: Setup(Toggle, EventCallback<ChangeEvent<Boolean>>, Boolean, String)
+  nameWithType: VisualElementExtensions.Setup(Toggle, EventCallback<ChangeEvent<Boolean>>, Boolean, String)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(UnityEngine.UIElements.Toggle, UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<System.Boolean>>, System.Boolean, System.String)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Setup
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+    startLine: 86
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static Toggle Setup(this Toggle element, EventCallback<ChangeEvent<bool>> valueChanged, bool defaultValue = false, string tooltip = null)
+    parameters:
+    - id: element
+      type: UnityEngine.UIElements.Toggle
+    - id: valueChanged
+      type: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}}
+    - id: defaultValue
+      type: System.Boolean
+    - id: tooltip
+      type: System.String
+    return:
+      type: UnityEngine.UIElements.Toggle
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Setup(element As Toggle, valueChanged As EventCallback(Of ChangeEvent(Of Boolean)), defaultValue As Boolean = False, tooltip As String = Nothing) As Toggle
+  overload: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup*
+  nameWithType.vb: VisualElementExtensions.Setup(Toggle, EventCallback(Of ChangeEvent(Of Boolean)), Boolean, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(UnityEngine.UIElements.Toggle, UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of System.Boolean)), System.Boolean, System.String)
+  name.vb: Setup(Toggle, EventCallback(Of ChangeEvent(Of Boolean)), Boolean, String)
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(UnityEngine.UIElements.Button,System.Action)
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(UnityEngine.UIElements.Button,System.Action)
+  id: Setup(UnityEngine.UIElements.Button,System.Action)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: Setup(Button, Action)
+  nameWithType: VisualElementExtensions.Setup(Button, Action)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(UnityEngine.UIElements.Button, System.Action)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: Setup
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+    startLine: 101
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static Button Setup(this Button element, Action onClick)
+    parameters:
+    - id: element
+      type: UnityEngine.UIElements.Button
+    - id: onClick
+      type: System.Action
+    return:
+      type: UnityEngine.UIElements.Button
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Setup(element As Button, onClick As Action) As Button
+  overload: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  id: FindAncestor(UnityEngine.UIElements.VisualElement,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: FindAncestor(VisualElement, String, String, Action<VisualElement>)
+  nameWithType: VisualElementExtensions.FindAncestor(VisualElement, String, String, Action<VisualElement>)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement, System.String, System.String, System.Action<UnityEngine.UIElements.VisualElement>)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: FindAncestor
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+    startLine: 150
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static VisualElement FindAncestor(this VisualElement element, string name = "", string className = "", Action<VisualElement> actionToPerformOnEachParent = null)
+    parameters:
+    - id: element
+      type: UnityEngine.UIElements.VisualElement
+    - id: name
+      type: System.String
+    - id: className
+      type: System.String
+    - id: actionToPerformOnEachParent
+      type: System.Action{UnityEngine.UIElements.VisualElement}
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FindAncestor(element As VisualElement, name As String = "", className As String = "", actionToPerformOnEachParent As Action(Of VisualElement) = Nothing) As VisualElement
+  overload: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor*
+  nameWithType.vb: VisualElementExtensions.FindAncestor(VisualElement, String, String, Action(Of VisualElement))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement, System.String, System.String, System.Action(Of UnityEngine.UIElements.VisualElement))
+  name.vb: FindAncestor(VisualElement, String, String, Action(Of VisualElement))
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot(UnityEngine.UIElements.VisualElement)
+  commentId: M:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot(UnityEngine.UIElements.VisualElement)
+  id: GetRoot(UnityEngine.UIElements.VisualElement)
+  isExtensionMethod: true
+  parent: AdvancedSceneManager.Editor.Utility.VisualElementExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetRoot(VisualElement)
+  nameWithType: VisualElementExtensions.GetRoot(VisualElement)
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+      branch: dev
+      repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
+    id: GetRoot
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Utility/VisualElementExtensions.cs
+    startLine: 168
+  assemblies:
+  - AdvancedSceneManager.Editor
+  namespace: AdvancedSceneManager.Editor.Utility
+  syntax:
+    content: public static VisualElement GetRoot(this VisualElement element)
+    parameters:
+    - id: element
+      type: UnityEngine.UIElements.VisualElement
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetRoot(element As VisualElement) As VisualElement
+  overload: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: AdvancedSceneManager.Editor.Utility
+  commentId: N:AdvancedSceneManager.Editor.Utility
+  name: AdvancedSceneManager.Editor.Utility
+  nameWithType: AdvancedSceneManager.Editor.Utility
+  fullName: AdvancedSceneManager.Editor.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.DefaultBackgroundColor*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.DefaultBackgroundColor
+  name: DefaultBackgroundColor
+  nameWithType: VisualElementExtensions.DefaultBackgroundColor
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.DefaultBackgroundColor
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt
+  name: SetEnabledExt
+  nameWithType: VisualElementExtensions.SetEnabledExt
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt
+- uid: '{TElement}'
+  commentId: '!:TElement'
+  definition: TElement
+  name: TElement
+  nameWithType: TElement
+  fullName: TElement
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TElement
+  name: TElement
+  nameWithType: TElement
+  fullName: TElement
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetValueWithoutNotifyExt*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetValueWithoutNotifyExt
+  name: SetValueWithoutNotifyExt
+  nameWithType: VisualElementExtensions.SetValueWithoutNotifyExt
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetValueWithoutNotifyExt
+- uid: UnityEditor.UIElements.EnumField
+  commentId: T:UnityEditor.UIElements.EnumField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: EnumField
+  nameWithType: EnumField
+  fullName: UnityEditor.UIElements.EnumField
+- uid: System.Enum
+  commentId: T:System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: UnityEditor.UIElements
+  commentId: N:UnityEditor.UIElements
+  isExternal: true
+  name: UnityEditor.UIElements
+  nameWithType: UnityEditor.UIElements
+  fullName: UnityEditor.UIElements
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup
+  name: Setup
+  nameWithType: VisualElementExtensions.Setup
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup
+- uid: AdvancedSceneManager.Editor.SceneField
+  commentId: T:AdvancedSceneManager.Editor.SceneField
+  parent: AdvancedSceneManager.Editor
+  name: SceneField
+  nameWithType: SceneField
+  fullName: AdvancedSceneManager.Editor.SceneField
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: AdvancedSceneManager.Editor
+  commentId: N:AdvancedSceneManager.Editor
+  name: AdvancedSceneManager.Editor
+  nameWithType: AdvancedSceneManager.Editor
+  fullName: AdvancedSceneManager.Editor
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UnityEngine.UIElements.Toggle
+  commentId: T:UnityEngine.UIElements.Toggle
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Toggle
+  nameWithType: Toggle
+  fullName: UnityEngine.UIElements.Toggle
+- uid: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}}
+  commentId: T:UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.EventCallback`1
+  name: EventCallback<ChangeEvent<Boolean>>
+  nameWithType: EventCallback<ChangeEvent<Boolean>>
+  fullName: UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<System.Boolean>>
+  nameWithType.vb: EventCallback(Of ChangeEvent(Of Boolean))
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of System.Boolean))
+  name.vb: EventCallback(Of ChangeEvent(Of Boolean))
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: UnityEngine.UIElements.EventCallback
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    nameWithType: ChangeEvent
+    fullName: UnityEngine.UIElements.ChangeEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: UnityEngine.UIElements.EventCallback
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    nameWithType: ChangeEvent
+    fullName: UnityEngine.UIElements.ChangeEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+- uid: UnityEngine.UIElements.EventCallback`1
+  commentId: T:UnityEngine.UIElements.EventCallback`1
+  isExternal: true
+  name: EventCallback<TEventType>
+  nameWithType: EventCallback<TEventType>
+  fullName: UnityEngine.UIElements.EventCallback<TEventType>
+  nameWithType.vb: EventCallback(Of TEventType)
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of TEventType)
+  name.vb: EventCallback(Of TEventType)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: UnityEngine.UIElements.EventCallback
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEventType
+    nameWithType: TEventType
+    fullName: TEventType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: UnityEngine.UIElements.EventCallback
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEventType
+    nameWithType: TEventType
+    fullName: TEventType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.UIElements.Button
+  commentId: T:UnityEngine.UIElements.Button
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UIElements.Button
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor
+  name: FindAncestor
+  nameWithType: VisualElementExtensions.FindAncestor
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: System.Action{UnityEngine.UIElements.VisualElement}
+  commentId: T:System.Action{UnityEngine.UIElements.VisualElement}
+  parent: System
+  definition: System.Action`1
+  name: Action<VisualElement>
+  nameWithType: Action<VisualElement>
+  fullName: System.Action<UnityEngine.UIElements.VisualElement>
+  nameWithType.vb: Action(Of VisualElement)
+  fullName.vb: System.Action(Of UnityEngine.UIElements.VisualElement)
+  name.vb: Action(Of VisualElement)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: UnityEngine.UIElements.VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot*
+  commentId: Overload:AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot
+  name: GetRoot
+  nameWithType: VisualElementExtensions.GetRoot
+  fullName: AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot
