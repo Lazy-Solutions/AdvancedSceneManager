@@ -2,20 +2,20 @@
 
 Advanced Scene Manager is a new and improved scene management system for [Unity](https://unity.com/). Get it at the [Unity Asset Store!](https://assetstore.unity.com/packages/slug/174152)
 
-Advanced Scene Manager allows you to assign [scenes](docs/Scene.md) as children to a [Scene Collection](docs/SceneCollection.md) (commonly referred to as collections).
-When a [Scene Collection](docs/SceneCollection.md) is opened all existing scenes will be closed and the newly opened [Scene Collection](docs/SceneCollection.md) will have its associated [scenes](docs/Scene.md) opened.
+Advanced Scene Manager allows you to assign [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) as children to a [Scene Collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) (commonly referred to as collections).
+When a [Scene Collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) is opened all existing scenes will be closed and the newly opened [Scene Collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) will have its associated [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) opened.
 
-Only one [collection](docs/SceneCollection.md) can be open at a time, but individual [scenes](docs/SceneCollection.md) can still be opened as standalone.
+Only one [collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) can be open at a time, but individual [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) can still be opened as standalone.
 
 ## How do I use it?
 
-The [Scene Manager Window](docs/SceneManagerWindow.md) can be accessed from 'File -> Scene Manager...' menu item. The [Scene Manager window](docs/SceneManagerWindow.md) can be used to create and remove [collections](docs/SceneCollection.md) and assign any [scenes](docs/Scene.md) as children.
+The [Scene Manager Window](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneManagerWindow.html) can be accessed from 'File -> Scene Manager...' menu item. The [Scene Manager window](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneManagerWindow.html) can be used to create and remove [collections](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) and assign any [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) as children.
 
-![](docs/image/File-menu-and-scene-manager-window.png "File menu and scene manager window")
+![](https://lazy-solutions.github.io/AdvancedSceneManager/image/File-menu-and-scene-manager-window.png "File menu and scene manager window")
 
-[Collections](docs/SceneCollection.md) and [scenes](docs/Scene.md) can be used like this:
+[Collections](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) and [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) can be used like this:
 
-![](docs/image/scene-helper.png)
+![](https://lazy-solutions.github.io/AdvancedSceneManager/image/scene-helper.png)
 
 or like this:
 
@@ -60,12 +60,12 @@ public MyScript : MonoBehaviour
 
 </br>
 
-[Collections](docs/SceneCollection.md) and [scenes](docs/Scene.md) can also be opened from [UnityEvents](https://docs.unity3d.com/Manual/UnityEvents.html), such as from a [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html), but it might be easier to use the [SceneHelper](docs/SceneHelper.md), since that will make it easier to find the [scene](docs/Scene.md) or [collection](docs/SceneCollection.md) in the Object Picker.
+[Collections](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) and [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) can also be opened from [UnityEvents](https://docs.unity3d.com/Manual/UnityEvents.html), such as from a [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html), but it might be easier to use the [SceneHelper](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneHelper.html), since that will make it easier to find the [scene](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) or [collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) in the Object Picker.
 
 ## Wiki
 ###### Advanced Scene Manager
 Welcome to the Advanced Scene Manager wiki!\
-This wiki is available both [online](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/readme.md) and [offline](https://raw.githubusercontent.com/wiki/Lazy-Solutions/AdvancedSceneManager/docs/ToPdf/ASM.pdf)
+This wiki is available both [online](https://lazy-solutions.github.io/AdvancedSceneManager/guides/readme.html) and [offline](https://raw.githubusercontent.com/wiki/Lazy-Solutions/AdvancedSceneManager/https://lazy-solutions.github.io/AdvancedSceneManager/guides/ToPdf/ASM.pdf) (currently unavailable, working on improving pdf converter)
 
 >Note: the offline version packaged with asset store releases may not be up-to-date, since documentation may be updated after release.
 
@@ -81,16 +81,16 @@ Want to get into contact with us? Report issues?\
 >Note: We accept bug reports and offer help on all three channels. Which one you wish to use, is up to your preference!
 
 ###### Highlight ★
-[Loading screens](docs/LoadingScreen.md)\
-[Splash screen](docs/SplashScreen.md)\
-[SceneHelper](docs/SceneHelper.md)\
-[In-game Toolbar](docs/InGameToolbar.md)\
-[ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](docs/Callbacks.md)
+[Loading screens](https://lazy-solutions.github.io/AdvancedSceneManager/guides/LoadingScreen.html)\
+[Splash screen](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SplashScreen.html)\
+[SceneHelper](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneHelper.html)\
+[In-game Toolbar](https://lazy-solutions.github.io/AdvancedSceneManager/guides/InGameToolbar.html)\
+[ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Callbacks.html)
 
 ###### Guides
-[Quick start](docs/QuickStart.md)\
-[Loading screen](docs/LoadingScreen.md#guide)\
-[Splash screen](docs/SplashScreen.md#guide)
+[Quick start](https://lazy-solutions.github.io/AdvancedSceneManager/guides/QuickStart.html)\
+[Loading screen](https://lazy-solutions.github.io/AdvancedSceneManager/guides/LoadingScreen.html#guide)\
+[Splash screen](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SplashScreen.html#guide)
 
 ###### Plugins
 [Addressables support](https://lazy-solutions.github.io/AdvancedSceneManager/plugins/plugin.asm.addressables.html)\
@@ -98,35 +98,35 @@ Want to get into contact with us? Report issues?\
 [Cross-scene references (experimental)](https://lazy-solutions.github.io/AdvancedSceneManager/plugins/plugin.asm.cross-scene-references.html)
 
 ###### Models
-[Scene](docs/Scene.md)\
-[SceneCollection](docs/SceneCollection.md)\
-[Profile](docs/Profile.md)
+[Scene](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html)\
+[SceneCollection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html)\
+[Profile](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Profile.html)
 
 ###### Frontend
-[SceneManagerWindow](docs/SceneManagerWindow.md)\
-[SceneOverviewWindow](docs/SceneOverviewWindow.md)
+[SceneManagerWindow](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneManagerWindow.html)\
+[SceneOverviewWindow](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneOverviewWindow.html)
 
 ##### Backend
-[SceneManager](docs/SceneManager.md)\
-[SceneOperation](docs/SceneOperation.md)\
-[SceneAction](docs/SceneAction.md)\
-[AssetManagement](docs/AssetManagement.md)\
-[OpenSceneInfo](docs/OpenSceneInfo.md)\
-[PreloadedSceneHelper](docs/PreloadedSceneHelper.md)
+[SceneManager](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneManager.html)\
+[SceneOperation](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneOperation.html)\
+[SceneAction](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneAction.html)\
+[AssetManagement](https://lazy-solutions.github.io/AdvancedSceneManager/guides/AssetManagement.html)\
+[OpenSceneInfo](https://lazy-solutions.github.io/AdvancedSceneManager/guides/OpenSceneInfo.html)\
+[PreloadedSceneHelper](https://lazy-solutions.github.io/AdvancedSceneManager/guides/PreloadedSceneHelper.html)
 
 ###### Utilities
-[SceneUtility](docs/SceneUtility.md)\
-[SceneCollectionUtility](docs/SceneCollectionUtility.md)\
-[LoadingScreenUtility](docs/LoadingScreenUtility.md)\
-[PersistentUtility](docs/PersistentUtility.md)\
-[CanvasSortOrderUtility](docs/CanvasSortOrderUtility.md)\
-[AssetRefreshUtility](docs/AssetRefreshUtility.md)\
-[Scene merge, split](docs/SceneMergeSplit.md)\
-[HierarchyGUIUtility](docs/HierarchyGUIUtility.md)\
-[SceneDataUtility](docs/SceneDataUtility.md)\
-[GuidReferenceUtility](docs/GuidReferenceUtility.md)\
-[CallbackUtility, Callback analyzer](docs/CallbackUtility.md)\
-[PauseScreenUtility](docs/DefaultPauseScreen.md)
+[SceneUtility](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneUtility.html)\
+[SceneCollectionUtility](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollectionUtility.html)\
+[LoadingScreenUtility](https://lazy-solutions.github.io/AdvancedSceneManager/guides/LoadingScreenUtility.html)\
+[PersistentUtility](https://lazy-solutions.github.io/AdvancedSceneManager/guides/PersistentUtility.html)\
+[CanvasSortOrderUtility](https://lazy-solutions.github.io/AdvancedSceneManager/guides/CanvasSortOrderUtility.html)\
+[AssetRefreshUtility](https://lazy-solutions.github.io/AdvancedSceneManager/guides/AssetRefreshUtility.html)\
+[Scene merge, split](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneMergeSplit.html)\
+[HierarchyGUIUtility](https://lazy-solutions.github.io/AdvancedSceneManager/guides/HierarchyGUIUtility.html)\
+[SceneDataUtility](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneDataUtility.html)\
+[GuidReferenceUtility](https://lazy-solutions.github.io/AdvancedSceneManager/guides/GuidReferenceUtility.html)\
+[CallbackUtility, Callback analyzer](https://lazy-solutions.github.io/AdvancedSceneManager/guides/CallbackUtility.html)\
+[PauseScreenUtility](https://lazy-solutions.github.io/AdvancedSceneManager/guides/DefaultPauseScreen.html)
 
 ## Where can I get it!?
 Advanced Scene Manager is available at the Unity Asset Store, [get it now!](https://assetstore.unity.com/packages/slug/174152)<br/>
