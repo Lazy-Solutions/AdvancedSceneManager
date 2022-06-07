@@ -2,35 +2,38 @@
   href: readme.md
 - name: Quick start
   href: QuickStart.md
-- name: In-game toolbar
-  href: InGameToolbar.md
-- name: Loading screens
-  href: LoadingScreen.md
-- name: Preloading
-  href: PreloadedSceneHelper.md
-- name: Default pause screen
-  href: PauseScreenUtility.md
-- name: Profiles
-  href: Profile.md
+
 - name: Scenes
   href: Scene.md
-- name: Scene actions
-  href: SceneAction.md
 - name: Scene collections
   href: SceneCollection.md
+
 - name: Scene helper
   href: SceneHelper.md
-- name: Scene managers
-  href: SceneManager.md
-- name: Scene manager window
-  href: SceneManagerWindow.md
-- name: Scene operations
-  href: SceneOperation.md
-- name: Scene overview window
-  href: SceneOverviewWindow.md
+
+- name: ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose
+  href: Callbacks.md
+
 - name: Splash screens
   href: SplashScreen.md
 - name: Loading screens
   href: LoadingScreen.md
-- name: ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose
-  href: Callbacks.md
+- 
+- name: Scene managers
+  href: SceneManager.md
+- name: Scene operations
+  href: SceneOperation.md
+- name: Scene actions
+  href: SceneAction.md
+
+- name: Profiles
+  href: Profile.md
+- name: Scene manager window
+  href: SceneManagerWindow.md
+- name: Scene overview window
+  href: SceneOverviewWindow.md
+
+- name: In-game toolbar
+  href: InGameToolbar.md
+- name: Default pause screen
+  href: PauseScreenUtility.md
