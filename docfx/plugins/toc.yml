@@ -1,6 +1,0 @@
-- name: Addressables
-  href: plugin.asm.addressables.md
-- name: Cross-scene references
-  href: plugin.asm.cross-scene-references.md
-- name: Locking
-  href: plugin.asm.locking.md
