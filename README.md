@@ -1,4 +1,4 @@
-###### What is Advanced Scene Manager?
+##### What is Advanced Scene Manager?
 
 Advanced Scene Manager is a new and improved scene management system for [Unity](https://unity.com/). Get it at the [Unity Asset Store!](https://assetstore.unity.com/packages/slug/174152)
 
@@ -7,7 +7,7 @@ When a [Scene Collection](https://lazy-solutions.github.io/AdvancedSceneManager/
 
 Only one [collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) can be open at a time, but individual [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) can still be opened as standalone.
 
-###### How do I use it?
+##### How do I use it?
 
 The [Scene Manager Window](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneManagerWindow.html) can be accessed from 'File -> Scene Manager...' menu item. The [Scene Manager window](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneManagerWindow.html) can be used to create and remove [collections](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) and assign any [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) as children.
 
@@ -62,23 +62,23 @@ public MyScript : MonoBehaviour
 
 [Collections](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) and [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) can also be opened from [UnityEvents](https://docs.unity3d.com/Manual/UnityEvents.html), such as from a [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html), but it might be easier to use the [SceneHelper](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneHelper.html), since that will make it easier to find the [scene](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) or [collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) in the Object Picker.
 
-###### Documentation
+##### Documentation
 This wiki is available both [online](https://lazy-solutions.github.io/AdvancedSceneManager/guides/readme.html) and [<s>offline</s>](https://raw.githubusercontent.com/wiki/Lazy-Solutions/AdvancedSceneManager/https://lazy-solutions.github.io/AdvancedSceneManager/guides/ToPdf/ASM.pdf)
 
 > Offline currently unavailable, working on improving pdf converter.
 
 >Note: the offline version packaged with asset store releases may not be up-to-date, since documentation may be updated after release.
 
-###### Patches
+##### Patches
 Patches are partial updates that are too important to have our users wait for, and if you are having issues, have a look over here, it might be fixed already: \
 [Patches](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/main/patches)
 
-###### Contact
+##### Contact
 Want to get into contact with us? Report issues?\
 [Github issues](https://github.com/Lazy-Solutions/AdvancedSceneManager/issues)\
 [support@lazy.solutions](mailto:support@lazy.solutions)\
 [discord.gg/pnRn6zeFEJ](https://discord.gg/pnRn6zeFEJ)
 >Note: We accept bug reports and offer help on all three channels. Which one you wish to use, is up to your preference!
 
-## Where can I get it!?
+##### Where can I get it!?
 Advanced Scene Manager is available at the Unity Asset Store, [get it now!](https://assetstore.unity.com/packages/slug/174152)<br/>
