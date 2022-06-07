@@ -864,8 +864,8 @@
     "title": "TimeSpanUtility | Advanced Scene Manager",
     "keywords": "TimeSpanUtility Inheritance Object TimeSpanUtility Methods FormatUnits_Components(Single, String) Formats the time as a readable string. public static (string time, string unit) FormatUnits_Components(float milliseconds, string format = \"#.###\") ToDisplayString(Single, String) public static string ToDisplayString(this float milliseconds, string format = \"#.###\") ToDisplayString(TimeSpan, String) public static string ToDisplayString(this TimeSpan timeSpan, string format = \"#.###\") ToDisplayString_Components(TimeSpan, String) public static (string time, string unit) ToDisplayString_Components(this TimeSpan timeSpan, string format = \"#.###\")"
   },
-  "faq.html": {
-    "href": "faq.html",
+  "faq/faq.html": {
+    "href": "faq/faq.html",
     "title": "FAQ | Advanced Scene Manager",
     "keywords": "FAQ What is Advanced Scene Manager? Advanced Scene Manager (ASM) is a scene manager for unity, that simplifies additive scene management. What can ASM do? a) Organize scenes into collections, which allows us to mass open / close scenes. b) Open scene and collections from UnityEvent. c) Easily set scenes or collections as persistent. d) Preload scenes. e) Loading screens. f) More customizable splash screens. What cannot ASM do? a) Stream scenes - We're not a world streamer. ASM focuses on general scene management. b) Preload multiple scenes at once - this is a unity limitation, not something we can work around."
   },

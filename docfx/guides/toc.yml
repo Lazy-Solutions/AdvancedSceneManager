@@ -10,15 +10,11 @@
 
 - name: Scene helper
   href: SceneHelper.md
-
-- name: ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose
-  href: Callbacks.md
-
 - name: Splash screens
   href: SplashScreen.md
 - name: Loading screens
   href: LoadingScreen.md
-- 
+
 - name: Scene managers
   href: SceneManager.md
 - name: Scene operations
@@ -37,3 +33,6 @@
   href: InGameToolbar.md
 - name: Default pause screen
   href: PauseScreenUtility.md
+
+- name: ISceneOpened, ISceneClosed, ICollectionOpen, ICollectionClose
+  href: Callbacks.md

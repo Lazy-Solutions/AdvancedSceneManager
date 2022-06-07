@@ -2112,11 +2112,23 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "faq.md",
+      "source_relative_path": "faq/faq.md",
       "output": {
         ".html": {
-          "relative_path": "faq.html",
-          "hash": "81TeSPTEXJj2K0v7r0VmmnwjHJ9n4diFP8cUCMKq+7Q="
+          "relative_path": "faq/faq.html",
+          "hash": "b37PRIjofL1snMsuGNCfHs6XaH5AA/KvXkiMafUjwq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "faq/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "faq/toc.html",
+          "hash": "RegUfot8OWkmaXwHJupCsdhYKDAPrh0XmRMZRMop5Lw="
         }
       },
       "is_incremental": false,
@@ -2339,15 +2351,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "EmptyTocItemNode"
-      ],
       "type": "Toc",
       "source_relative_path": "guides/toc.yml",
       "output": {
         ".html": {
           "relative_path": "guides/toc.html",
-          "hash": "Gd8tEQELzPzoWy3PAmF0BYw0hoW8Vaq4ifKl97m8xZI="
+          "hash": "n/+ejaQwPSv25fsrDsfqo2MGIIDAZZ0pZ2Wz1qygSeo="
         }
       },
       "is_incremental": false,
@@ -3121,15 +3130,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "U480X6AgUwa6UagtSGA5vJnCwdoasYnwotj+YiCTtII="
+          "hash": "n3hdOzNJe70p0rkZ2fbpxTQq9+7fKJy9c/k1o2z7jXM="
         }
       },
       "is_incremental": false,

@@ -35,8 +35,7 @@
       {
         "files": [
           "toc.yml",
-          "index.md",
-          "faq.md"
+          "index.md"
         ]
       },
       {
@@ -61,6 +60,14 @@
           "*.md"
         ],
         "dest": "plugins"
+      },
+      {
+        "src": "faq",
+        "files": [
+          "toc.yml",
+          "*.md"
+        ],
+        "dest": "faq"
       }
     ],
     "overwrite": [
