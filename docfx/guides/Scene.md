@@ -60,7 +60,96 @@ Scenes can be opened as persistent either by using [tags](SceneManagerWindow.md#
 
 Or by using [PersistentUtility](../api/AdvancedSceneManager.Utility.PersistentUtility.html) in code.
 
-## Scene merge
+### Preloading
+A scene can be preloaded by calling [Scene.Preload()](../api/AdvancedSceneManager.Models.Scene.html#AdvancedSceneManager_Models_Scene_Preload) or by using the [Scene helper](SceneHelper.html).
+
+A preloaded scene is represented by [PreloadedSceneHelper](../api/AdvancedSceneManager.Utility.PreloadedSceneHelper.html), which will be returned by [Scene.Preload()](../api/AdvancedSceneManager.Models.Scene.html#AdvancedSceneManager_Models_Scene_Preload).
+
+The currently preloaded scene can also be accessed through [SceneManager.utility.preloadedScene](../api/AdvancedSceneManager.Core.UtilitySceneManager.html).
+
+> Note that only one scene can be preloaded at a time, and that it must be finished or discarded in order to open or close another scene. This is a unity limitation.
+
+#### Example
+
+![](../image/preload-example.png?raw=true)
+
+TriggerEvents script:
+```csharp
+using System;
+using UnityEngine;
+using UnityEngine.Events;
+
+public class TriggerEvents : MonoBehaviour
+{
+
+    [Serializable]
+    public struct Event
+    {
+        [Space]
+        public UnityEvent m_event;
+    }
+
+    public Event OnTriggerEnter;
+    public Event OnTriggerExit;
+    public Event OnTriggerStay;
+
+    void OnTriggerEnter2D(Collider2D collision) => OnTriggerEnter.m_event.Invoke();
+    void OnTriggerExit2D(Collider2D collision) => OnTriggerExit.m_event.Invoke();
+    void OnTriggerStay2D(Collider2D collision) => OnTriggerStay.m_event.Invoke();
+
+}
+
+```
+
+</br>
+
+#### Example 2
+```csharp
+using System;
+using UnityEngine;
+
+public class Preloader : MonoBehaviour
+{
+
+    public Scene sceneToPreload;
+
+    //Can also be accessed by SceneManager.utility.preloadedScene;
+    PreloadedSceneHelper preloadedScene;
+
+    public void TriggerPreload()
+    {
+        DoPreload().StartCoroutine();
+    }
+
+    IEnumerator DoPreload()
+    {
+        Discard(); //Make sure we only have one scene being preloaded, since this is a unity limitation
+        var operation = sceneToPreload.Preload();
+        yield return operation;
+        preloadedScene = operation.value;
+    }
+
+    public void FinishPreload()
+    {
+        if (preloadedScene != null && preloadedScene.isStillPreloaded)
+            preloadedScene.FinishLoading();
+        preloadedScene = null;
+    }
+
+    public void Discard()
+    {
+        if (preloadedScene != null && preloadedScene.isStillPreloaded)
+            preloadedScene.Discard();
+        preloadedScene = null;
+    }
+
+}
+
+```
+
+</br>
+
+### Scene merge
 
 Merging scenes can be done in two ways:<br/>
 (API methods are contained in [SceneUtility](../api/AdvancedSceneManager.Utility.SceneUtility.html))
@@ -78,7 +167,7 @@ The scenes will then be merged like this:
 ![](../image/combine-scenes-result.png)
 
 
-## Scene split
+### Scene split
 Scenes can be split by selecting two GameObjects in the hierarchy:
 
 ![](../image/scene-split-menu.png)
