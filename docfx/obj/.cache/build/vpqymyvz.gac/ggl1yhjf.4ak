@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Loading screens | Advanced Scene Manager </title>
+    <meta name="title" content="Loading screens | Advanced Scene Manager ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../guides/readme.html">
+                <img id="logo" class="svg" src="..//resources/logo.png" alt="" style="width: 50px;height: 50px;">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="loading-screens" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="1" sourceendlinenumber="1">Loading screens</h2>
+
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="3" sourceendlinenumber="3"><br></p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="5" sourceendlinenumber="5">There are three ways of opening loading screens:</p>
+<ol sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="6" sourceendlinenumber="8">
+<li sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="6" sourceendlinenumber="6">Opening a <a href="SceneCollection.html" data-raw-source="[collection](SceneCollection.md)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="6" sourceendlinenumber="6">collection</a></li>
+<li sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="7" sourceendlinenumber="7"><a href="../api/AdvancedSceneManager.Utility.LoadingScreenUtility.html" data-raw-source="[LoadingScreenUtility](../api/AdvancedSceneManager.Utility.LoadingScreenUtility.html)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="7" sourceendlinenumber="7">LoadingScreenUtility</a></li>
+<li sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="8" sourceendlinenumber="8"><a href="../api/AdvancedSceneManager.Core.SceneOperation.html#AdvancedSceneManager_Core_SceneOperation_WithLoadingScreen_AdvancedSceneManager_Models_Scene_" data-raw-source="[SceneOperation.WithLoadingScreen](../api/AdvancedSceneManager.Core.SceneOperation.html#AdvancedSceneManager_Core_SceneOperation_WithLoadingScreen_AdvancedSceneManager_Models_Scene_)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="8" sourceendlinenumber="8">SceneOperation.WithLoadingScreen</a></li>
+</ol>
+<blockquote sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="10" sourceendlinenumber="10"><p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="10" sourceendlinenumber="10">A couple default loading screens are provided out-of-the-box, which can be found in &#39;AdvancedSceneManager/System/Defaults&#39;.</p>
+</blockquote>
+<h3 id="custom-loading-screens" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="12" sourceendlinenumber="12">Custom loading screens</h3>
+<h3 id="short-version" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="14" sourceendlinenumber="14">Short version:</h3>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="16" sourceendlinenumber="17">Custom loading screens can be created by creating a script that inherits from <a href="" data-raw-source="[AdvancedSceneManager.Callbacks.LoadingScreen]()" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="16" sourceendlinenumber="16">AdvancedSceneManager.Callbacks.LoadingScreen</a>, and overrides the abstract methods.<br>
+You&#39;d want to do updates in Update() like usual, then probably using <a href="" data-raw-source="[LoadingScreen.operation.totalProgress]()" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="17" sourceendlinenumber="17">LoadingScreen.operation.totalProgress</a>.</p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="19" sourceendlinenumber="19">Finally you may place it in a dedicated scene, and then assigning said scene to a collection or to the scene manager settings in order to use it.</p>
+<h3 id="longer-version" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="21" sourceendlinenumber="21">Longer version:</h3>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="23" sourceendlinenumber="23">Setting up a custom loading screen isn&#39;t difficult, but it isn&#39;t obvious either, we&#39;ll cover how to create a custom loading screen and how to use it in a <a href="SceneCollection.html" data-raw-source="[collection](SceneCollection.md)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="23" sourceendlinenumber="23">collection</a> here.</p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="25" sourceendlinenumber="25">A loading screen in ASM is implemented as a <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html" data-raw-source="[MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="25" sourceendlinenumber="25">MonoBehaviour</a> (through LoadingScreen class) with a few <a href="https://docs.unity3d.com/Manual/Coroutines.html" data-raw-source="[IEnumerator](https://docs.unity3d.com/Manual/Coroutines.html)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="25" sourceendlinenumber="25">IEnumerator</a> callbacks that are called when a <a href="SceneCollection.html" data-raw-source="[collection](SceneCollection.md)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="25" sourceendlinenumber="25">collection</a> is opened or closed (or manually opened through <a href="../api/AdvancedSceneManager.Utility.LoadingScreenUtility.html" data-raw-source="[LoadingScreenUtility](../api/AdvancedSceneManager.Utility.LoadingScreenUtility.html)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="25" sourceendlinenumber="25">LoadingScreenUtility</a>). Callbacks are waited for, and execution of ASM is stopped until a callback is done.</p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="27" sourceendlinenumber="27">Each loading scene script is then placed in a dedicated scene, which is then automatically opened by ASM.</p>
+<h3 id="code" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="29" sourceendlinenumber="29">Code</h3>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="31" sourceendlinenumber="31">Create a new script called &#39;CustomLoadingScreen&#39; and make it inherit from LoadingScreen, you may have to import &#39;AdvancedSceneManager.Callbacks&#39;.</p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="33" sourceendlinenumber="33">Remove default methods generated by unity, and override methods required by LoadingScreen.</p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="35" sourceendlinenumber="35">Now, you may want the loading screen to fade in, rather than just &#39;pop&#39; in. You can do this easily by adding a <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-CanvasGroup.html" data-raw-source="[CanvasGroup](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-CanvasGroup.html)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="35" sourceendlinenumber="35">CanvasGroup</a>, and using the Fade() extension method provided by ASM.</p>
+<pre sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="36" sourceendlinenumber="51"><code class="lang-csharp">//using AdvancedSceneManager.Utility;
+
+public CanvasGroup group;
+
+public override IEnumerator OnOpen()
+{
+    yield return group.Fade(1, 1);
+}
+
+public override IEnumerator OnClose()
+{
+    yield return group.Fade(0, 1);
+}
+</code></pre><p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="52" sourceendlinenumber="52">This will fade the <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/UICanvas.html" data-raw-source="[canvas](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/UICanvas.html)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="52" sourceendlinenumber="52">canvas</a> in when loading screen opens and fade out when loading is finished.</p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="54" sourceendlinenumber="54">Now, for showing progress, add a <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Slider.html" data-raw-source="[Slider](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Slider.html)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="54" sourceendlinenumber="54">Slider</a> variable and update it in Update().</p>
+<pre sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="56" sourceendlinenumber="65"><code class="lang-csharp">public Slider slider;
+
+void Update()
+{
+    if (operation != null) //Operation may be null for the first few frames
+      slider.value = operation.totalProgress;
+}
+</code></pre><p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="67" sourceendlinenumber="67">This will update a <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Slider.html" data-raw-source="[slider](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Slider.html)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="67" sourceendlinenumber="67">slider</a> when loading progress changes, note that this will probably not be visible when opening smaller scenes since they may load too quickly, so don&#39;t worry too much about it for this tutorial, just know that it exists so that you may use it in the future.</p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="69" sourceendlinenumber="69">Now that we have a functional implementation of a loading screen, we may begin the graphical part.</p>
+<h3 id="ui" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="71" sourceendlinenumber="71">UI</h3>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="73" sourceendlinenumber="73">Create a new scene called &#39;Custom loading screen&#39;.</p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="75" sourceendlinenumber="75">Add a <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/UICanvas.html" data-raw-source="[canvas](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/UICanvas.html)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="75" sourceendlinenumber="75">canvas</a> and a darkish background <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Image.html" data-raw-source="[image](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Image.html)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="75" sourceendlinenumber="75">image</a>, you may add a bright background instead if you are so inclined. Add a <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Slider.html" data-raw-source="[slider](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Slider.html)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="75" sourceendlinenumber="75">slider</a>, which you may style and position as you would like.</p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="77" sourceendlinenumber="77">Next, add a <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-CanvasGroup.html" data-raw-source="[CanvasGroup](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-CanvasGroup.html)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="77" sourceendlinenumber="77">CanvasGroup</a> to canvas and then the &#39;CustomLoadingScreen&#39; script that we created earlier, assign canvas, group, and slider variables.</p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="79" sourceendlinenumber="79"><img src="../image/loading-screen-variables.png" alt="" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="79" sourceendlinenumber="79"></p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="81" sourceendlinenumber="81">Setting alpha to 0 in <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-CanvasGroup.html" data-raw-source="[CanvasGroup](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/class-CanvasGroup.html)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="81" sourceendlinenumber="81">CanvasGroup</a> may prevent potential flickering.</p>
+<h3 id="actually-using-it" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="83" sourceendlinenumber="83">Actually using it</h3>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="85" sourceendlinenumber="85">Now as for actually using it, we can assign it to a <a href="SceneCollection.html" data-raw-source="[collection](SceneCollection.md)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="85" sourceendlinenumber="85">collection</a> in the <a href="SceneManagerWindow.html" data-raw-source="[Scene Manager Window](SceneManagerWindow.md)" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="85" sourceendlinenumber="85">Scene Manager Window</a>, by pressing the <img src="../image/menu.png" alt="" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="85" sourceendlinenumber="85"> on a collection, and changing &#39;Loading screen&#39; to &#39;Override&#39; and assigning the scene to the field that appears directly underneath.</p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="87" sourceendlinenumber="87"><img src="../image/loading-screen-override.png" alt="" sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="87" sourceendlinenumber="87"></p>
+<p sourcefile="guides/LoadingScreen.md" sourcestartlinenumber="89" sourceendlinenumber="89">And with that, we&#39;re done! You may now open the collection that has the loading screen assigned to it and the screen should start to fade in the ui you created, and when fade is done, the current collection should close and open the new collection, and then fade your ui out.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <a href='https://assetstore.unity.com/packages/slug/174152'>Advanced Scene Manager</a> - <a href='https://assetstore.unity.com/publishers/48996'>Lazy Solutions</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
