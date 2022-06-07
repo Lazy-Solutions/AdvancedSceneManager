@@ -127,7 +127,81 @@
 <p><img src="../image/tags.png" alt="">
 <img src="../image/collection.png" alt=""></p>
 <p>Or by using <a href="../api/AdvancedSceneManager.Utility.PersistentUtility.html">PersistentUtility</a> in code.</p>
-<h2 id="scene-merge">Scene merge</h2>
+<h3 id="preloading">Preloading</h3>
+<p>A scene can be preloaded by calling <a href="../api/AdvancedSceneManager.Models.Scene.html#AdvancedSceneManager_Models_Scene_Preload">Scene.Preload()</a> or by using the <a href="SceneHelper.html">Scene helper</a>.</p>
+<p>A preloaded scene is represented by <a href="../api/AdvancedSceneManager.Utility.PreloadedSceneHelper.html">PreloadedSceneHelper</a>, which will be returned by <a href="../api/AdvancedSceneManager.Models.Scene.html#AdvancedSceneManager_Models_Scene_Preload">Scene.Preload()</a>.</p>
+<p>The currently preloaded scene can also be accessed through <a href="../api/AdvancedSceneManager.Core.UtilitySceneManager.html">SceneManager.utility.preloadedScene</a>.</p>
+<blockquote><p>Note that only one scene can be preloaded at a time, and that it must be finished or discarded in order to open or close another scene. This is a unity limitation.</p>
+</blockquote>
+<h4 id="example">Example</h4>
+<p><img src="../image/preload-example.png" alt=""></p>
+<p>TriggerEvents script:</p>
+<pre><code class="lang-csharp">using System;
+using UnityEngine;
+using UnityEngine.Events;
+
+public class TriggerEvents : MonoBehaviour
+{
+
+    [Serializable]
+    public struct Event
+    {
+        [Space]
+        public UnityEvent m_event;
+    }
+
+    public Event OnTriggerEnter;
+    public Event OnTriggerExit;
+    public Event OnTriggerStay;
+
+    void OnTriggerEnter2D(Collider2D collision) =&gt; OnTriggerEnter.m_event.Invoke();
+    void OnTriggerExit2D(Collider2D collision) =&gt; OnTriggerExit.m_event.Invoke();
+    void OnTriggerStay2D(Collider2D collision) =&gt; OnTriggerStay.m_event.Invoke();
+
+}
+</code></pre><p><br></p>
+<h4 id="example-2">Example 2</h4>
+<pre><code class="lang-csharp">using System;
+using UnityEngine;
+
+public class Preloader : MonoBehaviour
+{
+
+    public Scene sceneToPreload;
+
+    //Can also be accessed by SceneManager.utility.preloadedScene;
+    PreloadedSceneHelper preloadedScene;
+
+    public void TriggerPreload()
+    {
+        DoPreload().StartCoroutine();
+    }
+
+    IEnumerator DoPreload()
+    {
+        Discard(); //Make sure we only have one scene being preloaded, since this is a unity limitation
+        var operation = sceneToPreload.Preload();
+        yield return operation;
+        preloadedScene = operation.value;
+    }
+
+    public void FinishPreload()
+    {
+        if (preloadedScene != null &amp;&amp; preloadedScene.isStillPreloaded)
+            preloadedScene.FinishLoading();
+        preloadedScene = null;
+    }
+
+    public void Discard()
+    {
+        if (preloadedScene != null &amp;&amp; preloadedScene.isStillPreloaded)
+            preloadedScene.Discard();
+        preloadedScene = null;
+    }
+
+}
+</code></pre><p><br></p>
+<h3 id="scene-merge">Scene merge</h3>
 <p>Merging scenes can be done in two ways:<br>
 (API methods are contained in <a href="../api/AdvancedSceneManager.Utility.SceneUtility.html">SceneUtility</a>)</p>
 <p>Pressing the <img src="../image/combine-scenes.png" alt=""> button:</p>
@@ -136,7 +210,7 @@
 <p><img src="../image/merge-scenes-menu.png" alt=""></p>
 <p>The scenes will then be merged like this:</p>
 <p><img src="../image/combine-scenes-result.png" alt=""></p>
-<h2 id="scene-split">Scene split</h2>
+<h3 id="scene-split">Scene split</h3>
 <p>Scenes can be split by selecting two GameObjects in the hierarchy:</p>
 <p><img src="../image/scene-split-menu.png" alt=""></p>
 <p>And will be split like this:</p>

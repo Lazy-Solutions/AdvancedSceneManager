@@ -2175,18 +2175,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "guides/PreloadedSceneHelper.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/PreloadedSceneHelper.html",
-          "hash": "Az+YVPcIisj728y6dhAeZ4KmgqNl0RbdyWgQylk/8lw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "guides/Profile.md",
       "output": {
         ".html": {
@@ -2221,7 +2209,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/Scene.html",
-          "hash": "SINGZPFRAbCnGGduYxu4wUaKhZOWH8y3byvx73jY+oQ="
+          "hash": "lDBOFva1xBYJYhgCCYkcI+S9nFzhnoHnbSLbvhWehZo="
         }
       },
       "is_incremental": false,
@@ -2351,12 +2339,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Toc",
       "source_relative_path": "guides/toc.yml",
       "output": {
         ".html": {
           "relative_path": "guides/toc.html",
-          "hash": "86/E0YgiDFyG78mkwo4hyXvedy45QMhzYQaogLeAbCU="
+          "hash": "xSpgMeAsfhYPeDOGvlvPLsLtc22zkZ6QUHpBAKgNVb8="
         }
       },
       "is_incremental": false,
@@ -3157,8 +3148,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 22,
-          "skipped_file_count": 22
+          "total_file_count": 21,
+          "skipped_file_count": 19
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
