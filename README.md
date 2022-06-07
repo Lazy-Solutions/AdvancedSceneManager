@@ -3,7 +3,7 @@
 Advanced Scene Manager is a new and improved scene management system for [Unity](https://unity.com/). Get it at the [Unity Asset Store!](https://assetstore.unity.com/packages/slug/174152)
 
 Advanced Scene Manager allows you to assign [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) as children to a [Scene Collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) (commonly referred to as collections).
-When a [Scene Collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) is opened all existing scenes will be closed and the newly opened [Scene Collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) will have its associated [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) opened.
+When a [Scene Collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) is opened all existing scenes (except persistent) will be closed and the newly opened [Scene Collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) will have its associated [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) opened.
 
 Only one [collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) can be open at a time, but individual [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) can still be opened as standalone.
 
