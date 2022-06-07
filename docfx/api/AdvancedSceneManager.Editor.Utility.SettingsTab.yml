@@ -28,7 +28,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: SettingsTab
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
     startLine: 10
   assemblies:
   - AdvancedSceneManager
@@ -64,7 +64,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: instance
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
     startLine: 13
   assemblies:
   - AdvancedSceneManager
@@ -101,7 +101,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: .ctor
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
     startLine: 15
   assemblies:
   - AdvancedSceneManager
@@ -131,7 +131,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: SetHeaderOrder
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
     startLine: 62
   assemblies:
   - AdvancedSceneManager
@@ -166,7 +166,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: GetHeaderOrder
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
     startLine: 70
   assemblies:
   - AdvancedSceneManager
@@ -201,7 +201,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: AddHeaderContent
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
     startLine: 80
   assemblies:
   - AdvancedSceneManager
@@ -236,7 +236,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: RemoveHeaderContent
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
     startLine: 91
   assemblies:
   - AdvancedSceneManager
@@ -269,7 +269,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: DefaultHeaders
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
     startLine: 97
   assemblies:
   - AdvancedSceneManager
@@ -304,7 +304,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Add
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
     startLine: 122
   assemblies:
   - AdvancedSceneManager
@@ -343,7 +343,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Spacer
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
     startLine: 139
   assemblies:
   - AdvancedSceneManager
@@ -376,7 +376,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Remove
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/SettingsTab.cs
     startLine: 143
   assemblies:
   - AdvancedSceneManager

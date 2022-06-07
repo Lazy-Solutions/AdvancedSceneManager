@@ -30,7 +30,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Editor
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
     startLine: 24
   assemblies:
   - AdvancedSceneManager
@@ -66,7 +66,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: scenesUpdated
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
     startLine: 27
   assemblies:
   - AdvancedSceneManager
@@ -97,7 +97,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OpenSingle
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
     startLine: 123
   assemblies:
   - AdvancedSceneManager
@@ -132,7 +132,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OpenSingle
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
     startLine: 132
   assemblies:
   - AdvancedSceneManager
@@ -167,7 +167,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Open
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
     startLine: 152
   assemblies:
   - AdvancedSceneManager
@@ -204,7 +204,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: IsOpen
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
     startLine: 174
   assemblies:
   - AdvancedSceneManager
@@ -239,7 +239,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: CanClose
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
     startLine: 175
   assemblies:
   - AdvancedSceneManager
@@ -274,7 +274,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Open
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
     startLine: 177
   assemblies:
   - AdvancedSceneManager
@@ -313,7 +313,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Close
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
     startLine: 214
   assemblies:
   - AdvancedSceneManager
@@ -348,7 +348,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Close
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
     startLine: 236
   assemblies:
   - AdvancedSceneManager
@@ -383,7 +383,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Close
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
     startLine: 248
   assemblies:
   - AdvancedSceneManager
@@ -418,7 +418,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: CloseAll
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
     startLine: 264
   assemblies:
   - AdvancedSceneManager
@@ -451,7 +451,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: IsOpen
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Managers/EditorManager.cs
     startLine: 284
   assemblies:
   - AdvancedSceneManager

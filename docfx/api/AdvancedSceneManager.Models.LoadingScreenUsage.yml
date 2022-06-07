@@ -21,7 +21,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: LoadingScreenUsage
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
     startLine: 18
   assemblies:
   - AdvancedSceneManager
@@ -52,7 +52,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: DoNotUse
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
     startLine: 20
   assemblies:
   - AdvancedSceneManager
@@ -84,7 +84,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: UseDefault
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
     startLine: 20
   assemblies:
   - AdvancedSceneManager
@@ -116,7 +116,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Override
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Models/SceneCollection.cs
     startLine: 20
   assemblies:
   - AdvancedSceneManager

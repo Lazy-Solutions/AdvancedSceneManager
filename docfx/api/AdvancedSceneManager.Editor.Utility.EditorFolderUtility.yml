@@ -19,7 +19,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: EditorFolderUtility
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorFolderUtility.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorFolderUtility.cs
     startLine: 10
   assemblies:
   - AdvancedSceneManager
@@ -55,7 +55,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: EnsureFolderExists
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorFolderUtility.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/EditorFolderUtility.cs
     startLine: 13
   assemblies:
   - AdvancedSceneManager

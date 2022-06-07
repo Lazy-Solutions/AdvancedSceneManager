@@ -21,7 +21,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: PromptInt
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptInt.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptInt.cs
     startLine: 8
   assemblies:
   - AdvancedSceneManager
@@ -73,7 +73,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: title
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptInt.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptInt.cs
     startLine: 11
   assemblies:
   - AdvancedSceneManager
@@ -111,7 +111,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Validate
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptInt.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptInt.cs
     startLine: 13
   assemblies:
   - AdvancedSceneManager
@@ -149,7 +149,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnContentGUI
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptInt.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Prompts/PromptInt.cs
     startLine: 16
   assemblies:
   - AdvancedSceneManager

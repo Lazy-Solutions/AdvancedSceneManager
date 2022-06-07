@@ -22,7 +22,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: TimeSpanUtility
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
     startLine: 7
   assemblies:
   - AdvancedSceneManager
@@ -57,7 +57,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: ToDisplayString
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
     startLine: 27
   assemblies:
   - AdvancedSceneManager
@@ -101,7 +101,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: ToDisplayString
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
     startLine: 34
   assemblies:
   - AdvancedSceneManager
@@ -145,7 +145,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: ToDisplayString_Components
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
     startLine: 41
   assemblies:
   - AdvancedSceneManager
@@ -188,7 +188,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: FormatUnits_Components
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/TimeSpanUtility.cs
     startLine: 45
   assemblies:
   - AdvancedSceneManager

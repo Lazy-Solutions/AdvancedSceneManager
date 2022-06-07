@@ -3,7 +3,7 @@
     {
       "src": [
         {
-          "src": "../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019",
+          "src": "../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019",
           "files": [
             "AdvancedSceneManager.csproj",
             "AdvancedSceneManager.Editor.csproj"
@@ -35,7 +35,8 @@
       {
         "files": [
           "toc.yml",
-          "index.md"
+          "index.md",
+          "faq.md"
         ]
       },
       {
@@ -93,6 +94,6 @@
     "xrefService": [
       "https://xref.docs.microsoft.com/query?uid={uid}"
     ],
-    "dest": "_site"
+    "dest": "../webpage"
   }
 }

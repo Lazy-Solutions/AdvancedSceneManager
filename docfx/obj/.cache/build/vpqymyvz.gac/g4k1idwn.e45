@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>AssetManagement
+   | Advanced Scene Manager </title>
+    <meta name="title" content="AssetManagement
+   | Advanced Scene Manager ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../guides/readme.html">
+                <img id="logo" class="svg" src="..//resources/logo.png" alt="" style="width: 50px;height: 50px;">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AdvancedSceneManager.Core.AssetManagement">
+  
+  
+  <h1 id="AdvancedSceneManager_Core_AssetManagement" data-uid="AdvancedSceneManager.Core.AssetManagement" class="text-break">AssetManagement
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Manages assets related to ASM.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">AssetManagement</span></div>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Core_AssetManagement_allowAutoRefresh_" data-uid="AdvancedSceneManager.Core.AssetManagement.allowAutoRefresh*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_allowAutoRefresh" data-uid="AdvancedSceneManager.Core.AssetManagement.allowAutoRefresh">allowAutoRefresh</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">If <span class="xref">false</span>, then assets will not be refreshed, this will mean that no Scene ScriptableObject will be created when a SceneAsset added, and a Scene will also not be removed when its associated SceneAsset is removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool allowAutoRefresh { get; set; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_collections_" data-uid="AdvancedSceneManager.Core.AssetManagement.collections*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_collections" data-uid="AdvancedSceneManager.Core.AssetManagement.collections">collections</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The collections in this project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;SceneCollection&gt; collections { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_profiles_" data-uid="AdvancedSceneManager.Core.AssetManagement.profiles*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_profiles" data-uid="AdvancedSceneManager.Core.AssetManagement.profiles">profiles</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The scenes in this project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;Profile&gt; profiles { get; }</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_scenes_" data-uid="AdvancedSceneManager.Core.AssetManagement.scenes*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_scenes" data-uid="AdvancedSceneManager.Core.AssetManagement.scenes">scenes</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The scenes in this project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;Scene&gt; scenes { get; }</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Core_AssetManagement_Add_" data-uid="AdvancedSceneManager.Core.AssetManagement.Add*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_Add_UnityEditor_SceneAsset_System_Boolean_" data-uid="AdvancedSceneManager.Core.AssetManagement.Add(UnityEditor.SceneAsset,System.Boolean)">Add(SceneAsset, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Adds the <span class="xref">UnityEditor.SceneAsset</span> to asm. Returns existing <a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a> if already exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene Add(SceneAsset asset, bool ignoreBlacklist = false)</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Core_AssetManagement_Add_UnityEditor_SceneAsset_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns <span class="xref">null</span> if scene has been added to <a class="xref" href="AdvancedSceneManager.Core.AssetManagement.html#AdvancedSceneManager_Core_AssetManagement_Ignore_System_String_">Ignore(String)</a>.</p>
+</div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_Add_" data-uid="AdvancedSceneManager.Core.AssetManagement.Add*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_Add__1___0_AdvancedSceneManager_Models_Profile_System_Boolean_System_Boolean_" data-uid="AdvancedSceneManager.Core.AssetManagement.Add``1(``0,AdvancedSceneManager.Models.Profile,System.Boolean,System.Boolean)">Add&lt;T&gt;(T, Profile, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Adds the asset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add&lt;T&gt;(T obj, Profile profile = null, bool import = true, bool ignoreBlacklist = false)
+    where T : ScriptableObject, ISceneObject</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_AddCollectionToProfile_" data-uid="AdvancedSceneManager.Core.AssetManagement.AddCollectionToProfile*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_AddCollectionToProfile_AdvancedSceneManager_Models_SceneCollection_AdvancedSceneManager_Models_Profile_" data-uid="AdvancedSceneManager.Core.AssetManagement.AddCollectionToProfile(AdvancedSceneManager.Models.SceneCollection,AdvancedSceneManager.Models.Profile)">AddCollectionToProfile(SceneCollection, Profile)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Adds the collection to the profile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddCollectionToProfile(SceneCollection collection, Profile profile)</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Core_AssetManagement_AddCollectionToProfile_AdvancedSceneManager_Models_SceneCollection_AdvancedSceneManager_Models_Profile__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">This removes collection from profile, if already associated with one.</p>
+</div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_Clear_" data-uid="AdvancedSceneManager.Core.AssetManagement.Clear*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_Clear" data-uid="AdvancedSceneManager.Core.AssetManagement.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Clear assets.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_Create_" data-uid="AdvancedSceneManager.Core.AssetManagement.Create*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_Create__1_System_String_AdvancedSceneManager_Models_Profile_System_Action___0__System_Boolean_" data-uid="AdvancedSceneManager.Core.AssetManagement.Create``1(System.String,AdvancedSceneManager.Models.Profile,System.Action{``0},System.Boolean)">Create&lt;T&gt;(String, Profile, Action&lt;T&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Create and add an asset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Create&lt;T&gt;(string name, Profile profile = null, Action&lt;T&gt; initializeBeforeSave = null, bool ignoreBlacklist = false)
+    where T : ScriptableObject, ISceneObject</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_Create_" data-uid="AdvancedSceneManager.Core.AssetManagement.Create*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_Create__1_System_String_System_Action___0__System_Boolean_" data-uid="AdvancedSceneManager.Core.AssetManagement.Create``1(System.String,System.Action{``0},System.Boolean)">Create&lt;T&gt;(String, Action&lt;T&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Create&lt;T&gt;(string name, Action&lt;T&gt; initializeBeforeSave = null, bool ignoreBlacklist = false)
+    where T : ScriptableObject, ISceneObject</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_CreateProfile_" data-uid="AdvancedSceneManager.Core.AssetManagement.CreateProfile*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_CreateProfile_System_String_System_Boolean_" data-uid="AdvancedSceneManager.Core.AssetManagement.CreateProfile(System.String,System.Boolean)">CreateProfile(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Create a new profile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Profile CreateProfile(string name = null, bool promptBlacklist = true)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_CreateProfileAndAssign_" data-uid="AdvancedSceneManager.Core.AssetManagement.CreateProfileAndAssign*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_CreateProfileAndAssign_System_Boolean_" data-uid="AdvancedSceneManager.Core.AssetManagement.CreateProfileAndAssign(System.Boolean)">CreateProfileAndAssign(Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Creates a new profile and assigns it as active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateProfileAndAssign(bool promptBlacklist = true)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_DuplicateProfile_" data-uid="AdvancedSceneManager.Core.AssetManagement.DuplicateProfile*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_DuplicateProfile" data-uid="AdvancedSceneManager.Core.AssetManagement.DuplicateProfile">DuplicateProfile()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Duplicates the active profile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Profile DuplicateProfile()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_DuplicateProfileAndAssign_" data-uid="AdvancedSceneManager.Core.AssetManagement.DuplicateProfileAndAssign*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_DuplicateProfileAndAssign" data-uid="AdvancedSceneManager.Core.AssetManagement.DuplicateProfileAndAssign">DuplicateProfileAndAssign()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Duplicates active profile and assigns it as active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DuplicateProfileAndAssign()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_FindAssetByID_" data-uid="AdvancedSceneManager.Core.AssetManagement.FindAssetByID*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_FindAssetByID__1_System_String_" data-uid="AdvancedSceneManager.Core.AssetManagement.FindAssetByID``1(System.String)">FindAssetByID&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Find the <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> with the associated asset ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T FindAssetByID&lt;T&gt;(string assetID)
+    where T : Object</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_FindAssetByPath_" data-uid="AdvancedSceneManager.Core.AssetManagement.FindAssetByPath*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_FindAssetByPath__1_System_String_" data-uid="AdvancedSceneManager.Core.AssetManagement.FindAssetByPath``1(System.String)">FindAssetByPath&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Find the <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> with the specified path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T FindAssetByPath&lt;T&gt;(string path)
+    where T : Object</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_FindSceneByPath_" data-uid="AdvancedSceneManager.Core.AssetManagement.FindSceneByPath*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_FindSceneByPath_System_String_" data-uid="AdvancedSceneManager.Core.AssetManagement.FindSceneByPath(System.String)">FindSceneByPath(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Find the <a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a> with the associated path (this is the path to the <span class="xref">UnityEditor.SceneAsset</span>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene FindSceneByPath(string path)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_Ignore_" data-uid="AdvancedSceneManager.Core.AssetManagement.Ignore*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_Ignore_System_String_" data-uid="AdvancedSceneManager.Core.AssetManagement.Ignore(System.String)">Ignore(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Ignores the scene at the specified path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Ignore(string path)</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Core_AssetManagement_Ignore_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Only available in editor.</p>
+</div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_IsIgnored_" data-uid="AdvancedSceneManager.Core.AssetManagement.IsIgnored*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_IsIgnored_System_String_" data-uid="AdvancedSceneManager.Core.AssetManagement.IsIgnored(System.String)">IsIgnored(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets if the scene should be ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsIgnored(string path)</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Core_AssetManagement_IsIgnored_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Only available in editor.</p>
+</div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_Remove_" data-uid="AdvancedSceneManager.Core.AssetManagement.Remove*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_Remove__1___0_" data-uid="AdvancedSceneManager.Core.AssetManagement.Remove``1(``0)">Remove&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Removes the asset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove&lt;T&gt;(T obj)
+    where T : ScriptableObject, ISceneObject</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Core_AssetManagement_Rename_" data-uid="AdvancedSceneManager.Core.AssetManagement.Rename*"></a>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_Rename__1___0_System_String_" data-uid="AdvancedSceneManager.Core.AssetManagement.Rename``1(``0,System.String)">Rename&lt;T&gt;(T, String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Renames the <a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a> or <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Rename&lt;T&gt;(T obj, string newName)
+    where T : ScriptableObject, ISceneObject</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_AssetsChanged" data-uid="AdvancedSceneManager.Core.AssetManagement.AssetsChanged">AssetsChanged</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Called when assets changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action AssetsChanged</code></pre>
+  </div>
+  <h4 id="AdvancedSceneManager_Core_AssetManagement_AssetsCleared" data-uid="AdvancedSceneManager.Core.AssetManagement.AssetsCleared">AssetsCleared</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Core.AssetManagement.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Called when assets are cleared, by either <a class="xref" href="AdvancedSceneManager.Core.AssetManagement.html#AdvancedSceneManager_Core_AssetManagement_Clear">Clear()</a> or from ui.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action AssetsCleared</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <a href='https://assetstore.unity.com/packages/slug/174152'>Advanced Scene Manager</a> - <a href='https://assetstore.unity.com/publishers/48996'>Lazy Solutions</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

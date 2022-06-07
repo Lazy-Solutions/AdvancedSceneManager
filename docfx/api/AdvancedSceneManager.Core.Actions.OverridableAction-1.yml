@@ -27,7 +27,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OverridableAction
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
     startLine: 10
   assemblies:
   - AdvancedSceneManager
@@ -91,7 +91,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: overrides
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
     startLine: 19
   assemblies:
   - AdvancedSceneManager
@@ -132,7 +132,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Override
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
     startLine: 22
   assemblies:
   - AdvancedSceneManager
@@ -174,7 +174,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: ClearOverride
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
     startLine: 26
   assemblies:
   - AdvancedSceneManager
@@ -213,7 +213,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: ClearOverrides
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
     startLine: 30
   assemblies:
   - AdvancedSceneManager
@@ -249,7 +249,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: DoAction
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
     startLine: 37
   assemblies:
   - AdvancedSceneManager
@@ -291,7 +291,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: DoNonOverridenAction
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
     startLine: 60
   assemblies:
   - AdvancedSceneManager
@@ -330,7 +330,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: BeforeDoAction
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
     startLine: 62
   assemblies:
   - AdvancedSceneManager
@@ -368,7 +368,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: lazyScene
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
     startLine: 65
   assemblies:
   - AdvancedSceneManager
@@ -405,7 +405,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: ToString
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Utility/OverridableAction.cs
     startLine: 67
   assemblies:
   - AdvancedSceneManager

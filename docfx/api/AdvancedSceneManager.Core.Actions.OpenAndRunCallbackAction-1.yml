@@ -26,7 +26,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OpenAndRunCallbackAction
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
     startLine: 12
   assemblies:
   - AdvancedSceneManager
@@ -82,7 +82,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: reportsProgress
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
     startLine: 15
   assemblies:
   - AdvancedSceneManager
@@ -122,7 +122,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: defaultTimeout
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
     startLine: 17
   assemblies:
   - AdvancedSceneManager
@@ -157,7 +157,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: .ctor
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
     startLine: 19
   assemblies:
   - AdvancedSceneManager
@@ -201,7 +201,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: onMissingCallback
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
     startLine: 42
   assemblies:
   - AdvancedSceneManager
@@ -238,7 +238,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: callback
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
     startLine: 43
   assemblies:
   - AdvancedSceneManager
@@ -275,7 +275,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: runCallback
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
     startLine: 44
   assemblies:
   - AdvancedSceneManager
@@ -312,7 +312,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: isLoadingScreen
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
     startLine: 45
   assemblies:
   - AdvancedSceneManager
@@ -349,7 +349,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: DoAction
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/OpenAndRunCallbackAction.cs
     startLine: 49
   assemblies:
   - AdvancedSceneManager

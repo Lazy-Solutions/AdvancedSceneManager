@@ -22,7 +22,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OpenStartupCollections
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/OpenStartupCollections.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/OpenStartupCollections.cs
     startLine: 11
   assemblies:
   - AdvancedSceneManager
@@ -73,7 +73,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: reportsProgress
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/OpenStartupCollections.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/OpenStartupCollections.cs
     startLine: 14
   assemblies:
   - AdvancedSceneManager
@@ -111,7 +111,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: .ctor
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/OpenStartupCollections.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/OpenStartupCollections.cs
     startLine: 19
   assemblies:
   - AdvancedSceneManager
@@ -148,7 +148,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: pointlessCollectionWarning
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/OpenStartupCollections.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/OpenStartupCollections.cs
     startLine: 29
   assemblies:
   - AdvancedSceneManager
@@ -188,7 +188,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: DoAction
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/OpenStartupCollections.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/Scene Actions/Runtime/OpenStartupCollections.cs
     startLine: 37
   assemblies:
   - AdvancedSceneManager

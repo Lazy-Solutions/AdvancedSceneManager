@@ -21,7 +21,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: TagsTab
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
     startLine: 14
   assemblies:
   - AdvancedSceneManager.Editor
@@ -55,7 +55,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnEnable
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
     startLine: 19
   assemblies:
   - AdvancedSceneManager.Editor
@@ -90,7 +90,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnReorderEnd
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
     startLine: 130
   assemblies:
   - AdvancedSceneManager.Editor
@@ -127,7 +127,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: FooterButtons
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/Tabs/TagsTab.cs
     startLine: 148
   assemblies:
   - AdvancedSceneManager.Editor

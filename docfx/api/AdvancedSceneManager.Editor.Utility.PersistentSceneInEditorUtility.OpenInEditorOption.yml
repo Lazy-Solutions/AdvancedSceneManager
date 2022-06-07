@@ -22,7 +22,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OpenInEditorOption
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
     startLine: 81
   assemblies:
   - AdvancedSceneManager
@@ -53,7 +53,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Never
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
     startLine: 83
   assemblies:
   - AdvancedSceneManager
@@ -85,7 +85,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: AnySceneOpens
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
     startLine: 83
   assemblies:
   - AdvancedSceneManager
@@ -117,7 +117,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: WhenAnyOfTheFollowingScenesOpen
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
     startLine: 83
   assemblies:
   - AdvancedSceneManager
@@ -149,7 +149,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: WhenAnySceneOpensExcept
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Utility/Editor/PersistentSceneInEditorUtility.cs
     startLine: 83
   assemblies:
   - AdvancedSceneManager

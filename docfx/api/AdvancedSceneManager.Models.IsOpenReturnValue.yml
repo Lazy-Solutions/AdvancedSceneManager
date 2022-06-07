@@ -24,12 +24,12 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: IsOpenReturnValue
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
-    startLine: 10
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
+    startLine: 7
   assemblies:
   - AdvancedSceneManager
   namespace: AdvancedSceneManager.Models
-  summary: "\n<p>A struct to make working with the return value of the IsOpen() function a bit easier.</p>\n<p>Implicitly casts to bool, which can be used to check if scene is open in either.</p>\n"
+  summary: "\n<p>A struct to make working with the return value of the IsOpen() function a bit easier.</p>\n<p>Implicitly casts to bool, which can be used to check if scene is open as either a collection or as standalone.</p>\n"
   example: []
   syntax:
     content: public struct IsOpenReturnValue
@@ -57,8 +57,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: withCollection
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
-    startLine: 14
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
+    startLine: 11
   assemblies:
   - AdvancedSceneManager
   namespace: AdvancedSceneManager.Models
@@ -90,8 +90,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: asStandalone
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
-    startLine: 16
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
+    startLine: 13
   assemblies:
   - AdvancedSceneManager
   namespace: AdvancedSceneManager.Models
@@ -123,8 +123,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: isPreloaded
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
-    startLine: 18
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
+    startLine: 15
   assemblies:
   - AdvancedSceneManager
   namespace: AdvancedSceneManager.Models
@@ -156,8 +156,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: op_Implicit
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
-    startLine: 20
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
+    startLine: 17
   assemblies:
   - AdvancedSceneManager
   namespace: AdvancedSceneManager.Models
@@ -196,8 +196,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: op_Implicit
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
-    startLine: 23
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
+    startLine: 20
   assemblies:
   - AdvancedSceneManager
   namespace: AdvancedSceneManager.Models
@@ -236,8 +236,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: op_Implicit
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
-    startLine: 26
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Core/IsOpenReturnValue.cs
+    startLine: 23
   assemblies:
   - AdvancedSceneManager
   namespace: AdvancedSceneManager.Models

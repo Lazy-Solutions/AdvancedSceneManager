@@ -20,7 +20,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: PressAnyButtonLoadingScreen
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/PressAnyButton/PressAnyButtonLoadingScreen.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/PressAnyButton/PressAnyButtonLoadingScreen.cs
     startLine: 12
   assemblies:
   - AdvancedSceneManager
@@ -71,7 +71,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnOpen
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/PressAnyButton/PressAnyButtonLoadingScreen.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/PressAnyButton/PressAnyButtonLoadingScreen.cs
     startLine: 22
   assemblies:
   - AdvancedSceneManager
@@ -109,7 +109,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnClose
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/PressAnyButton/PressAnyButtonLoadingScreen.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/PressAnyButton/PressAnyButtonLoadingScreen.cs
     startLine: 27
   assemblies:
   - AdvancedSceneManager

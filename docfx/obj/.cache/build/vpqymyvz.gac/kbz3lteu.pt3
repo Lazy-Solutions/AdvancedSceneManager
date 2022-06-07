@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>SceneTag
+   | Advanced Scene Manager </title>
+    <meta name="title" content="SceneTag
+   | Advanced Scene Manager ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../guides/readme.html">
+                <img id="logo" class="svg" src="..//resources/logo.png" alt="" style="width: 50px;height: 50px;">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AdvancedSceneManager.Models.SceneTag">
+  
+  
+  <h1 id="AdvancedSceneManager_Models_SceneTag" data-uid="AdvancedSceneManager.Models.SceneTag" class="text-break">SceneTag
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="api/AdvancedSceneManager.Models.SceneTag.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A layer that makes it easier to identify certain scenes.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">SceneTag</span></div>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="AdvancedSceneManager_Models_SceneTag__ctor_" data-uid="AdvancedSceneManager.Models.SceneTag.#ctor*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneTag__ctor" data-uid="AdvancedSceneManager.Models.SceneTag.#ctor">SceneTag()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public SceneTag()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneTag__ctor_" data-uid="AdvancedSceneManager.Models.SceneTag.#ctor*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneTag__ctor_System_String_System_Nullable_UnityEngine_Color__System_String_" data-uid="AdvancedSceneManager.Models.SceneTag.#ctor(System.String,System.Nullable{UnityEngine.Color},System.String)">SceneTag(String, Nullable&lt;Color&gt;, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneTag(string title, Color? color = null, string id = null)</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_closeBehavior" data-uid="AdvancedSceneManager.Models.SceneTag.closeBehavior">closeBehavior</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.SceneTag.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Specifies how the scene should behave when a <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a> is closed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneCloseBehavior closeBehavior</code></pre>
+  </div>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_color" data-uid="AdvancedSceneManager.Models.SceneTag.color">color</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color color</code></pre>
+  </div>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_Default" data-uid="AdvancedSceneManager.Models.SceneTag.Default">Default</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly SceneTag Default</code></pre>
+  </div>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_DoNotOpen" data-uid="AdvancedSceneManager.Models.SceneTag.DoNotOpen">DoNotOpen</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly SceneTag DoNotOpen</code></pre>
+  </div>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_id" data-uid="AdvancedSceneManager.Models.SceneTag.id">id</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string id</code></pre>
+  </div>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_label" data-uid="AdvancedSceneManager.Models.SceneTag.label">label</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string label</code></pre>
+  </div>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_name" data-uid="AdvancedSceneManager.Models.SceneTag.name">name</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string name</code></pre>
+  </div>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_openBehavior" data-uid="AdvancedSceneManager.Models.SceneTag.openBehavior">openBehavior</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Models.SceneTag.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Specifies how the scene should behave when a <a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a> is opened.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneOpenBehavior openBehavior</code></pre>
+  </div>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_Persistent" data-uid="AdvancedSceneManager.Models.SceneTag.Persistent">Persistent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly SceneTag Persistent</code></pre>
+  </div>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_PersistIfRequired" data-uid="AdvancedSceneManager.Models.SceneTag.PersistIfRequired">PersistIfRequired</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly SceneTag PersistIfRequired</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Models_SceneTag_Equals_" data-uid="AdvancedSceneManager.Models.SceneTag.Equals*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_Equals_AdvancedSceneManager_Models_SceneTag_" data-uid="AdvancedSceneManager.Models.SceneTag.Equals(AdvancedSceneManager.Models.SceneTag)">Equals(SceneTag)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(SceneTag layer)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneTag_Equals_" data-uid="AdvancedSceneManager.Models.SceneTag.Equals*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_Equals_System_Object_" data-uid="AdvancedSceneManager.Models.SceneTag.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a></div>
+  <a id="AdvancedSceneManager_Models_SceneTag_Find_" data-uid="AdvancedSceneManager.Models.SceneTag.Find*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_Find_System_String_" data-uid="AdvancedSceneManager.Models.SceneTag.Find(System.String)">Find(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneTag Find(string id)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneTag_GetHashCode_" data-uid="AdvancedSceneManager.Models.SceneTag.GetHashCode*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_GetHashCode" data-uid="AdvancedSceneManager.Models.SceneTag.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a></div>
+  <a id="AdvancedSceneManager_Models_SceneTag_ToString_" data-uid="AdvancedSceneManager.Models.SceneTag.ToString*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_ToString" data-uid="AdvancedSceneManager.Models.SceneTag.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a></div>
+  <h3 id="operators">Operators
+  </h3>
+  <a id="AdvancedSceneManager_Models_SceneTag_op_Equality_" data-uid="AdvancedSceneManager.Models.SceneTag.op_Equality*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_op_Equality_AdvancedSceneManager_Models_SceneTag_AdvancedSceneManager_Models_SceneTag_" data-uid="AdvancedSceneManager.Models.SceneTag.op_Equality(AdvancedSceneManager.Models.SceneTag,AdvancedSceneManager.Models.SceneTag)">Equality(SceneTag, SceneTag)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(SceneTag left, SceneTag right)</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Models_SceneTag_op_Inequality_" data-uid="AdvancedSceneManager.Models.SceneTag.op_Inequality*"></a>
+  <h4 id="AdvancedSceneManager_Models_SceneTag_op_Inequality_AdvancedSceneManager_Models_SceneTag_AdvancedSceneManager_Models_SceneTag_" data-uid="AdvancedSceneManager.Models.SceneTag.op_Inequality(AdvancedSceneManager.Models.SceneTag,AdvancedSceneManager.Models.SceneTag)">Inequality(SceneTag, SceneTag)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(SceneTag left, SceneTag right)</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <a href='https://assetstore.unity.com/packages/slug/174152'>Advanced Scene Manager</a> - <a href='https://assetstore.unity.com/publishers/48996'>Lazy Solutions</a>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

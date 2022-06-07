@@ -36,7 +36,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Item
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 21
   assemblies:
   - AdvancedSceneManager.Editor
@@ -69,7 +69,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Separator
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 24
   assemblies:
   - AdvancedSceneManager.Editor
@@ -106,7 +106,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: name
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 26
   assemblies:
   - AdvancedSceneManager.Editor
@@ -141,7 +141,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: isChecked
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 27
   assemblies:
   - AdvancedSceneManager.Editor
@@ -176,7 +176,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: onClick
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 28
   assemblies:
   - AdvancedSceneManager.Editor
@@ -211,7 +211,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: isCheckable
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 29
   assemblies:
   - AdvancedSceneManager.Editor
@@ -246,7 +246,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: isEnabled
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 30
   assemblies:
   - AdvancedSceneManager.Editor
@@ -281,7 +281,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: isVisible
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 31
   assemblies:
   - AdvancedSceneManager.Editor
@@ -316,7 +316,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: isBold
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 32
   assemblies:
   - AdvancedSceneManager.Editor
@@ -351,7 +351,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: isSeparator
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 34
   assemblies:
   - AdvancedSceneManager.Editor
@@ -386,7 +386,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Create
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 36
   assemblies:
   - AdvancedSceneManager.Editor
@@ -423,7 +423,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Create
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 39
   assemblies:
   - AdvancedSceneManager.Editor
@@ -462,7 +462,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: AsCheckable
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 42
   assemblies:
   - AdvancedSceneManager.Editor
@@ -494,7 +494,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: AsCheckable
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 43
   assemblies:
   - AdvancedSceneManager.Editor
@@ -532,7 +532,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: WithCheckedStatus
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 44
   assemblies:
   - AdvancedSceneManager.Editor
@@ -567,7 +567,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: WithEnabledState
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 45
   assemblies:
   - AdvancedSceneManager.Editor
@@ -602,7 +602,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: WhenClicked
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 46
   assemblies:
   - AdvancedSceneManager.Editor
@@ -637,7 +637,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: WithVisibleState
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 47
   assemblies:
   - AdvancedSceneManager.Editor
@@ -672,7 +672,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: WithBoldState
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/GenericPopup.cs
     startLine: 48
   assemblies:
   - AdvancedSceneManager.Editor

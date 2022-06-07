@@ -35,7 +35,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: EditorWindow_UIElements
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 8
   assemblies:
   - AdvancedSceneManager.Editor
@@ -85,7 +85,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: autoReloadOnWindowFocus
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 11
   assemblies:
   - AdvancedSceneManager.Editor
@@ -124,7 +124,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: path
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 12
   assemblies:
   - AdvancedSceneManager.Editor
@@ -163,7 +163,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: title
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 14
   assemblies:
   - AdvancedSceneManager.Editor
@@ -200,7 +200,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: window
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 22
   assemblies:
   - AdvancedSceneManager.Editor
@@ -239,7 +239,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Open
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 25
   assemblies:
   - AdvancedSceneManager.Editor
@@ -273,7 +273,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Close
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 32
   assemblies:
   - AdvancedSceneManager.Editor
@@ -307,7 +307,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnClose
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 41
   assemblies:
   - AdvancedSceneManager.Editor
@@ -341,7 +341,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: DoShow
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 45
   assemblies:
   - AdvancedSceneManager.Editor
@@ -377,7 +377,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnShow
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 50
   assemblies:
   - AdvancedSceneManager.Editor
@@ -411,7 +411,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Reopen
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 55
   assemblies:
   - AdvancedSceneManager.Editor
@@ -445,7 +445,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: isMainContentLoaded
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 64
   assemblies:
   - AdvancedSceneManager.Editor
@@ -482,7 +482,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: ShowSuspendMessage
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 67
   assemblies:
   - AdvancedSceneManager.Editor
@@ -514,7 +514,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: LoadContent
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 77
   assemblies:
   - AdvancedSceneManager.Editor
@@ -553,7 +553,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: LoadContent
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 81
   assemblies:
   - AdvancedSceneManager.Editor
@@ -598,7 +598,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: ReloadContent
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 106
   assemblies:
   - AdvancedSceneManager.Editor
@@ -630,7 +630,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnFocus
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 113
   assemblies:
   - AdvancedSceneManager.Editor
@@ -664,7 +664,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnEnable
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/EditorWindow_UIElements.cs
     startLine: 119
   assemblies:
   - AdvancedSceneManager.Editor

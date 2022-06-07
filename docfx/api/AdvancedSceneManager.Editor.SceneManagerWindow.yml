@@ -30,7 +30,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: SceneManagerWindow
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
     startLine: 27
   assemblies:
   - AdvancedSceneManager.Editor
@@ -97,7 +97,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnGUIEvent
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
     startLine: 47
   assemblies:
   - AdvancedSceneManager.Editor
@@ -130,7 +130,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: MouseUp
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
     startLine: 48
   assemblies:
   - AdvancedSceneManager.Editor
@@ -163,7 +163,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: position
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
     startLine: 50
   assemblies:
   - AdvancedSceneManager.Editor
@@ -196,7 +196,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: IsDarkMode
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
     startLine: 55
   assemblies:
   - AdvancedSceneManager.Editor
@@ -233,7 +233,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: path
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
     startLine: 145
   assemblies:
   - AdvancedSceneManager.Editor
@@ -271,7 +271,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: autoReloadOnWindowFocus
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
     startLine: 146
   assemblies:
   - AdvancedSceneManager.Editor
@@ -309,7 +309,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: IgnoreProfileChanged
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
     startLine: 149
   assemblies:
   - AdvancedSceneManager.Editor
@@ -341,8 +341,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnEnable
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
-    startLine: 180
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 182
   assemblies:
   - AdvancedSceneManager.Editor
   namespace: AdvancedSceneManager.Editor
@@ -374,8 +374,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: deleteTempBuildMessage
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
-    startLine: 432
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 434
   assemblies:
   - AdvancedSceneManager.Editor
   namespace: AdvancedSceneManager.Editor
@@ -413,8 +413,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnFocus
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
-    startLine: 848
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 850
   assemblies:
   - AdvancedSceneManager.Editor
   namespace: AdvancedSceneManager.Editor
@@ -446,8 +446,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: ReopenTab
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
-    startLine: 930
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 932
   assemblies:
   - AdvancedSceneManager.Editor
   namespace: AdvancedSceneManager.Editor
@@ -478,8 +478,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: Save
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
-    startLine: 1030
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 1032
   assemblies:
   - AdvancedSceneManager.Editor
   namespace: AdvancedSceneManager.Editor

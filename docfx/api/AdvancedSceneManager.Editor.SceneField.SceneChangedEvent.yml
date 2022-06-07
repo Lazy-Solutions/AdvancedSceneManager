@@ -19,8 +19,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: SceneChangedEvent
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
-    startLine: 358
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+    startLine: 366
   assemblies:
   - AdvancedSceneManager.Editor
   namespace: AdvancedSceneManager.Editor
@@ -58,8 +58,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: .ctor
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
-    startLine: 361
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Custom elements/SceneField.cs
+    startLine: 369
   assemblies:
   - AdvancedSceneManager.Editor
   namespace: AdvancedSceneManager.Editor

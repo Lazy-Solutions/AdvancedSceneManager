@@ -25,7 +25,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: IconBounceLoadingScreen
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
     startLine: 10
   assemblies:
   - AdvancedSceneManager
@@ -76,7 +76,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: IconStartSize
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
     startLine: 12
   assemblies:
   - AdvancedSceneManager
@@ -107,7 +107,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: IconStartRotationZ
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
     startLine: 13
   assemblies:
   - AdvancedSceneManager
@@ -138,7 +138,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: duration
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
     startLine: 14
   assemblies:
   - AdvancedSceneManager
@@ -169,7 +169,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: IconTransform
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
     startLine: 16
   assemblies:
   - AdvancedSceneManager
@@ -200,7 +200,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: BackgroundTransform
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
     startLine: 17
   assemblies:
   - AdvancedSceneManager
@@ -231,7 +231,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnOpen
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
     startLine: 19
   assemblies:
   - AdvancedSceneManager
@@ -269,7 +269,7 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: OnClose
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Defaults/IconBounce/IconBounceLoadingScreen.cs
     startLine: 27
   assemblies:
   - AdvancedSceneManager

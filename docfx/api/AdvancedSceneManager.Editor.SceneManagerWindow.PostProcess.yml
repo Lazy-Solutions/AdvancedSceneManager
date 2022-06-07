@@ -18,8 +18,8 @@ items:
       branch: dev
       repo: https://github.com/Lazy-Solutions/Unity.AdvancedSceneManager.git
     id: PostProcess
-    path: ../../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
-    startLine: 355
+    path: ../../Unity.AdvancedSceneManager/Unity projects/ASM-dev-2019/Assets/AdvancedSceneManager/System/Editor/Windows/SceneManagerWindow.cs
+    startLine: 357
   assemblies:
   - AdvancedSceneManager.Editor
   namespace: AdvancedSceneManager.Editor

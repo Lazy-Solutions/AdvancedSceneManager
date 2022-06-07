@@ -712,6 +712,7 @@
   "AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.DisallowAutoRefresh(System.Object)": "AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.yml",
   "AdvancedSceneManager.Editor.Utility.AssetsSavedUtility": "AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.yml",
   "AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.onAssetsSaved": "AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.yml",
+  "AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.onAssetsSaved2": "AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.yml",
   "AdvancedSceneManager.Editor.Utility.BlacklistUtility": "AdvancedSceneManager.Editor.Utility.BlacklistUtility.yml",
   "AdvancedSceneManager.Editor.Utility.BlacklistUtility.IsBlocked(System.String)": "AdvancedSceneManager.Editor.Utility.BlacklistUtility.yml",
   "AdvancedSceneManager.Editor.Utility.BuildEventsUtility": "AdvancedSceneManager.Editor.Utility.BuildEventsUtility.yml",
