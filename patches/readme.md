@@ -1,5 +1,5 @@
 ## Patch notes:
-No patches currently available.
+- Fixed a null reference when calling ISceneOpen on entering playmode through regular play button.
 
 ## Patches for Advanced Scene Manager
 
