@@ -34,7 +34,7 @@ Patches and patch notes can also be found here:\
     
     > If you have all dependencies but asm does not appear, and 'ASM' is not set, then you'll have to add it since ASM will not be compiled until it is.
     
-    ![](https://raw.githubusercontent.com/Lazy-Solutions/AdvancedSceneManager/main/docs/image/scripting%20define%20symbols.png)\
+    ![](https://lazy-solutions.github.io/AdvancedSceneManager/image/scripting%20define%20symbols.png)\
     (Unity 2019, the interface has changed slighly in more recent versions)
     
 4. Make sure that all dependencies are installed in package manager:
