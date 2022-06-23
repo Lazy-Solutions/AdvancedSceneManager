@@ -1,8 +1,10 @@
 ## Patch notes:
+22-06-2022
 - Fixed a null reference when calling ISceneOpen on entering playmode through regular play button.
 - Rewrote SceneUtility.MergeScenes to be more robust, and to move scenes to recycle bin so that they can be restored.
 - Fixed bug where LoadingScreenUtility.DoAction(Scene, Action, bool) would freeze due to it accidentally calling itself, rather than the coroutine version of the method.
 
+23-06-2022
 - May have fixed HierarchyGUIUtility throwing imgui errors.
 - Fixed null ref in scenes tab when a scene changes.
 - Fixed height of drag element when reordering collections.
