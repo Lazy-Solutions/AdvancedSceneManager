@@ -10,7 +10,7 @@
 
 
 #### 30-06-2022
-- Fixed issue where loading screen script could not be found, due to timing and scene not yet fully loaded.
+- Fixed issue where scenes managers would not be cleared of scenes when entering play mode using configurable enter play mode.
 
 #### profile-dependent-scene-and-collection:
 * Adds ProfileDependent<T>, ProfileDependentScene and ProfileDependentCollection that provides the ability to load a different scene depending the current profile.
