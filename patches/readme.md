@@ -1,4 +1,5 @@
 ## Patch notes:
+#### 24-06-2022:
 - Fixed a null reference when calling ISceneOpen on entering playmode through regular play button.
 - Rewrote SceneUtility.MergeScenes to be more robust, and to move scenes to recycle bin so that they can be restored.
 - Fixed bug where LoadingScreenUtility.DoAction(Scene, Action, bool) would freeze due to it accidentally calling itself, rather than the coroutine version of the method.
@@ -6,6 +7,10 @@
 - Fixed null ref in scenes tab when a scene changes.
 - Fixed height of drag element when reordering collections. 
 - Fixed some issues with unity 2019.
+
+
+#### 30-06-2022
+- Fixed issue where loading screen script could not be found, due to timing and scene not yet fully loaded.
 
 #### profile-dependent-scene-and-collection:
 * Adds ProfileDependent<T>, ProfileDependentScene and ProfileDependentCollection that provides the ability to load a different scene depending the current profile.
