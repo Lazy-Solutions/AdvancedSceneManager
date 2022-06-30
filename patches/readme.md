@@ -7,6 +7,9 @@
 - Fixed height of drag element when reordering collections. 
 - Fixed some issues with unity 2019.
 
+profile-dependent-scene-and-collection:\
+Adds ProfileDependent<T>, ProfileDependentScene and ProfileDependentCollection that provides the ability to load a different scene depending the current profile.
+
 ## Patches for Advanced Scene Manager
 
 Patches are partial updates that are too important to have our users wait for.
