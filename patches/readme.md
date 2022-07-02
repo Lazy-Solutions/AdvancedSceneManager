@@ -8,9 +8,11 @@
 - Fixed height of drag element when reordering collections. 
 - Fixed some issues with unity 2019.
 
-
 #### 30-06-2022
 - Fixed issue where scenes managers would not be cleared of scenes when entering play mode using configurable enter play mode.
+
+#### 02-07-2022
+- Renamed SceneManager.utility.RegisterOpenCallback() to RegisterCallback.
 
 #### profile-dependent-scene-and-collection:
 * Adds ProfileDependent<T>, ProfileDependentScene and ProfileDependentCollection that provides the ability to load a different scene depending the current profile.
