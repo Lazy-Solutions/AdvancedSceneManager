@@ -16,7 +16,8 @@
       "filter": "filterConfig.yml",
       "dest": "api",
       "properties": {
-        "DefineConstants": "UNITY_EDITOR"
+        "DefineConstants": "UNITY_EDITOR",
+        "name":  ""
       }
     }
   ],
@@ -102,5 +103,70 @@
       "https://xref.docs.microsoft.com/query?uid={uid}"
     ],
     "dest": "../"
+  },
+  "pdf": {
+    "content": [
+      {
+        "files": [
+          "toc.yml",
+          "index.md"
+        ]
+      },
+      {
+        "src": "api",
+        "files": [
+          "*.yml"
+        ],
+        "dest": "api"
+      },
+      {
+        "src": "guides",
+        "files": [
+          "toc.yml",
+          "*.md"
+        ],
+        "dest": "guides"
+      },
+      {
+        "src": "plugins",
+        "files": [
+          "toc.yml",
+          "*.md"
+        ],
+        "dest": "plugins"
+      },
+      {
+        "src": "faq",
+        "files": [
+          "toc.yml",
+          "*.md"
+        ],
+        "dest": "faq"
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "resources/**/*",
+          "image/**/*"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**",
+          "_site_pdf/**"
+        ]
+      }
+    ],
+    "wkhtmltopdf": {
+      "additionalArguments": "--enable-local-file-access"
+    },
+    "dest": "../pdf"
   }
 }

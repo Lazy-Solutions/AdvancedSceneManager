@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h3 id="cross-scene-references" sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="1" sourceendlinenumber="1">Cross-scene references</h3>
+
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="3" sourceendlinenumber="3"><br></p>
+<blockquote sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="5" sourceendlinenumber="5"><p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="5" sourceendlinenumber="5">Note that cross-scene references is experimental, and it may be possible it might never reach a stable status. This is due to lacking apis and workarounds that works one minute but not the other, or for one person but not the other, your milage might vary.</p>
+</blockquote>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="7" sourceendlinenumber="7">Cross scene references is one of those small things that should be supported by Unity, but just isn&#39;t. ASM provides a plugin for this and may be enabled in settings.</p>
+<blockquote sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="9" sourceendlinenumber="9"><p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="9" sourceendlinenumber="9">Note that cross-scene references may not be restored until after <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html" data-raw-source="[Start()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html)" sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="9" sourceendlinenumber="9">Start()</a> and <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html" data-raw-source="[Awake()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html)" sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="9" sourceendlinenumber="9">Awake()</a> is called, <a href="../guides/Callbacks.html" data-raw-source="[ISceneOpen](../guides/Callbacks.md)" sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="9" sourceendlinenumber="9">ISceneOpen</a> or <a href="../guides/Callbacks.html" data-raw-source="[ICollectionOpen](../guides/Callbacks.md)" sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="9" sourceendlinenumber="9">ICollectionOpen</a> is as such recommended, since they are invoked by ASM after cross-scene references has been restored.</p>
+</blockquote>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="11" sourceendlinenumber="11"><img src="../image/cross-scene-reference.png" alt="" sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="11" sourceendlinenumber="11"></p>
+<blockquote sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="13" sourceendlinenumber="13"><p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="13" sourceendlinenumber="13">Note that while we do suppress warnings associated with cross-scene references (they cannot be disabled completely, all we can do is to prevent them from triggering where we can), please be aware that there will still occasionally be warnings, which you may ignore.</p>
+</blockquote>
+<h6 id="problems-with-resolving" sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="15" sourceendlinenumber="15">Problems with resolving</h6>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="16" sourceendlinenumber="16">There may cases when a reference does not resolve correctly, there is then two different ways you may be notified:</p>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="18" sourceendlinenumber="18">A warning (or error in build) may be logged in console, if enabled in settings. Pressing it will highlight the offending gameobject.</p>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="20" sourceendlinenumber="20">There is also a icon in the hierarchy window, that will be displayed on a scene when any object in the scene was unable to be resolved. Another icon will also be displayed on the offending gameobject itself, this one will have a tooltip displaying a list of all references that could not be resolved and the reason why.</p>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="22" sourceendlinenumber="22"><img src="../image/cross-scene-indicator.png" alt="" sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="22" sourceendlinenumber="22"></p>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="24" sourceendlinenumber="24"><br></p>
+<h6 id="cross-scene-debugger" sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="26" sourceendlinenumber="26">Cross-scene debugger</h6>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="27" sourceendlinenumber="27"> Sometimes the issue may be as simple as the target scene being unloaded, but when it isn&#39;t, the debugger can be used:</p>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="29" sourceendlinenumber="29"> <img src="../image/cross-scene-debugger-menu.png" alt="" sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="29" sourceendlinenumber="29"></p>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="31" sourceendlinenumber="31"><img src="../image/cross-scene-reference-debugger.png" alt="" sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="31" sourceendlinenumber="31"></p>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="33" sourceendlinenumber="33">Pressing the <img src="../image/+.png" alt="" sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="33" sourceendlinenumber="33"> will load the scene that a reference refers to, so that we may get some more information:</p>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="35" sourceendlinenumber="35"><img src="../image/cross-scene-reference-debugger2.png" alt="" sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="35" sourceendlinenumber="35"></p>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="37" sourceendlinenumber="37">Now, this may be confusing at first glance, but references is grouped by the scene that the variable is defined in.</p>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="39" sourceendlinenumber="39">The text (&#39;monoBehavior&#39; in example above), is the variable name in the script or component. If variable is an element in an array, unity event or similar, then index will be displayed in parenthesis, suffixed to name.</p>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="41" sourceendlinenumber="42">The two scene fields will be the scene that the variable / target object exists in.
+The second column of object fields, will display the target script, component or gameobject of the variable or target.</p>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="44" sourceendlinenumber="44">Pressing any of the fields will select asset or object in scene, double pressing will open it in inspector.</p>
+<p sourcefile="plugins/plugin.asm.cross-scene-references.md" sourcestartlinenumber="46" sourceendlinenumber="46">Remove button is also available, which would, in perfect operation, not be used, however there a certain scenarios where asm will not detect that a reference has been removed, and must as such be removed manually (we will keep working on this!).</p>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

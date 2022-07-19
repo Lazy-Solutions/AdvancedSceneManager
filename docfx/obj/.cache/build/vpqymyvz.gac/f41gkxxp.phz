@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h2 id="scene-managers" sourcefile="guides/SceneManager.md" sourcestartlinenumber="1" sourceendlinenumber="1">Scene managers</h2>
+
+<p sourcefile="guides/SceneManager.md" sourcestartlinenumber="3" sourceendlinenumber="3"><br></p>
+<p sourcefile="guides/SceneManager.md" sourcestartlinenumber="5" sourceendlinenumber="5">In ASM we use two scene managers, CollectionSceneManager and StandaloneSceneManager, which may seem confusing at first, but it is probably more straightforward than it seems at first glance.</p>
+<p sourcefile="guides/SceneManager.md" sourcestartlinenumber="7" sourceendlinenumber="7">These two scene managers can be accessed with:</p>
+<pre sourcefile="guides/SceneManager.md" sourcestartlinenumber="8" sourceendlinenumber="11"><code class="lang-csharp">AdvancedSceneManager.SceneManager.collection
+AdvancedSceneManager.SceneManager.standalone
+</code></pre><p sourcefile="guides/SceneManager.md" sourcestartlinenumber="12" sourceendlinenumber="12">They both inherit from SceneManagerBase, which means that most logic, methods and properties are exactly the same across both scene managers, but does of course implement behaviors specific to either standalone scenes or collection scenes.</p>
+<h3 id="scenemanagerbase" sourcefile="guides/SceneManager.md" sourcestartlinenumber="14" sourceendlinenumber="14">SceneManagerBase</h3>
+<p sourcefile="guides/SceneManager.md" sourcestartlinenumber="16" sourceendlinenumber="16">SceneManagerBase is the base class for collection and standalone scene managers, and contains the core logic for scene management.</p>
+<h3 id="collection-scene-manager" sourcefile="guides/SceneManager.md" sourcestartlinenumber="18" sourceendlinenumber="18">Collection Scene Manager</h3>
+<p sourcefile="guides/SceneManager.md" sourcestartlinenumber="20" sourceendlinenumber="20">The collection scene manager manages the scenes of the active <a href="SceneCollection.html" data-raw-source="[collection](SceneCollection.md)" sourcefile="guides/SceneManager.md" sourcestartlinenumber="20" sourceendlinenumber="20">collection</a>. Throws OpenSceneException or CloseSceneException if a specified <a href="Scene.html" data-raw-source="[scene](Scene.md)" sourcefile="guides/SceneManager.md" sourcestartlinenumber="20" sourceendlinenumber="20">scene</a> is not part of the active <a href="SceneCollection.html" data-raw-source="[collection](SceneCollection.md)" sourcefile="guides/SceneManager.md" sourcestartlinenumber="20" sourceendlinenumber="20">collection</a>.</p>
+<pre sourcefile="guides/SceneManager.md" sourcestartlinenumber="21" sourceendlinenumber="23"><code class="lang-csharp">AdvancedSceneManager.SceneManager.collection
+</code></pre><h3 id="standalone-scene-manager" sourcefile="guides/SceneManager.md" sourcestartlinenumber="25" sourceendlinenumber="25">Standalone Scene Manager</h3>
+<p sourcefile="guides/SceneManager.md" sourcestartlinenumber="27" sourceendlinenumber="27">The standalone scene manager manages scenes that are opened outside of a <a href="SceneCollection.html" data-raw-source="[collection](SceneCollection.md)" sourcefile="guides/SceneManager.md" sourcestartlinenumber="27" sourceendlinenumber="27">collection</a>. For example an pause screen or persistent scenes.</p>
+<pre sourcefile="guides/SceneManager.md" sourcestartlinenumber="28" sourceendlinenumber="30"><code class="lang-csharp">AdvancedSceneManager.SceneManager.standalone
+</code></pre><blockquote sourcefile="guides/SceneManager.md" sourcestartlinenumber="31" sourceendlinenumber="31"><p sourcefile="guides/SceneManager.md" sourcestartlinenumber="31" sourceendlinenumber="31">If any scenes are opened manually using <a href="https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.html" data-raw-source="[UnityEngine.SceneManagement.SceneManager](https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.html)" sourcefile="guides/SceneManager.md" sourcestartlinenumber="31" sourceendlinenumber="31">UnityEngine.SceneManagement.SceneManager</a>, then they will be tracked here. Note that it is not recommended to load scenes using unitys api when using ASM, so please take note that weird things could happen.</p>
+</blockquote>
+<h3 id="utility-scene-manager" sourcefile="guides/SceneManager.md" sourcestartlinenumber="33" sourceendlinenumber="33">Utility Scene Manager</h3>
+<p sourcefile="guides/SceneManager.md" sourcestartlinenumber="35" sourceendlinenumber="35">The utility scene manager (not a real scene manager, just named that to be consistent and easy to find) contains convenience functions for working with scenes that might be open in either scene manager.</p>
+<pre sourcefile="guides/SceneManager.md" sourcestartlinenumber="36" sourceendlinenumber="38"><code class="lang-csharp">AdvancedSceneManager.SceneManager.utility
+</code></pre></article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

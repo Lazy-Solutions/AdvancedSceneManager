@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h2 id="faq" sourcefile="faq/faq.md" sourcestartlinenumber="1" sourceendlinenumber="1">FAQ</h2>
+
+<ol sourcefile="faq/faq.md" sourcestartlinenumber="2" sourceendlinenumber="15">
+<li sourcefile="faq/faq.md" sourcestartlinenumber="2" sourceendlinenumber="3"><p sourcefile="faq/faq.md" sourcestartlinenumber="2" sourceendlinenumber="3">What is Advanced Scene Manager?<br>
+Advanced Scene Manager (ASM) is a scene manager for unity, that simplifies additive scene management.</p>
+</li>
+<li sourcefile="faq/faq.md" sourcestartlinenumber="5" sourceendlinenumber="11"><p sourcefile="faq/faq.md" sourcestartlinenumber="5" sourceendlinenumber="11">What <em>can</em> ASM do?<br>
+a) Organize scenes into collections, which allows us to mass open / close scenes.</br>
+b) Open scene and collections from UnityEvent.<br>
+c) Easily set scenes or collections as persistent.</br>
+d) Preload scenes.<br>
+e) Loading screens.</br>
+f) More customizable splash screens.<br></p>
+</li>
+<li sourcefile="faq/faq.md" sourcestartlinenumber="13" sourceendlinenumber="15"><p sourcefile="faq/faq.md" sourcestartlinenumber="13" sourceendlinenumber="15">What <em>cannot</em> ASM do?<br>
+a) Stream scenes - We&#39;re not a world streamer. ASM focuses on general scene management.</br>
+b) Preload multiple scenes at once - this is a unity limitation, not something we can work around.<br></p>
+</li>
+</ol>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

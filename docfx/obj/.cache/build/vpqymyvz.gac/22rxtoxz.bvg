@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Callbacks_SerializableDateTime" data-uid="AdvancedSceneManager.Callbacks.SerializableDateTime" class="text-break">Class SerializableDateTime
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="AdvancedSceneManager.Callbacks.Serializable-2.html">Serializable</a>&lt;<span class="xref">System.DateTime</span>, <span class="xref">System.Int64</span>&gt;</div>
+    <div class="level2"><span class="xref">SerializableDateTime</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Callbacks.Serializable-2.html#AdvancedSceneManager_Callbacks_Serializable_2_value">Serializable&lt;DateTime, Int64&gt;.value</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Callbacks.Serializable-2.html#AdvancedSceneManager_Callbacks_Serializable_2_Convert__0_">Serializable&lt;DateTime, Int64&gt;.Convert(DateTime)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Callbacks.Serializable-2.html#AdvancedSceneManager_Callbacks_Serializable_2_ConvertBack__1_">Serializable&lt;DateTime, Int64&gt;.ConvertBack(Int64)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Callbacks.Serializable-2.html#AdvancedSceneManager_Callbacks_Serializable_2_OnAfterDeserialize">Serializable&lt;DateTime, Int64&gt;.OnAfterDeserialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Callbacks.Serializable-2.html#AdvancedSceneManager_Callbacks_Serializable_2_OnBeforeSerialize">Serializable&lt;DateTime, Int64&gt;.OnBeforeSerialize()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Callbacks.html">AdvancedSceneManager.Callbacks</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Callbacks_SerializableDateTime_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class SerializableDateTime : Serializable&lt;DateTime, long&gt;, ISerializationCallbackReceiver</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Callbacks_SerializableDateTime_Convert_" data-uid="AdvancedSceneManager.Callbacks.SerializableDateTime.Convert*"></a>
+  <h4 id="AdvancedSceneManager_Callbacks_SerializableDateTime_Convert_System_DateTime_" data-uid="AdvancedSceneManager.Callbacks.SerializableDateTime.Convert(System.DateTime)">Convert(DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long Convert(DateTime value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Callbacks.Serializable&lt;System.DateTime, System.Int64&gt;.Convert(System.DateTime)</span></div>
+  <a id="AdvancedSceneManager_Callbacks_SerializableDateTime_ConvertBack_" data-uid="AdvancedSceneManager.Callbacks.SerializableDateTime.ConvertBack*"></a>
+  <h4 id="AdvancedSceneManager_Callbacks_SerializableDateTime_ConvertBack_System_Int64_" data-uid="AdvancedSceneManager.Callbacks.SerializableDateTime.ConvertBack(System.Int64)">ConvertBack(Int64)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override DateTime ConvertBack(long value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Callbacks.Serializable&lt;System.DateTime, System.Int64&gt;.ConvertBack(System.Int64)</span></div>
+  <a id="AdvancedSceneManager_Callbacks_SerializableDateTime_ToString_" data-uid="AdvancedSceneManager.Callbacks.SerializableDateTime.ToString*"></a>
+  <h4 id="AdvancedSceneManager_Callbacks_SerializableDateTime_ToString_System_String_" data-uid="AdvancedSceneManager.Callbacks.SerializableDateTime.ToString(System.String)">ToString(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ToString(string format)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <a id="AdvancedSceneManager_Callbacks_SerializableDateTime_op_Implicit_" data-uid="AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit*"></a>
+  <h4 id="AdvancedSceneManager_Callbacks_SerializableDateTime_op_Implicit_AdvancedSceneManager_Callbacks_SerializableDateTime__System_DateTime" data-uid="AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit(AdvancedSceneManager.Callbacks.SerializableDateTime)~System.DateTime">Implicit(SerializableDateTime to DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator DateTime(SerializableDateTime serializable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Callbacks.SerializableDateTime.html">SerializableDateTime</a></td>
+        <td><span class="parametername">serializable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Callbacks_SerializableDateTime_op_Implicit_" data-uid="AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit*"></a>
+  <h4 id="AdvancedSceneManager_Callbacks_SerializableDateTime_op_Implicit_System_DateTime__AdvancedSceneManager_Callbacks_SerializableDateTime" data-uid="AdvancedSceneManager.Callbacks.SerializableDateTime.op_Implicit(System.DateTime)~AdvancedSceneManager.Callbacks.SerializableDateTime">Implicit(DateTime to SerializableDateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator SerializableDateTime(DateTime time)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">time</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Callbacks.SerializableDateTime.html">SerializableDateTime</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

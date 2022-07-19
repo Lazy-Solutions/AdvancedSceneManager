@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h3 id="locking">Locking</h3>
+
+<p><br></p>
+<p>The locking package adds support for locking scenes and collection from being edited.</p>
+<blockquote><p>Note we can only prevent edit from inside of unity, any modifications from outside, including source control, cannot be prevented.</p>
+</blockquote>
+<p><img src="../image/locking-collection.png" alt="">
+<br>
+<img src="../image/locking-scene.png" alt="">
+</br><br></p>
+<p>When scene has been modified and user attempts to save, the following dialog will open, with customizable name and message:</p>
+<p><img src="../image/locking-warning.png" alt=""></p>
+<p>Save as: Opens file dialog to save as new scene.
+Cancel: Discards changes and reloads scene</p>
+<blockquote><p>Unlocking a collection or scene will display a similar dialog.</p>
+</blockquote>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

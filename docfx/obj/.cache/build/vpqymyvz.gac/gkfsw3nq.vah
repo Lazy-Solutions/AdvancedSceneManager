@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h2 id="profiles">Profiles</h2>
+
+<p><br></p>
+<p>A profile stores the <a href="SceneManagerWindow.html#settings">settings</a>, <a href="SceneCollection.html">collections</a> and any <a href="SceneManager.html#standalone-scene-manager">standalone</a> <a href="Scene.html">scenes</a> that should be included in build in ASM. Profiles are easily swappable in <a href="SceneManagerWindow.html#settings">SceneManagerWindow</a> and active profile is saved locally, which means that different members of a team can use their own profiles and then the project might use a profile specifically for build or release, if desired.</p>
+<p><img src="../image/settings.png" alt=""></p>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

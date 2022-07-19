@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Editor_GenericPopup" data-uid="AdvancedSceneManager.Editor.GenericPopup" class="text-break">Class GenericPopup
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="AdvancedSceneManager.Editor.Popup.html">Popup</a></div>
+    <div class="level2"><a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html">Popup</a>&lt;<a class="xref" href="AdvancedSceneManager.Editor.GenericPopup.html">GenericPopup</a>&gt;</div>
+    <div class="level3"><span class="xref">GenericPopup</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_Reopen">Popup&lt;GenericPopup&gt;.Reopen()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_Open_UnityEngine_UIElements_VisualElement_AdvancedSceneManager_Editor_IUIToolkitEditor_System_Boolean_UnityEngine_Vector2_System_Boolean_System_Boolean_">Popup&lt;GenericPopup&gt;.Open(VisualElement, IUIToolkitEditor, Boolean, Vector2, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_CloseWithoutAnimation_System_Boolean_">Popup&lt;GenericPopup&gt;.CloseWithoutAnimation(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_Close">Popup&lt;GenericPopup&gt;.Close()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_Close_System_Action_">Popup&lt;GenericPopup&gt;.Close(Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_OnClose">Popup&lt;GenericPopup&gt;.OnClose()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_overlay">Popup&lt;GenericPopup&gt;.overlay</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_rootVisualElement">Popup&lt;GenericPopup&gt;.rootVisualElement</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_isMainContentLoaded">Popup&lt;GenericPopup&gt;.isMainContentLoaded</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_LoadContent_System_String_UnityEngine_UIElements_VisualElement_">Popup&lt;GenericPopup&gt;.LoadContent(String, VisualElement)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_LoadContent_System_String_UnityEngine_UIElements_VisualElement_System_Boolean_System_Boolean_System_Boolean_">Popup&lt;GenericPopup&gt;.LoadContent(String, VisualElement, Boolean, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_ReloadContent">Popup&lt;GenericPopup&gt;.ReloadContent()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_enableBorder">Popup&lt;GenericPopup&gt;.enableBorder</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_hasBorder">Popup&lt;GenericPopup&gt;.hasBorder</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_offset">Popup&lt;GenericPopup&gt;.offset</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_alignRight">Popup&lt;GenericPopup&gt;.alignRight</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_placementTarget">Popup&lt;GenericPopup&gt;.placementTarget</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_parent">Popup&lt;GenericPopup&gt;.parent</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup-1.html#AdvancedSceneManager_Editor_Popup_1_SetPosition">Popup&lt;GenericPopup&gt;.SetPosition()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup.html#AdvancedSceneManager_Editor_Popup_OnClosed">Popup.OnClosed</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Popup.html#AdvancedSceneManager_Editor_Popup_RaiseOnClosed">Popup.RaiseOnClosed()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Editor.html">AdvancedSceneManager.Editor</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.Editor.dll</h6>
+  <h5 id="AdvancedSceneManager_Editor_GenericPopup_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GenericPopup : Popup&lt;GenericPopup&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Editor_GenericPopup_path_" data-uid="AdvancedSceneManager.Editor.GenericPopup.path*"></a>
+  <h4 id="AdvancedSceneManager_Editor_GenericPopup_path" data-uid="AdvancedSceneManager.Editor.GenericPopup.path">path</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string path { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Editor.Popup&lt;AdvancedSceneManager.Editor.GenericPopup&gt;.path</span></div>
+  <a id="AdvancedSceneManager_Editor_GenericPopup_Separator_" data-uid="AdvancedSceneManager.Editor.GenericPopup.Separator*"></a>
+  <h4 id="AdvancedSceneManager_Editor_GenericPopup_Separator" data-uid="AdvancedSceneManager.Editor.GenericPopup.Separator">Separator</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/AdvancedSceneManager.Editor.GenericPopup.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Represents an <a class="xref" href="AdvancedSceneManager.Editor.GenericPopup.Item.html">GenericPopup.Item</a> separator. default keyword can also be used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GenericPopup.Item Separator { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Editor.GenericPopup.Item.html">GenericPopup.Item</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Editor_GenericPopup_OnReopen_" data-uid="AdvancedSceneManager.Editor.GenericPopup.OnReopen*"></a>
+  <h4 id="AdvancedSceneManager_Editor_GenericPopup_OnReopen_AdvancedSceneManager_Editor_GenericPopup_" data-uid="AdvancedSceneManager.Editor.GenericPopup.OnReopen(AdvancedSceneManager.Editor.GenericPopup)">OnReopen(GenericPopup)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnReopen(GenericPopup newPopup)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Editor.GenericPopup.html">GenericPopup</a></td>
+        <td><span class="parametername">newPopup</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">AdvancedSceneManager.Editor.Popup&lt;AdvancedSceneManager.Editor.GenericPopup&gt;.OnReopen(AdvancedSceneManager.Editor.GenericPopup)</span></div>
+  <a id="AdvancedSceneManager_Editor_GenericPopup_Refresh_" data-uid="AdvancedSceneManager.Editor.GenericPopup.Refresh*"></a>
+  <h4 id="AdvancedSceneManager_Editor_GenericPopup_Refresh_AdvancedSceneManager_Editor_GenericPopup_Item___" data-uid="AdvancedSceneManager.Editor.GenericPopup.Refresh(AdvancedSceneManager.Editor.GenericPopup.Item[])">Refresh(GenericPopup.Item[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Refresh(params GenericPopup.Item[] items)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Editor.GenericPopup.Item.html">GenericPopup.Item</a>[]</td>
+        <td><span class="parametername">items</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

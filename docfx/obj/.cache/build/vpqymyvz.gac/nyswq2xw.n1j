@@ -1,0 +1,795 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+       <style>
+  .TocNavigationVertical {
+    margin-top: 24px;
+    font-family: 'Segoe UI';
+  }
+
+  .TocNavigationVertical ul {
+    list-style: none;
+    /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .TocNavigationVertical li {
+    margin-top: 10px;
+    padding-left: 16px;
+  }
+
+  .TocNavigationVertical li:before {
+    content: "";
+    /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #0050c5;
+  }
+
+  .TocNavigationVertical a:link {
+    text-decoration: none;
+    color: #0050c5;
+  }
+
+  .TocNavigationVertical a:visited {
+    text-decoration: none;
+    color: #0050c5;
+  }
+
+  .TocHeader {
+    display: table;
+    height: 130px;
+    overflow: hidden;
+    background-color: #009ba5;
+    width: 100%;
+  }
+
+  .TocHeaderContainer {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  h1 {
+    color: #fff;
+    font-family: 'Segoe UI Light';
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    margin-left: 48px;
+  }
+</style>
+<div class=" TocHeader">
+  <div class="TocHeaderContainer">
+    <h1>Table of Contents</h1>
+  </div>
+</div>
+<div class="TocNavigationVertical" id="toc">
+  <ul class="tocBase tocLevel1">
+    
+<li>
+<a class="normal" href="AdvancedSceneManager.html">AdvancedSceneManager</a>
+<ul class="tocLevel3">
+
+<li>
+<a class="normal" href="AdvancedSceneManager.SceneManager.html">SceneManager</a>
+
+</li>
+</ul>
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.html">AdvancedSceneManager.Callbacks</a>
+<ul class="tocLevel3">
+
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.CallbackUtility.html">CallbackUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI-1.html">CallbackUtility.FluentInvokeAPI&lt;T&gt;</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode.html">CallbackUtility.ShowMode</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.CombineNull.html">CombineNull</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.CoroutineDiagHelper.html">CoroutineDiagHelper</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.html">CoroutineDiagHelper.CallerDetails</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails.html">CoroutineDiagHelper.SubroutineDetails</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.ICollectionClose.html">ICollectionClose</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.ICollectionExtraData.html">ICollectionExtraData</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.ICollectionOpen.html">ICollectionOpen</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.ISceneClose.html">ISceneClose</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase.html">ISceneManagerCallbackBase</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.ISceneOpen.html">ISceneOpen</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.LoadingScreen.html">LoadingScreen</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.ParallelASMCallbacks.html">ParallelASMCallbacks</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.Serializable-2.html">Serializable&lt;T, TValue&gt;</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.SerializableDateTime.html">SerializableDateTime</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.SerializableTimeSpan.html">SerializableTimeSpan</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Callbacks.SplashScreen.html">SplashScreen</a>
+
+</li>
+</ul>
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.html">AdvancedSceneManager.Core</a>
+<ul class="tocLevel3">
+
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.AssetManagement.html">AssetManagement</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Callback.html">Callback</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Callback.When.html">Callback.When</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.CollectionManager.html">CollectionManager</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Editor.html">Editor</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.OpenSceneInfo.html">OpenSceneInfo</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Phase.html">Phase</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Runtime.html">Runtime</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Runtime.StartProps.html">Runtime.StartProps</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.SceneOperation.html">SceneOperation</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.SceneOperation-1.html">SceneOperation&lt;ReturnValue&gt;</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.StandaloneManager.html">StandaloneManager</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.UtilitySceneManager.html">UtilitySceneManager</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.UtilitySceneManager.ActiveSceneChangedHandler.html">UtilitySceneManager.ActiveSceneChangedHandler</a>
+
+</li>
+</ul>
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.html">AdvancedSceneManager.Core.Actions</a>
+<ul class="tocLevel3">
+
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.AggregateAction.html">AggregateAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.CallbackAction.html">CallbackAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.CloseAllUnityScenesAction.html">CloseAllUnityScenesAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.OpenAndRunCallbackAction-1.html">OpenAndRunCallbackAction&lt;T&gt;</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.OpenStartupCollections.html">OpenStartupCollections</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.OverridableAction-1.html">OverridableAction&lt;T&gt;</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.PlaySplashScreenAction.html">PlaySplashScreenAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.QuickStartupAction.html">QuickStartupAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.QuitAction.html">QuitAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction-1.html">RunCallbackAndCloseAction&lt;T&gt;</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.SceneAction.html">SceneAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.SceneCloseAction.html">SceneCloseAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.SceneCloseCallbackAction.html">SceneCloseCallbackAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.SceneFinishLoadAction.html">SceneFinishLoadAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.SceneLoadAction.html">SceneLoadAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.SceneOpenAction.html">SceneOpenAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.SceneOpenCallbackAction.html">SceneOpenCallbackAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.SceneUnloadAction.html">SceneUnloadAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Core.Actions.StartupAction.html">StartupAction</a>
+
+</li>
+</ul>
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Defaults.html">AdvancedSceneManager.Defaults</a>
+<ul class="tocLevel3">
+
+<li>
+<a class="normal" href="AdvancedSceneManager.Defaults.DefaultLoadingScreen.html">DefaultLoadingScreen</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Defaults.DefaultSplashScreen.html">DefaultSplashScreen</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Defaults.IconBounceLoadingScreen.html">IconBounceLoadingScreen</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Defaults.PressAnyButtonLoadingScreen.html">PressAnyButtonLoadingScreen</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Defaults.QuoteLoadingScreen.html">QuoteLoadingScreen</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Defaults.Quotes.html">Quotes</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Defaults.Quotes.Quote.html">Quotes.Quote</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Defaults.VideoLoadingScreen.html">VideoLoadingScreen</a>
+
+</li>
+</ul>
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.html">AdvancedSceneManager.Editor</a>
+<ul class="tocLevel3">
+
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.EditCollectionPopup.html">EditCollectionPopup</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html">EditorWindow_UIElements&lt;T&gt;</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.GenericPopup.html">GenericPopup</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.GenericPopup.Item.html">GenericPopup.Item</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.IUIToolkitEditor.html">IUIToolkitEditor</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.ObjectField.html">ObjectField</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.ObjectField.UxmlFactory.html">ObjectField.UxmlFactory</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.ObjectField.UxmlTraits.html">ObjectField.UxmlTraits</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.OpenInEditorPopup.html">OpenInEditorPopup</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.PickTagPopup.html">PickTagPopup</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Popup.html">Popup</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Popup-1.html">Popup&lt;T&gt;</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.SceneAssetEditor.html">SceneAssetEditor</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.SceneField.html">SceneField</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.SceneField.SceneChangedEvent.html">SceneField.SceneChangedEvent</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.SceneField.UxmlFactory.html">SceneField.UxmlFactory</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.SceneField.UxmlTraits.html">SceneField.UxmlTraits</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.SceneManagerWindow.html">SceneManagerWindow</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.html">SceneManagerWindow.DragAndDropReorder</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.html">SceneManagerWindow.DragAndDropReorder.DragElement</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.html">SceneManagerWindow.FooterItem</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.SceneManagerWindow.PostProcess.html">SceneManagerWindow.PostProcess</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.SceneManagerWindow.Tab.html">SceneManagerWindow.Tab</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.SceneOverviewWindow.html">SceneOverviewWindow</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.ScenePropertyDrawer.html">ScenePropertyDrawer</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.ScenesTab.html">ScenesTab</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.SettingsTab.html">SettingsTab</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.TagsTab.html">TagsTab</a>
+
+</li>
+</ul>
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.html">AdvancedSceneManager.Editor.Utility</a>
+<ul class="tocLevel3">
+
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.html">AssetDatabaseUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.html">AssetsSavedUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.BlacklistUtility.html">BlacklistUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.BuildEventsUtility.html">BuildEventsUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.BuildEventsUtility.BuildError.html">BuildEventsUtility.BuildError</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.html">BuildSettingsUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.html">BuildSettingsUtility.Reason</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.EditorFolderUtility.html">EditorFolderUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.html">EditorGUIUtilityExt</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.GenericPrompt.html">GenericPrompt</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html">GenericPrompt&lt;T, TSelf&gt;</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.html">HierarchyGUIUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.HierarchyGameObjectGUI.html">HierarchyGUIUtility.HierarchyGameObjectGUI</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.HierarchySceneGUI.html">HierarchyGUIUtility.HierarchySceneGUI</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.ListUtility.html">ListUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.MenuItemHelper.html">MenuItemHelper</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.OnGUIPrompt.html">OnGUIPrompt</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.html">PersistentSceneInEditorUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.html">PersistentSceneInEditorUtility.OpenInEditorOption</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.html">PersistentSceneInEditorUtility.OpenInEditorSetting</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.PromptInt.html">PromptInt</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.PromptKey.html">PromptKey</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.PromptName.html">PromptName</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.PromptNameAndMessage.html">PromptNameAndMessage</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.PromptVersion.html">PromptVersion</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.SettingsTab.html">SettingsTab</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.html">SettingsTab._DefaultHeaders</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.StyleExtensions.html">StyleExtensions</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.TrimUtility.html">TrimUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.html">VisualElementExtensions</a>
+
+</li>
+</ul>
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Exceptions.html">AdvancedSceneManager.Exceptions</a>
+<ul class="tocLevel3">
+
+<li>
+<a class="normal" href="AdvancedSceneManager.Exceptions.CloseSceneException.html">CloseSceneException</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Exceptions.OpenSceneException.html">OpenSceneException</a>
+
+</li>
+</ul>
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.html">AdvancedSceneManager.Models</a>
+<ul class="tocLevel3">
+
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.ASMSettings.html">ASMSettings</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.ASMSettings.Local.html">ASMSettings.Local</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.ASMSettings.Local.SaveAction.html">ASMSettings.Local.SaveAction</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.ASMSettings.SettingsProxy.html">ASMSettings.SettingsProxy</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.CollectionStartupOption.html">CollectionStartupOption</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.CollectionThreadPriority.html">CollectionThreadPriority</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.DynamicCollection.html">DynamicCollection</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.ISceneObject.html">ISceneObject</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.IsOpenReturnValue.html">IsOpenReturnValue</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.LoadingScreenUsage.html">LoadingScreenUsage</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.Profile.html">Profile</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.Scene.html">Scene</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.SceneCloseBehavior.html">SceneCloseBehavior</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.SceneCollectionTemplate.html">SceneCollectionTemplate</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.SceneOpenBehavior.html">SceneOpenBehavior</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.SceneTag.html">SceneTag</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Models.TagList.html">TagList</a>
+
+</li>
+</ul>
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.html">AdvancedSceneManager.Utility</a>
+<ul class="tocLevel3">
+
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.ASM.html">ASM</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.CanvasGroupExtensions.html">CanvasGroupExtensions</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.CanvasSortOrderUtility.html">CanvasSortOrderUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.DefaultSceneUtility.html">DefaultSceneUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.DictionaryUtility.html">DictionaryUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.GuidReference.html">GuidReference</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.GuidReference.Editor.html">GuidReference.Editor</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.GuidReferenceUtility.html">GuidReferenceUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.InGameToolbarUtility.html">InGameToolbarUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.IQueueable.html">IQueueable</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.LerpUtility.html">LerpUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.LoadingScreenUtility.html">LoadingScreenUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.PauseScreenUtility.html">PauseScreenUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.PersistentUtility.html">PersistentUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.PreloadedSceneHelper.html">PreloadedSceneHelper</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.QueueUtility-1.html">QueueUtility&lt;T&gt;</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.SceneCollectionUtility.html">SceneCollectionUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.SceneDataUtility.html">SceneDataUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.SceneHelper.html">SceneHelper</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.SceneUtility.html">SceneUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.ScriptableObjectUtility.html">ScriptableObjectUtility</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.SerializableDictionary-2.html">SerializableDictionary&lt;TKey, TValue&gt;</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.SerializableStringBoolDict.html">SerializableStringBoolDict</a>
+
+</li>
+<li>
+<a class="normal" href="AdvancedSceneManager.Utility.TimeSpanUtility.html">TimeSpanUtility</a>
+
+</li>
+</ul>
+</li>
+  </ul>
+</div></article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Utility_IQueueable" data-uid="AdvancedSceneManager.Utility.IQueueable" class="text-break">Interface IQueueable
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a queueable item.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Utility.html">AdvancedSceneManager.Utility</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Utility_IQueueable_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IQueueable</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Utility_IQueueable_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>See also <a class="xref" href="AdvancedSceneManager.Utility.QueueUtility-1.html">QueueUtility&lt;T&gt;</a>.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Utility_IQueueable_OnCancel_" data-uid="AdvancedSceneManager.Utility.IQueueable.OnCancel*"></a>
+  <h4 id="AdvancedSceneManager_Utility_IQueueable_OnCancel" data-uid="AdvancedSceneManager.Utility.IQueueable.OnCancel">OnCancel()</h4>
+  <div class="markdown level1 summary"><p>Called when queueable is cancelled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnCancel()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Utility_IQueueable_OnTurn_" data-uid="AdvancedSceneManager.Utility.IQueueable.OnTurn*"></a>
+  <h4 id="AdvancedSceneManager_Utility_IQueueable_OnTurn_System_Action_" data-uid="AdvancedSceneManager.Utility.IQueueable.OnTurn(System.Action)">OnTurn(Action)</h4>
+  <div class="markdown level1 summary"><p>Called when it is this queueables turn.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnTurn(Action onComplete)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">onComplete</span></td>
+        <td><p>Must be called when operation is done, otherwise queue will be stuck.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

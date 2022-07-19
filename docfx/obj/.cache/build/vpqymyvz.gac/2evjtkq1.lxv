@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h2 id="scene-overview-window">Scene overview window</h2>
+
+<p><br></p>
+<p>The scene overview window provides an easy overview over all <a href="Scene.html">scenes</a> in the project,
+grouped by what <a href="SceneCollection.html">collection</a>(s) they are a part of. All <a href="Scene.html">scenes</a> that are not part of
+a collection appear under the standalone group.</p>
+<p><br></p>
+<p>From here you can:</p>
+<blockquote><p>Open <a href="Scene.html">scene</a> as either single (close all open <a href="Scene.html">scenes</a> beforehand) or as additive.</p>
+</blockquote>
+<p><br></p>
+<blockquote><p>Set whatever a <a href="Scene.html">scene</a> should be included in build. <a href="Scene.html">Scenes</a> that are part of a
+<a href="SceneCollection.html">collection</a> will always be included, but standalone <a href="Scene.html">scene</a> needs to explicitly
+be included here or through unity&#39;s <a href="https://docs.unity3d.com/Manual/BuildSettings.html">build settings window</a>.</p>
+</blockquote>
+<p><br></p>
+<blockquote><p>Set <a href="Scene.html">scene</a> as persistent in editor. This means that when a <a href="Scene.html">scene</a> is opened in
+the editor, this <a href="Scene.html">scene</a> can be automatically opened as well. For runtime,
+<a href="../api/AdvancedSceneManager.Utility.PersistentUtility.html">PersistentUtility</a> can be used.</p>
+</blockquote>
+<p><br></p>
+<p><img src="../image/scene-overview.png" alt=""></p>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

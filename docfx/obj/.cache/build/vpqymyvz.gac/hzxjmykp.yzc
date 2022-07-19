@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Utility_SerializableStringBoolDict" data-uid="AdvancedSceneManager.Utility.SerializableStringBoolDict" class="text-break">Class SerializableStringBoolDict
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Boolean</span>&gt;</div>
+    <div class="level2"><a class="xref" href="AdvancedSceneManager.Utility.SerializableDictionary-2.html">SerializableDictionary</a>&lt;<span class="xref">System.String</span>, <span class="xref">System.Boolean</span>&gt;</div>
+    <div class="level3"><span class="xref">SerializableStringBoolDict</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.SerializableDictionary-2.html#AdvancedSceneManager_Utility_SerializableDictionary_2_throwOnDeserializeWhenKeyValueMismatch">SerializableDictionary&lt;String, Boolean&gt;.throwOnDeserializeWhenKeyValueMismatch</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.SerializableDictionary-2.html#AdvancedSceneManager_Utility_SerializableDictionary_2_keys">SerializableDictionary&lt;String, Boolean&gt;.keys</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.SerializableDictionary-2.html#AdvancedSceneManager_Utility_SerializableDictionary_2_values">SerializableDictionary&lt;String, Boolean&gt;.values</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.SerializableDictionary-2.html#AdvancedSceneManager_Utility_SerializableDictionary_2_OnBeforeSerialize">SerializableDictionary&lt;String, Boolean&gt;.OnBeforeSerialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.SerializableDictionary-2.html#AdvancedSceneManager_Utility_SerializableDictionary_2_OnAfterDeserialize">SerializableDictionary&lt;String, Boolean&gt;.OnAfterDeserialize()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Utility.html">AdvancedSceneManager.Utility</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Utility_SerializableStringBoolDict_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class SerializableStringBoolDict : SerializableDictionary&lt;string, bool&gt;, IDictionary&lt;string, bool&gt;, ICollection&lt;KeyValuePair&lt;string, bool&gt;&gt;, IReadOnlyDictionary&lt;string, bool&gt;, IReadOnlyCollection&lt;KeyValuePair&lt;string, bool&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;string, bool&gt;&gt;, IDictionary, ICollection, IEnumerable, IDeserializationCallback, ISerializable, ISerializationCallbackReceiver</code></pre>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_WithNullKey__2_System_Collections_Generic_Dictionary___0___1____0_">DictionaryUtility.WithNullKey&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;, TKey)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_Set__2_System_Collections_Generic_Dictionary___0___1____0___1_">DictionaryUtility.Set&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;, TKey, TValue)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_EnsureAdded__2_System_Collections_Generic_Dictionary___0___1____0_">DictionaryUtility.EnsureAdded&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;, TKey)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_Add__2_System_Collections_Generic_Dictionary___0___1____0___1_">DictionaryUtility.Add&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;, TKey, TValue)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_Add__3_System_Collections_Generic_Dictionary___0___1____0___2_">DictionaryUtility.Add&lt;TKey, TList, TItem&gt;(Dictionary&lt;TKey, TList&gt;, TKey, TItem)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_AddRange__3_System_Collections_Generic_Dictionary___0___1____0_System_Collections_Generic_IEnumerable___2__">DictionaryUtility.AddRange&lt;TKey, TList, TItem&gt;(Dictionary&lt;TKey, TList&gt;, TKey, IEnumerable&lt;TItem&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_AddRange__3_System_Collections_Generic_Dictionary___0___1____0___2___">DictionaryUtility.AddRange&lt;TKey, TList, TItem&gt;(Dictionary&lt;TKey, TList&gt;, TKey, TItem[])</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_Remove__3_System_Collections_Generic_Dictionary___0___1____0___2_">DictionaryUtility.Remove&lt;TKey, TList, TItem&gt;(Dictionary&lt;TKey, TList&gt;, TKey, TItem)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_GetValue__2_System_Collections_Generic_Dictionary___0___1____0___1_">DictionaryUtility.GetValue&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;, TKey, TValue)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.ListUtility.html#AdvancedSceneManager_Editor_Utility_ListUtility_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0_System_Int32__">ListUtility.ForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T, Int32&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.ListUtility.html#AdvancedSceneManager_Editor_Utility_ListUtility_Flatten__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___">ListUtility.Flatten&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, IEnumerable&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.ListUtility.html#AdvancedSceneManager_Editor_Utility_ListUtility_Except__1_System_Collections_Generic_IEnumerable___0____0_">ListUtility.Except&lt;T&gt;(IEnumerable&lt;T&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.ListUtility.html#AdvancedSceneManager_Editor_Utility_ListUtility_GroupConsecutive__1_System_Collections_Generic_IEnumerable___0__System_Func___0___0_System_Boolean__">ListUtility.GroupConsecutive&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, T, Boolean&gt;)</a>
+  </div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

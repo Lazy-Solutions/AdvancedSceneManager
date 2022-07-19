@@ -1,0 +1,532 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions" class="text-break">Class VisualElementExtensions
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">VisualElementExtensions</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Editor.Utility.html">AdvancedSceneManager.Editor.Utility</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.Editor.dll</h6>
+  <h5 id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class VisualElementExtensions</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_DefaultBackgroundColor_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.DefaultBackgroundColor*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_DefaultBackgroundColor" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.DefaultBackgroundColor">DefaultBackgroundColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DefaultBackgroundColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_FindAncestor_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_FindAncestor_UnityEngine_UIElements_VisualElement_System_String_System_String_System_Action_UnityEngine_UIElements_VisualElement__" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.FindAncestor(UnityEngine.UIElements.VisualElement,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})">FindAncestor(VisualElement, String, String, Action&lt;VisualElement&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VisualElement FindAncestor(this VisualElement element, string name = &quot;&quot;, string className = &quot;&quot;, Action&lt;VisualElement&gt; actionToPerformOnEachParent = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.VisualElement</span></td>
+        <td><span class="parametername">element</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">className</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">UnityEngine.UIElements.VisualElement</span>&gt;</td>
+        <td><span class="parametername">actionToPerformOnEachParent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.VisualElement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_GetRoot_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_GetRoot_UnityEngine_UIElements_VisualElement_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.GetRoot(UnityEngine.UIElements.VisualElement)">GetRoot(VisualElement)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VisualElement GetRoot(this VisualElement element)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.VisualElement</span></td>
+        <td><span class="parametername">element</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.VisualElement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_SetEnabledExt_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_SetEnabledExt__1___0_System_Boolean_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetEnabledExt``1(``0,System.Boolean)">SetEnabledExt&lt;TElement&gt;(TElement, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TElement SetEnabledExt&lt;TElement&gt;(this TElement element, bool enabled)
+    where TElement : VisualElement</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TElement</span></td>
+        <td><span class="parametername">element</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enabled</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TElement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TElement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_Setup_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_Setup_UnityEngine_UIElements_Button_System_Action_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(UnityEngine.UIElements.Button,System.Action)">Setup(Button, Action)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Button Setup(this Button element, Action onClick)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.Button</span></td>
+        <td><span class="parametername">element</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">onClick</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.Button</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_Setup_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_Setup_UnityEngine_UIElements_Toggle_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent_System_Boolean___System_Boolean_System_String_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup(UnityEngine.UIElements.Toggle,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{System.Boolean}},System.Boolean,System.String)">Setup(Toggle, EventCallback&lt;ChangeEvent&lt;Boolean&gt;&gt;, Boolean, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Toggle Setup(this Toggle element, EventCallback&lt;ChangeEvent&lt;bool&gt;&gt; valueChanged, bool defaultValue = false, string tooltip = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.Toggle</span></td>
+        <td><span class="parametername">element</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.EventCallback</span>&lt;<span class="xref">UnityEngine.UIElements.ChangeEvent</span>&lt;<span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">valueChanged</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tooltip</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.Toggle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_Setup_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_Setup__1_AdvancedSceneManager_Editor_SceneField_System_String___0_System_String_System_Action_System_Boolean_System_String_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``1(AdvancedSceneManager.Editor.SceneField,System.String,``0,System.String,System.Action,System.Boolean,System.String)">Setup&lt;T&gt;(SceneField, String, T, String, Action, Boolean, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneField Setup&lt;T&gt;(this SceneField element, string label, T target, string field, Action onChanged = null, bool saveInSceneManagerWindow = true, string tooltip = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Editor.SceneField.html">SceneField</a></td>
+        <td><span class="parametername">element</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">label</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">onChanged</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">saveInSceneManagerWindow</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tooltip</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Editor.SceneField.html">SceneField</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_Setup_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_Setup__2___0___1_System_String_System_Action_System_Boolean_System_String_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.Setup``2(``0,``1,System.String,System.Action,System.Boolean,System.String)">Setup&lt;TElement, T&gt;(TElement, T, String, Action, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>Sets up an ui toolkit element, by setting current value and registers value changed callback and automatically sets the new value to target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TElement Setup&lt;TElement, T&gt;(this TElement element, T target, string field, Action onChanged = null, bool saveInSceneManagerWindow = true, string tooltip = null)
+    where TElement : VisualElement</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TElement</span></td>
+        <td><span class="parametername">element</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">onChanged</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">saveInSceneManagerWindow</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tooltip</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TElement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TElement</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_SetValueWithoutNotifyExt_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetValueWithoutNotifyExt*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_VisualElementExtensions_SetValueWithoutNotifyExt_UnityEditor_UIElements_EnumField_System_Enum_" data-uid="AdvancedSceneManager.Editor.Utility.VisualElementExtensions.SetValueWithoutNotifyExt(UnityEditor.UIElements.EnumField,System.Enum)">SetValueWithoutNotifyExt(EnumField, Enum)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EnumField SetValueWithoutNotifyExt(this EnumField element, Enum value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.UIElements.EnumField</span></td>
+        <td><span class="parametername">element</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Enum</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.UIElements.EnumField</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

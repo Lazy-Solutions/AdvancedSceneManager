@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h2 id="scene-helper">Scene helper</h2>
+
+<p><br></p>
+<p>The scene helper is a <a href="https://docs.unity3d.com/Manual/class-ScriptableObject.html">scriptable object</a> that can be used in <a href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a> to easily open <a href="Scene.html">scenes</a> or <a href="SceneCollection.html">collections</a>, since it might be easier to find <a href="Scene.html">scenes</a> or <a href="SceneCollection.html">collections</a> using it.</p>
+<p><img src="../image/scene-helper.png" alt=""></p>
+<p>It may also be used through a singleton instance:</p>
+<pre><code class="lang-csharp">AdvancedSceneManager.Utility.SceneHelper.current
+</code></pre><p>API documentation can be found here:
+<a href="../api/AdvancedSceneManager.Utility.ASM.html">Scene helper</a></p>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

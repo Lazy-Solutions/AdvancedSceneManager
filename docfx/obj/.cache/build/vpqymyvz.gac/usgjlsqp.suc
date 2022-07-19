@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Editor_Utility_PersistentSceneInEditorUtility" data-uid="AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility" class="text-break">Class PersistentSceneInEditorUtility
+  </h1>
+  <div class="markdown level0 summary"><p>An utility class to automatically open persistent scenes in editor.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">PersistentSceneInEditorUtility</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Editor.Utility.html">AdvancedSceneManager.Editor.Utility</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Editor_Utility_PersistentSceneInEditorUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class PersistentSceneInEditorUtility</code></pre>
+  </div>
+  <h5 id="AdvancedSceneManager_Editor_Utility_PersistentSceneInEditorUtility_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Only available in editor.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Editor_Utility_PersistentSceneInEditorUtility_GetAssociatedScenes_" data-uid="AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetAssociatedScenes*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_PersistentSceneInEditorUtility_GetAssociatedScenes_AdvancedSceneManager_Models_Scene_" data-uid="AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetAssociatedScenes(AdvancedSceneManager.Models.Scene)">GetAssociatedScenes(Scene)</h4>
+  <div class="markdown level1 summary"><p>Gets the scenes flagged to open when the specified scene is opened.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Scene[] GetAssociatedScenes(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_Utility_PersistentSceneInEditorUtility_GetPersistentOption_" data-uid="AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetPersistentOption*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_PersistentSceneInEditorUtility_GetPersistentOption_AdvancedSceneManager_Models_Scene_" data-uid="AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.GetPersistentOption(AdvancedSceneManager.Models.Scene)">GetPersistentOption(Scene)</h4>
+  <div class="markdown level1 summary"><p>Gets the persistent option of a scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PersistentSceneInEditorUtility.OpenInEditorSetting GetPersistentOption(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.html">PersistentSceneInEditorUtility.OpenInEditorSetting</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_Utility_PersistentSceneInEditorUtility_IsPersistent_" data-uid="AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.IsPersistent*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_PersistentSceneInEditorUtility_IsPersistent_UnityEngine_SceneManagement_Scene_" data-uid="AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.IsPersistent(UnityEngine.SceneManagement.Scene)">IsPersistent(Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsPersistent(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.SceneManagement.Scene</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="AdvancedSceneManager_Editor_Utility_PersistentSceneInEditorUtility_OpenAssociatedPersistentScenes_" data-uid="AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenAssociatedPersistentScenes*"></a>
+  <h4 id="AdvancedSceneManager_Editor_Utility_PersistentSceneInEditorUtility_OpenAssociatedPersistentScenes_AdvancedSceneManager_Models_Scene_System_Boolean_" data-uid="AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenAssociatedPersistentScenes(AdvancedSceneManager.Models.Scene,System.Boolean)">OpenAssociatedPersistentScenes(Scene, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Open all scenes that are flagged to open when the specified scene is opened.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OpenAssociatedPersistentScenes(Scene scene, bool promptSave = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">promptSave</span></td>
+        <td><p>If <span class="xref">true</span>, then the user will be prompted to save any unsaved scenes before opening the scenes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

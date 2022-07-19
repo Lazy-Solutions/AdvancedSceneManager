@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h3 id="addressables" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="1" sourceendlinenumber="1">Addressables</h3>
+
+<p sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="3" sourceendlinenumber="3"><br></p>
+<p sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="5" sourceendlinenumber="5">Addressables support package adds support to open and close addressable <a href="../guides/Scene.html" data-raw-source="[scenes](../guides/Scene.md)" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="5" sourceendlinenumber="5">scenes</a> in ASM.</p>
+<p sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="7" sourceendlinenumber="7">This package automatically finds all <a href="../guides/Scene.html" data-raw-source="[scenes](../guides/Scene.md)" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="7" sourceendlinenumber="7">scenes</a> that are addressable and overrides default <a href="../guides/Scene.html" data-raw-source="[scene](../guides/Scene.md)" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="7" sourceendlinenumber="7">scene</a> open and close behavior. Which means, after tweaking settings in addressables, ASM should just work like it usually does.</p>
+<p sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="9" sourceendlinenumber="10">In addition to <a href="../guides/Scene.html" data-raw-source="[scene](../guides/Scene.md)" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="9" sourceendlinenumber="9">scene</a> open and close support, a button is added to
+<a href="../guides/Scene.html" data-raw-source="[scenes](../guides/Scene.md)" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="10" sourceendlinenumber="10">scenes</a> and <a href="../guides/SceneCollection.html" data-raw-source="[collections](../guides/SceneCollection.md)" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="10" sourceendlinenumber="10">collections</a> in ui.</p>
+<p sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="12" sourceendlinenumber="12"><img src="../image/addressables.png" alt="" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="12" sourceendlinenumber="12"></p>
+<p sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="14" sourceendlinenumber="15">Pressing &#39;Addr.&#39; button on a <a href="../guides/Scene.html" data-raw-source="[scene](../guides/Scene.md)" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="14" sourceendlinenumber="14">scene</a> toggles the <a href="../guides/Scene.html" data-raw-source="[scene](../guides/Scene.md)" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="14" sourceendlinenumber="14">scene</a> as addressable.<br>
+Pressing &#39;Addressable&#39; on collection will toggle all <a href="../guides/Scene.html" data-raw-source="[scenes](../guides/Scene.md)" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="15" sourceendlinenumber="15">scenes</a> in <a href="../guides/SceneCollection.html" data-raw-source="[collection](../guides/SceneCollection.md)" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="15" sourceendlinenumber="15">collection</a> as addressable.</p>
+<p sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="17" sourceendlinenumber="17">Please note:</p>
+<blockquote sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="18" sourceendlinenumber="18"><p sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="18" sourceendlinenumber="18">When ASM adds a <a href="../guides/Scene.html" data-raw-source="[scene](../guides/Scene.md)" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="18" sourceendlinenumber="18">scene</a> to addressables, it will add it under a default group, named after the <a href="../guides/SceneCollection.html" data-raw-source="[collection](../guides/SceneCollection.md)" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="18" sourceendlinenumber="18">collection</a> the <a href="../guides/Scene.html" data-raw-source="[scene](../guides/Scene.md)" sourcefile="plugins/plugin.asm.addressables.md" sourcestartlinenumber="18" sourceendlinenumber="18">scene</a> is contained in. This group will not have a schema assigned to it by ASM, and is expected to be assigned manually, or have all scenes reassigned to other groups.</p>
+</blockquote>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

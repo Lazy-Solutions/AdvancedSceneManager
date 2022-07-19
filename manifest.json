@@ -10,7 +10,7 @@
     "changefreq": "weekly"
   },
   "homepages": [],
-  "source_base_path": "E:/Github/Unity/Unity.AdvancedSceneManager/AdvancedSceneManager/docfx",
+  "source_base_path": "C:/Users/Maria/OneDrive/Documents/GitHub/AdvancedSceneManager/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.CallbackUtility.FluentInvokeAPI-1.html",
-          "hash": "gx515FNf1vFXGjsUzo19yiWd4DR+o1l3Rf54b5y4TbU="
+          "hash": "cKmljFtn4A8Jw5J7pR3Tw8GjPhTxg9mTYecYQfUZ774="
         }
       },
       "is_incremental": false,
@@ -40,7 +40,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.CallbackUtility.ShowMode.html",
-          "hash": "W8vpOq8lv+hrf4J3aKRM9ziu/azyZnZ+kv0vvHwhH5s="
+          "hash": "1FGECYwc2lQXcVtPuOIbrDwPKSoFB6N8m257OtltAQ8="
         }
       },
       "is_incremental": false,
@@ -52,7 +52,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.CallbackUtility.html",
-          "hash": "UiTBdBXogXfU0UE5Yg3FBo5cIaDXEfnxO5ykEL6eRqM="
+          "hash": "QLDFkGvGTjvuP5lHVZpk+1p5gGfyaWn6WBmL5hHcrp4="
         }
       },
       "is_incremental": false,
@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.CombineNull.html",
-          "hash": "HhhtA77wTg4Ebng2/JL9AgJP+nIbrSBL7WmLlAUKrCI="
+          "hash": "Ej5C970T/7+fvzBolaPO2bSiLKM1Nt29B65+D73nh8g="
         }
       },
       "is_incremental": false,
@@ -76,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.CoroutineDiagHelper.CallerDetails.html",
-          "hash": "by2JPrsnOc0ynS22Y/UU9C+uoT5WlSsOSSJ9j6CncaE="
+          "hash": "09wj8xxiEDHI3kr7sIwTWb+eAnEG46bowEdW8dtbgZY="
         }
       },
       "is_incremental": false,
@@ -88,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.CoroutineDiagHelper.SubroutineDetails.html",
-          "hash": "DX4h3QhVKHdTYLnr912+d9NHyhcPxTK3vM5zmYxIR2U="
+          "hash": "I98vHbBDVp/I5B1ORv41CcctV1heWtz2y/zy1iVKu1k="
         }
       },
       "is_incremental": false,
@@ -100,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.CoroutineDiagHelper.html",
-          "hash": "1K0Vs/K0ln3hyvH9cTgzJjqwRShunEEezmWsLMjQ2yM="
+          "hash": "FoGho0KqOMQDHrVWyod2WNsut5+Zr14iWuA2y2c/rXY="
         }
       },
       "is_incremental": false,
@@ -112,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.ICollectionClose.html",
-          "hash": "R908KItmyiMsou+fVMOSqM8cQewC4A0/e1udYXp0/NQ="
+          "hash": "x+J+4tVs1eXLf0jf9VvQc07jIwbxSTn5voHK+7lHr6U="
         }
       },
       "is_incremental": false,
@@ -124,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.ICollectionExtraData.html",
-          "hash": "Ap5w/KCMjCsZ1bGJp+CJCSYRAYJjaVGl0n/kgDpSvFI="
+          "hash": "NZW6lELwM55d2CjQsMVRE0CGDkeYUSfKH0ntyCgLoVY="
         }
       },
       "is_incremental": false,
@@ -136,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.ICollectionOpen.html",
-          "hash": "VzwmWnL2GtpKQ1OvuLAgrQMTL4mWuufBcidk8Wyk6d8="
+          "hash": "MORSV0iC9x+BV+QLf9dEw2/xXfA2w4pI0WCBABfYbFs="
         }
       },
       "is_incremental": false,
@@ -148,7 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.ISceneClose.html",
-          "hash": "zS9QlcAxwpxcAaS5yWh4ZJ7/rL5qDrgok6RpZrekqAk="
+          "hash": "zT1xhLXqGgBpU6iXeZE7fgbYomvITS8+0KLKoHnkt3M="
         }
       },
       "is_incremental": false,
@@ -160,7 +160,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.ISceneManagerCallbackBase.html",
-          "hash": "wiVB/OsLZ/DPSWNGt6aOIAm5zCBFr2PL8dX0/ttPoyI="
+          "hash": "mXTzfHLx7GGuZmugSj8uHPVrS4KW/PyBdfzpbwRjc9A="
         }
       },
       "is_incremental": false,
@@ -172,7 +172,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.ISceneOpen.html",
-          "hash": "ZTb9KpnS1UQiiqb48eZ5pv/r+3sCgbqfWD2iRHo5MlM="
+          "hash": "QMYEn6w81fXrp2qRSYXY9umOXlMIz/eA/i16Tktlgcw="
         }
       },
       "is_incremental": false,
@@ -184,7 +184,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.LoadingScreen.html",
-          "hash": "sbWy88ir8B9KK+wnGLkVNTZxJG+6keBFPU0juzOdoIM="
+          "hash": "z5k9a411c4P1IrYYSBOZ5jJNXwJVd5O3d4170yUftq4="
         }
       },
       "is_incremental": false,
@@ -196,7 +196,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.ParallelASMCallbacks.html",
-          "hash": "gDK+fn65EdWjoONWsQ1zx0bbLvT6px5X2mkuv3gYTGc="
+          "hash": "yz1ueWcBFCo7Jf6lx53oxzJwHmKbZrpeWe2iOGsh2Gc="
         }
       },
       "is_incremental": false,
@@ -208,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.Serializable-2.html",
-          "hash": "9NznJQsHkrjsOmZiz/uQXw8e2ALp0V5prPEi/0yv0L4="
+          "hash": "q/LveZKDgX2sKtQigoPUEycC8doYzJE4JCiHGrtwmG8="
         }
       },
       "is_incremental": false,
@@ -220,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.SerializableDateTime.html",
-          "hash": "89qTxOJb9/P6iQ36Hk4Kv2dmIif2VaVNOCApRqspjI8="
+          "hash": "bBNQWsvTbexx/CPXn7Iuh6zWnkgCgZtnkCRTrN4dniE="
         }
       },
       "is_incremental": false,
@@ -232,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.SerializableTimeSpan.html",
-          "hash": "cQlLZgJRSpi3AsjtWMhrx/jZajnaLiIZsgIPYBTmlU0="
+          "hash": "D2RqWxqYmspGWdJQQ1J8KF4Xzh7ZaUAktpmaxHmf63E="
         }
       },
       "is_incremental": false,
@@ -244,7 +244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.SplashScreen.html",
-          "hash": "wr8K/vsdm0kTWiHAM6T7Pb91FGXCjaBBRLvJ/E1/Lbs="
+          "hash": "XA9MmnJtjsaMLAaOhJ7Y4KflMECVx2x2fQPOYAh9oKw="
         }
       },
       "is_incremental": false,
@@ -256,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Callbacks.html",
-          "hash": "2wOEPL1brJOJ4uCSkVmpacjvmIunEqRBahRS7nnKzLE="
+          "hash": "Nx1ED2OGBsGVHB0odLcGQiFkXG5+EOjCDkLToN6bI/c="
         }
       },
       "is_incremental": false,
@@ -268,7 +268,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.AggregateAction.html",
-          "hash": "lsbyKIZP1CT8kLZneQkd3HY8njKfAbBIfmj+3xgxnj0="
+          "hash": "+9CLDAwtd9+pOwOLykG+JT7AnNPvnyPzF8h1lkqkmuM="
         }
       },
       "is_incremental": false,
@@ -280,7 +280,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.CallbackAction.html",
-          "hash": "Lp56pxJe0bFYBO/d651PJobDExX7QYAPxZ6ZP0Tp3Lk="
+          "hash": "U9M4isnzLrQW3yNc66SN6CrlwYabYYtqJqSW6P2a8Kc="
         }
       },
       "is_incremental": false,
@@ -292,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.CloseAllUnityScenesAction.html",
-          "hash": "BMY2LW0WlCzXZtQpKpjTDI8hcj5ItZO+H7niA5jeV3Y="
+          "hash": "0TrDs6d850LmWAz7pGA1CsEGUHQu23NSbaERQh4ryFs="
         }
       },
       "is_incremental": false,
@@ -304,7 +304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.OpenAndRunCallbackAction-1.html",
-          "hash": "N0BTfJWiVto9xHUakOGSU80AxCrcqQYFhFBI5BA4ahc="
+          "hash": "OGCS/kbqPjG9aSAisaBZoSkF7ALwtj9zclVeRlq6fwM="
         }
       },
       "is_incremental": false,
@@ -316,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.OpenStartupCollections.html",
-          "hash": "VBJNxJmiTnPTecg58ItO+W52xJc+fdNNZqxwuMpTE4g="
+          "hash": "ZQ4YXLfXofWpN68M9/f1f74pz4s8I8akbm+q7IlJDu4="
         }
       },
       "is_incremental": false,
@@ -328,7 +328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.OverridableAction-1.html",
-          "hash": "Vv1gWlcbFw2iq5fjmIbvjcemd/Krnu5A81DmBI9Zm7k="
+          "hash": "jTwcorLwiwouLMQh7v5uePxQiz6R3SGtwLCUWUpjSAU="
         }
       },
       "is_incremental": false,
@@ -340,7 +340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.PlaySplashScreenAction.html",
-          "hash": "2Gqov3BtbdGe9aJaelOgPkELE5b5dnsAYWPnpW3q+dg="
+          "hash": "cVCgDsEan4s2ZssUTIRpz2/2PZflCv+Vrp+96izcs6s="
         }
       },
       "is_incremental": false,
@@ -352,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.QuickStartupAction.html",
-          "hash": "dirU8PDx6Jd4EuY18yuU5MqovlY8dyIsw/JY1DwwH1o="
+          "hash": "gvSRY/ZCKLL11ivIeq2IDYPjpJiHULg+6C+R3oDUTd0="
         }
       },
       "is_incremental": false,
@@ -364,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.QuitAction.html",
-          "hash": "h5VcB8FyFqOTC+ezEPwiq83JgZoHrWdeP+wrPj4lyFo="
+          "hash": "MiGNOTUolfvkXySf9neARdvUboHU31eWU8NFM7cmgw0="
         }
       },
       "is_incremental": false,
@@ -376,7 +376,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.RunCallbackAndCloseAction-1.html",
-          "hash": "Ywxl9ovbfgWjbREF9ddq50WlntMSbK1R/4LyAso5Az8="
+          "hash": "YTTLmh74x/L8D5MLcSC0NaMnueWwX0AQjlyJr3SKjHQ="
         }
       },
       "is_incremental": false,
@@ -388,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.SceneAction.html",
-          "hash": "5cTtZ+b9rabzDhqq9Jg/kBMBpttk7CGgtaO+yn7DJGQ="
+          "hash": "TX0BbBgV0ryKWzZ+iL3O1IdxOrWs8ULKd4rR8yLpWUY="
         }
       },
       "is_incremental": false,
@@ -400,7 +400,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.SceneCloseAction.html",
-          "hash": "Oyh6fkdzTX5uHrV+O/CPpHTySDgeH0tROkVfxWfRzi8="
+          "hash": "jfQieQklqeeA2uhPkZZMyVYlFuYCoHzWZjA2l9q8H70="
         }
       },
       "is_incremental": false,
@@ -412,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.SceneCloseCallbackAction.html",
-          "hash": "HPjteoxQPwiBfmic/16MdlHK3HFfapUpV67uKgvuBp0="
+          "hash": "XWFQx7kFucF8nftaof/HaBY7+Pcgt/DP0hlPBaC3jK0="
         }
       },
       "is_incremental": false,
@@ -424,7 +424,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.SceneFinishLoadAction.html",
-          "hash": "qAjI8tag9EuVF5TWHHV4bo1h3MM+dWwNc2N/wzqXvL8="
+          "hash": "X6Oa8ZycARsFAIRuK91264tN5huwdBdhNJ1YS2VSqTI="
         }
       },
       "is_incremental": false,
@@ -436,7 +436,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.SceneLoadAction.html",
-          "hash": "faRjFsg9xqVTByLxs2qfO01lQFES3eiGVsJyUl08xU0="
+          "hash": "yOu0yJ7jPgMMczungXmVJc9RRjTUMz+THj/VsFS48LQ="
         }
       },
       "is_incremental": false,
@@ -448,7 +448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.SceneOpenAction.html",
-          "hash": "iTHy4x8r6N1VN6edBA9OGfat6hbAuewdbMQns520R70="
+          "hash": "35QCjGhSzvQzbyrqCsNv6/C5crTCbVWRcpnMMvPYLEo="
         }
       },
       "is_incremental": false,
@@ -460,7 +460,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.SceneOpenCallbackAction.html",
-          "hash": "ZUUzAGzS4LMpJQ6zlL2EXg4DTsrFv7ohTfupKvs3794="
+          "hash": "YX/nz+IJFzaaHWsVECbT2g89RUiVFwi3Mus6RAnyUUE="
         }
       },
       "is_incremental": false,
@@ -472,7 +472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.SceneUnloadAction.html",
-          "hash": "tg260VSZoESHKrl5xW3KDkIL3x04QTjjz7C7eRp8Bgg="
+          "hash": "lEpGDEx90H64PCiHZjg/esR0ysOooMOntq0WpzGsUaY="
         }
       },
       "is_incremental": false,
@@ -484,7 +484,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.StartupAction.html",
-          "hash": "YNb/TeOjzwXtCQ7gysQhzyKSrgJcxnm08OzVDd/lmqk="
+          "hash": "PcTXRf85pnFf7rD9YYBKdhUrUO1FWLs0YZ1b6M+9Msc="
         }
       },
       "is_incremental": false,
@@ -496,7 +496,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Actions.html",
-          "hash": "Q+ZSHj4zUYYITz/mySfpWZsjOK9GaQCTfDYQvOvQPik="
+          "hash": "Uq8Ik3+49R8G2ET8D8MK5VsGMjS2XXl55PVslp+33UA="
         }
       },
       "is_incremental": false,
@@ -508,7 +508,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.AssetManagement.html",
-          "hash": "0qL1zJfBCRIVIAIx4N+TlafhjhxhyeR+ZQQw46qzzg4="
+          "hash": "IecAuBXTv3SKk6ns1l2OT4U5La0l9+ac55S2yJtft1c="
         }
       },
       "is_incremental": false,
@@ -520,7 +520,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Callback.When.html",
-          "hash": "YoNd5q+dPbvgnGO0FTVa86q5mUklqCQTvjsoYRJZvas="
+          "hash": "tBV9DmxScCWWXQ8pKboQ1TdU9KnzboY42gdBbAdyomA="
         }
       },
       "is_incremental": false,
@@ -532,7 +532,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Callback.html",
-          "hash": "ZN0xyvEjQWGTmCL3SKzL8gnyl4O4eeREp2NlY6cC7UQ="
+          "hash": "76CmRm+JHeMvqKKhPNVAYD7Bbynoj60o3ZRCtbbdEUo="
         }
       },
       "is_incremental": false,
@@ -544,7 +544,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.CollectionManager.html",
-          "hash": "b4wUvOXdXBzbqWnp99CIZwAvpG1vBSJe8Iyq+daHfnc="
+          "hash": "phuDIZ96H4KRaQzYj6V0rjRDIQ/5V/VKYNI1Q6qhDWo="
         }
       },
       "is_incremental": false,
@@ -556,7 +556,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Editor.html",
-          "hash": "H93/BCVWh8Y/03mbVXCbfDd5B4ac42jB5gpxp+H9jL4="
+          "hash": "PNPQUd4R8L0jLzEI2LSm9D5YV8KTYQw78PMajygbp9w="
         }
       },
       "is_incremental": false,
@@ -568,7 +568,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.OpenSceneInfo.html",
-          "hash": "ZIyxQF5pAtGBfeOPj0v2pWh3Y3pCvHQSNllLwe7hNg8="
+          "hash": "2tEvCGzuKuzveYyLyhDcp/X4QRB+rR0/XwavxUcqErY="
         }
       },
       "is_incremental": false,
@@ -580,7 +580,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Phase.html",
-          "hash": "2ZPe5bYSSv5r+Xhm7m239wfgDVoExPCRUrK/5JP2dFw="
+          "hash": "Tys1dBdmTOzpXnlLBPlstiKvxJwXlOb/TXMuwQ8vAhM="
         }
       },
       "is_incremental": false,
@@ -592,7 +592,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Runtime.StartProps.html",
-          "hash": "P00YHGRq3NdLXJ4iuTfeNEWa094mMq6YQZznedgKYFw="
+          "hash": "xGR+Tztblhy/9kSmtASSzN2PwgCS5gS9oq9vW1HP3z0="
         }
       },
       "is_incremental": false,
@@ -604,7 +604,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.Runtime.html",
-          "hash": "EUEnOg8cT1SUWl977C0EfkQvlH3+3w5PbIcOxpR6Tyk="
+          "hash": "+j+cRiT3sYdddfBfwYjoshBppIzn+rER/FG2pSJ4hHY="
         }
       },
       "is_incremental": false,
@@ -616,7 +616,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.SceneOperation-1.html",
-          "hash": "RVVDpBw9jm85wQdao+DhPGb6pXleVCBmcYAVYxk6rT8="
+          "hash": "XA9aI0uNa+8lEQhXeuVJtmpvybAZuQKNa+dnP9btGvY="
         }
       },
       "is_incremental": false,
@@ -628,7 +628,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.SceneOperation.html",
-          "hash": "F3rPjpEKf/M1GkcshYpeheU+C0RYmhwdVV8D2IZCpMY="
+          "hash": "uZzU3SoWx9atpFGRuo2pVtcwdnwVqsKbNzi6CdoiDGg="
         }
       },
       "is_incremental": false,
@@ -640,7 +640,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.StandaloneManager.html",
-          "hash": "o95oh1OYx/aaX0xHrim0ppQZ4w7OmQcnlDOlVhWOHYE="
+          "hash": "FFvNC88qWm5oISIhwNUx+exeOfWw1OzKfFCiThpxDCs="
         }
       },
       "is_incremental": false,
@@ -652,7 +652,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.UtilitySceneManager.ActiveSceneChangedHandler.html",
-          "hash": "folxYf5Gu5qbN/kwBxOWEGzzXrin5RxvrBfBGQ9OHwM="
+          "hash": "pBPvaBJLKw1UGOjcULWX19Iz1NkA56eGfVE8TNGmVS8="
         }
       },
       "is_incremental": false,
@@ -664,7 +664,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.UtilitySceneManager.html",
-          "hash": "lLdvZNbaEbzTMZceOV4KNMA0IbNgkdTpKPgVEUjJMs0="
+          "hash": "1/QcIwZwml367TZGXVI0yps+s8JBkCoxLO3Jo7Gcfu0="
         }
       },
       "is_incremental": false,
@@ -676,7 +676,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Core.html",
-          "hash": "I9Gd4bSlaya225BeSWqX3P9EcIkyJBrESnlit6xbFnw="
+          "hash": "dLAWmRV9QHjakZHnlawsobaiXjqOaTzr8NSh7KGzTKc="
         }
       },
       "is_incremental": false,
@@ -688,7 +688,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Defaults.DefaultLoadingScreen.html",
-          "hash": "0aXe0HwyIUCtRZJFyYsLQH7KARC17XvbQcEASVn5f6s="
+          "hash": "jAP/8EfFhYG6U6MSrmjGIVPnqq92KQ0lNY+Vg7wyCUs="
         }
       },
       "is_incremental": false,
@@ -700,7 +700,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Defaults.DefaultSplashScreen.html",
-          "hash": "6ZrBkIQhth/hkampDJp8PJT53GgBojshq5dc0rpSuaI="
+          "hash": "iIrzQvEHgQdWlSUottxv1SXUu81nFU12lvYDl3x4ge0="
         }
       },
       "is_incremental": false,
@@ -712,7 +712,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Defaults.IconBounceLoadingScreen.html",
-          "hash": "Uxyb0zoPz5PprYTLM5oAvN0y76a9vbGaZzhmoSgXgrc="
+          "hash": "HeLxI5HfEYG2ofKHymVof29TR5Vcokyy2COlF55GPi4="
         }
       },
       "is_incremental": false,
@@ -724,7 +724,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Defaults.PressAnyButtonLoadingScreen.html",
-          "hash": "ST/sDiMKx9aF2ujAKa/KQhYrykmiyamR0Tc/HFRV17M="
+          "hash": "70qEMKah9erPPmngVfmdQGae3Q8odc9qHESYVawSVVg="
         }
       },
       "is_incremental": false,
@@ -736,7 +736,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Defaults.QuoteLoadingScreen.html",
-          "hash": "HVgnY1vqk2eefZy4tp5fD+iYwZd+hHUuLV7SvfVkv2Y="
+          "hash": "DF/o3Q45sphfDHaYtXHGdEqGN0fFr+VmTPzScHFTvRs="
         }
       },
       "is_incremental": false,
@@ -748,7 +748,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Defaults.Quotes.Quote.html",
-          "hash": "V2TJKzf7PrTrGD1i64wFgdnp/QKhxg8dVtfdjv3SxLo="
+          "hash": "PK2za2BQrteHa8dtQmfCx9/PqccFVkTnIeAb9WpfO+4="
         }
       },
       "is_incremental": false,
@@ -760,7 +760,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Defaults.Quotes.html",
-          "hash": "RbD96F+LnopCvJ7FJwGaI9nn0m9gwxu4uh2uYL/+qD0="
+          "hash": "18+MUql9f6GJYUHtLyyw+VZORHDLmBFbKCiUiCE1OBc="
         }
       },
       "is_incremental": false,
@@ -772,7 +772,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Defaults.VideoLoadingScreen.html",
-          "hash": "SO+XqMW8DnMa5xt5ln//PFjO2of8aZgNtKeSLVNv1Ss="
+          "hash": "bukaUBVKSkbOKS3gi3OfqprWqZ5Qwf8Qa3qClyDe0jE="
         }
       },
       "is_incremental": false,
@@ -784,7 +784,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Defaults.html",
-          "hash": "S7e26orj4G+jwFeC+1KDlx0odhcNJbfbK01HrPNJfHQ="
+          "hash": "JyymfPikM/JHiQhKYN2UMlnUNuofQbXtpNfTWQ8oJx0="
         }
       },
       "is_incremental": false,
@@ -796,7 +796,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.EditCollectionPopup.html",
-          "hash": "8V56OQKpM0rKF/vI5tJCaHHkx6sYPp6CrHsqxm08rTE="
+          "hash": "yWc/pmVS89EgADEUTOGK7tI7m2RfwOGle4O2FP+nXeI="
         }
       },
       "is_incremental": false,
@@ -808,7 +808,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.EditorWindow_UIElements-1.html",
-          "hash": "6uVkyBzz6xdgEWu1Z9AYsqn2IZNn+++xqjSArh3CbtU="
+          "hash": "ZWqyQWPaJAIPsedIlrQ2BMT2GQPPJFxjCiBZM7aTRTs="
         }
       },
       "is_incremental": false,
@@ -820,7 +820,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.GenericPopup.Item.html",
-          "hash": "8pDnL3w0KeNaMYOvA5dBlHl6vug9jki5tm799O5cFME="
+          "hash": "RdiSW4W/LOUpz88+hE4dcqQVG/JwgS9Fx75BZDlSU4c="
         }
       },
       "is_incremental": false,
@@ -832,7 +832,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.GenericPopup.html",
-          "hash": "evDfMcXGmfAv4y5R4RjPrb5r7Wrkc32Z7nafLlwkZkk="
+          "hash": "EzGs5JuwU42Jmf5XkhwqbJbbNBd02x7cyb5IcJp/A0o="
         }
       },
       "is_incremental": false,
@@ -844,7 +844,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.IUIToolkitEditor.html",
-          "hash": "o0w353HTO1ua9FO1zr8gKq0kXnPaneWP55uNpdXVfdQ="
+          "hash": "veIJ72+yjRl53Y2e3HVojVe1H+DuJnR7K+vpPMkszzc="
         }
       },
       "is_incremental": false,
@@ -856,7 +856,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.ObjectField.UxmlFactory.html",
-          "hash": "5oHlYND2JUGmM5Q96lZ+v6QV27dOYNc8Texq/sDe6rU="
+          "hash": "YF70aRbLNTRPQA3qdZx4qeGUQtShyk17MoOtCCtMrbk="
         }
       },
       "is_incremental": false,
@@ -868,7 +868,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.ObjectField.UxmlTraits.html",
-          "hash": "ycQbOOJYKk7JSWr8GhDYatwPeU6EB9IEgVShrdVLfOk="
+          "hash": "dv09J5g5ZOTgBiJYPaN9byYg603dRQBk9Tqr7S9nywA="
         }
       },
       "is_incremental": false,
@@ -880,7 +880,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.ObjectField.html",
-          "hash": "kVi3xzqTIy6SYxuus67G51cSRMQDXf8OK/nrdoeBVpo="
+          "hash": "PPyZtJeUHABf8JHA1/xXEIDPZETIfamoPyQO0cDKxH4="
         }
       },
       "is_incremental": false,
@@ -892,7 +892,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.OpenInEditorPopup.html",
-          "hash": "pNj7pDPH/i3E+JByg272v+0m0SKMG5cMxGFCI5CiFFc="
+          "hash": "uDjdmCojAmZxqvmuPOy6Xd12ul3tZqbvFnoQwma4ViI="
         }
       },
       "is_incremental": false,
@@ -904,7 +904,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.PickTagPopup.html",
-          "hash": "cV+vPCBVVaygy3bGDYQSCETas/rjtISo9W+QnzpT1A4="
+          "hash": "J/JwfebH5Xw7sCDmmh72lAgJSUTj21uUDGle/zF38+E="
         }
       },
       "is_incremental": false,
@@ -916,7 +916,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Popup-1.html",
-          "hash": "yF6Fu1YduVS9PwaQwlb4OSSkqZbvr9ifIcc7FPUy9QI="
+          "hash": "cXwuXWUB3TBqMNM2tr/l4TYHQ4ID3iSFtqUEnSKZsRY="
         }
       },
       "is_incremental": false,
@@ -928,7 +928,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Popup.html",
-          "hash": "+wBsiJ4yLXf86np20/gTJ+GkGKajkL6s1X8U6H3mJ/o="
+          "hash": "8DK+dvaZ5uQaEPK+9E9+ahwGkD1M8jlcQdX1iBvNzQU="
         }
       },
       "is_incremental": false,
@@ -940,7 +940,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.SceneAssetEditor.html",
-          "hash": "+dE8LK+62fmOYWTWkrS/I0CdYPz5f3Eka84j9LAw/pE="
+          "hash": "fPz9m/je7MQBF+oqPRyFQah8BG9R9GzGkA7JaDhQFQQ="
         }
       },
       "is_incremental": false,
@@ -952,7 +952,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.SceneField.SceneChangedEvent.html",
-          "hash": "T5Vi04fMw6PbWIScmd0nlNuidzqr2pfihWjg+VEX8/Y="
+          "hash": "S0Q+h7S1zuGPyLHeH0+fPdQoYIqUmas2PwMmrEiEklU="
         }
       },
       "is_incremental": false,
@@ -964,7 +964,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.SceneField.UxmlFactory.html",
-          "hash": "vxVJRZftSYjKA6wl6ktLvzr+uhpTB+DJLAY0I0NIxTg="
+          "hash": "AAAUMMBNXd596PZSq3jqtg63GYPjoLho+BPHWVPw06M="
         }
       },
       "is_incremental": false,
@@ -976,7 +976,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.SceneField.UxmlTraits.html",
-          "hash": "J1wP/EgoHc4jJ/8CHEoRBXrG9nLJ8Wk9vj4zRt/qvgY="
+          "hash": "0ru5HnEklb0S1nnp/ETbhP2j3Bbq3H8MHDa5W84vNxs="
         }
       },
       "is_incremental": false,
@@ -988,7 +988,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.SceneField.html",
-          "hash": "8h64UfEuGF6eP5vBgtMoT2XaLuL9dvrhTEA79thGakI="
+          "hash": "WZXszIWO0jUGVyiHzNZzfIjDdSot1lA01LjwDbmei0A="
         }
       },
       "is_incremental": false,
@@ -1000,7 +1000,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.DragElement.html",
-          "hash": "8gB2zUM6VDeUWA7KbWwIr/03be/1jTXXAY0ZgkNRLIE="
+          "hash": "VTKnlwIldCMem8h6Kf9jeMYDl/mLCLdA1T/csOuXoYc="
         }
       },
       "is_incremental": false,
@@ -1012,7 +1012,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.SceneManagerWindow.DragAndDropReorder.html",
-          "hash": "sNPtnLGHcDpNOOyWWn1Ak8/oxqeU9DGTcVKBGkcQJEA="
+          "hash": "bS4UfRE/WIOakVejYZVBBrDcNWwG3XueTvRAxT8FR2g="
         }
       },
       "is_incremental": false,
@@ -1024,7 +1024,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.SceneManagerWindow.FooterItem.html",
-          "hash": "UTzMiqv9iKyG3jMIpZLgg3mI8/OnstBIXtE9b3ggvrE="
+          "hash": "nDVnMO4jN99/Bk09arAHMhavXBkQj/zcSOf47eMBUk8="
         }
       },
       "is_incremental": false,
@@ -1036,7 +1036,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.SceneManagerWindow.PostProcess.html",
-          "hash": "Dj0u5dQMT+MYClntHWzl3O08K5ZLfZOK9pi4nr+xV8A="
+          "hash": "wG3Kn9ZBpsLkJUuXREbwyQlDS/zcVWcLFsDtf0ZBM74="
         }
       },
       "is_incremental": false,
@@ -1048,7 +1048,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.SceneManagerWindow.Tab.html",
-          "hash": "6lNe7kliLcQsHlCBAP5fj7nQs2yl0gOV/Eo58ovRruQ="
+          "hash": "l9D8T8l2aWIcglKhsk1R7uWMR3nQow4/lCGkDn6MiYU="
         }
       },
       "is_incremental": false,
@@ -1060,7 +1060,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.SceneManagerWindow.html",
-          "hash": "yUTr9Sjgi8gKQ1bROMK2Unywubk0fzknPw6CP2OSf1Y="
+          "hash": "mC7vUXjp4dz5qM/LN6itU8Bwkp4ofoRWxGlX4uWlT4M="
         }
       },
       "is_incremental": false,
@@ -1072,7 +1072,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.SceneOverviewWindow.html",
-          "hash": "vBIYOorVnyqueR2WtWWhx8ctmdgnOShHFBjnNTXfyeA="
+          "hash": "nREWivEJ/zFnV2NQZBdffaVptlKzIlogvubofLaKOBc="
         }
       },
       "is_incremental": false,
@@ -1084,7 +1084,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.ScenePropertyDrawer.html",
-          "hash": "Ay8Rlo1G2bWLXQ1vswzKXu39y/bNoPi4wAVBxgy2c24="
+          "hash": "gQi+D8G6hET7EuPmf57691qnQyTSSOdiBRPe8pXYryc="
         }
       },
       "is_incremental": false,
@@ -1096,7 +1096,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.ScenesTab.html",
-          "hash": "vWEcGRxE8ZWTtcNLPR552H71C6UmZsrtX9q5MYP5wIQ="
+          "hash": "bHXh3yaqdpbTh0BYaNe224LZWnQVaZkBJEcbmAF1t5M="
         }
       },
       "is_incremental": false,
@@ -1108,7 +1108,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.SettingsTab.html",
-          "hash": "Aasfe0Wg99w+3b5mVoLz4NyiKSi2s1SIc3uwICgsgiM="
+          "hash": "rCI/cORENhuHSYCo0NR/JyCMTABnK6mXLHfZULLBm4w="
         }
       },
       "is_incremental": false,
@@ -1120,7 +1120,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.TagsTab.html",
-          "hash": "saIQ5ErSFy+2rBjxF1+FiUQm6GSR3L1f54S3lbltYYM="
+          "hash": "kXnTuoqHfHFUaP9RVkVv1A+jH5R8WeYinOlIv9DvFjc="
         }
       },
       "is_incremental": false,
@@ -1132,7 +1132,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.AssetDatabaseUtility.html",
-          "hash": "e82jsw6DducwuLSI6f4l1xPTkQkfUjnSvmo/cb11xQU="
+          "hash": "7IMBTyl2oGjr39iRiui03OkhIn0K+hmM+AEYpKHQnUI="
         }
       },
       "is_incremental": false,
@@ -1144,7 +1144,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.AssetsSavedUtility.html",
-          "hash": "rTX4zrlGHHJ+TpDgibPVCJNflku9nfAP+97Ghc4gG5A="
+          "hash": "baAjoXALPSEs2ox1KiykeEsBjvn3w7e65fIaV33a71w="
         }
       },
       "is_incremental": false,
@@ -1156,7 +1156,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.BlacklistUtility.html",
-          "hash": "69psKCADnn++RZDGgIQNTMVxMS9oGwlgOqja7NBzJqc="
+          "hash": "51QCLe9ObYSI3u0DbF3CTUQNfIMEBgEf/1GJ0GsY8zc="
         }
       },
       "is_incremental": false,
@@ -1168,7 +1168,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.BuildEventsUtility.BuildError.html",
-          "hash": "4JKUqdmViRzF3bds+hTtDKqk6RaSk7H4WIu9eDqCZYI="
+          "hash": "xBvSTuLpn/2I7NGyP6CdC7HFAgv82arba+T3m36heLw="
         }
       },
       "is_incremental": false,
@@ -1180,7 +1180,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.BuildEventsUtility.html",
-          "hash": "+cLqBPR/77xlK5AbPVIfTWibuj98W7uWtw4Z47xVjXU="
+          "hash": "cMxb7CjPsWBali9mKPNULlgsxfQafKnMJk4NtgegYsw="
         }
       },
       "is_incremental": false,
@@ -1192,7 +1192,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.Reason.html",
-          "hash": "rUV83R5U8ats4tCqF3LqAb9iwBaLWSjECRYpQz2Zpqs="
+          "hash": "eRon3VEYnOarPbmR/X15k7rldzWOXVoH0xn0URY9ssE="
         }
       },
       "is_incremental": false,
@@ -1204,7 +1204,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.BuildSettingsUtility.html",
-          "hash": "9IiSQ0LOyiq+wGjtIQ6ggevIg1uJSvNe/fDThRRXY4k="
+          "hash": "2E4kT6r5XGRuAmgcsFgCoHmvU8d3TWXU6/Z+30FW5vE="
         }
       },
       "is_incremental": false,
@@ -1216,7 +1216,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.EditorFolderUtility.html",
-          "hash": "uRddkuWbcnuZJXFNbInCDpgahx/5C4YwjnDfxTpe0WU="
+          "hash": "9y6MpGhMiuBKN/GMr2USjU1WOIyA6idrFjbUUHJiNTo="
         }
       },
       "is_incremental": false,
@@ -1228,7 +1228,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.EditorGUIUtilityExt.html",
-          "hash": "OIQO7nxqoGwexcN7EhH7pzUGONHjOcuYouzpkz78u04="
+          "hash": "ygVSvaZM8TtHnt7shtE7Y7FdMxSSD4zyghROJBcMeZ4="
         }
       },
       "is_incremental": false,
@@ -1240,7 +1240,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.GenericPrompt-2.html",
-          "hash": "mQ+7w8BKdBF8Jt7dnC9J8DaKeMkUYhEEUBI2PbPHCvU="
+          "hash": "ddZndik1GwhHJU8plVZ4fC18C560v82jIejRYDhrbFI="
         }
       },
       "is_incremental": false,
@@ -1252,7 +1252,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.GenericPrompt.html",
-          "hash": "dVMtCCc5A4RUSZQ/WxWpQgzsu+MAzQNAa/p3FfDUIPA="
+          "hash": "Q9VeU84+zb2Oz4tYr6Dfj8Ncwouju2YQQx9A7QjEzeY="
         }
       },
       "is_incremental": false,
@@ -1264,7 +1264,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.HierarchyGameObjectGUI.html",
-          "hash": "6Ympt9PPJZViDqREch6h+VWV8iiW86L7Y4GEZXoliyQ="
+          "hash": "Oek7Vkfi6Xii1xkhjcf8hs207YEWsOIfkG2NJWqy2AQ="
         }
       },
       "is_incremental": false,
@@ -1276,7 +1276,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.HierarchySceneGUI.html",
-          "hash": "fqZZOdgfsFpT5m7y3r6dZqDLf2JCR4TiLaUkzneEp4Y="
+          "hash": "RnvEoXjI0fz1V9Sf8brcv9gUsOsxH7l8oGEQWVRSJcA="
         }
       },
       "is_incremental": false,
@@ -1288,7 +1288,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.HierarchyGUIUtility.html",
-          "hash": "KN+a0ICBTOqeYo4NrCTagPSUJuc1qCKg+6T96HW8ng0="
+          "hash": "wiX+Zqe8yHvW7FiIJGAp9NhRyemHKtPM0lxfO+U0Hiw="
         }
       },
       "is_incremental": false,
@@ -1300,7 +1300,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.ListUtility.html",
-          "hash": "vqyLwnUWmLp8aPnCUW+U2U8ASy0KKgdfC5ARFhmViak="
+          "hash": "llhsCgqZEKQrTYbLaDDej6d7RYergZKC+H0vgkritmU="
         }
       },
       "is_incremental": false,
@@ -1312,7 +1312,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.MenuItemHelper.html",
-          "hash": "l8Ra38t3+EBbP+TllTVEFmeOo451FooMGGamW0TlQ7o="
+          "hash": "Rb5gLR6pBLkVAyQZ/nk7omLyPoJlM9ygeCnKllz/Vi4="
         }
       },
       "is_incremental": false,
@@ -1324,7 +1324,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.OnGUIPrompt.html",
-          "hash": "/cloIkfATf8XnDccvVqkHDh2RSvQWokvhVth1PR5Dlo="
+          "hash": "qRL6gjFP3cMjVoqsJ0orVMYoZX3WO0iZEWbsbj52BwQ="
         }
       },
       "is_incremental": false,
@@ -1336,7 +1336,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorOption.html",
-          "hash": "fo/M3nfk7+Uh9nXnlWvDpuStDkuPY86RBAuOwIl6MZM="
+          "hash": "KaPdcWJTybx1xX6GgaDZfj8nMVQiijgc3xz6uZn+1Bw="
         }
       },
       "is_incremental": false,
@@ -1348,7 +1348,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.OpenInEditorSetting.html",
-          "hash": "2bYAR2kteralS+NA5RiE4/8q9CKoPZpHvtaaruTDLwM="
+          "hash": "XA+f8AritGfjkXGHjYcbDiPa/Xy7DWi48nzVywBlUNE="
         }
       },
       "is_incremental": false,
@@ -1360,7 +1360,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.PersistentSceneInEditorUtility.html",
-          "hash": "cb1KEJSdgp+MKHVTdROFn7PL8HfMDiCkBNDqQeC/BsU="
+          "hash": "Dy4yTq5nZZIeQjfDmw7TYvLoKDC1yomIMhrBScObP6M="
         }
       },
       "is_incremental": false,
@@ -1372,7 +1372,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.PromptInt.html",
-          "hash": "f2G1K5abBEGgm9xC4KqfsoEAjKNR2qjDzW6LTxSCq1I="
+          "hash": "L+d/U3bvD5XH6MKQei/8cl1HL9kMXgMSEGgBiYrhPzk="
         }
       },
       "is_incremental": false,
@@ -1384,7 +1384,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.PromptKey.html",
-          "hash": "LdXmehuwE63NgisrZBQQ4JEQBczA0wEUJ9hXxdE1sLs="
+          "hash": "58gL9RdzSOwWMKyA6PlZ9gsK5xuQSWqlBKlauYQah6k="
         }
       },
       "is_incremental": false,
@@ -1396,7 +1396,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.PromptName.html",
-          "hash": "w7MGuM688Sloo6EfKNsUFk/INTLjt9thF/usvJB9Sbc="
+          "hash": "+5nBnZhmATEyzy82DRI3wYE8a52MqX56uac0+0uzqWc="
         }
       },
       "is_incremental": false,
@@ -1408,7 +1408,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.PromptNameAndMessage.html",
-          "hash": "LV3OC1UOiZSRU3DpUky9Kyw6aR82kCZ8zbGLPrKEW2U="
+          "hash": "dvEWKS8TA2pILAziPhT/+V3X0z8/v4j1KS4oenmxTzo="
         }
       },
       "is_incremental": false,
@@ -1420,7 +1420,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.PromptVersion.html",
-          "hash": "0UssNVKZCkehGbpvnyhtLNnVK+/EN8sFryBEcMsDxmY="
+          "hash": "1F69GKI2e6z/OdwzIKdBonnvWTh5K45JvpgVStRGqVg="
         }
       },
       "is_incremental": false,
@@ -1432,7 +1432,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.SettingsTab._DefaultHeaders.html",
-          "hash": "RUzlzRWIxYYYpNHPw99UcOvMFHLGMFlKX8o9kTX6elw="
+          "hash": "nhuGYht6oJDArDVIfo/BDfTJ+fxtZtbwNLpQF7jCZhk="
         }
       },
       "is_incremental": false,
@@ -1444,7 +1444,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.SettingsTab.html",
-          "hash": "r3YME6PNQ0BDXP3jq5bu0OeIlForzvBFCD7EUBSraTE="
+          "hash": "EEkXt14gJStYfnbBJoUUiuwoxvz9/+KiuDrnSpN9KhI="
         }
       },
       "is_incremental": false,
@@ -1456,7 +1456,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.StyleExtensions.html",
-          "hash": "Ju74skEuw39BhlzMOyReRZqmXdcMzilT52VUbjEMJb0="
+          "hash": "oVqRXmDzbwrzLIeLid50NCam/mR3iVQkFok51ToalNk="
         }
       },
       "is_incremental": false,
@@ -1468,7 +1468,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.TrimUtility.html",
-          "hash": "QZkiQ0uSit47FzpkyaGPNXDUOG6a5xtqPFvlcjqbbqM="
+          "hash": "KW6yMGySvLVoEffX7LwuWDnFHImxLJf0R4obRFpw/q8="
         }
       },
       "is_incremental": false,
@@ -1480,7 +1480,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.VisualElementExtensions.html",
-          "hash": "ds5zTk9a2YKkjG71dfOkaae1qoNWYgf+a1TigJw9uOk="
+          "hash": "pTctClNgskJeKey3jXvsQvS2PloUWlWaSAsGCoBkcno="
         }
       },
       "is_incremental": false,
@@ -1492,7 +1492,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.Utility.html",
-          "hash": "K+T0Z0MhajRtSOX2OedbQcaEOEn8s4Ht0Aej2Wh0Gvg="
+          "hash": "xdpeX2SFX1/uPl/yPjjM0zNmnb/tjXbiIlaSmBX8cZY="
         }
       },
       "is_incremental": false,
@@ -1504,7 +1504,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Editor.html",
-          "hash": "1bxRj2eZTtXq9s5GfujoAy+OwfTg5o1q+8qEPMeH+pw="
+          "hash": "rNSJI9RrOej/dTk/IflQxJiyMfe6dQyNvO28T+GtkcU="
         }
       },
       "is_incremental": false,
@@ -1516,7 +1516,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Exceptions.CloseSceneException.html",
-          "hash": "Hl2M0yXY9k/mArLJLqHuaGdFykoXHgW1CDZvh92dUeM="
+          "hash": "eaRm6XGCI2rrar2wbgaboHLx+gdMFgT7OS+dE/u8OYU="
         }
       },
       "is_incremental": false,
@@ -1528,7 +1528,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Exceptions.OpenSceneException.html",
-          "hash": "AemKqih9ex11FmXXuA54dssweZJ2Ztj6B4c23w40oGI="
+          "hash": "yaHrdKMyOv1VnxnbomQB0E2O9yqyUh1A6XIoJGhU8Wo="
         }
       },
       "is_incremental": false,
@@ -1540,7 +1540,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Exceptions.html",
-          "hash": "1UYtITpj4k6Hhe0j76TcPRlFdFECoN0imBiClH95hI8="
+          "hash": "jid0L6ON+sAnvp7e6oDdMX0vGKeI7sTNW0F9hIi44zs="
         }
       },
       "is_incremental": false,
@@ -1552,7 +1552,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.ASMSettings.Local.SaveAction.html",
-          "hash": "YzjxmMn7hKt1RaeslTGHr6KJQ4OK6vX5SAvvoI48VKI="
+          "hash": "qfOV8RjgWjrjMm8f7OeyjocfQLr6CyGcDQZdcW6K+pA="
         }
       },
       "is_incremental": false,
@@ -1564,7 +1564,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.ASMSettings.Local.html",
-          "hash": "5NK2fB2W5dJ0WqpnRnX8+C+/FcPZCUMMi+HMVXyaBuw="
+          "hash": "HdbwZLTKsltgobzy43W6tRc26S77nnsyfcg/7paJzZI="
         }
       },
       "is_incremental": false,
@@ -1576,7 +1576,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.ASMSettings.SettingsProxy.html",
-          "hash": "grBAqXtagrPAM3L5qi3guUDJ6pXkDUJd1LdquLXVKQw="
+          "hash": "jt91bmLwpwLEgKSctH7b1/LWDumvv192IflDXH8i6c4="
         }
       },
       "is_incremental": false,
@@ -1588,7 +1588,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.ASMSettings.html",
-          "hash": "+Z+ijeSdOM5OKv54+Ke1C2uv9H6EP817hV8c3qRfTzQ="
+          "hash": "zPBkBGfwMJ+SjDcpu5WbDmaMpwvU05hPCGq9xnFP2xk="
         }
       },
       "is_incremental": false,
@@ -1600,7 +1600,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.CollectionStartupOption.html",
-          "hash": "I2iOEiYo8GFND+bxf+dC5qPo2TlNkpA1DORyiK9qoXg="
+          "hash": "PSji70xyA8hInfeQoPjHKfTMclFrsHAdPpr8fp6BAG4="
         }
       },
       "is_incremental": false,
@@ -1612,7 +1612,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.CollectionThreadPriority.html",
-          "hash": "QszlXKLYVjbMFqmnnaRpHSiJ3DCG0d0wlRpTLLXrFi0="
+          "hash": "Non8ZuelBSt/TR3RmpTn5AGOOFcCbRRWstsCrI9J1G0="
         }
       },
       "is_incremental": false,
@@ -1624,7 +1624,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.DynamicCollection.html",
-          "hash": "3jspg/a15IoZFLnGxVSBTM1jXkfI8zVPhKnGzWAsnus="
+          "hash": "++JhQkyHHizu6c0zEam3/Yj+AnUZ19sbegvxZv+sHoE="
         }
       },
       "is_incremental": false,
@@ -1636,7 +1636,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.ISceneObject.html",
-          "hash": "veFI6bCp3gg+AmnRH8aOzghnaOpky1nxSdTkHl3SC94="
+          "hash": "YRLq11Jw8AdedWcoZ+gtZq9dpJLNT+ZHoJ4UD+ArsG4="
         }
       },
       "is_incremental": false,
@@ -1648,7 +1648,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.IsOpenReturnValue.html",
-          "hash": "TII3k9MQ3a9Hr5B48ahRIwSCERsfGuJwjlK1QAof0GE="
+          "hash": "9bFyn1fANdm+dHuMwmGC62mnCt8xrUrPVMmGobKyTA8="
         }
       },
       "is_incremental": false,
@@ -1660,7 +1660,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.LoadingScreenUsage.html",
-          "hash": "a91+W2fIdNEdv3Iv+VmksVGtKEMqm+9JsPyVbvR19AY="
+          "hash": "j6hHiKB8kPN5BVAL5gBu4ee9aK2oH/uo+RWS9j/kY/I="
         }
       },
       "is_incremental": false,
@@ -1672,7 +1672,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.Profile.html",
-          "hash": "yEuciAAF54N83WOMpHcF9JhOpS5iNy06aZqMPS1BDgw="
+          "hash": "jJj2/x7ouTcRZrdon3WlSBbFM2HeWbPRm68Lf17mU4I="
         }
       },
       "is_incremental": false,
@@ -1684,7 +1684,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.Scene.html",
-          "hash": "ktYjOo+tU4mUc3s7a9Gkay1ehGXoc2B4Z5uC6ni12Zs="
+          "hash": "yPbzVuI0dX/NQ+aLhdOSv0K0jE2SPyKB8rwhwstJNDo="
         }
       },
       "is_incremental": false,
@@ -1696,7 +1696,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.SceneCloseBehavior.html",
-          "hash": "hskPvGGxQtwgKZZTdOXFuh89XASideaBWNUZnrLrax8="
+          "hash": "0EnUq2ih92Dy++LzWEORU5JTKfDDFqCvV5+AjSzGb+E="
         }
       },
       "is_incremental": false,
@@ -1708,7 +1708,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.SceneCollection.html",
-          "hash": "bIQG7M/3Kzwhh9djEeoOs3f6M8sNlKTkJ73nVSOUtQo="
+          "hash": "yp+jw8PfFknrnwCDNTKDNE9cICgflg5m12gHqmydHyc="
         }
       },
       "is_incremental": false,
@@ -1720,7 +1720,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.SceneCollectionTemplate.html",
-          "hash": "4hytuTtZe1eS999ks6VuYw++qDTPIATUpW7VLXAPEIU="
+          "hash": "1VEde5d3GyRuFRwMSACG5ok05CtuFz5JdB76Gxy4woQ="
         }
       },
       "is_incremental": false,
@@ -1732,7 +1732,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.SceneOpenBehavior.html",
-          "hash": "wcVygC5b3csg1N3VsdRkBm54O+w78zsWF1jjUG/TUBg="
+          "hash": "NtNSo2gN+KQCcCf+RXmKkmwrTiEFk9JPp0XtjJRI7BI="
         }
       },
       "is_incremental": false,
@@ -1744,7 +1744,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.SceneTag.html",
-          "hash": "GXOyRbTokRiI6Md6oHLQ+cI24rBZUG1qXDa46DGI/t4="
+          "hash": "Q8wAWCuY5O3S3MD296skqKRs4op6Q8qp/8FP92F0mHk="
         }
       },
       "is_incremental": false,
@@ -1756,7 +1756,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.TagList.html",
-          "hash": "p2I5ICPNhdpFMK6ndzZJhhOemlbG5Xn4kDSAnHQZ1ug="
+          "hash": "MlhmRyys63s6lz4la486dkDTKSrp9lPbkdwujgCTpZI="
         }
       },
       "is_incremental": false,
@@ -1768,7 +1768,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Models.html",
-          "hash": "XGHs/kdhsp7LN4w+dDKD0nNwo5AjjivwMmWtqUXqGHQ="
+          "hash": "aSU7kEvauakdkJOQtR9ZyOJAlvpaM3vkBQi6Zjs9p0M="
         }
       },
       "is_incremental": false,
@@ -1780,7 +1780,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.SceneManager.html",
-          "hash": "QD4MJDNbL2TUBtYJTk9LV8d3P4qDeHvFwvXx7HqxJK8="
+          "hash": "verI3JZ7xptFhVxu6OVf0W+MPkDqMojCnzBJv8+PTl4="
         }
       },
       "is_incremental": false,
@@ -1792,7 +1792,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.ASM.html",
-          "hash": "r1wxffwASwiikB7WFcLVyF1McqUsYx5CTT3dm1+FTeQ="
+          "hash": "DtDePcEDgNyWXuj6G+sDMV6tbIWCCPvvSCJwqTNW9Qo="
         }
       },
       "is_incremental": false,
@@ -1804,7 +1804,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.CanvasGroupExtensions.html",
-          "hash": "K+bWvzMPik+xd6KtPW2nq/oOE14t1Tyqj6FC1v1iDDo="
+          "hash": "t6MLOvPvMsOxiq9oyTBZyo8US4bew3RU+33kcwXKzlM="
         }
       },
       "is_incremental": false,
@@ -1816,7 +1816,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.CanvasSortOrderUtility.html",
-          "hash": "3/hvwwkLaomqdywrhrFHDw/KPUs/2R0+W19dgEPyirg="
+          "hash": "0ZC6RRpPrOIrg0lu5ae2bJ7HTE1o3U0JrUCFVAcoKw4="
         }
       },
       "is_incremental": false,
@@ -1828,7 +1828,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.DefaultSceneUtility.html",
-          "hash": "yhOlcq0OPoq52FjQXGA3WoKHyTTBlItPD4bpW4t373Y="
+          "hash": "VMdu3bCFOWfs42U5hGy6tfIPDYd5YsEvYo10UffKHPo="
         }
       },
       "is_incremental": false,
@@ -1840,7 +1840,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.DictionaryUtility.html",
-          "hash": "0zt2bt9nieuRwu0/zWoATYT/j4tBhnrN62xv2iDz7vs="
+          "hash": "D01LCEvxH0mE0Ash3LA7lyyXT/7+yKwxa18v8wHpQEo="
         }
       },
       "is_incremental": false,
@@ -1852,7 +1852,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.GuidReference.Editor.html",
-          "hash": "xkmEbdUK9+qvaqiIFkW2sHgBswM3V+Jrgw+ZRkTXmYQ="
+          "hash": "Sm8ac3RHuOIDYOZD7pJCYncRYTeqom+DkdEprqljuzs="
         }
       },
       "is_incremental": false,
@@ -1864,7 +1864,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.GuidReference.html",
-          "hash": "TW+YLx1stBgEI2joIOoFk06pmqt+JCgUare7oHuRgeA="
+          "hash": "z1hAojSKKkWZJEPgxDSBJphlz3/5ZlxLQvGqSOeEJrQ="
         }
       },
       "is_incremental": false,
@@ -1876,7 +1876,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.GuidReferenceUtility.html",
-          "hash": "zUd1kVfdA7/MDYjPfK1yYda9Yr1Vv4ieVwUJY+GphFM="
+          "hash": "fWW09X8ITH/BwskgeUlSrR5lDif3FKbbX+41BnVqbSI="
         }
       },
       "is_incremental": false,
@@ -1888,7 +1888,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.IQueueable.html",
-          "hash": "4hgt6mtgCbidKZdaejfq9loIUy8SIVkxbkBDC2YNg4A="
+          "hash": "xAqW4jjMwftzDV3SB4vE6MUHOp1jqte+urfGOSH72Kw="
         }
       },
       "is_incremental": false,
@@ -1900,7 +1900,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.InGameToolbarUtility.html",
-          "hash": "XLf/5MyrSDDB1Y/iCzdq9pQTyouMTlX+bw4Wkw3mePY="
+          "hash": "e/fMuKeN2QobF9ZUuh27YkZaE2DpGK+eXfSxFJ4eFtY="
         }
       },
       "is_incremental": false,
@@ -1912,7 +1912,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.LerpUtility.html",
-          "hash": "0mfi3pAGedZEkgGDAt/VqE6Tecla4PMk+v1NU+jiZ88="
+          "hash": "fTsdi9O2HZEUlP8Hs6QXidUC918MvtI8D3Ikjm22+mk="
         }
       },
       "is_incremental": false,
@@ -1924,7 +1924,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.LoadingScreenUtility.html",
-          "hash": "g9IZ4Fr0nPNp/WPz6sGHAFG5dZICWcgvoAenrADQyjw="
+          "hash": "y+oXI2+WXBDPVpXawWVBFtBnB/SOFas3d5Ms0USFQww="
         }
       },
       "is_incremental": false,
@@ -1936,7 +1936,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.PauseScreenUtility.html",
-          "hash": "dA5XNvVY5h7gkWXtCIfIh4O6zprOC3HRrDsYdlZupOA="
+          "hash": "kSj5/WjccIbVeVnjWHVrnejTkNSEmQqG7dC+0y1tWj8="
         }
       },
       "is_incremental": false,
@@ -1948,7 +1948,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.PersistentUtility.html",
-          "hash": "ic3UThI01ItvCu19bP9Hz67NNPI/jO7RVecvsz2e7yQ="
+          "hash": "7VhfEyV+mYxskBwZxNzrHVmjtDPVEdnPm4CrSt3MaK4="
         }
       },
       "is_incremental": false,
@@ -1960,7 +1960,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.PreloadedSceneHelper.html",
-          "hash": "9/F8Ifw2UI99ATxiLPU8T9onUixe08SJlljCE58htwc="
+          "hash": "GrzISvN1VKECuGk/JbIYICNDgFwPnHyQMLtt6oIRnMg="
         }
       },
       "is_incremental": false,
@@ -1972,7 +1972,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.QueueUtility-1.html",
-          "hash": "qZJaicxUj0uID2qWghq11d1ogY9VUGiTRhIktkqgAvg="
+          "hash": "c3rkGTUEN3jc4BZfBOQ+FoXGHyFVXoBKZkzOMpb1LWk="
         }
       },
       "is_incremental": false,
@@ -1984,7 +1984,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.SceneCollectionUtility.html",
-          "hash": "fKiweKT1KQGnEAp80H+CjMtX/JEdkPy7lPTXziXIp9I="
+          "hash": "6MpOhTkVQovd6OvF/MM/Zoi6n28ZoVZSlCdJET1cHvE="
         }
       },
       "is_incremental": false,
@@ -1996,7 +1996,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.SceneDataUtility.html",
-          "hash": "bTV05ILSdPcQC+32aG4JujPGeVUsMgrQczp00gWdc40="
+          "hash": "VKsK5TufC40/UnhngCbE5nM4uv1GI6pHO08h4cg1htE="
         }
       },
       "is_incremental": false,
@@ -2008,7 +2008,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.SceneHelper.html",
-          "hash": "5aWOOIp/sxp8FgOiQJyqdOCu4+FqVEZjHYhG4rTSpQM="
+          "hash": "s6p2I+w2ljxiGIM+mr1OBGJGQmkhLK2csKUND+WBs48="
         }
       },
       "is_incremental": false,
@@ -2020,7 +2020,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.SceneUtility.html",
-          "hash": "lw4ACvdp8lUxE8a7nQSFRJ4CPaqKUWjMIwORbTVGd78="
+          "hash": "ZOAFvID3n0RzzxdmSaxuj8/wQSirJjK7qu8VzApyYaI="
         }
       },
       "is_incremental": false,
@@ -2032,7 +2032,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.ScriptableObjectUtility.html",
-          "hash": "WDGlD2bgecE7iHTsUPyAeXNfDS/NL+f8Pt4ph2mZnAg="
+          "hash": "k2kn7LQfPXgMAbtorB1bXoET39Yq4QjxhBWieNa/vL0="
         }
       },
       "is_incremental": false,
@@ -2044,7 +2044,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.SerializableDictionary-2.html",
-          "hash": "3e1jKhzfP+3/inyq6pcA+j4gIyK1j2xCqqoWApsXL2c="
+          "hash": "AJt943IYz8uslJlYvTdhQ9XIMOk+ecQwe1hgHdAMhYg="
         }
       },
       "is_incremental": false,
@@ -2056,7 +2056,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.SerializableStringBoolDict.html",
-          "hash": "IVkPKapYNV7d93x0Buxpbs1X5OE8z1zlpfQ3Hv98Mzg="
+          "hash": "kmYRdqolniH2b1AkdB7ATkFDOkAEQ+rZwlsf+rRwJhA="
         }
       },
       "is_incremental": false,
@@ -2068,7 +2068,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.TimeSpanUtility.html",
-          "hash": "NPqpvPwBp1MMI0PEJgpE+pzBa0dVezADiHrju8oYjm8="
+          "hash": "q5ljcwo8rRlk3N54xy5qBY5EYRwNNLIUvTX9dfFy9sk="
         }
       },
       "is_incremental": false,
@@ -2080,7 +2080,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.Utility.html",
-          "hash": "37TvpNtiWrKCTRVV/uGN745IAtf/pXW/nW8fjzLj6ls="
+          "hash": "bJdb3IA6BYNTnhIR32C2bQXjkqEkbFCdd29RP5tN69M="
         }
       },
       "is_incremental": false,
@@ -2092,7 +2092,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdvancedSceneManager.html",
-          "hash": "EjbtimmR5/YiQtrJQ6T55jyxTy3WnkxKAQABgRoLLws="
+          "hash": "oB9SjTe8uYn7+0BPj/EVmkysrq4C78PSVDpZTqIlOTM="
         }
       },
       "is_incremental": false,
@@ -2116,7 +2116,7 @@
       "output": {
         ".html": {
           "relative_path": "faq/faq.html",
-          "hash": "b37PRIjofL1snMsuGNCfHs6XaH5AA/KvXkiMafUjwq0="
+          "hash": "HPyvijnVu3ATWrzz67W8tH1KW8ifnyQysSWMlheSbZo="
         }
       },
       "is_incremental": false,
@@ -2140,7 +2140,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/Callbacks.html",
-          "hash": "RPzdlJ8dI1mndQDhH9vPpYnmxWg8jrw8ph6sBdXWyJ0="
+          "hash": "6k4yvdwyqfxSHEptnCqyv1wCyhkaiz9NzP4wdKOswfg="
         }
       },
       "is_incremental": false,
@@ -2152,7 +2152,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/InGameToolbar.html",
-          "hash": "RiCqQnnZccbXhgDEQZVA5neeOs4xlXpqIMwWyAMEqk0="
+          "hash": "0btjc+mt+dMQhez2Do7IA/C1ufGTn3flBjs2ut6Ddo4="
         }
       },
       "is_incremental": false,
@@ -2167,7 +2167,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/LoadingScreen.html",
-          "hash": "YGy1Nye6dpaYEkVU+fIzHATr2mCSEkNQpbldVxT7d3M="
+          "hash": "JMD2FVHpTqLhU7bEhV3OtvfC2wjNUnhpzcWvZXhE4Kk="
         }
       },
       "is_incremental": false,
@@ -2179,7 +2179,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/PauseScreenUtility.html",
-          "hash": "x2pnbI33gGv+yL/oOZ9FGQTp/2BIG7l38XFuhL59zvA="
+          "hash": "6xZ4/VFMEJVWurh2SmV0j92suuGWkFsrufF7EpQFN88="
         }
       },
       "is_incremental": false,
@@ -2191,7 +2191,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/Profile.html",
-          "hash": "DaaaqG4Q+rNGarkzQvjezA/GS20XZbr/ErtPKaCJNNQ="
+          "hash": "d1qWf6vj8kyVHJ6Q5HNiy1x4iBIJ1PFDhTZCzpCe5gU="
         }
       },
       "is_incremental": false,
@@ -2206,7 +2206,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/QuickStart.html",
-          "hash": "4U0Y1pvpRja0oN3785gkBWkUv9RGWx+qeosv5pKSOTU="
+          "hash": "ScrWwBwpVJRon4FafMpG2ZsTIBi3knIuN5nxtAdDRO4="
         }
       },
       "is_incremental": false,
@@ -2221,7 +2221,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/Scene.html",
-          "hash": "lDBOFva1xBYJYhgCCYkcI+S9nFzhnoHnbSLbvhWehZo="
+          "hash": "z0QkdD4Ums7iiBW6IuVliPfV53s1h05OZ4+/l0C7eMw="
         }
       },
       "is_incremental": false,
@@ -2233,7 +2233,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/SceneAction.html",
-          "hash": "gEo/+ytM2bwwH4iCQ2iMAj9UYAXlMW6Kwn8TpjqFR1s="
+          "hash": "m7AOXBcu41unIviJILeirsHBSvH0IUhJr6NyyKenAnA="
         }
       },
       "is_incremental": false,
@@ -2248,7 +2248,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/SceneCollection.html",
-          "hash": "p5DhgKlTcnvLduZy8snGjH/CcoWVIUWECmOaht08+0E="
+          "hash": "sIgSRIEt3YU9S/pg3hp5p6Twwdy7KyYbvIFtN0BwXHg="
         }
       },
       "is_incremental": false,
@@ -2263,7 +2263,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/SceneHelper.html",
-          "hash": "XOEujcstjao+PuMJfeUg8niGqgxw9pW7pvjGlCCZPBU="
+          "hash": "TD0LCOipN01vT7DdmBq7xTmXkWY86MhjVBMMMvCabGA="
         }
       },
       "is_incremental": false,
@@ -2275,7 +2275,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/SceneManager.html",
-          "hash": "HFX2lAQ3pZvibzQFItydmpgO5XfQ7qa3BkO8IDqPXjc="
+          "hash": "f5D8I6Z1DWsXYkV9ZyVuSWKxayLYsbO7ybi5xU2xqcc="
         }
       },
       "is_incremental": false,
@@ -2290,7 +2290,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/SceneManagerWindow.html",
-          "hash": "2DOM5/6xb8KD98UXqvbbwdfyP+lBdwm8i9cWRmcp5ig="
+          "hash": "FpDgduV44lIRaWKsDsD8NMG92EFp9/GcN6vKHnkEewg="
         }
       },
       "is_incremental": false,
@@ -2305,7 +2305,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/SceneOperation.html",
-          "hash": "F7d0omTCvfmIluTP73Hvm8iFaDuIb2AC4vsSBBGrOjE="
+          "hash": "dpWIvjFhFv5YAxE38vX4Ku6FRp04QPe8njRgdWUWlFI="
         }
       },
       "is_incremental": false,
@@ -2320,7 +2320,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/SceneOverviewWindow.html",
-          "hash": "jcsFR9XdMxV8YGkILbNR0sbLEjE8KKLpyFiRxM4fgR8="
+          "hash": "DBxIvm3k2ml46Zo3KPgQFrjIxdnxjWkAsE6z9EjD/xY="
         }
       },
       "is_incremental": false,
@@ -2332,7 +2332,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/SplashScreen.html",
-          "hash": "lqnsfbQy/8BMgQWeqQ2Iy2Pq8t3gO6GK3SX5BZjSVko="
+          "hash": "9AczVTEEY3qliVhQXQCSsyfPnj23yiNi6ODYvK9atiU="
         }
       },
       "is_incremental": false,
@@ -2344,7 +2344,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/readme.html",
-          "hash": "q8Cox/9msclSwWyRVkx3BTlNuUKt9tMrgVvF81zZAeg="
+          "hash": "m3quRUfSwnlBl0tCGPS2+yzt+mQPL8UwbKzwlMRPbqI="
         }
       },
       "is_incremental": false,
@@ -3020,7 +3020,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "P0t/mjmmdXkZ8kYKizBX/kApktSNzanCA4KWvOaT6Rk="
+          "hash": "+VjBkM8AiA2tBwNH+gz2LbpZZavDzOEC6RxbsCQlkyk="
         }
       },
       "is_incremental": false,
@@ -3032,7 +3032,7 @@
       "output": {
         ".html": {
           "relative_path": "plugins/plugin.asm.addressables.html",
-          "hash": "l5EffQukMf3AjVtidJ5EV6xyOUEN26UKw8G6xM/XW+A="
+          "hash": "PlXzH+fpxv6GYPxKAIGqBakmzd/ddTNS98I+GqbuuIA="
         }
       },
       "is_incremental": false,
@@ -3044,7 +3044,7 @@
       "output": {
         ".html": {
           "relative_path": "plugins/plugin.asm.cross-scene-references.html",
-          "hash": "C4DcyLUJeZvE17/yyjQoFBaUVSKRp2GOb7AYCKB4D68="
+          "hash": "z+2XMmyCvnB33opEaTlbitsjJ7p02dTO3uUxC0DeNIU="
         }
       },
       "is_incremental": false,
@@ -3056,7 +3056,7 @@
       "output": {
         ".html": {
           "relative_path": "plugins/plugin.asm.locking.html",
-          "hash": "jTx9IXMirzy2RjM2dl3wdWrobKh2s6P2FNOjwVRZwCg="
+          "hash": "oqDnzHV4b1BB7hmuiUAjSuLoLiedEl85kbBeBg7jTio="
         }
       },
       "is_incremental": false,
@@ -3145,23 +3145,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 21,
-          "skipped_file_count": 21
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 173,
-          "skipped_file_count": 173
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h2 id="scene-collections" sourcefile="guides/SceneCollection.md" sourcestartlinenumber="1" sourceendlinenumber="1">Scene collections</h2>
+
+<p sourcefile="guides/SceneCollection.md" sourcestartlinenumber="3" sourceendlinenumber="3"><br></p>
+<p sourcefile="guides/SceneCollection.md" sourcestartlinenumber="5" sourceendlinenumber="5">A SceneCollection, more commonly called just &#39;collection&#39;, is a collection of <a href="Scene.html" data-raw-source="[scenes](Scene.md)" sourcefile="guides/SceneCollection.md" sourcestartlinenumber="5" sourceendlinenumber="5">scenes</a>, that are all manipulated at the same time.</p>
+<p sourcefile="guides/SceneCollection.md" sourcestartlinenumber="7" sourceendlinenumber="9">To put it simply:<br>
+When a collection is opened, then all its contained scenes will be opened.<br>
+When a collection is closed, then all its contained scenes will be closed.<br></p>
+<p sourcefile="guides/SceneCollection.md" sourcestartlinenumber="11" sourceendlinenumber="11">Beyond this there are ways to change this behavior on individual scenes, to prevent them from opening or keep them open, using either <a href="SceneManagerWindow.html#tags" data-raw-source="[Tags](SceneManagerWindow.md#tags)" sourcefile="guides/SceneCollection.md" sourcestartlinenumber="11" sourceendlinenumber="11">Tags</a> or <a href="../api/AdvancedSceneManager.Utility.PersistentUtility.html" data-raw-source="[PersistentUtility](../api/AdvancedSceneManager.Utility.PersistentUtility.html)" sourcefile="guides/SceneCollection.md" sourcestartlinenumber="11" sourceendlinenumber="11">PersistentUtility</a>.</p>
+<p sourcefile="guides/SceneCollection.md" sourcestartlinenumber="13" sourceendlinenumber="13"><a href="LoadingScreen.html" data-raw-source="[Loading screens](LoadingScreen.md)" sourcefile="guides/SceneCollection.md" sourcestartlinenumber="13" sourceendlinenumber="13">Loading screens</a> are also supported out of the box for collections.</p>
+<p sourcefile="guides/SceneCollection.md" sourcestartlinenumber="15" sourceendlinenumber="15"><img src="../image/scenes.png" alt="" sourcefile="guides/SceneCollection.md" sourcestartlinenumber="15" sourceendlinenumber="15"></p>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

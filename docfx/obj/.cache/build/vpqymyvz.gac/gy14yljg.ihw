@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Utility_SerializableDictionary_2" data-uid="AdvancedSceneManager.Utility.SerializableDictionary`2" class="text-break">Class SerializableDictionary&lt;TKey, TValue&gt;
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="api/AdvancedSceneManager.Utility.SerializableDictionary-2.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A serializable dictionary.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Collections.Generic.Dictionary</span>&lt;TKey, TValue&gt;</div>
+    <div class="level2"><span class="xref">SerializableDictionary&lt;TKey, TValue&gt;</span></div>
+      <div class="level3"><a class="xref" href="AdvancedSceneManager.Models.TagList.html">TagList</a></div>
+      <div class="level3"><a class="xref" href="AdvancedSceneManager.Utility.SerializableStringBoolDict.html">SerializableStringBoolDict</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Utility.html">AdvancedSceneManager.Utility</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Utility_SerializableDictionary_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class SerializableDictionary&lt;TKey, TValue&gt; : Dictionary&lt;TKey, TValue&gt;, IDictionary&lt;TKey, TValue&gt;, ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IReadOnlyDictionary&lt;TKey, TValue&gt;, IReadOnlyCollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IDictionary, ICollection, IEnumerable, IDeserializationCallback, ISerializable, ISerializationCallbackReceiver</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Utility_SerializableDictionary_2_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p sourcefile="api/AdvancedSceneManager.Utility.SerializableDictionary-2.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Older unity versions might need a wrapper class, since unity does not support serializing generic types. Don&apos;t forget <span class="xref">System.SerializableAttribute</span> on wrapper!</p>
+</div>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="AdvancedSceneManager_Utility_SerializableDictionary_2_keys" data-uid="AdvancedSceneManager.Utility.SerializableDictionary`2.keys">keys</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected List&lt;TKey&gt; keys</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;TKey&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="AdvancedSceneManager_Utility_SerializableDictionary_2_values" data-uid="AdvancedSceneManager.Utility.SerializableDictionary`2.values">values</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected List&lt;TValue&gt; values</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Utility_SerializableDictionary_2_throwOnDeserializeWhenKeyValueMismatch_" data-uid="AdvancedSceneManager.Utility.SerializableDictionary`2.throwOnDeserializeWhenKeyValueMismatch*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SerializableDictionary_2_throwOnDeserializeWhenKeyValueMismatch" data-uid="AdvancedSceneManager.Utility.SerializableDictionary`2.throwOnDeserializeWhenKeyValueMismatch">throwOnDeserializeWhenKeyValueMismatch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool throwOnDeserializeWhenKeyValueMismatch { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Utility_SerializableDictionary_2_OnAfterDeserialize_" data-uid="AdvancedSceneManager.Utility.SerializableDictionary`2.OnAfterDeserialize*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SerializableDictionary_2_OnAfterDeserialize" data-uid="AdvancedSceneManager.Utility.SerializableDictionary`2.OnAfterDeserialize">OnAfterDeserialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnAfterDeserialize()</code></pre>
+  </div>
+  <a id="AdvancedSceneManager_Utility_SerializableDictionary_2_OnBeforeSerialize_" data-uid="AdvancedSceneManager.Utility.SerializableDictionary`2.OnBeforeSerialize*"></a>
+  <h4 id="AdvancedSceneManager_Utility_SerializableDictionary_2_OnBeforeSerialize" data-uid="AdvancedSceneManager.Utility.SerializableDictionary`2.OnBeforeSerialize">OnBeforeSerialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnBeforeSerialize()</code></pre>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_WithNullKey__2_System_Collections_Generic_Dictionary___0___1____0_">DictionaryUtility.WithNullKey&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;, TKey)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_Set__2_System_Collections_Generic_Dictionary___0___1____0___1_">DictionaryUtility.Set&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;, TKey, TValue)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_EnsureAdded__2_System_Collections_Generic_Dictionary___0___1____0_">DictionaryUtility.EnsureAdded&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;, TKey)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_Add__2_System_Collections_Generic_Dictionary___0___1____0___1_">DictionaryUtility.Add&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;, TKey, TValue)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Utility.DictionaryUtility.html#AdvancedSceneManager_Utility_DictionaryUtility_GetValue__2_System_Collections_Generic_Dictionary___0___1____0___1_">DictionaryUtility.GetValue&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;, TKey, TValue)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.ListUtility.html#AdvancedSceneManager_Editor_Utility_ListUtility_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0_System_Int32__">ListUtility.ForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T, Int32&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.ListUtility.html#AdvancedSceneManager_Editor_Utility_ListUtility_Flatten__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___">ListUtility.Flatten&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, IEnumerable&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.ListUtility.html#AdvancedSceneManager_Editor_Utility_ListUtility_Except__1_System_Collections_Generic_IEnumerable___0____0_">ListUtility.Except&lt;T&gt;(IEnumerable&lt;T&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AdvancedSceneManager.Editor.Utility.ListUtility.html#AdvancedSceneManager_Editor_Utility_ListUtility_GroupConsecutive__1_System_Collections_Generic_IEnumerable___0__System_Func___0___0_System_Boolean__">ListUtility.GroupConsecutive&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, T, Boolean&gt;)</a>
+  </div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

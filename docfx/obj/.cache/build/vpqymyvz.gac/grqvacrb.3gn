@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+<h2 id="quick-start" sourcefile="guides/QuickStart.md" sourcestartlinenumber="1" sourceendlinenumber="1">Quick start</h2>
+
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="3" sourceendlinenumber="3"><br></p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="5" sourceendlinenumber="5">Easily setting up a scene management solution is exactly the issue that ASM is trying to solve, and we&#39;ve attempted to make it as easy as possible. But there may still be a slight learning curve.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="7" sourceendlinenumber="7">But don&#39;t worry, we&#39;ll walk through the steps needed to set up a basic scene management solution.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="9" sourceendlinenumber="9">Open up the scene manager window:</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="11" sourceendlinenumber="11"><img src="../image/scene-manager-menu.png" alt="" sourcefile="guides/QuickStart.md" sourcestartlinenumber="11" sourceendlinenumber="11"></p>
+<h3 id="create-profile" sourcefile="guides/QuickStart.md" sourcestartlinenumber="13" sourceendlinenumber="13">Create profile</h3>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="14" sourceendlinenumber="14">First, you&#39;ll need a profile. To create one, go to the settings tab. Press the menu button next to the top field. Press &#39;<em>New profile</em>&#39; button in the dropdown. Enter your preferred name.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="16" sourceendlinenumber="16"><img src="../image/profile-dropdown.png" alt="" sourcefile="guides/QuickStart.md" sourcestartlinenumber="16" sourceendlinenumber="16"></p>
+<h3 id="setting-up-collections" sourcefile="guides/QuickStart.md" sourcestartlinenumber="18" sourceendlinenumber="18">Setting up collections</h3>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="19" sourceendlinenumber="19">Now that we&#39;ve got a profile, we can go to the scenes tab again to actually set the scenes up. Press the &#39;<em>New Collection</em>&#39; button to create a new collection.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="21" sourceendlinenumber="21">Now, press the menu button on its header to open the edit collection menu. The top field is the title of the collection, change it to &#39;<em>main menu</em>&#39;.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="23" sourceendlinenumber="23">Next check &#39;<em>Open on game start</em>&#39; to automatically open it when game starts. Multiple <a href="SceneCollection.html" data-raw-source="[collections](SceneCollection.md)" sourcefile="guides/QuickStart.md" sourcestartlinenumber="23" sourceendlinenumber="23">collections</a> may be set to open at startup, and if so, then they&#39;ll be opened in order, top to bottom, this can be useful for persistent scenes, but not something we&#39;ll worry about in this guide.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="25" sourceendlinenumber="25"><img src="../image/collection-edit-menu.png" alt="" sourcefile="guides/QuickStart.md" sourcestartlinenumber="25" sourceendlinenumber="25"></p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="27" sourceendlinenumber="27">While we won&#39;t worry about the other settings right now, they are documented over at <a href="SceneManagerWindow.html#collection-properties" data-raw-source="[SceneManagerWindow](SceneManagerWindow.html#collection-properties)" sourcefile="guides/QuickStart.md" sourcestartlinenumber="27" sourceendlinenumber="27">SceneManagerWindow</a>.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="29" sourceendlinenumber="29">Next, create two more collections, name them &#39;<em>Level 1</em>&#39;, and &#39;<em>Level 2</em>&#39; (don&#39;t check &#39;<em>Open on game start</em>&#39; this time).</p>
+<h3 id="adding-scenes" sourcefile="guides/QuickStart.md" sourcestartlinenumber="31" sourceendlinenumber="31">Adding scenes</h3>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="32" sourceendlinenumber="32">Now that we&#39;ve got our collections setup, we can add scenes to them.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="34" sourceendlinenumber="34">Expand all collections by pressing on their titles, and add a scene by pressing the &#39;<em>+</em>&#39; button once on each.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="36" sourceendlinenumber="36">Now create main menu, level 1, and level 2 scenes and assign them to their respective collection. (Just create scenes for now, we&#39;ll cover functionality in next segment)</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="38" sourceendlinenumber="38">Also create a ui scene.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="40" sourceendlinenumber="40"><img src="../image/quick-start-setup.png" alt="" sourcefile="guides/QuickStart.md" sourcestartlinenumber="40" sourceendlinenumber="40"></p>
+<h3 id="setting-up-main-menu" sourcefile="guides/QuickStart.md" sourcestartlinenumber="42" sourceendlinenumber="42">Setting up main menu</h3>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="44" sourceendlinenumber="44">Now that we have a scene manager solution we can easily open the scenes at runtime.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="46" sourceendlinenumber="46">Now open your main menu scene, by pressing the <img src="image/open.png" alt="" sourcefile="guides/QuickStart.md" sourcestartlinenumber="46" sourceendlinenumber="46"> button. Setup the scene as you wish, but please add three buttons, one for each level, and one for quit.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="48" sourceendlinenumber="49">Level buttons:<br>
+On the <a href="https://docs.unity3d.com/2018.3/Documentation/ScriptReference/UI.Button.html" data-raw-source="[Button](https://docs.unity3d.com/2018.3/Documentation/ScriptReference/UI.Button.html)" sourcefile="guides/QuickStart.md" sourcestartlinenumber="49" sourceendlinenumber="49">Button</a> component, create a new OnClick action, and assign <a href="SceneHelper.html" data-raw-source="[SceneHelper](SceneHelper.html)" sourcefile="guides/QuickStart.md" sourcestartlinenumber="49" sourceendlinenumber="49">SceneHelper</a> as target, &#39;<em>ASM &gt; Open <a href="SceneCollection.html" data-raw-source="[SceneCollection](SceneCollection.md)" sourcefile="guides/QuickStart.md" sourcestartlinenumber="49" sourceendlinenumber="49">SceneCollection</a></em>&#39; as method, and assign the collection for the level as parameter.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="51" sourceendlinenumber="52">Quit button:<br>
+On the <a href="https://docs.unity3d.com/2018.3/Documentation/ScriptReference/UI.Button.html" data-raw-source="[Button](https://docs.unity3d.com/2018.3/Documentation/ScriptReference/UI.Button.html)" sourcefile="guides/QuickStart.md" sourcestartlinenumber="52" sourceendlinenumber="52">Button</a> component, create a new OnClick action, and assign <a href="SceneHelper.html" data-raw-source="[SceneHelper](SceneHelper.html)" sourcefile="guides/QuickStart.md" sourcestartlinenumber="52" sourceendlinenumber="52">SceneHelper</a> as target, &#39;<em>ASM &gt; Quit</em>&#39; as method.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="54" sourceendlinenumber="54"><img src="../image/button-open-collection.png" alt="" sourcefile="guides/QuickStart.md" sourcestartlinenumber="54" sourceendlinenumber="54"></p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="56" sourceendlinenumber="56"><img src="../image/button-quit.png" alt="" sourcefile="guides/QuickStart.md" sourcestartlinenumber="56" sourceendlinenumber="56"></p>
+<h3 id="setting-up-level-scenes" sourcefile="guides/QuickStart.md" sourcestartlinenumber="58" sourceendlinenumber="58">Setting up level scenes</h3>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="60" sourceendlinenumber="60">Now open ui scene, by pressing the <img src="image/open.png" alt="" sourcefile="guides/QuickStart.md" sourcestartlinenumber="60" sourceendlinenumber="60"> button. This scene may contain any ui objects, such as a health bar, if you wish, but please add a button to go back to main menu. On this button, create a new OnClick action, assign <a href="SceneHelper.html" data-raw-source="[SceneHelper](SceneHelper.html)" sourcefile="guides/QuickStart.md" sourcestartlinenumber="60" sourceendlinenumber="60">SceneHelper</a>, and select &#39;<em>ASM &gt; Restart</em>&#39;.</p>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="62" sourceendlinenumber="62">Alternatively you could also set button to open main menu collection directly, the same as level buttons, this would be preferable if any standalone scenes are added, since these would be closed and then opened again, if restart is called.</p>
+<h3 id="and-with-that-were-done" sourcefile="guides/QuickStart.md" sourcestartlinenumber="64" sourceendlinenumber="64">And with that, we&#39;re done!</h3>
+<p sourcefile="guides/QuickStart.md" sourcestartlinenumber="65" sourceendlinenumber="65">Press the play button in the scene manager window, now you&#39;ll notice that both level buttons open the associated scene, and the ui scene, with a fade animation, and goes back to main menu with a fade.</p>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

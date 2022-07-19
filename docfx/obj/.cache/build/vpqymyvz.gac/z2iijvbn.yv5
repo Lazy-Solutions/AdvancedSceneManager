@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="AdvancedSceneManager_Core_Actions_OpenStartupCollections" data-uid="AdvancedSceneManager.Core.Actions.OpenStartupCollections" class="text-break">Class OpenStartupCollections
+  </h1>
+  <div class="markdown level0 summary"><p>Opens all collections and scenes that are set to open at startup.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html">SceneAction</a></div>
+    <div class="level2"><span class="xref">OpenStartupCollections</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_openScene">SceneAction.openScene</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_scene">SceneAction.scene</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_collection">SceneAction.collection</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_progress">SceneAction.progress</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_isDone">SceneAction.isDone</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_RegisterCallback_System_Action_">SceneAction.RegisterCallback(Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_UnregisterCallback_System_Action_">SceneAction.UnregisterCallback(Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_OnProgressCallback_System_Action_System_Single__">SceneAction.OnProgressCallback(Action&lt;Single&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_OnProgress_System_Single_">SceneAction.OnProgress(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_Done">SceneAction.Done()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_Done_AdvancedSceneManager_Core_OpenSceneInfo_">SceneAction.Done(OpenSceneInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_ToString">SceneAction.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdvancedSceneManager.Core.Actions.html">AdvancedSceneManager.Core.Actions</a></h6>
+  <h6><strong>Assembly</strong>: AdvancedSceneManager.dll</h6>
+  <h5 id="AdvancedSceneManager_Core_Actions_OpenStartupCollections_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class OpenStartupCollections : SceneAction</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="AdvancedSceneManager_Core_Actions_OpenStartupCollections__ctor_" data-uid="AdvancedSceneManager.Core.Actions.OpenStartupCollections.#ctor*"></a>
+  <h4 id="AdvancedSceneManager_Core_Actions_OpenStartupCollections__ctor_AdvancedSceneManager_Models_SceneCollection_System_Boolean_" data-uid="AdvancedSceneManager.Core.Actions.OpenStartupCollections.#ctor(AdvancedSceneManager.Models.SceneCollection,System.Boolean)">OpenStartupCollections(SceneCollection, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OpenStartupCollections(SceneCollection collection = null, bool forceOpenAllScenes = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdvancedSceneManager.Models.SceneCollection.html">SceneCollection</a></td>
+        <td><span class="parametername">collection</span></td>
+        <td><p>Opens the specified collection after all other collections and scenes has been opened.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">forceOpenAllScenes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="AdvancedSceneManager_Core_Actions_OpenStartupCollections_pointlessCollectionWarning_" data-uid="AdvancedSceneManager.Core.Actions.OpenStartupCollections.pointlessCollectionWarning*"></a>
+  <h4 id="AdvancedSceneManager_Core_Actions_OpenStartupCollections_pointlessCollectionWarning" data-uid="AdvancedSceneManager.Core.Actions.OpenStartupCollections.pointlessCollectionWarning">pointlessCollectionWarning</h4>
+  <div class="markdown level1 summary"><p>Enables warnings during startup when a collection is opened, then immedietly closed, because another collection was opened, and did not contain any persistent scenes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool pointlessCollectionWarning { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AdvancedSceneManager_Core_Actions_OpenStartupCollections_pointlessCollectionWarning_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Only available in editor.</p>
+</div>
+  <a id="AdvancedSceneManager_Core_Actions_OpenStartupCollections_reportsProgress_" data-uid="AdvancedSceneManager.Core.Actions.OpenStartupCollections.reportsProgress*"></a>
+  <h4 id="AdvancedSceneManager_Core_Actions_OpenStartupCollections_reportsProgress" data-uid="AdvancedSceneManager.Core.Actions.OpenStartupCollections.reportsProgress">reportsProgress</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool reportsProgress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_reportsProgress">SceneAction.reportsProgress</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="AdvancedSceneManager_Core_Actions_OpenStartupCollections_DoAction_" data-uid="AdvancedSceneManager.Core.Actions.OpenStartupCollections.DoAction*"></a>
+  <h4 id="AdvancedSceneManager_Core_Actions_OpenStartupCollections_DoAction_AdvancedSceneManager_Core_SceneManagerBase_" data-uid="AdvancedSceneManager.Core.Actions.OpenStartupCollections.DoAction(AdvancedSceneManager.Core.SceneManagerBase)">DoAction(SceneManagerBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEnumerator DoAction(SceneManagerBase _sceneManager)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AdvancedSceneManager.Core.SceneManagerBase</span></td>
+        <td><span class="parametername">_sceneManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AdvancedSceneManager.Core.Actions.SceneAction.html#AdvancedSceneManager_Core_Actions_SceneAction_DoAction_AdvancedSceneManager_Core_SceneManagerBase_">SceneAction.DoAction(SceneManagerBase)</a></div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
