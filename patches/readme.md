@@ -1,21 +1,6 @@
 ## Patch notes:
-#### 24-06-2022:
-- Fixed a null reference when calling ISceneOpen on entering playmode through regular play button.
-- Rewrote SceneUtility.MergeScenes to be more robust, and to move scenes to recycle bin so that they can be restored.
-- Fixed bug where LoadingScreenUtility.DoAction(Scene, Action, bool) would freeze due to it accidentally calling itself, rather than the coroutine version of the method.
-- May have fixed HierarchyGUIUtility throwing imgui errors.
-- Fixed null ref in scenes tab when a scene changes.
-- Fixed height of drag element when reordering collections. 
-- Fixed some issues with unity 2019.
-
-#### 30-06-2022:
-- Fixed issue where scenes managers would not be cleared of scenes when entering play mode using configurable enter play mode.
-
-#### 02-07-2022:
-- Renamed SceneManager.utility.RegisterOpenCallback() to RegisterCallback.
-
-#### profile-dependent-scene-and-collection:
-* Adds ProfileDependent<T>, ProfileDependentScene and ProfileDependentCollection that provides the ability to load a different scene depending the current profile.
+#### 8-13-2022:
+- Fixed build errors (gotta remember to test build again after making last minute changes...) 
 
 ## Patches for Advanced Scene Manager
 
