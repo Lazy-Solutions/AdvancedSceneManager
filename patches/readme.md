@@ -1,6 +1,5 @@
 ## Patch notes:
-#### 8-13-2022:
-- Fixed build errors (gotta remember to test build again after making last minute changes...) 
+- No patches available.
 
 ## Patches for Advanced Scene Manager
 
