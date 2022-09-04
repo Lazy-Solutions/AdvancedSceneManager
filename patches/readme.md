@@ -15,6 +15,9 @@ Patches and patch notes can also be found here:\
 [https://discord.com/channels/519089118467325952/806112082873024562](https://discord.com/channels/519089118467325952/806112082873024562)
 
 ## Workarounds:
+ #### Ambigous call errors after upgrading ASM.
+  Coroutine Utility is now embedded into the asset store package itself, and due to problems in running code when we can't compile (obviously), you'll have to remove package from the package manager manually.
+ 
  #### Compilation errors when updating or installing asm.
  
  1. Open File > Scene Manager... menu
