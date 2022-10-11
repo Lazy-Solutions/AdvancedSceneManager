@@ -1,5 +1,6 @@
 ## Patch notes:
-- No patches available.
+####10-11-2022:
+- Restored ping / open SceneAsset when single / double clicking SceneField.
 
 ## Patches for Advanced Scene Manager
 
