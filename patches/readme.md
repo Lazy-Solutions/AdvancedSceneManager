@@ -1,6 +1,9 @@
 ## Patch notes:
 #### 10-11-2022:
 - Restored ping / open SceneAsset when single / double clicking SceneField.
+#### 10-21-2022
+- Added better error message when using SceneCollection.Find(scene.name).
+- Added call to install com.unity.addressables when installing addressables plugin.
 
 ## Patches for Advanced Scene Manager
 
