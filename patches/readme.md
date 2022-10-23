@@ -4,7 +4,7 @@
 - Added better error message when using SceneCollection.Find(scene.name).
 - Added call to install com.unity.addressables when installing addressables plugin.
 - Added DoPreBuild(), .DoBuild() and overloads, to BuildSettingsUtility, to allow custom build processes.
-- Possible fix for import / create asset loop
+- Possible fix for import / create asset loop due to removing ASMSettings update in EditorApplication.projectChanged.
 
 ## Patches for Advanced Scene Manager
 
