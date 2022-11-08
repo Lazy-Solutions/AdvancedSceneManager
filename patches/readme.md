@@ -6,6 +6,9 @@
 - Added DoPreBuild(), .DoBuild() and overloads, to BuildSettingsUtility, to allow custom build processes.
 - Possible fix for import / create asset loop due to removing ASMSettings update in EditorApplication.projectChanged.
 
+#### 11-8-2022
+- Fixed null ref when opening a collection with null screnes, freezing asm.
+
 ## Patches for Advanced Scene Manager
 
 Patches are partial updates that are too important to have our users wait for.
