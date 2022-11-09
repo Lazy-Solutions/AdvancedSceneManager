@@ -9,6 +9,9 @@
 #### 11-8-2022
 - Fixed null ref when opening a collection with null screnes, freezing asm.
 
+#### 11-9-2022
+- Fixed a bug preventing asm from detecting collection when entering play mode through normal play button.
+
 ## Patches for Advanced Scene Manager
 
 Patches are partial updates that are too important to have our users wait for.
