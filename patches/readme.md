@@ -1,16 +1,14 @@
 ## Patch notes:
-#### 10-23-2022:
+#### 11-13-2022:
 - Restored ping / open SceneAsset when single / double clicking SceneField.
 - Added better error message when using SceneCollection.Find(scene.name).
 - Added call to install com.unity.addressables when installing addressables plugin.
 - Added DoPreBuild(), .DoBuild() and overloads, to BuildSettingsUtility, to allow custom build processes.
-- Possible fix for import / create asset loop due to removing ASMSettings update in EditorApplication.projectChanged.
-
-#### 11-8-2022
+- Added override to normal build from build window to call BuildSettingsUtility.DoBuild(BuildPlayerOptions), which ensures asm will update scene list and ASMSettings.
+- Possible fix for import / create asset loop due to removing ASMSettings update in EditorApplication.projectChanged. 
 - Fixed null ref when opening a collection with null screnes, freezing asm.
-
-#### 11-9-2022
 - Fixed a bug preventing asm from detecting collection when entering play mode through normal play button.
+- Fixed some issues that arose in latest patch.
 
 ## Patches for Advanced Scene Manager
 
