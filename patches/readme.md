@@ -24,10 +24,17 @@ Patches and patch notes can also be found here:\
 [https://discord.com/channels/519089118467325952/806112082873024562](https://discord.com/channels/519089118467325952/806112082873024562)
 
 ## Workarounds:
- #### Ambigous call errors after upgrading ASM.
+#### Compilation errors when using addressables (or addressable support not enabled):
+In ASM 1.8, we have merged all plugins into asset store package, for reduced complexety and for easier maintenence. For addressables this means that the workaround for compilation errors have now changed slighly. Instead of manually installing the package from github, we now require you to the following scripting define / #pragma to your project:
+
+```ASM_PLUGIN_ADDRESSABLES```
+
+If unity does not recompile automatically, you'll have to restart unity.
+
+#### Ambigous call errors after upgrading ASM.
   Coroutine Utility is now embedded into the asset store package itself, and due to problems in running code when we can't compile (obviously), you'll have to remove package from the package manager manually.
  
- #### Compilation errors when updating or installing asm.
+#### Compilation errors when updating or installing asm.
  
  1. Open File > Scene Manager... menu
  
