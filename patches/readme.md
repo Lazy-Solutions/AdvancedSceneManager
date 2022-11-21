@@ -1,4 +1,8 @@
+
 ## Patch notes:
+#### If multiple patches are available, please import in order of release (note that github does only orders files alphabetically).
+We will try and combine them if we can, but it is sometimes more trouble than it is worth, so sorry about that.
+
 #### 11-13-2022:
 - Restored ping / open SceneAsset when single / double clicking SceneField.
 - Added better error message when using SceneCollection.Find(scene.name).
@@ -16,9 +20,6 @@ Patches are partial updates that are too important to have our users wait for.
 
 This folder contains patches for the current version of Advanced Scene Manager available on the asset store.\
 These patches will be included in the next asset store update, and these files will as such be removed.
-
-#### If multiple patches are available, please import in order of release (note that github does only orders files alphabetically).
-We will try and combine them if we can, but it is sometimes more trouble than it is worth, so sorry about that.
 
 Patches and patch notes can also be found here:\
 [https://discord.com/channels/519089118467325952/806112082873024562](https://discord.com/channels/519089118467325952/806112082873024562)
