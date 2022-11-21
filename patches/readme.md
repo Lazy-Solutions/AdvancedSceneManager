@@ -32,6 +32,7 @@ If this does not work, please try restarting Unity.
 In ASM 1.8, we have merged all plugins into asset store package, for reduced complexety and for easier maintenence. For addressables this means that the workaround for compilation errors have now changed slighly. Instead of manually installing the package from github, we now require you to the following scripting define / #pragma to your project:
 
 ```ASM_PLUGIN_ADDRESSABLES```
+
 If unity does not recompile automatically, you'll have to restart unity.
 
 #### Ambigous call errors to Lazy.CoroutineUtility after upgrading ASM.
