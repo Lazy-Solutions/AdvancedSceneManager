@@ -3,9 +3,8 @@
 #### If multiple patches are available, please import in order of release (note that github does only orders files alphabetically).
 We will try and combine them if we can, but it is sometimes more trouble than it is worth, so sorry about that.
 
-#### 11-28-2022
-- Fixed compilation errors in unity 2020, related to temp build progress bar.
-- Readded #pragma / scripting define, but it is now #ADVANCED_SCENE_MANAGER.
+#### spam-check-fix
+- Fixes a bug where SpamCheck.IsSpam() would return true when build first started, even when spam check had not been used prior.
 
 ## Patches for Advanced Scene Manager
 
