@@ -4,7 +4,7 @@
 We will try and combine them if we can, but it is sometimes more trouble than it is worth, so sorry about that.
 
 #### Import loop
-There is currently a known issue with installing ASM for the first time in a project, if you are affected by this, please follow the instructions below:
+There is currently a known issue with installing ASM for the first time in a project, where an infine import loop will occur, if you are affected by this, please follow the instructions below:
 - Close unity (might have to kill process).
 - Uninstall ASM manually using explorer
 - Open project, import AssetRef.unitypackage.
