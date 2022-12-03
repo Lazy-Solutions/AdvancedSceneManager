@@ -3,6 +3,14 @@
 #### If multiple patches are available, please import in order of release (note that github does only orders files alphabetically).
 We will try and combine them if we can, but it is sometimes more trouble than it is worth, so sorry about that.
 
+#### Import loop
+There is currently a known issue with installing ASM for the first time in a project, if you are affected by this, please follow the instructions below:
+- Close unity (might have to kill process).
+- Uninstall ASM manually using explorer
+- Open project, import AssetRef.unitypackage.
+- Install ASM
+(note that you may receive an error when project started, but this error is harmless and can be ignored).
+
 #### spam-check-fix
 - Fixes a bug where SpamCheck.IsSpam() would return true when build first started, even when spam check had not been used prior.
 
