@@ -3,16 +3,15 @@
 #### If multiple patches are available, please import in order of release (note that github does only orders files alphabetically).
 We will try and combine them if we can, but it is sometimes more trouble than it is worth, so sorry about that.
 
-#### Import loop
-There is currently a known issue with installing ASM for the first time in a project, where an infine import loop will occur, if you are affected by this, please follow the instructions below:
-- Close unity (might have to kill process).
-- Uninstall ASM manually using explorer
-- Open project, import AssetRef.unitypackage.
-- Install ASM
-(note that you may receive an error when project started, but this error is harmless and can be ignored).
+#### 12-5-2022
+- Fixed issue where SceneManagerWindow could not in some circumstances be resized.
+- Added forceProfile, in addition to defaultProfile, which will force the profile for everyone on the project, no effect if null.
+- Fixed startup scene incorrectly being added to AssetRef.
+- Removed special handling of FadeLoadingScreen.
+- Added default dynamic collection Advanced Scene Manger defaults.
 
-#### spam-check-fix
-- Fixes a bug where SpamCheck.IsSpam() would return true when build first started, even when spam check had not been used prior.
+Please note that the Advanced Scene Manager defaults dynamic collection is only added for new profiles. To add it to existing profiles please add the following path as a dynamic collection:
+"Assets/AdvancedSceneManager/System/Defaults" (if you've moved asm folder, change path accordingly) 
 
 ## Patches for Advanced Scene Manager
 
