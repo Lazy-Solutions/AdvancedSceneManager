@@ -3,15 +3,18 @@
 #### If multiple patches are available, please import in order of release (note that github does only orders files alphabetically).
 We will try and combine them if we can, but it is sometimes more trouble than it is worth, so sorry about that.
 
-#### 12-5-2022
+#### 12-10-2022
 - Fixed issue where SceneManagerWindow could not in some circumstances be resized.
 - Added forceProfile, in addition to defaultProfile, which will force the profile for everyone on the project, no effect if null.
 - Fixed startup scene incorrectly being added to AssetRef.
 - Removed special handling of FadeLoadingScreen.
 - Added default dynamic collection Advanced Scene Manger defaults.
+- Fixed PreloadedSceneHelper.FinishPreload() not working, due to it not ignoring scene operation queue.
+- Changed "Prevent event methods from being spammed" to false, by default.
+- Fixed issue with Scene.state.
 
 Please note that the Advanced Scene Manager defaults dynamic collection is only added for new profiles. To add it to existing profiles please add the following path as a dynamic collection:
-"Assets/AdvancedSceneManager/System/Defaults" (if you've moved asm folder, change path accordingly) 
+"Assets/AdvancedSceneManager/System/Defaults" (if you've moved asm folder, change path accordingly)
 
 ## Patches for Advanced Scene Manager
 
