@@ -3,7 +3,7 @@
 #### If multiple patches are available, please import in order of release (note that github does only orders files alphabetically).
 We will try and combine them if we can, but it is sometimes more trouble than it is worth, so sorry about that.
 
-#### 12-10-2022
+#### 12-17-2022
 - Fixed issue where SceneManagerWindow could not in some circumstances be resized.
 - Added forceProfile, in addition to defaultProfile, which will force the profile for everyone on the project, no effect if null.
 - Fixed startup scene incorrectly being added to AssetRef.
@@ -12,9 +12,14 @@ We will try and combine them if we can, but it is sometimes more trouble than it
 - Fixed PreloadedSceneHelper.FinishPreload() not working, due to it not ignoring scene operation queue.
 - Changed "Prevent event methods from being spammed" to false, by default.
 - Fixed issue with Scene.state.
+- Fixed misplaced call to start progress bar for temp build.
+- Fixed duplicate "Open collection when SceneAsset opened" setting.
+- Fixed duplicate scene hierarchy indicators.
 
 Please note that the Advanced Scene Manager defaults dynamic collection is only added for new profiles. To add it to existing profiles please add the following path as a dynamic collection:
-"Assets/AdvancedSceneManager/System/Defaults" (if you've moved asm folder, change path accordingly)
+"Assets/AdvancedSceneManager/System/Defaults" (if you've moved asm folder, change path accordingly) 
+
+Note: Some users seem to have an issue where importing patch will just present message that all files are already in project. I've no clue why this happens, I'm looking into it, but as a workaround, you may delete asm, import asm from asset store, then import patch, this time it should work.
 
 ## Patches for Advanced Scene Manager
 
