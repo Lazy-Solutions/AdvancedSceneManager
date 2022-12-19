@@ -3,6 +3,8 @@
 #### If multiple patches are available, please import in order of release (note that github does only orders files alphabetically).
 We will try and combine them if we can, but it is sometimes more trouble than it is worth, so sorry about that.
 
+> Note: Some users seem to have an issue where importing patch will just present message that all files are already in project. I've no clue why this happens, I'm looking into it, but as a workaround, you may delete asm, import asm from asset store, then import patch, this time it should work.
+
 #### 12-17-2022
 - Fixed issue where SceneManagerWindow could not in some circumstances be resized.
 - Added forceProfile, in addition to defaultProfile, which will force the profile for everyone on the project, no effect if null.
@@ -16,10 +18,12 @@ We will try and combine them if we can, but it is sometimes more trouble than it
 - Fixed duplicate "Open collection when SceneAsset opened" setting.
 - Fixed duplicate scene hierarchy indicators.
 
-Please note that the Advanced Scene Manager defaults dynamic collection is only added for new profiles. To add it to existing profiles please add the following path as a dynamic collection:
-"Assets/AdvancedSceneManager/System/Defaults" (if you've moved asm folder, change path accordingly) 
+#### 12-19-2022
+- Changed link in top right menu to view patches, so that it is always visible, instead of only when a patch is found.
+- Fixed patch check being stuck on a specific commit, and as a result, not finding new patches.
 
-Note: Some users seem to have an issue where importing patch will just present message that all files are already in project. I've no clue why this happens, I'm looking into it, but as a workaround, you may delete asm, import asm from asset store, then import patch, this time it should work.
+> Please note that the Advanced Scene Manager defaults dynamic collection is only added for new profiles. To add it to existing profiles please add the following path as a dynamic collection:
+"Assets/AdvancedSceneManager/System/Defaults" (if you've moved asm folder, change path accordingly) 
 
 ## Patches for Advanced Scene Manager
 
