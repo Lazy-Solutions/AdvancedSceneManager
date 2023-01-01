@@ -18,11 +18,14 @@ Patches and patch notes can also be found here:\
 
 #### Patch notes:
 
-- Fixed issue where SceneManagerWindow could not in some circumstances be resized.
+Features:
 - Added forceProfile, in addition to defaultProfile, which will force the profile for everyone on the project, no effect if null.
-- Fixed startup scene incorrectly being added to AssetRef.
+- Added default dynamic collection "Advanced Scene Manger defaults" (only added to new profiles).
+
+Bugs:
+- Fixed issue where SceneManagerWindow could not in some circumstances be resized.
 - Removed special handling of FadeLoadingScreen.
-- Added default dynamic collection Advanced Scene Manger defaults.
+- Fixed startup scene incorrectly being added to AssetRef.
 - Fixed PreloadedSceneHelper.FinishPreload() not working, due to it not ignoring scene operation queue.
 - Changed "Prevent event methods from being spammed" to false, by default.
 - Fixed issue with Scene.state.
@@ -31,6 +34,12 @@ Patches and patch notes can also be found here:\
 - Fixed duplicate scene hierarchy indicators.
 - Changed link in top right menu to view patches, so that it is always visible, instead of only when a patch is found.
 - Fixed patch check being stuck on a specific commit, and as a result, not finding new patches.
+- Fixed asset refresh not properly filtering out non-scene assets.
+- Fixed duplicate "open collection when SceneAsset opened".
+- Fixed duplicate dynamic collection setting.
+- Fixed wrong name for scene helper (no effect on already generated scriptable object, please manually rename or delete (will invalidate references)).
+- Fixed OpenOrReopen StackOverflow.
+- Fixed QuitAction not resetting .isQuitting in configurable play mode.
 
 Please note that the Advanced Scene Manager defaults dynamic collection is only added for new profiles. To add it to existing profiles please add the following path as a dynamic collection:
 "Assets/AdvancedSceneManager/System/Defaults" (if you've moved asm folder, change path accordingly) 
