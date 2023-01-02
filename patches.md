@@ -6,8 +6,7 @@ This folder contains patches for the current version of Advanced Scene Manager a
 These patches will be included in the next asset store update, and these files will as such be removed.
 
 Patches and patch notes can be found here:\
-(WIP) [https://github.com/Lazy-Solutions/AdvancedSceneManager/releases](https://github.com/Lazy-Solutions/AdvancedSceneManager/releases)\
-[https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/main/patches](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/main/patches)\
+[https://github.com/Lazy-Solutions/AdvancedSceneManager/releases](https://github.com/Lazy-Solutions/AdvancedSceneManager/releases)\
 [https://discord.com/channels/519089118467325952/806112082873024562](https://discord.com/channels/519089118467325952/806112082873024562)
 
 #### Notices:
