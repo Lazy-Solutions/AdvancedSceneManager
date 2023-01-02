@@ -71,7 +71,7 @@ This wiki is available both [online](https://lazy-solutions.github.io/AdvancedSc
 
 #### Patches
 Patches are partial updates that are too important to have our users wait for, and if you are having issues, have a look over here, it might be fixed already: \
-[Patches](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/main/patches)
+[Patches](https://github.com/Lazy-Solutions/AdvancedSceneManager/releases)
 
 #### Contact
 Want to get into contact with us? Report issues?\
