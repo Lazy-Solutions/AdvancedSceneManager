@@ -21,7 +21,7 @@ or like this:
 
 ```C#
 using UnityEngine;
-using AdvancedSceneManager;
+using AdvancedSceneManager.Models;
 
 public MyScript : MonoBehaviour
 {
