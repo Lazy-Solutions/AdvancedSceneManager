@@ -15,7 +15,7 @@ jobs:
           color: "2105893"
           username: "Hanna"
           avatar_url: "https://cdn.discordapp.com/avatars/1059492408443809914/a1baddef1c7d5d75c20d70618ae37dc8.webp?size=80"
-          content: "||@ASM||"
+          content: "||@ASM|| https://github.com/Lazy-Solutions/AdvancedSceneManager/releases"
           footer_title: "Patch notes"
           footer_icon_url: "https://raw.githubusercontent.com/Lazy-Solutions/AdvancedSceneManager/main/image/LogoWhite.png"
           footer_timestamp: false
