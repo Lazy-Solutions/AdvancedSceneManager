@@ -81,8 +81,18 @@ public MyScript : MonoBehaviour
 [Collections](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) and [scenes](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) can also be opened from [UnityEvents](https://docs.unity3d.com/Manual/UnityEvents.html), such as from a [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html), but it might be easier to use the [SceneHelper](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneHelper.html), since that will make it easier to find the [scene](https://lazy-solutions.github.io/AdvancedSceneManager/guides/Scene.html) or [collection](https://lazy-solutions.github.io/AdvancedSceneManager/guides/SceneCollection.html) in the Object Picker.
 
 ## Documentation
-This wiki is available online at:\
+
+You may access documentation by switching branches:\
+[1.9](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/1.9/docs)\
+[2.0 (WIP)](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/2.0/docs)
+
+It is also available here (may be removed in the future):\
 [https://lazy-solutions.github.io/AdvancedSceneManager](https://lazy-solutions.github.io/AdvancedSceneManager/guides/readme.html)
+
+## 
+It is also available here (may be removed in the future):\
+[https://lazy-solutions.github.io/AdvancedSceneManager](https://lazy-solutions.github.io/AdvancedSceneManager/guides/readme.html)
+
 
 >Note: the offline version packaged with asset store releases may not be up-to-date, since documentation may be updated after release.
 
