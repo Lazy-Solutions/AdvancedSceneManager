@@ -2,7 +2,7 @@ This folder contains patches for 1.9.
 
 1.9 is out of support, but may receive minor patches if deemed important enough. To download a patch, simply click it, then press the download button.
 
-## ASM 1.9.32
+## ASM 1.9.33
 
 Addressables:
 - Made scene and addressable linking a lot more robust.
@@ -27,3 +27,4 @@ Misc:
 - Fixed null ref during intro wizard, when making sure profile name is not duplicated.
 - Fixed settings Box(es) overriding background color, and not accounting for light mode.
 - Tweaked some colors in light mode, to fix some other overriden colors, and to increase contrast between some elements.
+- Removed patch check since it would still check against current, which is 2.0.
