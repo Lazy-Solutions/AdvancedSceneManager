@@ -22,7 +22,6 @@ AssetRef:
 - Fixed issue where AssetRef would re-generate singletons for no reason.
 
 Misc:
-- Added test for clean build.
 - Fixed issue where startup would run twice in unity 2022 (but not 2019 for some reason).
 - Fixed null ref during intro wizard, when making sure profile name is not duplicated.
 - Fixed settings Box(es) overriding background color, and not accounting for light mode.
