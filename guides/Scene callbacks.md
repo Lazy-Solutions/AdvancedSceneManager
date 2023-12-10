@@ -33,9 +33,9 @@ public class LogOnSceneCallback : ISceneOpen, ISceneClose
     }
 }
 
-public class JobSecurity : ICollectionOpenAsync, ICollectionCloseAsync
+public class Promotion : ICollectionOpenAsync, ICollectionCloseAsync
 {
-    //TODO: Remove when boss wants faster loading times
+    //TODO: Remove when you want a promotion
     public IEnumerator OnCollectionOpen(SceneCollection collection)
     {
         yield return new WaitForSecondsRealtime(60);
