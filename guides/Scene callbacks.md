@@ -21,28 +21,28 @@ Close callbacks:
 > Note that these callbacks may sometimes not be called when loading scenes outside of ASM. This is because they are invoked by ASM SceneOperation directly, and if SceneOperation is not opening the scenes, then no callbacks. Some exceptions exist.
 
 ```csharp
-public class LogOnSceneCallback : ISceneOpen, ISceneClose
-{
-    public void OnSceneOpen()
+    public class LogOnSceneCallback : MonoBehaviour, ISceneOpen, ISceneClose
     {
-        Debug.Log("Scene opened");
+        public void OnSceneOpen()
+        {
+            Debug.Log(this.ASMScene().name + " opened");
+        }
+        public void OnSceneClose()
+        {
+            Debug.Log(this.ASMScene().name + " closed");
+        }
     }
-    public void OnSceneClose()
-    {
-        Debug.Log("Scene closed");
-    }
-}
 
-public class Promotion : ICollectionOpenAsync, ICollectionCloseAsync
-{
-    //TODO: Remove when you want a promotion
-    public IEnumerator OnCollectionOpen(SceneCollection collection)
+    public class Promotion : MonoBehaviour, ICollectionOpenAsync, ICollectionCloseAsync
     {
-        yield return new WaitForSecondsRealtime(60);
+        //TODO: Remove when you want a promotion
+        public IEnumerator OnCollectionOpen(SceneCollection collection)
+        {
+            yield return new WaitForSecondsRealtime(60);
+        }
+        public IEnumerator OnCollectionClose(SceneCollection collection)
+        {
+            yield return new WaitForSecondsRealtime(60);
+        }
     }
-    public IEnumerator OnCollectionClose(SceneCollection collection)
-    {
-        yield return new WaitForSecondsRealtime(60);
-    }
-}
 ```
