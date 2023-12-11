@@ -1,7 +1,7 @@
 Welcome to Advanced Scene Manager documentation.
 
 **Guides**\
-Guides are handwritten articles to help you up to speed in working with ASM.
+Guides are handwritten articles to help you up to speed in working with ASM.\
 [Quick start](guides/quick%20start.md)\
 [Scene callbacks](guides/scene%20callbacks)
 
