@@ -3,8 +3,8 @@ Welcome to Advanced Scene Manager documentation.
 **Guides**
 > Guides are handwritten articles to help you up to speed in working with ASM.
 
-[Quick start](guides/QuickStart.md)\
-[Scene callbacks](guides/SceneCallbacks.md)\
+[Quick start](guides/Quick-Start.md)\
+[Scene callbacks](guides/Scene-Callbacks.md)\
 [Netcode](guides/Netcode.md)
 
 **API reference**
