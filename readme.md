@@ -3,22 +3,21 @@ Welcome to Advanced Scene Manager documentation.
 [FAQ](docs/faq.md)
 
 **Guides**\
-[QuickStart](docs/QuickStart.md)\
-[SceneManager](docs/SceneManager.md)\
-[SceneManagerWindow](docs/SceneManagerWindow.md)\
-[SceneHelper](docs/scenehelper.md)\
+[Quick Start](docs/QuickStart.md)\
+[Scene Manager](docs/SceneManager.md)\
+[Scene Manager Window](docs/SceneManagerWindow.md)\
+[Scene Helper](docs/scenehelper.md)\
 [Callbacks](docs/Callbacks.md)\
-[InGameToolbar](docs/InGameToolbar.md)\
-[LoadingScreen](docs/LoadingScreen.md)\
-[PauseScreenUtility](docs/PauseScreenUtility.md)\
+[In-Game Toolbar](docs/InGameToolbar.md)\
+[Loading Screen](docs/LoadingScreen.md)\
+[Pause Screen Utility](docs/PauseScreenUtility.md)\
 [Profile](docs/Profile.md)\
 [Scene](docs/Scene.md)\
-[SceneAction](docs/SceneAction.md)\
-[SceneCollection](docs/SceneCollection.md)\
-[SceneOperation](docs/SceneOperation.md)\
-[SceneOverviewWindow](docs/SceneOverviewWindow.md)\
-[SplashScreen](docs/SplashScreen.md)\
-[plugin.asm.addressables](docs/plugin.asm.addressables.md)\
-[plugin.asm.cross-scene-references](docs/plugin.asm.cross-scene-references.md)\
-[plugin.asm.locking](docs/plugin.asm.locking.md)\
-[plugin.asm.netcode](docs/plugin.asm.netcode.md)
+[Scene Actions](docs/SceneAction.md)\
+[Scene Collection](docs/SceneCollection.md)\
+[Scene Operation](docs/SceneOperation.md)\
+[Scene Overview Window](docs/SceneOverviewWindow.md)\
+[Splash Screen](docs/SplashScreen.md)\
+[Addressables](docs/plugin.asm.addressables.md)\
+[Cross Scene References](docs/plugin.asm.cross-scene-references.md)\
+[Locking](docs/plugin.asm.locking.md)
