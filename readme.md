@@ -6,13 +6,14 @@ Welcome to Advanced Scene Manager documentation.
 [Quick start](guides/Quick%20start.md)\
 [Scene Manager](guides/Scene%20manager.md)\
 [Scene callbacks](guides/Scene%20callbacks.md)\
+[Loading screens](guides/Loading%20screens.md)\
 [Netcode](guides/Netcode.md)
 
 **WIP:**\
 Scene Manager Window\
 Scene Helper\
 In-game toolbar\
-Loading screens and splash screens\
+splash screens\
 Profiles\
 Scenes\
 Scene collections\

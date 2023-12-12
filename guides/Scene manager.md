@@ -1,3 +1,5 @@
+## Scene manager
+
 The scene manager class is meant to act as the the core API of ASM, and provides access to the most important systems within.
 
 > There are also a lot miscellaneous static utility classes in AdvancedSceneManager.Utility that are not accessible from SceneManager.
