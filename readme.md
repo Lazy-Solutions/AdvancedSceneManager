@@ -8,7 +8,7 @@ Welcome to Advanced Scene Manager documentation.
 [Scene callbacks](guides/Scene%20callbacks.md)\
 [Netcode](guides/Netcode.md)
 
-**WIP:**
+**WIP:**\
 Scene Manager Window\
 Scene Helper\
 In-game toolbar\
