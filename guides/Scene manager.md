@@ -2,9 +2,10 @@ The scene manager class is meant to act as the the core API of ASM, and provides
 
 > There are also a lot miscellaneous static utility classes in AdvancedSceneManager.Utility that are not accessible from SceneManager.
 
-> Note when coming from 1.9: ASM 1.9 had multiple scene managers, these has been merged into one, SceneManager.runtime.
+> Note when coming from 1.9:\
+> ASM 1.9 had multiple scene managers, these has been merged into one, SceneManager.runtime.
 
-*SceneManager.Assets*
+## SceneManager.Assets
 Provides access to ASM asset lists, which would be:
 * Collections
 * Scenes
@@ -15,19 +16,19 @@ Provides access to ASM asset lists, which would be:
 SceneManager.assets.scenes.Where(s => s.name.StartsWith("Level")).ToArray();
 ```
 
-*SceneManager.openScenes*
+## SceneManager.openScenes
 Provides access to the list of open scenes.\
 Proxy for: SceneManager.runtime.openScenes.
 
-*SceneManager.openCollection*
+## SceneManager.openCollection
 Provides access to the currently open collection, null if none.\
 Proxy for: SceneManager.runtime.openCollection.
 
-*SceneManager.preloadedScene*
+## SceneManager.preloadedScene
 Provides access to the currently preloaded scene, null if none.\
 Proxy for: SceneManager.runtime.preloadedScene.
 
-*SceneManager.runtime*
+## SceneManager.runtime
 Provides access to runtime scene management.
 ```csharp
 public SceneCollection collection;
@@ -36,7 +37,7 @@ void OpenCollection() =>
 	SceneManager.runtime.Open(collection); //Equivalent to: collection.Open();
 ```
 
-*SceneManager.app*
+## SceneManager.app
 Provides access to application wide ASM stuff. Handles startup and quit.
 ```csharp
 void OpenCollection()
@@ -53,7 +54,7 @@ IEnumerator SaveBeforeQuit()
 }
 ```
 
-*SceneManager.settings*
+## SceneManager.settings
 Provides access to ASM settings. 
 ```csharp
 void ToggleWhateverCollectionShouldOpenWhenAContainedSceneIsOpened()
@@ -65,13 +66,13 @@ void ToggleWhateverCollectionShouldOpenWhenAContainedSceneIsOpened()
 }
 ```
 
-*SceneManager.profile*
+## SceneManager.profile
 Provides access to the currently active profile, null if none.\
 Equivalent to:\
 Profile.current.
 
-*SceneManager.isInitialized*
+## SceneManager.isInitialized
 Gets whatever ASM is initialized after a domain reload. Some api:s may fail if this is false, most notably .assets.
 
-*SceneManager.OnInitialized(Action)*
+## SceneManager.OnInitialized(Action)
 Registers a callback for when ASM is initialized after a domain reload. Callback is called immediately if ASM is already initialized.
