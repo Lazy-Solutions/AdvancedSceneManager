@@ -4,11 +4,11 @@ Welcome to Advanced Scene Manager documentation.
 > Guides are handwritten articles to help you up to speed in working with ASM.
 
 [Quick start](guides/Quick%20start.md)\
+[Scene Manager](guides/Scene%20manager.md)\
 [Scene callbacks](guides/Scene%20callbacks.md)\
 [Netcode](guides/Netcode.md)
 
 **WIP:**
-Scene Manager\
 Scene Manager Window\
 Scene Helper\
 In-game toolbar\
