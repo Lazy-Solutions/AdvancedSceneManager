@@ -1,4 +1,4 @@
-## An overview of ASM
+## An overview of scene management in ASM
 
 ASM is structured into three levels:
 1. Surface level
