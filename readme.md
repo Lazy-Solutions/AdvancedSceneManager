@@ -5,7 +5,10 @@ Welcome to Advanced Scene Manager documentation.
 
 [Quick start](guides/Quick%20start.md)\
 [Scene Manager](guides/Scene%20manager.md)\
-[An overview of scene management in ASM](An%20overview%20of%20scene%20management%20in%20ASM.md)\
+[An overview of scene management in ASM](An%20overview%20of%20scene%20management%20in%20ASM.md)
+
+[Scene Manager Window](guides/Scene%20%manager%20window)
+
 [Scene callbacks](guides/Scene%20callbacks.md)\
 [Loading screens](guides/Loading%20screens.md)\
 [Netcode](guides/Netcode.md)
