@@ -20,7 +20,7 @@ The header contains the following, in order, left to right:
 
 ![](../image/scene-manager-window-collections.png)
 
-The collections and scene list contains exactly that, your collections, and their scenes.
+The collections and scene list contain... collections and scenes!.
 
 #### Collection header
 The elements in the collection header are as follows, in order, left to right:
@@ -47,6 +47,7 @@ The elements on the scene field are as follows, in order, left to right:
 
 > Note the terms *Remove* and *Delete*, Remove is used to describe a reversible action here, whereas delete will not provide option to undo.
 
+> Collection headers and scenes may be dragged to gain a drag drop reference.
 
 ### Dynamic collections and scenes
 
