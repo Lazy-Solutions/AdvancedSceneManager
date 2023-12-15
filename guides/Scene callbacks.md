@@ -51,7 +51,7 @@ public class Promotion : MonoBehaviour, ICollectionOpenAsync, ICollectionCloseAs
 
 #### Events
 
-There are also several events, which are fire and forget, scene operation will not wait for them.
+There are also several C# events, which are fire and forget, scene operation will not wait for them, you can register listeners for them anywhere.
 
 ```csharp
 void RegisterListeners()
