@@ -1,5 +1,7 @@
 ## Scene callbacks
 
+#### Interfaces
+
 Sometimes you may want to run some initialization code when a scene opens, before loading screen is closed. Scene callbacks helps you do that. Scene callbacks must be implemented by a MonoBehaviour, and that script must then be attached to a scene, ASM will then invoke the script when that scene is opened. Callbacks for scene close also exist.
 
 Collection callbacks are called for all scenes that are contained within the collection that is opened, or closed.
@@ -44,5 +46,30 @@ public class Promotion : MonoBehaviour, ICollectionOpenAsync, ICollectionCloseAs
     {
         yield return new WaitForSecondsRealtime(60);
     }
+}
+```
+
+#### Events
+
+There are also several events, which are fire and forget, scene operation will not wait for them.
+
+```csharp
+void RegisterListeners()
+{
+	SceneManager.runtime.collectionOpened += (c) => Log(c, "opened");
+	SceneManager.runtime.collectionClosed += (c) => Log(c, "closed");
+
+	SceneManager.runtime.sceneOpened += (s) => Log(s, "opened");
+	SceneManager.runtime.sceneClosed += (s) => Log(s, "closed");
+}
+
+void Log(Scene scene, string action)
+{
+	Debug.Log($"{scene.name} {action}.");
+}
+
+void Log(SceneCollection collection, string action)
+{
+	Debug.Log($"{collection.title} {action}.");
 }
 ```
