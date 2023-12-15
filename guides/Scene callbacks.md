@@ -54,7 +54,10 @@ public class Promotion : MonoBehaviour, ICollectionOpenAsync, ICollectionCloseAs
 There are also several C# events, which are fire and forget, scene operation will not wait for them, you can register listeners for them anywhere.
 
 ```csharp
-void RegisterListeners()
+
+//Invoked by unity when editor starts / script recompile
+[InitializeOnLoad]
+static void OnLoad
 {
 	SceneManager.runtime.collectionOpened += (c) => Log(c, "opened");
 	SceneManager.runtime.collectionClosed += (c) => Log(c, "closed");
