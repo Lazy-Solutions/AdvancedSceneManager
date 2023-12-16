@@ -14,7 +14,6 @@ Welcome to Advanced Scene Manager documentation.
 [Netcode](guides/Netcode.md)
 
 **WIP:**\
-Scene Manager Window\
 Scene Helper\
 In-game toolbar\
 splash screens\
