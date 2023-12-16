@@ -2,8 +2,6 @@
 
 <br/>
 
-> Note, there is a known bug that splash screen will still play on restart, so please ignore that part, patch will be pushed soon :)
-
 **Install ASM from Package Manager:**
 
 To begin, open Unity and navigate to the Window menu. From there, open the package manager and search for Advanced Scene Manager", install it. Wait for unity to compile.
@@ -66,7 +64,7 @@ Now, lets create some levels, create two collections, "Level 1" and "Level 2". T
 
 Now, lets open the main menu scene by pressing the open scene button or the open collection button. Style your main menu as you want, but add two buttons, "Level 1" and "Level 2". Select the button for level 1 and add a On Click () handler to the Button script, then hold and drag from the collection header for "Level 1", this will start a drag drop for that collection, drop it on the button click handler. Then select SceneCollection > _Open (bool). Then do the same for the second level collection. Then add a "Quit" button, for this On Click () handler, drag and drop the scene helper button instead, which is to the left of the new collection button. Then select ASMSceneHelper > Quit ().
 
-> The collection open bool is not important right now, but it specifies whatever all scenes on a collection should open, since some scenes may be flagged to not open automatically, only explicitly.
+> The collection open toggle is not important right now, but it specifies whatever all scenes on a collection should open, since some scenes may be flagged to not open automatically, only explicitly.
 
 ![button-click-collection-open](../image/button-click-collection-open.png)
 
