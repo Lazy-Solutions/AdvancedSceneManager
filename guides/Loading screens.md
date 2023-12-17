@@ -56,10 +56,8 @@ void _DoCoroutineWithLoadingScreen(Func<IEnumerator> coroutine, Scene loadingSce
 
 Custom loading screens can be created by creating a script that inherits from **AdvancedSceneManager.Callbacks.LoadingScreen**, and implement OnOpen(), OnClose(), OnProgressChanged(float progress).
 
-> Using FadeLoadingScreen as a base will provide FadeIn() and FadeOut() methods, for fading a CanvasGroup in or out.
-
 ```csharp
-public class ProgressBarLoadingScreen : FadeLoadingScreen
+public class ProgressBarLoadingScreen : LoadingScreen
 {
 	
 	public Slider slider;
