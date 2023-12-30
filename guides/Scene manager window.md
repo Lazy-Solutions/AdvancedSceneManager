@@ -112,8 +112,63 @@ The menu popup contains:
 * **Documentation**, provides shortcuts to local docs, and online docs.
 * **Contact**, ASM appreciates your feedback, bug reports and suggestions alike! Also contains a button to view example projects.
 # Settings popup
-*Coming soon*
 
+![](../image/settings-popup.png)
 
+The settings popup contains the configration options of ASM. Settings are categorized into multiple pages:
+* **Startup**, contains settings related to the startup process, or more simply, what scenes or collections should be opened when game starts.
+* **Scene loading**, contains settings that define how ASM should behave when loading scenes.
+* **Assets**, contains settings relating to ASM assets, like ASM scenes, collections and profiles.
+* **Editor**, contains settings that define how ASM behaves in the editor.
+* **Netcode** *(not visible in image above, as it is only shown when [netcode for gameobjects](https://docs-multiplayer.unity3d.com/netcode/current/about/) package is installed)*, contains settings relating to our netcode plugin.
 
+## Startup page
 
+![](../image/settings-startup-page.png)
+
+The startup page contains:
+* **Splash screen**, displays a splash screen when game starts.
+* **Loading screen**, displays a splash screen during the startup process *(this is useful since its common to open multiple collections for example, standalone scenes may also be opened)*.
+* **Create temp camera during startup**, if there is no camera during startup, one will be created, this may sometimes cause issues, so you may want to disable this then.
+* **Startup scene**, this is the first scene that will be opened, it should be mostly empty, since otherwise you'll get flickering during startup. This should only be used in very rare use-cases, normally you'd just use collections and standalone scenes flagged to open during startup.
+## Scene loading page
+
+![](../image/settings-scene-loading-page.png)
+
+The scene loading page contains:
+* **Default loading screen**, this is the loading screen that will be used when opening or closing collections, if none is explicitly defined in the collection settings.
+* **Reverse unload order, when closing collections**, specifies that scenes should unload bottom up (when viewed in scene hierarchy).
+* **Prevent duplicate scene operations**, sometimes, such as when player is spamming a UI button that will open a scene / collection, you probably do not want duplicate operations, this attempts to prevent that. *Note that a better solution may still be to disable buttons or similar, since that would be more fool-proof.*
+## Assets page
+
+![](../image/settings-assets-page.png)
+
+The assets page contains:
+* **Scene import option**, specifies whatever scenes created *normally* will be automatically imported into ASM. Non-normal would mean creating scene on disk outside of unity, or pulling non-imported scene file from source, those will still have to be explicitly imported in scene import popup.
+* **Blacklisted scenes**, specifies blacklisted scenes or folders. Any scenes found at path, or inside subfolders of path, will never be automatically imported, and ASM will not include them in import popup.
+* **Generate profiles and scenes to**, specifies the path ASM will generate ASM assets to, if you do not wish to generate them to the default path. This only affects where ASM will put the assets on generation, you will still have to move the assets manually, which is fine to do, to be clear, ASM keeps and internal list of its own assets by reference, so you can move them wherever you want.
+## Editor page
+
+![](../image/settings-editor-page.png)
+
+The editor page contains:
+* **Force profile**, specifies a profile that is force enabled, useful for teams that wish to have only one person manage ASM.
+* **Default profile**, specifies a default profile that will be enabled whenever ASM cannot find an active profile during editor initialization.
+* **Run ASM startup process when using collection play button**, specifies whatever ASM should run startup process before opening collection when pressing collection play button.
+* **Open collection when opening SceneAsset**, specifies that, *in editor*, that when double clicking a scene, ASM should open the first collection found that the scene is contained within, instead of just opening the scene on its own.
+* **Allow locking collections**, specifies that a lock symbol should be shown in collection settings. When locked, a collection becomes read-only. *Only applied to Scene manager window UI, not when editing values directly on scriptable objects, or in notepad or git for example.*
+* **Allow locking scenes**, specifies that a lock symbol should be shown in scene hierarchy. When locked, and user attempts to save after modifying it, a prompt will popup asking to save to a new file, or to cancel. *Only applied when saving normally, no effect when modifying scene file in notepad for example, or pulling from git.*
+* Display:
+	* **Play button**, specifies whatever collection play buttons should be visible.
+	* **Open button**, specifies whatever collection open buttons should be visible.
+	* **Open additive button**, specifies whatever collection open additive buttons should be visible.
+	* **Display play button in toolbar**, *hidden unless [marijnz/unity-toolbar-extender](https://github.com/marijnz/unity-toolbar-extender) package is installed*, displays an ASM play button in the toolbar, next to the regular play button.
+* Logging:
+	* **Asset import**, displays a log message when an ASM asset is imported, or un-imported.
+	* **Scene loading**, displays a log message when a scene is loaded, or unloaded.
+	* **Open scene tracking**, displays a log message when a scene is tracked, or untracked.
+	* **Startup**, displays log messages when running startup.
+	* **Scene operations**, displays log messages when a scene operations are busy.
+	* **Build scene list updated**, displays a log message when build scene list is updated.
+
+> The logging messages are only used to debug, 99% of users do not need to enable these, unless they want to.
