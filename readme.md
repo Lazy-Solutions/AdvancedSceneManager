@@ -1,7 +1,7 @@
 Welcome to Advanced Scene Manager documentation.
 
-> This documentation is for ASM legacy.
-> Read more about legacy mode here:
+> This documentation is for ASM legacy.\
+> Read more about legacy mode here:\
 > ![Legacy mode](docs/Legacy%20mode.md)
 
 > Documentation for 2.0 can be found here:\
