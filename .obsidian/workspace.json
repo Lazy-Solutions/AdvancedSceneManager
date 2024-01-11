@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guides/Scene manager window.md",
+                "file": "readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guides/Scene manager window.md"
+                "file": "readme.md"
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guides/Scene manager window.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guides/Scene manager window.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,6 +148,9 @@
   },
   "active": "66b88c63ca802767",
   "lastOpenFiles": [
+    "docs/Legacy mode.md",
+    "docs/Upgrading from legacy.md",
+    "readme.md",
     "guides/Scene manager.md",
     "guides/Scene manager window.md",
     "image/settings-editor-page.png.~tmp",
@@ -171,7 +174,6 @@
     "image/startup-page.png",
     "image/scene-loading-page.png",
     "image/Screenshot 2023-12-30 143210.png",
-    "readme.md",
     "AdvancedSceneManager.Callbacks.LoadingScreenBase.md",
     "docs/Callbacks.LoadingScreen.md",
     "guides/Scene callbacks.md",
