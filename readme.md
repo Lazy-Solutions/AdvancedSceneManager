@@ -4,6 +4,9 @@ Welcome to Advanced Scene Manager documentation.
 > Legacy is just ASM 1.9 bundled into 2.0 for compatibility reasons, so ASM 1.9 and ASM legacy are the same thing.\
 > Instructions for upgrading from 1.9 / legacy to 2.0 coming soon.
 
+> Documentation for 2.0 can be found here:\
+> [2.0](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/2.0)
+
 [FAQ](docs/faq.md)
 
 **Guides**\
