@@ -29,6 +29,7 @@ Next check '_Open on game start_' to automatically open it when game starts. Mul
 While we won't worry about the other settings right now, they are documented over at [SceneManagerWindow](../api/SceneManagerWindow.html#collection-properties).
 
 Next, create two more collections, name them '_Level 1_', and '_Level 2_'.
+![](../image/footer.png)
 
 ### Adding scenes
 
