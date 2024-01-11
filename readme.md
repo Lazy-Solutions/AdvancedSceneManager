@@ -5,7 +5,7 @@ Welcome to Advanced Scene Manager documentation.
 > Instructions for upgrading from 1.9 / legacy to 2.0 coming soon.
 
 > Documentation for 2.0 can be found here:\
-> [2.0](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/2.0)
+> [2.0](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/2.0/readme.md)
 
 [FAQ](docs/faq.md)
 
