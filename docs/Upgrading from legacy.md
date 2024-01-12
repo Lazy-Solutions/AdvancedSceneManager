@@ -33,6 +33,6 @@ This is because it was unnecessarily confusing, for our users and ourselves alik
 
 Other the above, there are a lot of minor changes but most are just streamlining some aspects, so finding new method name is hopefully not too difficult.
 
-You can find code documentation over here:
+You can find code documentation over here:\
 [API](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/2.0/api)
 
