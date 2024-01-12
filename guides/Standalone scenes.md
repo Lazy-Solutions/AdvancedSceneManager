@@ -6,7 +6,7 @@ Scenes in this section have the ability to open during startup, or when entering
 
 ![](../image/standalone-options.png)
 
-Standalone scenes can also be opened through bindings.
+Standalone scenes can also be opened through [bindings](Scene%20bindings.md).
 
 ![](../image/scene-bindings.png)
 
