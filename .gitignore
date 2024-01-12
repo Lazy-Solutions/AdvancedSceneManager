@@ -1,2 +1,2 @@
-*/.vs
-*.obsidian
+*.vs/*
+*.obsidian/*
