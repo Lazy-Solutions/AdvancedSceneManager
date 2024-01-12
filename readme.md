@@ -15,10 +15,10 @@ Welcome to Advanced Scene Manager documentation.
 [Scene callbacks](guides/Scene%20callbacks.md)\
 [Loading screens](guides/Loading%20screens.md)\
 [Netcode](guides/Netcode.md)\
-[Scene Helper](Scene%20helper.md)\
-[In-game toolbar](In-game%20toolbar.md)\
-[Scene bindings](Scene%20bindings.md)\
-[Standalone scenes](Standalone%20scenes.md)
+[Scene Helper](guides/Scene%20helper.md)\
+[In-game toolbar](guides/In-game%20toolbar.md)\
+[Scene bindings](guides/Scene%20bindings.md)\
+[Standalone scenes](guides/Standalone%20scenes.md)
 
 **WIP:**\
 splash screens\
