@@ -14,10 +14,10 @@ Welcome to Advanced Scene Manager documentation.
 
 [Scene callbacks](guides/Scene%20callbacks.md)\
 [Loading screens](guides/Loading%20screens.md)\
-[Netcode](guides/Netcode.md)
+[Netcode](guides/Netcode.md)\
+[Scene Helper](Scene%20helper.md)
 
 **WIP:**\
-Scene Helper\
 In-game toolbar\
 splash screens\
 Profiles\
