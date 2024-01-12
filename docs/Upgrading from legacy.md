@@ -2,10 +2,10 @@
 > 1.9 is now referred to as legacy, since we now have a legacy mode for compatibility.
 
 Upgrading from legacy to 2.x will require a re-setup of your project, profiles, collections will have to be re-created, and scenes re-imported. After finishing this guide, we recommend reading through the new quick start guide to get up to speed:\
-https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/2.0/guides/Quick%20start.md
+[Quick start](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/2.0/guides/Quick%20start.md)
 
-You can read more about legacy mode here:
-![](Legacy%20mode.md)
+You can read more about legacy mode here:\
+[Legacy mode](Legacy%20mode.md)
 
 ### Scene import
 
