@@ -2,7 +2,7 @@ ASM legacy mode is a compatibility mode introduced in ASM 2.1, it allows for a b
 
 Legacy mode is basically just 1.9, but embedded into 2.x. It is then toggled on if on an unsupported version of unity *(ASM 2.x supports only 2021 and above)*.
 
-> Actual ASM 1.9 is also referred to as legacy.
+> Note: Actual ASM 1.9 is also referred to as legacy.
 
 ### How to enable / disable
 
