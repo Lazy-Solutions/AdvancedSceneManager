@@ -86,7 +86,7 @@ public class ProgressBarLoadingScreen : LoadingScreen
 }
 ```
 
-When script is finished, place it in a dedicated scene and assign scene as loading screen on a collection or as default loading screen in ASM settings.
+When script is finished, place it in a dedicated scene and [assign scene as loading screen on a collection](Scene%20manager%20window.md#collection-popup) or as default loading screen in [ASM settings](Scene%20manager%20window.md#startup-page).
 
 ### Default loading screens
 
@@ -98,4 +98,5 @@ There are several default loading screens included in ASM:
 * **Quote**
 * **Video**
 
-These are located in `/AdvancedSceneManager/Defaults/Loading Screen/`
+These are located in\
+`/AdvancedSceneManager/Defaults/Loading Screen/`
