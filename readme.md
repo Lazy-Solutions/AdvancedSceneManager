@@ -14,7 +14,7 @@ Welcome to Advanced Scene Manager documentation.
 
 [Scene callbacks](guides/Scene%20callbacks.md)\
 [Loading screens](guides/Loading%20screens.md)\
-[Splash screens](guides/Splash%20screens.md)
+[Splash screens](guides/Splash%20screens.md)\
 [Netcode](guides/Netcode.md)\
 [Scene Helper](guides/Scene%20helper.md)\
 [In-game toolbar](guides/In-game%20toolbar.md)\
