@@ -2,7 +2,7 @@
 
 There are three ways of opening a loading screen:
 
-1. Opening a collection
+1. Opening a collection *(specified in [collection menu](Scene%20manager%20window.md#collection-popup))*
 2. SceneOperation.With(Scene loadingScene)
 3. LoadingScreenUtility
 
@@ -50,11 +50,9 @@ void _DoCoroutineWithLoadingScreen(Func<IEnumerator> coroutine, Scene loadingSce
 }
 ```
 
-> A couple default loading screens are provided out-of-the-box, which can be found in 'AdvancedSceneManager/Defaults'.
-
 ### Custom loading screens
 
-Custom loading screens can be created by creating a script that inherits from **AdvancedSceneManager.Callbacks.LoadingScreen**, and implement OnOpen(), OnClose(), OnProgressChanged(float progress).
+Custom loading screens can be created by creating a script that inherits from `AdvancedSceneManager.Callbacks.LoadingScreen` and implement `OnOpen()`, `OnClose()`, `OnProgressChanged(float progress)`.
 
 ```csharp
 public class ProgressBarLoadingScreen : LoadingScreen
@@ -89,3 +87,15 @@ public class ProgressBarLoadingScreen : LoadingScreen
 ```
 
 When script is finished, place it in a dedicated scene and assign scene as loading screen on a collection or as default loading screen in ASM settings.
+
+### Default loading screens
+
+There are several default loading screens included in ASM:
+* **Fade**
+* **Icon bounce**
+* **Press any button**
+* **Progress bar**
+* **Quote**
+* **Video**
+
+These are located in `/AdvancedSceneManager/Defaults/Loading Screen/`
