@@ -19,6 +19,7 @@
 * [activeInPlayMode](Core.SceneLoader.md#Core.SceneLoader_1ae6a40f1d771e7e958f1a6c5060387c57)
 * [activeOutsideOfPlayMode](Core.SceneLoader.md#Core.SceneLoader_1aadc9f56a200280c97beec217d91d9c2f)
 * [canBeActivated](Core.SceneLoader.md#Core.SceneLoader_1adc54ffe49f61b9f23de9756df6f92e36)
+* [CanOpen](Core.RuntimeSceneLoader.md#Core.RuntimeSceneLoader_1aaa8be4438d1f538f645342f6654f1918)
 * [GetKey\< T \>](Core.SceneLoader.md#Core.SceneLoader_1a21ae26a65615cd26ca3fa17b3b7d76e2)
 * [GetKey\< T \>](Core.SceneLoader.md#Core.SceneLoader_1aecda0f5c332502728ded65afe3e98aca)
 * [indicator](Core.SceneLoader.md#Core.SceneLoader_1a54518b3d12312fcd60b218c3e5b1d909)
@@ -29,6 +30,31 @@
 * [UnloadScene](Core.RuntimeSceneLoader.md#Core.RuntimeSceneLoader_1a0f629e01dc20aee488a2d29362fbbb5d)
 
 ## Public functions
+
+<a id="Core.RuntimeSceneLoader_1aaa8be4438d1f538f645342f6654f1918"></a>
+### Function CanOpen
+
+
+
+```csharp
+override bool CanOpen(Scene scene)
+```
+
+
+
+
+
+
+
+**Parameters**:
+
+* Scene **scene**
+
+**Return type**: override bool
+
+
+
+
 
 <a id="Core.RuntimeSceneLoader_1aeb5ae62fd1b0ccbd63bc6500398fcb68"></a>
 ### Function LoadScene

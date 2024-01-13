@@ -23,6 +23,7 @@ Specifies a scene loader.
 * [activeInPlayMode](Core.SceneLoader.md#Core.SceneLoader_1ae6a40f1d771e7e958f1a6c5060387c57)
 * [activeOutsideOfPlayMode](Core.SceneLoader.md#Core.SceneLoader_1aadc9f56a200280c97beec217d91d9c2f)
 * [canBeActivated](Core.SceneLoader.md#Core.SceneLoader_1adc54ffe49f61b9f23de9756df6f92e36)
+* [CanOpen](Core.SceneLoader.md#Core.SceneLoader_1ade227555b445756316771ad96d0b727f)
 * [GetKey\< T \>](Core.SceneLoader.md#Core.SceneLoader_1a21ae26a65615cd26ca3fa17b3b7d76e2)
 * [GetKey\< T \>](Core.SceneLoader.md#Core.SceneLoader_1aecda0f5c332502728ded65afe3e98aca)
 * [indicator](Core.SceneLoader.md#Core.SceneLoader_1a54518b3d12312fcd60b218c3e5b1d909)
@@ -260,6 +261,31 @@ Gets the key for the specified scene loader.
 
 
 ## Public functions
+
+<a id="Core.SceneLoader_1ade227555b445756316771ad96d0b727f"></a>
+### Function CanOpen
+
+
+
+```csharp
+virtual bool CanOpen(Scene scene)
+```
+
+Gets whatever this scene loader can open the scene.
+
+
+
+
+
+**Parameters**:
+
+* [Scene](Models.Scene.md#Models.Scene) **scene**
+
+**Return type**: bool
+
+
+
+
 
 <a id="Core.SceneLoader_1afadc148a237e7623442abc9fd7daf3ae"></a>
 ### Function LoadScene

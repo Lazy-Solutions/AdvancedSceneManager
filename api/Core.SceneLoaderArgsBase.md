@@ -23,6 +23,7 @@ Base class for SceneLoadArgs and SceneUnloadArgs.
 * [isHandled](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1a9c086187fe3b8c6ea1aba8d457270940)
 * [isLoadingScreen](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1a227613a11e9788e750ba32e1fbacdf38)
 * [isSplashScreen](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1a3d0315d738e1fa083aee31d580b45a23)
+* [noSceneWasLoaded](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1addfdac8d287a7d172bbfc8ffffae0fb9)
 * [ReportProgress](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1a8e46f6286acaf09b5d3719fe324ae347)
 * [scene](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1a316ef80f2dad1200569390e1dc3ce5e8)
 * [SetError](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1aa11bf6efa4edb2953193bb2209e800db)
@@ -108,6 +109,29 @@ Action<float> updateProgress
 
 ```csharp
 bool isHandled
+```
+
+
+
+
+
+
+
+**Return type**: bool
+
+
+
+
+
+<a id="Core.SceneLoaderArgsBase_1addfdac8d287a7d172bbfc8ffffae0fb9"></a>
+### Property noSceneWasLoaded
+
+
+
+
+
+```csharp
+bool noSceneWasLoaded
 ```
 
 

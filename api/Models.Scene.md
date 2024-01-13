@@ -92,6 +92,7 @@ Represents a scene.
 * [m\_keepOpenWhenCollectionsClose](Models.Scene.md#Models.Scene_1a9e64fbad2187d386d347264b6723b27a)
 * [m\_keepOpenWhenNewCollectionWouldReopen](Models.Scene.md#Models.Scene_1ad0f5bf662b6d30da94da5dd4469b3b2d)
 * [m\_lockMessage](Models.Scene.md#Models.Scene_1a7887f5140655409ffe5e2bf4d3bbc6ef)
+* [m\_openOnPlayMode](Models.Scene.md#Models.Scene_1aa99c6faa2a41f1be66bf13831c020c5e)
 * [m\_openOnStartup](Models.Scene.md#Models.Scene_1a63e9788a3518baf53dd28ff56d675049)
 * [m\_path](Models.Scene.md#Models.Scene_1adb51dbb671f950fa6600dc35ed8a1673)
 * [m\_sceneAsset](Models.Scene.md#Models.Scene_1aac006eae605d9131e660a6a42fca5053)
@@ -104,6 +105,7 @@ Represents a scene.
 * [OnValidate](Models.ASMModel.md#Models.ASMModel_1ad6f3426582ec127d8e7fb06cdea121df)
 * [Open](Models.Scene.md#Models.Scene_1a6e22da7af68d7d0cc417564e2d165100)
 * [openedBy](Models.Scene.md#Models.Scene_1a704b8f7a465d90f315b0508ca03ffa96)
+* [openOnPlayMode](Models.Scene.md#Models.Scene_1a91b661cf2cd17684bf5676f50184e306)
 * [openOnStartup](Models.Scene.md#Models.Scene_1a9105b72e5f771bb6a7e7c36083ab0e7e)
 * [OpenWithLoadingScreen](Models.Scene.md#Models.Scene_1a596aef64a1daff6d0e94e5eef6b5b694)
 * [operator Scene](Models.Scene.md#Models.Scene_1a4433ef98b54e31e606ba2d7634a5da24)
@@ -284,6 +286,29 @@ bool m_keepOpenWhenNewCollectionWouldReopen = true
 
 ```csharp
 bool m_openOnStartup
+```
+
+
+
+
+
+
+
+**Type**: bool
+
+
+
+
+
+<a id="Models.Scene_1aa99c6faa2a41f1be66bf13831c020c5e"></a>
+### Variable m\_openOnPlayMode
+
+
+
+
+
+```csharp
+bool m_openOnPlayMode
 ```
 
 
@@ -647,6 +672,29 @@ bool openOnStartup
 ```
 
 Specifies whatever this scene should be opened on startup.
+
+Only effective when scene added to Profile.standaloneScenes.
+
+
+
+**Return type**: bool
+
+
+
+
+
+<a id="Models.Scene_1a91b661cf2cd17684bf5676f50184e306"></a>
+### Property openOnPlayMode
+
+
+
+
+
+```csharp
+bool openOnPlayMode
+```
+
+Specifies whatever this scene should be opened when entering playmode.
 
 Only effective when scene added to Profile.standaloneScenes.
 

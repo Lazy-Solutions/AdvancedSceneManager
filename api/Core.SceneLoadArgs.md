@@ -25,11 +25,13 @@ Specifies arguments for SceneLoader.LoadScene(Models.Scene, SceneLoadArgs).
 * [isLoadingScreen](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1a227613a11e9788e750ba32e1fbacdf38)
 * [isPreload](Core.SceneLoadArgs.md#Core.SceneLoadArgs_1a3231e7fcd8ccff938e746510e40241ee)
 * [isSplashScreen](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1a3d0315d738e1fa083aee31d580b45a23)
+* [noSceneWasLoaded](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1addfdac8d287a7d172bbfc8ffffae0fb9)
 * [preloadCallback](Core.SceneLoadArgs.md#Core.SceneLoadArgs_1ad29376a20628ab1d4301b7d33a43d829)
 * [ReportProgress](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1a8e46f6286acaf09b5d3719fe324ae347)
 * [scene](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1a316ef80f2dad1200569390e1dc3ce5e8)
 * [SetCompleted](Core.SceneLoadArgs.md#Core.SceneLoadArgs_1aaff7f7f4e926661e15c6aed30f905e6e)
 * [SetCompleted](Core.SceneLoadArgs.md#Core.SceneLoadArgs_1a8f8dd1015aaa0d4bcf396c49f86b7178)
+* [SetCompletedWithoutScene](Core.SceneLoadArgs.md#Core.SceneLoadArgs_1aec5d895ff54b5d27b863c61d74c6b055)
 * [SetError](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1aa11bf6efa4edb2953193bb2209e800db)
 * [updateProgress](Core.SceneLoaderArgsBase.md#Core.SceneLoaderArgsBase_1a1f22acb048748bc407d58363a5e6e9b8)
 
@@ -132,6 +134,27 @@ void SetCompleted(UnityEngine.SceneManagement.Scene scene, Func< IEnumerator > p
 
 * UnityEngine.SceneManagement.Scene **scene**
 * Func< IEnumerator > **preloadCallback**
+
+**Return type**: void
+
+
+
+
+
+<a id="Core.SceneLoadArgs_1aec5d895ff54b5d27b863c61d74c6b055"></a>
+### Function SetCompletedWithoutScene
+
+
+
+```csharp
+void SetCompletedWithoutScene()
+```
+
+Sets this loader as complete even though no scene was loaded.
+
+
+
+
 
 **Return type**: void
 
