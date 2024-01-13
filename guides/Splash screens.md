@@ -57,4 +57,4 @@ public class ASM_SplashScreen : Callbacks.SplashScreen
 
 When script is finished, place it in a dedicated scene and assign scene as splash screen in [ASM startup settings](Scene%20manager%20window.md#startup-page).
 
-> Note if a custom splash screen is not showing up, you may have to modify the scene and save it, for the loading screen flag to appear.
+> Note if a custom splash screen is not showing up, you may have to modify the scene and save it, for the loading screen flag to appear. Flag is sometimes not saved.
