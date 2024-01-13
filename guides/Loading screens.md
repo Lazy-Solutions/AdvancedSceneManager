@@ -88,7 +88,7 @@ public class ProgressBarLoadingScreen : LoadingScreen
 
 When script is finished, place it in a dedicated scene and [assign scene as loading screen on a collection](Scene%20manager%20window.md#collection-popup) or as default loading screen in [ASM settings](Scene%20manager%20window.md#startup-page).
 
-> Note if a custom loading screen is not showing up in dropdown, you may have to modify the scene, and save it for the loading screen flag to appear.
+> Note if a custom loading screen is not showing up, you may have to modify the scene and save it, for the loading screen flag to appear. Flag is sometimes not saved.
 
 ### Default loading screens
 
