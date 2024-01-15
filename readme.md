@@ -20,7 +20,7 @@ Welcome to Advanced Scene Manager documentation.
 [In-game toolbar](guides/In-game%20toolbar.md)\
 [Scene bindings](guides/Scene%20bindings.md)\
 [Standalone scenes](guides/Standalone%20scenes.md)\
-[Profiles](guides/Profiles.md)
+[Profiles](guides/Profiles.md)\
 [Scenes](guides/Scenes.md)
 
 **WIP:**\
