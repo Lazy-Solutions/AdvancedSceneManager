@@ -1,3 +1,5 @@
+# Standalone scenes
+
 Standalone scenes are scenes that do not belong to a collection, but are still to be included in build. ASM has a special dynamic collection that you should add such scenes to.
 
 ![](../image/scene-manager-window-dynamic-collections.png)
