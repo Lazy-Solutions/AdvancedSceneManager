@@ -8,7 +8,7 @@ Profiles contains:
 * Splash screen
 * Various configuration settings found in settings popup
 
-The available profiles can be viewed, selected and created in the profile picker, in the bottom left of the [scene manager window](Scene%20manager%20window.md).
+The available profiles can be viewed, selected and created in the profile picker, in the bottom left of the [scene manager window](Scene%20manager%20window.md#footer).
 
 ![](../image/profile-popup.png)
 
