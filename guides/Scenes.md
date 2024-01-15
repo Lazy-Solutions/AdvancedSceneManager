@@ -45,13 +45,27 @@ Finally, just press import, and the imported scenes will now be usable in ASM.
 
 Blacklist can be configured in [settings](Scene%20manager%20window.md#assets-page).
 ## Persistent scenes
-WIP
 
+Persistent scenes are scenes that do not automatically close when a collection is closed. This can be specified in the [scene menu](Scene%20manager%20window.md#scene-menu).
 ### Preloading
 WIP
 
 ### Scene merging
-WIP
 
+Scenes can be merged by ctrl selecting two or more scenes in the scene manager window, and right clicking, then selecting 'merge scenes...'.
+
+![](../image/scene-context-menu.png)
+
+Scenes can be merged programmatically as well:\
+*Only usable in editor*
+`SceneUtility.MergeScenes(targetScene, sceneToMergeIntoTargetScene); //Can accept multiple scenes in second argument`
 ### Scene splitting
-WIP
+
+Scenes can be split up into multiple by selecting two or more [GameObjects](https://docs.unity3d.com/Manual/class-GameObject.html) in the hierarchy.
+
+![](../image/scene-split-menu.png)
+![](../image/scene-split-result.png)
+
+Scenes can be split up programmatically as well:\
+*Only usable in editor*
+`SceneUtility.MoveToNewScene(gameObject); //Moves current game object into a new scene, method supports multiple objects`
