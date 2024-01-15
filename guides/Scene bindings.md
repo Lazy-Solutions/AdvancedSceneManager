@@ -2,7 +2,7 @@
 
 Scene bindings are used to open collections or scenes through a key or button binding.
 
-[Collections](collections) can be bound using the [collection popup](Scene%20manager%20window.md#collection-popup).
+[Collections](Scene%20collections.md) can be bound using the [collection popup](Scene%20manager%20window.md#collection-popup).
 [Standalone scenes](Standalone%20scenes.md) can be bound using the scene menu.
 
 ![](../image/scene-bindings.png)

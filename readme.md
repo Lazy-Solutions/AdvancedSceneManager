@@ -15,6 +15,7 @@ Welcome to Advanced Scene Manager documentation.
 [Profiles](guides/Profiles.md)\
 [Scenes](guides/Scenes.md)\
 [Standalone scenes](guides/Standalone%20scenes.md)\
+[Scene collections](Scene%20collections.md)\
 [Loading screens](guides/Loading%20screens.md)\
 [Splash screens](guides/Splash%20screens.md)
 
@@ -25,7 +26,6 @@ Welcome to Advanced Scene Manager documentation.
 [Netcode](guides/Netcode.md)
 
 **WIP:**\
-Scene collections\
 Scene operations\
 Addressables\
 Cross-scene references

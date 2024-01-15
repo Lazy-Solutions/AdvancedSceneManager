@@ -11,8 +11,8 @@ The easiest way is to add it to [standalone](Standalone%20scenes.md), then add a
 
 The in-game toolbar allows you to:
 * Restart the game.
-* Re-open currently open collection.
+* Re-open currently open [collection](Scene%20collections.md).
 * Quit game.
 * See if ASM is currently working (see [ASM scene operations](Scene%20operations.md)).
-* List open scenes.
+* List open [scenes](Scenes.md).
 

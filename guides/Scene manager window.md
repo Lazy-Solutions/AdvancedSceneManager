@@ -1,6 +1,6 @@
 # Scene manager window
 
-The scene manager window is the front-end for ASM. It can be used to manage collections, scenes, and behavior of ASM.
+The scene manager window is the front-end for ASM. It can be used to manage [collections](Scene%20collections.md), [scenes](Scenes.md), and behavior of ASM.
 
 ![](../image/scene-manager-window.png)
 
@@ -16,17 +16,17 @@ The scene manager window can be opened through:
 The header contains the following, in order, left to right:
 * Play button, enters play mode and runs startup process, as if we're running in a build.
 * Overview button, opens a popup presenting all scenes in project.
-* Settings button, displays settings popup.
-* Menu button, displays a menu with some useful tools.
+* Settings button, displays the [settings popup](#settings-popup).
+* Menu button, displays the [menu popup](#menu) with some useful tools.
 
 ### Collections and scenes
 
 ![](../image/scene-manager-window-collections.png)
 
-The collections and scene list contain... collections and scenes!.
+The collections and scene list contain... collections and scenes!
 
 #### Collection header
-The elements in the collection header are as follows, in order, left to right:
+The elements in the [collection](Scene%20collections.md) header are as follows, in order, left to right:
 * Reorder collections.
 * Enter play mode and open collection when startup process done *(startup process when using this button can be turned off in settings)*.
 * Open collection.
@@ -39,7 +39,7 @@ The elements in the collection header are as follows, in order, left to right:
 > Note that some elements may be hidden, check settings for more.
 
 #### Scene field
-The elements on the scene field are as follows, in order, left to right:
+The elements on the [scene](Scenes.md) field are as follows, in order, left to right:
 * Reorder scenes.
 * Open scene.
 * Open / close scene as additive.
@@ -58,7 +58,7 @@ The elements on the scene field are as follows, in order, left to right:
 
 Dynamic collections are collections that contain scenes that do not fit within a normal collection, but are still supposed to be included in build. This is needed because ASM manages the build scene list (adding a scene to list manually just causes ASM to add it to standalone collection).
 
-The **standalone** is a special dynamic collection, it allows you to add scene fields and modify its scene list, it also cannot be deleted. 
+The **[standalone](Standalone%20scenes.md)** is a special dynamic collection, it allows you to add scene fields and modify its scene list, it also cannot be deleted. 
 
 The **ASM Defaults** dynamic collection on the other hand is a normal dynamic collection, it takes a path to a folder, and gathers all scenes found within its subfolders. The folder path can be configured in the collection popup.
 
@@ -69,8 +69,8 @@ The **ASM Defaults** dynamic collection on the other hand is a normal dynamic co
 ![](../image/scene-manager-window-footer.png)
 
 The footer contains, in order, left to right:
-* Profile selector, opens a popup where a profile can be selected, or created.
-* Scene helper button, provides an easy way to gain a drag drop reference to scene helper scriptable object, which can be used in UI button click, for example.
+* [Profile](Profiles.md) selector, opens a popup where a profile can be selected, or created.
+* [Scene helper](Scene%20helper.md) button, provides an easy way to gain a drag drop reference to scene helper scriptable object, which can be used in UI button click, for example.
 * New collection split button, pressing dropdown section opens a popup where you can create a dynamic collection, or create normal collection from a template.
 
 ## Collection popup
@@ -83,7 +83,7 @@ The collection popup contains:
 * **Startup**, determines if collection should be opened by ASM during startup. Auto means ASM will open collection if it is first collection in list, and and no other collection is specified as *open*.
 * **Loading priority**, when not set to *auto*, ASM will automatically set corresponding [ThreadPriority](https://docs.unity3d.com/ScriptReference/ThreadPriority.html) when scene operation begins, on collection open / close, and then reset it when done.
 * **Loading screen usage**, determines if default loading screen should be used, or if it should be overridden, or disabled.
-* **Loading scene**, determines loading scene to use when above is set to override.
+* **[Loading scene](Loading%20scenes.md)**, determines loading scene to use when above is set to override.
 * **Unload unused assets**, if true then ASM will automatically call [Resources.UnloadUnusedAssets](https://docs.unity3d.com/ScriptReference/Resources.html) when scene operation, on collection open / close, is done.
 * **Open persistent**, determines if all scenes within should be opened as persistent.
 * **Active scene**, specifies scene to activate when opening collection.
