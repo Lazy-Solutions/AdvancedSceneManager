@@ -1,8 +1,8 @@
-## Netcode
+# Netcode
 
 This example was built on NGO(Netcode for game objects) 1.2.0, things may have changed.
 
-#### Intro
+### Intro
 
 There are 2 ways to work with ASM and NGOs.
 First is to make use of the Netcode built-in scene manager, this will give us
