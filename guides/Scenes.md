@@ -52,7 +52,7 @@ WIP
 
 ### Scene merging
 
-Scenes can be merged by ctrl selecting two or more scenes in the [scene manager window](Scene%20manager%20window), and right clicking, then selecting 'merge scenes...'.
+Scenes can be merged by ctrl selecting two or more scenes in the [scene manager window](Scene%20manager%20window.md), and right clicking, then selecting 'merge scenes...'.
 
 ![](../image/scene-context-menu.png)
 
