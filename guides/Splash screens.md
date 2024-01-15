@@ -1,9 +1,11 @@
-Splash screens are displayed before the game starts. There is one included in ASM by default, ASM_SplashScreen.
+# Splash screens
+
+Splash screens are displayed before the game starts. There is one included in ASM by default, **ASM_SplashScreen**.
 
 ![](../image/asm-splash-screen.png)
 
 Splash screens are specified in [ASM startup settings](Scene%20manager%20window.md#startup-page).
-#### Custom splash screens
+## Custom splash screens
 
 Custom splash screens can be created by creating a script that inherits from `AdvancedSceneManager.Callbacks.SplashScreen`, and implement `DisplaySplashScreen()`.
 
