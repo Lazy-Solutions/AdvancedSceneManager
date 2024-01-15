@@ -1,5 +1,8 @@
 # Loading screens
 
+> For how to perform actions while a loading screen is open, after a scene has opened, have a look here:\
+> [Scene callbacks](Scene%20callbacks.md)
+
 There are three ways of opening a loading screen:
 
 1. Opening a collection *(specified in [collection menu](Scene%20manager%20window.md#collection-popup))*
