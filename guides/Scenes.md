@@ -46,13 +46,13 @@ Finally, just press import, and the imported scenes will now be usable in ASM.
 Blacklist can be configured in [settings](Scene%20manager%20window.md#assets-page).
 ## Persistent scenes
 
-Persistent scenes are scenes that do not automatically close when a collection is closed. This can be specified in the [scene menu](Scene%20manager%20window.md#scene-menu).
+Persistent scenes are scenes that do not automatically close when a collection is closed. This can be specified in the [scene popup](Scene%20manager%20window.md#scene-popup).
 ### Preloading
 WIP
 
 ### Scene merging
 
-Scenes can be merged by ctrl selecting two or more scenes in the scene manager window, and right clicking, then selecting 'merge scenes...'.
+Scenes can be merged by ctrl selecting two or more scenes in the [scene manager window](Scene%20manager%20window), and right clicking, then selecting 'merge scenes...'.
 
 ![](../image/scene-context-menu.png)
 
