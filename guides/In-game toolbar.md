@@ -1,3 +1,5 @@
+# In-game toolbar
+
 The in-game toolbar provides some debugging tools, especially useful in builds, relating to scene management.
 
 #### How do I use it?
