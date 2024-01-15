@@ -57,7 +57,7 @@ Scenes can be merged by ctrl selecting two or more scenes in the scene manager w
 ![](../image/scene-context-menu.png)
 
 Scenes can be merged programmatically as well:\
-*Only usable in editor*
+*Only usable in editor*\
 `SceneUtility.MergeScenes(targetScene, sceneToMergeIntoTargetScene); //Can accept multiple scenes in second argument`
 ### Scene splitting
 
@@ -67,5 +67,5 @@ Scenes can be split up into multiple by selecting two or more [GameObjects](http
 ![](../image/scene-split-result.png)
 
 Scenes can be split up programmatically as well:\
-*Only usable in editor*
+*Only usable in editor*\
 `SceneUtility.MoveToNewScene(gameObject); //Moves current game object into a new scene, method supports multiple objects`
