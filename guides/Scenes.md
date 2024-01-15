@@ -48,8 +48,45 @@ Blacklist can be configured in [settings](Scene%20manager%20window.md#assets-pag
 
 Persistent scenes are scenes that do not automatically close when a collection is closed. This can be specified in the [scene popup](Scene%20manager%20window.md#scene-popup).
 ### Preloading
-WIP
 
+A scene can be preloaded by calling `Scene.Preload()`, or by using [scene helper](Scene%20helper.md). Only one scene may be preloaded at a time, and no other scene operations can occur while one is, *this is a unity limitation*.
+
+```csharp
+using AdvancedSceneManager.Models;
+using UnityEngine;
+
+public class PreloadTrigger : MonoBehaviour
+{
+
+    public Scene sceneToPreload;
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (!sceneToPreload.isOpen && !sceneToPreload.isPreloaded)
+            sceneToPreload.Preload();
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        //User exited trigger, and since FinishPreload() has
+        //not been called if .isPreloaded is true, that means
+        //the user went backwards
+        if (sceneToPreload.isPreloaded)
+            sceneToPreload.DiscardPreload();
+    }
+
+    //Called from other, overlapping, trigger
+    public void FinishPreload()
+    {
+        if (sceneToPreload.isPreloaded)
+            sceneToPreload.FinishPreload();
+    }
+
+}
+```
+
+The currently preloaded scene can be retrieved statically by:\
+`AdvancedSceneManager.SceneManager.preloadedScene;`
 ### Scene merging
 
 Scenes can be merged by ctrl selecting two or more scenes in the [scene manager window](Scene%20manager%20window.md), and right clicking, then selecting 'merge scenes...'.
