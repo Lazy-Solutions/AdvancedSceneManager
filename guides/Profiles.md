@@ -1,3 +1,5 @@
+# Profiles
+
 Profiles in ASM can be used to quickly switch between different configurations and scene setups.
 
 Profiles contains:
