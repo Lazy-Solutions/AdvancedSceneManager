@@ -9,6 +9,6 @@ Scene bindings are used to open collections or scenes through a key or button bi
 
 Interaction can be used to specify when the collection or scene should close.
 * Open: Only open.
-* Hold: Keep open when button held down.
+* Hold: Keep open when button held down, then close.
 * Toggle: Toggle scene open or closed.
 
