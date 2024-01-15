@@ -21,9 +21,9 @@ Welcome to Advanced Scene Manager documentation.
 [Scene bindings](guides/Scene%20bindings.md)\
 [Standalone scenes](guides/Standalone%20scenes.md)\
 [Profiles](guides/Profiles.md)
+[Scenes](guides/Scenes.md)
 
 **WIP:**\
-Scenes\
 Scene collections\
 Scene operations\
 Addressables\
