@@ -7,9 +7,6 @@ Welcome to Advanced Scene Manager documentation.
 > Guides are handwritten articles to help you up to speed in working with ASM.
 
 [Quick start](guides/Quick%20start.md)\
-[Scene Manager](guides/Scene%20manager.md)\
-[An overview of scene management in ASM](guides/An%20overview%20of%20scene%20management%20in%20ASM.md)
-
 [Scene Manager Window](guides/Scene%20manager%20window.md)
 
 [Profiles](guides/Profiles.md)\
@@ -18,6 +15,9 @@ Welcome to Advanced Scene Manager documentation.
 [Scene collections](Scene%20collections.md)\
 [Loading screens](guides/Loading%20screens.md)\
 [Splash screens](guides/Splash%20screens.md)
+
+[Scene Manager](guides/Scene%20manager.md)\
+[An overview of scene management in ASM](guides/An%20overview%20of%20scene%20management%20in%20ASM.md)
 
 [Scene callbacks](guides/Scene%20callbacks.md)\
 [Scene Helper](guides/Scene%20helper.md)\
