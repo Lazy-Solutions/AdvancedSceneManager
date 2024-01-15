@@ -1,4 +1,4 @@
-## Loading screens
+# Loading screens
 
 There are three ways of opening a loading screen:
 
@@ -50,7 +50,7 @@ void _DoCoroutineWithLoadingScreen(Func<IEnumerator> coroutine, Scene loadingSce
 }
 ```
 
-### Custom loading screens
+## Custom loading screens
 
 Custom loading screens can be created by creating a script that inherits from `AdvancedSceneManager.Callbacks.LoadingScreen` and implement `OnOpen()`, `OnClose()`, `OnProgressChanged(float progress)`.
 
@@ -90,7 +90,7 @@ When script is finished, place it in a dedicated scene and [assign scene as load
 
 > Note if a custom loading screen is not showing up, you may have to modify the scene and save it *(note that scene must be dirty for it to save to disk)*, for the loading screen flag to appear.
 
-### Default loading screens
+## Default loading screens
 
 There are several default loading screens included in ASM:
 * **Fade**
