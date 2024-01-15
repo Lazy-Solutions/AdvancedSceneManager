@@ -1,15 +1,17 @@
+# Scenes
+
 Scenes in ASM are represented as [ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html), this is to provide a simple drag drop interface for scenes.
 
-Drag-and-drop can be used for the following scenarios:
-#### Add scene to a collection, or replace existing scene field.
+## Drag-and-drop can be used for the following scenarios:
+### Add scene to a collection, or replace existing scene field.
 
 ![](../image/drop-area.png)
-#### UnityEvent
+### UnityEvent
 
 [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html) On Click () handler for example:
 
 ![](../image/button-click-scene-open.png)
-#### Scripts:
+### Scripts:
 
   ```csharp
   using AdvancedSceneManager.Models;
@@ -27,7 +29,7 @@ Drag-and-drop can be used for the following scenarios:
   }
   ```
 
-### Importing
+## Importing
 
 Scenes must be imported to be used in ASM. You can do so by pressing the notification in the scene manager window.
 
@@ -47,7 +49,7 @@ Blacklist can be configured in [settings](Scene%20manager%20window.md#assets-pag
 ## Persistent scenes
 
 Persistent scenes are scenes that do not automatically close when a collection is closed. This can be specified in the [scene popup](Scene%20manager%20window.md#scene-popup).
-### Preloading
+## Preloading
 
 A scene can be preloaded by calling `Scene.Preload()`, or by using [scene helper](Scene%20helper.md). Only one scene may be preloaded at a time, and no other scene operations can occur while one is, *this is a unity limitation*.
 
@@ -87,7 +89,7 @@ public class PreloadTrigger : MonoBehaviour
 
 The currently preloaded scene can be retrieved statically by:\
 `AdvancedSceneManager.SceneManager.preloadedScene;`
-### Scene merging
+## Scene merging
 
 Scenes can be merged by ctrl selecting two or more scenes in the [scene manager window](Scene%20manager%20window.md), and right clicking, then selecting 'merge scenes...'.
 
@@ -96,7 +98,8 @@ Scenes can be merged by ctrl selecting two or more scenes in the [scene manager 
 Scenes can be merged programmatically as well:\
 *Only usable in editor*\
 `SceneUtility.MergeScenes(targetScene, sceneToMergeIntoTargetScene); //Can accept multiple scenes in second argument`
-### Scene splitting
+
+## Scene splitting
 
 Scenes can be split up into multiple by selecting two or more [GameObjects](https://docs.unity3d.com/Manual/class-GameObject.html) in the hierarchy.
 
