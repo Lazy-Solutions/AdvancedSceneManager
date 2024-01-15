@@ -1,4 +1,4 @@
-## Scene manager
+# Scene manager
 
 The scene manager class is meant to act as the the core API of ASM, and provides access to the most important systems within.
 
@@ -7,7 +7,7 @@ The scene manager class is meant to act as the the core API of ASM, and provides
 > Note when coming from 1.9:\
 > ASM 1.9 had multiple scene managers, these has been merged into one, SceneManager.runtime.
 
-## SceneManager.Assets
+## SceneManager.assets
 Provides access to ASM asset lists, which would be:
 * Collections
 * Scenes
@@ -20,15 +20,15 @@ SceneManager.assets.scenes.Where(s => s.name.StartsWith("Level")).ToArray();
 
 ## SceneManager.openScenes
 Provides access to the list of open scenes.\
-Proxy for: SceneManager.runtime.openScenes.
+Proxy for: `SceneManager.runtime.openScenes`.
 
 ## SceneManager.openCollection
 Provides access to the currently open collection, null if none.\
-Proxy for: SceneManager.runtime.openCollection.
+Proxy for: `SceneManager.runtime.openCollection`.
 
 ## SceneManager.preloadedScene
 Provides access to the currently preloaded scene, null if none.\
-Proxy for: SceneManager.runtime.preloadedScene.
+Proxy for: `SceneManager.runtime.preloadedScene`.
 
 ## SceneManager.runtime
 Provides access to runtime scene management.
@@ -71,7 +71,7 @@ void ToggleWhateverCollectionShouldOpenWhenAContainedSceneIsOpened()
 ## SceneManager.profile
 Provides access to the currently active profile, null if none.\
 Equivalent to:\
-Profile.current.
+`Profile.current`.
 
 ## SceneManager.isInitialized
 Gets whatever ASM is initialized after a domain reload. Some api:s may fail if this is false, most notably .assets.
