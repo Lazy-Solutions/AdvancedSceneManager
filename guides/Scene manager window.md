@@ -1,11 +1,14 @@
+# Scene manager window
+
 The scene manager window is the front-end for ASM. It can be used to manage collections, scenes, and behavior of ASM.
 
 ![](../image/scene-manager-window.png)
 
-The scene manager window can be opened through:\
+The scene manager window can be opened through:
+
 ![](../image/scene-manager-menu.png)
 
-# Main view
+## Main view
 ### Header
 
 ![](../image/scene-manager-window-header.png)
@@ -70,7 +73,7 @@ The footer contains, in order, left to right:
 * Scene helper button, provides an easy way to gain a drag drop reference to scene helper scriptable object, which can be used in UI button click, for example.
 * New collection split button, pressing dropdown section opens a popup where you can create a dynamic collection, or create normal collection from a template.
 
-# Collection popup
+## Collection popup
 
 ![](../image/scene-manager-window-collection-popup.png)
 
