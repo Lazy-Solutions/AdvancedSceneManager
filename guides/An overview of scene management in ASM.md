@@ -1,4 +1,4 @@
-## An overview of scene management in ASM
+# An overview of scene management in ASM
 
 ASM is structured into three levels:
 1. Surface level
@@ -7,7 +7,7 @@ ASM is structured into three levels:
 
 <br/>
 
-### Surface level:
+## Surface level:
 The surface level is most common level to interact with ASM.
 
 It includes:
@@ -17,28 +17,26 @@ It includes:
 
 <br/>
 
-### Intermediary level:
+## Intermediary level:
 The intermediary level tracks the open state of scenes and collections, and also verifies whatever a scene actually should be opened or not (ASM does not support duplicate instances of a scene).
 
-Can be accessed using:
-`SceneManager.runtime
+Can be accessed using:\
+`SceneManager.runtime`
 
 The surface level API is are mostly just proxy calls to the intermediary one:
 
 ```csharp
 public Scene : ASMModel
 {
-...
+	...
 	public SceneOperation Open() => SceneManager.runtime.Open(this);
-...
+	...
 }
 ```
 
-`SceneManager.runtime.Open(scene).Close(scene);`
-
 <br/>
 
-### Core level:
+## Core level:
 This is the core of ASM. It deals with the actual loading and unloading of scenes.
 
 `SceneOperation`
@@ -65,3 +63,17 @@ public void OnButtonClick() =>
 		Close(SceneManager.openScenes).
 		With(loadingScene);
 ```
+
+### Fluent api
+
+As you can also see above, SceneOperation supports a fluent api, allowing for things like this:
+```csharp
+
+SceneManager.runtime.Open(sceneToOpen).Close(closeAlreadyOpenScene).With(loadingScreenScene);
+
+//This is functionally equivalent to above
+sceneToOpen.Open().Close(closeAlreadyOpenScene).With(loadingScreenScene);
+
+```
+
+> You should have a look at `.With(..)` using intellisense, or in the [api documentation](../api/Core.SceneOperation.md), it has many overloads for various different things.
