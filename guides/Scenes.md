@@ -1,15 +1,15 @@
 Scenes in ASM are represented as [ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html), this is to provide a simple drag drop interface for scenes.
 
 Drag-and-drop can be used for the following scenarios:
-##### Add scene to a collection, or replace existing scene field.
+#### Add scene to a collection, or replace existing scene field.
 
 ![](../image/drop-area.png)
-##### UnityEvent
+#### UnityEvent
 
 [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html) On Click () handler for example:
 
 ![](../image/button-click-scene-open.png)
-##### Scripts:
+#### Scripts:
 
   ```csharp
   using AdvancedSceneManager.Models;
