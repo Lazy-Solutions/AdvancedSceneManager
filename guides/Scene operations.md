@@ -4,7 +4,7 @@ A scene operation in ASM is a basically a queued batch operation for opening and
 
 At its most basic form, it takes a list of scenes to close, and a list of scenes to open. Scenes are then evaluated (*scene must be open to be closed, and must be closed to be opened*), and then closes and opens them.
 
-On top of that you got some bells and whistles, like [loading screens](Loading%20sceens.md), [coroutine callbacks](Scene%20callbacks.md), [temporary thread priority switching](Scene%20manager%20window.md#collection-popup), and [automatically unloading unused assets](Scene%20manager%20window.md#collection-popup). Scene operation will also report overall progress.
+On top of that you got some bells and whistles, like [loading screens](Loading%20screens.md), [coroutine callbacks](Scene%20callbacks.md), [temporary thread priority switching](Scene%20manager%20window.md#collection-popup), and [automatically unloading unused assets](Scene%20manager%20window.md#collection-popup). Scene operation will also report overall progress.
 
 Scene operation also supports spam checking, and duplicate checking, preventing button spam for example, though it should be noted that the most fool-proof way is still to disable buttons or similar.
 
