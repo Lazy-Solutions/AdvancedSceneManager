@@ -22,7 +22,7 @@ API:\
 [Scene Manager](guides/Scene%20manager.md)\
 [An overview of scene management in ASM](guides/An%20overview%20of%20scene%20management%20in%20ASM.md)\
 [Scene callbacks](guides/Scene%20callbacks.md)\
-~~Scene operations~~
+[Scene operations](guides/Scene%20operations.md)
 
 Plugin support:\
 [Scene bindings](guides/Scene%20bindings.md)\
