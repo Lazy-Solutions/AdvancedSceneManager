@@ -12,7 +12,7 @@ RuntimeSceneLoader and EditorSceneLoader are global scene loaders, they can matc
 AddressablesSceneLoader and NetcodeSceneLoader are non-global scene loaders, they can only match scenes that have been flagged.
 
 Scenes can be flagged programmatically using:\
-`Scene.SetSceneLoader<T>()`\
+`Scene.SetSceneLoader<T>()`
 
 ![](../image/addressable-toggle.png)
 
