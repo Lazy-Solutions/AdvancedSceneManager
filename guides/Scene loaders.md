@@ -12,7 +12,7 @@ RuntimeSceneLoader and EditorSceneLoader are global scene loaders, they can matc
 AddressablesSceneLoader and NetcodeSceneLoader are non-global scene loaders, they can only match scenes that have been flagged.
 
 Scenes can be flagged programmatically using:\
-`Scene.SetSceneLoader<T>()`\
+`Scene.SetSceneLoader<T>()`
 
 ![](../image/addressable-toggle.png)
 
@@ -76,10 +76,8 @@ To make ASM use your custom scene loader you need to register it.
 [RuntimeInitializeOnLoadMethod]
 static void OnLoad()
 {
-	//Register scene loader.
 	//Conflicts can occur if multiple global ones are enabled at the same time.
 	SceneManager.runtime.AddSceneLoader<SpecificSceneLoader>();
-	//SceneManager.runtime.RemoveSceneLoader<SpecificSceneLoader>();
 }
 ```
 
