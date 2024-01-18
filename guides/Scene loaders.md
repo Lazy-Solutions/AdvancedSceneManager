@@ -76,10 +76,8 @@ To make ASM use your custom scene loader you need to register it.
 [RuntimeInitializeOnLoadMethod]
 static void OnLoad()
 {
-	//Register scene loader.
 	//Conflicts can occur if multiple global ones are enabled at the same time.
 	SceneManager.runtime.AddSceneLoader<SpecificSceneLoader>();
-	//SceneManager.runtime.RemoveSceneLoader<SpecificSceneLoader>();
 }
 ```
 
