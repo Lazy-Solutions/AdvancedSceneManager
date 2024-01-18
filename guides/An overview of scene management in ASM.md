@@ -1,4 +1,4 @@
-# An overview of scene management in ASM
+# An overview of ASM API structure
 
 ASM is structured into three levels:
 1. Surface level
