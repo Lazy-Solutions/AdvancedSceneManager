@@ -39,7 +39,6 @@ Represents a scene.
 * [AssetSearchString](Models.Scene.md#Models.Scene_1a4d4daa74fa2ce778cb7e354c4f70ee63)
 * [autoOpenInEditor](Models.Scene.md#Models.Scene_1a29633a70f28b6f817ffea8e394492f2b)
 * [autoOpenInEditorScenes](Models.Scene.md#Models.Scene_1a9cb1b2342e291019532ddebc6131a772)
-* [CheckIfSpecialScene](Models.Scene.md#Models.Scene_1aa98ce9d884fd180aa2b2257c4d3c5dad)
 * [ClearSceneLoader](Models.Scene.md#Models.Scene_1a249447740bfed24c37c909b7c6b15291)
 * [Close](Models.Scene.md#Models.Scene_1ae0aa66a0b2aa0b22d170d2bd3a808d0b)
 * [CreateInternal\< T \>](Models.ASMModel.md#Models.ASMModel_1a9c39a9aca180cb6ff4e68043dea6ac05)
@@ -2420,29 +2419,6 @@ static bool GetPath(object obj, out string path)
 
 * object **obj**
 * out string **path**
-
-**Return type**: bool
-
-
-
-
-
-## Package functions
-
-<a id="Models.Scene_1aa98ce9d884fd180aa2b2257c4d3c5dad"></a>
-### Function CheckIfSpecialScene
-
-
-
-```csharp
-bool CheckIfSpecialScene()
-```
-
-
-
-
-
-
 
 **Return type**: bool
 

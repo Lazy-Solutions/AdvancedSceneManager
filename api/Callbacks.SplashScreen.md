@@ -23,6 +23,7 @@ SplashScreen and LoadingScreen cannot coexist within the same scene.
 * [onDestroy](Callbacks.LoadingScreenBase.md#Callbacks.LoadingScreenBase_1a30906cc5e6cf6a2e86bb7b522cfe3a57)
 * [OnDestroy](Callbacks.LoadingScreenBase.md#Callbacks.LoadingScreenBase_1a1be5f5b23715843a7bfc4f2ebd6c7894)
 * [OnOpen](Callbacks.SplashScreen.md#Callbacks.SplashScreen_1afba004de08d7ab7dd577e7eb88d1c1a6)
+* [OnValidate](Callbacks.SplashScreen.md#Callbacks.SplashScreen_1ad6f3426582ec127d8e7fb06cdea121df)
 
 ## Private attributes
 
@@ -109,6 +110,27 @@ Calls DisplaySplashScreen, so make sure to call it manually or call base if over
 
 
 **Return type**: override IEnumerator
+
+
+
+
+
+<a id="Callbacks.SplashScreen_1ad6f3426582ec127d8e7fb06cdea121df"></a>
+### Function OnValidate
+
+
+
+```csharp
+virtual void OnValidate()
+```
+
+
+
+
+
+
+
+**Return type**: void
 
 
 
