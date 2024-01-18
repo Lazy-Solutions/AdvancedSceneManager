@@ -11,7 +11,7 @@ Scene operation also supports spam checking, and duplicate checking, preventing 
 ## API
 
 Scene operations is the core level API in ASM, all other functions use it, more information about the different layers of APIs here:\
-[An overview of scene management in ASM](An%20overview%20of%20scene%20management%20in%20ASM.md)
+[An overview of ASM API structure](An%20overview%20of%20ASM%20API%20structure.md)
 
 An operation can be started in code by using either of these two:\
 `SceneOperation.Queue()`\
