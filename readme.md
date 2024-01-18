@@ -23,7 +23,7 @@ API:\
 [An overview of scene management in ASM](guides/An%20overview%20of%20scene%20management%20in%20ASM.md)\
 [Scene callbacks](guides/Scene%20callbacks.md)\
 [Scene operations](guides/Scene%20operations.md)\
-~~Scene loaders~~
+[Scene loaders](guides/Scene%20loaders.md)
 
 Plugin support:\
 [Scene bindings](guides/Scene%20bindings.md)\
