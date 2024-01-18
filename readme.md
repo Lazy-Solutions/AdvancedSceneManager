@@ -22,17 +22,18 @@ API:\
 [Scene Manager](guides/Scene%20manager.md)\
 [An overview of scene management in ASM](guides/An%20overview%20of%20scene%20management%20in%20ASM.md)\
 [Scene callbacks](guides/Scene%20callbacks.md)\
-[Scene operations](guides/Scene%20operations.md)
+[Scene operations](guides/Scene%20operations.md)\
+~~Scene loaders~~
 
 Plugin support:\
 [Scene bindings](guides/Scene%20bindings.md)\
 [Netcode](guides/Netcode.md)\
-~~Addressables~~
+[Addressables](guides/addressables.md)
 
 Misc:\
 [Scene Helper](guides/Scene%20helper.md)\
 [In-game toolbar](guides/In-game%20toolbar.md)\
-~~Cross-scene references~~
+[Cross-scene references](guides/Cross-scene%20references.md)
 
 </br>
 
