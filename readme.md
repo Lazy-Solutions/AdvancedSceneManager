@@ -17,8 +17,8 @@ Welcome to Advanced Scene Manager documentation.
 [Splash screens](guides/Splash%20screens.md)
 
 API:\
+[An overview of ASM API structure](guides/An%20overview%20of%20scene%20management%20in%20ASM.md)\
 [Scene Manager](guides/Scene%20manager.md)\
-[An overview of scene management in ASM](guides/An%20overview%20of%20scene%20management%20in%20ASM.md)\
 [Scene callbacks](guides/Scene%20callbacks.md)\
 [Scene operations](guides/Scene%20operations.md)\
 [Scene loaders](guides/Scene%20loaders.md)
