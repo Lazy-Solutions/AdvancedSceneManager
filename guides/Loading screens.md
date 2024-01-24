@@ -105,3 +105,6 @@ There are several default loading screens included in ASM:
 
 These are located in\
 `/AdvancedSceneManager/Defaults/Loading Screen/`
+
+You can also access them programmatically:\
+`SceneManager.assets.defaults.fadeScreen`
