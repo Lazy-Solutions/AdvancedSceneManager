@@ -65,7 +65,6 @@ static void OnLoad
 	SceneManager.runtime.sceneOpened += (s) => Log(s, "opened");
 	SceneManager.runtime.sceneClosed += (s) => Log(s, "closed");
 	SceneManager.runtime.scenePreloaded += (s) => Log(s, "preloaded");
-	
 }
 
 void Log(Scene scene, string action)
