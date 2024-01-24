@@ -7,7 +7,8 @@ Welcome to Advanced Scene Manager documentation.
 > Guides are handwritten articles to help you up to speed in working with ASM.
 
 [Quick start](guides/Quick%20start.md)\
-[Scene Manager Window](guides/Scene%20manager%20window.md)
+[Scene Manager Window](guides/Scene%20manager%20window.md)\
+[Common questions](Common%20questions.md)
 
 [Profiles](guides/Profiles.md)\
 [Scenes](guides/Scenes.md)\
