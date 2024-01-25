@@ -36,9 +36,9 @@ Welcome to Advanced Scene Manager documentation.
 [Cross-scene references](guides/Cross-scene%20references.md)
 ## Example projects
 
-[Level select](https://github.com/Lazy-Solutions/example.asm.level-select)
-[Preloading](https://github.com/Lazy-Solutions/example.asm.preloading)
-[Streaming](https://github.com/Lazy-Solutions/example.asm.streaming)
+[Level select](https://github.com/Lazy-Solutions/example.asm.level-select)\
+[Preloading](https://github.com/Lazy-Solutions/example.asm.preloading)\
+[Streaming](https://github.com/Lazy-Solutions/example.asm.streaming)\
 [Netcode](https://github.com/Lazy-Solutions/example.asm.netcode)
 ## Example scripts
 
