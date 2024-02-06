@@ -32,8 +32,8 @@ A scene operation is a queueable operation that can open or close scenes. See al
 * [Close](Core.SceneOperation.md#Core.SceneOperation_1a4a3e38682eac62caae129c4170c1d5a4)
 * [Close](Core.SceneOperation.md#Core.SceneOperation_1a6cab5f0d24db1534bf42522a4d96c221)
 * [close](Core.SceneOperation.md#Core.SceneOperation_1aeb4625e912b7b0de9708544ae718aee0)
-* [CloseAll](Core.SceneOperation.md#Core.SceneOperation_1a16320b0eb199b75a8dbbf9f7b5b016e4)
-* [CloseAllNonPersistent](Core.SceneOperation.md#Core.SceneOperation_1a124b2d1591d934de8a672fdfd39c84a5)
+* [CloseAll](Core.SceneOperation.md#Core.SceneOperation_1aea08f3999604144fa716b7359304a9e8)
+* [CloseAllNonPersistent](Core.SceneOperation.md#Core.SceneOperation_1a5fb8cd7a24a7ac818b3f10941b6f5751)
 * [closedScenes](Core.SceneOperation.md#Core.SceneOperation_1abf8adf4bb21e27a5311176386bd41626)
 * [collection](Core.SceneOperation.md#Core.SceneOperation_1a8f37d8ba65df9a35efdeaf4d88836bd4)
 * [coroutine](Core.SceneOperation.md#Core.SceneOperation_1a2855e0228b6fe56018e079f08ff616a0)
@@ -1212,7 +1212,7 @@ readonly List<(Phase phase, When when)> callbacksRun = new()
 
 
 ```csharp
-Dictionary<Scene, float> sceneProgress
+Dictionary<Scene, float> sceneProgress = new()
 ```
 
 
@@ -2862,13 +2862,13 @@ Specifies custom progress that will be counted as part of progress.
 
 
 
-<a id="Core.SceneOperation_1a16320b0eb199b75a8dbbf9f7b5b016e4"></a>
+<a id="Core.SceneOperation_1aea08f3999604144fa716b7359304a9e8"></a>
 ### Function CloseAll
 
 
 
 ```csharp
-void CloseAll()
+void CloseAll(params Scene[] except)
 ```
 
 Closes all scenes prior to opening any scenes.
@@ -2877,19 +2877,23 @@ Closes all scenes prior to opening any scenes.
 
 
 
+**Parameters**:
+
+* params [Scene](Models.Scene.md#Models.Scene)[] **except**
+
 **Return type**: void
 
 
 
 
 
-<a id="Core.SceneOperation_1a124b2d1591d934de8a672fdfd39c84a5"></a>
+<a id="Core.SceneOperation_1a5fb8cd7a24a7ac818b3f10941b6f5751"></a>
 ### Function CloseAllNonPersistent
 
 
 
 ```csharp
-void CloseAllNonPersistent()
+void CloseAllNonPersistent(params Scene[] except)
 ```
 
 Closes all non-persistent scenes prior to opening any scenes.
@@ -2897,6 +2901,10 @@ Closes all non-persistent scenes prior to opening any scenes.
 
 
 
+
+**Parameters**:
+
+* params [Scene](Models.Scene.md#Models.Scene)[] **except**
 
 **Return type**: void
 
@@ -3008,7 +3016,7 @@ SceneOperation SetThreadPriority(SceneCollection collection, bool ignoreQueueChe
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

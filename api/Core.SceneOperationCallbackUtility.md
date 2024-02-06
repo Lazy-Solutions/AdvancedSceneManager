@@ -47,7 +47,7 @@ static IEnumerator Run(this IEnumerable< Callback > callbacks, SceneOperation op
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

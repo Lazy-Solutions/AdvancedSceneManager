@@ -438,7 +438,7 @@ Stops main thread utility coroutine.
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

@@ -449,7 +449,7 @@ Creates a profile. Throws if name is invalid.
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

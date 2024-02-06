@@ -38,7 +38,7 @@ Represents a Scene that changes depending on active Profile.
 * [Open](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a6e22da7af68d7d0cc417564e2d165100)
 * [OpenWithLoadingScreen](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a596aef64a1daff6d0e94e5eef6b5b694)
 * [operator Scene](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a14c563db6bf415988125f31da5b74b9e)
-* [Preload](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a4f8dc01cc0f4e8ea260492ae826642e6)
+* [Preload](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a46d15b04a551a6ba377bd36797fa9720)
 * [SetActive](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a6e24e8c83077da760962af8be205d942)
 * [ToggleOpen](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a2723a94a783092049158dd72220c0611)
 
@@ -147,24 +147,28 @@ No effect if scene is already closed.
 
 
 
-<a id="Models.Utility.ProfileDependentScene_1a4f8dc01cc0f4e8ea260492ae826642e6"></a>
+<a id="Models.Utility.ProfileDependentScene_1a46d15b04a551a6ba377bd36797fa9720"></a>
 ### Function Preload
 
 
 
 ```csharp
-SceneOperation Preload()
+SceneOperation Preload(Action onPreloaded=null)
 ```
 
+Preloads the scene, to be displayed at a later time. See also: FinishPreload, DiscardPreload.
+
+Scene must be closed beforehand.
 
 
 
+**Parameters**:
 
-
+* Action **onPreloaded** = null 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [Preload](Models.Scene.IMethods.md#Models.Scene.IMethods_1a4f8dc01cc0f4e8ea260492ae826642e6)
+**Reimplements**: [Preload](Models.Scene.IMethods.md#Models.Scene.IMethods_1a46d15b04a551a6ba377bd36797fa9720)
 
 
 
@@ -179,9 +183,9 @@ SceneOperation Preload()
 SceneOperation FinishPreload()
 ```
 
+Finishes preloading the scene, displaying it.
 
-
-
+Scene must be preloaded beforehand.
 
 
 
@@ -202,7 +206,7 @@ SceneOperation FinishPreload()
 SceneOperation DiscardPreload()
 ```
 
-
+Discards the scene, if preloaded.
 
 
 
@@ -225,7 +229,7 @@ SceneOperation DiscardPreload()
 SceneOperation OpenWithLoadingScreen(Scene loadingScreen)
 ```
 
-
+Opens the scene while a loading screen is open.
 
 
 
@@ -233,7 +237,7 @@ SceneOperation OpenWithLoadingScreen(Scene loadingScreen)
 
 **Parameters**:
 
-* [Scene](Models.Scene.md#Models.Scene) **loadingScreen**
+* [Scene](Models.Scene.md#Models.Scene) **loadingScene**
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
@@ -252,7 +256,7 @@ SceneOperation OpenWithLoadingScreen(Scene loadingScreen)
 void SetActive()
 ```
 
-
+Sets the scene as active in heirarchy.
 
 
 
@@ -275,7 +279,7 @@ void SetActive()
 void _Open()
 ```
 
-
+Event method. Its meant for UnityEngine.Events.UnityEvent.
 
 
 
@@ -482,7 +486,7 @@ void _SetActive()
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

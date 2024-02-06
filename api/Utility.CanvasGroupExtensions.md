@@ -46,7 +46,7 @@ Animates the alpha of a CanvasGroup.
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

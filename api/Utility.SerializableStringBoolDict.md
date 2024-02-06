@@ -25,7 +25,7 @@ A serializable dictionary of string and bool.
 * [Values](Utility.SerializableDictionary.md#Utility.SerializableDictionary_1a5166f327ff9f4689d0f74748d06c14de)
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

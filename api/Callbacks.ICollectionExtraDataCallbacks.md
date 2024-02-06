@@ -21,7 +21,7 @@ See also: ICollectionExtraDataCallbacksAsync.
 * [OnCollectionOpen](Callbacks.ICollectionOpenAsync.md#Callbacks.ICollectionOpenAsync_1a0ba2b69765f2313c6507d69841d56ed4)
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

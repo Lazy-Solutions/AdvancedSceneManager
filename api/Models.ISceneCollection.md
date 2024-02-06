@@ -250,7 +250,7 @@ void OnPropertyChanged([CallerMemberName] string propertyName=null)
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

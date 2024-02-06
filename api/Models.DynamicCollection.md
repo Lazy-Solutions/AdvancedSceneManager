@@ -494,7 +494,7 @@ IEnumerator IEnumerable. GetEnumerator()
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

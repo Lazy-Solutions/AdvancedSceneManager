@@ -177,7 +177,7 @@ Can be called outside of editor, but has no effect.
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

@@ -31,7 +31,6 @@ Represents a template for a SceneCollection.
 * [count](Models.SceneCollection.md#Models.SceneCollection_1ad43c3812e6d13e0518d9f8b8f463ffcf)
 * [CreateInternal\< T \>](Models.ASMModel.md#Models.ASMModel_1a9c39a9aca180cb6ff4e68043dea6ac05)
 * [description](Models.SceneCollection.md#Models.SceneCollection_1a23af17c78302b71c14ef38ea40b8d1d7)
-* [effectiveActiveScene](Models.SceneCollection.md#Models.SceneCollection_1a3e12b97cb6908d993f3d3cf3e4f339b2)
 * [effectiveLoadingScreen](Models.SceneCollection.md#Models.SceneCollection_1a2b9fdfaebc00bc5d7f466272defbb15d)
 * [Find](Models.SceneCollection.md#Models.SceneCollection_1adafc0f898ca1fe516d425b3b4bb0df4a)
 * [FindProfile](Models.SceneCollection.md#Models.SceneCollection_1a5a5f30833bb1f10b34f229e84f2b7fdc)
@@ -112,7 +111,7 @@ new string name
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

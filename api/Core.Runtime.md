@@ -32,7 +32,7 @@ Manages runtime functionality for Advanced Scene Manager such as open scenes and
 * [Close](Core.Runtime.md#Core.Runtime_1a6cab5f0d24db1534bf42522a4d96c221)
 * [Close](Core.Runtime.md#Core.Runtime_1a486db83dc1371e62064f87c69708bd27)
 * [Close](Core.Runtime.md#Core.Runtime_1a868a456558e1883839dd92c7a6c7d562)
-* [CloseAll](Core.Runtime.md#Core.Runtime_1a3a64f312b7f7f931cc83bf71622953d6)
+* [CloseAll](Core.Runtime.md#Core.Runtime_1a437e9ad7a4064d91c8366f1c0f09d0a5)
 * [collectionClosed](Core.Runtime.md#Core.Runtime_1af59d13ddd3950f339bd11bf5fb53e807)
 * [collectionOpened](Core.Runtime.md#Core.Runtime_1a9494c3ca2346f04fbeedc1bb0da8ed12)
 * [currentOperation](Core.Runtime.md#Core.Runtime_1a8589fc4e9723e6716a968b3883a8ba93)
@@ -80,7 +80,7 @@ Manages runtime functionality for Advanced Scene Manager such as open scenes and
 * [openScenes](Core.Runtime.md#Core.Runtime_1a3af4432ba0deb74cf5a3e59dbd2b0970)
 * [OpenWithLoadingScreen](Core.Runtime.md#Core.Runtime_1a235c86b206dade3f091c5ac1ab5a1fca)
 * [OpenWithLoadingScreen](Core.Runtime.md#Core.Runtime_1a19a9e8130778421fa690c10378d0a8c1)
-* [Preload](Core.Runtime.md#Core.Runtime_1a54235ad5f28f51d774b67c1a9a64f77c)
+* [Preload](Core.Runtime.md#Core.Runtime_1ac8d87e317a43821c95bb26b0440d25e1)
 * [preloadCallback](Core.Runtime.md#Core.Runtime_1ad29376a20628ab1d4301b7d33a43d829)
 * [preloadedScene](Core.Runtime.md#Core.Runtime_1a1dba2cea10612a53f5a08062a4576e9c)
 * [queuedOperations](Core.Runtime.md#Core.Runtime_1a58edb432bfce40728a7484644d123743)
@@ -92,6 +92,7 @@ Manages runtime functionality for Advanced Scene Manager such as open scenes and
 * [sceneClosed](Core.Runtime.md#Core.Runtime_1ac7d2ebacfd47a3799b1ad7ff810f6d8d)
 * [sceneLoaders](Core.Runtime.md#Core.Runtime_1afb0c596154cc5ee6b6222e3c8720df94)
 * [sceneOpened](Core.Runtime.md#Core.Runtime_1abefa4fe2944c3cd53adab0567794ca48)
+* [scenePreloaded](Core.Runtime.md#Core.Runtime_1a304da872ce65014aede66614cc972254)
 * [ScenesToClose](Core.Runtime.md#Core.Runtime_1ab99253f00be9d58c48bf74d301dffb2b)
 * [SetActive](Core.Runtime.md#Core.Runtime_1ad6cbf8337b1a3c0f26dae6e9a131256e)
 * [startedWorking](Core.Runtime.md#Core.Runtime_1a99443a735eb8aff05ce148c20c435e37)
@@ -672,6 +673,29 @@ Occurs when a collection is closed.
 
 
 
+<a id="Core.Runtime_1a304da872ce65014aede66614cc972254"></a>
+### Event scenePreloaded
+
+
+
+
+
+```csharp
+Action<Scene> scenePreloaded
+```
+
+Occurs when a scene is preloaded.
+
+
+
+
+
+**Type**: Action< [Scene](Models.Scene.md#Models.Scene) >
+
+
+
+
+
 <a id="Core.Runtime_1a99443a735eb8aff05ce148c20c435e37"></a>
 ### Event startedWorking
 
@@ -946,7 +970,7 @@ Open scenes will not be re-opened, please close it first.
 SceneOperation OpenWithLoadingScreen(Scene scene, Scene loadingScreen)
 ```
 
-Opens a scene with a loading screen.
+
 
 
 
@@ -1064,16 +1088,16 @@ Closes persistent scenes.
 
 
 
-<a id="Core.Runtime_1a54235ad5f28f51d774b67c1a9a64f77c"></a>
+<a id="Core.Runtime_1ac8d87e317a43821c95bb26b0440d25e1"></a>
 ### Function Preload
 
 
 
 ```csharp
-SceneOperation Preload(Scene scene)
+SceneOperation Preload(Scene scene, Action onPreloaded=null)
 ```
 
-Preloads the scene.
+
 
 
 
@@ -1082,6 +1106,7 @@ Preloads the scene.
 **Parameters**:
 
 * [Scene](Models.Scene.md#Models.Scene) **scene**
+* Action **onPreloaded** = null 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
@@ -1098,7 +1123,7 @@ Preloads the scene.
 SceneOperation FinishPreload(Scene scene)
 ```
 
-Finishes the preload of the scene, if open.
+
 
 
 
@@ -1643,13 +1668,13 @@ Gets whatever this collection is tracked as open.
 
 
 
-<a id="Core.Runtime_1a3a64f312b7f7f931cc83bf71622953d6"></a>
+<a id="Core.Runtime_1a437e9ad7a4064d91c8366f1c0f09d0a5"></a>
 ### Function CloseAll
 
 
 
 ```csharp
-SceneOperation CloseAll(bool exceptLoadingScreens=true, bool exceptUnimported=true)
+SceneOperation CloseAll(bool exceptLoadingScreens=true, bool exceptUnimported=true, params Scene[] except)
 ```
 
 Closes all scenes and collections.
@@ -1662,6 +1687,7 @@ Closes all scenes and collections.
 
 * bool **exceptLoadingScreens** = true 
 * bool **exceptUnimported** = true 
+* params [Scene](Models.Scene.md#Models.Scene)[] **except**
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
@@ -2324,7 +2350,7 @@ void OnAllScenesClosed()
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

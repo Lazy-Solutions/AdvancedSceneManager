@@ -268,7 +268,7 @@ static IEnumerable< IEnumerable< T > > GroupConsecutive< T >(this IEnumerable< T
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

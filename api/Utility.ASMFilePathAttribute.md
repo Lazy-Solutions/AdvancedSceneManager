@@ -72,5 +72,6 @@ ASMFilePathAttribute(string relativePath)
 
 
 
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
 
+
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

@@ -42,7 +42,7 @@ Represents scene helper. Contains functions for opening / closing collections an
 * [OpenAdditive](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a3d24a2053e8b02066280728504cf51fd)
 * [OpenWhereNameStartsWith](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1ad6cd5027def67f6f26485c1ba7f4b287)
 * [OpenWithLoadingScreen](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a2570f50612f21750ef15fe0e3981e40a)
-* [Preload](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a54235ad5f28f51d774b67c1a9a64f77c)
+* [Preload](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1ac8d87e317a43821c95bb26b0440d25e1)
 * [Quit](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1ab931737e073f8a2f3c2fae9fe20c1783)
 * [Restart](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a6bdbb9a2345c126ae0d72b1e2a9a21d5)
 * [RestartCollection](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a5f3ae13043014e78f789d265a548345d)
@@ -358,7 +358,7 @@ Already open scenes not affected.
 SceneOperation ToggleOpenState(Scene scene)
 ```
 
-
+Toggles the open state of this scene.
 
 
 
@@ -385,7 +385,7 @@ SceneOperation ToggleOpenState(Scene scene)
 SceneOperation ToggleOpen(Scene scene, bool? openState=null)
 ```
 
-
+Toggles the open state of the specified scene, or ensures the state specified.
 
 
 
@@ -413,7 +413,7 @@ SceneOperation ToggleOpen(Scene scene, bool? openState=null)
 SceneOperation Close(Scene scene)
 ```
 
-Closes the scene.
+Closes the specified scene.
 
 Already closed scenes not affected.
 
@@ -431,28 +431,29 @@ Already closed scenes not affected.
 
 
 
-<a id="Models.ASMSceneHelper_1a54235ad5f28f51d774b67c1a9a64f77c"></a>
+<a id="Models.ASMSceneHelper_1ac8d87e317a43821c95bb26b0440d25e1"></a>
 ### Function Preload
 
 
 
 ```csharp
-SceneOperation Preload(Scene scene)
+SceneOperation Preload(Scene scene, Action onPreloaded=null)
 ```
 
+Preloads the specified scene, to be displayed at a later time. See also: FinishPreload(Scene), DiscardPreload(Scene).
 
-
-
+Scene must be closed beforehand.
 
 
 
 **Parameters**:
 
 * [Scene](Models.Scene.md#Models.Scene) **scene**
+* Action **onPreloaded** = null 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [Preload](Models.Scene.IMethods___target.md#Models.Scene.IMethods___target_1a54235ad5f28f51d774b67c1a9a64f77c)
+**Reimplements**: [Preload](Models.Scene.IMethods___target.md#Models.Scene.IMethods___target_1ac8d87e317a43821c95bb26b0440d25e1)
 
 
 
@@ -467,9 +468,9 @@ SceneOperation Preload(Scene scene)
 SceneOperation FinishPreload(Scene scene)
 ```
 
+Finishes preloading the specified scene, displaying it.
 
-
-
+Scene must be preloaded beforehand.
 
 
 
@@ -494,7 +495,7 @@ SceneOperation FinishPreload(Scene scene)
 SceneOperation DiscardPreload(Scene scene)
 ```
 
-
+Discards the specified scene, if preloaded.
 
 
 
@@ -521,7 +522,7 @@ SceneOperation DiscardPreload(Scene scene)
 SceneOperation OpenWithLoadingScreen(Scene scene, Scene loadingScene)
 ```
 
-
+Opens the specified scene while a loading screen is open.
 
 
 
@@ -549,7 +550,7 @@ SceneOperation OpenWithLoadingScreen(Scene scene, Scene loadingScene)
 void SetActive(Scene scene)
 ```
 
-
+Sets the specified scene as active in heirarchy.
 
 
 
@@ -845,7 +846,7 @@ void RestartCollection()
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

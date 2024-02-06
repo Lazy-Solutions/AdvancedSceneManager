@@ -115,7 +115,7 @@ Represents a scene.
 * [operator!=](Models.Scene.md#Models.Scene_1a944d9c1614aa8b5e2e616ccc4652ddcb)
 * [operator==](Models.Scene.md#Models.Scene_1a7968e8ff985a6e919ec8434695cab501)
 * [path](Models.Scene.md#Models.Scene_1a46c20eb2a26abeb1e934cd66e1dd6484)
-* [Preload](Models.Scene.md#Models.Scene_1a4f8dc01cc0f4e8ea260492ae826642e6)
+* [Preload](Models.Scene.md#Models.Scene_1a46d15b04a551a6ba377bd36797fa9720)
 * [PropertyChanged](Models.ASMModel.md#Models.ASMModel_1aa421d817626998e9bcafaf0d70106b7f)
 * [Rename](Models.ASMModel.md#Models.ASMModel_1a96a1684ac055649b6eedd67758dcfc77)
 * [Save](Models.ASMModel.md#Models.ASMModel_1aaf937141229fcfe4a2e1b387cff8e758)
@@ -1266,24 +1266,28 @@ No effect if scene is already closed.
 
 
 
-<a id="Models.Scene_1a4f8dc01cc0f4e8ea260492ae826642e6"></a>
+<a id="Models.Scene_1a46d15b04a551a6ba377bd36797fa9720"></a>
 ### Function Preload
 
 
 
 ```csharp
-SceneOperation Preload()
+SceneOperation Preload(Action onPreloaded=null)
 ```
 
+Preloads the scene, to be displayed at a later time. See also: FinishPreload, DiscardPreload.
+
+Scene must be closed beforehand.
 
 
 
+**Parameters**:
 
-
+* Action **onPreloaded** = null 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [Preload](Models.Scene.IMethods.md#Models.Scene.IMethods_1a4f8dc01cc0f4e8ea260492ae826642e6)
+**Reimplements**: [Preload](Models.Scene.IMethods.md#Models.Scene.IMethods_1a46d15b04a551a6ba377bd36797fa9720)
 
 
 
@@ -1298,9 +1302,9 @@ SceneOperation Preload()
 SceneOperation FinishPreload()
 ```
 
+Finishes preloading the scene, displaying it.
 
-
-
+Scene must be preloaded beforehand.
 
 
 
@@ -1321,7 +1325,7 @@ SceneOperation FinishPreload()
 SceneOperation DiscardPreload()
 ```
 
-
+Discards the scene, if preloaded.
 
 
 
@@ -1344,7 +1348,7 @@ SceneOperation DiscardPreload()
 SceneOperation OpenWithLoadingScreen(Scene loadingScreen)
 ```
 
-
+Opens the scene while a loading screen is open.
 
 
 
@@ -1352,7 +1356,7 @@ SceneOperation OpenWithLoadingScreen(Scene loadingScreen)
 
 **Parameters**:
 
-* [Scene](Models.Scene.md#Models.Scene) **loadingScreen**
+* [Scene](Models.Scene.md#Models.Scene) **loadingScene**
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
@@ -1371,7 +1375,7 @@ SceneOperation OpenWithLoadingScreen(Scene loadingScreen)
 void SetActive()
 ```
 
-
+Sets the scene as active in heirarchy.
 
 
 
@@ -1394,7 +1398,7 @@ void SetActive()
 void _Open()
 ```
 
-
+Event method. Its meant for UnityEngine.Events.UnityEvent.
 
 
 
@@ -2427,7 +2431,7 @@ static bool GetPath(object obj, out string path)
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 

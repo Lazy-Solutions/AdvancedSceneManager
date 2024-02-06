@@ -17,5 +17,3 @@ Helper script hosted in DontDestroyOnLoad.
 ## Members
 
 
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
-

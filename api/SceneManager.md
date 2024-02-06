@@ -274,7 +274,7 @@ Will call immediately if already initialized.
 
 
 
+
+
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-
-
 
