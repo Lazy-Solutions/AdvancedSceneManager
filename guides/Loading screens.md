@@ -67,10 +67,10 @@ using UnityEngine.UI;
 public class ProgressBarLoadingScreen : LoadingScreen
 {
 
-    public CanvasGroup fadeGroup;
     public Slider slider;
+    public CanvasGroup fadeGroup;
     public float fadeDuration = 0.5f;
-
+    
     public override IEnumerator OnOpen() =>
         FadeIn();
 
