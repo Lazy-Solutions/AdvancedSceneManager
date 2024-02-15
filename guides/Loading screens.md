@@ -58,53 +58,57 @@ void _DoCoroutineWithLoadingScreen(Func<IEnumerator> coroutine, Scene loadingSce
 Custom loading screens can be created by creating a script that inherits from `AdvancedSceneManager.Callbacks.LoadingScreen` and implement `OnOpen()`, `OnClose()`, `OnProgressChanged(float progress)`.
 
 ```csharp
+using System.Collections;
 using AdvancedSceneManager.Callbacks;
 using AdvancedSceneManager.Utility;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class ProgressBarLoadingScreen : LoadingScreen
 {
 
-	public CanvasGroup fadeGroup;
-	public Slider slider;
-	
-	public override IEnumerator OnOpen() =>
-		FadeIn();
-	
-	public override IEnumerator OnClose()
-	{
-		
-		//Hide slider before fade, since it is brighter than background and will 
-		//appear to stay on screen for longer than background which looks bad
-		if (slider)
-			slider.gameObject.SetActive(false);
-			
-		yield return FadeOut();
-		
-	}
-	
-	public override void OnProgressChanged(float progress)
-	{
-		//You could also use base.operation.progress to
-		//retrieve progress in Update() for example.
-		if (slider)
-			slider.value = progress; 
-	}
+    public CanvasGroup fadeGroup;
+    public Slider slider;
+    public float fadeDuration = 0.5f;
 
-	IEnumerator FadeIn()
-	{
+    public override IEnumerator OnOpen() =>
+        FadeIn();
 
-		if ((fadeInDurationOverride ?? fadeDuration) > 0)
-			yield return fadeGroup.Fade(1, fadeInDurationOverride ?? fadeDuration);
-		else
-			fadeGroup.alpha = 1;
+    public override IEnumerator OnClose()
+    {
 
-	}
+        //Hide slider before fade, since it is brighter than background and will 
+        //appear to stay on screen for longer than background which looks bad
+        if (slider)
+            slider.gameObject.SetActive(false);
 
-	IEnumerator FadeOut()
-	{
-		yield return fadeGroup.Fade(0, fadeDuration);
-	}
-	
+        yield return FadeOut();
+
+    }
+
+    public override void OnProgressChanged(float progress)
+    {
+        //You could also use base.operation.progress to
+        //retrieve progress in Update() for example.
+        if (slider)
+            slider.value = progress;
+    }
+
+    IEnumerator FadeIn()
+    {
+
+        if (fadeDuration > 0)
+            yield return fadeGroup.Fade(1, fadeDuration);
+        else
+            fadeGroup.alpha = 1;
+
+    }
+
+    IEnumerator FadeOut()
+    {
+        yield return fadeGroup.Fade(0, fadeDuration);
+    }
+
 }
 ```
 
