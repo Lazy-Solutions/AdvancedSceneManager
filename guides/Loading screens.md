@@ -63,7 +63,8 @@ using AdvancedSceneManager.Utility;
 
 public class ProgressBarLoadingScreen : LoadingScreen
 {
-	
+
+	public CanvasGroup fadeGroup;
 	public Slider slider;
 	
 	public override IEnumerator OnOpen() =>
@@ -90,21 +91,20 @@ public class ProgressBarLoadingScreen : LoadingScreen
 	}
 
 	IEnumerator FadeIn()
-        {
+	{
 
-            fadeBackground.color = color; //Color can be changed when using FadeUtility methods
+		if ((fadeInDurationOverride ?? fadeDuration) > 0)
+			yield return fadeGroup.Fade(1, fadeInDurationOverride ?? fadeDuration);
+		else
+			fadeGroup.alpha = 1;
 
-            if ((fadeInDurationOverride ?? fadeDuration) > 0)
-                yield return fadeGroup.Fade(1, fadeInDurationOverride ?? fadeDuration);
-            else
-                fadeGroup.alpha = 1;
+	}
 
-        }
-
-        IEnumerator FadeOut()
-        {
-            yield return fadeGroup.Fade(0, fadeDuration);
-        }
+	IEnumerator FadeOut()
+	{
+		yield return fadeGroup.Fade(0, fadeDuration);
+	}
+	
 }
 ```
 
