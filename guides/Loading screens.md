@@ -58,6 +58,9 @@ void _DoCoroutineWithLoadingScreen(Func<IEnumerator> coroutine, Scene loadingSce
 Custom loading screens can be created by creating a script that inherits from `AdvancedSceneManager.Callbacks.LoadingScreen` and implement `OnOpen()`, `OnClose()`, `OnProgressChanged(float progress)`.
 
 ```csharp
+using AdvancedSceneManager.Callbacks;
+using AdvancedSceneManager.Utility;
+
 public class ProgressBarLoadingScreen : LoadingScreen
 {
 	
@@ -85,7 +88,23 @@ public class ProgressBarLoadingScreen : LoadingScreen
 		if (slider)
 			slider.value = progress; 
 	}
-	
+
+	IEnumerator FadeIn()
+        {
+
+            fadeBackground.color = color; //Color can be changed when using FadeUtility methods
+
+            if ((fadeInDurationOverride ?? fadeDuration) > 0)
+                yield return fadeGroup.Fade(1, fadeInDurationOverride ?? fadeDuration);
+            else
+                fadeGroup.alpha = 1;
+
+        }
+
+        IEnumerator FadeOut()
+        {
+            yield return fadeGroup.Fade(0, fadeDuration);
+        }
 }
 ```
 
