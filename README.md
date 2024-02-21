@@ -94,7 +94,7 @@ Patches are partial updates that are too important to have our users wait for, a
 ## Contact
 Want to get into contact with us? Report issues?\
 [Github issues](https://github.com/Lazy-Solutions/AdvancedSceneManager/issues)\
-[Discord - Lazy Solutions](https://discord.gg/pnRn6zeFEJ)
+[Discord - Lazy Solutions](https://discord.gg/upfgXPxFnw)
 >Note: We accept bug reports and offer help on all channels. Which one you wish to use, is up to your preference!
 
 ## Where can I get it?
