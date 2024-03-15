@@ -19,3 +19,5 @@ var collection1 = SceneCollection.Find("name_title_or_id");
 //Checks all profiles
 var collection2 = SceneCollection.Find("name_title_or_id", activeProfile: false); 
 ```
+
+> Notice: The method documentation (sandcastle comments / triple slash comments) are currently slightly wrong, as the methods were updated, but not comments. This will be fixed in a future update.
