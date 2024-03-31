@@ -28,10 +28,10 @@ A scene operation is a queueable operation that can open or close scenes. See al
 * [Cancel](Core.SceneOperation.md#Core.SceneOperation_1a98fd5d588027adeb8d4545c78347cd26)
 * [CanQueue](Core.SceneOperation.md#Core.SceneOperation_1a5761b3f231c8181c60fe470986c1c19e)
 * [ClearProgress](Core.SceneOperation.md#Core.SceneOperation_1a7d34a635b80cd8a040ffc6f47b27564e)
+* [close](Core.SceneOperation.md#Core.SceneOperation_1aeb4625e912b7b0de9708544ae718aee0)
 * [Close](Core.SceneOperation.md#Core.SceneOperation_1a486db83dc1371e62064f87c69708bd27)
 * [Close](Core.SceneOperation.md#Core.SceneOperation_1a4a3e38682eac62caae129c4170c1d5a4)
 * [Close](Core.SceneOperation.md#Core.SceneOperation_1a6cab5f0d24db1534bf42522a4d96c221)
-* [close](Core.SceneOperation.md#Core.SceneOperation_1aeb4625e912b7b0de9708544ae718aee0)
 * [CloseAll](Core.SceneOperation.md#Core.SceneOperation_1aea08f3999604144fa716b7359304a9e8)
 * [CloseAllNonPersistent](Core.SceneOperation.md#Core.SceneOperation_1a5fb8cd7a24a7ac818b3f10941b6f5751)
 * [closedScenes](Core.SceneOperation.md#Core.SceneOperation_1abf8adf4bb21e27a5311176386bd41626)
@@ -55,6 +55,7 @@ A scene operation is a queueable operation that can open or close scenes. See al
 * [focus](Core.SceneOperation.md#Core.SceneOperation_1a95311fac68dc88b61cdac29f4d91db32)
 * [Freeze](Core.SceneOperation.md#Core.SceneOperation_1aa95e0fb85af143186cf2934dba40898f)
 * [GetProgress](Core.SceneOperation.md#Core.SceneOperation_1afb52390946ae83c3997b18310d1d14bf)
+* [hasRun](Core.SceneOperation.md#Core.SceneOperation_1a1676d54e7d7343d33d9d6cc46784493d)
 * [HideLoadingScreen](Core.SceneOperation.md#Core.SceneOperation_1a8c36bcd2eb5258a6e1f7ae8a6c41065c)
 * [isCurrentLoadingScenePreload](Core.SceneOperation.md#Core.SceneOperation_1a071e7376a0967cc696a50f73463b32d9)
 * [IsDuplicate](Core.SceneOperation.md#Core.SceneOperation_1a1c41bc3ceed94123b14d0d62da652a6a)
@@ -95,8 +96,10 @@ A scene operation is a queueable operation that can open or close scenes. See al
 * [openedScenes](Core.SceneOperation.md#Core.SceneOperation_1a011acd72fa3439236d99ebd83ff1e665)
 * [operationCoroutine](Core.SceneOperation.md#Core.SceneOperation_1a49e69a8e792281542ed4f50a16e6e5b2)
 * [phase](Core.SceneOperation.md#Core.SceneOperation_1a3aaaebd424640a55658f6da992e087bd)
-* [Preload](Core.SceneOperation.md#Core.SceneOperation_1a54235ad5f28f51d774b67c1a9a64f77c)
 * [preload](Core.SceneOperation.md#Core.SceneOperation_1a96ab4d9fdd524af93b96fe0fb6595edb)
+* [Preload](Core.SceneOperation.md#Core.SceneOperation_1a54235ad5f28f51d774b67c1a9a64f77c)
+* [PrependOpen](Core.SceneOperation.md#Core.SceneOperation_1a9bfa1aa4c01a3e9e6bae9bfeffc7881e)
+* [PrependOpen](Core.SceneOperation.md#Core.SceneOperation_1a0449307fc96b2342c072fe28c4527e59)
 * [progress](Core.SceneOperation.md#Core.SceneOperation_1ac7abb4766cd3f65c31f56279d7decff8)
 * [progressID](Core.SceneOperation.md#Core.SceneOperation_1a14a9619ad0e20a130286529bb967752a)
 * [progressIds](Core.SceneOperation.md#Core.SceneOperation_1aef171244a87a225db29acf80de624755)
@@ -128,8 +131,8 @@ A scene operation is a queueable operation that can open or close scenes. See al
 * [useLoadingScene](Core.SceneOperation.md#Core.SceneOperation_1ad5461cf9aed399c793f0635fd5b3b550)
 * [Validate](Core.SceneOperation.md#Core.SceneOperation_1aaac8b52c5e47c87dc2defdd181093ee2)
 * [Validate](Core.SceneOperation.md#Core.SceneOperation_1ac34988b691da9e110e0dd69d50ffa0b0)
-* [WaitFor](Core.SceneOperation.md#Core.SceneOperation_1ab3586cc78cb4653953f3edaa99d41630)
 * [waitFor](Core.SceneOperation.md#Core.SceneOperation_1a2d27061848670e789eeb62ba6d4c5e8b)
+* [WaitFor](Core.SceneOperation.md#Core.SceneOperation_1ab3586cc78cb4653953f3edaa99d41630)
 * [wasCancelled](Core.SceneOperation.md#Core.SceneOperation_1a64c4fe80acf9369a5e341efd804843d3)
 * [With](Core.SceneOperation.md#Core.SceneOperation_1afd7b2773dd26936a6eb3dc008064ad24)
 * [With](Core.SceneOperation.md#Core.SceneOperation_1aded08ffe55f83b268446948ae7270f1e)
@@ -163,7 +166,7 @@ Gets a SceneOperation that has already completed.
 
 
 
-* initializer {"type":"element","name":"initializer","attributes":{},"children":[{"type":"text","text":"= new "},{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"Core.SceneOperation"},"children":[{"type":"text","text":"SceneOperation"}]},{"type":"text","text":"()"}]}
+* initializer {"type":"element","name":"initializer","attributes":{},"children":[{"type":"text","text":"= new "},{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"Core.SceneOperation"},"children":[{"type":"text","text":"SceneOperation"}]},{"type":"text","text":"() { hasRun = true }"}]}
 
 <a id="Core.SceneOperation_1a23af17c78302b71c14ef38ea40b8d1d7"></a>
 ### Property description
@@ -546,7 +549,7 @@ override bool keepWaiting
 
 Inherited from CustomYieldInstruction. Tells unity whatever the operation is done or not.
 
-
+Inherited from CustomYieldInstruction. Tells unity whatever the operation is done or not.
 
 
 
@@ -1121,6 +1124,29 @@ readonly List<Scene> m_openedScenes = new()
 
 ```csharp
 bool isFrozen
+```
+
+
+
+
+
+
+
+**Type**: bool
+
+
+
+
+
+<a id="Core.SceneOperation_1a1676d54e7d7343d33d9d6cc46784493d"></a>
+### Variable hasRun
+
+
+
+
+
+```csharp
+bool hasRun
 ```
 
 
@@ -2541,6 +2567,31 @@ Can be called multiple times to add more scenes.
 
 
 
+<a id="Core.SceneOperation_1a9bfa1aa4c01a3e9e6bae9bfeffc7881e"></a>
+### Function PrependOpen
+
+
+
+```csharp
+SceneOperation PrependOpen(params Scene[] scenes)
+```
+
+
+
+
+
+
+
+**Parameters**:
+
+* params [Scene](Models.Scene.md#Models.Scene)[] **scenes**
+
+**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+
+
+
+
 <a id="Core.SceneOperation_1a4a3e38682eac62caae129c4170c1d5a4"></a>
 ### Function Close
 
@@ -2623,6 +2674,31 @@ A scene specified to preload cannot also be added to open or close lists.
 
 ```csharp
 SceneOperation Open(IEnumerable< Scene > scenes)
+```
+
+
+
+
+
+
+
+**Parameters**:
+
+* IEnumerable< [Scene](Models.Scene.md#Models.Scene) > **scenes**
+
+**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+
+
+
+
+<a id="Core.SceneOperation_1a0449307fc96b2342c072fe28c4527e59"></a>
+### Function PrependOpen
+
+
+
+```csharp
+SceneOperation PrependOpen(IEnumerable< Scene > scenes)
 ```
 
 
@@ -3016,7 +3092,7 @@ SceneOperation SetThreadPriority(SceneCollection collection, bool ignoreQueueChe
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

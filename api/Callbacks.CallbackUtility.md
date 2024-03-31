@@ -477,7 +477,7 @@ static IEnumerator DefaultCallback(Type t, object obj, object param=null)
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

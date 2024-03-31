@@ -24,7 +24,7 @@ Base interface for ISceneOpen, ISceneClose, ICollectionOpen, ICollectionClose. D
 ## Members
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

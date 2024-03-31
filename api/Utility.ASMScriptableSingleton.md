@@ -20,11 +20,11 @@ A ScriptableSingleton<T> that supports build.
 
 ## Members
 
+* [ASMScriptableSingleton](Utility.ASMScriptableSingleton.md#Utility.ASMScriptableSingleton_1a17337f08b550d85193e13b0d953032b5)
 * [editorOnly](Utility.ASMScriptableSingleton.md#Utility.ASMScriptableSingleton_1a34a91abe532aef5f1b6a4f61c97f4594)
 * [GetInstance](Utility.ASMScriptableSingleton.md#Utility.ASMScriptableSingleton_1ada6b72b2912655548fece5bc974a7059)
 * [instance](Utility.ASMScriptableSingleton.md#Utility.ASMScriptableSingleton_1ac0091740a1a1b13daab37328b10bdc3f)
 * [m\_instance](Utility.ASMScriptableSingleton.md#Utility.ASMScriptableSingleton_1aaed7221095e23e70e5d028afde8a548c)
-* [OnEnable](Utility.ASMScriptableSingleton.md#Utility.ASMScriptableSingleton_1a34316462014f78aba29c389590f6b104)
 * [Save](Utility.ASMScriptableSingleton.md#Utility.ASMScriptableSingleton_1a5df140c1ee51aadf7fe88ce3fb9cac33)
 
 ## Properties
@@ -102,15 +102,15 @@ T m_instance
 
 
 
-## Protected functions
+## Public functions
 
-<a id="Utility.ASMScriptableSingleton_1a34316462014f78aba29c389590f6b104"></a>
-### Function OnEnable
+<a id="Utility.ASMScriptableSingleton_1a17337f08b550d85193e13b0d953032b5"></a>
+### Function ASMScriptableSingleton
 
 
 
 ```csharp
-virtual void OnEnable()
+ASMScriptableSingleton()
 ```
 
 
@@ -119,11 +119,28 @@ virtual void OnEnable()
 
 
 
+**Return type**: 
+
+
+
+
+
+<a id="Utility.ASMScriptableSingleton_1a5df140c1ee51aadf7fe88ce3fb9cac33"></a>
+### Function Save
+
+
+
+```csharp
+void Save()
+```
+
+Saves the singleton to disk.
+
+Can be called outside of editor, but has no effect.
+
+
+
 **Return type**: void
-
-**Reimplemented by**:
-
-* [OnEnable](Models.ASMSettings.md#Models.ASMSettings_1ad34f3aa16da2426e67c8ecc8a0b08008)
 
 
 
@@ -153,31 +170,7 @@ static T GetInstance()
 
 
 
-## Public functions
-
-<a id="Utility.ASMScriptableSingleton_1a5df140c1ee51aadf7fe88ce3fb9cac33"></a>
-### Function Save
-
-
-
-```csharp
-void Save()
-```
-
-Saves the singleton to disk.
-
-Can be called outside of editor, but has no effect.
-
-
-
-**Return type**: void
-
-
-
-
-
-
-
 
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
 

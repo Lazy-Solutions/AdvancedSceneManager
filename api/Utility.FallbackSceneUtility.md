@@ -306,7 +306,7 @@ Gets whatever the specified scene is the default scene.
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

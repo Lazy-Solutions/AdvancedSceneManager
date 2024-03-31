@@ -362,7 +362,7 @@ Creates a new props, from the specified props, copying its values.
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

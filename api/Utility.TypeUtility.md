@@ -71,7 +71,7 @@ static FieldInfo FindField(this Type type, string name)
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

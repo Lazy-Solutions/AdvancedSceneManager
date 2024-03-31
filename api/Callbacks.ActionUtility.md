@@ -106,6 +106,4 @@ Tries to invoke the action.
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)

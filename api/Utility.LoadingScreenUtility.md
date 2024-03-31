@@ -716,7 +716,7 @@ static void Remove(LoadingScreenBase loadingScreen)
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

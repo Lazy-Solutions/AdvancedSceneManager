@@ -52,6 +52,8 @@ Represents a scene.
 * [FindObject\< T \>](Models.Scene.md#Models.Scene_1ac6090c3ad3c37165dbef8e4fa2dd5b87)
 * [FindObject\< T \>](Models.Scene.md#Models.Scene_1a3293fc15ea8b10b351bbd713acccd10b)
 * [FindObjects\< T \>](Models.Scene.md#Models.Scene_1a9241c4e0bc8de0e7733f01af8cc41e1e)
+* [FindOpen](Models.Scene.md#Models.Scene_1a533a5e6612ae06056db31c07864c07b1)
+* [FindOpen](Models.Scene.md#Models.Scene_1ac6ccdf1e1906fa0fe885472096b62c78)
 * [FinishPreload](Models.Scene.md#Models.Scene_1a5e8f70087d73b1a14ca4dc8ef6fc5b24)
 * [GetEffectiveSceneLoader](Models.Scene.md#Models.Scene_1a925e18194de718af546af7536e62cb9c)
 * [GetHashCode](Models.Scene.md#Models.Scene_1a77e1afa2b6dee1ed3640da81d7407b42)
@@ -2121,7 +2123,7 @@ void NotifyAddressables()
 static IEnumerable< Scene > Find(Func< Scene, bool > predicate)
 ```
 
-Find scenes by predicate, in the specified collection or profile, if defined.
+
 
 
 
@@ -2147,7 +2149,7 @@ Find scenes by predicate, in the specified collection or profile, if defined.
 static Scene Find(string q)
 ```
 
-Find scene by name, path, or id, in the specified collection or profile, if defined.
+
 
 
 
@@ -2185,6 +2187,58 @@ static bool TryFind(string q, out Scene scene)
 * out [Scene](Models.Scene.md#Models.Scene) **scene**
 
 **Return type**: bool
+
+
+
+
+
+<a id="Models.Scene_1a533a5e6612ae06056db31c07864c07b1"></a>
+### Function FindOpen
+
+
+![][static]
+
+```csharp
+static IEnumerable< Scene > FindOpen(string q)
+```
+
+
+
+
+
+
+
+**Parameters**:
+
+* string **q**
+
+**Return type**: IEnumerable< [Scene](Models.Scene.md#Models.Scene) >
+
+
+
+
+
+<a id="Models.Scene_1ac6ccdf1e1906fa0fe885472096b62c78"></a>
+### Function FindOpen
+
+
+![][static]
+
+```csharp
+static IEnumerable< Scene > FindOpen(Func< Scene, bool > predicate)
+```
+
+
+
+
+
+
+
+**Parameters**:
+
+* Func< [Scene](Models.Scene.md#Models.Scene), bool > **predicate**
+
+**Return type**: IEnumerable< [Scene](Models.Scene.md#Models.Scene) >
 
 
 
@@ -2431,7 +2485,7 @@ static bool GetPath(object obj, out string path)
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

@@ -471,7 +471,7 @@ void ISceneCollection. OnPropertyChanged(string propertyName)
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

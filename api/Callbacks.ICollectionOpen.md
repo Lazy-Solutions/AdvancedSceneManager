@@ -58,7 +58,7 @@ void OnCollectionOpen(SceneCollection collection)
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

@@ -384,7 +384,7 @@ Props currentProps
 
 
 
-## Package static functions
+## Private static functions
 
 <a id="Core.App_1a04fb14d37d6823855ff93c1f43f2d958"></a>
 ### Function OnLoad
@@ -407,8 +407,6 @@ static void OnLoad()
 
 
 
-
-## Private static functions
 
 <a id="Core.App_1a26bf8f675729f52f1ad7a5ea1416a165"></a>
 ### Function RunStartupProcess
@@ -1220,6 +1218,6 @@ void Reset()
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+

@@ -93,6 +93,7 @@ Manages runtime functionality for Advanced Scene Manager such as open scenes and
 * [sceneLoaders](Core.Runtime.md#Core.Runtime_1afb0c596154cc5ee6b6222e3c8720df94)
 * [sceneOpened](Core.Runtime.md#Core.Runtime_1abefa4fe2944c3cd53adab0567794ca48)
 * [scenePreloaded](Core.Runtime.md#Core.Runtime_1a304da872ce65014aede66614cc972254)
+* [scenePreloadFinished](Core.Runtime.md#Core.Runtime_1af8329d3deaa4bc826fc5d0d050d1d7bb)
 * [ScenesToClose](Core.Runtime.md#Core.Runtime_1ab99253f00be9d58c48bf74d301dffb2b)
 * [SetActive](Core.Runtime.md#Core.Runtime_1ad6cbf8337b1a3c0f26dae6e9a131256e)
 * [startedWorking](Core.Runtime.md#Core.Runtime_1a99443a735eb8aff05ce148c20c435e37)
@@ -685,6 +686,29 @@ Action<Scene> scenePreloaded
 ```
 
 Occurs when a scene is preloaded.
+
+
+
+
+
+**Type**: Action< [Scene](Models.Scene.md#Models.Scene) >
+
+
+
+
+
+<a id="Core.Runtime_1af8329d3deaa4bc826fc5d0d050d1d7bb"></a>
+### Event scenePreloadFinished
+
+
+
+
+
+```csharp
+Action<Scene> scenePreloadFinished
+```
+
+Occurs when a previously preloaded scene is opened.
 
 
 
@@ -2350,7 +2374,7 @@ void OnAllScenesClosed()
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

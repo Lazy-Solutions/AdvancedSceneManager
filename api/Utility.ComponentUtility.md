@@ -98,7 +98,7 @@ static void EnsureCameraExists(this Component c)
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

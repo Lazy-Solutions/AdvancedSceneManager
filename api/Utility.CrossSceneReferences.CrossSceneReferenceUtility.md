@@ -15,6 +15,7 @@ An utility for saving and restoring cross-scene references.
 * [AddResolvedReference](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a96f988e20129388651babcc82b6bf967)
 * [CanSceneBeSaved](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1ab5305c7a0e063fd8d1c86ca64175f19c)
 * [ClearStatusForScene](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1aa4a47e9927229c9a3821dca4ee9946e9)
+* [CrossSceneReferenceUtility](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1af5b26e3c1835032a6b840ae5c50e0d26)
 * [Disable](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a0a324e0044929f917898ccb4313ae933)
 * [Enable](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a2b2e453a1e93c182eb05917bbeddf585)
 * [Enumerate](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a6c04d9881b8d7552ecb8846cb6e497b9)
@@ -29,6 +30,7 @@ An utility for saving and restoring cross-scene references.
 * [GetResolvedReferencesValue](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1afbbbd0a4a4778d0ed24339f06418e879)
 * [GetSceneStatus](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a570a0d8228d03c3649bbdfeeb80acc78)
 * [GetSourceCrossSceneReference](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a51ba22c1ba3d348a84210e3ecd8eb15f)
+* [Initialize](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a3b4e25ab4bd05797f543b6f7551fee48)
 * [Initialize](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a1d98e1f66b912bd49574875b36423e65)
 * [IsCrossScene](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1ab7c2186c4e139fb3260e8724dcdff33d)
 * [IsSerialized](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1ae6d3c1c791fbf48742e4d04af4b10df5)
@@ -43,6 +45,7 @@ An utility for saving and restoring cross-scene references.
 * [ResolveAllScenes](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1af14bb92f84429cc385b6c82ee9499c96)
 * [resolvedReferences](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a02dd7a6dac498f7bbfb8a9fb90c9a6f2)
 * [ResolveScene](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1ab547931a18efdb4eece87fd5903db575)
+* [Runtime\_scenePreloadFinished](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a648448d12614918f613744a60615361f)
 * [sceneOperationCallback](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a2b1b4f0029a73aa8f596341333e46d75)
 * [sceneStatus](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1af1dd36cc227f3d9d6229086a39654085)
 * [SetSceneStatus](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a80f2084dcef2cd5c459267bc69528db3)
@@ -219,6 +222,28 @@ static void OnEnable()
 
 
 
+<a id="Utility.CrossSceneReferences.CrossSceneReferenceUtility_1af5b26e3c1835032a6b840ae5c50e0d26"></a>
+### Function CrossSceneReferenceUtility
+
+
+![][static]
+
+```csharp
+static CrossSceneReferenceUtility()
+```
+
+
+
+
+
+
+
+**Return type**: static
+
+
+
+
+
 <a id="Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a04fb14d37d6823855ff93c1f43f2d958"></a>
 ### Function OnLoad
 
@@ -256,6 +281,32 @@ static void Enable()
 
 
 
+
+**Return type**: void
+
+
+
+
+
+<a id="Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a648448d12614918f613744a60615361f"></a>
+### Function Runtime\_scenePreloadFinished
+
+
+![][static]
+
+```csharp
+static void Runtime_scenePreloadFinished(Scene _)
+```
+
+
+
+
+
+
+
+**Parameters**:
+
+* [Scene](Models.Scene.md#Models.Scene) **_**
 
 **Return type**: void
 
@@ -504,6 +555,28 @@ static ObjectReference GetSourceCrossSceneReference(scene scene, Component obj, 
 
 
 ## Public static functions
+
+<a id="Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a3b4e25ab4bd05797f543b6f7551fee48"></a>
+### Function Initialize
+
+
+![][static]
+
+```csharp
+static void Initialize()
+```
+
+Initializes cross-scene references, if it is enabled in settings.
+
+
+
+
+
+**Return type**: void
+
+
+
+
 
 <a id="Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a1d98e1f66b912bd49574875b36423e65"></a>
 ### Function Initialize
@@ -907,7 +980,7 @@ Finds all cross-scene references in the scenes.
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

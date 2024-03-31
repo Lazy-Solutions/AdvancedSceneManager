@@ -209,7 +209,7 @@ Will return <code>default</code> if not found.
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

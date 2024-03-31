@@ -524,7 +524,7 @@ static void Log< T >(this IEnumerable< T > list, string header=null, string sepa
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

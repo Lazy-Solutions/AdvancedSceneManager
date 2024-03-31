@@ -189,7 +189,7 @@ ResolvedCrossReference(ResolvedReference variable, ResolvedReference value, Cros
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

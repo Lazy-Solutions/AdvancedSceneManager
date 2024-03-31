@@ -368,7 +368,7 @@ static void OnTurn(T queueable, bool ignoreQueue=false)
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

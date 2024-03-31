@@ -185,7 +185,7 @@ static bool TryFind< T >(this IEnumerable< T > list, string q, out T result)
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

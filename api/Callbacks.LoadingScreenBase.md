@@ -155,7 +155,7 @@ Called when the loading screen is about to close.
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

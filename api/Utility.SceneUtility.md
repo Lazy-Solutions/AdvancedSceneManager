@@ -413,7 +413,7 @@ Find open scenes by name or path.
 static Scene Find(string q)
 ```
 
-Find scenes by name or path, in the specified collection or profile, if defined.
+Find scenes by name or path.
 
 
 
@@ -465,7 +465,7 @@ Find open scenes by predicate.
 static IEnumerable< Scene > Find(Func< Scene, bool > predicate)
 ```
 
-Find scenes by predicate, in the specified collection or profile, if defined.
+Find scenes by predicate.
 
 
 
@@ -778,7 +778,7 @@ Only has an effect if scene is open.
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

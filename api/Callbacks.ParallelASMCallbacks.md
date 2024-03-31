@@ -17,7 +17,7 @@ Specifies whatever the ASM callbacks should be run in parallel for any callbacks
 ## Members
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

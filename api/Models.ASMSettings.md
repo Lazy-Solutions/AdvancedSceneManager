@@ -27,26 +27,32 @@ Only available in editor.
 * [allowCollectionLocking](Models.ASMSettings.md#Models.ASMSettings_1aa12c0b4a8fa899c53f6f7e5e576540ba)
 * [allowExcludingCollectionsFromBuild](Models.ASMSettings.md#Models.ASMSettings_1a9f1ca66d71a6e7ac72f72d9929b1e4e1)
 * [allowSceneLocking](Models.ASMSettings.md#Models.ASMSettings_1a7075116bb5074faef9a4243069274945)
+* [ASMScriptableSingleton](Utility.ASMScriptableSingleton.md#Utility.ASMScriptableSingleton_1a17337f08b550d85193e13b0d953032b5)
 * [assetPath](Models.ASMSettings.md#Models.ASMSettings_1ae763ac9b4f3634e585544e518a71c559)
 * [buildProfile](Models.ASMSettings.md#Models.ASMSettings_1a17dc359a64f8f6365dedb5addf9f1d9d)
 * [buildUnitySplashScreenColor](Models.ASMSettings.md#Models.ASMSettings_1a6ebb90cbbabed96aa16a6f7573115134)
+* [callbacks](Models.ASMSettings.md#Models.ASMSettings_1aecdf070965f9e2d6d85c3f8ff2452b64)
 * [checkForDuplicateSceneOperations](Models.ASMSettings.md#Models.ASMSettings_1ad893b69bdad09650b739fca9d465f98d)
+* [checkForLegacyAssets](Models.ASMSettings.md#Models.ASMSettings_1a22d4c638c4a3cf4de047388ca8394ca5)
 * [ClearAdditiveCollections](Models.ASMSettings.md#Models.ASMSettings_1ac08a2b21824b2218437ce0949278a8a3)
 * [customData](Models.ASMSettings.md#Models.ASMSettings_1a0e98f8ba968caaf440346f44220c535b)
 * [defaultProfile](Models.ASMSettings.md#Models.ASMSettings_1a4ac89e12c6cf513d7a1dfc473878a101)
 * [editorOnly](Utility.ASMScriptableSingleton.md#Utility.ASMScriptableSingleton_1a34a91abe532aef5f1b6a4f61c97f4594)
 * [enableCrossSceneReferences](Models.ASMSettings.md#Models.ASMSettings_1a40eb82b6bfc0801bfe5d29df5ba404db)
 * [forceProfile](Models.ASMSettings.md#Models.ASMSettings_1a012cdc48a534b6b59b333dfdeb02b695)
+* [hasInitialized](Models.ASMSettings.md#Models.ASMSettings_1a0eaf7ad257ee6bf68afeb5f4cc2a7ee8)
 * [Initialize](Models.ASMSettings.md#Models.ASMSettings_1a3b4e25ab4bd05797f543b6f7551fee48)
 * [instance](Utility.ASMScriptableSingleton.md#Utility.ASMScriptableSingleton_1ac0091740a1a1b13daab37328b10bdc3f)
 * [isFirstStart](Models.ASMSettings.md#Models.ASMSettings_1a24a4b804143997a4ed52760c7fc7cde5)
 * [isInitialized](Models.ASMSettings.md#Models.ASMSettings_1a1fdc2bf5595c2e64dc06d987769834eb)
+* [isSwitchingToLegacyMode](Models.ASMSettings.md#Models.ASMSettings_1a391f36a343507b84ff930ca62adba434)
 * [m\_additiveCollections](Models.ASMSettings.md#Models.ASMSettings_1a4571fd4ac8e836e8f542f8e731b4e26b)
 * [m\_allowCollectionLocking](Models.ASMSettings.md#Models.ASMSettings_1af67c4ae3231fe7e01ae5b35387641672)
 * [m\_allowExcludingCollectionsFromBuild](Models.ASMSettings.md#Models.ASMSettings_1a5ff8cdc0941f88be6c0435115a388818)
 * [m\_allowSceneLocking](Models.ASMSettings.md#Models.ASMSettings_1a6d95398fbf846c12904c0c317f7a5535)
 * [m\_assetPath](Models.ASMSettings.md#Models.ASMSettings_1aa1b60c5a81f2825011756962ab936f4b)
 * [m\_blacklist](Models.ASMSettings.md#Models.ASMSettings_1a16127fbd2a3ea4d5b6cbffe99ac6be8c)
+* [m\_boolCheckForLegacyAssets](Models.ASMSettings.md#Models.ASMSettings_1a497e84808bc11fdab99ab396f68dad36)
 * [m\_buildProfile](Models.ASMSettings.md#Models.ASMSettings_1a94482fe94872d9989ba562058ad6c794)
 * [m\_checkForDuplicateSceneOperations](Models.ASMSettings.md#Models.ASMSettings_1a2594c84b33b4b397bcf13a50e24a029b)
 * [m\_collections](Models.ASMSettings.md#Models.ASMSettings_1a7c6f766b28bc34d4151c00eea6a5be3b)
@@ -67,7 +73,7 @@ Only available in editor.
 * [m\_spamCheckCooldown](Models.ASMSettings.md#Models.ASMSettings_1a5c9274e151b946f9b94123311c7d9dbc)
 * [m\_startProps](Models.ASMSettings.md#Models.ASMSettings_1a36cf78ac184aba60e04de8af32b1f538)
 * [m\_unitySplashScreenColor](Models.ASMSettings.md#Models.ASMSettings_1a8f03033590b0d4fb5d72448ca2fdfd64)
-* [OnEnable](Models.ASMSettings.md#Models.ASMSettings_1ad34f3aa16da2426e67c8ecc8a0b08008)
+* [OnEnable](Models.ASMSettings.md#Models.ASMSettings_1a84e23ba394eacd818d2e005cc466c4d1)
 * [OnInitialized](Models.ASMSettings.md#Models.ASMSettings_1ac4ee942126ba1f3e3bd5cb811e417df0)
 * [OnPropertyChanged](Models.ASMSettings.md#Models.ASMSettings_1a271433d4a450ba14354437e8259a22fb)
 * [openAdditiveCollections](Models.ASMSettings.md#Models.ASMSettings_1abd83c4073b0e7491205c0a18d5fb5906)
@@ -708,6 +714,29 @@ bool m_isFirstStart
 
 
 
+<a id="Models.ASMSettings_1a497e84808bc11fdab99ab396f68dad36"></a>
+### Variable m\_boolCheckForLegacyAssets
+
+
+
+
+
+```csharp
+bool m_boolCheckForLegacyAssets = true
+```
+
+
+
+
+
+
+
+**Type**: bool
+
+
+
+
+
 ## Properties
 
 <a id="Models.ASMSettings_1a4ac89e12c6cf513d7a1dfc473878a101"></a>
@@ -1124,6 +1153,29 @@ bool isFirstStart
 
 
 
+<a id="Models.ASMSettings_1a22d4c638c4a3cf4de047388ca8394ca5"></a>
+### Property checkForLegacyAssets
+
+
+
+
+
+```csharp
+bool checkForLegacyAssets
+```
+
+Gets or sets if the check to determine whatever legacy mode should be enabled or not, is enabled.
+
+
+
+
+
+**Return type**: bool
+
+
+
+
+
 ## Public attributes
 
 <a id="Models.ASMSettings_1a5ebad4188d30ce937222e1fcf194eefa"></a>
@@ -1144,6 +1196,80 @@ SceneImportOption m_sceneImportOption = SceneImportOption.Manual
 
 
 **Type**: [SceneImportOption](namespace_advanced_scene_manager_1_1_models_1_1_enums.md#namespace_advanced_scene_manager_1_1_models_1_1_enums_1a5935f202d2184bf7c56be6fc049bd4c1)
+
+
+
+
+
+## Private static attributes
+
+<a id="Models.ASMSettings_1a391f36a343507b84ff930ca62adba434"></a>
+### Variable isSwitchingToLegacyMode
+
+
+![][static]
+
+
+
+```csharp
+bool isSwitchingToLegacyMode
+```
+
+
+
+
+
+
+
+**Type**: bool
+
+
+
+
+
+<a id="Models.ASMSettings_1aecdf070965f9e2d6d85c3f8ff2452b64"></a>
+### Variable callbacks
+
+
+![][static]
+
+
+
+```csharp
+readonly List<Action> callbacks = new()
+```
+
+
+
+
+
+
+
+**Type**: readonly List< Action >
+
+
+
+
+
+<a id="Models.ASMSettings_1a0eaf7ad257ee6bf68afeb5f4cc2a7ee8"></a>
+### Variable hasInitialized
+
+
+![][static]
+
+
+
+```csharp
+bool hasInitialized
+```
+
+
+
+
+
+
+
+**Type**: bool
 
 
 
@@ -1195,6 +1321,27 @@ void OnPropertyChanged([CallerMemberName] string propertyName="")
 **Parameters**:
 
 * _[CallerMemberName]_ string **propertyName** = "" 
+
+**Return type**: void
+
+
+
+
+
+<a id="Models.ASMSettings_1a84e23ba394eacd818d2e005cc466c4d1"></a>
+### Function OnEnable
+
+
+
+```csharp
+void OnEnable()
+```
+
+
+
+
+
+
 
 **Return type**: void
 
@@ -1303,31 +1450,6 @@ Runs the callback when ASMSettings has initialized.
 
 
 
-## Protected functions
-
-<a id="Models.ASMSettings_1ad34f3aa16da2426e67c8ecc8a0b08008"></a>
-### Function OnEnable
-
-
-
-```csharp
-override void OnEnable()
-```
-
-
-
-
-
-
-
-**Return type**: override void
-
-**Reimplements**: [OnEnable](Utility.ASMScriptableSingleton.md#Utility.ASMScriptableSingleton_1a34316462014f78aba29c389590f6b104)
-
-
-
-
-
 ## Private static functions
 
 <a id="Models.ASMSettings_1a3b4e25ab4bd05797f543b6f7551fee48"></a>
@@ -1353,7 +1475,7 @@ static void Initialize()
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

@@ -158,7 +158,7 @@ Does nothing if isValid is <code>false</code>.
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

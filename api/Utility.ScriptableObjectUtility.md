@@ -43,7 +43,7 @@ Safe to call from outside editor, but has no effect.
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 

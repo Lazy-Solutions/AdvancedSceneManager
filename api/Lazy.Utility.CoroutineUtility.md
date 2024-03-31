@@ -292,7 +292,7 @@ static void StopAllCoroutines()
 
 Stops all global coroutines.
 
-
+No effect if outside of play mode.
 
 
 
@@ -410,7 +410,7 @@ Wait for all coroutines to complete.
 
 
 
-
-
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+
+
 
