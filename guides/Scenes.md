@@ -2,6 +2,31 @@
 
 Scenes in ASM are represented as [ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html), this is to provide a simple drag drop interface for scenes.
 
+To retrieve a reference to a ASM scene, when all you've got is a unity scene struct, you may use any of the following:
+
+``` csharp 
+public class Test : MonoBehaviour
+{
+	
+	void Start()
+	{
+		//Returns null if not imported, or found.
+		var scene1 = this.ASMScene();
+		var scene2 = this.gameObject.ASMScene();
+		var scene3 = this.gameObject.scene.ASMScene();
+		
+		//All the above also have overloads like this
+		if (this.ASMScene(out var scene4))
+		{ }
+		
+		//Equivivalent to SceneManager.runtime.activeScene.
+		var activeScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().ASMScene();
+
+	}
+
+}
+```
+
 ## Drag-and-drop can be used for the following scenarios:
 ### Add scene to a collection, or replace existing scene field.
 
