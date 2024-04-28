@@ -10,7 +10,7 @@ Welcome to Advanced Scene Manager documentation.
 
 [Quick start](guides/Quick%20start.md)\
 [Scene Manager Window](guides/Scene%20manager%20window.md)\
-[Common questions](Common%20questions.md)
+[Common questions](guides/Common%20questions.md)
 
 [Profiles](guides/Profiles.md)\
 [Scenes](guides/Scenes.md)\
