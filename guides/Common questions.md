@@ -6,7 +6,7 @@ The fallback scene is a scene ASM uses to simplify the scene management, unity d
 
 The second reason is to prevent potential flickering during startup which would occur with a non-empty scene. [Startup scene](Scene%20manager%20window.md#startup-page) can be overridden in settings, this scene may also be used as fallback scene, but note that ASM could switch to regular fallback scene at any point after startup. Fallback scene will be always sorted to at the top of build settings for this reason.
 
-Please note that that overriding startup scene is an advanced use-case that should not be used unless actually needed, you probably want to use [startup collections](Scene%20collections.md) and [startup standalone scenes](Standalone%20scenes.md) instead.
+> Please note that that overriding startup scene is an advanced use-case that should not be used unless actually needed, you probably want to use [startup collections](Scene%20collections.md) and [startup standalone scenes](Standalone%20scenes.md) instead.
 
 ## Build settings list
 
