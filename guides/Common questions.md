@@ -24,3 +24,14 @@ Some methods in ASM are prefixed with "\_", this is due to name conflicts as [Un
 ## Do I need to add anything to .gitignore?
 
 ASM does not require anything to be added to git ignore. The only thing would be `<project root>/UserSettings/` but that should be ignored for unity project anyways. Default [unity .gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore) already contains it.
+
+## Compilation issues after installing ASM
+
+This is something we cannot really do much about. Sometimes unity compiles propertly and all works, sometimes it doesn't.
+
+There are two ways to solve this problem:
+1. Restart editor.
+2. Right click on AdvancedSceneManager folder and choose 'Reimport' - sometimes this works, sometimes it doesn't.
+
+If it still won't compile, then thats a bug, you'll need to report that to us over at:\
+[Discord - Lazy Solutions](https://discord.gg/upfgXPxFnw)
