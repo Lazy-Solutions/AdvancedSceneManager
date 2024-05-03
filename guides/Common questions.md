@@ -35,3 +35,18 @@ There are two ways to solve this problem:
 
 If it still won't compile, then thats a bug, you'll need to report that to us over at:\
 [Discord - Lazy Solutions](https://discord.gg/upfgXPxFnw)
+
+## What is the difference between patches and asset store updates?
+
+Asset store updates happens irreguarly, and has been properly tested to be stable, both by us and Unity. Validation process usually takes a few days.
+
+Patches on the other hand have quicker turn around, we can push instantly, but may be less stable. We always test what we changed in a patch, and do our best to test ASM in general, but we do not garuantee that ASM is 100% stable. If you do get a bug though, you can just let us know, and we'll push a new patch fixing it as soon as we are able.
+
+### Patches can be downloaded from:
+#### Github
+[Github releases](https://github.com/Lazy-Solutions/AdvancedSceneManager/releases/latest) hosts .unitypackage for download.
+
+#### Inside of unity:
+![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/2.0/image/scene-manager-window-menu.png)
+
+The checkmark in the top section of the image indicates no updates are available. But it will update depending on whatever a patch is available. Pressing it when there is no patch available will re-check for one.
