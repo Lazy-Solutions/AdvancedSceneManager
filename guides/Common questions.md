@@ -20,3 +20,7 @@ Scenes cannot be reordered manually.
 ## Event methods
 
 Some methods in ASM are prefixed with "\_", this is due to name conflicts as [UnityEvent](https://docs.unity3d.com/Manual/UnityEvents.html) does not support methods with return values.
+
+## Do I need to add anything to .gitignore?
+
+ASM does not require anything to be added to git ignore. The only thing would be `<project root>/UserSettings/` but that should be ignored for unity project anyways. Default [unity .gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore) already contains it.
