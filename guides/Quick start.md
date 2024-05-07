@@ -84,4 +84,6 @@ Now when you press the play button, you'll be taken to the main menu in the same
 
 And with that, we're done! Enjoy working on your game instead of getting bogged down in scene management!
 
-> Note: One thing we see a lot of new people struggling with is trying to use ASM in Start() / Awake(), this is not always supported. Scene callbacks are recommended to use instead, read more here: [scene callbacks](Scene%20callbacks.md).
+
+##### Sidenote: Using Start() and Awake()
+ASM does not always support opening scenes or collections (especially collections), in these callbacks. A lot of new users seem to miss this, so please also read this: [scene callbacks](Scene%20callbacks.md)
