@@ -52,3 +52,5 @@ A couple example scripts are included in ASM, you can find them in\
 
 [Start browsing](/api)
 
+## Patches
+Patches can be found at two place
