@@ -52,5 +52,14 @@ A couple example scripts are included in ASM, you can find them in\
 
 [Start browsing](/api)
 
-## Patches
-Patches can be found at two place
+## Patches can be downloaded from:
+#### Github releases
+[Github releases](https://github.com/Lazy-Solutions/AdvancedSceneManager/releases/latest) hosts the latest .unitypackage for download.
+
+#### Github patches folder
+[Github patches folder](https://github.com/Lazy-Solutions/AdvancedSceneManager/2.0/patches) hosts all .unitypackage that has been released for the current asset store version.
+
+#### Inside of unity:
+![](/image/scene-manager-window-menu.png)
+
+The checkmark in the top section of the image indicates no updates are available. But it will update depending on whatever a patch is available. Pressing it when there is no patch available will re-check for one.
