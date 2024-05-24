@@ -4,6 +4,8 @@ Here you can download patches available for the current asset store release.
 
 Every patch contains the files from earlier patches, so you just need the package for the specific version you are interested in.
 
+> 2.1.46 unavailable due to breaking support in unity 2021. 2.1.47 restores it, with no other changes.
+
 #### What is the difference between patches and asset store updates?
 
 Asset store updates happens irreguarly, and has been properly tested to be stable, both by us and Unity. Validation process usually takes a few days.
