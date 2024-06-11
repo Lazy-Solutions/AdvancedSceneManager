@@ -69,3 +69,15 @@ IEnumerator DoDelay(float delay)
 	yield return new WaitForSecondsRealtime(delay);
 }
 ```
+
+## Order of operations
+
+* Loading screen open (_if one specified_)
+* `ICollectionClose` (_if collection specified_)
+* `ISceneClose`
+* Unload scenes
+* Load scenes
+* Preload scene (_if one defined_)
+* `ISceneOpen`
+* `ICollection` open (_if collection specified_)
+* Hide loading screen (_if one specified_)
