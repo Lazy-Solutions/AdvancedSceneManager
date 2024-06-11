@@ -13,12 +13,16 @@ Open callbacks:
 * `ICollectionOpen` (void)
 * `ICollectionOpenAsync` (coroutine)
 
+> _These callbacks run after all scenes have opened or closed in a [Scene operation](Scene%20operations.md), but before loading screen has closed, if one was opened._
+
 Close callbacks:
 
 * `ISceneClose` (void)
 * `ISceneCloseAsync` (coroutine)
 * `ICollectionClose` (void)
 * `ICollectionCloseAsync` (coroutine)
+
+> _These callbacks run before any scenes have opened or closed in a [Scene operation](Scene%20operations.md), but after loading screen has opened, if one was opened._
 
 > Note that these callbacks may sometimes not be called when loading scenes outside of ASM. This is because they are invoked by ASM SceneOperation directly, and if SceneOperation is not opening the scenes, then no callbacks. Some exceptions exist.
 
