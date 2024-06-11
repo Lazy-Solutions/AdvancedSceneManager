@@ -22,7 +22,7 @@ Close callbacks:
 
 > Note that these callbacks may sometimes not be called when loading scenes outside of ASM. This is because they are invoked by ASM SceneOperation directly, and if SceneOperation is not opening the scenes, then no callbacks. Some exceptions exist.
 
-### Order
+## Order
 
 * Loading screen open (_if one specified_)
 * `ICollectionClose` (_if collection specified_)
@@ -34,7 +34,7 @@ Close callbacks:
 * `ICollection` open (_if collection specified_)
 * Hide loading screen (_if one specified_)
 
-### Examples
+## Example
 
 ```csharp
 public class LogOnSceneCallback : MonoBehaviour, ISceneOpen, ISceneClose
