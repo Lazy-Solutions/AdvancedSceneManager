@@ -63,6 +63,7 @@ public MyScript : MonoBehaviour
         SceneManager.runtime.Open(scene);
         SceneManager.runtime.Close(scene);
         SceneManager.runtime.ToggleOpen(scene);
+
         SceneManager.runtime.Open(collection);
         SceneManager.runtime.Close(collection);
         SceneManager.runtime.ToggleOpen(collection);
