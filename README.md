@@ -61,9 +61,7 @@ public MyScript : MonoBehaviour
         scene.Open();         //Opens the scene, stand-alone, additive
         scene.OpenSingle();   //Opens the scene, stand-alone, closes all existing scenes and collections
         scene.Close();        //Closes the scene, stand-alone
-        scene.Toggle();       //Toggles the scene on or off, stand-alone
-        scene.Toggle(true);   //Makes sure that the scene is open, stand-alone
-        scene.Toggle(false);  //Makes sure that the scene is closed, stand-alone
+        scene.ToggleOpen();       //Toggles the scene on or off, stand-alone
 
         //All the above are proxy functions for functions in SceneManager.standalone or SceneManager.collection
         SceneManager.standalone.Open(scene);
