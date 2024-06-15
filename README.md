@@ -67,6 +67,7 @@ public MyScript : MonoBehaviour
         SceneManager.runtime.Open(collection);
         SceneManager.runtime.Close(collection);
         SceneManager.runtime.ToggleOpen(collection);
+
     }
 
 }
