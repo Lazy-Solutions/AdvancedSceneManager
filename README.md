@@ -50,21 +50,22 @@ public MyScript : MonoBehaviour
 
         //All collection functions use a loading screen, if one is defined
         collection.Open();         //Close all existing scenes and open scenes in collection
-        collection.Reopen();       //Closes collection and then opens it again
-        collection.Close();        //Closes all scenes
+        collection.OpenAdditive(); //Don't close existing scenes and only open scenes in collection
+        collection.Close();        //Closes all scenes. If additive, then only collection scenes will be closed. 
         collection.ToggleOpen();   //Toggles the collection on or off
 
-        //All scene functions open it as stand-alone (without collection), but scenes that are
-        //contained within the currently open collection can be used in functions in SceneManager.collection
-        scene.Open();         //Opens the scene, stand-alone, additive
-        scene.OpenSingle();   //Opens the scene, stand-alone, closes all existing scenes and collections
-        scene.Close();        //Closes the scene, stand-alone
-        scene.ToggleOpen();   //Toggles the scene on or off, stand-alone
+        //All scene functions open it as stand-alone (not associated with a collection)
+        scene.Open();         //Opens the scene
+        scene.Close();        //Closes the scene
+        scene.ToggleOpen();   //Toggles the scene on or off
 
-        //All the above are proxy functions for functions in SceneManager.standalone or SceneManager.collection
-        SceneManager.standalone.Open(scene);
-        SceneManager.collection.Open(collection);
-
+        //All the above are proxy functions for functions in SceneManager.runtime
+        SceneManager.runtime.Open(scene);
+        SceneManager.runtime.Close(scene);
+        SceneManager.runtime.ToggleOpen(scene);
+        SceneManager.runtime.Open(collection);
+        SceneManager.runtime.Close(collection);
+        SceneManager.runtime.ToggleOpen(collection);
     }
 
 }
