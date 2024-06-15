@@ -52,9 +52,7 @@ public MyScript : MonoBehaviour
         collection.Open();         //Close all existing scenes and open scenes in collection
         collection.Reopen();       //Closes collection and then opens it again
         collection.Close();        //Closes all scenes
-        collection.Toggle();       //Toggles the collection on or off
-        collection.Toggle(true);   //Makes sure the collection is open
-        collection.Toggle(false);  //Makes sure the collection is closed
+        collection.ToggleOpen();   //Toggles the collection on or off
 
         //All scene functions open it as stand-alone (without collection), but scenes that are
         //contained within the currently open collection can be used in functions in SceneManager.collection
