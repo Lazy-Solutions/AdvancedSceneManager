@@ -26,6 +26,7 @@ An utility class that helps with running coroutines detached from MonoBehaviour.
 * [StartCoroutineGlobal](Lazy.Utility.CoroutineUtility.md#Lazy.Utility.CoroutineUtility_1a82182377396eee3db7c5cc4b4a2bce64)
 * [StopAllCoroutines](Lazy.Utility.CoroutineUtility.md#Lazy.Utility.CoroutineUtility_1a52e786f968ec86ee6f819597a92adcb3)
 * [StopCoroutine](Lazy.Utility.CoroutineUtility.md#Lazy.Utility.CoroutineUtility_1a3303262e4015fe7f18754c635c9bb5f7)
+* [Timer](Lazy.Utility.CoroutineUtility.md#Lazy.Utility.CoroutineUtility_1a3d9d41a8046c008d5036d9000f390bad)
 * [WaitAll](Lazy.Utility.CoroutineUtility.md#Lazy.Utility.CoroutineUtility_1adc49c761f41056e6103511c84192216c)
 * [WaitAll](Lazy.Utility.CoroutineUtility.md#Lazy.Utility.CoroutineUtility_1a379abf28a8e97d87a9db90fa4685d762)
 * [WaitAll](Lazy.Utility.CoroutineUtility.md#Lazy.Utility.CoroutineUtility_1a6f25fe9c5da64c365ae21c3f7bf25eea)
@@ -104,6 +105,36 @@ Get caller of the current method.
 
 
 ## Public static functions
+
+<a id="Lazy.Utility.CoroutineUtility_1a3d9d41a8046c008d5036d9000f390bad"></a>
+### Function Timer
+
+
+![][static]
+
+```csharp
+static GlobalCoroutine Timer(Action action, TimeSpan interval, [CallerFilePath] string callerFile="", [CallerLineNumber] int callerLine=0, [CallerMemberName] string callerName="")
+```
+
+Runs the action every interval.
+
+Automatically stops when Application.isPlaying changes.
+
+
+
+**Parameters**:
+
+* Action **action**
+* TimeSpan **interval**
+* _[CallerFilePath]_ string **callerFile** = "" 
+* _[CallerLineNumber]_ int **callerLine** = 0 
+* _[CallerMemberName]_ string **callerName** = "" 
+
+**Return type**: [GlobalCoroutine](Lazy.Utility.GlobalCoroutine.md#Lazy.Utility.GlobalCoroutine)
+
+
+
+
 
 <a id="Lazy.Utility.CoroutineUtility_1a81cf1bc6e009c4fa70ea729004aecbca"></a>
 ### Function Run

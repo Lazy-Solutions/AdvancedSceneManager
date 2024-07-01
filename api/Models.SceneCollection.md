@@ -51,10 +51,10 @@ Only one collection can be open at a time.
 * [Find](Models.SceneCollection.md#Models.SceneCollection_1adafc0f898ca1fe516d425b3b4bb0df4a)
 * [FindProfile](Models.SceneCollection.md#Models.SceneCollection_1a5a5f30833bb1f10b34f229e84f2b7fdc)
 * [FindProfile](Models.SceneCollection.md#Models.SceneCollection_1a7784179577c87f481fbb9bb2b5dac8e2)
+* [GenerateID](Models.ASMModel.md#Models.ASMModel_1a17da619efc12886a8be9f488a2d1dae5)
 * [GetEnumerator](Models.SceneCollection.md#Models.SceneCollection_1ae60b505e2045bbbc3b9e03a38d68553c)
 * [GetEnumerator](Models.SceneCollection.md#Models.SceneCollection_1a7d819d2ba8ffadd29113c811ce043c9f)
 * [hasScenes](Models.SceneCollection.md#Models.SceneCollection_1ac98ba4097e3fcfb82ce27be4dfcb92a2)
-* [hasSetDefaultActiveScene](Models.SceneCollection.md#Models.SceneCollection_1a3ecc814f96d59c117455a46de26ffe89)
 * [id](Models.ASMModel.md#Models.ASMModel_1ad97b05b88ce9080f35b157cfacc8eb69)
 * [id](Models.ISceneCollection.md#Models.ISceneCollection_1ad97b05b88ce9080f35b157cfacc8eb69)
 * [IsIDMatch](Models.ASMModel.md#Models.ASMModel_1a3a7be6206fc083e5da56ac2c5a7e0d72)
@@ -87,12 +87,12 @@ Only one collection can be open at a time.
 * [m\_prefix](Models.SceneCollection.md#Models.SceneCollection_1a87563c5f67804df2d35d2d42ec7874ff)
 * [m\_scenes](Models.SceneCollection.md#Models.SceneCollection_1a2173b2279f625a6fe901c499e1e2d9f0)
 * [m\_scenesThatShouldNotAutomaticallyOpen](Models.SceneCollection.md#Models.SceneCollection_1a51e0313028c98fa0fcbc23ee9b29a63b)
+* [m\_setActiveSceneWhenOpenedAsAdditive](Models.SceneCollection.md#Models.SceneCollection_1a36378ec742b435862d6f5b50f060d9a0)
 * [m\_startupOption](Models.SceneCollection.md#Models.SceneCollection_1a94ea4e732dfbaada34de53bc8d26ea3d)
 * [m\_title](Models.SceneCollection.md#Models.SceneCollection_1a9051e9e6563f1ae490194450f524989a)
 * [m\_unloadUnusedAssets](Models.SceneCollection.md#Models.SceneCollection_1a3df0e083e773ea1964d6cba48e4ec947)
 * [MarkAsDirty](Models.ASMModel.md#Models.ASMModel_1a64e64b00089467c2f05a1e7c4b63c415)
 * [name](Models.ASMModel.md#Models.ASMModel_1ac5a91fc09e22a791ce7bf790e1d3076a)
-* [OnNameChanged](Models.ASMModel.md#Models.ASMModel_1aac982fb34aa020704e86d0d06af17765)
 * [OnPropertyChanged](Models.SceneCollection.md#Models.SceneCollection_1a8b80b524ffb41f5b2ba062244c04df2b)
 * [OnValidate](Models.ASMModel.md#Models.ASMModel_1ad6f3426582ec127d8e7fb06cdea121df)
 * [Open](Models.SceneCollection.md#Models.SceneCollection_1a6c1aafd4ce30ab38d3541aa45fe99738)
@@ -108,6 +108,7 @@ Only one collection can be open at a time.
 * [scenes](Models.SceneCollection.md#Models.SceneCollection_1a9d66af610abd5d1e3aa49584b3e7bdb4)
 * [scenesThatShouldNotAutomaticallyOpen](Models.SceneCollection.md#Models.SceneCollection_1a88e118603299acd58e00566adc18362d)
 * [scenesToAutomaticallyOpen](Models.SceneCollection.md#Models.SceneCollection_1a312953bae839a36ae0b8d5140bd8accc)
+* [setActiveSceneWhenOpenedAsActive](Models.SceneCollection.md#Models.SceneCollection_1a3e402b8433be690c924d552dc9b374ff)
 * [startupOption](Models.SceneCollection.md#Models.SceneCollection_1ac299c8a1a26407e3599cf8dc76d9e93b)
 * [this[int index]](Models.SceneCollection.md#Models.SceneCollection_1a3bc81a8fb299811c2a0293769178d0de)
 * [title](Models.SceneCollection.md#Models.SceneCollection_1a43a5eafe64b96968035e5a4013e47c75)
@@ -728,6 +729,29 @@ Gets the lock message for this collection.
 
 * reimplements {"type":"element","name":"reimplements","attributes":{"refid":"Models.ILockable_1a8eaa811760467a3689abc9ebb866864a"},"children":[{"type":"text","text":"lockMessage"}]}
 
+<a id="Models.SceneCollection_1a3e402b8433be690c924d552dc9b374ff"></a>
+### Property setActiveSceneWhenOpenedAsActive
+
+
+
+
+
+```csharp
+bool setActiveSceneWhenOpenedAsActive
+```
+
+Specifies whatever activeScene should be set, when collection is opened as additive.
+
+
+
+
+
+**Return type**: bool
+
+
+
+
+
 <a id="Models.SceneCollection_1a882afa92abc68d9b1fa39a42f56a8b3d"></a>
 ### Property isOpen
 
@@ -964,15 +988,15 @@ Scene m_activeScene
 
 
 
-<a id="Models.SceneCollection_1a3ecc814f96d59c117455a46de26ffe89"></a>
-### Variable hasSetDefaultActiveScene
+<a id="Models.SceneCollection_1a36378ec742b435862d6f5b50f060d9a0"></a>
+### Variable m\_setActiveSceneWhenOpenedAsAdditive
 
 
 
 
 
 ```csharp
-bool hasSetDefaultActiveScene
+bool m_setActiveSceneWhenOpenedAsAdditive
 ```
 
 

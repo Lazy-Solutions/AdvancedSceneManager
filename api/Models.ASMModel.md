@@ -24,6 +24,7 @@ A base class for Profile, SceneCollection and Scene.
 ## Members
 
 * [CreateInternal\< T \>](Models.ASMModel.md#Models.ASMModel_1a9c39a9aca180cb6ff4e68043dea6ac05)
+* [GenerateID](Models.ASMModel.md#Models.ASMModel_1a17da619efc12886a8be9f488a2d1dae5)
 * [id](Models.ASMModel.md#Models.ASMModel_1ad97b05b88ce9080f35b157cfacc8eb69)
 * [IsIDMatch](Models.ASMModel.md#Models.ASMModel_1a3a7be6206fc083e5da56ac2c5a7e0d72)
 * [IsMatch](Models.ASMModel.md#Models.ASMModel_1a26cbd6b54e88bfe74858658db24d26c0)
@@ -31,7 +32,6 @@ A base class for Profile, SceneCollection and Scene.
 * [m\_id](Models.ASMModel.md#Models.ASMModel_1aaf217350cb1ae633b3b18fbcb7e14b9b)
 * [MarkAsDirty](Models.ASMModel.md#Models.ASMModel_1a64e64b00089467c2f05a1e7c4b63c415)
 * [name](Models.ASMModel.md#Models.ASMModel_1ac5a91fc09e22a791ce7bf790e1d3076a)
-* [OnNameChanged](Models.ASMModel.md#Models.ASMModel_1aac982fb34aa020704e86d0d06af17765)
 * [OnPropertyChanged](Models.ASMModel.md#Models.ASMModel_1a201f0268bbda49305f4f59972687c0f3)
 * [OnValidate](Models.ASMModel.md#Models.ASMModel_1ad6f3426582ec127d8e7fb06cdea121df)
 * [PropertyChanged](Models.ASMModel.md#Models.ASMModel_1aa421d817626998e9bcafaf0d70106b7f)
@@ -50,7 +50,7 @@ A base class for Profile, SceneCollection and Scene.
 
 
 ```csharp
-string m_id = Path.GetRandomFileName()
+string m_id = [GenerateID](Models.ASMModel.md#Models.ASMModel_1a17da619efc12886a8be9f488a2d1dae5)()
 ```
 
 
@@ -133,6 +133,30 @@ PropertyChangedEventHandler PropertyChanged
 
 
 **Type**: PropertyChangedEventHandler
+
+
+
+
+
+## Public static functions
+
+<a id="Models.ASMModel_1a17da619efc12886a8be9f488a2d1dae5"></a>
+### Function GenerateID
+
+
+![][static]
+
+```csharp
+static string GenerateID()
+```
+
+Generate id.
+
+
+
+
+
+**Return type**: string
 
 
 
@@ -369,31 +393,6 @@ bool IsIDMatch(string q)
 
 
 ## Package functions
-
-<a id="Models.ASMModel_1aac982fb34aa020704e86d0d06af17765"></a>
-### Function OnNameChanged
-
-
-
-```csharp
-virtual void OnNameChanged()
-```
-
-
-
-
-
-
-
-**Return type**: void
-
-**Reimplemented by**:
-
-* [OnNameChanged](Models.Profile.md#Models.Profile_1a7d48f9aa6c86fd4eddf7c9cc58d18552)
-
-
-
-
 
 <a id="Models.ASMModel_1a96a1684ac055649b6eedd67758dcfc77"></a>
 ### Function Rename

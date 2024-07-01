@@ -29,6 +29,7 @@ A profile, contains settings, collections.
 * [enableChangingBackgroundLoadingPriority](Models.Profile.md#Models.Profile_1a5b70070bc0bcaccd19ac3795a1433a00)
 * [Find](Models.Profile.md#Models.Profile_1a2d9d7399023cb3db9e8492e94797d4fc)
 * [FindCollections](Models.Profile.md#Models.Profile_1a8280e0498ef3a4ffe6800fa5ac03c760)
+* [GenerateID](Models.ASMModel.md#Models.ASMModel_1a17da619efc12886a8be9f488a2d1dae5)
 * [HasValue](Models.Profile.md#Models.Profile_1a2461a20da8d36c8273d2c420c9bddaac)
 * [id](Models.ASMModel.md#Models.ASMModel_1ad97b05b88ce9080f35b157cfacc8eb69)
 * [IndexOf](Models.Profile.md#Models.Profile_1a3effd3cdf76048ba24f4cee3c7c938ba)
@@ -54,7 +55,6 @@ A profile, contains settings, collections.
 * [m\_unloadUnusedAssetsForStandalone](Models.Profile.md#Models.Profile_1acc5d0a38bf2970f5c0a1a1b48e56417a)
 * [MarkAsDirty](Models.ASMModel.md#Models.ASMModel_1a64e64b00089467c2f05a1e7c4b63c415)
 * [name](Models.ASMModel.md#Models.ASMModel_1ac5a91fc09e22a791ce7bf790e1d3076a)
-* [OnNameChanged](Models.Profile.md#Models.Profile_1a7d48f9aa6c86fd4eddf7c9cc58d18552)
 * [OnPropertyChanged](Models.ASMModel.md#Models.ASMModel_1a201f0268bbda49305f4f59972687c0f3)
 * [OnValidate](Models.ASMModel.md#Models.ASMModel_1ad6f3426582ec127d8e7fb06cdea121df)
 * [prefix](Models.Profile.md#Models.Profile_1ab7b6fb49a3a178b1628690ad0f00927d)
@@ -843,31 +843,6 @@ Gets 't:[AdvancedSceneManager.Models.Profile](Models.Profile.md#Models.Profile)'
 
 
 **Type**: readonly string
-
-
-
-
-
-## Package functions
-
-<a id="Models.Profile_1a7d48f9aa6c86fd4eddf7c9cc58d18552"></a>
-### Function OnNameChanged
-
-
-
-```csharp
-override void OnNameChanged()
-```
-
-
-
-
-
-
-
-**Return type**: override void
-
-**Reimplements**: [OnNameChanged](Models.ASMModel.md#Models.ASMModel_1aac982fb34aa020704e86d0d06af17765)
 
 
 

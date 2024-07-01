@@ -46,7 +46,7 @@ Usage: SceneManager.app.
 * [OnProgress](Core.App.md#Core.App_1a80d2f137b7e6225d416b6bf6753aa241)
 * [OpenCollection](Core.App.md#Core.App_1a40de5557d1c4049d1f9db3d065013f19)
 * [OpenCollections](Core.App.md#Core.App_1a6f46bf8ad50ec262e75a2fa943500929)
-* [OpenScenes](Core.App.md#Core.App_1acea6e3cf64988bf5365d49525e6ba540)
+* [OpenScenes](Core.App.md#Core.App_1a37da8931b642cdad1152e8b7d5d44be2)
 * [PlaySplashScreen](Core.App.md#Core.App_1aef652b858a3e759bf1fcddfbf64ef28e)
 * [progress](Core.App.md#Core.App_1a35e093310a9e7c5ebc433c6541c4a9eb)
 * [Quit](Core.App.md#Core.App_1a9d9d620df506ef3c0242c52961ea0be0)
@@ -852,13 +852,13 @@ IEnumerator OpenCollections(Props props)
 
 
 
-<a id="Core.App_1acea6e3cf64988bf5365d49525e6ba540"></a>
+<a id="Core.App_1a37da8931b642cdad1152e8b7d5d44be2"></a>
 ### Function OpenScenes
 
 
 
 ```csharp
-IEnumerator OpenScenes(Props props)
+IEnumerator OpenScenes(Props props, bool persistent)
 ```
 
 
@@ -870,6 +870,7 @@ IEnumerator OpenScenes(Props props)
 **Parameters**:
 
 * [Props](Core.App.Props.md#Core.App.Props) **props**
+* bool **persistent**
 
 **Return type**: IEnumerator
 

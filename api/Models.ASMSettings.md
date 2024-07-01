@@ -45,7 +45,6 @@ Only available in editor.
 * [instance](Utility.ASMScriptableSingleton.md#Utility.ASMScriptableSingleton_1ac0091740a1a1b13daab37328b10bdc3f)
 * [isFirstStart](Models.ASMSettings.md#Models.ASMSettings_1a24a4b804143997a4ed52760c7fc7cde5)
 * [isInitialized](Models.ASMSettings.md#Models.ASMSettings_1a1fdc2bf5595c2e64dc06d987769834eb)
-* [isSwitchingToLegacyMode](Models.ASMSettings.md#Models.ASMSettings_1a391f36a343507b84ff930ca62adba434)
 * [m\_additiveCollections](Models.ASMSettings.md#Models.ASMSettings_1a4571fd4ac8e836e8f542f8e731b4e26b)
 * [m\_allowCollectionLocking](Models.ASMSettings.md#Models.ASMSettings_1af67c4ae3231fe7e01ae5b35387641672)
 * [m\_allowExcludingCollectionsFromBuild](Models.ASMSettings.md#Models.ASMSettings_1a5ff8cdc0941f88be6c0435115a388818)
@@ -73,6 +72,7 @@ Only available in editor.
 * [m\_spamCheckCooldown](Models.ASMSettings.md#Models.ASMSettings_1a5c9274e151b946f9b94123311c7d9dbc)
 * [m\_startProps](Models.ASMSettings.md#Models.ASMSettings_1a36cf78ac184aba60e04de8af32b1f538)
 * [m\_unitySplashScreenColor](Models.ASMSettings.md#Models.ASMSettings_1a8f03033590b0d4fb5d72448ca2fdfd64)
+* [m\_whitelist](Models.ASMSettings.md#Models.ASMSettings_1a81c43d7466e64ab186bc160ef91e30ab)
 * [OnEnable](Models.ASMSettings.md#Models.ASMSettings_1a84e23ba394eacd818d2e005cc466c4d1)
 * [OnInitialized](Models.ASMSettings.md#Models.ASMSettings_1ac4ee942126ba1f3e3bd5cb811e417df0)
 * [OnPropertyChanged](Models.ASMSettings.md#Models.ASMSettings_1a271433d4a450ba14354437e8259a22fb)
@@ -307,6 +307,29 @@ Profile m_forceProfile
 
 ```csharp
 List<string> m_blacklist = new()
+```
+
+
+
+
+
+
+
+**Type**: List< string >
+
+
+
+
+
+<a id="Models.ASMSettings_1a81c43d7466e64ab186bc160ef91e30ab"></a>
+### Variable m\_whitelist
+
+
+
+
+
+```csharp
+List<string> m_whitelist = new()
 ```
 
 
@@ -1202,30 +1225,6 @@ SceneImportOption m_sceneImportOption = SceneImportOption.Manual
 
 
 ## Private static attributes
-
-<a id="Models.ASMSettings_1a391f36a343507b84ff930ca62adba434"></a>
-### Variable isSwitchingToLegacyMode
-
-
-![][static]
-
-
-
-```csharp
-bool isSwitchingToLegacyMode
-```
-
-
-
-
-
-
-
-**Type**: bool
-
-
-
-
 
 <a id="Models.ASMSettings_1aecdf070965f9e2d6d85c3f8ff2452b64"></a>
 ### Variable callbacks
