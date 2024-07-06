@@ -22,7 +22,7 @@ Welcome to Advanced Scene Manager documentation.
 **API**:\
 [An overview of ASM API structure](guides/An%20overview%20of%20ASM%20API%20structure.md)\
 [Scene Manager](guides/Scene%20manager.md)\
-[Scene callbacks](guides/Scene%20callbacks.md)\
+[Callbacks](Callbacks.md)\
 [Scene operations](guides/Scene%20operations.md)\
 [Scene loaders](guides/Scene%20loaders.md)
 

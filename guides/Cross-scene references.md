@@ -24,5 +24,5 @@ Note that you may receive warnings from unity, these are safe to ignore. We have
 
 Due to the way scenes are loaded in unity, ASM cannot restore cross-scene references until after the scene is fully loaded, `Start()`, `Awake()`, and `OnEnable()` are called before the first possible time to restore them.
 
-You may however make use of [ASM scene callbacks](Scene%20callbacks.md), cross-scene references are guaranteed to have been restored by the time they are called.
+You may however make use of [ASM scene callbacks](Callbacks.md), cross-scene references are guaranteed to have been restored by the time they are called.
 

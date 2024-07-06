@@ -1,7 +1,7 @@
 # Loading screens
 
 > For how to perform actions while a loading screen is open, after a scene has opened, have a look here:\
-> [Scene callbacks](Scene%20callbacks.md)
+> [Callbacks](Callbacks.md)
 
 There are three ways of opening a loading screen:
 

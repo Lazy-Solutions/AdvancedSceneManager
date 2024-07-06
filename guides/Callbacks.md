@@ -68,7 +68,6 @@ public class Promotion : MonoBehaviour, ICollectionOpenAsync, ICollectionCloseAs
 There are also several C# events, which are fire and forget, scene operation will not wait for them, you can register listeners for them anywhere.
 
 ```csharp
-
 //Invoked by unity when editor starts / script recompile
 [InitializeOnLoad]
 static void OnLoad
@@ -89,5 +88,42 @@ void Log(Scene scene, string action)
 void Log(SceneCollection collection, string action)
 {
 	Debug.Log($"{collection.title} {action}.");
+}
+```
+
+# Scene operation callbacks
+
+[Fluent scene operation API](Scene%20operations.md#fluent-api) can be used to specify callbacks in code.
+
+```csharp
+
+public void OpenScenesWithCallbackBeforeLoadingScreenClose(IEnumerable<Scene> scenes, Action callbackAction)
+{
+    //Remove null scenes
+    scenes = scenes.Where(s => s);
+
+    //Add callback after scenes have loaded, that logs to console
+    SceneManager.runtime.Open(scenes).
+    Callback(Callback.BeforeLoadingScreenClose().Do(callbackAction));
+}
+
+public void LogAfterAllScenesOpened(IEnumerable<Scene> scenes)
+{
+	//Remove null scenes
+    scenes = scenes.Where(s => s);
+    
+	//Add callback after scenes have loaded, that logs to console
+    SceneManager.runtime.Open(scenes).
+    Callback(Callback.After(Phase.LoadScenes).Do(() => Debug.Log("Scenes loaded")));
+}
+
+public void OpenScenesWithDelayInbetween(IEnumerable<Scene> scenes, float delay)
+{
+	//Remove null scenes
+	scenes = scenes.Where(s => s);
+
+	//Add callback after scene has loaded, that delays the operation
+	SceneManager.runtime.Open(scenes).
+	Callback(scenes.Select(s => Callback.After(Phase.LoadScenes, s).Do(delay)));
 }
 ```
