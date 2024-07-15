@@ -12,6 +12,7 @@ Manages runtime functionality for Advanced Scene Manager such as open scenes and
 
 **Inherits from**:
 
+* [ISceneManager](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager)
 * [IMethods\_Target](undefined.md#undefined)
 * [SceneCollection.IMethods\_Target](Models.SceneCollection.IMethods___target.md#Models.SceneCollection.IMethods___target)
 
@@ -75,7 +76,9 @@ Manages runtime functionality for Advanced Scene Manager such as open scenes and
 * [Open](Core.Runtime.md#Core.Runtime_1a8c9ae8d738eaabe1700a015acf617132)
 * [Open](Core.Runtime.md#Core.Runtime_1a9a0c098c5a99002b502f0a07acbb31c4)
 * [OpenAdditive](Core.Runtime.md#Core.Runtime_1a3d24a2053e8b02066280728504cf51fd)
+* [OpenAdditive](Core.Runtime.md#Core.Runtime_1a6220da7d90a1efa055a827a7d6ef1daa)
 * [openAdditiveCollections](Core.Runtime.md#Core.Runtime_1abd83c4073b0e7491205c0a18d5fb5906)
+* [OpenAndActivate](Core.Runtime.md#Core.Runtime_1a12849bc14742f22995d9e241809af959)
 * [openCollection](Core.Runtime.md#Core.Runtime_1a693a74a4caf23c26e4ecdcc4086153bd)
 * [openScenes](Core.Runtime.md#Core.Runtime_1a3af4432ba0deb74cf5a3e59dbd2b0970)
 * [OpenWithLoadingScreen](Core.Runtime.md#Core.Runtime_1a235c86b206dade3f091c5ac1ab5a1fca)
@@ -98,14 +101,12 @@ Manages runtime functionality for Advanced Scene Manager such as open scenes and
 * [SetActive](Core.Runtime.md#Core.Runtime_1ad6cbf8337b1a3c0f26dae6e9a131256e)
 * [startedWorking](Core.Runtime.md#Core.Runtime_1a99443a735eb8aff05ce148c20c435e37)
 * [stoppedWorking](Core.Runtime.md#Core.Runtime_1a3fcfca3ede08cbf9a10db89bb8f2856c)
-* [ToggleOpen](Core.Runtime.md#Core.Runtime_1a399f83d02ba458e2611314b21fc9acfc)
-* [ToggleOpen](Core.Runtime.md#Core.Runtime_1ab9325ff5fbb7fb2a6fc3db1550711e21)
-* [ToggleOpenState](Core.Runtime.md#Core.Runtime_1aa7458679ffaeef703da16a1331ba67e6)
-* [ToggleOpenState](Core.Runtime.md#Core.Runtime_1a8a9ef725d4ce479a66024b816e9b8972)
+* [ToggleOpen](Core.Runtime.md#Core.Runtime_1a317e4528d9c73aea2809e00b219faa79)
+* [ToggleOpen](Core.Runtime.md#Core.Runtime_1a3978eea1ce6565b1a6214794f95f0013)
 * [Track](Core.Runtime.md#Core.Runtime_1ace974c748b151dae175d4562c9efd1e1)
 * [Track](Core.Runtime.md#Core.Runtime_1a538f75cc44aaad622c0c0f6dbb60971e)
 * [Track](Core.Runtime.md#Core.Runtime_1a5afd7f04b7e9f5f033982c4f5be80395)
-* [TrackCollectionCallback](Core.Runtime.md#Core.Runtime_1a0e08e7277926312b47e297f9c6aff611)
+* [TrackCollectionCallback](Core.Runtime.md#Core.Runtime_1aef92904c23f20219bac434b443b1d0db)
 * [TrackPreload](Core.Runtime.md#Core.Runtime_1ad3c02980ebefbec4b956971f3355f792)
 * [Untrack](Core.Runtime.md#Core.Runtime_1a34e42581cd9f2e68971fb7109584c59e)
 * [Untrack](Core.Runtime.md#Core.Runtime_1a62d07f15a2b380ef8f14d94b893c688e)
@@ -301,6 +302,7 @@ Gets the scenes that are open.
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.ISceneManager_1a3af4432ba0deb74cf5a3e59dbd2b0970"},"children":[{"type":"text","text":"openScenes"}]}
 
 <a id="Core.Runtime_1abd83c4073b0e7491205c0a18d5fb5906"></a>
 ### Property openAdditiveCollections
@@ -324,6 +326,7 @@ Gets the collections that are opened as additive.
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.ISceneManager_1abd83c4073b0e7491205c0a18d5fb5906"},"children":[{"type":"text","text":"openAdditiveCollections"}]}
 
 <a id="Core.Runtime_1a693a74a4caf23c26e4ecdcc4086153bd"></a>
 ### Property openCollection
@@ -347,6 +350,7 @@ Gets the collection that is currently open.
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.ISceneManager_1a693a74a4caf23c26e4ecdcc4086153bd"},"children":[{"type":"text","text":"openCollection"}]}
 
 <a id="Core.Runtime_1a1dba2cea10612a53f5a08062a4576e9c"></a>
 ### Property preloadedScene
@@ -370,6 +374,7 @@ Gets the scene that is currently preloaded.
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.ISceneManager_1a1dba2cea10612a53f5a08062a4576e9c"},"children":[{"type":"text","text":"preloadedScene"}]}
 
 <a id="Core.Runtime_1a18ce33b034e9eef3386256947d7498fd"></a>
 ### Property activeScene
@@ -393,6 +398,7 @@ Returns <code>null</code> if the active scene is not imported.
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.ISceneManager_1a18ce33b034e9eef3386256947d7498fd"},"children":[{"type":"text","text":"activeScene"}]}
 
 <a id="Core.Runtime_1a849c0a5258f8be37633705233198912c"></a>
 ### Property dontDestroyOnLoadScene
@@ -462,6 +468,7 @@ Returns <code>null</code> outside of play mode.
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.ISceneManager_1a38286ad3659f00a4c43e5fd6d4696b37"},"children":[{"type":"text","text":"dontDestroyOnLoad"}]}
 
 <a id="Core.Runtime_1a099f725f22a344e190121634f53328d8"></a>
 ### Property isBusy
@@ -485,6 +492,7 @@ Gets whatever ASM is busy with any scene operations.
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.ISceneManager_1a099f725f22a344e190121634f53328d8"},"children":[{"type":"text","text":"isBusy"}]}
 
 <a id="Core.Runtime_1ad70be6f3d1bccf03aa180baf73cdf9ab"></a>
 ### Property runningOperations
@@ -508,6 +516,7 @@ The currently running scene operations.
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.ISceneManager_1ad70be6f3d1bccf03aa180baf73cdf9ab"},"children":[{"type":"text","text":"runningOperations"}]}
 
 <a id="Core.Runtime_1a58edb432bfce40728a7484644d123743"></a>
 ### Property queuedOperations
@@ -531,6 +540,7 @@ Gets the current scene operation queue.
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.ISceneManager_1a58edb432bfce40728a7484644d123743"},"children":[{"type":"text","text":"queuedOperations"}]}
 
 <a id="Core.Runtime_1a8589fc4e9723e6716a968b3883a8ba93"></a>
 ### Property currentOperation
@@ -554,6 +564,7 @@ Gets the current active operation in the queue.
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.ISceneManager_1a8589fc4e9723e6716a968b3883a8ba93"},"children":[{"type":"text","text":"currentOperation"}]}
 
 ## Package attributes
 
@@ -839,6 +850,8 @@ Gets a list of all added scene loaders that can be toggled scene by scene.
 
 **Return type**: IEnumerable< [SceneLoader](Core.SceneLoader.md#Core.SceneLoader) >
 
+**Reimplements**: [GetToggleableSceneLoaders](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a25aabebdc1e3f5358c55de0988edfe46)
+
 
 
 
@@ -864,6 +877,8 @@ Gets the loader for _scene_ .
 
 **Return type**: [SceneLoader](Core.SceneLoader.md#Core.SceneLoader)
 
+**Reimplements**: [GetLoaderForScene](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a7846ec67aee40ef539105593814cc207)
+
 
 
 
@@ -885,6 +900,8 @@ Adds a scene loader.
 
 **Return type**: void
 
+**Reimplements**: [AddSceneLoader\< T \>](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a6da04aafa37667109a139e6673346f9d)
+
 
 
 
@@ -905,6 +922,8 @@ Removes a scene loader.
 
 
 **Return type**: void
+
+**Reimplements**: [RemoveSceneLoader\< T \>](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a18d7c4ab9e374c7f2c55039601484972)
 
 
 
@@ -931,6 +950,35 @@ SceneOperation Open(Scene scene)
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
+**Reimplements**: [Open](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a914f0c4e8534a411c2e0f4cbde0a3f69)
+
+
+
+
+
+<a id="Core.Runtime_1a12849bc14742f22995d9e241809af959"></a>
+### Function OpenAndActivate
+
+
+
+```csharp
+SceneOperation OpenAndActivate(Scene scene)
+```
+
+
+
+
+
+
+
+**Parameters**:
+
+* [Scene](Models.Scene.md#Models.Scene) **scene**
+
+**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+**Reimplements**: [OpenAndActivate](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a12849bc14742f22995d9e241809af959)
+
 
 
 
@@ -956,6 +1004,8 @@ SceneOperation Open(params Scene[] scenes)
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
+**Reimplements**: [Open](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1aeaae0acb70a5da754e63c198285bde56)
+
 
 
 
@@ -980,6 +1030,8 @@ Open scenes will not be re-opened, please close it first.
 * IEnumerable< [Scene](Models.Scene.md#Models.Scene) > **scenes**
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+**Reimplements**: [Open](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1ab1490f4412b9a101f38384e27f50d80f)
 
 
 
@@ -1007,6 +1059,8 @@ SceneOperation OpenWithLoadingScreen(Scene scene, Scene loadingScreen)
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
+**Reimplements**: [OpenWithLoadingScreen](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a235c86b206dade3f091c5ac1ab5a1fca)
+
 
 
 
@@ -1033,6 +1087,8 @@ Opens a scene with a loading screen.
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
+**Reimplements**: [OpenWithLoadingScreen](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a19a9e8130778421fa690c10378d0a8c1)
+
 
 
 
@@ -1057,6 +1113,8 @@ SceneOperation Close(Scene scene)
 * [Scene](Models.Scene.md#Models.Scene) **scene**
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+**Reimplements**: [Close](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a9fcaf132ddf18199326605380c9258fd)
 
 
 
@@ -1083,6 +1141,8 @@ SceneOperation Close(params Scene[] scenes)
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
+**Reimplements**: [Close](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a4a3e38682eac62caae129c4170c1d5a4)
+
 
 
 
@@ -1107,6 +1167,8 @@ Closes persistent scenes.
 * IEnumerable< [Scene](Models.Scene.md#Models.Scene) > **scenes**
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+**Reimplements**: [Close](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a6cab5f0d24db1534bf42522a4d96c221)
 
 
 
@@ -1134,6 +1196,8 @@ SceneOperation Preload(Scene scene, Action onPreloaded=null)
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
+**Reimplements**: [Preload](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1ac8d87e317a43821c95bb26b0440d25e1)
+
 
 
 
@@ -1159,6 +1223,8 @@ SceneOperation FinishPreload(Scene scene)
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
+**Reimplements**: [FinishPreload](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a2ac1c4da5aa55f755ae896558119339a)
+
 
 
 
@@ -1179,6 +1245,8 @@ Finishes the preload of the currently preloaded scene.
 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+**Reimplements**: [FinishPreload](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a5e8f70087d73b1a14ca4dc8ef6fc5b24)
 
 
 
@@ -1205,6 +1273,8 @@ Discards preload of the scene, if preloaded.
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
+**Reimplements**: [DiscardPreload](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1ae6ae8dc6c99f241414636ecd7f5af757)
+
 
 
 
@@ -1226,42 +1296,19 @@ Discards the preload of the currently preloaded scene.
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-
-
-
-
-<a id="Core.Runtime_1aa7458679ffaeef703da16a1331ba67e6"></a>
-### Function ToggleOpenState
-
-
-
-```csharp
-SceneOperation ToggleOpenState(Scene scene)
-```
+**Reimplements**: [DiscardPreload](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1aca084bb90eac73c146665dca2a903386)
 
 
 
 
 
-
-
-**Parameters**:
-
-* [Scene](Models.Scene.md#Models.Scene) **scene**
-
-**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
-
-
-
-
-
-<a id="Core.Runtime_1a399f83d02ba458e2611314b21fc9acfc"></a>
+<a id="Core.Runtime_1a317e4528d9c73aea2809e00b219faa79"></a>
 ### Function ToggleOpen
 
 
 
 ```csharp
-SceneOperation ToggleOpen(Scene scene, bool? openState=null)
+SceneOperation ToggleOpen(Scene scene)
 ```
 
 Toggles the open state of this scene.
@@ -1273,9 +1320,10 @@ Toggles the open state of this scene.
 **Parameters**:
 
 * [Scene](Models.Scene.md#Models.Scene) **scene**
-* bool? **openState** = null 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+**Reimplements**: [ToggleOpen](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a317e4528d9c73aea2809e00b219faa79)
 
 
 
@@ -1301,6 +1349,8 @@ No effect if not open.
 * [Scene](Models.Scene.md#Models.Scene) **scene**
 
 **Return type**: void
+
+**Reimplements**: [SetActive](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1ad6cbf8337b1a3c0f26dae6e9a131256e)
 
 
 
@@ -1328,7 +1378,7 @@ SceneOperation Open(SceneCollection collection, bool openAll=false)
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [Open](Models.SceneCollection.IMethods___target.md#Models.SceneCollection.IMethods___target_1a8c9ae8d738eaabe1700a015acf617132)
+**Reimplements**: [Open](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a8c9ae8d738eaabe1700a015acf617132)
 
 
 
@@ -1359,7 +1409,36 @@ Opens the collection without closing existing scenes.
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [OpenAdditive](Models.SceneCollection.IMethods___target.md#Models.SceneCollection.IMethods___target_1a3d24a2053e8b02066280728504cf51fd)
+**Reimplements**: [OpenAdditive](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a3d24a2053e8b02066280728504cf51fd)
+
+
+
+
+
+<a id="Core.Runtime_1a6220da7d90a1efa055a827a7d6ef1daa"></a>
+### Function OpenAdditive
+
+
+
+```csharp
+SceneOperation OpenAdditive(IEnumerable< SceneCollection > collections, SceneCollection activeCollection=null, Scene loadingScene=null)
+```
+
+Opens the collection without closing existing scenes.
+
+No effect if no additive collections could be opened. Note that _activeCollection_  will be removed from _collections_  if it is contained within.
+
+
+
+**Parameters**:
+
+* IEnumerable< [SceneCollection](Models.SceneCollection.md#Models.SceneCollection) > **collections**
+* [SceneCollection](Models.SceneCollection.md#Models.SceneCollection) **activeCollection** = null 
+* [Scene](Models.Scene.md#Models.Scene) **loadingScene** = null 
+
+**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+**Reimplements**: [OpenAdditive](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a6220da7d90a1efa055a827a7d6ef1daa)
 
 
 
@@ -1386,45 +1465,19 @@ SceneOperation Close(SceneCollection collection)
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [Close](Models.SceneCollection.IMethods___target.md#Models.SceneCollection.IMethods___target_1a486db83dc1371e62064f87c69708bd27)
+**Reimplements**: [Close](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a486db83dc1371e62064f87c69708bd27)
 
 
 
 
 
-<a id="Core.Runtime_1a8a9ef725d4ce479a66024b816e9b8972"></a>
-### Function ToggleOpenState
-
-
-
-```csharp
-SceneOperation ToggleOpenState(SceneCollection collection, bool openAll=false)
-```
-
-
-
-
-
-
-
-**Parameters**:
-
-* [SceneCollection](Models.SceneCollection.md#Models.SceneCollection) **collection**
-* bool **openAll** = false 
-
-**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
-
-
-
-
-
-<a id="Core.Runtime_1ab9325ff5fbb7fb2a6fc3db1550711e21"></a>
+<a id="Core.Runtime_1a3978eea1ce6565b1a6214794f95f0013"></a>
 ### Function ToggleOpen
 
 
 
 ```csharp
-SceneOperation ToggleOpen(SceneCollection collection, bool? openState=null, bool openAll=false)
+SceneOperation ToggleOpen(SceneCollection collection, bool openAll=false)
 ```
 
 
@@ -1436,12 +1489,11 @@ SceneOperation ToggleOpen(SceneCollection collection, bool? openState=null, bool
 **Parameters**:
 
 * [SceneCollection](Models.SceneCollection.md#Models.SceneCollection) **collection**
-* bool? **openState** = null 
 * bool **openAll** = false 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [ToggleOpen](Models.SceneCollection.IMethods___target.md#Models.SceneCollection.IMethods___target_1ab9325ff5fbb7fb2a6fc3db1550711e21)
+**Reimplements**: [ToggleOpen](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a3978eea1ce6565b1a6214794f95f0013)
 
 
 
@@ -1467,6 +1519,8 @@ Gets the current state of the scene.
 * [Scene](Models.Scene.md#Models.Scene) **scene**
 
 **Return type**: [SceneState](namespace_advanced_scene_manager_1_1_models_1_1_enums.md#namespace_advanced_scene_manager_1_1_models_1_1_enums_1a35ae9f3faf23cd757d50ff4ed5ea9828)
+
+**Reimplements**: [GetState](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1af08b7536494d05d8b21637f6092f935e)
 
 
 
@@ -1494,6 +1548,8 @@ Does not open scene.
 
 **Return type**: void
 
+**Reimplements**: [Track](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1ace974c748b151dae175d4562c9efd1e1)
+
 
 
 
@@ -1518,6 +1574,8 @@ void Track(Scene scene)
 * [Scene](Models.Scene.md#Models.Scene) **scene**
 
 **Return type**: void
+
+**Reimplements**: [Track](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a538f75cc44aaad622c0c0f6dbb60971e)
 
 
 
@@ -1544,6 +1602,8 @@ Does not close scene.
 
 **Return type**: bool
 
+**Reimplements**: [Untrack](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a34e42581cd9f2e68971fb7109584c59e)
+
 
 
 
@@ -1564,6 +1624,8 @@ Does not close scenes.
 
 
 **Return type**: void
+
+**Reimplements**: [UntrackScenes](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a092ea5438dee76b5f124e9874ef9eae8)
 
 
 
@@ -1591,6 +1653,8 @@ Does not open collection.
 
 **Return type**: void
 
+**Reimplements**: [Track](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a5afd7f04b7e9f5f033982c4f5be80395)
+
 
 
 
@@ -1617,6 +1681,8 @@ Does not close the collection.
 
 **Return type**: void
 
+**Reimplements**: [Untrack](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a62d07f15a2b380ef8f14d94b893c688e)
+
 
 
 
@@ -1637,6 +1703,8 @@ Does not close collections.
 
 
 **Return type**: void
+
+**Reimplements**: [UntrackCollections](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1aa45df95d3458d4d5b0124eaf47945b13)
 
 
 
@@ -1663,6 +1731,8 @@ Gets whatever this scene is tracked as open.
 
 **Return type**: bool
 
+**Reimplements**: [IsTracked](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a2c5a3f46a8ff748db2ce4163207bb8c3)
+
 
 
 
@@ -1687,6 +1757,8 @@ Gets whatever this collection is tracked as open.
 * [SceneCollection](Models.SceneCollection.md#Models.SceneCollection) **collection**
 
 **Return type**: bool
+
+**Reimplements**: [IsTracked](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1ab1ea707d692961a348cfbb768cab0bcf)
 
 
 
@@ -1714,6 +1786,8 @@ Closes all scenes and collections.
 * params [Scene](Models.Scene.md#Models.Scene)[] **except**
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+**Reimplements**: [CloseAll](DependencyInjection.ISceneManager.md#DependencyInjection.ISceneManager_1a437e9ad7a4064d91c8366f1c0f09d0a5)
 
 
 
@@ -2106,13 +2180,13 @@ void FindAssociatedScene(Scene scene)
 
 
 
-<a id="Core.Runtime_1a0e08e7277926312b47e297f9c6aff611"></a>
+<a id="Core.Runtime_1aef92904c23f20219bac434b443b1d0db"></a>
 ### Function TrackCollectionCallback
 
 
 
 ```csharp
-Callback TrackCollectionCallback(SceneCollection collection, bool isAdditive=false)
+Callback[] TrackCollectionCallback(SceneCollection collection, bool isAdditive=false)
 ```
 
 
@@ -2126,7 +2200,7 @@ Callback TrackCollectionCallback(SceneCollection collection, bool isAdditive=fal
 * [SceneCollection](Models.SceneCollection.md#Models.SceneCollection) **collection**
 * bool **isAdditive** = false 
 
-**Return type**: [Callback](Core.Callback.md#Core.Callback)
+**Return type**: [Callback](Core.Callback.md#Core.Callback)[]
 
 
 

@@ -35,8 +35,8 @@ Only one collection can be open at a time.
 * [\_Close](Models.SceneCollection.md#Models.SceneCollection_1afec59681870c30b4678600508b9e1303)
 * [\_Open](Models.SceneCollection.md#Models.SceneCollection_1ac2d5776d631a9d290785fd2a5358c228)
 * [\_OpenAdditive](Models.SceneCollection.md#Models.SceneCollection_1ad8ff88b99faf429ff31c16f7799eec82)
-* [\_ToggleOpen](Models.SceneCollection.md#Models.SceneCollection_1a23600c982ce9226b5092e2b39314bcde)
-* [\_ToggleOpenState](Models.SceneCollection.md#Models.SceneCollection_1a85086c20c2302f170a911c59406b5aa1)
+* [\_ToggleOpen](Models.SceneCollection.md#Models.SceneCollection_1a35730a6ce5e61ef05eede731c3479cbe)
+* [\_ToggleOpen](Models.SceneCollection.md#Models.SceneCollection_1aa348db139454a5548d2e018dc078e2e1)
 * [activeScene](Models.SceneCollection.md#Models.SceneCollection_1a18ce33b034e9eef3386256947d7498fd)
 * [allScenes](Models.SceneCollection.md#Models.SceneCollection_1a0e86009413af486305c80e98ed5a50ce)
 * [AssetSearchString](Models.SceneCollection.md#Models.SceneCollection_1a4d4daa74fa2ce778cb7e354c4f70ee63)
@@ -54,6 +54,7 @@ Only one collection can be open at a time.
 * [GenerateID](Models.ASMModel.md#Models.ASMModel_1a17da619efc12886a8be9f488a2d1dae5)
 * [GetEnumerator](Models.SceneCollection.md#Models.SceneCollection_1ae60b505e2045bbbc3b9e03a38d68553c)
 * [GetEnumerator](Models.SceneCollection.md#Models.SceneCollection_1a7d819d2ba8ffadd29113c811ce043c9f)
+* [hasID](Models.ASMModel.md#Models.ASMModel_1ae2e20a8535ca865b5e86eac9eb85ae4f)
 * [hasScenes](Models.SceneCollection.md#Models.SceneCollection_1ac98ba4097e3fcfb82ce27be4dfcb92a2)
 * [id](Models.ASMModel.md#Models.ASMModel_1ad97b05b88ce9080f35b157cfacc8eb69)
 * [id](Models.ISceneCollection.md#Models.ISceneCollection_1ad97b05b88ce9080f35b157cfacc8eb69)
@@ -62,8 +63,8 @@ Only one collection can be open at a time.
 * [isLocked](Models.SceneCollection.md#Models.SceneCollection_1a0774f698e7c923fe33adcfe95cdf9e73)
 * [IsMatch](Models.SceneCollection.md#Models.SceneCollection_1a814597beb6c8a3fcd5c65c0eb3c19bb3)
 * [IsNameMatch](Models.ASMModel.md#Models.ASMModel_1a0670b505f55cd78eac22aafd3f2b457c)
-* [IsOpen](Models.SceneCollection.md#Models.SceneCollection_1a3d17df27e95e67f2dcd7b3a777e734ef)
 * [isOpen](Models.SceneCollection.md#Models.SceneCollection_1a882afa92abc68d9b1fa39a42f56a8b3d)
+* [IsOpen](Models.SceneCollection.md#Models.SceneCollection_1a3d17df27e95e67f2dcd7b3a777e734ef)
 * [isOpenAdditive](Models.SceneCollection.md#Models.SceneCollection_1a79c006e30cb83adab317556fbe0ae3cb)
 * [isOpenNonAdditive](Models.SceneCollection.md#Models.SceneCollection_1a3b459c245919b612b05f282f7b15355d)
 * [isStartupCollection](Models.SceneCollection.md#Models.SceneCollection_1aad843eccc87a0bb1c0188633760e3958)
@@ -91,10 +92,9 @@ Only one collection can be open at a time.
 * [m\_startupOption](Models.SceneCollection.md#Models.SceneCollection_1a94ea4e732dfbaada34de53bc8d26ea3d)
 * [m\_title](Models.SceneCollection.md#Models.SceneCollection_1a9051e9e6563f1ae490194450f524989a)
 * [m\_unloadUnusedAssets](Models.SceneCollection.md#Models.SceneCollection_1a3df0e083e773ea1964d6cba48e4ec947)
-* [MarkAsDirty](Models.ASMModel.md#Models.ASMModel_1a64e64b00089467c2f05a1e7c4b63c415)
 * [name](Models.ASMModel.md#Models.ASMModel_1ac5a91fc09e22a791ce7bf790e1d3076a)
+* [OnDisable](Models.ASMModel.md#Models.ASMModel_1a1aac1c9a4ae04ef3e2fbf26b0aa570cc)
 * [OnPropertyChanged](Models.SceneCollection.md#Models.SceneCollection_1a8b80b524ffb41f5b2ba062244c04df2b)
-* [OnValidate](Models.ASMModel.md#Models.ASMModel_1ad6f3426582ec127d8e7fb06cdea121df)
 * [Open](Models.SceneCollection.md#Models.SceneCollection_1a6c1aafd4ce30ab38d3541aa45fe99738)
 * [OpenAdditive](Models.SceneCollection.md#Models.SceneCollection_1ad9fa077af3cd902accebefb8fb5f766c)
 * [openAsDisabled](Models.SceneCollection.md#Models.SceneCollection_1a0d43a20e35bdb724808abe8d043e5deb)
@@ -103,6 +103,8 @@ Only one collection can be open at a time.
 * [Rename](Models.ASMModel.md#Models.ASMModel_1a96a1684ac055649b6eedd67758dcfc77)
 * [Save](Models.ASMModel.md#Models.ASMModel_1aaf937141229fcfe4a2e1b387cff8e758)
 * [Save](Models.ILockable.md#Models.ILockable_1a5df140c1ee51aadf7fe88ce3fb9cac33)
+* [SaveNow](Models.ASMModel.md#Models.ASMModel_1aefd51a3b50f8b53ce82e87c6ae77c92e)
+* [SaveNow](Models.ASMModel.md#Models.ASMModel_1a432dd326bfe8de8c35b39b3187a80c68)
 * [sceneList](Models.SceneCollection.md#Models.SceneCollection_1a112bbfabfea416165ee76b362326a95a)
 * [scenePaths](Models.SceneCollection.md#Models.SceneCollection_1a4eb5420fe0359c8b0d969bf51894ff4f)
 * [scenes](Models.SceneCollection.md#Models.SceneCollection_1a9d66af610abd5d1e3aa49584b3e7bdb4)
@@ -112,9 +114,8 @@ Only one collection can be open at a time.
 * [startupOption](Models.SceneCollection.md#Models.SceneCollection_1ac299c8a1a26407e3599cf8dc76d9e93b)
 * [this[int index]](Models.SceneCollection.md#Models.SceneCollection_1a3bc81a8fb299811c2a0293769178d0de)
 * [title](Models.SceneCollection.md#Models.SceneCollection_1a43a5eafe64b96968035e5a4013e47c75)
-* [ToggleOpen](Models.SceneCollection.md#Models.SceneCollection_1a7c38c2f0af7fe17af8590eb09cccc4e3)
-* [ToString](Models.SceneCollection.md#Models.SceneCollection_1ab4f1fc15ec47954898d4c0ac8580948e)
-* [ToString](Models.ASMModel.md#Models.ASMModel_1aa73e7c4dd1df5fd5fbf81c7764ee1533)
+* [ToggleOpen](Models.SceneCollection.md#Models.SceneCollection_1a35576b85c3fe0added04b818f9a31f6c)
+* [ToString](Models.SceneCollection.md#Models.SceneCollection_1aa73e7c4dd1df5fd5fbf81c7764ee1533)
 * [TryFind](Models.SceneCollection.md#Models.SceneCollection_1ac89b0ff0165b420998c541e2e1900b1a)
 * [unloadUnusedAssets](Models.SceneCollection.md#Models.SceneCollection_1a18f4b085ba13a7e19db9b9c75562afee)
 * [UpdateStartup](Models.SceneCollection.md#Models.SceneCollection_1ae28708c028aa06b02cf5a3d7b6392f83)
@@ -846,6 +847,29 @@ string m_title = "New Collection"
 
 
 
+<a id="Models.SceneCollection_1a2173b2279f625a6fe901c499e1e2d9f0"></a>
+### Variable m\_scenes
+
+
+
+
+
+```csharp
+List<Scene> m_scenes = new()
+```
+
+
+
+
+
+
+
+**Type**: List< [Scene](Models.Scene.md#Models.Scene) >
+
+
+
+
+
 <a id="Models.SceneCollection_1a87563c5f67804df2d35d2d42ec7874ff"></a>
 ### Variable m\_prefix
 
@@ -895,29 +919,6 @@ string m_description
 
 
 ## Private attributes
-
-<a id="Models.SceneCollection_1a2173b2279f625a6fe901c499e1e2d9f0"></a>
-### Variable m\_scenes
-
-
-
-
-
-```csharp
-List<Scene> m_scenes = new()
-```
-
-
-
-
-
-
-
-**Type**: List< [Scene](Models.Scene.md#Models.Scene) >
-
-
-
-
 
 <a id="Models.SceneCollection_1a2c0210584df8db55ed7eee4529843b0f"></a>
 ### Variable m\_loadingScreenUsage
@@ -1378,7 +1379,7 @@ override void OnPropertyChanged([CallerMemberName] string propertyName=null)
 
 **Return type**: override void
 
-**Reimplements**: [OnPropertyChanged](Models.ASMModel.md#Models.ASMModel_1a201f0268bbda49305f4f59972687c0f3)
+**Reimplements**: [OnPropertyChanged](Models.ASMModel.md#Models.ASMModel_1a6b21119cbf2d0a2cbf6290abf8ff4252)
 
 
 
@@ -1485,13 +1486,13 @@ Additive collections are not "opened", all scenes within are merely opened like 
 
 
 
-<a id="Models.SceneCollection_1a7c38c2f0af7fe17af8590eb09cccc4e3"></a>
+<a id="Models.SceneCollection_1a35576b85c3fe0added04b818f9a31f6c"></a>
 ### Function ToggleOpen
 
 
 
 ```csharp
-SceneOperation ToggleOpen(bool? openState=null, bool openAll=false)
+SceneOperation ToggleOpen(bool openAll=false)
 ```
 
 Toggles this collection open or closed.
@@ -1505,12 +1506,11 @@ Toggles this collection open or closed.
 
 **Parameters**:
 
-* bool? **openState** = null 
 * bool **openAll** = false 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [ToggleOpen](Models.SceneCollection.IMethods.md#Models.SceneCollection.IMethods_1a7c38c2f0af7fe17af8590eb09cccc4e3)
+**Reimplements**: [ToggleOpen](Models.SceneCollection.IMethods.md#Models.SceneCollection.IMethods_1a35576b85c3fe0added04b818f9a31f6c)
 
 
 
@@ -1593,13 +1593,13 @@ void _OpenAdditive(bool openAll=false)
 
 
 
-<a id="Models.SceneCollection_1a85086c20c2302f170a911c59406b5aa1"></a>
-### Function \_ToggleOpenState
+<a id="Models.SceneCollection_1a35730a6ce5e61ef05eede731c3479cbe"></a>
+### Function \_ToggleOpen
 
 
 
 ```csharp
-void _ToggleOpenState()
+void _ToggleOpen()
 ```
 
 
@@ -1610,19 +1610,19 @@ void _ToggleOpenState()
 
 **Return type**: void
 
-**Reimplements**: [\_ToggleOpenState](Models.SceneCollection.IMethods.IEvent.md#Models.SceneCollection.IMethods.IEvent_1a85086c20c2302f170a911c59406b5aa1)
+**Reimplements**: [\_ToggleOpen](Models.SceneCollection.IMethods.IEvent.md#Models.SceneCollection.IMethods.IEvent_1a35730a6ce5e61ef05eede731c3479cbe)
 
 
 
 
 
-<a id="Models.SceneCollection_1a23600c982ce9226b5092e2b39314bcde"></a>
+<a id="Models.SceneCollection_1aa348db139454a5548d2e018dc078e2e1"></a>
 ### Function \_ToggleOpen
 
 
 
 ```csharp
-void _ToggleOpen(bool? openState=null)
+void _ToggleOpen(bool openAll=false)
 ```
 
 
@@ -1633,11 +1633,11 @@ void _ToggleOpen(bool? openState=null)
 
 **Parameters**:
 
-* bool? **openState** = null 
+* bool **openAll** = false 
 
 **Return type**: void
 
-**Reimplements**: [\_ToggleOpen](Models.SceneCollection.IMethods.IEvent.md#Models.SceneCollection.IMethods.IEvent_1a23600c982ce9226b5092e2b39314bcde)
+**Reimplements**: [\_ToggleOpen](Models.SceneCollection.IMethods.IEvent.md#Models.SceneCollection.IMethods.IEvent_1aa348db139454a5548d2e018dc078e2e1)
 
 
 
@@ -1784,32 +1784,22 @@ Gets or sets whatever the scene should automatically open, when this collection 
 
 
 
-<a id="Models.SceneCollection_1ab4f1fc15ec47954898d4c0ac8580948e"></a>
+<a id="Models.SceneCollection_1aa73e7c4dd1df5fd5fbf81c7764ee1533"></a>
 ### Function ToString
 
 
 
 ```csharp
-override string ToString(int indent)
+override string ToString()
 ```
 
 
 
-&para
- 
-**Parameters**:
-
-* **indent**: The indentation level, used for nested calls.
 
 
 
-**Parameters**:
-
-* int **indent**
 
 **Return type**: override string
-
-**Reimplements**: [ToString](Models.ASMModel.md#Models.ASMModel_1ac55fb8e9c64c5c37cf02c5e98d28a52f)
 
 
 

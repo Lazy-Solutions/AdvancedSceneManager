@@ -12,10 +12,12 @@ The default scene allows us to more easily close all scenes when we need to, sin
 
 ## Members
 
+* [EnsureNotActive](Utility.FallbackSceneUtility.md#Utility.FallbackSceneUtility_1ad7a9ce07e4df0793b23329423f47707d)
 * [EnsureOpen](Utility.FallbackSceneUtility.md#Utility.FallbackSceneUtility_1a91f460de7e9440b78fbbf8c696cd45c4)
 * [FallbackSceneUtility](Utility.FallbackSceneUtility.md#Utility.FallbackSceneUtility_1a978efa4a47fcd5bb9749a435684e716a)
 * [FindOpenScene](Utility.FallbackSceneUtility.md#Utility.FallbackSceneUtility_1af2589e1fa9b825e54d299b51263f9d3f)
 * [GetStartupScene](Utility.FallbackSceneUtility.md#Utility.FallbackSceneUtility_1a9b6b13426debefed369133cadf884f9c)
+* [isActive](Utility.FallbackSceneUtility.md#Utility.FallbackSceneUtility_1a96eff8420fb9ee1b4c5d5f1bcace116d)
 * [IsFallbackScene](Utility.FallbackSceneUtility.md#Utility.FallbackSceneUtility_1ab07b7c4480a462518760f79cd81d4706)
 * [isOpen](Utility.FallbackSceneUtility.md#Utility.FallbackSceneUtility_1a882afa92abc68d9b1fa39a42f56a8b3d)
 * [IsSpecialScene](Utility.FallbackSceneUtility.md#Utility.FallbackSceneUtility_1a0e7d3208283867648b79e4e475dd94c1)
@@ -51,6 +53,30 @@ const string Name = "ASM - Fallback scene"
 
 
 ## Properties
+
+<a id="Utility.FallbackSceneUtility_1a96eff8420fb9ee1b4c5d5f1bcace116d"></a>
+### Property isActive
+
+
+![][static]
+
+
+
+```csharp
+bool isActive
+```
+
+
+
+
+
+
+
+**Return type**: bool
+
+
+
+
 
 <a id="Utility.FallbackSceneUtility_1a882afa92abc68d9b1fa39a42f56a8b3d"></a>
 ### Property isOpen
@@ -272,6 +298,28 @@ static string GetStartupScene()
 
 
 **Return type**: string
+
+
+
+
+
+<a id="Utility.FallbackSceneUtility_1ad7a9ce07e4df0793b23329423f47707d"></a>
+### Function EnsureNotActive
+
+
+![][static]
+
+```csharp
+static void EnsureNotActive()
+```
+
+
+
+
+
+
+
+**Return type**: void
 
 
 

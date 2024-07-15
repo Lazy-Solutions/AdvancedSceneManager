@@ -22,8 +22,8 @@ Represents a SceneCollection that changes depending on active Profile.
 * [\_Close](Models.Utility.ProfileDependentCollection.md#Models.Utility.ProfileDependentCollection_1afec59681870c30b4678600508b9e1303)
 * [\_Open](Models.Utility.ProfileDependentCollection.md#Models.Utility.ProfileDependentCollection_1ac2d5776d631a9d290785fd2a5358c228)
 * [\_OpenAdditive](Models.Utility.ProfileDependentCollection.md#Models.Utility.ProfileDependentCollection_1ad8ff88b99faf429ff31c16f7799eec82)
-* [\_ToggleOpen](Models.Utility.ProfileDependentCollection.md#Models.Utility.ProfileDependentCollection_1a23600c982ce9226b5092e2b39314bcde)
-* [\_ToggleOpenState](Models.Utility.ProfileDependentCollection.md#Models.Utility.ProfileDependentCollection_1a85086c20c2302f170a911c59406b5aa1)
+* [\_ToggleOpen](Models.Utility.ProfileDependentCollection.md#Models.Utility.ProfileDependentCollection_1a35730a6ce5e61ef05eede731c3479cbe)
+* [\_ToggleOpen](Models.Utility.ProfileDependentCollection.md#Models.Utility.ProfileDependentCollection_1abcf5774a8e3a73247588ddebd34b4423)
 * [Close](Models.Utility.ProfileDependentCollection.md#Models.Utility.ProfileDependentCollection_1ae0aa66a0b2aa0b22d170d2bd3a808d0b)
 * [DoAction](Models.Utility.ProfileDependent.md#Models.Utility.ProfileDependent_1a7b7b0c097b8754938dccb13a9b812e19)
 * [DoAction\< T2 \>](Models.Utility.ProfileDependent.md#Models.Utility.ProfileDependent_1acc6e95f3345efeb119b87ddab74babd6)
@@ -33,7 +33,7 @@ Represents a SceneCollection that changes depending on active Profile.
 * [Open](Models.Utility.ProfileDependentCollection.md#Models.Utility.ProfileDependentCollection_1a6c1aafd4ce30ab38d3541aa45fe99738)
 * [OpenAdditive](Models.Utility.ProfileDependentCollection.md#Models.Utility.ProfileDependentCollection_1ad9fa077af3cd902accebefb8fb5f766c)
 * [operator SceneCollection](Models.Utility.ProfileDependentCollection.md#Models.Utility.ProfileDependentCollection_1a8d6364b0a8e1aeec781c81b5656cbced)
-* [ToggleOpen](Models.Utility.ProfileDependentCollection.md#Models.Utility.ProfileDependentCollection_1a7c38c2f0af7fe17af8590eb09cccc4e3)
+* [ToggleOpen](Models.Utility.ProfileDependentCollection.md#Models.Utility.ProfileDependentCollection_1a35576b85c3fe0added04b818f9a31f6c)
 
 ## Public static functions
 
@@ -139,13 +139,13 @@ Additive collections are not "opened", all scenes within are merely opened like 
 
 
 
-<a id="Models.Utility.ProfileDependentCollection_1a7c38c2f0af7fe17af8590eb09cccc4e3"></a>
+<a id="Models.Utility.ProfileDependentCollection_1a35576b85c3fe0added04b818f9a31f6c"></a>
 ### Function ToggleOpen
 
 
 
 ```csharp
-SceneOperation ToggleOpen(bool? openState=null, bool openAll=false)
+SceneOperation ToggleOpen(bool openAll=false)
 ```
 
 Toggles this collection open or closed.
@@ -159,12 +159,11 @@ Toggles this collection open or closed.
 
 **Parameters**:
 
-* bool? **openState** = null 
 * bool **openAll** = false 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [ToggleOpen](Models.SceneCollection.IMethods.md#Models.SceneCollection.IMethods_1a7c38c2f0af7fe17af8590eb09cccc4e3)
+**Reimplements**: [ToggleOpen](Models.SceneCollection.IMethods.md#Models.SceneCollection.IMethods_1a35576b85c3fe0added04b818f9a31f6c)
 
 
 
@@ -247,13 +246,36 @@ void _OpenAdditive(bool openAll=false)
 
 
 
-<a id="Models.Utility.ProfileDependentCollection_1a23600c982ce9226b5092e2b39314bcde"></a>
+<a id="Models.Utility.ProfileDependentCollection_1a35730a6ce5e61ef05eede731c3479cbe"></a>
 ### Function \_ToggleOpen
 
 
 
 ```csharp
-void _ToggleOpen(bool? openState=null)
+void _ToggleOpen()
+```
+
+
+
+
+
+
+
+**Return type**: void
+
+**Reimplements**: [\_ToggleOpen](Models.SceneCollection.IMethods.IEvent.md#Models.SceneCollection.IMethods.IEvent_1a35730a6ce5e61ef05eede731c3479cbe)
+
+
+
+
+
+<a id="Models.Utility.ProfileDependentCollection_1abcf5774a8e3a73247588ddebd34b4423"></a>
+### Function \_ToggleOpen
+
+
+
+```csharp
+void _ToggleOpen(bool openAll)
 ```
 
 
@@ -264,34 +286,11 @@ void _ToggleOpen(bool? openState=null)
 
 **Parameters**:
 
-* bool? **openState** = null 
+* bool **openAll**
 
 **Return type**: void
 
-**Reimplements**: [\_ToggleOpen](Models.SceneCollection.IMethods.IEvent.md#Models.SceneCollection.IMethods.IEvent_1a23600c982ce9226b5092e2b39314bcde)
-
-
-
-
-
-<a id="Models.Utility.ProfileDependentCollection_1a85086c20c2302f170a911c59406b5aa1"></a>
-### Function \_ToggleOpenState
-
-
-
-```csharp
-void _ToggleOpenState()
-```
-
-
-
-
-
-
-
-**Return type**: void
-
-**Reimplements**: [\_ToggleOpenState](Models.SceneCollection.IMethods.IEvent.md#Models.SceneCollection.IMethods.IEvent_1a85086c20c2302f170a911c59406b5aa1)
+**Reimplements**: [\_ToggleOpen](Models.SceneCollection.IMethods.IEvent.md#Models.SceneCollection.IMethods.IEvent_1aa348db139454a5548d2e018dc078e2e1)
 
 
 

@@ -6,67 +6,92 @@
 
 
 
-Manages startup and quit.
+Manages startup and quit processes.
 
 Usage: SceneManager.app.
+
+**Inherits from**:
+
+* [IApp](DependencyInjection.IApp.md#DependencyInjection.IApp)
 
 ## Inner classes
 
 * [AdvancedSceneManager.Core.App.NoProfileWarning](Core.App.NoProfileWarning.md#Core.App.NoProfileWarning)
-* [AdvancedSceneManager.Core.App.Props](Core.App.Props.md#Core.App.Props)
+* [AdvancedSceneManager.Core.App.StartupProps](Core.App.StartupProps.md#Core.App.StartupProps)
 
 ## Members
 
 * [afterRestart](Core.App.md#Core.App_1a097fdc52166a9320f128c21926c1faa7)
 * [beforeRestart](Core.App.md#Core.App_1aba0bf4e2e31c223804492a770abef806)
-* [BeforeStart](Core.App.md#Core.App_1aae101652b1eac35121c676899e173cee)
 * [callbacks](Core.App.md#Core.App_1a51e7468a3dd60d993951f216ce326292)
 * [CallCollectionCloseCallbacks](Core.App.md#Core.App_1adb4dd8fc7635c85de95ba1ec124890f1)
 * [CallSceneCloseCallbacks](Core.App.md#Core.App_1a2fc128ad8017defe06075f49de4e137f)
-* [camera](Core.App.md#Core.App_1a2cdf77e2bed89807f5d1f48b4c46037f)
 * [cancelQuit](Core.App.md#Core.App_1af3fcaefa4e0de2d5f3f0a2a0a50add89)
 * [CancelQuit](Core.App.md#Core.App_1a35fe2f6a6ae6a872d20b8166cd9d08cf)
 * [CancelStartup](Core.App.md#Core.App_1a88b37d217ef6f5df6081bc3902051bbb)
 * [CheckProfile](Core.App.md#Core.App_1a297dab457bcf026ec774e7918e626a3a)
-* [CloseAllScenes](Core.App.md#Core.App_1a2035f6152d7d66a721d806c68357578b)
+* [CloseAllScenes](Core.App.md#Core.App_1a0ccccd122230dc0a0ef4a28523fdaad4)
+* [CloseSplashScreen](Core.App.md#Core.App_1a762947a241e2611003fdc47e71c78958)
 * [coroutine](Core.App.md#Core.App_1a2855e0228b6fe56018e079f08ff616a0)
-* [CreateCamera](Core.App.md#Core.App_1a7f5a060cb83cdef629f99d4d0445058b)
-* [currentProps](Core.App.md#Core.App_1a7130f51b8b59edf57424d5c378aa8196)
-* [DestroyCamera](Core.App.md#Core.App_1a589597da09d2597d193b1429c202ddb5)
-* [DoStartupProcess](Core.App.md#Core.App_1a4638bda123adb4f91da89044c9503a2e)
-* [HideStartupLoadingScreen](Core.App.md#Core.App_1a1579ee95c0bf4b495f81a3cba71a549a)
+* [currentProcess](Core.App.md#Core.App_1adad96528f01925d6fb2fb2fc5d83fefb)
+* [DoStartupProcess](Core.App.md#Core.App_1ade6ce31a55290674990e4aa01121e133)
+* [Exit](Core.App.md#Core.App_1a1a6a7739e9cc01ba888b57d1f9457f4c)
 * [InitializeEditor](Core.App.md#Core.App_1a3d718bbfea3f4ca089d570ab9e232e2b)
 * [isBuildMode](Core.App.md#Core.App_1a2858a88992336f2c3e6d0b5a89c76c50)
 * [isQuitting](Core.App.md#Core.App_1a005c6800527470a37d8463809944643a)
-* [IsRestart](Core.App.md#Core.App_1ae278c9dda877182fb0b5b5d44bd8d474)
+* [isRestart](Core.App.md#Core.App_1a1dec7d02ca38afdc0387769a6a941b4d)
 * [isStartupFinished](Core.App.md#Core.App_1a3f25aca909bca8612d3e6fb13301885b)
-* [loadingScreen](Core.App.md#Core.App_1aa424141998ea4851004782e86b01e8a9)
 * [OnDone](Core.App.md#Core.App_1a8b9f18c4063e08e01095ed3d4b31168a)
 * [OnLoad](Core.App.md#Core.App_1a04fb14d37d6823855ff93c1f43f2d958)
 * [OnProgress](Core.App.md#Core.App_1a80d2f137b7e6225d416b6bf6753aa241)
-* [OpenCollection](Core.App.md#Core.App_1a40de5557d1c4049d1f9db3d065013f19)
-* [OpenCollections](Core.App.md#Core.App_1a6f46bf8ad50ec262e75a2fa943500929)
-* [OpenScenes](Core.App.md#Core.App_1a37da8931b642cdad1152e8b7d5d44be2)
-* [PlaySplashScreen](Core.App.md#Core.App_1aef652b858a3e759bf1fcddfbf64ef28e)
+* [OpenCollection](Core.App.md#Core.App_1aac8126e9c43a8058f184ec701a37f9fa)
+* [OpenCollections](Core.App.md#Core.App_1a2772f7b88e32c6366fca5d966a4426f0)
+* [OpenScenes](Core.App.md#Core.App_1a130680fcb42cda9530b62dfa8eb575fa)
+* [OpenSplashScreen](Core.App.md#Core.App_1a57ff2f40447a208f4602e23986f91e38)
 * [progress](Core.App.md#Core.App_1a35e093310a9e7c5ebc433c6541c4a9eb)
 * [Quit](Core.App.md#Core.App_1a9d9d620df506ef3c0242c52961ea0be0)
 * [RegisterQuitCallback](Core.App.md#Core.App_1af7b2b3589dc82a8cf072408627c738de)
-* [Reset](Core.App.md#Core.App_1a372de693ad40b3f42839c8ec6ac845f4)
-* [Restart](Core.App.md#Core.App_1a3c1d9704dc7597d6f96499739df7719a)
-* [RestartAsync](Core.App.md#Core.App_1aca6a64d7121b4c7e58a7c252366aec28)
-* [RestartInternal](Core.App.md#Core.App_1afba7a883d3c09df32701826991c144df)
-* [RunStartupProcess](Core.App.md#Core.App_1a26bf8f675729f52f1ad7a5ea1416a165)
+* [ResetQuitStatus](Core.App.md#Core.App_1a3558f230f72705a32280c7fb1547b6cf)
+* [Restart](Core.App.md#Core.App_1a97b89831872de8a93196feffc97d03b7)
+* [Restart](DependencyInjection.IApp.md#DependencyInjection.IApp_1a85990fc4e538c221f1f028249ab86114)
+* [RestartAsync](Core.App.md#Core.App_1ad7aab0340dda1beed4949b43d86a5bbf)
+* [RestartAsync](DependencyInjection.IApp.md#DependencyInjection.IApp_1a46d678c37c8bde1127845b0bb497c5da)
+* [RestartInternal](Core.App.md#Core.App_1a08c98de62b6384956e4251d2751a8951)
 * [SetLoadingPriority](Core.App.md#Core.App_1a0081dd6e87d54996f5e39c60eaa080d1)
 * [SetupProgress](Core.App.md#Core.App_1afb3886683034c43e125eddbbaac5008c)
-* [ShowStartupLoadingScreen](Core.App.md#Core.App_1a92deed8c095b9d50d09bbbd80c0bf6d6)
-* [Start](Core.App.md#Core.App_1ab22ad5ecbcb4119f8f9ac52b9d9864a6)
-* [StartAsync](Core.App.md#Core.App_1adec15290652413f1542075caf2fe69c2)
+* [splashScreen](Core.App.md#Core.App_1a7f9ab5ffea588ff1a598665093423a17)
 * [StartInternal](Core.App.md#Core.App_1aef596a8ea8db8ec45890b7f1c19adf75)
+* [startupProps](Core.App.md#Core.App_1ae91919b385aa2e41755546d227916bd4)
+* [TrackScenes](Core.App.md#Core.App_1a4a88020410bdaa2a744f681a04d8d56a)
 * [UnregisterQuitCallback](Core.App.md#Core.App_1a409575688ea85538e8bac7e4765946b9)
 * [UnsetBuildModeOnEditMode](Core.App.md#Core.App_1a97486d5ba728752a996f7e20aae05574)
 * [UnsetupProgress](Core.App.md#Core.App_1a33b0f16ec2053bcfeb33fda3a2123111)
 
 ## Properties
+
+<a id="Core.App_1ae91919b385aa2e41755546d227916bd4"></a>
+### Property startupProps
+
+
+
+
+
+```csharp
+StartupProps startupProps
+```
+
+Gets the props that should be used for startup process.
+
+
+
+
+
+**Return type**: [StartupProps](Core.App.StartupProps.md#Core.App.StartupProps)
+
+
+
+
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.IApp_1a2267f5bc04a19eec87204bef03230f03"},"children":[{"type":"text","text":"startupProps"}]}
 
 <a id="Core.App_1a2858a88992336f2c3e6d0b5a89c76c50"></a>
 ### Property isBuildMode
@@ -79,9 +104,9 @@ Usage: SceneManager.app.
 bool isBuildMode
 ```
 
-Gets whatever we're currently in build mode.
 
-This is <code>true</code> when in build or when play button in scene manager window is pressed.
+
+
 
 
 
@@ -90,6 +115,7 @@ This is <code>true</code> when in build or when play button in scene manager win
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.IApp_1a2858a88992336f2c3e6d0b5a89c76c50"},"children":[{"type":"text","text":"isBuildMode"}]}
 
 <a id="Core.App_1a3f25aca909bca8612d3e6fb13301885b"></a>
 ### Property isStartupFinished
@@ -113,19 +139,20 @@ Gets if startup process is finished.
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.IApp_1a3f25aca909bca8612d3e6fb13301885b"},"children":[{"type":"text","text":"isStartupFinished"}]}
 
-<a id="Core.App_1ae278c9dda877182fb0b5b5d44bd8d474"></a>
-### Property IsRestart
+<a id="Core.App_1a1dec7d02ca38afdc0387769a6a941b4d"></a>
+### Property isRestart
 
 
 
 
 
 ```csharp
-bool IsRestart
+bool isRestart
 ```
 
-
+Gets if ASM has been restarted, or is currently restarting.
 
 
 
@@ -136,6 +163,7 @@ bool IsRestart
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.IApp_1a1dec7d02ca38afdc0387769a6a941b4d"},"children":[{"type":"text","text":"isRestart"}]}
 
 <a id="Core.App_1a005c6800527470a37d8463809944643a"></a>
 ### Property isQuitting
@@ -159,6 +187,7 @@ Gets whatever ASM is currently in the process of quitting.
 
 
 
+* reimplements {"type":"element","name":"reimplements","attributes":{"refid":"DependencyInjection.IApp_1a005c6800527470a37d8463809944643a"},"children":[{"type":"text","text":"isQuitting"}]}
 
 ## Private attributes
 
@@ -185,6 +214,29 @@ GlobalCoroutine coroutine
 
 
 
+<a id="Core.App_1adad96528f01925d6fb2fb2fc5d83fefb"></a>
+### Variable currentProcess
+
+
+
+
+
+```csharp
+Async<bool> currentProcess
+```
+
+
+
+
+
+
+
+**Type**: [Async](Utility.Async.md#Utility.Async)< bool >
+
+
+
+
+
 <a id="Core.App_1a35e093310a9e7c5ebc433c6541c4a9eb"></a>
 ### Variable progress
 
@@ -195,15 +247,10 @@ GlobalCoroutine coroutine
 ```csharp
 readonly Dictionary<string, float> progress = new()
         {
-            
             { nameof(CloseAllScenes), 0f },
-            { nameof(PlaySplashScreen), 0f },
-            
-            { nameof(ShowStartupLoadingScreen), 0f },
             { nameof(OpenCollections), 0f },
             { nameof(OpenScenes), 0f },
             { nameof(OpenCollection), 0f },
-            { nameof(HideStartupLoadingScreen), 0f },
         }
 ```
 
@@ -219,15 +266,15 @@ readonly Dictionary<string, float> progress = new()
 
 
 
-<a id="Core.App_1aa424141998ea4851004782e86b01e8a9"></a>
-### Variable loadingScreen
+<a id="Core.App_1a7f9ab5ffea588ff1a598665093423a17"></a>
+### Variable splashScreen
 
 
 
 
 
 ```csharp
-LoadingScreen loadingScreen
+SplashScreen splashScreen
 ```
 
 
@@ -236,30 +283,7 @@ LoadingScreen loadingScreen
 
 
 
-**Type**: [LoadingScreen](Callbacks.LoadingScreen.md#Callbacks.LoadingScreen)
-
-
-
-
-
-<a id="Core.App_1a2cdf77e2bed89807f5d1f48b4c46037f"></a>
-### Variable camera
-
-
-
-
-
-```csharp
-GameObject camera
-```
-
-
-
-
-
-
-
-**Type**: GameObject
+**Type**: [SplashScreen](Callbacks.SplashScreen.md#Callbacks.SplashScreen)
 
 
 
@@ -359,31 +383,6 @@ Occurs after restart has been completed.
 
 
 
-## Package attributes
-
-<a id="Core.App_1a7130f51b8b59edf57424d5c378aa8196"></a>
-### Variable currentProps
-
-
-
-
-
-```csharp
-Props currentProps
-```
-
-
-
-
-
-
-
-**Type**: [Props](Core.App.Props.md#Core.App.Props)
-
-
-
-
-
 ## Private static functions
 
 <a id="Core.App_1a04fb14d37d6823855ff93c1f43f2d958"></a>
@@ -408,14 +407,14 @@ static void OnLoad()
 
 
 
-<a id="Core.App_1a26bf8f675729f52f1ad7a5ea1416a165"></a>
-### Function RunStartupProcess
+<a id="Core.App_1a4a88020410bdaa2a744f681a04d8d56a"></a>
+### Function TrackScenes
 
 
 ![][static]
 
 ```csharp
-static void RunStartupProcess()
+static void TrackScenes()
 ```
 
 
@@ -538,16 +537,16 @@ void UnsetBuildModeOnEditMode()
 
 
 
-<a id="Core.App_1aae101652b1eac35121c676899e173cee"></a>
-### Function BeforeStart
+<a id="Core.App_1a08c98de62b6384956e4251d2751a8951"></a>
+### Function RestartInternal
 
 
 
 ```csharp
-void BeforeStart(ref Props props)
+Async< bool > RestartInternal(StartupProps props=null)
 ```
 
-
+Restarts the ASM startup process.
 
 
 
@@ -555,30 +554,9 @@ void BeforeStart(ref Props props)
 
 **Parameters**:
 
-* ref [Props](Core.App.Props.md#Core.App.Props) **props**
+* [StartupProps](Core.App.StartupProps.md#Core.App.StartupProps) **props** = null 
 
-**Return type**: void
-
-
-
-
-
-<a id="Core.App_1afba7a883d3c09df32701826991c144df"></a>
-### Function RestartInternal
-
-
-
-```csharp
-IEnumerator RestartInternal()
-```
-
-Starts ASM startup process.
-
-There is no difference between Restart() and Start() methods.
-
-
-
-**Return type**: IEnumerator
+**Return type**: [Async](Utility.Async.md#Utility.Async)< bool >
 
 
 
@@ -677,13 +655,13 @@ void UnsetupProgress()
 
 
 
-<a id="Core.App_1a4638bda123adb4f91da89044c9503a2e"></a>
+<a id="Core.App_1ade6ce31a55290674990e4aa01121e133"></a>
 ### Function DoStartupProcess
 
 
 
 ```csharp
-IEnumerator DoStartupProcess(Props props)
+IEnumerator DoStartupProcess(StartupProps props)
 ```
 
 
@@ -694,7 +672,7 @@ IEnumerator DoStartupProcess(Props props)
 
 **Parameters**:
 
-* [Props](Core.App.Props.md#Core.App.Props) **props**
+* [StartupProps](Core.App.StartupProps.md#Core.App.StartupProps) **props**
 
 **Return type**: IEnumerator
 
@@ -702,38 +680,13 @@ IEnumerator DoStartupProcess(Props props)
 
 
 
-<a id="Core.App_1a7f5a060cb83cdef629f99d4d0445058b"></a>
-### Function CreateCamera
-
-
-
-```csharp
-void CreateCamera(Props props)
-```
-
-
-
-
-
-
-
-**Parameters**:
-
-* [Props](Core.App.Props.md#Core.App.Props) **props**
-
-**Return type**: void
-
-
-
-
-
-<a id="Core.App_1a2035f6152d7d66a721d806c68357578b"></a>
+<a id="Core.App_1a0ccccd122230dc0a0ef4a28523fdaad4"></a>
 ### Function CloseAllScenes
 
 
 
 ```csharp
-IEnumerator CloseAllScenes(Props _)
+IEnumerator CloseAllScenes(StartupProps _)
 ```
 
 
@@ -744,7 +697,7 @@ IEnumerator CloseAllScenes(Props _)
 
 **Parameters**:
 
-* [Props](Core.App.Props.md#Core.App.Props) **_**
+* [StartupProps](Core.App.StartupProps.md#Core.App.StartupProps) **_**
 
 **Return type**: IEnumerator
 
@@ -752,13 +705,13 @@ IEnumerator CloseAllScenes(Props _)
 
 
 
-<a id="Core.App_1aef652b858a3e759bf1fcddfbf64ef28e"></a>
-### Function PlaySplashScreen
+<a id="Core.App_1a57ff2f40447a208f4602e23986f91e38"></a>
+### Function OpenSplashScreen
 
 
 
 ```csharp
-IEnumerator PlaySplashScreen(Props props)
+IEnumerator OpenSplashScreen(StartupProps props)
 ```
 
 
@@ -769,7 +722,7 @@ IEnumerator PlaySplashScreen(Props props)
 
 **Parameters**:
 
-* [Props](Core.App.Props.md#Core.App.Props) **props**
+* [StartupProps](Core.App.StartupProps.md#Core.App.StartupProps) **props**
 
 **Return type**: IEnumerator
 
@@ -777,13 +730,13 @@ IEnumerator PlaySplashScreen(Props props)
 
 
 
-<a id="Core.App_1a92deed8c095b9d50d09bbbd80c0bf6d6"></a>
-### Function ShowStartupLoadingScreen
+<a id="Core.App_1a762947a241e2611003fdc47e71c78958"></a>
+### Function CloseSplashScreen
 
 
 
 ```csharp
-IEnumerator ShowStartupLoadingScreen(Props props)
+IEnumerator CloseSplashScreen()
 ```
 
 
@@ -791,10 +744,6 @@ IEnumerator ShowStartupLoadingScreen(Props props)
 
 
 
-
-**Parameters**:
-
-* [Props](Core.App.Props.md#Core.App.Props) **props**
 
 **Return type**: IEnumerator
 
@@ -802,38 +751,13 @@ IEnumerator ShowStartupLoadingScreen(Props props)
 
 
 
-<a id="Core.App_1a589597da09d2597d193b1429c202ddb5"></a>
-### Function DestroyCamera
-
-
-
-```csharp
-void DestroyCamera(Props _)
-```
-
-
-
-
-
-
-
-**Parameters**:
-
-* [Props](Core.App.Props.md#Core.App.Props) **_**
-
-**Return type**: void
-
-
-
-
-
-<a id="Core.App_1a6f46bf8ad50ec262e75a2fa943500929"></a>
+<a id="Core.App_1a2772f7b88e32c6366fca5d966a4426f0"></a>
 ### Function OpenCollections
 
 
 
 ```csharp
-IEnumerator OpenCollections(Props props)
+IEnumerator OpenCollections(StartupProps props)
 ```
 
 
@@ -844,7 +768,7 @@ IEnumerator OpenCollections(Props props)
 
 **Parameters**:
 
-* [Props](Core.App.Props.md#Core.App.Props) **props**
+* [StartupProps](Core.App.StartupProps.md#Core.App.StartupProps) **props**
 
 **Return type**: IEnumerator
 
@@ -852,13 +776,13 @@ IEnumerator OpenCollections(Props props)
 
 
 
-<a id="Core.App_1a37da8931b642cdad1152e8b7d5d44be2"></a>
+<a id="Core.App_1a130680fcb42cda9530b62dfa8eb575fa"></a>
 ### Function OpenScenes
 
 
 
 ```csharp
-IEnumerator OpenScenes(Props props, bool persistent)
+IEnumerator OpenScenes(StartupProps props, bool persistent)
 ```
 
 
@@ -869,7 +793,7 @@ IEnumerator OpenScenes(Props props, bool persistent)
 
 **Parameters**:
 
-* [Props](Core.App.Props.md#Core.App.Props) **props**
+* [StartupProps](Core.App.StartupProps.md#Core.App.StartupProps) **props**
 * bool **persistent**
 
 **Return type**: IEnumerator
@@ -878,13 +802,13 @@ IEnumerator OpenScenes(Props props, bool persistent)
 
 
 
-<a id="Core.App_1a40de5557d1c4049d1f9db3d065013f19"></a>
+<a id="Core.App_1aac8126e9c43a8058f184ec701a37f9fa"></a>
 ### Function OpenCollection
 
 
 
 ```csharp
-IEnumerator OpenCollection(Props props)
+IEnumerator OpenCollection(StartupProps props)
 ```
 
 
@@ -895,32 +819,7 @@ IEnumerator OpenCollection(Props props)
 
 **Parameters**:
 
-* [Props](Core.App.Props.md#Core.App.Props) **props**
-
-**Return type**: IEnumerator
-
-
-
-
-
-<a id="Core.App_1a1579ee95c0bf4b495f81a3cba71a549a"></a>
-### Function HideStartupLoadingScreen
-
-
-
-```csharp
-IEnumerator HideStartupLoadingScreen(Props _)
-```
-
-
-
-
-
-
-
-**Parameters**:
-
-* [Props](Core.App.Props.md#Core.App.Props) **_**
+* [StartupProps](Core.App.StartupProps.md#Core.App.StartupProps) **props**
 
 **Return type**: IEnumerator
 
@@ -972,13 +871,13 @@ IEnumerator CallCollectionCloseCallbacks()
 
 ## Public functions
 
-<a id="Core.App_1a3c1d9704dc7597d6f96499739df7719a"></a>
+<a id="Core.App_1a97b89831872de8a93196feffc97d03b7"></a>
 ### Function Restart
 
 
 
 ```csharp
-void Restart(Props props=null)
+void Restart(StartupProps props=null)
 ```
 
 
@@ -989,7 +888,7 @@ void Restart(Props props=null)
 
 **Parameters**:
 
-* [Props](Core.App.Props.md#Core.App.Props) **props** = null 
+* [StartupProps](Core.App.StartupProps.md#Core.App.StartupProps) **props** = null 
 
 **Return type**: void
 
@@ -997,13 +896,13 @@ void Restart(Props props=null)
 
 
 
-<a id="Core.App_1aca6a64d7121b4c7e58a7c252366aec28"></a>
+<a id="Core.App_1ad7aab0340dda1beed4949b43d86a5bbf"></a>
 ### Function RestartAsync
 
 
 
 ```csharp
-IEnumerator RestartAsync(Props props=null)
+Async< bool > RestartAsync(StartupProps props=null)
 ```
 
 
@@ -1014,21 +913,21 @@ IEnumerator RestartAsync(Props props=null)
 
 **Parameters**:
 
-* [Props](Core.App.Props.md#Core.App.Props) **props** = null 
+* [StartupProps](Core.App.StartupProps.md#Core.App.StartupProps) **props** = null 
 
-**Return type**: IEnumerator
-
-
+**Return type**: [Async](Utility.Async.md#Utility.Async)< bool >
 
 
 
-<a id="Core.App_1ab22ad5ecbcb4119f8f9ac52b9d9864a6"></a>
-### Function Start
+
+
+<a id="Core.App_1a88b37d217ef6f5df6081bc3902051bbb"></a>
+### Function CancelStartup
 
 
 
 ```csharp
-void Start(Props props=null)
+void CancelStartup()
 ```
 
 
@@ -1036,37 +935,10 @@ void Start(Props props=null)
 
 
 
-
-**Parameters**:
-
-* [Props](Core.App.Props.md#Core.App.Props) **props** = null 
 
 **Return type**: void
 
-
-
-
-
-<a id="Core.App_1adec15290652413f1542075caf2fe69c2"></a>
-### Function StartAsync
-
-
-
-```csharp
-IEnumerator StartAsync(Props props=null)
-```
-
-
-
-
-
-
-
-**Parameters**:
-
-* [Props](Core.App.Props.md#Core.App.Props) **props** = null 
-
-**Return type**: IEnumerator
+**Reimplements**: [CancelStartup](DependencyInjection.IApp.md#DependencyInjection.IApp_1a88b37d217ef6f5df6081bc3902051bbb)
 
 
 
@@ -1093,6 +965,8 @@ Register a callback to be called before quit.
 
 **Return type**: void
 
+**Reimplements**: [RegisterQuitCallback](DependencyInjection.IApp.md#DependencyInjection.IApp_1af7b2b3589dc82a8cf072408627c738de)
+
 
 
 
@@ -1118,6 +992,8 @@ Unregister a callback that was to be called before quit.
 
 **Return type**: void
 
+**Reimplements**: [UnregisterQuitCallback](DependencyInjection.IApp.md#DependencyInjection.IApp_1a409575688ea85538e8bac7e4765946b9)
+
 
 
 
@@ -1138,6 +1014,8 @@ Only usable during a RegisterQuitCallback(IEnumerator) or while isQuitting is tr
 
 
 **Return type**: void
+
+**Reimplements**: [CancelQuit](DependencyInjection.IApp.md#DependencyInjection.IApp_1a35fe2f6a6ae6a872d20b8166cd9d08cf)
 
 
 
@@ -1170,40 +1048,44 @@ Quits the game, and calls quitCallbacks, optionally with a fade animation.
 
 **Return type**: void
 
+**Reimplements**: [Quit](DependencyInjection.IApp.md#DependencyInjection.IApp_1a9d9d620df506ef3c0242c52961ea0be0)
+
+
+
+
+
+<a id="Core.App_1a1a6a7739e9cc01ba888b57d1f9457f4c"></a>
+### Function Exit
+
+
+
+```csharp
+void Exit()
+```
+
+Exits the game like you normally would in unity.
+
+No callbacks will be called, and no fade out will occur.
+
+
+
+**Return type**: void
+
+**Reimplements**: [Exit](DependencyInjection.IApp.md#DependencyInjection.IApp_1a1a6a7739e9cc01ba888b57d1f9457f4c)
+
 
 
 
 
 ## Package functions
 
-<a id="Core.App_1a88b37d217ef6f5df6081bc3902051bbb"></a>
-### Function CancelStartup
+<a id="Core.App_1a3558f230f72705a32280c7fb1547b6cf"></a>
+### Function ResetQuitStatus
 
 
 
 ```csharp
-void CancelStartup()
-```
-
-
-
-
-
-
-
-**Return type**: void
-
-
-
-
-
-<a id="Core.App_1a372de693ad40b3f42839c8ec6ac845f4"></a>
-### Function Reset
-
-
-
-```csharp
-void Reset()
+void ResetQuitStatus()
 ```
 
 

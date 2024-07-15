@@ -18,6 +18,7 @@ A scene operation is a queueable operation that can open or close scenes. See al
 ## Members
 
 * [\_extCallbacks](Core.SceneOperation.md#Core.SceneOperation_1aebe3db5e9996b3be7c58942a21d6e2db)
+* [Activate](Core.SceneOperation.md#Core.SceneOperation_1af811f92d8b75cf30a1f39224f68c89ba)
 * [AddCallback](Core.SceneOperation.md#Core.SceneOperation_1a84851fd9d9a2986aa438850433ad5086)
 * [beforeStart](Core.SceneOperation.md#Core.SceneOperation_1ab13e7f715453607704a31c491871d157)
 * [Callback](Core.SceneOperation.md#Core.SceneOperation_1ab06c2397a5e0c06464a6e73445a4b9a0)
@@ -53,6 +54,7 @@ A scene operation is a queueable operation that can open or close scenes. See al
 * [EnableLoadingScreen](Core.SceneOperation.md#Core.SceneOperation_1aa9e4631b682315e1f1c9f00817708416)
 * [Focus](Core.SceneOperation.md#Core.SceneOperation_1a897cdd55aa328642d5fd781772c53111)
 * [focus](Core.SceneOperation.md#Core.SceneOperation_1a95311fac68dc88b61cdac29f4d91db32)
+* [focusSingleScene](Core.SceneOperation.md#Core.SceneOperation_1ac7deb3ed2b14969218cc586cf2068922)
 * [Freeze](Core.SceneOperation.md#Core.SceneOperation_1aa95e0fb85af143186cf2934dba40898f)
 * [GetProgress](Core.SceneOperation.md#Core.SceneOperation_1afb52390946ae83c3997b18310d1d14bf)
 * [hasRun](Core.SceneOperation.md#Core.SceneOperation_1a1676d54e7d7343d33d9d6cc46784493d)
@@ -65,8 +67,8 @@ A scene operation is a queueable operation that can open or close scenes. See al
 * [keepWaiting](Core.SceneOperation.md#Core.SceneOperation_1a2778689fc3def0f49cc9c61de04a9484)
 * [loadingPriority](Core.SceneOperation.md#Core.SceneOperation_1aa9678536560d59a5c50bd99d649a56bd)
 * [loadingScene](Core.SceneOperation.md#Core.SceneOperation_1a4fe8554b9f43708cfc35bb4014a90f2a)
-* [loadingScreenCallback](Core.SceneOperation.md#Core.SceneOperation_1a8d1fdc7475722c6bc2f538d820ad6630)
 * [LoadingScreenCallback](Core.SceneOperation.md#Core.SceneOperation_1a5dfa2142fd35f17fb735fdb7a1cc6624)
+* [loadingScreenCallback](Core.SceneOperation.md#Core.SceneOperation_1a8d1fdc7475722c6bc2f538d820ad6630)
 * [LoadScene](Core.SceneOperation.md#Core.SceneOperation_1a838f53bacbc6254c06eabd257022b0ef)
 * [m\_callbacks](Core.SceneOperation.md#Core.SceneOperation_1ab5d65f9a860071480b902908f261f94d)
 * [m\_close](Core.SceneOperation.md#Core.SceneOperation_1a7ecbeb5ca966e2dd56acf1755b373f6e)
@@ -74,6 +76,7 @@ A scene operation is a queueable operation that can open or close scenes. See al
 * [m\_collection](Core.SceneOperation.md#Core.SceneOperation_1ae7e790410feddbd3e310813036c7badc)
 * [m\_customProgress](Core.SceneOperation.md#Core.SceneOperation_1aa3a1ce0a0026f2ec26be56a47420a63c)
 * [m\_focus](Core.SceneOperation.md#Core.SceneOperation_1a9991724f33b77768e4895d7324c23a91)
+* [m\_focusSingleScene](Core.SceneOperation.md#Core.SceneOperation_1ab897aae5beb4aaf806dd72601b7ab374)
 * [m\_loadingPriority](Core.SceneOperation.md#Core.SceneOperation_1a254608bebe7bbf50eaaaa06d38a0eb06)
 * [m\_loadingScene](Core.SceneOperation.md#Core.SceneOperation_1a1ee178228b0ba8530531e353abafcbf5)
 * [m\_loadingScreenCallback](Core.SceneOperation.md#Core.SceneOperation_1ab10de5af79a4ca92b152ae904796baad)
@@ -88,16 +91,17 @@ A scene operation is a queueable operation that can open or close scenes. See al
 * [OnDone](Core.SceneOperation.md#Core.SceneOperation_1af6360b71f529b4fe55e818dcf4ce19ed)
 * [OnProgress](Core.SceneOperation.md#Core.SceneOperation_1a73147f8e26a71f5005e66479ba8d3d61)
 * [OnTurn](Core.SceneOperation.md#Core.SceneOperation_1aa1c3f9a681b585b60032dc4eab1ef227)
+* [open](Core.SceneOperation.md#Core.SceneOperation_1afdd439cc715573bf18bac230b6cf90ed)
 * [Open](Core.SceneOperation.md#Core.SceneOperation_1a8c9ae8d738eaabe1700a015acf617132)
 * [Open](Core.SceneOperation.md#Core.SceneOperation_1aeaae0acb70a5da754e63c198285bde56)
 * [Open](Core.SceneOperation.md#Core.SceneOperation_1ab1490f4412b9a101f38384e27f50d80f)
-* [open](Core.SceneOperation.md#Core.SceneOperation_1afdd439cc715573bf18bac230b6cf90ed)
+* [OpenAndActivate](Core.SceneOperation.md#Core.SceneOperation_1a12849bc14742f22995d9e241809af959)
 * [openedLoadingScreen](Core.SceneOperation.md#Core.SceneOperation_1a672fa74cae8c7759f284cb6d9d39b041)
 * [openedScenes](Core.SceneOperation.md#Core.SceneOperation_1a011acd72fa3439236d99ebd83ff1e665)
 * [operationCoroutine](Core.SceneOperation.md#Core.SceneOperation_1a49e69a8e792281542ed4f50a16e6e5b2)
 * [phase](Core.SceneOperation.md#Core.SceneOperation_1a3aaaebd424640a55658f6da992e087bd)
-* [preload](Core.SceneOperation.md#Core.SceneOperation_1a96ab4d9fdd524af93b96fe0fb6595edb)
 * [Preload](Core.SceneOperation.md#Core.SceneOperation_1a54235ad5f28f51d774b67c1a9a64f77c)
+* [preload](Core.SceneOperation.md#Core.SceneOperation_1a96ab4d9fdd524af93b96fe0fb6595edb)
 * [PrependOpen](Core.SceneOperation.md#Core.SceneOperation_1a9bfa1aa4c01a3e9e6bae9bfeffc7881e)
 * [PrependOpen](Core.SceneOperation.md#Core.SceneOperation_1a0449307fc96b2342c072fe28c4527e59)
 * [progress](Core.SceneOperation.md#Core.SceneOperation_1ac7abb4766cd3f65c31f56279d7decff8)
@@ -131,11 +135,11 @@ A scene operation is a queueable operation that can open or close scenes. See al
 * [useLoadingScene](Core.SceneOperation.md#Core.SceneOperation_1ad5461cf9aed399c793f0635fd5b3b550)
 * [Validate](Core.SceneOperation.md#Core.SceneOperation_1aaac8b52c5e47c87dc2defdd181093ee2)
 * [Validate](Core.SceneOperation.md#Core.SceneOperation_1ac34988b691da9e110e0dd69d50ffa0b0)
-* [waitFor](Core.SceneOperation.md#Core.SceneOperation_1a2d27061848670e789eeb62ba6d4c5e8b)
 * [WaitFor](Core.SceneOperation.md#Core.SceneOperation_1ab3586cc78cb4653953f3edaa99d41630)
+* [waitFor](Core.SceneOperation.md#Core.SceneOperation_1a2d27061848670e789eeb62ba6d4c5e8b)
 * [wasCancelled](Core.SceneOperation.md#Core.SceneOperation_1a64c4fe80acf9369a5e341efd804843d3)
 * [With](Core.SceneOperation.md#Core.SceneOperation_1afd7b2773dd26936a6eb3dc008064ad24)
-* [With](Core.SceneOperation.md#Core.SceneOperation_1aded08ffe55f83b268446948ae7270f1e)
+* [With](Core.SceneOperation.md#Core.SceneOperation_1a52b8256ad92437e9241959c90b2b4a48)
 * [With](Core.SceneOperation.md#Core.SceneOperation_1aaa1575cba4e627beda5145c61bc6eb32)
 * [With](Core.SceneOperation.md#Core.SceneOperation_1a559a69030173c5af9db0659f0c59107f)
 * [With](Core.SceneOperation.md#Core.SceneOperation_1a7732e1d400bdb2f445838f6fdc750615)
@@ -255,6 +259,29 @@ No effect if preloading.
 
 
 **Return type**: [Scene](Models.Scene.md#Models.Scene)
+
+
+
+
+
+<a id="Core.SceneOperation_1ac7deb3ed2b14969218cc586cf2068922"></a>
+### Property focusSingleScene
+
+
+
+
+
+```csharp
+bool focusSingleScene
+```
+
+Sets the first opened scene as active.
+
+
+
+
+
+**Return type**: bool
 
 
 
@@ -834,6 +861,29 @@ Scene m_focus
 
 
 **Type**: [Scene](Models.Scene.md#Models.Scene)
+
+
+
+
+
+<a id="Core.SceneOperation_1ab897aae5beb4aaf806dd72601b7ab374"></a>
+### Variable m\_focusSingleScene
+
+
+
+
+
+```csharp
+bool m_focusSingleScene
+```
+
+
+
+
+
+
+
+**Type**: bool
 
 
 
@@ -2440,6 +2490,81 @@ Note that the operation might not be cancelled immediately, if user defined call
 
 
 
+<a id="Core.SceneOperation_1a12849bc14742f22995d9e241809af959"></a>
+### Function OpenAndActivate
+
+
+
+```csharp
+SceneOperation OpenAndActivate(Scene scene)
+```
+
+Opens the scene, and makes sure it is activated afterwards.
+
+
+
+
+
+**Parameters**:
+
+* [Scene](Models.Scene.md#Models.Scene) **scene**
+
+**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+
+
+
+
+<a id="Core.SceneOperation_1a897cdd55aa328642d5fd781772c53111"></a>
+### Function Focus
+
+
+
+```csharp
+SceneOperation Focus(Scene scene)
+```
+
+Sets focus to the specified scene. Overrides selected scene in collections.
+
+No effect if preloading.
+
+
+
+**Parameters**:
+
+* [Scene](Models.Scene.md#Models.Scene) **scene**
+
+**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+
+
+
+
+<a id="Core.SceneOperation_1af811f92d8b75cf30a1f39224f68c89ba"></a>
+### Function Activate
+
+
+
+```csharp
+SceneOperation Activate(Scene scene=null)
+```
+
+Sets focus to the specified scene. Overrides selected scene in collections. If <code>null</code>, then the first scene opened will be set as active.
+
+No effect if preloading.
+
+
+
+**Parameters**:
+
+* [Scene](Models.Scene.md#Models.Scene) **scene** = null 
+
+**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+
+
+
+
 <a id="Core.SceneOperation_1afd7b2773dd26936a6eb3dc008064ad24"></a>
 ### Function With
 
@@ -2510,31 +2635,6 @@ SceneOperation Close(SceneCollection collection)
 **Parameters**:
 
 * [SceneCollection](Models.SceneCollection.md#Models.SceneCollection) **collection**
-
-**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
-
-
-
-
-
-<a id="Core.SceneOperation_1a897cdd55aa328642d5fd781772c53111"></a>
-### Function Focus
-
-
-
-```csharp
-SceneOperation Focus(Scene scene)
-```
-
-Sets focus to the specified scene. Overrides selected scene in collections.
-
-No effect if preloading.
-
-
-
-**Parameters**:
-
-* [Scene](Models.Scene.md#Models.Scene) **scene**
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
@@ -2767,13 +2867,13 @@ SceneOperation Callback(IEnumerable< Callback > callbacks)
 
 
 
-<a id="Core.SceneOperation_1aded08ffe55f83b268446948ae7270f1e"></a>
+<a id="Core.SceneOperation_1a52b8256ad92437e9241959c90b2b4a48"></a>
 ### Function With
 
 
 
 ```csharp
-SceneOperation With(Scene loadingScene)
+SceneOperation With(Scene loadingScene, bool useLoadingScene=true)
 ```
 
 Specifies loading screen to use.
@@ -2785,6 +2885,7 @@ Has no effect if useLoadingScene is <code>false</code>.
 **Parameters**:
 
 * [Scene](Models.Scene.md#Models.Scene) **loadingScene**
+* bool **useLoadingScene** = true 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 

@@ -19,10 +19,14 @@ An utility class to perform actions on scenes.
 * [ASMScene](Utility.SceneUtility.md#Utility.SceneUtility_1a9f67f7c6da56a341ec780ddbc007678d)
 * [ASMScene](Utility.SceneUtility.md#Utility.SceneUtility_1ad82a2c5ec573e2da5550a40d0ac6629c)
 * [CreateDynamic](Utility.SceneUtility.md#Utility.SceneUtility_1a4b3e77a965cd51acd2a9218b5fc9c48f)
+* [CreateHere](Utility.SceneUtility.md#Utility.SceneUtility_1a86fa141fdfcf0f5d764a8b10b87e762c)
+* [CreateHere](Utility.SceneUtility.md#Utility.SceneUtility_1a47581ae363d0c53040ddeab7139a10d6)
+* [CreateHere](Utility.SceneUtility.md#Utility.SceneUtility_1a6b2e609e5b44fae5ffe4baa0e193bb57)
+* [CreateHere\< TComponent \>](Utility.SceneUtility.md#Utility.SceneUtility_1a9b1e0646952d6d1a8305c39f4e80ce33)
 * [Disable](Utility.SceneUtility.md#Utility.SceneUtility_1af10a45ceb0a883c3fe82fc30274246a6)
 * [dontDestroyOnLoadScene](Utility.SceneUtility.md#Utility.SceneUtility_1a422c2d45db92ad08820974b87ae1db95)
 * [Enable](Utility.SceneUtility.md#Utility.SceneUtility_1a6c1e665a9bb065db877ec06d8c77fbba)
-* [EvaluateFinalSceneList](Utility.SceneUtility.md#Utility.SceneUtility_1ad778d07cf8c4566127fbc5cdf4365dfb)
+* [EvaluateFinalSceneList](Utility.SceneUtility.md#Utility.SceneUtility_1a4b1fd2d81d1a6af3577d49d7ba1e96e9)
 * [EvaluateFinalSceneList](Utility.SceneUtility.md#Utility.SceneUtility_1aab9e25c00d038df03a1c364232a0e30c)
 * [Find](Utility.SceneUtility.md#Utility.SceneUtility_1aebd8e8de50fb288a32f5074774d90a41)
 * [Find](Utility.SceneUtility.md#Utility.SceneUtility_1a58bd30da3f264d583812c3b26c8ea6fe)
@@ -38,6 +42,7 @@ An utility class to perform actions on scenes.
 * [isStartupScene](Utility.SceneUtility.md#Utility.SceneUtility_1aa477d98bde80a312aef92fd3afef2cc9)
 * [Move](Utility.SceneUtility.md#Utility.SceneUtility_1aaa23c384e15a2e711d433957c4851f6e)
 * [Move](Utility.SceneUtility.md#Utility.SceneUtility_1afbcf4b80cf3f73f69796780079af0c22)
+* [MoveHere](Utility.SceneUtility.md#Utility.SceneUtility_1a640f3271b76f3dcca7e849a680309c68)
 * [SetEnabled](Utility.SceneUtility.md#Utility.SceneUtility_1a14663beec84a02d03dbc6dcd857d7a80)
 * [unitySceneCount](Utility.SceneUtility.md#Utility.SceneUtility_1a64fe62a26b747b349c7376ebba3a2f67)
 
@@ -238,6 +243,141 @@ static void Move(this GameObject obj, scene scene)
 * scene **scene**
 
 **Return type**: void
+
+
+
+
+
+<a id="Utility.SceneUtility_1a640f3271b76f3dcca7e849a680309c68"></a>
+### Function MoveHere
+
+
+![][static]
+
+```csharp
+static GameObject MoveHere(this MonoBehaviour mono, GameObject obj)
+```
+
+Moves _obj_  to this scene.
+
+
+
+
+
+**Parameters**:
+
+* this MonoBehaviour **mono**
+* GameObject **obj**
+
+**Return type**: GameObject
+
+
+
+
+
+<a id="Utility.SceneUtility_1a86fa141fdfcf0f5d764a8b10b87e762c"></a>
+### Function CreateHere
+
+
+![][static]
+
+```csharp
+static GameObject CreateHere(this MonoBehaviour mono)
+```
+
+Creates a game object in this scene.
+
+
+
+
+
+**Parameters**:
+
+* this MonoBehaviour **mono**
+
+**Return type**: GameObject
+
+
+
+
+
+<a id="Utility.SceneUtility_1a47581ae363d0c53040ddeab7139a10d6"></a>
+### Function CreateHere
+
+
+![][static]
+
+```csharp
+static GameObject CreateHere(this MonoBehaviour mono, string name)
+```
+
+Creates a game object in this scene.
+
+
+
+
+
+**Parameters**:
+
+* this MonoBehaviour **mono**
+* string **name**
+
+**Return type**: GameObject
+
+
+
+
+
+<a id="Utility.SceneUtility_1a6b2e609e5b44fae5ffe4baa0e193bb57"></a>
+### Function CreateHere
+
+
+![][static]
+
+```csharp
+static GameObject CreateHere(this MonoBehaviour mono, string name, params Type[] components)
+```
+
+Creates a game object in this scene.
+
+
+
+
+
+**Parameters**:
+
+* this MonoBehaviour **mono**
+* string **name**
+* params Type[] **components**
+
+**Return type**: GameObject
+
+
+
+
+
+<a id="Utility.SceneUtility_1a9b1e0646952d6d1a8305c39f4e80ce33"></a>
+### Function CreateHere\< TComponent \>
+
+
+![][static]
+
+```csharp
+static TComponent CreateHere< TComponent >(this MonoBehaviour mono, string gameObjectName)
+```
+
+Creates a game object in this scene. Adds and returns component _TComponent_ .
+
+
+
+
+
+**Parameters**:
+
+* this MonoBehaviour **mono**
+* string **gameObjectName**
+
+**Return type**: TComponent
 
 
 
@@ -640,14 +780,14 @@ Gets the associated ASM Scene.
 
 
 
-<a id="Utility.SceneUtility_1ad778d07cf8c4566127fbc5cdf4365dfb"></a>
+<a id="Utility.SceneUtility_1a4b1fd2d81d1a6af3577d49d7ba1e96e9"></a>
 ### Function EvaluateFinalSceneList
 
 
 ![][static]
 
 ```csharp
-static IEnumerable< Scene > EvaluateFinalSceneList(Profile profile, App.Props props)
+static IEnumerable< Scene > EvaluateFinalSceneList(Profile profile, App.StartupProps props)
 ```
 
 Evaluate the final scene list after startup.
@@ -662,7 +802,7 @@ Evaluate the final scene list after startup.
 **Parameters**:
 
 * [Profile](Models.Profile.md#Models.Profile) **profile**
-* [App.Props](Core.App.Props.md#Core.App.Props) **props**
+* [App.StartupProps](Core.App.StartupProps.md#Core.App.StartupProps) **props**
 
 **Return type**: IEnumerable< [Scene](Models.Scene.md#Models.Scene) >
 

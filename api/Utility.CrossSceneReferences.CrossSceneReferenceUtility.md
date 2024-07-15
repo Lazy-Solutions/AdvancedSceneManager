@@ -18,7 +18,7 @@ An utility for saving and restoring cross-scene references.
 * [CrossSceneReferenceUtility](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1af5b26e3c1835032a6b840ae5c50e0d26)
 * [Disable](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a0a324e0044929f917898ccb4313ae933)
 * [Enable](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a2b2e453a1e93c182eb05917bbeddf585)
-* [Enumerate](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a6c04d9881b8d7552ecb8846cb6e497b9)
+* [Enumerate\< T \>](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1add24f14dac07c69e2200f81fe2f113c9)
 * [FindComponents](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a37e54578a82bf9b5aceb57617c2303c2)
 * [FindCrossSceneReferences](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a87ac04e93aea17da3efe5342da772af9)
 * [GetCrossSceneReference](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a00f539df6bc002aab4e00a73fb816edf)
@@ -35,8 +35,6 @@ An utility for saving and restoring cross-scene references.
 * [IsCrossScene](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1ab7c2186c4e139fb3260e8724dcdff33d)
 * [IsSerialized](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1ae6d3c1c791fbf48742e4d04af4b10df5)
 * [Key](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a233c37b5af49d975123632be6436ed3d)
-* [Load](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a3ebbee72655f9406c4dce8727ff897fc)
-* [OnEnable](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a43e2f3f56bdb414a56c0de79c8a02f61)
 * [OnLoad](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a04fb14d37d6823855ff93c1f43f2d958)
 * [OnSaved](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a953f4776e17de79bc39c743f392d2fab)
 * [OnSceneStatusChanged](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1aef672e906329fa97cb713c28e55bc3d5)
@@ -49,6 +47,8 @@ An utility for saving and restoring cross-scene references.
 * [sceneOperationCallback](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a2b1b4f0029a73aa8f596341333e46d75)
 * [sceneStatus](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1af1dd36cc227f3d9d6229086a39654085)
 * [SetSceneStatus](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a80f2084dcef2cd5c459267bc69528db3)
+* [TryDeserialize\< T \>](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1aadc36656e011f9616b89ca4852297896)
+* [Upgrade](Utility.CrossSceneReferences.CrossSceneReferenceUtility.md#Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a043291625b107113d50170b745c8899d)
 
 ## Events
 
@@ -199,28 +199,6 @@ const string Key = "CrossSceneReferences"
 
 
 ## Private static functions
-
-<a id="Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a43e2f3f56bdb414a56c0de79c8a02f61"></a>
-### Function OnEnable
-
-
-![][static]
-
-```csharp
-static void OnEnable()
-```
-
-
-
-
-
-
-
-**Return type**: void
-
-
-
-
 
 <a id="Utility.CrossSceneReferences.CrossSceneReferenceUtility_1af5b26e3c1835032a6b840ae5c50e0d26"></a>
 ### Function CrossSceneReferenceUtility
@@ -410,6 +388,81 @@ static void SetSceneStatus(scene scene, SceneStatus state)
 * [SceneStatus](namespace_advanced_scene_manager_1_1_utility_1_1_cross_scene_references.md#namespace_advanced_scene_manager_1_1_utility_1_1_cross_scene_references_1ab7ae9f6258fa738d9c2b4c901ff27af0) **state**
 
 **Return type**: void
+
+
+
+
+
+<a id="Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a043291625b107113d50170b745c8899d"></a>
+### Function Upgrade
+
+
+![][static]
+
+```csharp
+static void Upgrade()
+```
+
+
+
+
+
+
+
+**Return type**: void
+
+
+
+
+
+<a id="Utility.CrossSceneReferences.CrossSceneReferenceUtility_1add24f14dac07c69e2200f81fe2f113c9"></a>
+### Function Enumerate\< T \>
+
+
+![][static]
+
+```csharp
+static IEnumerable<(Scene scene, T data)> Enumerate< T >(string key)
+```
+
+Enumerates data using the specified key on all scenes that uses it.
+
+
+
+
+
+**Parameters**:
+
+* string **key**
+
+**Return type**: IEnumerable<([Scene](Models.Scene.md#Models.Scene) scene, T data)>
+
+
+
+
+
+<a id="Utility.CrossSceneReferences.CrossSceneReferenceUtility_1aadc36656e011f9616b89ca4852297896"></a>
+### Function TryDeserialize\< T \>
+
+
+![][static]
+
+```csharp
+static bool TryDeserialize< T >(string json, out T value)
+```
+
+
+
+
+
+
+
+**Parameters**:
+
+* string **json**
+* out T **value**
+
+**Return type**: bool
 
 
 
@@ -809,54 +862,6 @@ static SceneStatus GetSceneStatus(scene scene)
 
 
 
-<a id="Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a3ebbee72655f9406c4dce8727ff897fc"></a>
-### Function Load
-
-
-![][static]
-
-```csharp
-static SceneReferenceCollection Load(Scene scene)
-```
-
-Loads cross-scene references for a scene.
-
-
-
-
-
-**Parameters**:
-
-* [Scene](Models.Scene.md#Models.Scene) **scene**
-
-**Return type**: [SceneReferenceCollection](Utility.CrossSceneReferences.SceneReferenceCollection.md#Utility.CrossSceneReferences.SceneReferenceCollection)
-
-
-
-
-
-<a id="Utility.CrossSceneReferences.CrossSceneReferenceUtility_1a6c04d9881b8d7552ecb8846cb6e497b9"></a>
-### Function Enumerate
-
-
-![][static]
-
-```csharp
-static SceneReferenceCollection[] Enumerate()
-```
-
-Loads cross-scene references for all scenes.
-
-
-
-
-
-**Return type**: [SceneReferenceCollection](Utility.CrossSceneReferences.SceneReferenceCollection.md#Utility.CrossSceneReferences.SceneReferenceCollection)[]
-
-
-
-
-
 <a id="Utility.CrossSceneReferences.CrossSceneReferenceUtility_1af14bb92f84429cc385b6c82ee9499c96"></a>
 ### Function ResolveAllScenes
 
@@ -869,7 +874,7 @@ static void ResolveAllScenes()
 
 Resolves all scenes.
 
-This runs within a single frame.
+
 
 
 

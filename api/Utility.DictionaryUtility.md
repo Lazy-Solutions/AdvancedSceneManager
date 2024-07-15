@@ -18,6 +18,7 @@ Contains utility functions for working with dictionaries.
 * [AddRange\< TKey, TList, TItem \>](Utility.DictionaryUtility.md#Utility.DictionaryUtility_1a2744d0d59ff98748a9f12a0f65cd15b5)
 * [GetValue\< TKey, TValue \>](Utility.DictionaryUtility.md#Utility.DictionaryUtility_1abf34b783ed8517a23b1d044278190d5f)
 * [Remove\< TKey, TList, TItem \>](Utility.DictionaryUtility.md#Utility.DictionaryUtility_1a7a6f952b07595b11777c39c38233a847)
+* [Set](Utility.DictionaryUtility.md#Utility.DictionaryUtility_1a9f937781c4bf8173dd0281f4b8d68fa7)
 * [Set\< TKey, TValue \>](Utility.DictionaryUtility.md#Utility.DictionaryUtility_1a3286421889557760d59bc30f18a8213f)
 
 ## Public static functions
@@ -45,6 +46,34 @@ static TValue Set< TKey, TValue >(this Dictionary< TKey, TValue > d, TKey key, T
 * TValue **value**
 
 **Return type**: TValue
+
+
+
+
+
+<a id="Utility.DictionaryUtility_1a9f937781c4bf8173dd0281f4b8d68fa7"></a>
+### Function Set
+
+
+![][static]
+
+```csharp
+static void Set(this Hashtable d, object key, object value)
+```
+
+
+
+
+
+
+
+**Parameters**:
+
+* this Hashtable **d**
+* object **key**
+* object **value**
+
+**Return type**: void
 
 
 

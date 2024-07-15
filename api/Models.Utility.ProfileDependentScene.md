@@ -22,10 +22,11 @@ Represents a Scene that changes depending on active Profile.
 * [\_DiscardPreload](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a6f6ffa26b6d442654bf88cd3766dc380)
 * [\_FinishPreload](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a7e97e94abd2835e2ce6a4aaffd7e8d8d)
 * [\_Open](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a79543629a08917cd0fbd78c8ca5e745f)
+* [\_OpenAndActivate](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a49819a95b627988627c738c6e65f3aaf)
 * [\_OpenWithLoadingScreen](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1adab953a4adcb70e855f85fe84bbb078f)
 * [\_Preload](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1aaea4ac07b8fbdcf58470d7d59d698254)
 * [\_SetActive](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a9bb3d915fe1647b668e2ae4534cc2c45)
-* [\_ToggleOpen](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a23600c982ce9226b5092e2b39314bcde)
+* [\_ToggleOpen](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a35730a6ce5e61ef05eede731c3479cbe)
 * [\_ToggleOpenState](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a85086c20c2302f170a911c59406b5aa1)
 * [Close](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1ae0aa66a0b2aa0b22d170d2bd3a808d0b)
 * [DiscardPreload](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1aca084bb90eac73c146665dca2a903386)
@@ -36,11 +37,12 @@ Represents a Scene that changes depending on active Profile.
 * [isValid](Models.Utility.ProfileDependent.md#Models.Utility.ProfileDependent_1a8cc8d1cb67b70386f41455552f3a56f4)
 * [list](Models.Utility.ProfileDependent.md#Models.Utility.ProfileDependent_1a39f16eb080f85ae27a34e143f700a34d)
 * [Open](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a6e22da7af68d7d0cc417564e2d165100)
+* [OpenAndActivate](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1aabfee9870d0402289752f8c6e7210369)
 * [OpenWithLoadingScreen](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a596aef64a1daff6d0e94e5eef6b5b694)
 * [operator Scene](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a14c563db6bf415988125f31da5b74b9e)
 * [Preload](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a46d15b04a551a6ba377bd36797fa9720)
 * [SetActive](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a6e24e8c83077da760962af8be205d942)
-* [ToggleOpen](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a2723a94a783092049158dd72220c0611)
+* [ToggleOpen](Models.Utility.ProfileDependentScene.md#Models.Utility.ProfileDependentScene_1a35590d46b5818b72abeff6fd838736bb)
 
 ## Public static functions
 
@@ -95,30 +97,47 @@ No effect if scene is already open.
 
 
 
-<a id="Models.Utility.ProfileDependentScene_1a2723a94a783092049158dd72220c0611"></a>
+<a id="Models.Utility.ProfileDependentScene_1aabfee9870d0402289752f8c6e7210369"></a>
+### Function OpenAndActivate
+
+
+
+```csharp
+SceneOperation OpenAndActivate()
+```
+
+Opens the scene and sets it as active.
+
+
+
+
+
+**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+**Reimplements**: [OpenAndActivate](Models.Scene.IMethods.md#Models.Scene.IMethods_1aabfee9870d0402289752f8c6e7210369)
+
+
+
+
+
+<a id="Models.Utility.ProfileDependentScene_1a35590d46b5818b72abeff6fd838736bb"></a>
 ### Function ToggleOpen
 
 
 
 ```csharp
-SceneOperation ToggleOpen(bool? openState=null)
+SceneOperation ToggleOpen()
 ```
 
 Toggles this scene open or closed.
 
-**Parameters**:
-
-* **openState**: Specifies whatever you have a preferred state to toggle to, this means scene will not be closed if <code>true</code> is passed. This can be used to scene collection is open, without having an explicit check beforehand. The inverse is also the case for <code>false</code>.
 
 
 
-**Parameters**:
-
-* bool? **openState** = null 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [ToggleOpen](Models.Scene.IMethods.md#Models.Scene.IMethods_1a2723a94a783092049158dd72220c0611)
+**Reimplements**: [ToggleOpen](Models.Scene.IMethods.md#Models.Scene.IMethods_1a35590d46b5818b72abeff6fd838736bb)
 
 
 
@@ -293,6 +312,29 @@ Event method. Its meant for UnityEngine.Events.UnityEvent.
 
 
 
+<a id="Models.Utility.ProfileDependentScene_1a49819a95b627988627c738c6e65f3aaf"></a>
+### Function \_OpenAndActivate
+
+
+
+```csharp
+void _OpenAndActivate()
+```
+
+
+
+
+
+
+
+**Return type**: void
+
+**Reimplements**: [\_OpenAndActivate](Models.Scene.IMethods.IEvent.md#Models.Scene.IMethods.IEvent_1a49819a95b627988627c738c6e65f3aaf)
+
+
+
+
+
 <a id="Models.Utility.ProfileDependentScene_1a85086c20c2302f170a911c59406b5aa1"></a>
 ### Function \_ToggleOpenState
 
@@ -310,19 +352,17 @@ void _ToggleOpenState()
 
 **Return type**: void
 
-**Reimplements**: [\_ToggleOpenState](Models.Scene.IMethods.IEvent.md#Models.Scene.IMethods.IEvent_1a85086c20c2302f170a911c59406b5aa1)
 
 
 
 
-
-<a id="Models.Utility.ProfileDependentScene_1a23600c982ce9226b5092e2b39314bcde"></a>
+<a id="Models.Utility.ProfileDependentScene_1a35730a6ce5e61ef05eede731c3479cbe"></a>
 ### Function \_ToggleOpen
 
 
 
 ```csharp
-void _ToggleOpen(bool? openState=null)
+void _ToggleOpen()
 ```
 
 
@@ -331,13 +371,9 @@ void _ToggleOpen(bool? openState=null)
 
 
 
-**Parameters**:
-
-* bool? **openState** = null 
-
 **Return type**: void
 
-**Reimplements**: [\_ToggleOpen](Models.Scene.IMethods.IEvent.md#Models.Scene.IMethods.IEvent_1a23600c982ce9226b5092e2b39314bcde)
+**Reimplements**: [\_ToggleOpen](Models.Scene.IMethods.IEvent.md#Models.Scene.IMethods.IEvent_1a35730a6ce5e61ef05eede731c3479cbe)
 
 
 

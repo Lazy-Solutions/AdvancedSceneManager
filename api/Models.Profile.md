@@ -6,7 +6,7 @@
 
 
 
-A profile, contains settings, collections.
+A profile for ASM, contains settings and collections.
 
 
 
@@ -22,7 +22,6 @@ A profile, contains settings, collections.
 * [backgroundLoadingPriority](Models.Profile.md#Models.Profile_1abf79df3ee6f9243f60c918c8fe050a66)
 * [collections](Models.Profile.md#Models.Profile_1ac5d27897581375f94c2d3d697c129684)
 * [Contains](Models.Profile.md#Models.Profile_1a9eefde09991ac4a102f16546d628a5f5)
-* [createCameraDuringStartup](Models.Profile.md#Models.Profile_1afd23e4ce5d44c444fb4798756a57f26d)
 * [CreateInternal\< T \>](Models.ASMModel.md#Models.ASMModel_1a9c39a9aca180cb6ff4e68043dea6ac05)
 * [current](Models.Profile.md#Models.Profile_1ad006ba6fc43d95f82b53cf85cc107c55)
 * [dynamicCollections](Models.Profile.md#Models.Profile_1aecdabd08d6c80a4f04dd3fe3e134b1ca)
@@ -30,6 +29,7 @@ A profile, contains settings, collections.
 * [Find](Models.Profile.md#Models.Profile_1a2d9d7399023cb3db9e8492e94797d4fc)
 * [FindCollections](Models.Profile.md#Models.Profile_1a8280e0498ef3a4ffe6800fa5ac03c760)
 * [GenerateID](Models.ASMModel.md#Models.ASMModel_1a17da619efc12886a8be9f488a2d1dae5)
+* [hasID](Models.ASMModel.md#Models.ASMModel_1ae2e20a8535ca865b5e86eac9eb85ae4f)
 * [HasValue](Models.Profile.md#Models.Profile_1a2461a20da8d36c8273d2c420c9bddaac)
 * [id](Models.ASMModel.md#Models.ASMModel_1ad97b05b88ce9080f35b157cfacc8eb69)
 * [IndexOf](Models.Profile.md#Models.Profile_1a3effd3cdf76048ba24f4cee3c7c938ba)
@@ -39,24 +39,21 @@ A profile, contains settings, collections.
 * [IsMatch](Models.ASMModel.md#Models.ASMModel_1a26cbd6b54e88bfe74858658db24d26c0)
 * [IsNameMatch](Models.ASMModel.md#Models.ASMModel_1a0670b505f55cd78eac22aafd3f2b457c)
 * [IsStartupCollection](Models.Profile.md#Models.Profile_1a40f3b0e00a8b92e2869ec4eac6b859e0)
-* [loadingScreen](Models.Profile.md#Models.Profile_1ab1fb42d82b8996e65a606133ecebd588)
+* [loadingScene](Models.Profile.md#Models.Profile_1a4fe8554b9f43708cfc35bb4014a90f2a)
 * [m\_backgroundLoadingPriority](Models.Profile.md#Models.Profile_1a43aa9bdba26a562008067fab0c8d0c0b)
 * [m\_collections](Models.Profile.md#Models.Profile_1a7c6f766b28bc34d4151c00eea6a5be3b)
-* [m\_createCameraDuringStartup](Models.Profile.md#Models.Profile_1ac6a7ad4668288f7559c9107ab8ecf524)
 * [m\_dynamicCollections](Models.Profile.md#Models.Profile_1a927d7480a41c84dd094a48e27716ad76)
 * [m\_enableChangingBackgroundLoadingPriority](Models.Profile.md#Models.Profile_1af210e7d671f6a0ef273cd5986663680c)
 * [m\_id](Models.ASMModel.md#Models.ASMModel_1aaf217350cb1ae633b3b18fbcb7e14b9b)
-* [m\_loadingScreen](Models.Profile.md#Models.Profile_1a42e3b0702a2023c09788537d7d163957)
+* [m\_loadingScene](Models.Profile.md#Models.Profile_1a1ee178228b0ba8530531e353abafcbf5)
 * [m\_removedCollections](Models.Profile.md#Models.Profile_1a59ad32a8398304e529e24b1c09497201)
-* [m\_splashScreen](Models.Profile.md#Models.Profile_1a609c039785900312de3d98b8de9dd1f0)
+* [m\_splashScene](Models.Profile.md#Models.Profile_1a728be056b99ed281dd0e4405ed9bf137)
 * [m\_standaloneDynamicCollection](Models.Profile.md#Models.Profile_1a3f472f5e9f81a1bf78f00337cbeb1ffb)
-* [m\_startupLoadingScreen](Models.Profile.md#Models.Profile_1a7506eaa971b7151604f6b12bf50351db)
 * [m\_startupScene](Models.Profile.md#Models.Profile_1a9f712fc09838e2015c13924a083cb18a)
 * [m\_unloadUnusedAssetsForStandalone](Models.Profile.md#Models.Profile_1acc5d0a38bf2970f5c0a1a1b48e56417a)
-* [MarkAsDirty](Models.ASMModel.md#Models.ASMModel_1a64e64b00089467c2f05a1e7c4b63c415)
 * [name](Models.ASMModel.md#Models.ASMModel_1ac5a91fc09e22a791ce7bf790e1d3076a)
-* [OnPropertyChanged](Models.ASMModel.md#Models.ASMModel_1a201f0268bbda49305f4f59972687c0f3)
-* [OnValidate](Models.ASMModel.md#Models.ASMModel_1ad6f3426582ec127d8e7fb06cdea121df)
+* [OnDisable](Models.ASMModel.md#Models.ASMModel_1a1aac1c9a4ae04ef3e2fbf26b0aa570cc)
+* [OnPropertyChanged](Models.ASMModel.md#Models.ASMModel_1a6b21119cbf2d0a2cbf6290abf8ff4252)
 * [prefix](Models.Profile.md#Models.Profile_1ab7b6fb49a3a178b1628690ad0f00927d)
 * [PrefixDelimiter](Models.Profile.md#Models.Profile_1aafbacb63770ab042f2357feaff29a4d6)
 * [PropertyChanged](Models.ASMModel.md#Models.ASMModel_1aa421d817626998e9bcafaf0d70106b7f)
@@ -64,16 +61,16 @@ A profile, contains settings, collections.
 * [RemovePrefix](Models.Profile.md#Models.Profile_1a4f7d25ba34d0e6fdace6bac912b94159)
 * [Rename](Models.ASMModel.md#Models.ASMModel_1a96a1684ac055649b6eedd67758dcfc77)
 * [Save](Models.ASMModel.md#Models.ASMModel_1aaf937141229fcfe4a2e1b387cff8e758)
+* [SaveNow](Models.ASMModel.md#Models.ASMModel_1aefd51a3b50f8b53ce82e87c6ae77c92e)
+* [SaveNow](Models.ASMModel.md#Models.ASMModel_1a432dd326bfe8de8c35b39b3187a80c68)
 * [scenes](Models.Profile.md#Models.Profile_1a9d66af610abd5d1e3aa49584b3e7bdb4)
 * [specialScenes](Models.Profile.md#Models.Profile_1af86315c82207a0af0a427b2313e48d92)
-* [splashScreen](Models.Profile.md#Models.Profile_1a3ff22c36f5b7fc5de30491ab496d4e10)
+* [splashScene](Models.Profile.md#Models.Profile_1ab78be30234a656c6d8849c19caaf51fd)
 * [standaloneScenes](Models.Profile.md#Models.Profile_1a25a1462c88a34dfee40e8c62627b4164)
 * [startupCollections](Models.Profile.md#Models.Profile_1ae290969f22df0dbab059067c98d67df5)
-* [startupLoadingScreen](Models.Profile.md#Models.Profile_1a5245509144d159163f1a63e733880094)
 * [startupScene](Models.Profile.md#Models.Profile_1a2c3505e8beae9b48626b4fd5decf4311)
 * [startupScenes](Models.Profile.md#Models.Profile_1a96ee8c52579803dc11f91ccbfb6e7f6f)
-* [ToString](Models.Profile.md#Models.Profile_1ab4f1fc15ec47954898d4c0ac8580948e)
-* [ToString](Models.ASMModel.md#Models.ASMModel_1aa73e7c4dd1df5fd5fbf81c7764ee1533)
+* [ToString](Models.Profile.md#Models.Profile_1aa73e7c4dd1df5fd5fbf81c7764ee1533)
 * [TryFind](Models.Profile.md#Models.Profile_1a62e8b3d0bb114958ee140ad4a746818e)
 * [unloadUnusedAssetsForStandalone](Models.Profile.md#Models.Profile_1a56ecb61c55f770802972656066631c91)
 * [UpdatePrefix](Models.Profile.md#Models.Profile_1a278b37788f510fd2b6d5501fb87cc4a1)
@@ -383,18 +380,18 @@ The startup scene.
 
 
 
-<a id="Models.Profile_1a5245509144d159163f1a63e733880094"></a>
-### Property startupLoadingScreen
+<a id="Models.Profile_1a4fe8554b9f43708cfc35bb4014a90f2a"></a>
+### Property loadingScene
 
 
 
 
 
 ```csharp
-Scene startupLoadingScreen
+Scene loadingScene
 ```
 
-The loading screen to use during startup.
+The default loading scene.
 
 
 
@@ -406,41 +403,18 @@ The loading screen to use during startup.
 
 
 
-<a id="Models.Profile_1ab1fb42d82b8996e65a606133ecebd588"></a>
-### Property loadingScreen
+<a id="Models.Profile_1ab78be30234a656c6d8849c19caaf51fd"></a>
+### Property splashScene
 
 
 
 
 
 ```csharp
-Scene loadingScreen
+Scene splashScene
 ```
 
-The default loading screen.
-
-
-
-
-
-**Return type**: [Scene](Models.Scene.md#Models.Scene)
-
-
-
-
-
-<a id="Models.Profile_1a3ff22c36f5b7fc5de30491ab496d4e10"></a>
-### Property splashScreen
-
-
-
-
-
-```csharp
-Scene splashScreen
-```
-
-The splash screen.
+The splash scene.
 
 
 
@@ -498,29 +472,6 @@ Enable or disable ASM automatically changing Application.backgroundLoadingPriori
 
 
 
-<a id="Models.Profile_1afd23e4ce5d44c444fb4798756a57f26d"></a>
-### Property createCameraDuringStartup
-
-
-
-
-
-```csharp
-bool createCameraDuringStartup
-```
-
-Enable or disable ASM automatically creating a camera during startup.
-
-
-
-
-
-**Return type**: bool
-
-
-
-
-
 <a id="Models.Profile_1a56ecb61c55f770802972656066631c91"></a>
 ### Property unloadUnusedAssetsForStandalone
 
@@ -546,6 +497,52 @@ Enable or disable ASM calling Resources.UnloadUnusedAssets after standalone scen
 
 ## Private attributes
 
+<a id="Models.Profile_1a1ee178228b0ba8530531e353abafcbf5"></a>
+### Variable m\_loadingScene
+
+
+
+
+
+```csharp
+Scene m_loadingScene
+```
+
+
+
+
+
+
+
+**Type**: [Scene](Models.Scene.md#Models.Scene)
+
+
+
+
+
+<a id="Models.Profile_1a728be056b99ed281dd0e4405ed9bf137"></a>
+### Variable m\_splashScene
+
+
+
+
+
+```csharp
+Scene m_splashScene
+```
+
+
+
+
+
+
+
+**Type**: [Scene](Models.Scene.md#Models.Scene)
+
+
+
+
+
 <a id="Models.Profile_1a9f712fc09838e2015c13924a083cb18a"></a>
 ### Variable m\_startupScene
 
@@ -555,75 +552,6 @@ Enable or disable ASM calling Resources.UnloadUnusedAssets after standalone scen
 
 ```csharp
 Scene m_startupScene
-```
-
-
-
-
-
-
-
-**Type**: [Scene](Models.Scene.md#Models.Scene)
-
-
-
-
-
-<a id="Models.Profile_1a42e3b0702a2023c09788537d7d163957"></a>
-### Variable m\_loadingScreen
-
-
-
-
-
-```csharp
-Scene m_loadingScreen
-```
-
-
-
-
-
-
-
-**Type**: [Scene](Models.Scene.md#Models.Scene)
-
-
-
-
-
-<a id="Models.Profile_1a609c039785900312de3d98b8de9dd1f0"></a>
-### Variable m\_splashScreen
-
-
-
-
-
-```csharp
-Scene m_splashScreen
-```
-
-
-
-
-
-
-
-**Type**: [Scene](Models.Scene.md#Models.Scene)
-
-
-
-
-
-<a id="Models.Profile_1a7506eaa971b7151604f6b12bf50351db"></a>
-### Variable m\_startupLoadingScreen
-
-
-
-
-
-```csharp
-Scene m_startupLoadingScreen
 ```
 
 
@@ -670,29 +598,6 @@ ThreadPriority m_backgroundLoadingPriority = ThreadPriority.BelowNormal
 
 ```csharp
 bool m_enableChangingBackgroundLoadingPriority
-```
-
-
-
-
-
-
-
-**Type**: bool
-
-
-
-
-
-<a id="Models.Profile_1ac6a7ad4668288f7559c9107ab8ecf524"></a>
-### Variable m\_createCameraDuringStartup
-
-
-
-
-
-```csharp
-bool m_createCameraDuringStartup = true
 ```
 
 
@@ -1102,32 +1007,22 @@ Finds all collection that the scene is included in. Includes dynamic collections
 
 
 
-<a id="Models.Profile_1ab4f1fc15ec47954898d4c0ac8580948e"></a>
+<a id="Models.Profile_1aa73e7c4dd1df5fd5fbf81c7764ee1533"></a>
 ### Function ToString
 
 
 
 ```csharp
-override string ToString(int indent)
+override string ToString()
 ```
 
 
 
-&para
- 
-**Parameters**:
-
-* **indent**: The indentation level, used for nested calls.
 
 
 
-**Parameters**:
-
-* int **indent**
 
 **Return type**: override string
-
-**Reimplements**: [ToString](Models.ASMModel.md#Models.ASMModel_1ac55fb8e9c64c5c37cf02c5e98d28a52f)
 
 
 

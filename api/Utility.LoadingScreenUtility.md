@@ -76,7 +76,7 @@ Gets if any loading screens are open.
 Scene fade
 ```
 
-Finds the default fade loading screen. Will be null if not included in build.
+Finds the default fade loading screen. Can be set through project settings, or in scene loading section of the settings popup.
 
 
 

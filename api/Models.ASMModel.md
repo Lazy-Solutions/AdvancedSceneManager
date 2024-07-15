@@ -25,20 +25,20 @@ A base class for Profile, SceneCollection and Scene.
 
 * [CreateInternal\< T \>](Models.ASMModel.md#Models.ASMModel_1a9c39a9aca180cb6ff4e68043dea6ac05)
 * [GenerateID](Models.ASMModel.md#Models.ASMModel_1a17da619efc12886a8be9f488a2d1dae5)
+* [hasID](Models.ASMModel.md#Models.ASMModel_1ae2e20a8535ca865b5e86eac9eb85ae4f)
 * [id](Models.ASMModel.md#Models.ASMModel_1ad97b05b88ce9080f35b157cfacc8eb69)
 * [IsIDMatch](Models.ASMModel.md#Models.ASMModel_1a3a7be6206fc083e5da56ac2c5a7e0d72)
 * [IsMatch](Models.ASMModel.md#Models.ASMModel_1a26cbd6b54e88bfe74858658db24d26c0)
 * [IsNameMatch](Models.ASMModel.md#Models.ASMModel_1a0670b505f55cd78eac22aafd3f2b457c)
 * [m\_id](Models.ASMModel.md#Models.ASMModel_1aaf217350cb1ae633b3b18fbcb7e14b9b)
-* [MarkAsDirty](Models.ASMModel.md#Models.ASMModel_1a64e64b00089467c2f05a1e7c4b63c415)
 * [name](Models.ASMModel.md#Models.ASMModel_1ac5a91fc09e22a791ce7bf790e1d3076a)
-* [OnPropertyChanged](Models.ASMModel.md#Models.ASMModel_1a201f0268bbda49305f4f59972687c0f3)
-* [OnValidate](Models.ASMModel.md#Models.ASMModel_1ad6f3426582ec127d8e7fb06cdea121df)
+* [OnDisable](Models.ASMModel.md#Models.ASMModel_1a1aac1c9a4ae04ef3e2fbf26b0aa570cc)
+* [OnPropertyChanged](Models.ASMModel.md#Models.ASMModel_1a6b21119cbf2d0a2cbf6290abf8ff4252)
 * [PropertyChanged](Models.ASMModel.md#Models.ASMModel_1aa421d817626998e9bcafaf0d70106b7f)
 * [Rename](Models.ASMModel.md#Models.ASMModel_1a96a1684ac055649b6eedd67758dcfc77)
 * [Save](Models.ASMModel.md#Models.ASMModel_1aaf937141229fcfe4a2e1b387cff8e758)
-* [ToString](Models.ASMModel.md#Models.ASMModel_1aa73e7c4dd1df5fd5fbf81c7764ee1533)
-* [ToString](Models.ASMModel.md#Models.ASMModel_1ac55fb8e9c64c5c37cf02c5e98d28a52f)
+* [SaveNow](Models.ASMModel.md#Models.ASMModel_1aefd51a3b50f8b53ce82e87c6ae77c92e)
+* [SaveNow](Models.ASMModel.md#Models.ASMModel_1a432dd326bfe8de8c35b39b3187a80c68)
 
 ## Package attributes
 
@@ -50,7 +50,7 @@ A base class for Profile, SceneCollection and Scene.
 
 
 ```csharp
-string m_id = [GenerateID](Models.ASMModel.md#Models.ASMModel_1a17da619efc12886a8be9f488a2d1dae5)()
+string m_id
 ```
 
 
@@ -66,6 +66,29 @@ string m_id = [GenerateID](Models.ASMModel.md#Models.ASMModel_1a17da619efc12886a
 
 
 ## Properties
+
+<a id="Models.ASMModel_1ae2e20a8535ca865b5e86eac9eb85ae4f"></a>
+### Property hasID
+
+
+
+
+
+```csharp
+bool hasID
+```
+
+
+
+
+
+
+
+**Return type**: bool
+
+
+
+
 
 <a id="Models.ASMModel_1ad97b05b88ce9080f35b157cfacc8eb69"></a>
 ### Property id
@@ -164,55 +187,13 @@ Generate id.
 
 ## Public functions
 
-<a id="Models.ASMModel_1aaf937141229fcfe4a2e1b387cff8e758"></a>
-### Function Save
-
-
-
-```csharp
-virtual void Save()
-```
-
-Saves the scriptable object after modifying.
-
-Only available in editor.
-
-
-
-**Return type**: void
-
-
-
-
-
-<a id="Models.ASMModel_1a64e64b00089467c2f05a1e7c4b63c415"></a>
-### Function MarkAsDirty
-
-
-
-```csharp
-void MarkAsDirty()
-```
-
-Mark scriptable object as dirty after modifying.
-
-Only available in editor.
-
-
-
-**Return type**: void
-
-
-
-
-
-<a id="Models.ASMModel_1a201f0268bbda49305f4f59972687c0f3"></a>
+<a id="Models.ASMModel_1a6b21119cbf2d0a2cbf6290abf8ff4252"></a>
 ### Function OnPropertyChanged
 
 
 
 ```csharp
-virtual void OnPropertyChanged([CallerMemberName] string propertyName=null)
+virtual void OnPropertyChanged([CallerMemberName] string propertyName="")
 ```
 
 
@@ -223,13 +204,80 @@ virtual void OnPropertyChanged([CallerMemberName] string propertyName=null)
 
 **Parameters**:
 
-* _[CallerMemberName]_ string **propertyName** = null 
+* _[CallerMemberName]_ string **propertyName** = "" 
 
 **Return type**: void
 
 **Reimplemented by**:
 
 * [OnPropertyChanged](Models.SceneCollection.md#Models.SceneCollection_1a8b80b524ffb41f5b2ba062244c04df2b)
+
+
+
+
+
+<a id="Models.ASMModel_1aaf937141229fcfe4a2e1b387cff8e758"></a>
+### Function Save
+
+
+
+```csharp
+virtual void Save()
+```
+
+Saves the singleton to disk after a delay.
+
+Can be called outside of editor, but has no effect.
+
+
+
+**Return type**: void
+
+
+
+
+
+<a id="Models.ASMModel_1aefd51a3b50f8b53ce82e87c6ae77c92e"></a>
+### Function SaveNow
+
+
+
+```csharp
+void SaveNow()
+```
+
+Saves the singleton to disk.
+
+Can be called outside of editor, but has no effect.
+
+
+
+**Return type**: void
+
+
+
+
+
+<a id="Models.ASMModel_1a432dd326bfe8de8c35b39b3187a80c68"></a>
+### Function SaveNow
+
+
+
+```csharp
+void SaveNow(bool setDirty=true)
+```
+
+Saves the singleton to disk.
+
+Can be called outside of editor, but has no effect.
+
+
+
+**Parameters**:
+
+* bool **setDirty** = true 
+
+**Return type**: void
 
 
 
@@ -265,69 +313,15 @@ Gets if _q_  matches name.
 
 
 
-<a id="Models.ASMModel_1aa73e7c4dd1df5fd5fbf81c7764ee1533"></a>
-### Function ToString
-
-
-
-```csharp
-override string ToString()
-```
-
-Gets a text summarization of this model.
-
-
-
-
-
-**Return type**: override string
-
-
-
-
-
-<a id="Models.ASMModel_1ac55fb8e9c64c5c37cf02c5e98d28a52f"></a>
-### Function ToString
-
-
-
-```csharp
-virtual string ToString(int indent)
-```
-
-
-
-**Parameters**:
-
-* **indent**: The indentation level, used for nested calls.
-
-
-
-**Parameters**:
-
-* int **indent**
-
-**Return type**: string
-
-**Reimplemented by**:
-
-* [ToString](Models.SceneCollection.md#Models.SceneCollection_1ab4f1fc15ec47954898d4c0ac8580948e)
-* [ToString](Models.Profile.md#Models.Profile_1ab4f1fc15ec47954898d4c0ac8580948e)
-* [ToString](Models.Scene.md#Models.Scene_1ab4f1fc15ec47954898d4c0ac8580948e)
-
-
-
-
-
 ## Protected functions
 
-<a id="Models.ASMModel_1ad6f3426582ec127d8e7fb06cdea121df"></a>
-### Function OnValidate
+<a id="Models.ASMModel_1a1aac1c9a4ae04ef3e2fbf26b0aa570cc"></a>
+### Function OnDisable
 
 
 
 ```csharp
-virtual void OnValidate()
+virtual void OnDisable()
 ```
 
 

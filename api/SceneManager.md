@@ -14,6 +14,7 @@ The central Advanced Scene Manager API. Provides access to the most important th
 
 * [app](SceneManager.md#SceneManager_1a05b5a24325d46227633053ca49de6234)
 * [assets](SceneManager.md#SceneManager_1a01a68d334fb8dcdaa9a227536c39d4ba)
+* [isDev](SceneManager.md#SceneManager_1a7f047dfd6a6623ac42c17b22b8c5dc4f)
 * [isInitialized](SceneManager.md#SceneManager_1a1fdc2bf5595c2e64dc06d987769834eb)
 * [OnInitialized](SceneManager.md#SceneManager_1ac4ee942126ba1f3e3bd5cb811e417df0)
 * [openCollection](SceneManager.md#SceneManager_1a693a74a4caf23c26e4ecdcc4086153bd)
@@ -24,6 +25,30 @@ The central Advanced Scene Manager API. Provides access to the most important th
 * [settings](SceneManager.md#SceneManager_1a7b44e1744781a2af95f17a86717b18a9)
 
 ## Properties
+
+<a id="SceneManager_1a7f047dfd6a6623ac42c17b22b8c5dc4f"></a>
+### Property isDev
+
+
+![][static]
+
+
+
+```csharp
+bool isDev
+```
+
+
+
+
+
+
+
+**Return type**: bool
+
+
+
+
 
 <a id="SceneManager_1a01a68d334fb8dcdaa9a227536c39d4ba"></a>
 ### Property assets

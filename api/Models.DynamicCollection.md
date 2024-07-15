@@ -22,6 +22,7 @@ Represents a dynamic scene collection.
 * [description](Models.DynamicCollection.md#Models.DynamicCollection_1a23af17c78302b71c14ef38ea40b8d1d7)
 * [GetEnumerator](Models.DynamicCollection.md#Models.DynamicCollection_1ae60b505e2045bbbc3b9e03a38d68553c)
 * [GetEnumerator](Models.DynamicCollection.md#Models.DynamicCollection_1a7d819d2ba8ffadd29113c811ce043c9f)
+* [hasID](Models.DynamicCollection.md#Models.DynamicCollection_1ae2e20a8535ca865b5e86eac9eb85ae4f)
 * [id](Models.DynamicCollection.md#Models.DynamicCollection_1ad97b05b88ce9080f35b157cfacc8eb69)
 * [m\_cachedPaths](Models.DynamicCollection.md#Models.DynamicCollection_1ab4e85b07f2d7a01fa94af174b5dd2625)
 * [m\_description](Models.DynamicCollection.md#Models.DynamicCollection_1a907056f6b120f96baec3df4ec08d5197)
@@ -37,7 +38,7 @@ Represents a dynamic scene collection.
 * [this[int index]](Models.DynamicCollection.md#Models.DynamicCollection_1a3bc81a8fb299811c2a0293769178d0de)
 * [title](Models.DynamicCollection.md#Models.DynamicCollection_1a43a5eafe64b96968035e5a4013e47c75)
 
-## Private attributes
+## Package attributes
 
 <a id="Models.DynamicCollection_1aaf217350cb1ae633b3b18fbcb7e14b9b"></a>
 ### Variable m\_id
@@ -47,7 +48,7 @@ Represents a dynamic scene collection.
 
 
 ```csharp
-string m_id = GuidReferenceUtility.GenerateID()
+string m_id
 ```
 
 
@@ -61,6 +62,8 @@ string m_id = GuidReferenceUtility.GenerateID()
 
 
 
+
+## Private attributes
 
 <a id="Models.DynamicCollection_1adb51dbb671f950fa6600dc35ed8a1673"></a>
 ### Variable m\_path
@@ -155,6 +158,29 @@ string [] m_cachedPaths
 
 
 ## Properties
+
+<a id="Models.DynamicCollection_1ae2e20a8535ca865b5e86eac9eb85ae4f"></a>
+### Property hasID
+
+
+
+
+
+```csharp
+bool hasID
+```
+
+
+
+
+
+
+
+**Return type**: bool
+
+
+
+
 
 <a id="Models.DynamicCollection_1ad97b05b88ce9080f35b157cfacc8eb69"></a>
 ### Property id

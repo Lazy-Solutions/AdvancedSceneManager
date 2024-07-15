@@ -31,21 +31,24 @@ Represents a scene.
 * [\_DiscardPreload](Models.Scene.md#Models.Scene_1a6f6ffa26b6d442654bf88cd3766dc380)
 * [\_FinishPreload](Models.Scene.md#Models.Scene_1a7e97e94abd2835e2ce6a4aaffd7e8d8d)
 * [\_Open](Models.Scene.md#Models.Scene_1a79543629a08917cd0fbd78c8ca5e745f)
+* [\_OpenAndActivate](Models.Scene.md#Models.Scene_1a49819a95b627988627c738c6e65f3aaf)
 * [\_OpenWithLoadingScreen](Models.Scene.md#Models.Scene_1adab953a4adcb70e855f85fe84bbb078f)
 * [\_Preload](Models.Scene.md#Models.Scene_1aaea4ac07b8fbdcf58470d7d59d698254)
 * [\_SetActive](Models.Scene.md#Models.Scene_1a9bb3d915fe1647b668e2ae4534cc2c45)
-* [\_ToggleOpen](Models.Scene.md#Models.Scene_1a23600c982ce9226b5092e2b39314bcde)
-* [\_ToggleOpenState](Models.Scene.md#Models.Scene_1a85086c20c2302f170a911c59406b5aa1)
+* [\_ToggleOpen](Models.Scene.md#Models.Scene_1a35730a6ce5e61ef05eede731c3479cbe)
+* [Activate](Models.Scene.md#Models.Scene_1ae8753efaeea05f65094a4875a694a368)
 * [AssetSearchString](Models.Scene.md#Models.Scene_1a4d4daa74fa2ce778cb7e354c4f70ee63)
 * [autoOpenInEditor](Models.Scene.md#Models.Scene_1a29633a70f28b6f817ffea8e394492f2b)
 * [autoOpenInEditorScenes](Models.Scene.md#Models.Scene_1a9cb1b2342e291019532ddebc6131a772)
 * [ClearSceneLoader](Models.Scene.md#Models.Scene_1a249447740bfed24c37c909b7c6b15291)
 * [Close](Models.Scene.md#Models.Scene_1ae0aa66a0b2aa0b22d170d2bd3a808d0b)
 * [CreateInternal\< T \>](Models.ASMModel.md#Models.ASMModel_1a9c39a9aca180cb6ff4e68043dea6ac05)
+* [crossSceneReferences](Models.Scene.md#Models.Scene_1a9d7d601497f14c0689548b9aee86a6cc)
 * [DiscardPreload](Models.Scene.md#Models.Scene_1aca084bb90eac73c146665dca2a903386)
 * [Equals](Models.Scene.md#Models.Scene_1aadf763f0213fc2f3875230b06bb0b6cf)
 * [Equals](Models.Scene.md#Models.Scene_1a7cc48a1ad646e14c42d6d99f0313979f)
 * [Equals](Models.Scene.md#Models.Scene_1ad9e9736fe8548fe67f6e866d02009fd6)
+* [Error](Models.Scene.md#Models.Scene_1a63a1e75c0d97452dea4add543e947d38)
 * [EvalOpenAsPersistent](Models.Scene.md#Models.Scene_1ad0fc119d91f3c78617baaba411301339)
 * [Find](Models.Scene.md#Models.Scene_1a58bd30da3f264d583812c3b26c8ea6fe)
 * [Find](Models.Scene.md#Models.Scene_1aebd8e8de50fb288a32f5074774d90a41)
@@ -61,14 +64,17 @@ Represents a scene.
 * [GetPath](Models.Scene.md#Models.Scene_1a18319d673339a363be9eff993fc5a3a7)
 * [GetRootGameObjects](Models.Scene.md#Models.Scene_1aa4625c0391aefd1af8f2bf95ec0a5d40)
 * [GetSceneLoader](Models.Scene.md#Models.Scene_1ac61c7d4421db72d8eee6576f9a13a5b9)
+* [hasID](Models.ASMModel.md#Models.ASMModel_1ae2e20a8535ca865b5e86eac9eb85ae4f)
+* [hasSceneAsset](Models.Scene.md#Models.Scene_1a153d1fd1b796c267787e27ba23fdc55d)
 * [id](Models.ASMModel.md#Models.ASMModel_1ad97b05b88ce9080f35b157cfacc8eb69)
 * [internalScene](Models.Scene.md#Models.Scene_1aa913b050c3f318eff5f3c4ec8c284d69)
 * [isActive](Models.Scene.md#Models.Scene_1a96eff8420fb9ee1b4c5d5f1bcace116d)
-* [isDefaultScene](Models.Scene.md#Models.Scene_1a72be4742119831d435ae6e5781f16ccc)
+* [isDefaultASMScene](Models.Scene.md#Models.Scene_1a1be32e4c926aca9b4dde2d9f132fd392)
 * [isDontDestroyOnLoad](Models.Scene.md#Models.Scene_1a59969a346a28767da7fadfce24164aaa)
 * [isDynamic](Models.Scene.md#Models.Scene_1a2d06571b6020b31e319f8649bd059a3c)
 * [IsEqual](Models.Scene.md#Models.Scene_1ae3e5af3122a7077c2972d60353b41256)
 * [IsIDMatch](Models.ASMModel.md#Models.ASMModel_1a3a7be6206fc083e5da56ac2c5a7e0d72)
+* [isImported](Models.Scene.md#Models.Scene_1a8bf6d1cdcd87274fa5381e6bee467081)
 * [isIncluded](Models.Scene.md#Models.Scene_1af6b5e343c230d9ceb2685836b4582596)
 * [isLoadingScreen](Models.Scene.md#Models.Scene_1a227613a11e9788e750ba32e1fbacdf38)
 * [isLocked](Models.Scene.md#Models.Scene_1a0774f698e7c923fe33adcfe95cdf9e73)
@@ -87,6 +93,7 @@ Represents a scene.
 * [lockMessage](Models.Scene.md#Models.Scene_1a8eaa811760467a3689abc9ebb866864a)
 * [m\_autoOpenInEditor](Models.Scene.md#Models.Scene_1ad3cf8372409898381784b1d1c8ccb461)
 * [m\_autoOpenInEditorScenes](Models.Scene.md#Models.Scene_1ac9981e76b01b24472e1a78073280d154)
+* [m\_crossSceneReferences](Models.Scene.md#Models.Scene_1aaf54a3cc7cff0304012aac67913a1439)
 * [m\_id](Models.ASMModel.md#Models.ASMModel_1aaf217350cb1ae633b3b18fbcb7e14b9b)
 * [m\_isLoadingScreen](Models.Scene.md#Models.Scene_1ab2a204b0f33be4ab96f35cb80f862cec)
 * [m\_isLocked](Models.Scene.md#Models.Scene_1a0b6ee1c2ab93efbeb4e3d7795b29a640)
@@ -99,12 +106,12 @@ Represents a scene.
 * [m\_path](Models.Scene.md#Models.Scene_1adb51dbb671f950fa6600dc35ed8a1673)
 * [m\_sceneAsset](Models.Scene.md#Models.Scene_1aac006eae605d9131e660a6a42fca5053)
 * [m\_sceneLoader](Models.Scene.md#Models.Scene_1a22cdc7a4e986f6625389faea8dfabec0)
-* [MarkAsDirty](Models.ASMModel.md#Models.ASMModel_1a64e64b00089467c2f05a1e7c4b63c415)
 * [name](Models.ASMModel.md#Models.ASMModel_1ac5a91fc09e22a791ce7bf790e1d3076a)
 * [NotifyAddressables](Models.Scene.md#Models.Scene_1aaa56b4dd5d79d0a1cdcc353c0588a493)
-* [OnPropertyChanged](Models.ASMModel.md#Models.ASMModel_1a201f0268bbda49305f4f59972687c0f3)
-* [OnValidate](Models.ASMModel.md#Models.ASMModel_1ad6f3426582ec127d8e7fb06cdea121df)
+* [OnDisable](Models.ASMModel.md#Models.ASMModel_1a1aac1c9a4ae04ef3e2fbf26b0aa570cc)
+* [OnPropertyChanged](Models.ASMModel.md#Models.ASMModel_1a6b21119cbf2d0a2cbf6290abf8ff4252)
 * [Open](Models.Scene.md#Models.Scene_1a6e22da7af68d7d0cc417564e2d165100)
+* [OpenAndActivate](Models.Scene.md#Models.Scene_1aabfee9870d0402289752f8c6e7210369)
 * [openedBy](Models.Scene.md#Models.Scene_1a704b8f7a465d90f315b0508ca03ffa96)
 * [openOnPlayMode](Models.Scene.md#Models.Scene_1a91b661cf2cd17684bf5676f50184e306)
 * [openOnStartup](Models.Scene.md#Models.Scene_1a9105b72e5f771bb6a7e7c36083ab0e7e)
@@ -122,324 +129,87 @@ Represents a scene.
 * [Rename](Models.ASMModel.md#Models.ASMModel_1a96a1684ac055649b6eedd67758dcfc77)
 * [Save](Models.ASMModel.md#Models.ASMModel_1aaf937141229fcfe4a2e1b387cff8e758)
 * [Save](Models.ILockable.md#Models.ILockable_1a5df140c1ee51aadf7fe88ce3fb9cac33)
+* [SaveNow](Models.ASMModel.md#Models.ASMModel_1aefd51a3b50f8b53ce82e87c6ae77c92e)
+* [SaveNow](Models.ASMModel.md#Models.ASMModel_1a432dd326bfe8de8c35b39b3187a80c68)
 * [sceneLoader](Models.Scene.md#Models.Scene_1ab9f7c154779dc01e8622edba7cfc3698)
 * [SetActive](Models.Scene.md#Models.Scene_1a6e24e8c83077da760962af8be205d942)
 * [SetSceneLoader\< T \>](Models.Scene.md#Models.Scene_1a9b2971edd70712b9a584e4b98756fc04)
-* [SetUserData\< T \>](Models.Scene.md#Models.Scene_1aff2c9c0f810cab71384b979b29705f49)
-* [SetUserData\< T \>](Models.Scene.md#Models.Scene_1a3e188d93916f6335dba445af0e952b70)
 * [state](Models.Scene.md#Models.Scene_1abb227abf7eed10538308b710e0b0feb8)
-* [ToggleOpen](Models.Scene.md#Models.Scene_1a2723a94a783092049158dd72220c0611)
+* [ToggleOpen](Models.Scene.md#Models.Scene_1a35590d46b5818b72abeff6fd838736bb)
 * [ToString](Models.Scene.md#Models.Scene_1aa73e7c4dd1df5fd5fbf81c7764ee1533)
-* [ToString](Models.Scene.md#Models.Scene_1ab4f1fc15ec47954898d4c0ac8580948e)
 * [TryFind](Models.Scene.md#Models.Scene_1a1fb4e4f81f4050f1e5fe393c00f4a2f8)
-* [UnsetUserData](Models.Scene.md#Models.Scene_1a0bc8dc1a9357efb74fce111c79d52943)
-* [UnsetUserData\< T \>](Models.Scene.md#Models.Scene_1a3e349b8822049f9179926386754ff524)
-* [UserData\< T \>](Models.Scene.md#Models.Scene_1adc01f22bdf258013f224b41215b0ef93)
-* [UserData\< T \>](Models.Scene.md#Models.Scene_1a51ac89c120f4f33f0994c840159de6bb)
 * [UsesSceneLoader\< T \>](Models.Scene.md#Models.Scene_1afedf37dc9127d7e487dcf38776dfc4c7)
 
-## Private attributes
-
-<a id="Models.Scene_1aac006eae605d9131e660a6a42fca5053"></a>
-### Variable m\_sceneAsset
-
-
-
-
-
-```csharp
-Object m_sceneAsset
-```
-
-
-
-
-
-
-
-**Type**: Object
-
-
-
-
-
-<a id="Models.Scene_1adb51dbb671f950fa6600dc35ed8a1673"></a>
-### Variable m\_path
-
-
-
-
-
-```csharp
-string m_path
-```
-
-
-
-
-
-
-
-**Type**: string
-
-
-
-
-
-<a id="Models.Scene_1ab2a204b0f33be4ab96f35cb80f862cec"></a>
-### Variable m\_isLoadingScreen
-
-
-
-
-
-```csharp
-bool m_isLoadingScreen
-```
-
-
-
-
-
-
-
-**Type**: bool
-
-
-
-
-
-<a id="Models.Scene_1aff8d3b42d07f8721cda1d0ef64df08a2"></a>
-### Variable m\_isSplashScreen
-
-
-
-
-
-```csharp
-bool m_isSplashScreen
-```
-
-
-
-
-
-
-
-**Type**: bool
-
-
-
-
-
-<a id="Models.Scene_1a9e64fbad2187d386d347264b6723b27a"></a>
-### Variable m\_keepOpenWhenCollectionsClose
-
-
-
-
-
-```csharp
-bool m_keepOpenWhenCollectionsClose
-```
-
-
-
-
-
-
-
-**Type**: bool
-
-
-
-
-
-<a id="Models.Scene_1ad0f5bf662b6d30da94da5dd4469b3b2d"></a>
-### Variable m\_keepOpenWhenNewCollectionWouldReopen
-
-
-
-
-
-```csharp
-bool m_keepOpenWhenNewCollectionWouldReopen = true
-```
-
-
-
-
-
-
-
-**Type**: bool
-
-
-
-
-
-<a id="Models.Scene_1a63e9788a3518baf53dd28ff56d675049"></a>
-### Variable m\_openOnStartup
-
-
-
-
-
-```csharp
-bool m_openOnStartup
-```
-
-
-
-
-
-
-
-**Type**: bool
-
-
-
-
-
-<a id="Models.Scene_1aa99c6faa2a41f1be66bf13831c020c5e"></a>
-### Variable m\_openOnPlayMode
-
-
-
-
-
-```csharp
-bool m_openOnPlayMode
-```
-
-
-
-
-
-
-
-**Type**: bool
-
-
-
-
-
-<a id="Models.Scene_1ad3cf8372409898381784b1d1c8ccb461"></a>
-### Variable m\_autoOpenInEditor
-
-
-
-
-
-```csharp
-EditorPersistentOption m_autoOpenInEditor
-```
-
-
-
-
-
-
-
-**Type**: [EditorPersistentOption](namespace_advanced_scene_manager_1_1_models_1_1_enums.md#namespace_advanced_scene_manager_1_1_models_1_1_enums_1ab3bb6357c720dbb755320df9b4080d7c)
-
-
-
-
-
-<a id="Models.Scene_1ac9981e76b01b24472e1a78073280d154"></a>
-### Variable m\_autoOpenInEditorScenes
-
-
-
-
-
-```csharp
-List<Scene> m_autoOpenInEditorScenes = new()
-```
-
-
-
-
-
-
-
-**Type**: List< [Scene](Models.Scene.md#Models.Scene) >
-
-
-
-
-
-<a id="Models.Scene_1a0b6ee1c2ab93efbeb4e3d7795b29a640"></a>
-### Variable m\_isLocked
-
-
-
-
-
-```csharp
-bool m_isLocked
-```
-
-
-
-
-
-
-
-**Type**: bool
-
-
-
-
-
-<a id="Models.Scene_1a7887f5140655409ffe5e2bf4d3bbc6ef"></a>
-### Variable m\_lockMessage
-
-
-
-
-
-```csharp
-string m_lockMessage
-```
-
-
-
-
-
-
-
-**Type**: string
-
-
-
-
-
-<a id="Models.Scene_1a22cdc7a4e986f6625389faea8dfabec0"></a>
-### Variable m\_sceneLoader
-
-
-
-
-
-```csharp
-string m_sceneLoader
-```
-
-
-
-
-
-
-
-**Type**: string
-
-
-
-
-
 ## Properties
+
+<a id="Models.Scene_1a8bf6d1cdcd87274fa5381e6bee467081"></a>
+### Property isImported
+
+
+
+
+
+```csharp
+bool isImported
+```
+
+Gets whatever we are tracked by AssetRef.
+
+Only available in editor.
+
+
+
+**Return type**: bool
+
+
+
+
+
+<a id="Models.Scene_1af6b5e343c230d9ceb2685836b4582596"></a>
+### Property isIncluded
+
+
+
+
+
+```csharp
+bool isIncluded
+```
+
+Gets whatever this scene is included in build.
+
+
+
+
+
+**Return type**: bool
+
+
+
+
+
+<a id="Models.Scene_1a153d1fd1b796c267787e27ba23fdc55d"></a>
+### Property hasSceneAsset
+
+
+
+
+
+```csharp
+bool hasSceneAsset
+```
+
+Gets if m_sceneAsset has a value.
+
+Only available in the editor.
+
+
+
+**Return type**: bool
+
+
+
+
 
 <a id="Models.Scene_1a46c20eb2a26abeb1e934cd66e1dd6484"></a>
 ### Property path
@@ -493,12 +263,6 @@ Scene might sometimes have to be re-saved for this flag to appear.
 
 
 
-
-
-Might not be 100% reliable.
-
-
-
 **Return type**: bool
 
 
@@ -534,12 +298,6 @@ Scene might sometimes have to be re-saved for this flag to appear.
 
 
 
-
-
-Might not be 100% reliable.
-
-
-
 **Return type**: bool
 
 
@@ -560,29 +318,6 @@ bool isSpecial
 Gets if this is a 'special' scene.
 
 A scene is special if any of the following is <code>true</code>: isSplashScreen, isLoadingScreen or isDontDestroyOnLoad.
-
-
-
-**Return type**: bool
-
-
-
-
-
-<a id="Models.Scene_1af6b5e343c230d9ceb2685836b4582596"></a>
-### Property isIncluded
-
-
-
-
-
-```csharp
-bool isIncluded
-```
-
-Gets whatever this scene is included in build.
-
-
 
 
 
@@ -801,6 +536,29 @@ Gets the lock message for this scene.
 
 * reimplements {"type":"element","name":"reimplements","attributes":{"refid":"Models.ILockable_1a8eaa811760467a3689abc9ebb866864a"},"children":[{"type":"text","text":"lockMessage"}]}
 
+<a id="Models.Scene_1a9d7d601497f14c0689548b9aee86a6cc"></a>
+### Property crossSceneReferences
+
+
+
+
+
+```csharp
+IEnumerable<CrossSceneReference> crossSceneReferences
+```
+
+Enumerates the cross-scene references defined on this scene.
+
+
+
+
+
+**Return type**: IEnumerable< [CrossSceneReference](Utility.CrossSceneReferences.CrossSceneReference.md#Utility.CrossSceneReferences.CrossSceneReference) >
+
+
+
+
+
 <a id="Models.Scene_1a96eff8420fb9ee1b4c5d5f1bcace116d"></a>
 ### Property isActive
 
@@ -835,7 +593,7 @@ Gets if this scene is currently active.
 bool isOpenInHierarchy
 ```
 
-Gets whatever the scene is open in the hierarchy, this is <code>true</code> if scene is currently loading, if scene is preloaded, if scene is fully open..
+Gets whatever the scene is open in the hierarchy, this is <code>true</code> if scene is currently loading, if scene is preloaded, if scene is fully open.
 
 
 
@@ -985,18 +743,18 @@ SceneCollection openedBy
 
 
 
-<a id="Models.Scene_1a72be4742119831d435ae6e5781f16ccc"></a>
-### Property isDefaultScene
+<a id="Models.Scene_1a1be32e4c926aca9b4dde2d9f132fd392"></a>
+### Property isDefaultASMScene
 
 
 
 
 
 ```csharp
-bool isDefaultScene
+bool isDefaultASMScene
 ```
 
-Gets if this is a default ASM scene. These are located in '/AdvancedSceneManager/Defaults/'.
+Gets if this is a default ASM scene. These are located in 'Packages/Advanced Scene Manager/Default scenes/'.
 
 
 
@@ -1072,6 +830,332 @@ Specifies what SceneManagement.SceneLoader to use.
 
 
 **Return type**: string
+
+
+
+
+
+## Private attributes
+
+<a id="Models.Scene_1adb51dbb671f950fa6600dc35ed8a1673"></a>
+### Variable m\_path
+
+
+
+
+
+```csharp
+string m_path
+```
+
+
+
+
+
+
+
+**Type**: string
+
+
+
+
+
+<a id="Models.Scene_1aac006eae605d9131e660a6a42fca5053"></a>
+### Variable m\_sceneAsset
+
+
+
+
+
+```csharp
+Object m_sceneAsset
+```
+
+
+
+
+
+
+
+**Type**: Object
+
+
+
+
+
+<a id="Models.Scene_1ab2a204b0f33be4ab96f35cb80f862cec"></a>
+### Variable m\_isLoadingScreen
+
+
+
+
+
+```csharp
+bool m_isLoadingScreen
+```
+
+
+
+
+
+
+
+**Type**: bool
+
+
+
+
+
+<a id="Models.Scene_1aff8d3b42d07f8721cda1d0ef64df08a2"></a>
+### Variable m\_isSplashScreen
+
+
+
+
+
+```csharp
+bool m_isSplashScreen
+```
+
+
+
+
+
+
+
+**Type**: bool
+
+
+
+
+
+<a id="Models.Scene_1a9e64fbad2187d386d347264b6723b27a"></a>
+### Variable m\_keepOpenWhenCollectionsClose
+
+
+
+
+
+```csharp
+bool m_keepOpenWhenCollectionsClose
+```
+
+
+
+
+
+
+
+**Type**: bool
+
+
+
+
+
+<a id="Models.Scene_1ad0f5bf662b6d30da94da5dd4469b3b2d"></a>
+### Variable m\_keepOpenWhenNewCollectionWouldReopen
+
+
+
+
+
+```csharp
+bool m_keepOpenWhenNewCollectionWouldReopen = true
+```
+
+
+
+
+
+
+
+**Type**: bool
+
+
+
+
+
+<a id="Models.Scene_1a63e9788a3518baf53dd28ff56d675049"></a>
+### Variable m\_openOnStartup
+
+
+
+
+
+```csharp
+bool m_openOnStartup
+```
+
+
+
+
+
+
+
+**Type**: bool
+
+
+
+
+
+<a id="Models.Scene_1aa99c6faa2a41f1be66bf13831c020c5e"></a>
+### Variable m\_openOnPlayMode
+
+
+
+
+
+```csharp
+bool m_openOnPlayMode
+```
+
+
+
+
+
+
+
+**Type**: bool
+
+
+
+
+
+<a id="Models.Scene_1ad3cf8372409898381784b1d1c8ccb461"></a>
+### Variable m\_autoOpenInEditor
+
+
+
+
+
+```csharp
+EditorPersistentOption m_autoOpenInEditor
+```
+
+
+
+
+
+
+
+**Type**: [EditorPersistentOption](namespace_advanced_scene_manager_1_1_models_1_1_enums.md#namespace_advanced_scene_manager_1_1_models_1_1_enums_1ab3bb6357c720dbb755320df9b4080d7c)
+
+
+
+
+
+<a id="Models.Scene_1a0b6ee1c2ab93efbeb4e3d7795b29a640"></a>
+### Variable m\_isLocked
+
+
+
+
+
+```csharp
+bool m_isLocked
+```
+
+
+
+
+
+
+
+**Type**: bool
+
+
+
+
+
+<a id="Models.Scene_1a7887f5140655409ffe5e2bf4d3bbc6ef"></a>
+### Variable m\_lockMessage
+
+
+
+
+
+```csharp
+string m_lockMessage
+```
+
+
+
+
+
+
+
+**Type**: string
+
+
+
+
+
+<a id="Models.Scene_1aaf54a3cc7cff0304012aac67913a1439"></a>
+### Variable m\_crossSceneReferences
+
+
+
+
+
+```csharp
+List<CrossSceneReference> m_crossSceneReferences = new()
+```
+
+
+
+
+
+
+
+**Type**: List< [CrossSceneReference](Utility.CrossSceneReferences.CrossSceneReference.md#Utility.CrossSceneReferences.CrossSceneReference) >
+
+
+
+
+
+<a id="Models.Scene_1a22cdc7a4e986f6625389faea8dfabec0"></a>
+### Variable m\_sceneLoader
+
+
+
+
+
+```csharp
+string m_sceneLoader
+```
+
+
+
+
+
+
+
+**Type**: string
+
+
+
+
+
+## Package attributes
+
+<a id="Models.Scene_1ac9981e76b01b24472e1a78073280d154"></a>
+### Variable m\_autoOpenInEditorScenes
+
+
+
+
+
+```csharp
+List<Scene> m_autoOpenInEditorScenes = new()
+```
+
+
+
+
+
+
+
+**Type**: List< [Scene](Models.Scene.md#Models.Scene) >
 
 
 
@@ -1216,30 +1300,47 @@ No effect if scene is already open.
 
 
 
-<a id="Models.Scene_1a2723a94a783092049158dd72220c0611"></a>
+<a id="Models.Scene_1aabfee9870d0402289752f8c6e7210369"></a>
+### Function OpenAndActivate
+
+
+
+```csharp
+SceneOperation OpenAndActivate()
+```
+
+Opens the scene and sets it as active.
+
+
+
+
+
+**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+**Reimplements**: [OpenAndActivate](Models.Scene.IMethods.md#Models.Scene.IMethods_1aabfee9870d0402289752f8c6e7210369)
+
+
+
+
+
+<a id="Models.Scene_1a35590d46b5818b72abeff6fd838736bb"></a>
 ### Function ToggleOpen
 
 
 
 ```csharp
-SceneOperation ToggleOpen(bool? openState=null)
+SceneOperation ToggleOpen()
 ```
 
 Toggles this scene open or closed.
 
-**Parameters**:
-
-* **openState**: Specifies whatever you have a preferred state to toggle to, this means scene will not be closed if <code>true</code> is passed. This can be used to scene collection is open, without having an explicit check beforehand. The inverse is also the case for <code>false</code>.
 
 
 
-**Parameters**:
-
-* bool? **openState** = null 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [ToggleOpen](Models.Scene.IMethods.md#Models.Scene.IMethods_1a2723a94a783092049158dd72220c0611)
+**Reimplements**: [ToggleOpen](Models.Scene.IMethods.md#Models.Scene.IMethods_1a35590d46b5818b72abeff6fd838736bb)
 
 
 
@@ -1391,6 +1492,27 @@ Sets the scene as active in heirarchy.
 
 
 
+<a id="Models.Scene_1ae8753efaeea05f65094a4875a694a368"></a>
+### Function Activate
+
+
+
+```csharp
+void Activate()
+```
+
+
+
+
+
+
+
+**Return type**: void
+
+
+
+
+
 <a id="Models.Scene_1a79543629a08917cd0fbd78c8ca5e745f"></a>
 ### Function \_Open
 
@@ -1414,13 +1536,13 @@ Event method. Its meant for UnityEngine.Events.UnityEvent.
 
 
 
-<a id="Models.Scene_1a85086c20c2302f170a911c59406b5aa1"></a>
-### Function \_ToggleOpenState
+<a id="Models.Scene_1a49819a95b627988627c738c6e65f3aaf"></a>
+### Function \_OpenAndActivate
 
 
 
 ```csharp
-void _ToggleOpenState()
+void _OpenAndActivate()
 ```
 
 
@@ -1431,19 +1553,19 @@ void _ToggleOpenState()
 
 **Return type**: void
 
-**Reimplements**: [\_ToggleOpenState](Models.Scene.IMethods.IEvent.md#Models.Scene.IMethods.IEvent_1a85086c20c2302f170a911c59406b5aa1)
+**Reimplements**: [\_OpenAndActivate](Models.Scene.IMethods.IEvent.md#Models.Scene.IMethods.IEvent_1a49819a95b627988627c738c6e65f3aaf)
 
 
 
 
 
-<a id="Models.Scene_1a23600c982ce9226b5092e2b39314bcde"></a>
+<a id="Models.Scene_1a35730a6ce5e61ef05eede731c3479cbe"></a>
 ### Function \_ToggleOpen
 
 
 
 ```csharp
-void _ToggleOpen(bool? openState=null)
+void _ToggleOpen()
 ```
 
 
@@ -1452,13 +1574,9 @@ void _ToggleOpen(bool? openState=null)
 
 
 
-**Parameters**:
-
-* bool? **openState** = null 
-
 **Return type**: void
 
-**Reimplements**: [\_ToggleOpen](Models.Scene.IMethods.IEvent.md#Models.Scene.IMethods.IEvent_1a23600c982ce9226b5092e2b39314bcde)
+**Reimplements**: [\_ToggleOpen](Models.Scene.IMethods.IEvent.md#Models.Scene.IMethods.IEvent_1a35730a6ce5e61ef05eede731c3479cbe)
 
 
 
@@ -1628,154 +1746,6 @@ Gets if _q_  matches ASMModel.name, id, path.
 **Return type**: override bool
 
 **Reimplements**: [IsMatch](Models.ASMModel.md#Models.ASMModel_1a26cbd6b54e88bfe74858658db24d26c0)
-
-
-
-
-
-<a id="Models.Scene_1adc01f22bdf258013f224b41215b0ef93"></a>
-### Function UserData\< T \>
-
-
-
-```csharp
-T UserData< T >(T defaultValue=default)
-```
-
-Gets user specified data.
-
-
-
-
-
-**Parameters**:
-
-* T **defaultValue** = default 
-
-**Return type**: T
-
-
-
-
-
-<a id="Models.Scene_1a51ac89c120f4f33f0994c840159de6bb"></a>
-### Function UserData\< T \>
-
-
-
-```csharp
-T UserData< T >(string key, T defaultValue=default)
-```
-
-Gets user specified data.
-
-
-
-
-
-**Parameters**:
-
-* string **key**
-* T **defaultValue** = default 
-
-**Return type**: T
-
-
-
-
-
-<a id="Models.Scene_1aff2c9c0f810cab71384b979b29705f49"></a>
-### Function SetUserData\< T \>
-
-
-
-```csharp
-void SetUserData< T >(T value)
-```
-
-Sets user specified data.
-
-
-
-
-
-**Parameters**:
-
-* T **value**
-
-**Return type**: void
-
-
-
-
-
-<a id="Models.Scene_1a3e188d93916f6335dba445af0e952b70"></a>
-### Function SetUserData\< T \>
-
-
-
-```csharp
-void SetUserData< T >(string key, T value)
-```
-
-Sets user specified data.
-
-
-
-
-
-**Parameters**:
-
-* string **key**
-* T **value**
-
-**Return type**: void
-
-
-
-
-
-<a id="Models.Scene_1a3e349b8822049f9179926386754ff524"></a>
-### Function UnsetUserData\< T \>
-
-
-
-```csharp
-void UnsetUserData< T >()
-```
-
-Unsets user specified data.
-
-
-
-
-
-**Return type**: void
-
-
-
-
-
-<a id="Models.Scene_1a0bc8dc1a9357efb74fce111c79d52943"></a>
-### Function UnsetUserData
-
-
-
-```csharp
-void UnsetUserData(string key)
-```
-
-Unsets user specified data.
-
-
-
-
-
-**Parameters**:
-
-* string **key**
-
-**Return type**: void
 
 
 
@@ -2032,38 +2002,32 @@ override string ToString()
 
 
 
-<a id="Models.Scene_1ab4f1fc15ec47954898d4c0ac8580948e"></a>
-### Function ToString
+## Private functions
+
+<a id="Models.Scene_1a63a1e75c0d97452dea4add543e947d38"></a>
+### Function Error
 
 
 
 ```csharp
-override string ToString(int indent)
+SceneOperation Error(string message)
 ```
 
 
 
-&para
- 
-**Parameters**:
 
-* **indent**: The indentation level, used for nested calls.
 
 
 
 **Parameters**:
 
-* int **indent**
+* string **message**
 
-**Return type**: override string
-
-**Reimplements**: [ToString](Models.ASMModel.md#Models.ASMModel_1ac55fb8e9c64c5c37cf02c5e98d28a52f)
+**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
 
 
 
-
-## Private functions
 
 <a id="Models.Scene_1af6460812457a0fd146c30054d8cbf817"></a>
 ### Function IsPathMatch

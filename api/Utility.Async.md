@@ -21,10 +21,12 @@ Represents a async operation that returns a value.
 ## Members
 
 * [Async](Utility.Async.md#Utility.Async_1aefa68cd7a2e68a2762ed23ce9e631a8d)
+* [Async](Utility.Async.md#Utility.Async_1ab9c85d31211098342ac796267b3af342)
 * [Async](Utility.Async.md#Utility.Async_1a5e6fc3b5013b1fe58d86f8920ae59a1c)
 * [callback](Utility.Async.md#Utility.Async_1a35e57b5b14b66f60a204e21cfe62821a)
 * [complete](Utility.Async.md#Utility.Async_1ad5ca7de4aeff1ee4a0ba724bf067e1f6)
 * [EvalComplete](Utility.Async.md#Utility.Async_1a4f7d9dd6d9592d3158b5a628b186b71f)
+* [FromResult](Utility.Async.md#Utility.Async_1a855c788bbe6bdf019f9a1219976d43c0)
 * [keepWaiting](Utility.Async.md#Utility.Async_1a2778689fc3def0f49cc9c61de04a9484)
 * [OnComplete](Utility.Async.md#Utility.Async_1afa9e7ea1c5e42f79adf6e1ffa7434133)
 * [value](Utility.Async.md#Utility.Async_1a4fc7f59e3113e19697159919a5aad095)
@@ -151,6 +153,34 @@ Action<T> callback
 
 
 
+## Public static functions
+
+<a id="Utility.Async_1a855c788bbe6bdf019f9a1219976d43c0"></a>
+### Function FromResult
+
+
+![][static]
+
+```csharp
+static Async< T > FromResult(T result)
+```
+
+
+
+
+
+
+
+**Parameters**:
+
+* T **result**
+
+**Return type**: [Async](Utility.Async.md#Utility.Async)< T >
+
+
+
+
+
 ## Public functions
 
 <a id="Utility.Async_1aefa68cd7a2e68a2762ed23ce9e631a8d"></a>
@@ -230,6 +260,27 @@ Calls the callback when the async operation is complete.
 
 
 ## Private functions
+
+<a id="Utility.Async_1ab9c85d31211098342ac796267b3af342"></a>
+### Function Async
+
+
+
+```csharp
+Async()
+```
+
+
+
+
+
+
+
+**Return type**: 
+
+
+
+
 
 <a id="Utility.Async_1a4f7d9dd6d9592d3158b5a628b186b71f"></a>
 ### Function EvalComplete

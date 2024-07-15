@@ -12,26 +12,19 @@ An utility for referencing objects globally.
 
 ## Members
 
-* [Add](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1a2177f0493c3228426b47ff87d726f2d2)
-* [AddRuntime](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1ae02ae012b85a11517428f6d3438fc9f7)
-* [Find](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1a98687b833dcb4058bd9a748c500043f5)
-* [Find](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1ae5f239010d0b06b7b050b568a8fa598a)
-* [Find\< T \>](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1a763ed5a321242db0382401dda8a01c52)
-* [FindPersistent](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1afa942c13bac89f8223b1cd30d594e200)
+* [Find](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1af2138771150c4ad630925e1f540f8b39)
 * [GenerateID](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1a17da619efc12886a8be9f488a2d1dae5)
 * [GetOrAddPersistent](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1aa25719746c9625b7247a787e846b7c29)
 * [HasReference](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1a1f085f86b8dd3d6bfd84ca227c11bf0e)
-* [references](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1acbe31e8f20b2329f3be07197de2da455)
-* [Remove](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1a102713a8c0ee1d3c3d6f324f44029b5e)
-* [RemoveRuntime](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1ade70172ab919656e7a534353da44c660)
-* [RemoveRuntime](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1ac2a28834b383700be07be66e413b0cb2)
-* [TryFind](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1ab0b619bf9d3a7e6123b188b4989a5301)
-* [TryFind\< T \>](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1a01c5c8aef97f227dfaf752f043d16965)
-* [TryFindPersistent](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1a10a85729acc8e734420bf4e344a71069)
+* [IsRegistered](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1ab6bc48d7e62dcc7f3bffa2e922c96f2b)
+* [references](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1a9fd1fd9cc7cbde765a0c2f271a76f8d9)
+* [RegisterRuntime](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1a0e3a5525acafd055c8fcaafc6e76060c)
+* [TryFind](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1ae50ae778aa5df8eacec2e5ee5a11ab58)
+* [UnregisterRuntime](Utility.GuidReferenceUtility.md#Utility.GuidReferenceUtility_1a1fde3e19e2284ecea42afa85f2632606)
 
-## Private static attributes
+## Package static attributes
 
-<a id="Utility.GuidReferenceUtility_1acbe31e8f20b2329f3be07197de2da455"></a>
+<a id="Utility.GuidReferenceUtility_1a9fd1fd9cc7cbde765a0c2f271a76f8d9"></a>
 ### Variable references
 
 
@@ -40,7 +33,7 @@ An utility for referencing objects globally.
 
 
 ```csharp
-readonly Hashtable references = new Hashtable()
+readonly List<GuidReference> references = new()
 ```
 
 
@@ -49,7 +42,61 @@ readonly Hashtable references = new Hashtable()
 
 
 
-**Type**: readonly Hashtable
+**Type**: readonly List< [GuidReference](Utility.GuidReference.md#Utility.GuidReference) >
+
+
+
+
+
+## Package static functions
+
+<a id="Utility.GuidReferenceUtility_1a0e3a5525acafd055c8fcaafc6e76060c"></a>
+### Function RegisterRuntime
+
+
+![][static]
+
+```csharp
+static void RegisterRuntime(GuidReference reference)
+```
+
+
+
+
+
+
+
+**Parameters**:
+
+* [GuidReference](Utility.GuidReference.md#Utility.GuidReference) **reference**
+
+**Return type**: void
+
+
+
+
+
+<a id="Utility.GuidReferenceUtility_1a1fde3e19e2284ecea42afa85f2632606"></a>
+### Function UnregisterRuntime
+
+
+![][static]
+
+```csharp
+static void UnregisterRuntime(GuidReference reference)
+```
+
+
+
+
+
+
+
+**Parameters**:
+
+* [GuidReference](Utility.GuidReference.md#Utility.GuidReference) **reference**
+
+**Return type**: void
 
 
 
@@ -57,17 +104,17 @@ readonly Hashtable references = new Hashtable()
 
 ## Public static functions
 
-<a id="Utility.GuidReferenceUtility_1ae02ae012b85a11517428f6d3438fc9f7"></a>
-### Function AddRuntime
+<a id="Utility.GuidReferenceUtility_1ab6bc48d7e62dcc7f3bffa2e922c96f2b"></a>
+### Function IsRegistered
 
 
 ![][static]
 
 ```csharp
-static string AddRuntime(Object obj)
+static bool IsRegistered(GuidReference reference)
 ```
 
-Adds a reference to the object, returns the id that will be used to find it again.
+Gets if reference exists.
 
 
 
@@ -75,61 +122,9 @@ Adds a reference to the object, returns the id that will be used to find it agai
 
 **Parameters**:
 
-* Object **obj**
+* [GuidReference](Utility.GuidReference.md#Utility.GuidReference) **reference**
 
-**Return type**: string
-
-
-
-
-
-<a id="Utility.GuidReferenceUtility_1ade70172ab919656e7a534353da44c660"></a>
-### Function RemoveRuntime
-
-
-![][static]
-
-```csharp
-static void RemoveRuntime(Object obj)
-```
-
-Removes the reference to this object.
-
-
-
-
-
-**Parameters**:
-
-* Object **obj**
-
-**Return type**: void
-
-
-
-
-
-<a id="Utility.GuidReferenceUtility_1ac2a28834b383700be07be66e413b0cb2"></a>
-### Function RemoveRuntime
-
-
-![][static]
-
-```csharp
-static void RemoveRuntime(string id)
-```
-
-Removes the reference to the object with this id.
-
-
-
-
-
-**Parameters**:
-
-* string **id**
-
-**Return type**: void
+**Return type**: bool
 
 
 
@@ -161,41 +156,14 @@ Gets if reference exists.
 
 
 
-<a id="Utility.GuidReferenceUtility_1a01c5c8aef97f227dfaf752f043d16965"></a>
-### Function TryFind\< T \>
-
-
-![][static]
-
-```csharp
-static bool TryFind< T >(string id, out T obj)
-```
-
-Gets if reference exists.
-
-
-
-
-
-**Parameters**:
-
-* string **id**
-* out T **obj**
-
-**Return type**: bool
-
-
-
-
-
-<a id="Utility.GuidReferenceUtility_1ab0b619bf9d3a7e6123b188b4989a5301"></a>
+<a id="Utility.GuidReferenceUtility_1ae50ae778aa5df8eacec2e5ee5a11ab58"></a>
 ### Function TryFind
 
 
 ![][static]
 
 ```csharp
-static Object TryFind(string id, out Object obj)
+static bool TryFind(string id, out GuidReference obj)
 ```
 
 Tries to find the reference.
@@ -207,22 +175,22 @@ Tries to find the reference.
 **Parameters**:
 
 * string **id**
-* out Object **obj**
+* out [GuidReference](Utility.GuidReference.md#Utility.GuidReference) **obj**
 
-**Return type**: Object
-
-
+**Return type**: bool
 
 
 
-<a id="Utility.GuidReferenceUtility_1a98687b833dcb4058bd9a748c500043f5"></a>
+
+
+<a id="Utility.GuidReferenceUtility_1af2138771150c4ad630925e1f540f8b39"></a>
 ### Function Find
 
 
 ![][static]
 
 ```csharp
-static Object Find(string id)
+static GuidReference Find(string id)
 ```
 
 Finds a reference if it exists.
@@ -235,60 +203,7 @@ Finds a reference if it exists.
 
 * string **id**
 
-**Return type**: Object
-
-
-
-
-
-<a id="Utility.GuidReferenceUtility_1a763ed5a321242db0382401dda8a01c52"></a>
-### Function Find\< T \>
-
-
-![][static]
-
-```csharp
-static T Find< T >(string id)
-```
-
-Finds a reference if it exists.
-
-
-
-
-
-**Parameters**:
-
-* string **id**
-
-**Return type**: T
-
-
-
-
-
-<a id="Utility.GuidReferenceUtility_1ae5f239010d0b06b7b050b568a8fa598a"></a>
-### Function Find
-
-
-![][static]
-
-```csharp
-static IEnumerator Find(string id, Action< Object > callback)
-```
-
-Finds a reference if it exists.
-
-
-
-
-
-**Parameters**:
-
-* string **id**
-* Action< Object > **callback**
-
-**Return type**: IEnumerator
+**Return type**: [GuidReference](Utility.GuidReference.md#Utility.GuidReference)
 
 
 
@@ -337,118 +252,6 @@ Uses [https://blog.codinghorror.com/equipping-our-ascii-armor](https://blog.codi
 
 
 **Return type**: string
-
-
-
-
-
-<a id="Utility.GuidReferenceUtility_1afa942c13bac89f8223b1cd30d594e200"></a>
-### Function FindPersistent
-
-
-![][static]
-
-```csharp
-static GameObject FindPersistent(string guid)
-```
-
-Finds the persistent reference in the currently open scenes.
-
-**Parameters**:
-
-* **guid**: The guid of the GameObject to find.
-
-
-
-**Parameters**:
-
-* string **guid**
-
-**Return type**: GameObject
-
-
-
-
-
-<a id="Utility.GuidReferenceUtility_1a10a85729acc8e734420bf4e344a71069"></a>
-### Function TryFindPersistent
-
-
-![][static]
-
-```csharp
-static bool TryFindPersistent(string guid, out GameObject obj)
-```
-
-Finds the persistent reference in the currently open scenes.
-
-**Parameters**:
-
-* **guid**: The guid of the GameObject to find.
-* **obj**: The found GameObject.
-
-
-
-**Parameters**:
-
-* string **guid**
-* out GameObject **obj**
-
-**Return type**: bool
-
-
-
-
-
-## Package static functions
-
-<a id="Utility.GuidReferenceUtility_1a2177f0493c3228426b47ff87d726f2d2"></a>
-### Function Add
-
-
-![][static]
-
-```csharp
-static void Add(GuidReference reference)
-```
-
-
-
-
-
-
-
-**Parameters**:
-
-* [GuidReference](Utility.GuidReference.md#Utility.GuidReference) **reference**
-
-**Return type**: void
-
-
-
-
-
-<a id="Utility.GuidReferenceUtility_1a102713a8c0ee1d3c3d6f324f44029b5e"></a>
-### Function Remove
-
-
-![][static]
-
-```csharp
-static void Remove(GuidReference reference)
-```
-
-
-
-
-
-
-
-**Parameters**:
-
-* [GuidReference](Utility.GuidReference.md#Utility.GuidReference) **reference**
-
-**Return type**: void
 
 
 

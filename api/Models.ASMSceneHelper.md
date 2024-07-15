@@ -27,6 +27,7 @@ Represents scene helper. Contains functions for opening / closing collections an
 * [\_Open](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a3edee216ffe1ce54be0119c3f2d0419b)
 * [\_Open](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a4aa584a68ad3ca100b69b72081a35ec9)
 * [\_OpenAdditive](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1ace559f7994630802664253967d79e37e)
+* [\_OpenAndActivate](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1ae6062ad0517694e05b5a0a859b4faf17)
 * [\_Preload](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a47728798aa12fc01b42bc253c7fe5b6c)
 * [\_SetActive](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1af0183fd697e9d3e83a3689c206e4bb01)
 * [\_ToggleOpen](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a8d9451252b881f6686a115e103fe82b6)
@@ -40,6 +41,7 @@ Represents scene helper. Contains functions for opening / closing collections an
 * [Open](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a8c9ae8d738eaabe1700a015acf617132)
 * [Open](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a914f0c4e8534a411c2e0f4cbde0a3f69)
 * [OpenAdditive](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a3d24a2053e8b02066280728504cf51fd)
+* [OpenAndActivate](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a12849bc14742f22995d9e241809af959)
 * [OpenWhereNameStartsWith](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1ad6cd5027def67f6f26485c1ba7f4b287)
 * [OpenWithLoadingScreen](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a2570f50612f21750ef15fe0e3981e40a)
 * [Preload](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1ac8d87e317a43821c95bb26b0440d25e1)
@@ -47,8 +49,8 @@ Represents scene helper. Contains functions for opening / closing collections an
 * [Restart](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a6bdbb9a2345c126ae0d72b1e2a9a21d5)
 * [RestartCollection](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a5f3ae13043014e78f789d265a548345d)
 * [SetActive](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1ad6cbf8337b1a3c0f26dae6e9a131256e)
-* [ToggleOpen](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1ab9325ff5fbb7fb2a6fc3db1550711e21)
-* [ToggleOpen](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a399f83d02ba458e2611314b21fc9acfc)
+* [ToggleOpen](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a3978eea1ce6565b1a6214794f95f0013)
+* [ToggleOpen](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1a317e4528d9c73aea2809e00b219faa79)
 * [ToggleOpenState](Models.ASMSceneHelper.md#Models.ASMSceneHelper_1aa7458679ffaeef703da16a1331ba67e6)
 
 ## Properties
@@ -158,13 +160,13 @@ SceneOperation OpenAdditive(SceneCollection collection, bool openAll=false)
 
 
 
-<a id="Models.ASMSceneHelper_1ab9325ff5fbb7fb2a6fc3db1550711e21"></a>
+<a id="Models.ASMSceneHelper_1a3978eea1ce6565b1a6214794f95f0013"></a>
 ### Function ToggleOpen
 
 
 
 ```csharp
-SceneOperation ToggleOpen(SceneCollection collection, bool? openState=null, bool openAll=false)
+SceneOperation ToggleOpen(SceneCollection collection, bool openAll=false)
 ```
 
 
@@ -176,12 +178,11 @@ SceneOperation ToggleOpen(SceneCollection collection, bool? openState=null, bool
 **Parameters**:
 
 * [SceneCollection](Models.SceneCollection.md#Models.SceneCollection) **collection**
-* bool? **openState** = null 
 * bool **openAll** = false 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [ToggleOpen](Models.SceneCollection.IMethods___target.md#Models.SceneCollection.IMethods___target_1ab9325ff5fbb7fb2a6fc3db1550711e21)
+**Reimplements**: [ToggleOpen](Models.SceneCollection.IMethods___target.md#Models.SceneCollection.IMethods___target_1a3978eea1ce6565b1a6214794f95f0013)
 
 
 
@@ -349,6 +350,33 @@ Already open scenes not affected.
 
 
 
+<a id="Models.ASMSceneHelper_1a12849bc14742f22995d9e241809af959"></a>
+### Function OpenAndActivate
+
+
+
+```csharp
+SceneOperation OpenAndActivate(Scene scene)
+```
+
+Opens the scene and activates it.
+
+
+
+
+
+**Parameters**:
+
+* [Scene](Models.Scene.md#Models.Scene) **scene**
+
+**Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
+
+**Reimplements**: [OpenAndActivate](Models.Scene.IMethods___target.md#Models.Scene.IMethods___target_1a12849bc14742f22995d9e241809af959)
+
+
+
+
+
 <a id="Models.ASMSceneHelper_1aa7458679ffaeef703da16a1331ba67e6"></a>
 ### Function ToggleOpenState
 
@@ -358,7 +386,7 @@ Already open scenes not affected.
 SceneOperation ToggleOpenState(Scene scene)
 ```
 
-Toggles the open state of this scene.
+
 
 
 
@@ -370,22 +398,20 @@ Toggles the open state of this scene.
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [ToggleOpenState](Models.Scene.IMethods___target.md#Models.Scene.IMethods___target_1aa7458679ffaeef703da16a1331ba67e6)
 
 
 
 
-
-<a id="Models.ASMSceneHelper_1a399f83d02ba458e2611314b21fc9acfc"></a>
+<a id="Models.ASMSceneHelper_1a317e4528d9c73aea2809e00b219faa79"></a>
 ### Function ToggleOpen
 
 
 
 ```csharp
-SceneOperation ToggleOpen(Scene scene, bool? openState=null)
+SceneOperation ToggleOpen(Scene scene)
 ```
 
-Toggles the open state of the specified scene, or ensures the state specified.
+Toggles the open state of the specified scene.
 
 
 
@@ -394,11 +420,10 @@ Toggles the open state of the specified scene, or ensures the state specified.
 **Parameters**:
 
 * [Scene](Models.Scene.md#Models.Scene) **scene**
-* bool? **openState** = null 
 
 **Return type**: [SceneOperation](Core.SceneOperation.md#Core.SceneOperation)
 
-**Reimplements**: [ToggleOpen](Models.Scene.IMethods___target.md#Models.Scene.IMethods___target_1a399f83d02ba458e2611314b21fc9acfc)
+**Reimplements**: [ToggleOpen](Models.Scene.IMethods___target.md#Models.Scene.IMethods___target_1a317e4528d9c73aea2809e00b219faa79)
 
 
 
@@ -590,6 +615,33 @@ void _Open(Scene scene)
 **Return type**: void
 
 **Reimplements**: [\_Open](Models.Scene.IMethods___target_1_1_i_event.md#Models.Scene.IMethods___target_1_1_i_event_1a4aa584a68ad3ca100b69b72081a35ec9)
+
+
+
+
+
+<a id="Models.ASMSceneHelper_1ae6062ad0517694e05b5a0a859b4faf17"></a>
+### Function \_OpenAndActivate
+
+
+
+```csharp
+void _OpenAndActivate(Scene scene)
+```
+
+
+
+
+
+
+
+**Parameters**:
+
+* [Scene](Models.Scene.md#Models.Scene) **scene**
+
+**Return type**: void
+
+**Reimplements**: [\_OpenAndActivate](Models.Scene.IMethods___target_1_1_i_event.md#Models.Scene.IMethods___target_1_1_i_event_1ae6062ad0517694e05b5a0a859b4faf17)
 
 
 

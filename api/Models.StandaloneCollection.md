@@ -35,7 +35,7 @@ Usage: Profile.standaloneScenes.
 * [this[int index]](Models.StandaloneCollection.md#Models.StandaloneCollection_1a3bc81a8fb299811c2a0293769178d0de)
 * [title](Models.StandaloneCollection.md#Models.StandaloneCollection_1a43a5eafe64b96968035e5a4013e47c75)
 
-## Private attributes
+## Package attributes
 
 <a id="Models.StandaloneCollection_1aaf217350cb1ae633b3b18fbcb7e14b9b"></a>
 ### Variable m\_id
@@ -59,6 +59,8 @@ string m_id = GuidReferenceUtility.GenerateID()
 
 
 
+
+## Private attributes
 
 <a id="Models.StandaloneCollection_1a2173b2279f625a6fe901c499e1e2d9f0"></a>
 ### Variable m\_scenes
