@@ -56,9 +56,6 @@ A couple example scripts are included in ASM, you can find them in\
 #### Github releases
 [Github releases](https://github.com/Lazy-Solutions/AdvancedSceneManager/releases/latest) hosts the latest .unitypackage for download.
 
-#### Github patches folder
-[Github patches folder](/patches) hosts all .unitypackage that has been released for the current asset store version.
-
 #### Inside of unity:
 ![](/image/scene-manager-window-menu.png)
 
