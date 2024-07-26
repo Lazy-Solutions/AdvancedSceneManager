@@ -123,8 +123,7 @@ When a scene is loaded in ASM it needs to be tracked, to be considered open. Tra
 
 When a scene is open, but untracked, an indicator will be shown in the hierarchy, when in the editor. This may happen temporarily, and then resolve itself a moment later. This is, in most cases, by design. It is during prolonged cases when it may be a bug, or conflict with another scene manager.
 
-![[untracked-scenes.png]]
-
+![](../image/untracked-scenes.png)
 #### Tracking scenes manually
 
 If you are combining ASM with another scene manager, such as a network scene manager, you may sometimes have to track scenes in ASM manually, to ensure ASM works as expected.
