@@ -71,6 +71,8 @@ Scenes may be blacklisted so they don't show up. Blacklisting a folder will resu
 Finally, just press import, and the imported scenes will now be usable in ASM.
 
 Blacklist can be configured in [settings](Scene%20manager%20window.md#assets-page).
+
+> Whitelist is also available since ASM 2.2.
 ## Persistent scenes
 
 Persistent scenes are scenes that do not automatically close when a collection is closed. This can be specified in the [scene popup](Scene%20manager%20window.md#scene-popup).
@@ -99,21 +101,51 @@ public class PreloadTrigger : MonoBehaviour
         //not been called if .isPreloaded is true, that means
         //the user went backwards
         if (sceneToPreload.isPreloaded)
-            sceneToPreload.DiscardPreload();
+            SceneManager.runtime.CancelPreload();
     }
 
     //Called from other, overlapping, trigger
     public void FinishPreload()
     {
         if (sceneToPreload.isPreloaded)
-            sceneToPreload.FinishPreload();
+            SceneManager.runtime.FinishPreload();
     }
 
 }
 ```
 
-The currently preloaded scene can be retrieved statically by:\
-`AdvancedSceneManager.SceneManager.preloadedScene;`
+The currently preloaded scene can be retrieved statically by using:\
+`AdvancedSceneManager.SceneManager.preloadedScenes;`
+
+## Scene tracking
+
+When a scene is loaded in ASM it needs to be tracked, to be considered open. Tracking a scene in ASM is usually automatic, and not something users need to worry about.
+
+When a scene is open, but untracked, an indicator will be shown in the hierarchy, when in the editor. This may happen temporarily, and then resolve itself a moment later. This is, in most cases, by design. It is during prolonged cases when it may be a bug, or conflict with another scene manager.
+
+![[untracked-scenes.png]]
+
+#### Tracking scenes manually
+
+If you are combining ASM with another scene manager, such as a network scene manager, you may sometimes have to track scenes in ASM manually, to ensure ASM works as expected.
+
+> Be careful to pass correct unityScene when using `SceneManager.runtime.Track(Scene, unityScene)`, there are no validation checks, ASM expects this to have been done prior.
+
+```csharp
+//You may track scenes using one of the following two methods. You don't need to worry about duplicate calls.
+SceneManager.runtime.Track(scene1, unityScene); 
+SceneManager.runtime.Track(scene1); //Will try to automatically find unityScene, unless Scene.internalScene already has a value.
+
+Debug.Log(SceneManager.runtime.IsTracked(scene1)); //Should log true
+
+SceneManager.runtime.Untrack(scene1);
+
+//Use these when you want to untrack all collections or scenes.
+SceneManager.runtime.UntrackCollections();
+SceneManager.runtime.UntrackScenes();
+```
+
+> Note that calling `SceneManager.runtime.Track(Scene, unityScene)` on an already tracked scene, will result in `Scene.internalScene` being replaced with new unityScene, but ASM will not track ASM scene twice.
 ## Scene merging
 
 Scenes can be merged by ctrl selecting two or more scenes in the [scene manager window](Scene%20manager%20window.md), and right clicking, then selecting 'merge scenes...'.
