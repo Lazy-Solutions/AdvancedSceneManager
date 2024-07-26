@@ -128,7 +128,11 @@ When a scene is open, but untracked, an indicator will be shown in the hierarchy
 
 If you are combining ASM with another scene manager, such as a network scene manager, you may sometimes have to track scenes in ASM manually, to ensure ASM works as expected.
 
-> Be careful to pass correct unityScene when using `SceneManager.runtime.Track(Scene, unityScene)`, there are no validation checks, ASM expects this to have been done prior.
+Also, since the terms will be a bit confusing, some clarification is needed:
+**Scene / ASM Scene**: `AdvancedSceneManager.Models.Scene`
+**unityScene**: `UnityEngine.SceneManagement.Scene`
+
+unityScene is Unitys own representation of a loaded scene, in code. When tracking an ASM scene, you are also linking an instance of unityScene with an ASM Scene.
 
 ```csharp
 //You may track scenes using one of the following two methods. You don't need to worry about duplicate calls.
@@ -143,6 +147,8 @@ SceneManager.runtime.Untrack(scene1);
 SceneManager.runtime.UntrackCollections();
 SceneManager.runtime.UntrackScenes();
 ```
+
+> Be careful to pass correct unityScene when using `SceneManager.runtime.Track(Scene, unityScene)`, there are no validation checks, ASM expects this to have been done prior.
 
 > Note that calling `SceneManager.runtime.Track(Scene, unityScene)` on an already tracked scene, will result in `Scene.internalScene` being replaced with new unityScene, but ASM will not track ASM scene twice.
 ## Scene merging
