@@ -1,2 +1,3 @@
 ## Updating...
-[ASM trial poster](/trial/Trial.png)
+
+![ASM trial poster](/trial/Trial.png)
