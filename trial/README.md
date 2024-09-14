@@ -20,6 +20,8 @@ To get started with the trial version:
 
 1. Download the trial version package.
 2. Import the .unitypackage into your Unity project.
+3. Open ASM window from File or by using ctrl+shift+m
+4. Follow our [Quick Start](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/2.0/guides/Quick%20start.md) guide.
 
 **Important: Unity 6+ Required for the trial version,** <br />
 **Paid asset is 2021.1+**
