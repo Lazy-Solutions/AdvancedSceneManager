@@ -12,6 +12,8 @@ Thank you for trying out **Advanced Scene Manager**! We hope it adds value to yo
 
 Explore the capabilities of our asset with the trial version before making a commitment. For details about the trial features and restrictions, please review the [LICENSE](./LICENSE) file included with the package.
 
+**Note:** The trial version does not automatically upgrade when purchased. It is a separate version from the full asset. We recommend using the trial in a separate test project to avoid any conflicts with your main project.
+
 ## Installation
 
 To get started with the trial version:
