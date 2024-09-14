@@ -16,7 +16,7 @@ Explore the capabilities of our asset with the trial version before making a com
 
 To get started with the trial version:
 
-1. Download the trial version package [name to be decided].
+1. Download the trial version package.
 2. Import the .unitypackage into your Unity project.
 
 **Important: Unity 6+ Required for the trial version,** <br />
@@ -24,7 +24,7 @@ To get started with the trial version:
 
 ## License
 
-The trial version is provided 'as is,' and the full license terms are outlined in the LICENSE file included with the package.
+The trial version is provided 'as is,' and the full license terms are outlined in the LICENSE.md file.
 
 ---
 
