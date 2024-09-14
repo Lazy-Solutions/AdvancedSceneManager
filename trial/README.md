@@ -1,6 +1,8 @@
 # Advanced Scene Manager
 
-<img src="/trial/Trial.png" width="640" height="360" />
+<p align="center">
+  <img src="/trial/Trial.png" width="640" height="360" />
+</p>
 
 We're excited to offer you a trial version of **Advanced Scene Manager**, a powerful Unity asset designed to enhance your project. Below, you’ll find details about the asset and how you can get started with the trial.
 
