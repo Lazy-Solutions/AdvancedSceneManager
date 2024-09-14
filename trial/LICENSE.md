@@ -5,7 +5,7 @@
 
 ## Overview
 
-This license ("Agreement") is between you (the user) and Keisala Patric, operating under the informal team name "Lazy Solutions" ("Licensor"). By using the trial version of [Asset Name], distributed as a single `.unitypackage` ("Trial Version"), you agree to the terms below.
+This license ("Agreement") is between you (the user) and Keisala Patric, operating under the informal team name "Lazy Solutions" ("Licensor"). By using the trial version of Advanced Scene Manager, distributed as a single `.unitypackage` ("Trial Version"), you agree to the terms below.
 
 The Trial Version refers to any and all components of the asset, including but not limited to scripts, models, prefabs, textures, and any associated files provided as part of the package.
 
