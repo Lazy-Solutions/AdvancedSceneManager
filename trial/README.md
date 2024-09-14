@@ -1,4 +1,4 @@
-# Advanced Scene Manager
+# Advanced Scene Manager Trial
 
 <p align="center">
   <img src="/trial/Trial.png" width="640" height="360" />
