@@ -19,7 +19,8 @@ To get started with the trial version:
 1. Download the trial version package [name to be decided].
 2. Import the .unitypackage into your Unity project.
 
-**Important: Unity 6+ Required**
+**Important: Unity 6+ Required for the trial version,** <br />
+**Paid asset is 2021.1+**
 
 ## License
 
