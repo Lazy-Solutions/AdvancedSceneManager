@@ -24,7 +24,7 @@ To get started with the trial version:
 
 ## License
 
-The trial version is provided 'as is,' and the full license terms are outlined in the LICENSE.md file.
+The trial version is provided 'as is,' and the full license terms are outlined in the [LICENSE](./LICENSE) file.
 
 ---
 
