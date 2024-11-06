@@ -94,7 +94,7 @@ public class ProgressBarLoadingScreen : LoadingScreen
             slider.value = progress;
     }
 
-    // In 2.3 OnProgressChanged has been updated. Read more in 
+    // In 2.3 OnProgressChanged has been updated.
     public override void OnProgressChanged(ILoadProgressData progress)
     {
         if (slider)
