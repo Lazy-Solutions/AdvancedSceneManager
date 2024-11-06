@@ -94,6 +94,15 @@ public class ProgressBarLoadingScreen : LoadingScreen
             slider.value = progress;
     }
 
+    // In 2.3 OnProgressChanged has been updated. Read more in 
+    public override void OnProgressChanged(ILoadProgressData progress)
+    {
+        if (slider)
+            slider.value = progress.value;
+    }
+
+
+
     IEnumerator FadeIn()
     {
 
@@ -115,6 +124,75 @@ public class ProgressBarLoadingScreen : LoadingScreen
 When script is finished, place it in a dedicated scene and [assign scene as loading screen on a collection](Scene%20manager%20window.md#collection-popup) or as default loading screen in [ASM settings](Scene%20manager%20window.md#startup-page).
 
 > Note if a custom loading screen is not showing up, you may have to modify the scene and save it *(note that scene must be dirty for it to save to disk)*, for the loading screen flag to appear.
+
+## ILoadProgressData
+
+The `ILoadProgressData` interface provides a easy way to report loading progress to an LoadingScreen.
+
+ASM includes two basic structs implementing `ILoadProgressData`:
+
+### SceneLoadProgressData
+
+`SceneLoadProgressData` is designed to represent the progress of scene loading operations.
+
+- **Properties**:
+  - `value`: A normalized float (0 to 1) that indicates the percentage of scene load/unload completion.
+  - `scene`: The scene currently being loaded/unloaded.
+  - `operation`: The current operation, where you can find the total for the entire operation. 
+
+**Example**:
+```csharp
+var sceneProgress = new SceneLoadProgressData(scene, SceneOperationKind.Load, progress);
+
+LoadingScreenUtility.ReportProgress(sceneProgress);
+
+// In the loadingscreen
+public override void OnProgressChanged(ILoadProgressData progress)
+{
+    if(progress is SceneLoadProgressData sceneData)
+    {
+        displayText = sceneData.scene.name;
+        slider.value = sceneData.value;
+        slider.value = sceneData.progressScope.totalProgress;
+    }
+}
+```
+
+### MessageLoadProgressData
+
+- **Properties**:
+  - `value`: A float (0 to 1) that represents the progress.
+  - `message`
+
+**Example**:
+```csharp
+var messageProgress = new MessageLoadProgressData();
+// Use messageProgress to track messaging progress
+LoadingScreenUtility.ReportProgress(messageProgress);
+
+public override void OnProgressChanged(ILoadProgressData progress)
+{
+    if(progress is MessageLoadProgressData sceneData)
+    {
+        displayText = sceneData.message;
+        slider.value = sceneData.value;
+    }
+}
+```
+
+### Custom ILoadProgressData
+No problems!
+
+```csharp
+    public readonly struct CustomLoadProgressData : LoadProgressData 
+    {
+        public float value { get; }
+        ...
+    }
+    // Send it to an open Loading Screen.
+    LoadingScreenUtility.ReportProgress(new CustomLoadProgressData())
+```
+
 
 ## Default loading screens
 
