@@ -133,6 +133,12 @@ ASM includes two basic structs implementing `ILoadProgressData`:
 
 ### SceneLoadProgressData
 
+> SceneLoadProgressData is created internally when loading a scene.
+you can disable this like so: 
+```
+Scene.Open().DisableProgressReporting()
+```
+
 `SceneLoadProgressData` is designed to represent the progress of scene loading operations.
 
 - **Properties**:
