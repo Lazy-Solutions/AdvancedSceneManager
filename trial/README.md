@@ -30,7 +30,7 @@ To get started with the trial version:
 4. Follow our [Quick Start](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/2.0/guides/Quick%20start.md) guide.
 
 **Important: Unity 6+ Required for the trial version,** <br />
-**Paid asset is 2021.1+**
+**Paid asset is 2021.3+**
 
 ## License
 
