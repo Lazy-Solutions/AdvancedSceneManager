@@ -36,6 +36,7 @@ Welcome to Advanced Scene Manager documentation.
 [In-game toolbar](guides/In-game%20toolbar.md)\
 [Cross-scene references](guides/Cross-scene%20references.md)\
 [Finding ASM assets](guides/Finding%20asm%20assets.md)
+[Utility Functions](guides/ASMUtilityFunctions.md)
 ## Example projects
 
 [Level select](https://github.com/Lazy-Solutions/example.asm.level-select)\
