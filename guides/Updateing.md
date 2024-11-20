@@ -21,8 +21,9 @@ Advanced Scene Manager follows a versioning system: **Upgrade.Major.Minor/Patch*
   - **Backup First:** Save your project to Git (or another version control system) before proceeding.  
   - **Uninstall Old Versions:**  
     - Locate ASM in the **Package Manager** under **"Packages - Lazy Solutions"**.  
-    - ASM may also appear under **"Packages - Asset Store"**. Remove ASM under**"Packages - Lazy Solutions"**.
-  - ![](/image/ASM-PackageManager.png)  
+    - ASM may also appear under **"Packages - Asset Store"**. Remove ASM under **"Packages - Lazy Solutions"**.
+  
+  ![](/image/ASM-PackageManager.png)  
 
 ---
 
