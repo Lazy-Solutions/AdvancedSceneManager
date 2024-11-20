@@ -6,7 +6,8 @@ Advanced Scene Manager follows a versioning system: **Upgrade.Major.Minor/Patch*
 
 ### **Upgrades**
 - **What it means:**  
-  Upgrades introduce significant changes, often incompatible with work from previous versions.  
+  Upgrades introduce significant changes, often incompatible with work from previous versions.
+  
   **Action required:**  
   - These updates require extra care as prior work may not carry over.  
 
