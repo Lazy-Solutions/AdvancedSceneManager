@@ -14,7 +14,7 @@ Upgrading from ASM 1.9 to 2.x cannot be done automatically. This is due to the f
 
 > Upgrading from legacy mode to 2.0 proper, will unfortunately require a re-setup of ASM, all profiles and collections will be deleted, and scenes will need to be re-imported into ASM.
 
-## Upgrading major / minor versions
+## Upgrading major versions (Upgrade.Major.Minor/Patch)
 Upgrading asset store version (major / minor version upgrade) requires a removal of 'AdvancedSceneManager' folder prior to update.
 Head over to the package manager, find ASM in "Packages - Lazy Solutions", it may be listed twice, one in "Packages - Asset Store" aswell.
 Remove ASM from "Packages - Lazy Solutions".
