@@ -30,11 +30,11 @@ Advanced Scene Manager follows a versioning system: **Upgrade.Major.Minor/Patch*
 
 ### **Minor/Patch Updates**  
 - **What it means:**  
-  Minor updates add features or small improvements, while patches resolve bugs or other issues.
-  Minor patches installed outside of asset store are usually not as tested.
+  Patches resolve bugs or other issues or contains minor improvements.
+  Patches installed outside of asset store are usually not as tested.
 
   **Action required:**  
-  - No need to uninstall ASM for minor updates or patches.  
+  - No need to uninstall ASM for patches.  
   - **Where to download patches:**  
     - Available on GitHub and Discord.  
     - Alternatively, install patches directly through ASM settings in Unity.  
