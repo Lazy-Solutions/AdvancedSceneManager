@@ -77,6 +77,8 @@ Using flags helps reduce overhead caused by coroutines in ASM, such as yield ret
 
 Flags allow you to disable certain overhead functions, resulting in faster scene loading. For instance, with an empty scene, using Flags.None could reduce load time from 11 frames to 4 frames. Typically, this performance improvement won't affect your gameplay experience.
 
+Note: cross scene ref does not work if callbacks are disabled atm.
+
 ```csharp
 public class SceneLoader : MonoBehaviour
 {
