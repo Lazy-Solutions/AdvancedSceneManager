@@ -70,6 +70,38 @@ IEnumerator DoDelay(float delay)
 }
 ```
 
+
+## Flags
+
+Using flags helps reduce overhead caused by coroutines in ASM, such as yield return null, which skips a frame. 
+
+Flags allow you to disable certain overhead functions, resulting in faster scene loading. For instance, with an empty scene, using Flags.None could reduce load time from 11 frames to 4 frames. Typically, this performance improvement won't affect your gameplay experience.
+
+```csharp
+public class SceneLoader : MonoBehaviour
+{
+    [SerializeField] private Scene sceneToLoad;
+    [SerializeField] private SceneCollection collectionToLoad;
+
+    SceneOperationFlags NoFlags = SceneOperationFlags.None;
+
+    SceneOperationFlags AllFlags = SceneOperationFlags.All;
+
+    // Combined flags
+    SceneOperationFlags SomeFlags = SceneOperationFlags.CollectionCallbacks | SceneOperationFlags.SceneCallbacks;
+
+    // All but not SceneCallbacks
+    SceneOperationFlags AllButFlags = SceneOperationFlags.All & ~SceneOperationFlags.SceneCallbacks;
+
+    public void LoadSceneWithFlags()
+    {
+        sceneToLoad.Open().With(NoFlags);
+        collectionToLoad.Open().With(NoFlags);
+    }
+}
+```
+
+
 ## Order of operations
 
 * Loading screen open (_if one specified_)
