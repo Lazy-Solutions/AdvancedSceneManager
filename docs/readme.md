@@ -1,9 +1,5 @@
 Welcome to Advanced Scene Manager documentation.
 
-> Documentation for ASM legacy, can be found here:\
-> [ASM legacy](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/1.9/readme.md)\
-> [Upgrading from legacy (recommended read)](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/1.9/docs/Upgrading%20from%20legacy.md)
-
 ## Guides
 
 > Guides are handwritten articles to help you up to speed in working with ASM.
