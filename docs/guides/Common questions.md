@@ -23,7 +23,7 @@ Some methods in ASM are prefixed with "\_", this is due to name conflicts as [Un
 
 ## Do I need to add anything to .gitignore?
 
-ASM does not require anything to be added to git ignore. The only thing would be `<project root>/UserSettings/` but that should be ignored for unity project anyways. Default [unity .gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore) already contains it.
+You should always gitignore assets as required also by Unity, To ignore ASM and other asset of ours, Add the folders found in YourProject/Packages/... (Not In Assets folder). The only thing would be `<project root>/UserSettings/` but that should be ignored for unity project anyways. Default [unity .gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore) already contains it.
 
 ## Compilation issues after installing ASM
 
