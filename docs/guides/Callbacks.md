@@ -9,16 +9,20 @@ Collection callbacks are called for all scenes that are contained within the col
 Open callbacks:
 
 * `ISceneOpen` (void)
-* `ISceneOpenAsync` (coroutine)
+* `ISceneOpenCoroutine` (coroutine)
+* `ISceneOpenAwaitable` (awaitable, *UNITY_2023_1_OR_NEWER*)
 * `ICollectionOpen` (void)
-* `ICollectionOpenAsync` (coroutine)
+* `ICollectionOpenCoroutine` (coroutine)
+* `ICollectionOpenAwaitable` (awaitable, *UNITY_2023_1_OR_NEWER*)
 
 Close callbacks:
 
 * `ISceneClose` (void)
-* `ISceneCloseAsync` (coroutine)
+* `ISceneCloseCoroutine` (coroutine)
+* `ISceneCloseAwaitable` (awaitable, *UNITY_2023_1_OR_NEWER*)
 * `ICollectionClose` (void)
-* `ICollectionCloseAsync` (coroutine)
+* `ICollectionCloseCoroutine` (coroutine)
+* `ICollectionCloseAwaitable` (awaitable, *UNITY_2023_1_OR_NEWER*)
 
 > Note that these callbacks may sometimes not be called when loading scenes outside of ASM. This is because they are invoked by ASM SceneOperation directly, and if SceneOperation is not opening the scenes, then no callbacks. Some exceptions exist.
 
@@ -91,39 +95,78 @@ void Log(SceneCollection collection, string action)
 }
 ```
 
-# Scene operation callbacks
+# Event callback API
 
-[Fluent scene operation API](Scene%20operations.md#fluent-api) can be used to specify callbacks in code.
+The event callback API can be used to listen for events in code. Designed mimic Unity UI Toolkit event callbacks. All events are available in either global or operation specific API.
 
 ```csharp
+public Scene scene1;
+public Scene scene2;
+```
 
-public void OpenScenesWithCallbackBeforeLoadingScreenClose(IEnumerable<Scene> scenes, Action callbackAction)
+**Operation specific events**
+
+```csharp
+//Only called for this specific scene operation
+public void OperationSpecificEvents()
 {
-    //Remove null scenes
-    scenes = scenes.Where(s => s);
+	scene1.Open().
+		RegisterCallback<SceneOpenEvent>(e => 
+			Debug.Log("Scene opened: " + e.scene), When.After);
+}
+```
 
-    //Add callback after scenes have loaded, that logs to console
-    SceneManager.runtime.Open(scenes).
-    Callback(Callback.BeforeLoadingScreenClose().Do(callbackAction));
+**Global events**
+
+```csharp
+//Called for every operation until domain reload, or explicitly unregistered
+//Phase events are available for operation specific API as well  
+public static void RegisterGlobalEvents()
+{
+	//Phase events
+	//Are always called
+	SceneManager.runtime.RegisterCallback<StartPhaseEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<EndPhaseEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<LoadingScreenOpenPhaseEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<SceneClosePhaseEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<SceneOpenPhaseEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<ScenePreloadPhaseEvent>(Callback);
+
+	//Conditional events.
+	//Called for each individial scene or collection, if any
+	SceneManager.runtime.RegisterCallback<ScenePreloadEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<SceneOpenEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<SceneCloseEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<CollectionOpenEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<CollectionCloseEvent>(Callback);
 }
 
-public void LogAfterAllScenesOpened(IEnumerable<Scene> scenes)
+private static void Callback(SceneOperationEventBase e)
 {
-	//Remove null scenes
-    scenes = scenes.Where(s => s);
-    
-	//Add callback after scenes have loaded, that logs to console
-    SceneManager.runtime.Open(scenes).
-    Callback(Callback.After(Phase.LoadScenes).Do(() => Debug.Log("Scenes loaded")));
+
+	//e.when can be used if When was not specified when registering
+	//e.operation can be used to get a reference to the operation. Can sometimes be null depending on event.
+
+	if (e is SceneEvent sceneEvent)
+		Debug.Log($"[{e.GetType().Name}]: {sceneEvent.scene}");
+	else if (e is CollectionEvent collectionEvent)
+		Debug.Log($"[{e.GetType().Name}]: {collectionEvent.collection}");
+	else
+		Debug.Log($"[{e.GetType().Name}]");
+
 }
+```
 
-public void OpenScenesWithDelayInbetween(IEnumerable<Scene> scenes, float delay)
+**Blocking operations**
+
+```csharp
+//Waits 5 seconds before opening scene
+public void CloseSceneThenOpenOtherWithDelay()
 {
-	//Remove null scenes
-	scenes = scenes.Where(s => s);
-
-	//Add callback after scene has loaded, that delays the operation
-	SceneManager.runtime.Open(scenes).
-	Callback(scenes.Select(s => Callback.After(Phase.LoadScenes, s).Do(delay)));
+	scene1.Close().Open(scene2).RegisterCallback<SceneOpenEvent>(e =>
+	{
+		if (e.scene == scene2)
+			e.WaitFor(Awaitable.WaitForSecondsAsync(5)); 
+	});
 }
 ```
