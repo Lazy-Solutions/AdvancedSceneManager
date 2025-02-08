@@ -9,7 +9,7 @@
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Equals</a></td>
 <td>Determines whether the specified object is equal to the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_Async_1_FromResult">FromResult</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_Async_1_FromResult.md">FromResult</a></td>
 <td> </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td>
@@ -21,7 +21,7 @@
 <td>MoveNext</td>
 <td><br />(Inherited from CustomYieldInstruction)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_Async_1_OnComplete">OnComplete</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_Async_1_OnComplete.md">OnComplete</a></td>
 <td>Calls the callback when the async operation is complete.</td></tr>
 <tr>
 <td>Reset</td>
@@ -35,5 +35,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_Async_1">Async(T) Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_Async_1.md">Async(T) Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

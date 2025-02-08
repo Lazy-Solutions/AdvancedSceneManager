@@ -1,12 +1,12 @@
 # SceneReferenceCollection Class
 
 
-A collection of <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference">CrossSceneReference</a> for a scene.
+A collection of <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md">CrossSceneReference</a> for a scene.
 
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,7 +23,7 @@ public class SceneReferenceCollection
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection__ctor">SceneReferenceCollection</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection__ctor.md">SceneReferenceCollection</a></td>
 <td> </td></tr>
 </table>
 
@@ -46,10 +46,10 @@ public class SceneReferenceCollection
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection_references">references</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection_references.md">references</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection_scene">scene</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection_scene.md">scene</a></td>
 <td> </td></tr>
 </table>
 
@@ -57,4 +57,4 @@ public class SceneReferenceCollection
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  

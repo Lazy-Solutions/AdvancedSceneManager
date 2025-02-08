@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager">AdvancedSceneManager</a>  
+**Namespace:** <a href="N_AdvancedSceneManager.md">AdvancedSceneManager</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -18,5 +18,5 @@ public Package()
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Package">Package Class</a>  
-<a href="N_AdvancedSceneManager">AdvancedSceneManager Namespace</a>  
+<a href="T_AdvancedSceneManager_Package.md">Package Class</a>  
+<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>  

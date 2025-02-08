@@ -6,7 +6,7 @@ Applies font awesome *free* to the VisualElement.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_UI">AdvancedSceneManager.Editor.UI</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -38,5 +38,5 @@ Note that not all icons are available (no clue why, ask unity).
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Editor_UI_UIElementUtility">UIElementUtility Class</a>  
-<a href="N_AdvancedSceneManager_Editor_UI">AdvancedSceneManager.Editor.UI Namespace</a>  
+<a href="T_AdvancedSceneManager_Editor_UI_UIElementUtility.md">UIElementUtility Class</a>  
+<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>  

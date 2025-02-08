@@ -6,7 +6,7 @@ Adds a persistent reference to this GameObject.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -31,5 +31,5 @@ Can only add in editor, returns null otherwise.
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_GuidReferenceUtility">GuidReferenceUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_GuidReferenceUtility.md">GuidReferenceUtility Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

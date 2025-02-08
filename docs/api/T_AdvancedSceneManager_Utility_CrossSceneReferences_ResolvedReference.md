@@ -1,12 +1,12 @@
 # ResolvedReference Structure
 
 
-Represents a resolved <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference">ObjectReference</a>.
+Represents a resolved <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference</a>.
 
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,7 +22,7 @@ public struct ResolvedReference
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference__ctor">ResolvedReference</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference__ctor.md">ResolvedReference</a></td>
 <td> </td></tr>
 </table>
 
@@ -38,44 +38,44 @@ public struct ResolvedReference
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td>
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_ToString">ToString()</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_ToString.md">ToString()</a></td>
 <td><br />(Overrides <a href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring" target="_blank" rel="noopener noreferrer">ValueType.ToString()</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_ToString_1">ToString(Boolean, Boolean)</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_ToString_1.md">ToString(Boolean, Boolean)</a></td>
 <td> </td></tr>
 </table>
 
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_component">component</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_component.md">component</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_field">field</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_field.md">field</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_gameObject">gameObject</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_gameObject.md">gameObject</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_hasBeenRemoved">hasBeenRemoved</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_hasBeenRemoved.md">hasBeenRemoved</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_index">index</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_index.md">index</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_isTargetingArray">isTargetingArray</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_isTargetingArray.md">isTargetingArray</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_isTargetingUnityEvent">isTargetingUnityEvent</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_isTargetingUnityEvent.md">isTargetingUnityEvent</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_resolvedTarget">resolvedTarget</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_resolvedTarget.md">resolvedTarget</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_result">result</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_result.md">result</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_scene">scene</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_scene.md">scene</a></td>
 <td> </td></tr>
 </table>
 
@@ -83,4 +83,4 @@ public struct ResolvedReference
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  

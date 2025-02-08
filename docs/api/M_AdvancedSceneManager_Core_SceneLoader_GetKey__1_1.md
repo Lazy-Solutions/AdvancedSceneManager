@@ -6,7 +6,7 @@ Gets the key for the specified scene loader.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -33,6 +33,6 @@ where T : SceneLoader
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Core_SceneLoader">SceneLoader Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_SceneLoader_GetKey">GetKey Overload</a>  
-<a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core Namespace</a>  
+<a href="T_AdvancedSceneManager_Core_SceneLoader.md">SceneLoader Class</a>  
+<a href="Overload_AdvancedSceneManager_Core_SceneLoader_GetKey.md">GetKey Overload</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  

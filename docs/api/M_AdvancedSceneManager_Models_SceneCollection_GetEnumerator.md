@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -15,7 +15,7 @@ public IEnumerator<Scene> GetEnumerator()
 
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1" target="_blank" rel="noopener noreferrer">IEnumerator</a>(<a href="T_AdvancedSceneManager_Models_Scene">Scene</a>)
+<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1" target="_blank" rel="noopener noreferrer">IEnumerator</a>(<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>)
 
 #### Implements
 <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator" target="_blank" rel="noopener noreferrer">IEnumerable(T).GetEnumerator()</a>  
@@ -25,5 +25,5 @@ public IEnumerator<Scene> GetEnumerator()
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_SceneCollection">SceneCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

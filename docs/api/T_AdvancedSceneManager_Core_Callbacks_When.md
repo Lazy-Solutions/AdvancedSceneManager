@@ -6,7 +6,7 @@ Specifies if a scene operation callback is before or after the awaited action.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core_Callbacks">AdvancedSceneManager.Core.Callbacks</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Core_Callbacks.md">AdvancedSceneManager.Core.Callbacks</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -36,4 +36,4 @@ public enum When
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Core_Callbacks">AdvancedSceneManager.Core.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Core_Callbacks.md">AdvancedSceneManager.Core.Callbacks Namespace</a>  

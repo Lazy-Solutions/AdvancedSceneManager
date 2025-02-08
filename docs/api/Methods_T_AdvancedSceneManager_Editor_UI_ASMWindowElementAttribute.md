@@ -29,5 +29,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Editor_UI_ASMWindowElementAttribute">ASMWindowElementAttribute Class</a>  
-<a href="N_AdvancedSceneManager_Editor_UI">AdvancedSceneManager.Editor.UI Namespace</a>  
+<a href="T_AdvancedSceneManager_Editor_UI_ASMWindowElementAttribute.md">ASMWindowElementAttribute Class</a>  
+<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>  

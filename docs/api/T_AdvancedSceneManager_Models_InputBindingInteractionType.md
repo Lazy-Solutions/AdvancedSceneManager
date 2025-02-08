@@ -6,7 +6,7 @@ Specifies the interaction type to use for scene bindings.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -36,4 +36,4 @@ public enum InputBindingInteractionType
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

@@ -5,7 +5,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -15,7 +15,7 @@ public interface ISceneOpenAsync : ISceneOpenCoroutine,
 	ISceneCallbacks
 ```
 
-<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks">ISceneCallbacks</a>, <a href="T_AdvancedSceneManager_Callbacks_ISceneOpenCoroutine">ISceneOpenCoroutine</a></td></tr>
+<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks.md">ISceneCallbacks</a>, <a href="T_AdvancedSceneManager_Callbacks_ISceneOpenCoroutine.md">ISceneOpenCoroutine</a></td></tr>
 </table>
 
 
@@ -23,14 +23,14 @@ public interface ISceneOpenAsync : ISceneOpenCoroutine,
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_ISceneOpenCoroutine_OnSceneOpen">OnSceneOpen</a></td>
-<td>Callback for when the scene that a MonoBehaviour is contained within is opened. See also: <ul><li><a href="T_AdvancedSceneManager_Callbacks_ISceneOpen">ISceneOpen</a></li><li><a href="T_AdvancedSceneManager_Callbacks_ISceneOpenCoroutine">ISceneOpenCoroutine</a></li><li>[!:ISceneOpenAwaitable]</li></ul>
+<td><a href="M_AdvancedSceneManager_Callbacks_ISceneOpenCoroutine_OnSceneOpen.md">OnSceneOpen</a></td>
+<td>Callback for when the scene that a MonoBehaviour is contained within is opened. See also: <ul><li><a href="T_AdvancedSceneManager_Callbacks_ISceneOpen.md">ISceneOpen</a></li><li><a href="T_AdvancedSceneManager_Callbacks_ISceneOpenCoroutine.md">ISceneOpenCoroutine</a></li><li>[!:ISceneOpenAwaitable]</li></ul>
 
-<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_ISceneOpenCoroutine">ISceneOpenCoroutine</a>)</td></tr>
+<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_ISceneOpenCoroutine.md">ISceneOpenCoroutine</a>)</td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  

@@ -6,7 +6,7 @@ Occurs after startup process has been completed.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -20,12 +20,12 @@ public event Action afterStartup
 <a href="https://learn.microsoft.com/dotnet/api/system.action" target="_blank" rel="noopener noreferrer">Action</a>
 
 #### Implements
-<a href="E_AdvancedSceneManager_DependencyInjection_IApp_afterStartup">IApp.afterStartup</a>  
+<a href="E_AdvancedSceneManager_DependencyInjection_IApp_afterStartup.md">IApp.afterStartup</a>  
 
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Core_App">App Class</a>  
-<a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core Namespace</a>  
+<a href="T_AdvancedSceneManager_Core_App.md">App Class</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  

@@ -6,7 +6,7 @@ Inserts this canvas above target.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -36,5 +36,5 @@ See parameter comments for more info.
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CanvasSortOrderUtility">CanvasSortOrderUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_CanvasSortOrderUtility.md">CanvasSortOrderUtility Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

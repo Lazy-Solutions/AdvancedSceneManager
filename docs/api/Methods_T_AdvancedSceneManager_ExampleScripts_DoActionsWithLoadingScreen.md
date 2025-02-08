@@ -6,10 +6,10 @@
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen_DoActionWithLoadingScreen">DoActionWithLoadingScreen</a></td>
+<td><a href="M_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen_DoActionWithLoadingScreen.md">DoActionWithLoadingScreen</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen_DoCoroutineWithLoadingScreen">DoCoroutineWithLoadingScreen</a></td>
+<td><a href="M_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen_DoCoroutineWithLoadingScreen.md">DoCoroutineWithLoadingScreen</a></td>
 <td> </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Equals</a></td>
@@ -29,5 +29,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen">DoActionsWithLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="T_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen.md">DoActionsWithLoadingScreen Class</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  

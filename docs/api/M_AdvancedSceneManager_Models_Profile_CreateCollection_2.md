@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -17,15 +17,15 @@ public SceneCollection CreateCollection(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate">SceneCollectionTemplate</a></dt><dd> </dd></dl>
+<dl><dt>  <a href="T_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate.md">SceneCollectionTemplate</a></dt><dd> </dd></dl>
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Models_SceneCollection">SceneCollection</a>
+<a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Profile">Profile Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_Profile_CreateCollection">CreateCollection Overload</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Profile.md">Profile Class</a>  
+<a href="Overload_AdvancedSceneManager_Models_Profile_CreateCollection.md">CreateCollection Overload</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

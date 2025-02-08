@@ -6,10 +6,10 @@
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection_references">references</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection_references.md">references</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection_scene">scene</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection_scene.md">scene</a></td>
 <td> </td></tr>
 </table>
 
@@ -17,5 +17,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection">SceneReferenceCollection Class</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection.md">SceneReferenceCollection Class</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  

@@ -1,12 +1,12 @@
 # MessageLoadProgressData Structure
 
 
-An implementation of <a href="T_AdvancedSceneManager_Loading_ILoadProgressData">ILoadProgressData</a> that provides a string message.
+An implementation of <a href="T_AdvancedSceneManager_Loading_ILoadProgressData.md">ILoadProgressData</a> that provides a string message.
 
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Loading">AdvancedSceneManager.Loading</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -15,7 +15,7 @@ public readonly struct MessageLoadProgressData : ILoadProgressData
 ```
 
 <table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="https://learn.microsoft.com/dotnet/api/system.valuetype" target="_blank" rel="noopener noreferrer">ValueType</a>  →  MessageLoadProgressData</td></tr>
-<tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Loading_ILoadProgressData">ILoadProgressData</a></td></tr>
+<tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Loading_ILoadProgressData.md">ILoadProgressData</a></td></tr>
 </table>
 
 
@@ -23,17 +23,17 @@ public readonly struct MessageLoadProgressData : ILoadProgressData
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Loading_MessageLoadProgressData__ctor">MessageLoadProgressData</a></td>
+<td><a href="M_AdvancedSceneManager_Loading_MessageLoadProgressData__ctor.md">MessageLoadProgressData</a></td>
 <td> </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Loading_MessageLoadProgressData_message">message</a></td>
+<td><a href="P_AdvancedSceneManager_Loading_MessageLoadProgressData_message.md">message</a></td>
 <td>The message of this report.</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Loading_MessageLoadProgressData_value">value</a></td>
+<td><a href="P_AdvancedSceneManager_Loading_MessageLoadProgressData_value.md">value</a></td>
 <td> </td></tr>
 </table>
 
@@ -49,7 +49,7 @@ public readonly struct MessageLoadProgressData : ILoadProgressData
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td>
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Loading_MessageLoadProgressData_ToString">ToString</a></td>
+<td><a href="M_AdvancedSceneManager_Loading_MessageLoadProgressData_ToString.md">ToString</a></td>
 <td><br />(Overrides <a href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring" target="_blank" rel="noopener noreferrer">ValueType.ToString()</a>)</td></tr>
 </table>
 
@@ -57,4 +57,4 @@ public readonly struct MessageLoadProgressData : ILoadProgressData
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Loading">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  

@@ -6,7 +6,7 @@ Provides access to the default ASM scenes.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Helpers">AdvancedSceneManager.Models.Helpers</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -17,15 +17,15 @@ public DefaultScenes defaults { get; }
 
 
 #### Property Value
-<a href="T_AdvancedSceneManager_Models_Helpers_DefaultScenes">DefaultScenes</a>
+<a href="T_AdvancedSceneManager_Models_Helpers_DefaultScenes.md">DefaultScenes</a>
 
 #### Implements
-<a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_defaults">IAssetsProvider.defaults</a>  
+<a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_defaults.md">IAssetsProvider.defaults</a>  
 
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Helpers_AssetsProxy">AssetsProxy Class</a>  
-<a href="N_AdvancedSceneManager_Models_Helpers">AdvancedSceneManager.Models.Helpers Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Helpers_AssetsProxy.md">AssetsProxy Class</a>  
+<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>  

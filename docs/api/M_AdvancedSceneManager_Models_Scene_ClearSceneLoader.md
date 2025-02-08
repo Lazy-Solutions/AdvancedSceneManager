@@ -6,7 +6,7 @@ Clears custom scene loader for this scene. This means normal ASM functionality w
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -20,5 +20,5 @@ public void ClearSceneLoader()
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene">Scene Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

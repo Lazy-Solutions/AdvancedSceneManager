@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks_Events">AdvancedSceneManager.Callbacks.Events</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -12,7 +12,7 @@
 public class CollectionCloseEvent : CollectionEvent
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase">SceneOperationEventBase</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_CollectionEvent">CollectionEvent</a>  →  CollectionCloseEvent</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_CollectionEvent.md">CollectionEvent</a>  →  CollectionCloseEvent</td></tr>
 </table>
 
 
@@ -20,24 +20,24 @@ public class CollectionCloseEvent : CollectionEvent
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_Events_CollectionCloseEvent__ctor">CollectionCloseEvent</a></td>
+<td><a href="M_AdvancedSceneManager_Callbacks_Events_CollectionCloseEvent__ctor.md">CollectionCloseEvent</a></td>
 <td> </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Callbacks_Events_CollectionEvent_collection">collection</a></td>
-<td>The collection that this event callback was invoked for.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_CollectionEvent">CollectionEvent</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Callbacks_Events_CollectionEvent_collection.md">collection</a></td>
+<td>The collection that this event callback was invoked for.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_CollectionEvent.md">CollectionEvent</a>)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_operation">operation</a></td>
-<td>The operation that invoked this event callback.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase">SceneOperationEventBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_operation.md">operation</a></td>
+<td>The operation that invoked this event callback.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_waitFor">waitFor</a></td>
-<td>Specifies a coroutine that <a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_operation">operation</a> should wait for. It will not proceed until coroutine is done.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase">SceneOperationEventBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_waitFor.md">waitFor</a></td>
+<td>Specifies a coroutine that <a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_operation.md">operation</a> should wait for. It will not proceed until coroutine is done.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_when">when</a></td>
-<td>Specifies when this event callback was invoked, before or after the action it represents. If applicable.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase">SceneOperationEventBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_when.md">when</a></td>
+<td>Specifies when this event callback was invoked, before or after the action it represents. If applicable.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</td></tr>
 </table>
 
 ## Methods
@@ -55,27 +55,27 @@ public class CollectionCloseEvent : CollectionEvent
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">ToString</a></td>
 <td>Returns a string that represents the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_5">WaitFor(Awaitable)</a></td>
-<td><br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase">SceneOperationEventBase</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_5.md">WaitFor(Awaitable)</a></td>
+<td><br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_2">WaitFor(Func(GlobalCoroutine))</a></td>
-<td>Specifies a coroutine that the operation should wait for.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase">SceneOperationEventBase</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_2.md">WaitFor(Func(GlobalCoroutine))</a></td>
+<td>Specifies a coroutine that the operation should wait for.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_3">WaitFor(Func(IEnumerator))</a></td>
-<td>Specifies a coroutine that the operation should wait for.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase">SceneOperationEventBase</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_3.md">WaitFor(Func(IEnumerator))</a></td>
+<td>Specifies a coroutine that the operation should wait for.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_4">WaitFor(Func(Awaitable))</a></td>
-<td><br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase">SceneOperationEventBase</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_4.md">WaitFor(Func(Awaitable))</a></td>
+<td><br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor">WaitFor(GlobalCoroutine)</a></td>
-<td>Specifies a coroutine that the operation should wait for.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase">SceneOperationEventBase</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor.md">WaitFor(GlobalCoroutine)</a></td>
+<td>Specifies a coroutine that the operation should wait for.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_1">WaitFor(IEnumerator)</a></td>
-<td>Specifies a coroutine that the operation should wait for.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase">SceneOperationEventBase</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_1.md">WaitFor(IEnumerator)</a></td>
+<td>Specifies a coroutine that the operation should wait for.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks_Events">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  

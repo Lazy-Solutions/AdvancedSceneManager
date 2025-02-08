@@ -5,7 +5,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -17,12 +17,12 @@ public void _DiscardPreload()
 
 
 #### Implements
-<a href="M_AdvancedSceneManager_Models_Scene_IMethods_IEvent__DiscardPreload">Scene.IMethods.IEvent._DiscardPreload()</a>  
+<a href="M_AdvancedSceneManager_Models_Scene_IMethods_IEvent__DiscardPreload.md">Scene.IMethods.IEvent._DiscardPreload()</a>  
 
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene">Scene Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

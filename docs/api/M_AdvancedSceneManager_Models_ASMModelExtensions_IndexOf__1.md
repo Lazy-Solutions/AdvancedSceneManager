@@ -6,7 +6,7 @@ Finds the index of *scene*.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,7 +22,7 @@ where T : ISceneCollection
 
 
 #### Parameters
-<dl><dt>  T</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene">Scene</a></dt><dd> </dd></dl>
+<dl><dt>  T</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
 
 #### Type Parameters
 <dl><dt /><dd /></dl>
@@ -44,5 +44,5 @@ Returns -1 if it does not exist.
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_ASMModelExtensions">ASMModelExtensions Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_ASMModelExtensions.md">ASMModelExtensions Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

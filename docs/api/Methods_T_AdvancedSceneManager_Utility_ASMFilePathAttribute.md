@@ -29,5 +29,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_ASMFilePathAttribute">ASMFilePathAttribute Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_ASMFilePathAttribute.md">ASMFilePathAttribute Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

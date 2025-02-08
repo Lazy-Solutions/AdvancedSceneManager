@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection_Editor">AdvancedSceneManager.DependencyInjection.Editor</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -12,7 +12,7 @@
 public interface IHierarchyGUI : DependencyInjectionUtility.IInjectable
 ```
 
-<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable">DependencyInjectionUtility.IInjectable</a></td></tr>
+<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable.md">DependencyInjectionUtility.IInjectable</a></td></tr>
 </table>
 
 
@@ -20,26 +20,26 @@ public interface IHierarchyGUI : DependencyInjectionUtility.IInjectable
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_defaultStyle">defaultStyle</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_defaultStyle.md">defaultStyle</a></td>
 <td> </td></tr>
 </table>
 
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_AddGameObjectGUI">AddGameObjectGUI</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_AddGameObjectGUI.md">AddGameObjectGUI</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_AddSceneGUI">AddSceneGUI</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_AddSceneGUI.md">AddSceneGUI</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_RemoveGameObjectGUI">RemoveGameObjectGUI</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_RemoveGameObjectGUI.md">RemoveGameObjectGUI</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_RemoveSceneGUI">RemoveSceneGUI</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_RemoveSceneGUI.md">RemoveSceneGUI</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_Repaint">Repaint</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_Repaint.md">Repaint</a></td>
 <td> </td></tr>
 </table>
 
@@ -47,4 +47,4 @@ public interface IHierarchyGUI : DependencyInjectionUtility.IInjectable
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  

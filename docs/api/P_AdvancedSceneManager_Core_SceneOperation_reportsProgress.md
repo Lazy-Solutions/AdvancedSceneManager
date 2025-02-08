@@ -6,7 +6,7 @@ Gets if this scene operation reports progress.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -26,5 +26,5 @@ This will disable scene loaders from reporting progress to [!:LoadingScreenUtili
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Core_SceneOperation">SceneOperation Class</a>  
-<a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core Namespace</a>  
+<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation Class</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  

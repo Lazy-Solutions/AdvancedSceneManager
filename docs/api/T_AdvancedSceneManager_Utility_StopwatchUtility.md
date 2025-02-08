@@ -6,7 +6,7 @@ Provides utility functions for working with stopwatches.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,7 +22,7 @@ public static class StopwatchUtility
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_StopwatchUtility_GetElapsedTime">GetElapsedTime</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_StopwatchUtility_GetElapsedTime.md">GetElapsedTime</a></td>
 <td> </td></tr>
 </table>
 
@@ -30,4 +30,4 @@ public static class StopwatchUtility
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

@@ -6,7 +6,7 @@ An object that persists start properties across domain reload, which is needed w
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,24 +23,24 @@ public class StartupProps
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Core_App_StartupProps__ctor">App.StartupProps()</a></td>
+<td><a href="M_AdvancedSceneManager_Core_App_StartupProps__ctor.md">App.StartupProps()</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Core_App_StartupProps__ctor_1">App.StartupProps(App.StartupProps)</a></td>
+<td><a href="M_AdvancedSceneManager_Core_App_StartupProps__ctor_1.md">App.StartupProps(App.StartupProps)</a></td>
 <td>Creates a new props, from the specified props, copying its values.</td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Core_App_StartupProps_effectiveFadeColor">effectiveFadeColor</a></td>
-<td>Gets the effective fade animation color, uses <a href="F_AdvancedSceneManager_Core_App_StartupProps_fadeColor">fadeColor</a> if specified. Otherwise [!:PlayerSettings.SplashScreen.backgroundColor] will be used during first startup. On subsequent restarts black will be used (ASM restart, not application restart!).</td></tr>
+<td><a href="P_AdvancedSceneManager_Core_App_StartupProps_effectiveFadeColor.md">effectiveFadeColor</a></td>
+<td>Gets the effective fade animation color, uses <a href="F_AdvancedSceneManager_Core_App_StartupProps_fadeColor.md">fadeColor</a> if specified. Otherwise [!:PlayerSettings.SplashScreen.backgroundColor] will be used during first startup. On subsequent restarts black will be used (ASM restart, not application restart!).</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Core_App_StartupProps_runStartupProcess">runStartupProcess</a></td>
+<td><a href="P_AdvancedSceneManager_Core_App_StartupProps_runStartupProcess.md">runStartupProcess</a></td>
 <td>Gets if startup process should run.</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Core_App_StartupProps_runStartupProcessWhenPlayingCollection">runStartupProcessWhenPlayingCollection</a></td>
-<td>Specifies whatever startup process should run before <a href="F_AdvancedSceneManager_Core_App_StartupProps_openCollection">openCollection</a> is opened.</td></tr>
+<td><a href="P_AdvancedSceneManager_Core_App_StartupProps_runStartupProcessWhenPlayingCollection.md">runStartupProcessWhenPlayingCollection</a></td>
+<td>Specifies whatever startup process should run before <a href="F_AdvancedSceneManager_Core_App_StartupProps_openCollection.md">openCollection</a> is opened.</td></tr>
 </table>
 
 ## Methods
@@ -62,16 +62,16 @@ public class StartupProps
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_Core_App_StartupProps_fadeColor">fadeColor</a></td>
+<td><a href="F_AdvancedSceneManager_Core_App_StartupProps_fadeColor.md">fadeColor</a></td>
 <td>The color for the fade out.</td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Core_App_StartupProps_forceOpenAllScenesOnCollection">forceOpenAllScenesOnCollection</a></td>
-<td>Specifies whatever all scenes on <a href="F_AdvancedSceneManager_Core_App_StartupProps_openCollection">openCollection</a> should be opened.</td></tr>
+<td><a href="F_AdvancedSceneManager_Core_App_StartupProps_forceOpenAllScenesOnCollection.md">forceOpenAllScenesOnCollection</a></td>
+<td>Specifies whatever all scenes on <a href="F_AdvancedSceneManager_Core_App_StartupProps_openCollection.md">openCollection</a> should be opened.</td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Core_App_StartupProps_openCollection">openCollection</a></td>
+<td><a href="F_AdvancedSceneManager_Core_App_StartupProps_openCollection.md">openCollection</a></td>
 <td>Specifies a collection to be opened after startup process is done.</td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Core_App_StartupProps_softSkipSplashScreen">softSkipSplashScreen</a></td>
+<td><a href="F_AdvancedSceneManager_Core_App_StartupProps_softSkipSplashScreen.md">softSkipSplashScreen</a></td>
 <td>Specifies whatever splash screen should open, but be skipped.</td></tr>
 </table>
 
@@ -79,4 +79,4 @@ public class StartupProps
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  

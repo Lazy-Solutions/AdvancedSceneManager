@@ -6,7 +6,7 @@ Represents a input binding for InputSystem. Available even when InputSystem is u
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,23 +23,23 @@ public class InputBinding
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_InputBinding__ctor">InputBinding</a></td>
+<td><a href="M_AdvancedSceneManager_Models_InputBinding__ctor.md">InputBinding</a></td>
 <td> </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_InputBinding_buttons">buttons</a></td>
+<td><a href="P_AdvancedSceneManager_Models_InputBinding_buttons.md">buttons</a></td>
 <td>Specifies the buttons.</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_InputBinding_interactionType">interactionType</a></td>
+<td><a href="P_AdvancedSceneManager_Models_InputBinding_interactionType.md">interactionType</a></td>
 <td>Specifies the interaction type.</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_InputBinding_isValid">isValid</a></td>
+<td><a href="P_AdvancedSceneManager_Models_InputBinding_isValid.md">isValid</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_InputBinding_openCollectionAsAdditive">openCollectionAsAdditive</a></td>
+<td><a href="P_AdvancedSceneManager_Models_InputBinding_openCollectionAsAdditive.md">openCollectionAsAdditive</a></td>
 <td>Specifies whatever collection should be opened as a collection.</td></tr>
 </table>
 
@@ -55,10 +55,10 @@ public class InputBinding
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td>
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_InputBinding_SetButtons_1">SetButtons(InputButton[])</a></td>
+<td><a href="M_AdvancedSceneManager_Models_InputBinding_SetButtons_1.md">SetButtons(InputButton[])</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_InputBinding_SetButtons">SetButtons(InputBindingInteractionType, InputButton[])</a></td>
+<td><a href="M_AdvancedSceneManager_Models_InputBinding_SetButtons.md">SetButtons(InputBindingInteractionType, InputButton[])</a></td>
 <td> </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">ToString</a></td>
@@ -69,4 +69,4 @@ public class InputBinding
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

@@ -6,7 +6,7 @@ Opens the *collections* as additive.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -20,13 +20,13 @@ public static SceneOperation OpenAdditive(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Models_SceneCollection">SceneCollection</a>)</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection">SceneCollection</a></dt><dd> </dd></dl>
+<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd></dl>
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation">SceneOperation</a>
+<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
 
 #### Usage Note
-In Visual Basic and C#, you can call this method as an instance method on any object of type <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Models_SceneCollection">SceneCollection</a>). When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
+In Visual Basic and C#, you can call this method as an instance method on any object of type <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>). When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
 
 Extension Methods (Visual Basic)</a> or <a href="https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods" target="_blank" rel="noopener noreferrer">
 
@@ -39,6 +39,6 @@ If *activeCollection* is part of *collections*, then it will only be opened once
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_ASMModelExtensions">ASMModelExtensions Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_ASMModelExtensions_OpenAdditive">OpenAdditive Overload</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_ASMModelExtensions.md">ASMModelExtensions Class</a>  
+<a href="Overload_AdvancedSceneManager_Models_ASMModelExtensions_OpenAdditive.md">OpenAdditive Overload</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

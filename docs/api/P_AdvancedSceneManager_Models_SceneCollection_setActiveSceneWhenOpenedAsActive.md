@@ -1,12 +1,12 @@
 # setActiveSceneWhenOpenedAsActive Property
 
 
-Specifies whatever <a href="P_AdvancedSceneManager_Models_SceneCollection_activeScene">activeScene</a> should be set, when collection is opened as additive.
+Specifies whatever <a href="P_AdvancedSceneManager_Models_SceneCollection_activeScene.md">activeScene</a> should be set, when collection is opened as additive.
 
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,5 +23,5 @@ public bool setActiveSceneWhenOpenedAsActive { get; set; }
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_SceneCollection">SceneCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

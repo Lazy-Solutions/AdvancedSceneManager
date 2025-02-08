@@ -4,16 +4,16 @@
 ## Overload List
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection">CreateCollection()</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection.md">CreateCollection()</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection_1">CreateCollection(SceneCollection)</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection_1.md">CreateCollection(SceneCollection)</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection_2">CreateCollection(SceneCollectionTemplate)</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection_2.md">CreateCollection(SceneCollectionTemplate)</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection_3">CreateCollection(String)</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection_3.md">CreateCollection(String)</a></td>
 <td> </td></tr>
 </table>
 
@@ -21,5 +21,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Profile">Profile Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Profile.md">Profile Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

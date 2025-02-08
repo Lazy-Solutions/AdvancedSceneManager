@@ -6,7 +6,7 @@ Specifies a input binding for use with InputSystem.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,20 +23,20 @@ public class InputButton
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_InputButton__ctor">InputButton()</a></td>
+<td><a href="M_AdvancedSceneManager_Models_InputButton__ctor.md">InputButton()</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_InputButton__ctor_1">InputButton(InputButton)</a></td>
+<td><a href="M_AdvancedSceneManager_Models_InputButton__ctor_1.md">InputButton(InputButton)</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_InputButton__ctor_2">InputButton(InputControl)</a></td>
+<td><a href="M_AdvancedSceneManager_Models_InputButton__ctor_2.md">InputButton(InputControl)</a></td>
 <td> </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_InputButton_isValid">isValid</a></td>
+<td><a href="P_AdvancedSceneManager_Models_InputButton_isValid.md">isValid</a></td>
 <td>Gets if this binding is valid.</td></tr>
 </table>
 
@@ -59,10 +59,10 @@ public class InputButton
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_Models_InputButton_name">name</a></td>
+<td><a href="F_AdvancedSceneManager_Models_InputButton_name.md">name</a></td>
 <td>Specifies the name of this binding.</td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Models_InputButton_path">path</a></td>
+<td><a href="F_AdvancedSceneManager_Models_InputButton_path.md">path</a></td>
 <td>Specifies the path of this binding.</td></tr>
 </table>
 
@@ -70,4 +70,4 @@ public class InputButton
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

@@ -6,7 +6,7 @@ By default, ASM will prevent spam calling event methods (i.e. calling Scene.Open
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection">AdvancedSceneManager.DependencyInjection</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,5 +23,5 @@ bool preventSpammingEventMethods { get; set; }
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_IProjectSettings">IProjectSettings Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="T_AdvancedSceneManager_DependencyInjection_IProjectSettings.md">IProjectSettings Interface</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  

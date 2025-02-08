@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -20,27 +20,27 @@ public static class FallbackSceneUtility
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Utility_FallbackSceneUtility_isActive">isActive</a></td>
+<td><a href="P_AdvancedSceneManager_Utility_FallbackSceneUtility_isActive.md">isActive</a></td>
 <td> </td></tr>
 </table>
 
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_FallbackSceneUtility_GetPath">GetPath</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_FallbackSceneUtility_GetPath.md">GetPath</a></td>
 <td>Gets the fallback scene.</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_FallbackSceneUtility_GetScene">GetScene</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_FallbackSceneUtility_GetScene.md">GetScene</a></td>
 <td>Gets the fallback scene.</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_FallbackSceneUtility_IsFallbackScene">IsFallbackScene</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_FallbackSceneUtility_IsFallbackScene.md">IsFallbackScene</a></td>
 <td>Gets whatever the specified scene is the default scene.</td></tr>
 </table>
 
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_FallbackSceneUtility_Name">Name</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_FallbackSceneUtility_Name.md">Name</a></td>
 <td> </td></tr>
 </table>
 
@@ -48,4 +48,4 @@ public static class FallbackSceneUtility
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

@@ -6,7 +6,7 @@
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_ExampleScripts_SceneOpen_sceneToOpen">sceneToOpen</a></td>
+<td><a href="F_AdvancedSceneManager_ExampleScripts_SceneOpen_sceneToOpen.md">sceneToOpen</a></td>
 <td> </td></tr>
 </table>
 
@@ -14,5 +14,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_ExampleScripts_SceneOpen">SceneOpen Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="T_AdvancedSceneManager_ExampleScripts_SceneOpen.md">SceneOpen Class</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  

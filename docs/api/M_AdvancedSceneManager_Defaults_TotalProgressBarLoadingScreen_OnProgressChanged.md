@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Defaults">AdvancedSceneManager.Defaults</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -17,15 +17,15 @@ public override void OnProgressChanged(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Loading_ILoadProgressData">ILoadProgressData</a></dt><dd> </dd></dl>
+<dl><dt>  <a href="T_AdvancedSceneManager_Loading_ILoadProgressData.md">ILoadProgressData</a></dt><dd> </dd></dl>
 
 #### Implements
-<a href="M_AdvancedSceneManager_Loading_ILoadProgressListener_OnProgressChanged">ILoadProgressListener.OnProgressChanged(ILoadProgressData)</a>  
+<a href="M_AdvancedSceneManager_Loading_ILoadProgressListener_OnProgressChanged.md">ILoadProgressListener.OnProgressChanged(ILoadProgressData)</a>  
 
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Defaults_TotalProgressBarLoadingScreen">TotalProgressBarLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_Defaults">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="T_AdvancedSceneManager_Defaults_TotalProgressBarLoadingScreen.md">TotalProgressBarLoadingScreen Class</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  

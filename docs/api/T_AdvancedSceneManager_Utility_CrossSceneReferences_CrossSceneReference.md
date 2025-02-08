@@ -6,7 +6,7 @@ A reference to a variable that references another object in some other scene.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,20 +23,20 @@ public class CrossSceneReference
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference__ctor">CrossSceneReference()</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference__ctor.md">CrossSceneReference()</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference__ctor_1">CrossSceneReference(ObjectReference, ObjectReference)</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference__ctor_1.md">CrossSceneReference(ObjectReference, ObjectReference)</a></td>
 <td> </td></tr>
 </table>
 
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference_Equals">Equals</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference_Equals.md">Equals</a></td>
 <td><br />(Overrides <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Object.Equals(Object)</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference_GetHashCode">GetHashCode</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference_GetHashCode.md">GetHashCode</a></td>
 <td><br />(Overrides <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">Object.GetHashCode()</a>)</td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td>
@@ -49,13 +49,13 @@ public class CrossSceneReference
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference_id">id</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference_id.md">id</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference_value">value</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference_value.md">value</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference_variable">variable</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference_variable.md">variable</a></td>
 <td> </td></tr>
 </table>
 
@@ -63,4 +63,4 @@ public class CrossSceneReference
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  

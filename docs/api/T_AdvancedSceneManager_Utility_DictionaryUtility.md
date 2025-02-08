@@ -6,7 +6,7 @@ Contains utility functions for working with dictionaries.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,25 +22,25 @@ public static class DictionaryUtility
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_Add__2">Add(TKey, TValue)(Dictionary(TKey, TValue), Boolean, TKey)</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_Add__2.md">Add(TKey, TValue)(Dictionary(TKey, TValue), Boolean, TKey)</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_Add__3">Add(TKey, TList, TItem)(Dictionary(TKey, TValue), Boolean, TKey)</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_Add__3.md">Add(TKey, TList, TItem)(Dictionary(TKey, TValue), Boolean, TKey)</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_AddRange__3">AddRange(TKey, TList, TItem)(Dictionary(TKey, TValue), Boolean, TKey)</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_AddRange__3.md">AddRange(TKey, TList, TItem)(Dictionary(TKey, TValue), Boolean, TKey)</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_GetValue__2">GetValue(TKey, TValue)</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_GetValue__2.md">GetValue(TKey, TValue)</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_Remove__3">Remove(TKey, TList, TItem)</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_Remove__3.md">Remove(TKey, TList, TItem)</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_Set">Set(Hashtable, Object, Object)</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_Set.md">Set(Hashtable, Object, Object)</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_Set__2">Set(TKey, TValue)(Dictionary(TKey, TValue), Boolean, TKey)</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_DictionaryUtility_Set__2.md">Set(TKey, TValue)(Dictionary(TKey, TValue), Boolean, TKey)</a></td>
 <td> </td></tr>
 </table>
 
@@ -48,4 +48,4 @@ public static class DictionaryUtility
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

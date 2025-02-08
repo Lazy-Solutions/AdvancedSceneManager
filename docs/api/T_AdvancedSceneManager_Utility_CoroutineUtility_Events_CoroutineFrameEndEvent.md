@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -18,10 +18,10 @@ public delegate void CoroutineFrameEndEvent(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine">GlobalCoroutine</a></dt><dd>The coroutine that this event was called for.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a></dt><dd>The userdata that was passed to <a href="F_AdvancedSceneManager_Utility_CoroutineUtility_Events_onSubroutineStart">onSubroutineStart</a>.</dd></dl>
+<dl><dt>  <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a></dt><dd>The coroutine that this event was called for.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a></dt><dd>The userdata that was passed to <a href="F_AdvancedSceneManager_Utility_CoroutineUtility_Events_onSubroutineStart.md">onSubroutineStart</a>.</dd></dl>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

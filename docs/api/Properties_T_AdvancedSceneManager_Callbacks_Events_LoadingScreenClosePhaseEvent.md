@@ -6,25 +6,25 @@
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Callbacks_Events_LoadingScreenClosePhaseEvent_loadingScene">loadingScene</a></td>
+<td><a href="P_AdvancedSceneManager_Callbacks_Events_LoadingScreenClosePhaseEvent_loadingScene.md">loadingScene</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Callbacks_Events_LoadingScreenClosePhaseEvent_openedLoadingScreen">openedLoadingScreen</a></td>
+<td><a href="P_AdvancedSceneManager_Callbacks_Events_LoadingScreenClosePhaseEvent_openedLoadingScreen.md">openedLoadingScreen</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_operation">operation</a></td>
-<td>The operation that invoked this event callback.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase">SceneOperationEventBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_operation.md">operation</a></td>
+<td>The operation that invoked this event callback.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_waitFor">waitFor</a></td>
-<td>Specifies a coroutine that <a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_operation">operation</a> should wait for. It will not proceed until coroutine is done.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase">SceneOperationEventBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_waitFor.md">waitFor</a></td>
+<td>Specifies a coroutine that <a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_operation.md">operation</a> should wait for. It will not proceed until coroutine is done.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_when">when</a></td>
-<td>Specifies when this event callback was invoked, before or after the action it represents. If applicable.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase">SceneOperationEventBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_when.md">when</a></td>
+<td>Specifies when this event callback was invoked, before or after the action it represents. If applicable.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Callbacks_Events_LoadingScreenClosePhaseEvent">LoadingScreenClosePhaseEvent Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="T_AdvancedSceneManager_Callbacks_Events_LoadingScreenClosePhaseEvent.md">LoadingScreenClosePhaseEvent Class</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  

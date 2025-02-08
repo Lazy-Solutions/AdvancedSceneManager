@@ -1,12 +1,12 @@
 # forceOpenAllScenesOnCollection Field
 
 
-Specifies whatever all scenes on <a href="F_AdvancedSceneManager_Core_App_StartupProps_openCollection">openCollection</a> should be opened.
+Specifies whatever all scenes on <a href="F_AdvancedSceneManager_Core_App_StartupProps_openCollection.md">openCollection</a> should be opened.
 
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,5 +23,5 @@ public bool forceOpenAllScenesOnCollection
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Core_App_StartupProps">App.StartupProps Class</a>  
-<a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core Namespace</a>  
+<a href="T_AdvancedSceneManager_Core_App_StartupProps.md">App.StartupProps Class</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  

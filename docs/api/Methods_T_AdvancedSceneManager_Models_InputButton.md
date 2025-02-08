@@ -23,5 +23,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_InputButton">InputButton Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_InputButton.md">InputButton Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

@@ -6,7 +6,7 @@ Gets the default progress bar loading scene.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Helpers">AdvancedSceneManager.Models.Helpers</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -17,7 +17,7 @@ public Scene totalProgressBarScene { get; }
 
 
 #### Property Value
-<a href="T_AdvancedSceneManager_Models_Scene">Scene</a>
+<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>
 
 ## Remarks
 May be null if scene has been removed, or is not imported.
@@ -26,5 +26,5 @@ May be null if scene has been removed, or is not imported.
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Helpers_DefaultScenes">DefaultScenes Class</a>  
-<a href="N_AdvancedSceneManager_Models_Helpers">AdvancedSceneManager.Models.Helpers Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Helpers_DefaultScenes.md">DefaultScenes Class</a>  
+<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>  

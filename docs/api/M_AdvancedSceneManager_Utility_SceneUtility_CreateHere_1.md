@@ -6,7 +6,7 @@ Creates a game object in this scene.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -36,6 +36,6 @@ Extension Methods (C# Programming Guide)</a>.
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_SceneUtility_CreateHere">CreateHere Overload</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility Class</a>  
+<a href="Overload_AdvancedSceneManager_Utility_SceneUtility_CreateHere.md">CreateHere Overload</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

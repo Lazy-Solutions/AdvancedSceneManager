@@ -6,7 +6,7 @@ Specifies whatever collections can be excluded from build.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -20,7 +20,7 @@ public bool allowExcludingCollectionsFromBuild { get; set; }
 <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
 
 #### Implements
-<a href="P_AdvancedSceneManager_DependencyInjection_IProjectSettings_allowExcludingCollectionsFromBuild">IProjectSettings.allowExcludingCollectionsFromBuild</a>  
+<a href="P_AdvancedSceneManager_DependencyInjection_IProjectSettings_allowExcludingCollectionsFromBuild.md">IProjectSettings.allowExcludingCollectionsFromBuild</a>  
 
 
 ## Remarks
@@ -30,5 +30,5 @@ When true, a toggle will be shown in scene manager window.
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_ASMSettings">ASMSettings Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_ASMSettings.md">ASMSettings Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

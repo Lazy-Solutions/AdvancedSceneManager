@@ -6,7 +6,7 @@ Specifies whatever this scene should be opened when entering playmode.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -20,11 +20,11 @@ public bool openOnPlayMode { get; set; }
 <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
 
 ## Remarks
-Only effective when scene added to <a href="P_AdvancedSceneManager_Models_Profile_standaloneScenes">standaloneScenes</a>.
+Only effective when scene added to <a href="P_AdvancedSceneManager_Models_Profile_standaloneScenes.md">standaloneScenes</a>.
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene">Scene Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

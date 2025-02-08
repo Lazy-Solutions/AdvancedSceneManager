@@ -6,13 +6,13 @@
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_FallbackSceneUtility_GetPath">GetPath</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_FallbackSceneUtility_GetPath.md">GetPath</a></td>
 <td>Gets the fallback scene.</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_FallbackSceneUtility_GetScene">GetScene</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_FallbackSceneUtility_GetScene.md">GetScene</a></td>
 <td>Gets the fallback scene.</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_FallbackSceneUtility_IsFallbackScene">IsFallbackScene</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_FallbackSceneUtility_IsFallbackScene.md">IsFallbackScene</a></td>
 <td>Gets whatever the specified scene is the default scene.</td></tr>
 </table>
 
@@ -20,5 +20,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_FallbackSceneUtility">FallbackSceneUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_FallbackSceneUtility.md">FallbackSceneUtility Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

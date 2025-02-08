@@ -6,10 +6,10 @@
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Utility_CanvasSortOrderUtility_GetBottomCanvas">GetBottomCanvas</a></td>
+<td><a href="P_AdvancedSceneManager_Utility_CanvasSortOrderUtility_GetBottomCanvas.md">GetBottomCanvas</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Utility_CanvasSortOrderUtility_GetTopCanvas">GetTopCanvas</a></td>
+<td><a href="P_AdvancedSceneManager_Utility_CanvasSortOrderUtility_GetTopCanvas.md">GetTopCanvas</a></td>
 <td> </td></tr>
 </table>
 
@@ -17,5 +17,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CanvasSortOrderUtility">CanvasSortOrderUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_CanvasSortOrderUtility.md">CanvasSortOrderUtility Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

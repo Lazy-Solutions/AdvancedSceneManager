@@ -6,16 +6,16 @@
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneBindingUtility_GetBindings">GetBindings</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_SceneBindingUtility_GetBindings.md">GetBindings</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneBindingUtility_IsDuplicate">IsDuplicate</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_SceneBindingUtility_IsDuplicate.md">IsDuplicate</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneBindingUtility_WasOpenedByBinding">WasOpenedByBinding(Scene)</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_SceneBindingUtility_WasOpenedByBinding.md">WasOpenedByBinding(Scene)</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneBindingUtility_WasOpenedByBinding_1">WasOpenedByBinding(SceneCollection)</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_SceneBindingUtility_WasOpenedByBinding_1.md">WasOpenedByBinding(SceneCollection)</a></td>
 <td> </td></tr>
 </table>
 
@@ -23,5 +23,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_SceneBindingUtility">SceneBindingUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_SceneBindingUtility.md">SceneBindingUtility Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

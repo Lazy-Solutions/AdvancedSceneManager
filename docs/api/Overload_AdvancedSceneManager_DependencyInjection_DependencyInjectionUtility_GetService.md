@@ -4,10 +4,10 @@
 ## Overload List
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetService">GetService(Type)</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetService.md">GetService(Type)</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetService__1">GetService(T)()</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetService__1.md">GetService(T)()</a></td>
 <td> </td></tr>
 </table>
 
@@ -15,5 +15,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility">DependencyInjectionUtility Class</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility.md">DependencyInjectionUtility Class</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  

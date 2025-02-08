@@ -23,5 +23,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Core_SceneLoader_Indicator">SceneLoader.Indicator Structure</a>  
-<a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core Namespace</a>  
+<a href="T_AdvancedSceneManager_Core_SceneLoader_Indicator.md">SceneLoader.Indicator Structure</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  

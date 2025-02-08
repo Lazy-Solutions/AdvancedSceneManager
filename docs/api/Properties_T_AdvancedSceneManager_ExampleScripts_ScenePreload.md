@@ -21,7 +21,7 @@
 <td>gameObject</td>
 <td><p>The game object this component is attached to. A component is always attached to a game object.</p><br />(Inherited from Component)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_ExampleScripts_ScenePreload_hasPreloadedScene">hasPreloadedScene</a></td>
+<td><a href="P_AdvancedSceneManager_ExampleScripts_ScenePreload_hasPreloadedScene.md">hasPreloadedScene</a></td>
 <td> </td></tr>
 <tr>
 <td>hideFlags</td>
@@ -50,5 +50,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_ExampleScripts_ScenePreload">ScenePreload Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="T_AdvancedSceneManager_ExampleScripts_ScenePreload.md">ScenePreload Class</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  

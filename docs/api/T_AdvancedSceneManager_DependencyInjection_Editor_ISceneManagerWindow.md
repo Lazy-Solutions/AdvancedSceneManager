@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection_Editor">AdvancedSceneManager.DependencyInjection.Editor</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -12,7 +12,7 @@
 public interface ISceneManagerWindow : DependencyInjectionUtility.IInjectable
 ```
 
-<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable">DependencyInjectionUtility.IInjectable</a></td></tr>
+<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable.md">DependencyInjectionUtility.IInjectable</a></td></tr>
 </table>
 
 
@@ -20,13 +20,13 @@ public interface ISceneManagerWindow : DependencyInjectionUtility.IInjectable
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_ISceneManagerWindow_CloseWindow">CloseWindow</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_ISceneManagerWindow_CloseWindow.md">CloseWindow</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_ISceneManagerWindow_OpenWindow">OpenWindow</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_ISceneManagerWindow_OpenWindow.md">OpenWindow</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_ISceneManagerWindow_Reload">Reload</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_ISceneManagerWindow_Reload.md">Reload</a></td>
 <td> </td></tr>
 </table>
 
@@ -34,4 +34,4 @@ public interface ISceneManagerWindow : DependencyInjectionUtility.IInjectable
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  

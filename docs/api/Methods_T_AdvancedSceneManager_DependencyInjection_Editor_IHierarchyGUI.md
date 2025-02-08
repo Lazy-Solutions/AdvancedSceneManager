@@ -6,19 +6,19 @@
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_AddGameObjectGUI">AddGameObjectGUI</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_AddGameObjectGUI.md">AddGameObjectGUI</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_AddSceneGUI">AddSceneGUI</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_AddSceneGUI.md">AddSceneGUI</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_RemoveGameObjectGUI">RemoveGameObjectGUI</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_RemoveGameObjectGUI.md">RemoveGameObjectGUI</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_RemoveSceneGUI">RemoveSceneGUI</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_RemoveSceneGUI.md">RemoveSceneGUI</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_Repaint">Repaint</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI_Repaint.md">Repaint</a></td>
 <td> </td></tr>
 </table>
 
@@ -26,5 +26,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI">IHierarchyGUI Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+<a href="T_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI.md">IHierarchyGUI Interface</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  

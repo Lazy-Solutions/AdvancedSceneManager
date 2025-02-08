@@ -1,12 +1,12 @@
 # onSubroutineStart Field
 
 
-Occurs before a subroutine in an executing <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine">GlobalCoroutine</a> is started.
+Occurs before a subroutine in an executing <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a> is started.
 
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -17,14 +17,14 @@ public static CoroutineUtility.Events.CoroutineFrameStartEvent onSubroutineStart
 
 
 #### Field Value
-<a href="T_AdvancedSceneManager_Utility_CoroutineUtility_Events_CoroutineFrameStartEvent">CoroutineUtility.Events.CoroutineFrameStartEvent</a>
+<a href="T_AdvancedSceneManager_Utility_CoroutineUtility_Events_CoroutineFrameStartEvent.md">CoroutineUtility.Events.CoroutineFrameStartEvent</a>
 
 ## Remarks
-A user object can be returned, which is then passed to <a href="F_AdvancedSceneManager_Utility_CoroutineUtility_Events_onSubroutineEnd">onSubroutineEnd</a>.
+A user object can be returned, which is then passed to <a href="F_AdvancedSceneManager_Utility_CoroutineUtility_Events_onSubroutineEnd.md">onSubroutineEnd</a>.
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CoroutineUtility_Events">CoroutineUtility.Events Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_CoroutineUtility_Events.md">CoroutineUtility.Events Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

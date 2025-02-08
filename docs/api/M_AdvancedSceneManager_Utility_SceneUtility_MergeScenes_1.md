@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -24,6 +24,6 @@ public static void MergeScenes(
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_SceneUtility_MergeScenes">MergeScenes Overload</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility Class</a>  
+<a href="Overload_AdvancedSceneManager_Utility_SceneUtility_MergeScenes.md">MergeScenes Overload</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

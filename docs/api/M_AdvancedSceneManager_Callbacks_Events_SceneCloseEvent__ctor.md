@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks_Events">AdvancedSceneManager.Callbacks.Events</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -18,5 +18,5 @@ public SceneCloseEvent()
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Callbacks_Events_SceneCloseEvent">SceneCloseEvent Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="T_AdvancedSceneManager_Callbacks_Events_SceneCloseEvent.md">SceneCloseEvent Class</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  

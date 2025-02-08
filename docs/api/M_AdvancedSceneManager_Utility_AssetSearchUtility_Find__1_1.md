@@ -6,7 +6,7 @@ Finds the *T* with the specified name.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -33,6 +33,6 @@ T
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_AssetSearchUtility">AssetSearchUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_AssetSearchUtility_Find">Find Overload</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_AssetSearchUtility.md">AssetSearchUtility Class</a>  
+<a href="Overload_AdvancedSceneManager_Utility_AssetSearchUtility_Find.md">Find Overload</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

@@ -6,7 +6,7 @@ Specifies that state of a scene.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Enums">AdvancedSceneManager.Models.Enums</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models_Enums.md">AdvancedSceneManager.Models.Enums</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -52,4 +52,4 @@ public enum SceneState
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Enums">AdvancedSceneManager.Models.Enums Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Enums.md">AdvancedSceneManager.Models.Enums Namespace</a>  

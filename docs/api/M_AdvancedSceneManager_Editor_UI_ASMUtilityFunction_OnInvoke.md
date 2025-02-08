@@ -6,7 +6,7 @@ Called when this function is invoked from UI.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_UI">AdvancedSceneManager.Editor.UI</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -25,5 +25,5 @@ public virtual void OnInvoke(
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Editor_UI_ASMUtilityFunction">ASMUtilityFunction Class</a>  
-<a href="N_AdvancedSceneManager_Editor_UI">AdvancedSceneManager.Editor.UI Namespace</a>  
+<a href="T_AdvancedSceneManager_Editor_UI_ASMUtilityFunction.md">ASMUtilityFunction Class</a>  
+<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>  

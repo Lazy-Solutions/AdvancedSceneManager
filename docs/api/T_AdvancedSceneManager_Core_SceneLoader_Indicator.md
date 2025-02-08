@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -20,19 +20,19 @@ public struct Indicator
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_color">color</a></td>
+<td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_color.md">color</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_text">text</a></td>
+<td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_text.md">text</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_tooltip">tooltip</a></td>
+<td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_tooltip.md">tooltip</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_useFontAwesome">useFontAwesome</a></td>
+<td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_useFontAwesome.md">useFontAwesome</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_useFontAwesomeBrands">useFontAwesomeBrands</a></td>
+<td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_useFontAwesomeBrands.md">useFontAwesomeBrands</a></td>
 <td> </td></tr>
 </table>
 
@@ -56,4 +56,4 @@ public struct Indicator
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  

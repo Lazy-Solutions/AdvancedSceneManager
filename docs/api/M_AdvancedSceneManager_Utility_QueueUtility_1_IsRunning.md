@@ -6,7 +6,7 @@ Gets if the item is running.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -19,7 +19,7 @@ public static bool IsRunning(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_QueueUtility_1">T</a></dt><dd> </dd></dl>
+<dl><dt>  <a href="T_AdvancedSceneManager_Utility_QueueUtility_1.md">T</a></dt><dd> </dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
@@ -28,5 +28,5 @@ public static bool IsRunning(
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_QueueUtility_1">QueueUtility(T) Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_QueueUtility_1.md">QueueUtility(T) Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

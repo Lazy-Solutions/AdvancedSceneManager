@@ -6,7 +6,7 @@ A [!:FilePathAttribute] that supports build.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,14 +22,14 @@ public class ASMFilePathAttribute : FilePathAttribute
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_ASMFilePathAttribute__ctor">ASMFilePathAttribute</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_ASMFilePathAttribute__ctor.md">ASMFilePathAttribute</a></td>
 <td> </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Utility_ASMFilePathAttribute_path">path</a></td>
+<td><a href="P_AdvancedSceneManager_Utility_ASMFilePathAttribute_path.md">path</a></td>
 <td>The path to the associated [!:ScriptableSingleton&lt;T&gt;].</td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.attribute.typeid" target="_blank" rel="noopener noreferrer">TypeId</a></td>
@@ -62,4 +62,4 @@ public class ASMFilePathAttribute : FilePathAttribute
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

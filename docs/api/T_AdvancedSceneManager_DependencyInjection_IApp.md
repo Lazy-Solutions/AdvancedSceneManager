@@ -6,7 +6,7 @@ Manages startup and quit processes.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection">AdvancedSceneManager.DependencyInjection</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -14,68 +14,68 @@ Manages startup and quit processes.
 public interface IApp : DependencyInjectionUtility.IInjectable
 ```
 
-<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable">DependencyInjectionUtility.IInjectable</a></td></tr>
+<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable.md">DependencyInjectionUtility.IInjectable</a></td></tr>
 </table>
 
 
 
 ## Remarks
-Usage: <a href="P_AdvancedSceneManager_SceneManager_app">app</a>.
+Usage: <a href="P_AdvancedSceneManager_SceneManager_app.md">app</a>.
 
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isBuildMode">isBuildMode</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isBuildMode.md">isBuildMode</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isQuitting">isQuitting</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isQuitting.md">isQuitting</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isRestart">isRestart</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isRestart.md">isRestart</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isStartupFinished">isStartupFinished</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isStartupFinished.md">isStartupFinished</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_startupProps">startupProps</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_startupProps.md">startupProps</a></td>
 <td> </td></tr>
 </table>
 
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_CancelQuit">CancelQuit</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_CancelQuit.md">CancelQuit</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_CancelStartup">CancelStartup</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_CancelStartup.md">CancelStartup</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_Exit">Exit</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_Exit.md">Exit</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_Quit">Quit</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_Quit.md">Quit</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_RegisterQuitCallback">RegisterQuitCallback</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_RegisterQuitCallback.md">RegisterQuitCallback</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_Restart">Restart</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_Restart.md">Restart</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_RestartAsync">RestartAsync</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_RestartAsync.md">RestartAsync</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_UnregisterQuitCallback">UnregisterQuitCallback</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_IApp_UnregisterQuitCallback.md">UnregisterQuitCallback</a></td>
 <td> </td></tr>
 </table>
 
 ## Events
 <table>
 <tr>
-<td><a href="E_AdvancedSceneManager_DependencyInjection_IApp_afterStartup">afterStartup</a></td>
+<td><a href="E_AdvancedSceneManager_DependencyInjection_IApp_afterStartup.md">afterStartup</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="E_AdvancedSceneManager_DependencyInjection_IApp_beforeStartup">beforeStartup</a></td>
+<td><a href="E_AdvancedSceneManager_DependencyInjection_IApp_beforeStartup.md">beforeStartup</a></td>
 <td> </td></tr>
 </table>
 
@@ -83,4 +83,4 @@ Usage: <a href="P_AdvancedSceneManager_SceneManager_app">app</a>.
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_DependencyInjection">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  

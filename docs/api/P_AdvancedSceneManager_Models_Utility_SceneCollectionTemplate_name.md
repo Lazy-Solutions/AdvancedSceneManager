@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Utility">AdvancedSceneManager.Models.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -21,5 +21,5 @@ public string name { get; }
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate">SceneCollectionTemplate Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate.md">SceneCollectionTemplate Class</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  

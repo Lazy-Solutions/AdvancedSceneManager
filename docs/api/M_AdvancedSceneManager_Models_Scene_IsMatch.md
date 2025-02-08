@@ -1,12 +1,12 @@
 # IsMatch Method
 
 
-Gets if *q* matches <a href="P_AdvancedSceneManager_Models_ASMModel_name">name</a>, [!:id], <a href="P_AdvancedSceneManager_Models_Scene_path">path</a>.
+Gets if *q* matches <a href="P_AdvancedSceneManager_Models_ASMModel_name.md">name</a>, [!:id], <a href="P_AdvancedSceneManager_Models_Scene_path.md">path</a>.
 
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -28,5 +28,5 @@ public override bool IsMatch(
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene">Scene Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

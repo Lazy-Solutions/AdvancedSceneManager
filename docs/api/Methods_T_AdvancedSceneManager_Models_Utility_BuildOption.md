@@ -12,7 +12,7 @@
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td>
 <td>Serves as the default hash function.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Utility_BuildOption_GetIsEnabledInCurrentContext">GetIsEnabledInCurrentContext</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Utility_BuildOption_GetIsEnabledInCurrentContext.md">GetIsEnabledInCurrentContext</a></td>
 <td>Get whatever we should be enabled in the current context.</td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td>
@@ -26,5 +26,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Utility_BuildOption">BuildOption Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Utility_BuildOption.md">BuildOption Class</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  

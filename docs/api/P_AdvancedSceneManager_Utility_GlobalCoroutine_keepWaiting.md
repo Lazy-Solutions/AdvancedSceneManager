@@ -6,7 +6,7 @@ keepWaiting, this is how unity knows if this coroutine is done or not.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,5 +23,5 @@ public override bool keepWaiting { get; }
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_GlobalCoroutine">GlobalCoroutine Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

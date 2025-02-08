@@ -196,34 +196,34 @@
 ## Extension Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_2">ASMScene</a></td>
-<td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene">Scene</a>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_2.md">ASMScene</a></td>
+<td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_3">ASMScene</a></td>
-<td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene">Scene</a>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_3.md">ASMScene</a></td>
+<td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere">CreateHere</a></td>
-<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere.md">CreateHere</a></td>
+<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere_1">CreateHere</a></td>
-<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere_1.md">CreateHere</a></td>
+<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere_2">CreateHere</a></td>
-<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere_2.md">CreateHere</a></td>
+<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere__1">CreateHere(TComponent)</a></td>
-<td>Creates a game object in this scene. Adds and returns component <em>TComponent</em>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere__1.md">CreateHere(TComponent)</a></td>
+<td>Creates a game object in this scene. Adds and returns component <em>TComponent</em>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MoveHere">MoveHere</a></td>
-<td>Moves <em>obj</em> to this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MoveHere.md">MoveHere</a></td>
+<td>Moves <em>obj</em> to this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CoroutineUtility_StartCoroutineGlobal">StartCoroutineGlobal</a></td>
-<td>Runs the coroutine using <a href="T_AdvancedSceneManager_Utility_CoroutineUtility">CoroutineUtility</a>, which means it won't be tied to a MonoBehaviour and will persist through scene close.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_CoroutineUtility">CoroutineUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_CoroutineUtility_StartCoroutineGlobal.md">StartCoroutineGlobal</a></td>
+<td>Runs the coroutine using <a href="T_AdvancedSceneManager_Utility_CoroutineUtility.md">CoroutineUtility</a>, which means it won't be tied to a MonoBehaviour and will persist through scene close.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_CoroutineUtility.md">CoroutineUtility</a>)</td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_GuidReference">GuidReference Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_GuidReference.md">GuidReference Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

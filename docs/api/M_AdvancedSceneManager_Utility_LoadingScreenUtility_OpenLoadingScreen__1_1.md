@@ -6,7 +6,7 @@ Shows a loading screen.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,18 +23,18 @@ where T : LoadingScreenBase
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene">Scene</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Core_SceneOperation">SceneOperation</a>  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(T)  (Optional)</dt><dd> </dd></dl>
+<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(T)  (Optional)</dt><dd> </dd></dl>
 
 #### Type Parameters
 <dl><dt /><dd /></dl>
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Utility_Async_1">Async</a>(T)
+<a href="T_AdvancedSceneManager_Utility_Async_1.md">Async</a>(T)
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility">LoadingScreenUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_LoadingScreenUtility_OpenLoadingScreen">OpenLoadingScreen Overload</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
+<a href="Overload_AdvancedSceneManager_Utility_LoadingScreenUtility_OpenLoadingScreen.md">OpenLoadingScreen Overload</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

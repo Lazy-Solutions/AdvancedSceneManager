@@ -27,20 +27,20 @@
 <td>isActiveAndEnabled</td>
 <td><p>Reports whether a GameObject and its associated Behaviour is active and enabled.</p><br />(Inherited from Behaviour)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isClosing">isClosing</a></td>
-<td>Gets whatever we're currently closing.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isClosing.md">isClosing</a></td>
+<td>Gets whatever we're currently closing.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isOpen">isOpen</a></td>
-<td>Gets whatever we're currently open.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isOpen.md">isOpen</a></td>
+<td>Gets whatever we're currently open.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isOpening">isOpening</a></td>
-<td>Gets whatever we're currently opening.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isOpening.md">isOpening</a></td>
+<td>Gets whatever we're currently opening.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 <tr>
 <td>name</td>
 <td><p>The name of the object.</p><br />(Inherited from Object)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Loading_LoadingScreen_operation">operation</a></td>
-<td>The current scene operation that this loading screen is associated with. May be null for the first few frames, before loading has actually begun.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreen">LoadingScreen</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Loading_LoadingScreen_operation.md">operation</a></td>
+<td>The current scene operation that this loading screen is associated with. May be null for the first few frames, before loading has actually begun.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>)</td></tr>
 <tr>
 <td>runInEditMode</td>
 <td><p>Allow a specific instance of a MonoBehaviour to run in edit mode (only available in the editor).</p><br />(Inherited from MonoBehaviour)</td></tr>
@@ -59,5 +59,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen">FadeLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_Defaults">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen Class</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  

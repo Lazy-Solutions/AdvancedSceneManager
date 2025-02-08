@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_Utility">AdvancedSceneManager.Editor.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -20,7 +20,7 @@ public struct PostBuildEventArgs
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs__ctor">BuildUtility.PostBuildEventArgs</a></td>
+<td><a href="M_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs__ctor.md">BuildUtility.PostBuildEventArgs</a></td>
 <td> </td></tr>
 </table>
 
@@ -43,13 +43,13 @@ public struct PostBuildEventArgs
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_error">error</a></td>
+<td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_error.md">error</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_report">report</a></td>
+<td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_report.md">report</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_warning">warning</a></td>
+<td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_warning.md">warning</a></td>
 <td> </td></tr>
 </table>
 
@@ -57,4 +57,4 @@ public struct PostBuildEventArgs
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_Utility">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  

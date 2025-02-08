@@ -6,7 +6,7 @@ Specifies location for a custom element in the ASM window.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_UI">AdvancedSceneManager.Editor.UI</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -40,4 +40,4 @@ public enum ElementLocation
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_UI">AdvancedSceneManager.Editor.UI Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>  

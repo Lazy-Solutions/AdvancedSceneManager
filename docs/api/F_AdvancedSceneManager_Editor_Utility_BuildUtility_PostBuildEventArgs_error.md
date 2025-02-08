@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_Utility">AdvancedSceneManager.Editor.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -21,5 +21,5 @@ public (string , string )[] error
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs">BuildUtility.PostBuildEventArgs Structure</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs.md">BuildUtility.PostBuildEventArgs Structure</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  

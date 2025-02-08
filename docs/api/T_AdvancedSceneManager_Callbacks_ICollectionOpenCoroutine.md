@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -12,7 +12,7 @@
 public interface ICollectionOpenCoroutine : ISceneCallbacks
 ```
 
-<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks">ISceneCallbacks</a></td></tr>
+<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks.md">ISceneCallbacks</a></td></tr>
 </table>
 
 
@@ -20,12 +20,12 @@ public interface ICollectionOpenCoroutine : ISceneCallbacks
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_ICollectionOpenCoroutine_OnCollectionOpen">OnCollectionOpen</a></td>
+<td><a href="M_AdvancedSceneManager_Callbacks_ICollectionOpenCoroutine_OnCollectionOpen.md">OnCollectionOpen</a></td>
 <td><p>Callback for when a scene, in a collection, that a MonoBehaviour is contained within is opened.</p><p>
 
 Called before loading screen is hidden, if one is defined, or else just when collection has opened.</p><br /><br />
 
- See also: <ul><li><a href="T_AdvancedSceneManager_Callbacks_ICollectionOpen">ICollectionOpen</a></li><li><a href="T_AdvancedSceneManager_Callbacks_ICollectionOpen">ICollectionOpen</a></li><li>[!:ICollectionOpenAwaitable]</li></ul>
+ See also: <ul><li><a href="T_AdvancedSceneManager_Callbacks_ICollectionOpen.md">ICollectionOpen</a></li><li><a href="T_AdvancedSceneManager_Callbacks_ICollectionOpen.md">ICollectionOpen</a></li><li>[!:ICollectionOpenAwaitable]</li></ul>
 
 </td></tr>
 </table>
@@ -34,4 +34,4 @@ Called before loading screen is hidden, if one is defined, or else just when col
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  

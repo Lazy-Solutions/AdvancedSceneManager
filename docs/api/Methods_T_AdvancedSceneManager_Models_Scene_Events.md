@@ -23,5 +23,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene_Events">Scene.Events Structure</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Scene_Events.md">Scene.Events Structure</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

@@ -6,7 +6,7 @@ Specifies if this scene loader will can be applied to all scenes. Otherwise scen
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -21,14 +21,14 @@ public virtual bool isGlobal { get; }
 
 ## Remarks
 To flag a scene to be opened with this loader, the following two methods can be used: 
-If <a href="P_AdvancedSceneManager_Core_SceneLoader_sceneToggleText">sceneToggleText</a> is non-empty, a toggle will be displayed in scene popup.
+If <a href="P_AdvancedSceneManager_Core_SceneLoader_sceneToggleText.md">sceneToggleText</a> is non-empty, a toggle will be displayed in scene popup.
 
-Programmatically <a href="M_AdvancedSceneManager_Models_Scene_SetSceneLoader__1">SetSceneLoader(T)()</a> can be used.
+Programmatically <a href="M_AdvancedSceneManager_Models_Scene_SetSceneLoader__1.md">SetSceneLoader(T)()</a> can be used.
 
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Core_SceneLoader">SceneLoader Class</a>  
-<a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core Namespace</a>  
+<a href="T_AdvancedSceneManager_Core_SceneLoader.md">SceneLoader Class</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  

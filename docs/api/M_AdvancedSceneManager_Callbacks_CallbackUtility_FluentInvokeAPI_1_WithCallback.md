@@ -6,7 +6,7 @@ Specify a callback, this should point to the interface method which provides a <
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -19,17 +19,17 @@ public CallbackUtility.FluentInvokeAPI<T> WithCallback(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_Callback">CallbackUtility.FluentInvokeAPI(T).Callback</a></dt><dd> </dd></dl>
+<dl><dt>  <a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_Callback.md">CallbackUtility.FluentInvokeAPI(T).Callback</a></dt><dd> </dd></dl>
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1">CallbackUtility.FluentInvokeAPI</a>(<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1">T</a>)
+<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">CallbackUtility.FluentInvokeAPI</a>(<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">T</a>)
 
 ## Remarks
-This is not needed for callback interfaces inheriting from <a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks">ISceneCallbacks</a>.
+This is not needed for callback interfaces inheriting from <a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks.md">ISceneCallbacks</a>.
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1">CallbackUtility.FluentInvokeAPI(T) Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">CallbackUtility.FluentInvokeAPI(T) Class</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  

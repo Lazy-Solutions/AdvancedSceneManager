@@ -6,10 +6,10 @@
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_ILockable_isLocked">isLocked</a></td>
+<td><a href="P_AdvancedSceneManager_Models_ILockable_isLocked.md">isLocked</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_ILockable_lockMessage">lockMessage</a></td>
+<td><a href="P_AdvancedSceneManager_Models_ILockable_lockMessage.md">lockMessage</a></td>
 <td> </td></tr>
 </table>
 
@@ -17,5 +17,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_ILockable">ILockable Interface</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_ILockable.md">ILockable Interface</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

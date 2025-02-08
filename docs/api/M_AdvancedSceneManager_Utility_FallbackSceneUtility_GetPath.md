@@ -6,7 +6,7 @@ Gets the fallback scene.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -26,5 +26,5 @@ This would be the scene at build index 0. If this method returns the wrong scene
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_FallbackSceneUtility">FallbackSceneUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_FallbackSceneUtility.md">FallbackSceneUtility Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

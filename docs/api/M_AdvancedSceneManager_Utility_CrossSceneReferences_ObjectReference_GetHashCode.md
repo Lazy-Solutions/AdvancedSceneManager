@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -21,6 +21,6 @@ public override int GetHashCode()
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference">ObjectReference Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference_GetHashCode">GetHashCode Overload</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference Class</a>  
+<a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference_GetHashCode.md">GetHashCode Overload</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  

@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection">AdvancedSceneManager.DependencyInjection</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -26,6 +26,6 @@ T
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility">DependencyInjectionUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetService">GetService Overload</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility.md">DependencyInjectionUtility Class</a>  
+<a href="Overload_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetService.md">GetService Overload</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  

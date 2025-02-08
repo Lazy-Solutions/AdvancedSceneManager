@@ -1,12 +1,12 @@
 # CallbackUtility Class
 
 
-An utility class that invokes callbacks (defined in interfaces based on <a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks">ISceneCallbacks</a>).
+An utility class that invokes callbacks (defined in interfaces based on <a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks.md">ISceneCallbacks</a>).
 
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,19 +22,19 @@ public static class CallbackUtility
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_DoCollectionCloseCallbacks">DoCollectionCloseCallbacks</a></td>
+<td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_DoCollectionCloseCallbacks.md">DoCollectionCloseCallbacks</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_DoCollectionOpenCallbacks">DoCollectionOpenCallbacks</a></td>
+<td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_DoCollectionOpenCallbacks.md">DoCollectionOpenCallbacks</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_DoSceneCloseCallbacks">DoSceneCloseCallbacks</a></td>
+<td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_DoSceneCloseCallbacks.md">DoSceneCloseCallbacks</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_DoSceneOpenCallbacks">DoSceneOpenCallbacks</a></td>
+<td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_DoSceneOpenCallbacks.md">DoSceneOpenCallbacks</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_Invoke__1">Invoke(T)</a></td>
+<td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_Invoke__1.md">Invoke(T)</a></td>
 <td> </td></tr>
 </table>
 
@@ -42,4 +42,4 @@ public static class CallbackUtility
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  

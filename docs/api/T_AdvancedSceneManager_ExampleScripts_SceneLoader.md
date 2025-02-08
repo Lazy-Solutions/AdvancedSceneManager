@@ -6,7 +6,7 @@ Contains examples of how to override scene loading.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_ExampleScripts">AdvancedSceneManager.ExampleScripts</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,4 +23,4 @@ public static class SceneLoader
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_ExampleScripts">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  

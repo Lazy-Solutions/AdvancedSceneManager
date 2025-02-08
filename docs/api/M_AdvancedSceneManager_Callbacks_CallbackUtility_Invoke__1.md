@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -20,11 +20,11 @@ where T : ISceneCallbacks
 <dl><dt /><dd /></dl>
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1">CallbackUtility.FluentInvokeAPI</a>(T)
+<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">CallbackUtility.FluentInvokeAPI</a>(T)
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility">CallbackUtility Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility.md">CallbackUtility Class</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  

@@ -6,7 +6,7 @@
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_Models_DefaultASMScenesCollection_isImported">isImported</a></td>
+<td><a href="F_AdvancedSceneManager_Models_DefaultASMScenesCollection_isImported.md">isImported</a></td>
 <td> </td></tr>
 </table>
 
@@ -14,5 +14,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_DefaultASMScenesCollection">DefaultASMScenesCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_DefaultASMScenesCollection.md">DefaultASMScenesCollection Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

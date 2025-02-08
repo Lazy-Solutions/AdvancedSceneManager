@@ -23,5 +23,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs">BuildUtility.PostBuildEventArgs Structure</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs.md">BuildUtility.PostBuildEventArgs Structure</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  

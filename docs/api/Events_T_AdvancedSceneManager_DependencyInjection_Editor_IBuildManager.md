@@ -6,10 +6,10 @@
 ## Events
 <table>
 <tr>
-<td><a href="E_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager_postBuild">postBuild</a></td>
+<td><a href="E_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager_postBuild.md">postBuild</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="E_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager_preBuild">preBuild</a></td>
+<td><a href="E_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager_preBuild.md">preBuild</a></td>
 <td> </td></tr>
 </table>
 
@@ -17,5 +17,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager">IBuildManager Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+<a href="T_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager.md">IBuildManager Interface</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  

@@ -6,7 +6,7 @@ Specifies a method that should be used as a callback to insert a visual element 
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_UI">AdvancedSceneManager.Editor.UI</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,20 +22,20 @@ public class ASMWindowElementAttribute : Attribute
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Editor_UI_ASMWindowElementAttribute__ctor">ASMWindowElementAttribute</a></td>
+<td><a href="M_AdvancedSceneManager_Editor_UI_ASMWindowElementAttribute__ctor.md">ASMWindowElementAttribute</a></td>
 <td>Defines a new ASM window element.</td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Editor_UI_ASMWindowElementAttribute_IsVisibleByDefault">IsVisibleByDefault</a></td>
+<td><a href="P_AdvancedSceneManager_Editor_UI_ASMWindowElementAttribute_IsVisibleByDefault.md">IsVisibleByDefault</a></td>
 <td>Gets if this element is visible by default.</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Editor_UI_ASMWindowElementAttribute_Location">Location</a></td>
+<td><a href="P_AdvancedSceneManager_Editor_UI_ASMWindowElementAttribute_Location.md">Location</a></td>
 <td>Specifies the location of this element.</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Editor_UI_ASMWindowElementAttribute_Name">Name</a></td>
+<td><a href="P_AdvancedSceneManager_Editor_UI_ASMWindowElementAttribute_Name.md">Name</a></td>
 <td>A name to distinguish this from other attributes on the same method.</td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.attribute.typeid" target="_blank" rel="noopener noreferrer">TypeId</a></td>
@@ -68,4 +68,4 @@ public class ASMWindowElementAttribute : Attribute
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_UI">AdvancedSceneManager.Editor.UI Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>  

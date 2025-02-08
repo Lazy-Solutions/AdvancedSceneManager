@@ -6,7 +6,7 @@ Opens loading screen, performs action and hides loading screen again.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -21,15 +21,15 @@ public static SceneOperation DoAction(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene">Scene</a></dt><dd>The loading screen scene.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.func-1" target="_blank" rel="noopener noreferrer">Func</a>(<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>)</dt><dd>To coroutine to execute.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>)  (Optional)</dt><dd>The callback to perform when loading script is loaded, but before ASM has called <a href="M_AdvancedSceneManager_Loading_LoadingScreenBase_OnOpen">OnOpen()</a>.</dd></dl>
+<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>The loading screen scene.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.func-1" target="_blank" rel="noopener noreferrer">Func</a>(<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>)</dt><dd>To coroutine to execute.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)  (Optional)</dt><dd>The callback to perform when loading script is loaded, but before ASM has called <a href="M_AdvancedSceneManager_Loading_LoadingScreenBase_OnOpen.md">OnOpen()</a>.</dd></dl>
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation">SceneOperation</a>
+<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility">LoadingScreenUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_LoadingScreenUtility_DoAction">DoAction Overload</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
+<a href="Overload_AdvancedSceneManager_Utility_LoadingScreenUtility_DoAction.md">DoAction Overload</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

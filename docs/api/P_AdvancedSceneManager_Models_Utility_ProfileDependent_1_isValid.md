@@ -6,7 +6,7 @@ Gets if the current state of this *T* is valid.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Utility">AdvancedSceneManager.Models.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,5 +23,5 @@ public bool isValid { get; }
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1">ProfileDependent(T) Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">ProfileDependent(T) Class</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  

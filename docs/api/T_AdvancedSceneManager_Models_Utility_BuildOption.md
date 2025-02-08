@@ -6,7 +6,7 @@ Represents an enabled state depending on build context (editor, dev build, non-d
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Utility">AdvancedSceneManager.Models.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -24,20 +24,20 @@ public class BuildOption : INotifyPropertyChanged
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Utility_BuildOption__ctor">BuildOption</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Utility_BuildOption__ctor.md">BuildOption</a></td>
 <td> </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_Utility_BuildOption_enableInDevBuild">enableInDevBuild</a></td>
+<td><a href="P_AdvancedSceneManager_Models_Utility_BuildOption_enableInDevBuild.md">enableInDevBuild</a></td>
 <td>Gets whatever we should be enabled in dev build.</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_Utility_BuildOption_enableInEditor">enableInEditor</a></td>
+<td><a href="P_AdvancedSceneManager_Models_Utility_BuildOption_enableInEditor.md">enableInEditor</a></td>
 <td>Gets whatever we should be enabled in editor.</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_Utility_BuildOption_enableInNonDevBuild">enableInNonDevBuild</a></td>
+<td><a href="P_AdvancedSceneManager_Models_Utility_BuildOption_enableInNonDevBuild.md">enableInNonDevBuild</a></td>
 <td>Gets whatever we should be enabled in non-dev build.</td></tr>
 </table>
 
@@ -50,7 +50,7 @@ public class BuildOption : INotifyPropertyChanged
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td>
 <td>Serves as the default hash function.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Utility_BuildOption_GetIsEnabledInCurrentContext">GetIsEnabledInCurrentContext</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Utility_BuildOption_GetIsEnabledInCurrentContext.md">GetIsEnabledInCurrentContext</a></td>
 <td>Get whatever we should be enabled in the current context.</td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td>
@@ -63,7 +63,7 @@ public class BuildOption : INotifyPropertyChanged
 ## Events
 <table>
 <tr>
-<td><a href="E_AdvancedSceneManager_Models_Utility_BuildOption_PropertyChanged">PropertyChanged</a></td>
+<td><a href="E_AdvancedSceneManager_Models_Utility_BuildOption_PropertyChanged.md">PropertyChanged</a></td>
 <td> </td></tr>
 </table>
 
@@ -71,4 +71,4 @@ public class BuildOption : INotifyPropertyChanged
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Utility">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  

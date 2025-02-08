@@ -6,7 +6,7 @@ Provides utility methods for working with VisualElement.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_UI">AdvancedSceneManager.Editor.UI</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,7 +22,7 @@ public static class UIElementUtility
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Editor_UI_UIElementUtility_UseFontAwesome">UseFontAwesome</a></td>
+<td><a href="M_AdvancedSceneManager_Editor_UI_UIElementUtility_UseFontAwesome.md">UseFontAwesome</a></td>
 <td>Applies font awesome <em>free</em> to the VisualElement.</td></tr>
 </table>
 
@@ -30,4 +30,4 @@ public static class UIElementUtility
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_UI">AdvancedSceneManager.Editor.UI Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>  

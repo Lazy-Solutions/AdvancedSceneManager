@@ -9,7 +9,7 @@
 <td>hideFlags</td>
 <td><p>Should the object be hidden, saved with the Scene or modifiable by the user?</p><br />(Inherited from Object)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_Utility_ProfileDependent_1_isValid">isValid</a></td>
+<td><a href="P_AdvancedSceneManager_Models_Utility_ProfileDependent_1_isValid.md">isValid</a></td>
 <td>Gets if the current state of this <em>T</em> is valid.</td></tr>
 <tr>
 <td>name</td>
@@ -20,5 +20,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1">ProfileDependent(T) Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">ProfileDependent(T) Class</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  

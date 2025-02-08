@@ -6,7 +6,7 @@ Enables or disables events. Setter not available, and getter always returns fals
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,5 +23,5 @@ public static bool enableEvents { get; set; }
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CoroutineUtility_Events">CoroutineUtility.Events Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_CoroutineUtility_Events.md">CoroutineUtility.Events Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

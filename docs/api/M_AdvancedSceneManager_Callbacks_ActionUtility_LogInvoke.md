@@ -6,7 +6,7 @@ Tries to invoke the action, then logs error to the console if an error occurred.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -32,5 +32,5 @@ Extension Methods (C# Programming Guide)</a>.
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Callbacks_ActionUtility">ActionUtility Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="T_AdvancedSceneManager_Callbacks_ActionUtility.md">ActionUtility Class</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  

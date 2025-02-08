@@ -1,12 +1,12 @@
 # With(LoadPriority) Method
 
 
-Sets the <a href="T_AdvancedSceneManager_Models_Enums_LoadPriority">LoadPriority</a> this operation will use.
+Sets the <a href="T_AdvancedSceneManager_Models_Enums_LoadPriority.md">LoadPriority</a> this operation will use.
 
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -19,18 +19,18 @@ public SceneOperation With(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Enums_LoadPriority">LoadPriority</a></dt><dd> </dd></dl>
+<dl><dt>  <a href="T_AdvancedSceneManager_Models_Enums_LoadPriority.md">LoadPriority</a></dt><dd> </dd></dl>
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation">SceneOperation</a>
+<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
 
 ## Remarks
-Overrides <a href="P_AdvancedSceneManager_Models_SceneCollection_loadPriority">loadPriority</a> and <a href="P_AdvancedSceneManager_Models_Scene_loadPriority">loadPriority</a> if set.
+Overrides <a href="P_AdvancedSceneManager_Models_SceneCollection_loadPriority.md">loadPriority</a> and <a href="P_AdvancedSceneManager_Models_Scene_loadPriority.md">loadPriority</a> if set.
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Core_SceneOperation">SceneOperation Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_SceneOperation_With">With Overload</a>  
-<a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core Namespace</a>  
+<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation Class</a>  
+<a href="Overload_AdvancedSceneManager_Core_SceneOperation_With.md">With Overload</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  

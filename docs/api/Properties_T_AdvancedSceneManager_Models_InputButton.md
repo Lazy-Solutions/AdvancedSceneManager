@@ -6,7 +6,7 @@
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_InputButton_isValid">isValid</a></td>
+<td><a href="P_AdvancedSceneManager_Models_InputButton_isValid.md">isValid</a></td>
 <td>Gets if this binding is valid.</td></tr>
 </table>
 
@@ -14,5 +14,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_InputButton">InputButton Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_InputButton.md">InputButton Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

@@ -6,7 +6,7 @@ Gets the calculated total progress of this progress scope.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Loading">AdvancedSceneManager.Loading</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,5 +23,5 @@ public float totalProgress { get; }
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Loading_ProgressScope">ProgressScope Class</a>  
-<a href="N_AdvancedSceneManager_Loading">AdvancedSceneManager.Loading Namespace</a>  
+<a href="T_AdvancedSceneManager_Loading_ProgressScope.md">ProgressScope Class</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  

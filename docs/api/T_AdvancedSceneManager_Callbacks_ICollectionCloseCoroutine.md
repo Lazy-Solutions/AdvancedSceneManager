@@ -7,14 +7,14 @@ Callback for when a scene, in a collection, that a MonoBehaviour is contained wi
 Called after loading screen has opened, if one is defined, or else just before collection is closed.
   
   
- See also: <ul><li><a href="T_AdvancedSceneManager_Callbacks_ICollectionClose">ICollectionClose</a></li><li>ICollectionCloseCoroutine</li><li>[!:ICollectionCloseAwaitable]</li></ul>
+ See also: <ul><li><a href="T_AdvancedSceneManager_Callbacks_ICollectionClose.md">ICollectionClose</a></li><li>ICollectionCloseCoroutine</li><li>[!:ICollectionCloseAwaitable]</li></ul>
 
 
 
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,7 +22,7 @@ Called after loading screen has opened, if one is defined, or else just before c
 public interface ICollectionCloseCoroutine : ISceneCallbacks
 ```
 
-<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks">ISceneCallbacks</a></td></tr>
+<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks.md">ISceneCallbacks</a></td></tr>
 </table>
 
 
@@ -30,12 +30,12 @@ public interface ICollectionCloseCoroutine : ISceneCallbacks
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_ICollectionCloseCoroutine_OnCollectionClose">OnCollectionClose</a></td>
+<td><a href="M_AdvancedSceneManager_Callbacks_ICollectionCloseCoroutine_OnCollectionClose.md">OnCollectionClose</a></td>
 <td><p>Callback for when a scene, in a collection, that a MonoBehaviour is contained within is closed.</p><p>
 
 Called after loading screen has opened, if one is defined, or else just before collection is closed.</p><br /><br />
 
- See also: <ul><li><a href="T_AdvancedSceneManager_Callbacks_ICollectionClose">ICollectionClose</a></li><li>ICollectionCloseCoroutine</li><li>[!:ICollectionCloseAwaitable]</li></ul>
+ See also: <ul><li><a href="T_AdvancedSceneManager_Callbacks_ICollectionClose.md">ICollectionClose</a></li><li>ICollectionCloseCoroutine</li><li>[!:ICollectionCloseAwaitable]</li></ul>
 
 </td></tr>
 </table>
@@ -44,4 +44,4 @@ Called after loading screen has opened, if one is defined, or else just before c
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  

@@ -1,12 +1,12 @@
 # ASMScene(GameObject, Scene) Method
 
 
-Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene">Scene</a>.
+Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.
 
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -20,10 +20,10 @@ public static Scene ASMScene(
 
 
 #### Parameters
-<dl><dt>  GameObject</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene">Scene</a></dt><dd> </dd></dl>
+<dl><dt>  GameObject</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Models_Scene">Scene</a>
+<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>
 
 #### Usage Note
 In Visual Basic and C#, you can call this method as an instance method on any object of type GameObject. When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
@@ -36,6 +36,6 @@ Extension Methods (C# Programming Guide)</a>.
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_SceneUtility_ASMScene">ASMScene Overload</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility Class</a>  
+<a href="Overload_AdvancedSceneManager_Utility_SceneUtility_ASMScene.md">ASMScene Overload</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

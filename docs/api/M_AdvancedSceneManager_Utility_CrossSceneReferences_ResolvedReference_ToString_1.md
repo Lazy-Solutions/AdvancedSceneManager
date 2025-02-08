@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -27,6 +27,6 @@ public string ToString(
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference">ResolvedReference Structure</a>  
-<a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_ToString">ToString Overload</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md">ResolvedReference Structure</a>  
+<a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_ToString.md">ToString Overload</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  

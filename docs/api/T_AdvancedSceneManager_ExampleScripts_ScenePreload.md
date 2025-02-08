@@ -6,7 +6,7 @@ Contains examples for preloading scenes.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_ExampleScripts">AdvancedSceneManager.ExampleScripts</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,7 +22,7 @@ public class ScenePreload : MonoBehaviour
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload__ctor">ScenePreload</a></td>
+<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload__ctor.md">ScenePreload</a></td>
 <td> </td></tr>
 </table>
 
@@ -44,7 +44,7 @@ public class ScenePreload : MonoBehaviour
 <td>gameObject</td>
 <td><p>The game object this component is attached to. A component is always attached to a game object.</p><br />(Inherited from Component)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_ExampleScripts_ScenePreload_hasPreloadedScene">hasPreloadedScene</a></td>
+<td><a href="P_AdvancedSceneManager_ExampleScripts_ScenePreload_hasPreloadedScene.md">hasPreloadedScene</a></td>
 <td> </td></tr>
 <tr>
 <td>hideFlags</td>
@@ -90,10 +90,10 @@ public class ScenePreload : MonoBehaviour
 <td>CancelInvoke(String)</td>
 <td><p>Cancels all Invoke calls with name methodName on this behaviour.</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_CancelPreloadCoroutine">CancelPreloadCoroutine</a></td>
+<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_CancelPreloadCoroutine.md">CancelPreloadCoroutine</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_CancelPreloadStatically">CancelPreloadStatically</a></td>
+<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_CancelPreloadStatically.md">CancelPreloadStatically</a></td>
 <td> </td></tr>
 <tr>
 <td>CompareTag(String)</td>
@@ -105,10 +105,10 @@ public class ScenePreload : MonoBehaviour
 <td>Equals</td>
 <td><br />(Inherited from Object)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_FinishPreloadCoroutine">FinishPreloadCoroutine</a></td>
+<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_FinishPreloadCoroutine.md">FinishPreloadCoroutine</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_FinishPreloadStatically">FinishPreloadStatically</a></td>
+<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_FinishPreloadStatically.md">FinishPreloadStatically</a></td>
 <td> </td></tr>
 <tr>
 <td>GetComponent(String)</td>
@@ -249,10 +249,10 @@ public class ScenePreload : MonoBehaviour
 <td>StartCoroutine_Auto</td>
 <td><br />(Inherited from MonoBehaviour)<br /><strong>Obsolete.</strong></td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_StartPreloadCoroutine">StartPreloadCoroutine</a></td>
+<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_StartPreloadCoroutine.md">StartPreloadCoroutine</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_StartPreloadStatically">StartPreloadStatically</a></td>
+<td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_StartPreloadStatically.md">StartPreloadStatically</a></td>
 <td> </td></tr>
 <tr>
 <td>StopAllCoroutines</td>
@@ -280,40 +280,40 @@ public class ScenePreload : MonoBehaviour
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_ExampleScripts_ScenePreload_SceneToPreload">SceneToPreload</a></td>
+<td><a href="F_AdvancedSceneManager_ExampleScripts_ScenePreload_SceneToPreload.md">SceneToPreload</a></td>
 <td> </td></tr>
 </table>
 
 ## Extension Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_2">ASMScene</a></td>
-<td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene">Scene</a>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_2.md">ASMScene</a></td>
+<td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_3">ASMScene</a></td>
-<td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene">Scene</a>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_3.md">ASMScene</a></td>
+<td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere">CreateHere</a></td>
-<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere.md">CreateHere</a></td>
+<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere_1">CreateHere</a></td>
-<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere_1.md">CreateHere</a></td>
+<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere_2">CreateHere</a></td>
-<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere_2.md">CreateHere</a></td>
+<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere__1">CreateHere(TComponent)</a></td>
-<td>Creates a game object in this scene. Adds and returns component <em>TComponent</em>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere__1.md">CreateHere(TComponent)</a></td>
+<td>Creates a game object in this scene. Adds and returns component <em>TComponent</em>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MoveHere">MoveHere</a></td>
-<td>Moves <em>obj</em> to this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MoveHere.md">MoveHere</a></td>
+<td>Moves <em>obj</em> to this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CoroutineUtility_StartCoroutineGlobal">StartCoroutineGlobal</a></td>
-<td>Runs the coroutine using <a href="T_AdvancedSceneManager_Utility_CoroutineUtility">CoroutineUtility</a>, which means it won't be tied to a MonoBehaviour and will persist through scene close.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_CoroutineUtility">CoroutineUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_CoroutineUtility_StartCoroutineGlobal.md">StartCoroutineGlobal</a></td>
+<td>Runs the coroutine using <a href="T_AdvancedSceneManager_Utility_CoroutineUtility.md">CoroutineUtility</a>, which means it won't be tied to a MonoBehaviour and will persist through scene close.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_CoroutineUtility.md">CoroutineUtility</a>)</td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_ExampleScripts">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  

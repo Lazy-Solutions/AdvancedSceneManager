@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Utility">AdvancedSceneManager.Models.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -15,12 +15,12 @@ public void _PreloadAdditive()
 
 
 #### Implements
-<a href="M_AdvancedSceneManager_Models_SceneCollection_IMethods_IEvent__PreloadAdditive">SceneCollection.IMethods.IEvent._PreloadAdditive()</a>  
+<a href="M_AdvancedSceneManager_Models_SceneCollection_IMethods_IEvent__PreloadAdditive.md">SceneCollection.IMethods.IEvent._PreloadAdditive()</a>  
 
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependentCollection">ProfileDependentCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependentCollection.md">ProfileDependentCollection Class</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  

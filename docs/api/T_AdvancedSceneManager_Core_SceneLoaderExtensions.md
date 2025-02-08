@@ -6,7 +6,7 @@ Provides extensions for scene loading.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -25,16 +25,16 @@ This provides access to direct scene loading / unloading, which bypasses many ch
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Core_SceneLoaderExtensions_Load">Load(Scene, SceneLoadArgs)</a></td>
+<td><a href="M_AdvancedSceneManager_Core_SceneLoaderExtensions_Load.md">Load(Scene, SceneLoadArgs)</a></td>
 <td>Loads the scene using a scene loader.</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Core_SceneLoaderExtensions_Load_1">Load(Scene, Boolean, SceneOperation, SceneCollection, Boolean, Nullable(ThreadPriority), Action, Action(String))</a></td>
+<td><a href="M_AdvancedSceneManager_Core_SceneLoaderExtensions_Load_1.md">Load(Scene, Boolean, SceneOperation, SceneCollection, Boolean, Nullable(ThreadPriority), Action, Action(String))</a></td>
 <td>Loads the scene using a scene loader.</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Core_SceneLoaderExtensions_Unload_1">Unload(Scene, SceneUnloadArgs)</a></td>
+<td><a href="M_AdvancedSceneManager_Core_SceneLoaderExtensions_Unload_1.md">Unload(Scene, SceneUnloadArgs)</a></td>
 <td>Unloads the scene using a scene loader.</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Core_SceneLoaderExtensions_Unload">Unload(Scene, SceneOperation, SceneCollection, Boolean, Nullable(ThreadPriority), Action, Action(String))</a></td>
+<td><a href="M_AdvancedSceneManager_Core_SceneLoaderExtensions_Unload.md">Unload(Scene, SceneOperation, SceneCollection, Boolean, Nullable(ThreadPriority), Action, Action(String))</a></td>
 <td>Unloads the scene using a scene loader.</td></tr>
 </table>
 
@@ -42,4 +42,4 @@ This provides access to direct scene loading / unloading, which bypasses many ch
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  

@@ -6,10 +6,10 @@
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_Models_SceneCollection_Events_OnClose">OnClose</a></td>
+<td><a href="F_AdvancedSceneManager_Models_SceneCollection_Events_OnClose.md">OnClose</a></td>
 <td>Occurs when this collection is closed.</td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Models_SceneCollection_Events_OnOpen">OnOpen</a></td>
+<td><a href="F_AdvancedSceneManager_Models_SceneCollection_Events_OnOpen.md">OnOpen</a></td>
 <td>Occurs when this collection is opened.</td></tr>
 </table>
 
@@ -17,5 +17,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_SceneCollection_Events">SceneCollection.Events Structure</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_SceneCollection_Events.md">SceneCollection.Events Structure</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

@@ -6,7 +6,7 @@ Animates the alpha of all Graphic found on *element* and children.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -38,6 +38,6 @@ Extension Methods (C# Programming Guide)</a>.
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_UIFadeExtensions">UIFadeExtensions Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_UIFadeExtensions_Fade">Fade Overload</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_UIFadeExtensions.md">UIFadeExtensions Class</a>  
+<a href="Overload_AdvancedSceneManager_Utility_UIFadeExtensions_Fade.md">Fade Overload</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

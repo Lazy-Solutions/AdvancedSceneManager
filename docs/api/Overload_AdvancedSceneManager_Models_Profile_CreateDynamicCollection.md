@@ -4,10 +4,10 @@
 ## Overload List
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Profile_CreateDynamicCollection">CreateDynamicCollection()</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Profile_CreateDynamicCollection.md">CreateDynamicCollection()</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Profile_CreateDynamicCollection_1">CreateDynamicCollection(String, String)</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Profile_CreateDynamicCollection_1.md">CreateDynamicCollection(String, String)</a></td>
 <td> </td></tr>
 </table>
 
@@ -15,5 +15,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Profile">Profile Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Profile.md">Profile Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

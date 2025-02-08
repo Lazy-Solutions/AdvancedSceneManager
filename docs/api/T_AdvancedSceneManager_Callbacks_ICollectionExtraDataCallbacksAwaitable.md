@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -13,7 +13,7 @@ public interface ICollectionExtraDataCallbacksAwaitable : ICollectionOpenAwaitab
 	ISceneCallbacks, ICollectionCloseAwaitable
 ```
 
-<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Callbacks_ICollectionCloseAwaitable">ICollectionCloseAwaitable</a>, <a href="T_AdvancedSceneManager_Callbacks_ICollectionOpenAwaitable">ICollectionOpenAwaitable</a>, <a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks">ISceneCallbacks</a></td></tr>
+<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Callbacks_ICollectionCloseAwaitable.md">ICollectionCloseAwaitable</a>, <a href="T_AdvancedSceneManager_Callbacks_ICollectionOpenAwaitable.md">ICollectionOpenAwaitable</a>, <a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks.md">ISceneCallbacks</a></td></tr>
 </table>
 
 
@@ -21,15 +21,15 @@ public interface ICollectionExtraDataCallbacksAwaitable : ICollectionOpenAwaitab
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_ICollectionCloseAwaitable_OnCollectionClose">OnCollectionClose</a></td>
-<td><br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_ICollectionCloseAwaitable">ICollectionCloseAwaitable</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Callbacks_ICollectionCloseAwaitable_OnCollectionClose.md">OnCollectionClose</a></td>
+<td><br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_ICollectionCloseAwaitable.md">ICollectionCloseAwaitable</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_ICollectionOpenAwaitable_OnCollectionOpen">OnCollectionOpen</a></td>
-<td><br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_ICollectionOpenAwaitable">ICollectionOpenAwaitable</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Callbacks_ICollectionOpenAwaitable_OnCollectionOpen.md">OnCollectionOpen</a></td>
+<td><br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_ICollectionOpenAwaitable.md">ICollectionOpenAwaitable</a>)</td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  

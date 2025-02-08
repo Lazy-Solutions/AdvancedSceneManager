@@ -6,7 +6,7 @@ A class that contains callbacks for splash screens.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Loading">AdvancedSceneManager.Loading</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -14,14 +14,14 @@ A class that contains callbacks for splash screens.
 public abstract class SplashScreen : LoadingScreenBase
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>  →  SplashScreen</td></tr>
-<tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Defaults_SplashASM">AdvancedSceneManager.Defaults.SplashASM</a><br /><a href="T_AdvancedSceneManager_Defaults_SplashFade">AdvancedSceneManager.Defaults.SplashFade</a></td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  →  SplashScreen</td></tr>
+<tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Defaults_SplashASM.md">AdvancedSceneManager.Defaults.SplashASM</a><br /><a href="T_AdvancedSceneManager_Defaults_SplashFade.md">AdvancedSceneManager.Defaults.SplashFade</a></td></tr>
 </table>
 
 
 
 ## Remarks
-SplashScreen and <a href="T_AdvancedSceneManager_Loading_LoadingScreen">LoadingScreen</a> cannot coexist within the same scene.
+SplashScreen and <a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a> cannot coexist within the same scene.
 
 ## Properties
 <table>
@@ -47,14 +47,14 @@ SplashScreen and <a href="T_AdvancedSceneManager_Loading_LoadingScreen">LoadingS
 <td>isActiveAndEnabled</td>
 <td><p>Reports whether a GameObject and its associated Behaviour is active and enabled.</p><br />(Inherited from Behaviour)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isClosing">isClosing</a></td>
-<td>Gets whatever we're currently closing.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isClosing.md">isClosing</a></td>
+<td>Gets whatever we're currently closing.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isOpen">isOpen</a></td>
-<td>Gets whatever we're currently open.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isOpen.md">isOpen</a></td>
+<td>Gets whatever we're currently open.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isOpening">isOpening</a></td>
-<td>Gets whatever we're currently opening.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isOpening.md">isOpening</a></td>
+<td>Gets whatever we're currently opening.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 <tr>
 <td>name</td>
 <td><p>The name of the object.</p><br />(Inherited from Object)</td></tr>
@@ -99,7 +99,7 @@ SplashScreen and <a href="T_AdvancedSceneManager_Loading_LoadingScreen">LoadingS
 <td>CompareTag(TagHandle)</td>
 <td><p>Checks the GameObject's tag against the defined tag.</p><br />(Inherited from Component)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Loading_SplashScreen_DisplaySplashScreen">DisplaySplashScreen</a></td>
+<td><a href="M_AdvancedSceneManager_Loading_SplashScreen_DisplaySplashScreen.md">DisplaySplashScreen</a></td>
 <td><strong>Obsolete.</strong></td></tr>
 <tr>
 <td>Equals</td>
@@ -195,8 +195,8 @@ SplashScreen and <a href="T_AdvancedSceneManager_Loading_LoadingScreen">LoadingS
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td>
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Loading_LoadingScreenBase_HasPressedAnyKey">HasPressedAnyKey</a></td>
-<td>Gets if any key has been pressed this frame.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Loading_LoadingScreenBase_HasPressedAnyKey.md">HasPressedAnyKey</a></td>
+<td>Gets if any key has been pressed this frame.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 <tr>
 <td>Invoke</td>
 <td><p>Invokes the method methodName in time seconds.</p><br />(Inherited from MonoBehaviour)</td></tr>
@@ -210,16 +210,16 @@ SplashScreen and <a href="T_AdvancedSceneManager_Loading_LoadingScreen">LoadingS
 <td>IsInvoking(String)</td>
 <td><p>Is any invoke on methodName pending?</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Loading_SplashScreen_OnClose">OnClose</a></td>
-<td>Called when splash scene is about to close.<br />(Overrides <a href="M_AdvancedSceneManager_Loading_LoadingScreenBase_OnClose">LoadingScreenBase.OnClose()</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Loading_SplashScreen_OnClose.md">OnClose</a></td>
+<td>Called when splash scene is about to close.<br />(Overrides <a href="M_AdvancedSceneManager_Loading_LoadingScreenBase_OnClose.md">LoadingScreenBase.OnClose()</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Loading_SplashScreen_OnOpen">OnOpen</a></td>
-<td>Called when splash scene is opened.<br />(Overrides <a href="M_AdvancedSceneManager_Loading_LoadingScreenBase_OnOpen">LoadingScreenBase.OnOpen()</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Loading_SplashScreen_OnOpen.md">OnOpen</a></td>
+<td>Called when splash scene is opened.<br />(Overrides <a href="M_AdvancedSceneManager_Loading_LoadingScreenBase_OnOpen.md">LoadingScreenBase.OnOpen()</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Loading_LoadingScreenBase_OnProgressChanged">OnProgressChanged</a></td>
-<td><br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Loading_LoadingScreenBase_OnProgressChanged.md">OnProgressChanged</a></td>
+<td><br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Loading_SplashScreen_OnValidate">OnValidate</a></td>
+<td><a href="M_AdvancedSceneManager_Loading_SplashScreen_OnValidate.md">OnValidate</a></td>
 <td> </td></tr>
 <tr>
 <td>SendMessage(String)</td>
@@ -279,17 +279,17 @@ SplashScreen and <a href="T_AdvancedSceneManager_Loading_LoadingScreen">LoadingS
 <td>TryGetComponent``1(UMP)</td>
 <td><br />(Inherited from Component)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Loading_LoadingScreenBase_WaitForAnyKey">WaitForAnyKey</a></td>
-<td>Returns WaitUntil that waits for user to press any key.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Loading_LoadingScreenBase_WaitForAnyKey.md">WaitForAnyKey</a></td>
+<td>Returns WaitUntil that waits for user to press any key.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 </table>
 
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_Loading_LoadingScreenBase_canvas">canvas</a></td>
+<td><a href="F_AdvancedSceneManager_Loading_LoadingScreenBase_canvas.md">canvas</a></td>
 <td><p>The canvas that this loading screen uses.</p><p>
 
-This will automatically register canvas with <a href="T_AdvancedSceneManager_Utility_CanvasSortOrderUtility">CanvasSortOrderUtility</a>, to automatically manage canvas sort order.</p><br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">
+This will automatically register canvas with <a href="T_AdvancedSceneManager_Utility_CanvasSortOrderUtility.md">CanvasSortOrderUtility</a>, to automatically manage canvas sort order.</p><br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">
 
 LoadingScreenBase</a>)</td></tr>
 </table>
@@ -297,33 +297,33 @@ LoadingScreenBase</a>)</td></tr>
 ## Extension Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_2">ASMScene</a></td>
-<td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene">Scene</a>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_2.md">ASMScene</a></td>
+<td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_3">ASMScene</a></td>
-<td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene">Scene</a>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_3.md">ASMScene</a></td>
+<td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere">CreateHere</a></td>
-<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere.md">CreateHere</a></td>
+<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere_1">CreateHere</a></td>
-<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere_1.md">CreateHere</a></td>
+<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere_2">CreateHere</a></td>
-<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere_2.md">CreateHere</a></td>
+<td>Creates a game object in this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere__1">CreateHere(TComponent)</a></td>
-<td>Creates a game object in this scene. Adds and returns component <em>TComponent</em>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateHere__1.md">CreateHere(TComponent)</a></td>
+<td>Creates a game object in this scene. Adds and returns component <em>TComponent</em>.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MoveHere">MoveHere</a></td>
-<td>Moves <em>obj</em> to this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility">SceneUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MoveHere.md">MoveHere</a></td>
+<td>Moves <em>obj</em> to this scene.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CoroutineUtility_StartCoroutineGlobal">StartCoroutineGlobal</a></td>
-<td>Runs the coroutine using <a href="T_AdvancedSceneManager_Utility_CoroutineUtility">CoroutineUtility</a>, which means it won't be tied to a MonoBehaviour and will persist through scene close.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_CoroutineUtility">CoroutineUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_CoroutineUtility_StartCoroutineGlobal.md">StartCoroutineGlobal</a></td>
+<td>Runs the coroutine using <a href="T_AdvancedSceneManager_Utility_CoroutineUtility.md">CoroutineUtility</a>, which means it won't be tied to a MonoBehaviour and will persist through scene close.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_CoroutineUtility.md">CoroutineUtility</a>)</td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Loading">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  

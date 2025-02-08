@@ -6,10 +6,10 @@
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependent_1_DoAction">DoAction(Action(T))</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependent_1_DoAction.md">DoAction(Action(T))</a></td>
 <td>Performs an action on the scene.</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependent_1_DoAction__1">DoAction(T2)(Func(T, T2))</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependent_1_DoAction__1.md">DoAction(T2)(Func(T, T2))</a></td>
 <td>Performs an action on the scene.</td></tr>
 <tr>
 <td>Equals</td>
@@ -21,7 +21,7 @@
 <td>GetInstanceID</td>
 <td><p>Gets the instance ID of the object.</p><br />(Inherited from Object)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependent_1_GetModel">GetModel</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependent_1_GetModel.md">GetModel</a></td>
 <td>Gets the selected scene.</td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td>
@@ -37,13 +37,13 @@
 ## Extension Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_ScriptableObjectUtility_Save">Save</a></td>
-<td>Saves the ScriptableObject.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_ScriptableObjectUtility">ScriptableObjectUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_ScriptableObjectUtility_Save.md">Save</a></td>
+<td>Saves the ScriptableObject.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_ScriptableObjectUtility.md">ScriptableObjectUtility</a>)</td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1">ProfileDependent(T) Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">ProfileDependent(T) Class</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  

@@ -6,7 +6,7 @@ Contains utility methods for depdency injection.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection">AdvancedSceneManager.DependencyInjection</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,19 +22,19 @@ public static class DependencyInjectionUtility
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_EnumerateServices">EnumerateServices</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_EnumerateServices.md">EnumerateServices</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetService">GetService(Type)</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetService.md">GetService(Type)</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetService__1">GetService(T)()</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetService__1.md">GetService(T)()</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetServices__1">GetServices(T)</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetServices__1.md">GetServices(T)</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_Remove__1">Remove(T)</a></td>
+<td><a href="M_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_Remove__1.md">Remove(T)</a></td>
 <td> </td></tr>
 </table>
 
@@ -42,4 +42,4 @@ public static class DependencyInjectionUtility
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_DependencyInjection">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  

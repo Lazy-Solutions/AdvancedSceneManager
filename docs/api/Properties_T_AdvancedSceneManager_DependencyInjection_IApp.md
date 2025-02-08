@@ -6,19 +6,19 @@
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isBuildMode">isBuildMode</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isBuildMode.md">isBuildMode</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isQuitting">isQuitting</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isQuitting.md">isQuitting</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isRestart">isRestart</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isRestart.md">isRestart</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isStartupFinished">isStartupFinished</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_isStartupFinished.md">isStartupFinished</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_startupProps">startupProps</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IApp_startupProps.md">startupProps</a></td>
 <td> </td></tr>
 </table>
 
@@ -26,5 +26,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_IApp">IApp Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="T_AdvancedSceneManager_DependencyInjection_IApp.md">IApp Interface</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  

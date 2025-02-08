@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -21,14 +21,14 @@ public class CoroutineAwaiter : INotifyCompletion
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CoroutineAwaiter__ctor">CoroutineAwaiter</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_CoroutineAwaiter__ctor.md">CoroutineAwaiter</a></td>
 <td> </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Utility_CoroutineAwaiter_IsCompleted">IsCompleted</a></td>
+<td><a href="P_AdvancedSceneManager_Utility_CoroutineAwaiter_IsCompleted.md">IsCompleted</a></td>
 <td> </td></tr>
 </table>
 
@@ -41,13 +41,13 @@ public class CoroutineAwaiter : INotifyCompletion
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td>
 <td>Serves as the default hash function.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CoroutineAwaiter_GetResult">GetResult</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_CoroutineAwaiter_GetResult.md">GetResult</a></td>
 <td> </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td>
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CoroutineAwaiter_OnCompleted">OnCompleted</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_CoroutineAwaiter_OnCompleted.md">OnCompleted</a></td>
 <td> </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">ToString</a></td>
@@ -58,4 +58,4 @@ public class CoroutineAwaiter : INotifyCompletion
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

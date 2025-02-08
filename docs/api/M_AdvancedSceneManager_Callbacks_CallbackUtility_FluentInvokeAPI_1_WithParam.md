@@ -6,7 +6,7 @@ Specify a parameter to use when invoking the callback.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,11 +22,11 @@ public CallbackUtility.FluentInvokeAPI<T> WithParam(
 <dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a></dt><dd> </dd></dl>
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1">CallbackUtility.FluentInvokeAPI</a>(<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1">T</a>)
+<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">CallbackUtility.FluentInvokeAPI</a>(<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">T</a>)
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1">CallbackUtility.FluentInvokeAPI(T) Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">CallbackUtility.FluentInvokeAPI(T) Class</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  

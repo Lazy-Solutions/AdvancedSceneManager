@@ -6,7 +6,7 @@
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Helpers_AssetsProxy_Enumerate__1">Enumerate(T)</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Helpers_AssetsProxy_Enumerate__1.md">Enumerate(T)</a></td>
 <td>Enumerates <em>T</em>.</td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Equals</a></td>
@@ -26,5 +26,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Helpers_AssetsProxy">AssetsProxy Class</a>  
-<a href="N_AdvancedSceneManager_Models_Helpers">AdvancedSceneManager.Models.Helpers Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Helpers_AssetsProxy.md">AssetsProxy Class</a>  
+<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>  

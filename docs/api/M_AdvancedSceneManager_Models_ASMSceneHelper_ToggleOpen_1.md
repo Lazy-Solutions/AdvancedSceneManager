@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -18,19 +18,19 @@ public SceneOperation ToggleOpen(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection">SceneCollection</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd></dl>
+<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd></dl>
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation">SceneOperation</a>
+<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
 
 #### Implements
-<a href="M_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_ToggleOpen">SceneCollection.IMethods_Target.ToggleOpen(SceneCollection, Boolean)</a>  
+<a href="M_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_ToggleOpen.md">SceneCollection.IMethods_Target.ToggleOpen(SceneCollection, Boolean)</a>  
 
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_ASMSceneHelper">ASMSceneHelper Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_ASMSceneHelper_ToggleOpen">ToggleOpen Overload</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_ASMSceneHelper.md">ASMSceneHelper Class</a>  
+<a href="Overload_AdvancedSceneManager_Models_ASMSceneHelper_ToggleOpen.md">ToggleOpen Overload</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

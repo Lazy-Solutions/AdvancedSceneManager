@@ -18,24 +18,24 @@
 <td>MoveNext</td>
 <td><br />(Inherited from CustomYieldInstruction)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_GlobalCoroutine_Pause">Pause</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_GlobalCoroutine_Pause.md">Pause</a></td>
 <td>Pauses the coroutine. Make sure to not use this from within a coroutine, unless you also make sure to unpause it from outside. No effect if already paused.</td></tr>
 <tr>
 <td>Reset</td>
 <td><br />(Inherited from CustomYieldInstruction)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_GlobalCoroutine_Resume">Resume</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_GlobalCoroutine_Resume.md">Resume</a></td>
 <td>Resumes a paused coroutine. No effect if not paused.</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_GlobalCoroutine_Stop">Stop</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_GlobalCoroutine_Stop.md">Stop</a></td>
 <td>Stops the coroutine.</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_GlobalCoroutine_ToString">ToString</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_GlobalCoroutine_ToString.md">ToString</a></td>
 <td><p>Returns the name of the object.</p><br />(Overrides <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">
 
 Object.ToString()</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_GlobalCoroutine_ViewCallerInCodeEditor">ViewCallerInCodeEditor</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_GlobalCoroutine_ViewCallerInCodeEditor.md">ViewCallerInCodeEditor</a></td>
 <td> </td></tr>
 </table>
 
@@ -43,5 +43,5 @@ Object.ToString()</a>)</td></tr>
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_GlobalCoroutine">GlobalCoroutine Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

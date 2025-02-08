@@ -27,14 +27,14 @@
 <td>isActiveAndEnabled</td>
 <td><p>Reports whether a GameObject and its associated Behaviour is active and enabled.</p><br />(Inherited from Behaviour)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isClosing">isClosing</a></td>
-<td>Gets whatever we're currently closing.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isClosing.md">isClosing</a></td>
+<td>Gets whatever we're currently closing.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isOpen">isOpen</a></td>
-<td>Gets whatever we're currently open.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isOpen.md">isOpen</a></td>
+<td>Gets whatever we're currently open.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isOpening">isOpening</a></td>
-<td>Gets whatever we're currently opening.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase">LoadingScreenBase</a>)</td></tr>
+<td><a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isOpening.md">isOpening</a></td>
+<td>Gets whatever we're currently opening.<br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 <tr>
 <td>name</td>
 <td><p>The name of the object.</p><br />(Inherited from Object)</td></tr>
@@ -56,5 +56,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Loading_SplashScreen">SplashScreen Class</a>  
-<a href="N_AdvancedSceneManager_Loading">AdvancedSceneManager.Loading Namespace</a>  
+<a href="T_AdvancedSceneManager_Loading_SplashScreen.md">SplashScreen Class</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  

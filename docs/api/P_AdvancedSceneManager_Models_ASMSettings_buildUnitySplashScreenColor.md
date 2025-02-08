@@ -6,7 +6,7 @@ This is the color of the unity splash screen, used to make the transition from u
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -20,12 +20,12 @@ public Color buildUnitySplashScreenColor { get; }
 Color
 
 #### Implements
-<a href="P_AdvancedSceneManager_DependencyInjection_IProjectSettings_buildUnitySplashScreenColor">IProjectSettings.buildUnitySplashScreenColor</a>  
+<a href="P_AdvancedSceneManager_DependencyInjection_IProjectSettings_buildUnitySplashScreenColor.md">IProjectSettings.buildUnitySplashScreenColor</a>  
 
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_ASMSettings">ASMSettings Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_ASMSettings.md">ASMSettings Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

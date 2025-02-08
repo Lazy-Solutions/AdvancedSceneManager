@@ -6,7 +6,7 @@
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Utility_ASMFilePathAttribute_path">path</a></td>
+<td><a href="P_AdvancedSceneManager_Utility_ASMFilePathAttribute_path.md">path</a></td>
 <td>The path to the associated [!:ScriptableSingleton&lt;T&gt;].</td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.attribute.typeid" target="_blank" rel="noopener noreferrer">TypeId</a></td>
@@ -17,5 +17,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_ASMFilePathAttribute">ASMFilePathAttribute Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_ASMFilePathAttribute.md">ASMFilePathAttribute Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

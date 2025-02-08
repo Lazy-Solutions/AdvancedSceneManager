@@ -6,7 +6,7 @@ Call *action* when ASM has initialized.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager">AdvancedSceneManager</a>  
+**Namespace:** <a href="N_AdvancedSceneManager.md">AdvancedSceneManager</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -28,5 +28,5 @@ Will call immediately if already initialized.
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_SceneManager">SceneManager Class</a>  
-<a href="N_AdvancedSceneManager">AdvancedSceneManager Namespace</a>  
+<a href="T_AdvancedSceneManager_SceneManager.md">SceneManager Class</a>  
+<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>  

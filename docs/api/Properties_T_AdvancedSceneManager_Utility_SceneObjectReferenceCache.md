@@ -47,5 +47,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_SceneObjectReferenceCache">SceneObjectReferenceCache Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_SceneObjectReferenceCache.md">SceneObjectReferenceCache Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

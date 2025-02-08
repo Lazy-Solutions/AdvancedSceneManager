@@ -6,13 +6,13 @@
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Utility_SerializableDictionary_2_Keys">Keys</a></td>
+<td><a href="P_AdvancedSceneManager_Utility_SerializableDictionary_2_Keys.md">Keys</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Utility_SerializableDictionary_2_throwOnDeserializeWhenKeyValueMismatch">throwOnDeserializeWhenKeyValueMismatch</a></td>
+<td><a href="P_AdvancedSceneManager_Utility_SerializableDictionary_2_throwOnDeserializeWhenKeyValueMismatch.md">throwOnDeserializeWhenKeyValueMismatch</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Utility_SerializableDictionary_2_Values">Values</a></td>
+<td><a href="P_AdvancedSceneManager_Utility_SerializableDictionary_2_Values.md">Values</a></td>
 <td> </td></tr>
 </table>
 
@@ -20,5 +20,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_SerializableDictionary_2">SerializableDictionary(TKey, TValue) Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_SerializableDictionary_2.md">SerializableDictionary(TKey, TValue) Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

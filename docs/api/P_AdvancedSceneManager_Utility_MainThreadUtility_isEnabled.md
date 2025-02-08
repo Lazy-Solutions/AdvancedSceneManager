@@ -1,12 +1,12 @@
 # isEnabled Property
 
 
-Gets whatever <a href="T_AdvancedSceneManager_Utility_MainThreadUtility">MainThreadUtility</a> is enabled, set to false in source code to disable.
+Gets whatever <a href="T_AdvancedSceneManager_Utility_MainThreadUtility.md">MainThreadUtility</a> is enabled, set to false in source code to disable.
 
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -23,5 +23,5 @@ public static bool isEnabled { get; }
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_MainThreadUtility">MainThreadUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_MainThreadUtility.md">MainThreadUtility Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

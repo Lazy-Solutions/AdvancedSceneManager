@@ -6,7 +6,7 @@ Provides access to ASM settings.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Helpers">AdvancedSceneManager.Models.Helpers</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,20 +22,20 @@ public sealed class SettingsProxy
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Helpers_SettingsProxy__ctor">SettingsProxy</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Helpers_SettingsProxy__ctor.md">SettingsProxy</a></td>
 <td> </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_Helpers_SettingsProxy_profile">profile</a></td>
+<td><a href="P_AdvancedSceneManager_Models_Helpers_SettingsProxy_profile.md">profile</a></td>
 <td>The current ASM profile.</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_Helpers_SettingsProxy_project">project</a></td>
+<td><a href="P_AdvancedSceneManager_Models_Helpers_SettingsProxy_project.md">project</a></td>
 <td>The project-wide ASM settings.</td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_Models_Helpers_SettingsProxy_user">user</a></td>
+<td><a href="P_AdvancedSceneManager_Models_Helpers_SettingsProxy_user.md">user</a></td>
 <td> </td></tr>
 </table>
 
@@ -59,4 +59,4 @@ public sealed class SettingsProxy
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Helpers">AdvancedSceneManager.Models.Helpers Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>  

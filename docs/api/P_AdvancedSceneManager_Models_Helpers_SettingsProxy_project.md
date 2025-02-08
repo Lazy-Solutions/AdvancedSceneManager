@@ -6,7 +6,7 @@ The project-wide ASM settings.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Helpers">AdvancedSceneManager.Models.Helpers</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -17,11 +17,11 @@ public ASMSettings project { get; }
 
 
 #### Property Value
-<a href="T_AdvancedSceneManager_Models_ASMSettings">ASMSettings</a>
+<a href="T_AdvancedSceneManager_Models_ASMSettings.md">ASMSettings</a>
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Helpers_SettingsProxy">SettingsProxy Class</a>  
-<a href="N_AdvancedSceneManager_Models_Helpers">AdvancedSceneManager.Models.Helpers Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Helpers_SettingsProxy.md">SettingsProxy Class</a>  
+<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>  

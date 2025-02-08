@@ -6,7 +6,7 @@
 ## Events
 <table>
 <tr>
-<td><a href="E_AdvancedSceneManager_Models_DynamicCollection_PropertyChanged">PropertyChanged</a></td>
+<td><a href="E_AdvancedSceneManager_Models_DynamicCollection_PropertyChanged.md">PropertyChanged</a></td>
 <td> </td></tr>
 </table>
 
@@ -14,5 +14,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_DynamicCollection">DynamicCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_DynamicCollection.md">DynamicCollection Class</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

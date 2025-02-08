@@ -6,7 +6,7 @@
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Models_Helpers_DefaultScenes_Enumerate">Enumerate</a></td>
+<td><a href="M_AdvancedSceneManager_Models_Helpers_DefaultScenes_Enumerate.md">Enumerate</a></td>
 <td>Enumerates all imported default scenes.</td></tr>
 <tr>
 <td>Equals</td>
@@ -31,13 +31,13 @@
 ## Extension Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_ScriptableObjectUtility_Save">Save</a></td>
-<td>Saves the ScriptableObject.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_ScriptableObjectUtility">ScriptableObjectUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_ScriptableObjectUtility_Save.md">Save</a></td>
+<td>Saves the ScriptableObject.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_ScriptableObjectUtility.md">ScriptableObjectUtility</a>)</td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Helpers_DefaultScenes">DefaultScenes Class</a>  
-<a href="N_AdvancedSceneManager_Models_Helpers">AdvancedSceneManager.Models.Helpers Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Helpers_DefaultScenes.md">DefaultScenes Class</a>  
+<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>  

@@ -47,5 +47,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_ExampleScripts_SceneOpen">SceneOpen Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="T_AdvancedSceneManager_ExampleScripts_SceneOpen.md">SceneOpen Class</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  

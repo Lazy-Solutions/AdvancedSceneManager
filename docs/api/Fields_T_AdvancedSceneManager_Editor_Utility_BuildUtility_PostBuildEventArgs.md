@@ -6,13 +6,13 @@
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_error">error</a></td>
+<td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_error.md">error</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_report">report</a></td>
+<td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_report.md">report</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_warning">warning</a></td>
+<td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_warning.md">warning</a></td>
 <td> </td></tr>
 </table>
 
@@ -20,5 +20,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs">BuildUtility.PostBuildEventArgs Structure</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs.md">BuildUtility.PostBuildEventArgs Structure</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  

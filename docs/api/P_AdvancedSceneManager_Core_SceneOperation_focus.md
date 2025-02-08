@@ -6,7 +6,7 @@ Sets focus to the specified scene. Overrides selected scene in collections.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -17,7 +17,7 @@ public Scene focus { get; }
 
 
 #### Property Value
-<a href="T_AdvancedSceneManager_Models_Scene">Scene</a>
+<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>
 
 ## Remarks
 No effect if preloading.
@@ -26,5 +26,5 @@ No effect if preloading.
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Core_SceneOperation">SceneOperation Class</a>  
-<a href="N_AdvancedSceneManager_Core">AdvancedSceneManager.Core Namespace</a>  
+<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation Class</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  

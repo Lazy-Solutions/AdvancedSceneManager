@@ -6,7 +6,7 @@ Callback for scene operations.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks_Events">AdvancedSceneManager.Callbacks.Events</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -29,4 +29,4 @@ public delegate void EventCallback<in TEventType>(
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks_Events">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  

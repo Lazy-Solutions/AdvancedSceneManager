@@ -6,19 +6,19 @@
 ## Properties
 <table>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_collections">collections</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_collections.md">collections</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_defaults">defaults</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_defaults.md">defaults</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_profiles">profiles</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_profiles.md">profiles</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_scenes">scenes</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_scenes.md">scenes</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_templates">templates</a></td>
+<td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_templates.md">templates</a></td>
 <td> </td></tr>
 </table>
 
@@ -26,5 +26,5 @@
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_IAssetsProvider">IAssetsProvider Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="T_AdvancedSceneManager_DependencyInjection_IAssetsProvider.md">IAssetsProvider Interface</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  

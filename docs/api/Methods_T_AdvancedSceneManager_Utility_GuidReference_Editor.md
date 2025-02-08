@@ -48,7 +48,7 @@
 <td>MoveNextTarget</td>
 <td><br />(Inherited from Editor)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_GuidReference_Editor_OnInspectorGUI">OnInspectorGUI</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_GuidReference_Editor_OnInspectorGUI.md">OnInspectorGUI</a></td>
 <td><br />(Overrides Editor.OnInspectorGUI())</td></tr>
 <tr>
 <td>OnInteractivePreviewGUI</td>
@@ -84,20 +84,20 @@
 <td>ToString</td>
 <td><p>Returns the name of the object.</p><br />(Inherited from Object)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_GuidReference_Editor_UseDefaultMargins">UseDefaultMargins</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_GuidReference_Editor_UseDefaultMargins.md">UseDefaultMargins</a></td>
 <td><br />(Overrides Editor.UseDefaultMargins())</td></tr>
 </table>
 
 ## Extension Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_ScriptableObjectUtility_Save">Save</a></td>
-<td>Saves the ScriptableObject.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_ScriptableObjectUtility">ScriptableObjectUtility</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Utility_ScriptableObjectUtility_Save.md">Save</a></td>
+<td>Saves the ScriptableObject.<br />(Defined by <a href="T_AdvancedSceneManager_Utility_ScriptableObjectUtility.md">ScriptableObjectUtility</a>)</td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_GuidReference_Editor">GuidReference.Editor Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_GuidReference_Editor.md">GuidReference.Editor Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

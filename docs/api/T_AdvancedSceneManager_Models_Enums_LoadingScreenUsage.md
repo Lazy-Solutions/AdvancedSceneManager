@@ -6,7 +6,7 @@ Specifies what loading screen to use, if any.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Enums">AdvancedSceneManager.Models.Enums</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models_Enums.md">AdvancedSceneManager.Models.Enums</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -29,11 +29,11 @@ public enum LoadingScreenUsage
 <tr>
 <td>Override</td>
 <td>2</td>
-<td>Specifies overriden loading screen, defined in <a href="T_AdvancedSceneManager_Models_SceneCollection">SceneCollection</a>.</td></tr>
+<td>Specifies overriden loading screen, defined in <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>.</td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Enums">AdvancedSceneManager.Models.Enums Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Enums.md">AdvancedSceneManager.Models.Enums Namespace</a>  

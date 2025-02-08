@@ -8,7 +8,7 @@ Returns the first active loaded object of Type type.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -33,5 +33,5 @@ Object The first active loaded object that matches the specified type. It return
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_UnityCompatibiltyHelper">UnityCompatibiltyHelper Class</a>  
-<a href="N_AdvancedSceneManager_Utility">AdvancedSceneManager.Utility Namespace</a>  
+<a href="T_AdvancedSceneManager_Utility_UnityCompatibiltyHelper.md">UnityCompatibiltyHelper Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

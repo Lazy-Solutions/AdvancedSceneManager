@@ -4,7 +4,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -17,7 +17,7 @@ public static implicit operator SceneAsset (
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene">Scene</a></dt><dd> </dd></dl>
+<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
 
 #### Return Value
 SceneAsset
@@ -26,6 +26,6 @@ SceneAsset
 
 
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene">Scene Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_Scene_op_Implicit">Implicit Overload</a>  
-<a href="N_AdvancedSceneManager_Models">AdvancedSceneManager.Models Namespace</a>  
+<a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
+<a href="Overload_AdvancedSceneManager_Models_Scene_op_Implicit.md">Implicit Overload</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  

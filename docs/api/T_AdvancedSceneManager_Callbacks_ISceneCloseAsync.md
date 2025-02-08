@@ -5,7 +5,7 @@
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -15,7 +15,7 @@ public interface ISceneCloseAsync : ISceneCloseCoroutine,
 	ISceneCallbacks
 ```
 
-<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks">ISceneCallbacks</a>, <a href="T_AdvancedSceneManager_Callbacks_ISceneCloseCoroutine">ISceneCloseCoroutine</a></td></tr>
+<table><tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks.md">ISceneCallbacks</a>, <a href="T_AdvancedSceneManager_Callbacks_ISceneCloseCoroutine.md">ISceneCloseCoroutine</a></td></tr>
 </table>
 
 
@@ -23,12 +23,12 @@ public interface ISceneCloseAsync : ISceneCloseCoroutine,
 ## Methods
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Callbacks_ISceneCloseCoroutine_OnSceneClose">OnSceneClose</a></td>
-<td>Callback for when the scene that a MonoBehaviour is contained within is closed.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_ISceneCloseCoroutine">ISceneCloseCoroutine</a>)</td></tr>
+<td><a href="M_AdvancedSceneManager_Callbacks_ISceneCloseCoroutine_OnSceneClose.md">OnSceneClose</a></td>
+<td>Callback for when the scene that a MonoBehaviour is contained within is closed.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_ISceneCloseCoroutine.md">ISceneCloseCoroutine</a>)</td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  

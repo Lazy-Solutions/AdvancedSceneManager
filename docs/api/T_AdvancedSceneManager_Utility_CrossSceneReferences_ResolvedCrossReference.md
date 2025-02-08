@@ -6,7 +6,7 @@ Represents a resolved reference.
 
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
@@ -22,7 +22,7 @@ public struct ResolvedCrossReference
 ## Constructors
 <table>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference__ctor">ResolvedCrossReference</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference__ctor.md">ResolvedCrossReference</a></td>
 <td> </td></tr>
 </table>
 
@@ -38,23 +38,23 @@ public struct ResolvedCrossReference
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td>
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
-<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference_ToString">ToString</a></td>
+<td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference_ToString.md">ToString</a></td>
 <td><br />(Overrides <a href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring" target="_blank" rel="noopener noreferrer">ValueType.ToString()</a>)</td></tr>
 </table>
 
 ## Fields
 <table>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference_reference">reference</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference_reference.md">reference</a></td>
 <td>The unresolved reference.</td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference_result">result</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference_result.md">result</a></td>
 <td>The result when setting value.</td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference_value">value</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference_value.md">value</a></td>
 <td>The unresolved and resolved reference to the value.</td></tr>
 <tr>
-<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference_variable">variable</a></td>
+<td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference_variable.md">variable</a></td>
 <td>The unresolved and resolved reference to the variable.</td></tr>
 </table>
 
@@ -62,4 +62,4 @@ public struct ResolvedCrossReference
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  

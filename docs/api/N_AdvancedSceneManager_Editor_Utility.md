@@ -8,48 +8,48 @@
 ## Classes
 <table>
 <tr>
-<td><a href="T_AdvancedSceneManager_Editor_Utility_AssetDatabaseUtility">AssetDatabaseUtility</a></td>
+<td><a href="T_AdvancedSceneManager_Editor_Utility_AssetDatabaseUtility.md">AssetDatabaseUtility</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="T_AdvancedSceneManager_Editor_Utility_BlocklistUtility">BlocklistUtility</a></td>
+<td><a href="T_AdvancedSceneManager_Editor_Utility_BlocklistUtility.md">BlocklistUtility</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility">BuildUtility</a></td>
+<td><a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility.md">BuildUtility</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility">HierarchyGUIUtility</a></td>
+<td><a href="T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility.md">HierarchyGUIUtility</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="T_AdvancedSceneManager_Editor_Utility_LockUtility">LockUtility</a></td>
+<td><a href="T_AdvancedSceneManager_Editor_Utility_LockUtility.md">LockUtility</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="T_AdvancedSceneManager_Editor_Utility_SceneImportUtility">SceneImportUtility</a></td>
+<td><a href="T_AdvancedSceneManager_Editor_Utility_SceneImportUtility.md">SceneImportUtility</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="T_AdvancedSceneManager_Editor_Utility_SceneImportUtility_StringExtensions">SceneImportUtility.StringExtensions</a></td>
+<td><a href="T_AdvancedSceneManager_Editor_Utility_SceneImportUtility_StringExtensions.md">SceneImportUtility.StringExtensions</a></td>
 <td> </td></tr>
 </table>
 
 ## Structures
 <table>
 <tr>
-<td><a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs">BuildUtility.PostBuildEventArgs</a></td>
+<td><a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs.md">BuildUtility.PostBuildEventArgs</a></td>
 <td> </td></tr>
 </table>
 
 ## Delegates
 <table>
 <tr>
-<td><a href="T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility_HierarchyGameObjectGUI">HierarchyGUIUtility.HierarchyGameObjectGUI</a></td>
+<td><a href="T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility_HierarchyGameObjectGUI.md">HierarchyGUIUtility.HierarchyGameObjectGUI</a></td>
 <td> </td></tr>
 <tr>
-<td><a href="T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility_HierarchySceneGUI">HierarchyGUIUtility.HierarchySceneGUI</a></td>
+<td><a href="T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility_HierarchySceneGUI.md">HierarchyGUIUtility.HierarchySceneGUI</a></td>
 <td> </td></tr>
 </table>
 
 ## Enumerations
 <table>
 <tr>
-<td><a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_Reason">BuildUtility.Reason</a></td>
+<td><a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_Reason.md">BuildUtility.Reason</a></td>
 <td> </td></tr>
 </table>
