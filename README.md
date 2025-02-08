@@ -87,9 +87,7 @@ public MyScript : MonoBehaviour
 
 ## Documentation
 
-You may access documentation by switching branches:\
-[1.9](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/1.9/readme.md)\
-[2.0](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/2.0/readme.md)
+You may access documentation by checking out the [docs folder](/docs):\
 
 >Note: the offline version packaged with asset store releases may not be up-to-date, since documentation may be updated after release.
 

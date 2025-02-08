@@ -1,0 +1,24 @@
+# ICollectionOpenCoroutine Methods
+
+
+
+
+## Methods
+<table>
+<tr>
+<td><a href="M_AdvancedSceneManager_Callbacks_ICollectionOpenCoroutine_OnCollectionOpen">OnCollectionOpen</a></td>
+<td><p>Callback for when a scene, in a collection, that a MonoBehaviour is contained within is opened.</p><p>
+
+Called before loading screen is hidden, if one is defined, or else just when collection has opened.</p><br /><br />
+
+ See also: <ul><li><a href="T_AdvancedSceneManager_Callbacks_ICollectionOpen">ICollectionOpen</a></li><li><a href="T_AdvancedSceneManager_Callbacks_ICollectionOpen">ICollectionOpen</a></li><li>[!:ICollectionOpenAwaitable]</li></ul>
+
+</td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="T_AdvancedSceneManager_Callbacks_ICollectionOpenCoroutine">ICollectionOpenCoroutine Interface</a>  
+<a href="N_AdvancedSceneManager_Callbacks">AdvancedSceneManager.Callbacks Namespace</a>  
