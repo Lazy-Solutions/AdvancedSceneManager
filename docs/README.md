@@ -15,8 +15,6 @@ layout:
 
 # Advanced Scene Manager
 
-Welcome to Advanced Scene Manager documentation.
-
 ### Guides
 
 > Guides are handwritten articles to help you up to speed in working with ASM.
