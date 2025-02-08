@@ -24,7 +24,7 @@ It includes:
 
 ## Intermediary level:
 
-The intermediary level tracks the open state of [scenes](Scenes.md) and [collections](<Scene collections.md>), and also verifies whatever a scene actually should be opened or not (ASM does not support duplicate instances of a scene).
+The intermediary level tracks the open state of [scenes](../Scenes.md) and [collections](<../Scene collections.md>), and also verifies whatever a scene actually should be opened or not (ASM does not support duplicate instances of a scene).
 
 Can be accessed using:\
 `SceneManager.runtime`
@@ -52,7 +52,7 @@ This is the core of ASM. It deals with the actual loading and unloading of scene
 \
 
 
-[Scene operation](<Scene operations.md>) basically takes a list of [scenes](Scenes.md) to close, and a list of scenes to open, then closes / opens them. Scenes specified to close will always be closed before any scenes are opened (except loading screen).
+[Scene operation](scene-operations.md) basically takes a list of [scenes](../Scenes.md) to close, and a list of scenes to open, then closes / opens them. Scenes specified to close will always be closed before any scenes are opened (except loading screen).
 
 Scene operation also manages loading screens and will automatically open a specified loading screen before it begins to unload scenes. If a loading screen was opened, then it will be automatically closed after scenes have been loaded.
 
@@ -86,4 +86,4 @@ sceneToOpen.Open().Close(closeAlreadyOpenScene).With(loadingScreenScene);
 
 ```
 
-> You should have a look at `.With(..)` using intellisense, or in the [api documentation](../api/Core.SceneOperation.md), it has many overloads for various different things.
+> You should have a look at `.With(..)` using intellisense, or in the [api documentation](../../api/Core.SceneOperation.md), it has many overloads for various different things.

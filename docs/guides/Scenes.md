@@ -83,7 +83,7 @@ Persistent scenes are scenes that do not automatically close when a collection i
 
 ## Preloading
 
-A scene can be preloaded by calling `Scene.Preload()`, or by using [scene helper](<Scene helper.md>). Only one scene may be preloaded at a time, and no other scene operations can occur while one is, _this is a unity limitation_.
+A scene can be preloaded by calling `Scene.Preload()`, or by using [scene helper](misc/scene-helper.md). Only one scene may be preloaded at a time, and no other scene operations can occur while one is, _this is a unity limitation_.
 
 ```csharp
 using AdvancedSceneManager.Models;

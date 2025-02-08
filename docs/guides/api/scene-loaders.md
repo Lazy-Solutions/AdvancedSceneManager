@@ -1,20 +1,20 @@
 # Scene loaders
 
-Scene loaders are what [Scene operations](Scene%20operations.md) use to actually load or unload a scene. Scene loaders allows ASM to modularize our scene loading and support different ways of loading scenes if need be.
+Scene loaders are what [Scene operations](scene-operations.md) use to actually load or unload a scene. Scene loaders allows ASM to modularize our scene loading and support different ways of loading scenes if need be.
 
 There are currently four scene loaders in ASM:
+
 * **RuntimeSceneLoader**, uses [UnityEngine.SceneManagement](https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.html) APIs.
 * **EditorSceneLoader**, uses [UnityEditor.SceneManager](https://docs.unity3d.com/ScriptReference/SceneManagement.EditorSceneManager.html) APIs, and adds a couple of extra features for working in the editor.
 * **AddressablesSceneLoader**, uses [addressable](https://docs.unity3d.com/Manual/com.unity.addressables.html) APIs.
 * **NetcodeSceneLoader**, uses [netcode](https://docs-multiplayer.unity3d.com/netcode/current/about/) APIs.
 
-RuntimeSceneLoader and EditorSceneLoader are global scene loaders, they can match any scene.
-AddressablesSceneLoader and NetcodeSceneLoader are non-global scene loaders, they can only match scenes that have been flagged.
+RuntimeSceneLoader and EditorSceneLoader are global scene loaders, they can match any scene. AddressablesSceneLoader and NetcodeSceneLoader are non-global scene loaders, they can only match scenes that have been flagged.
 
 Scenes can be flagged programmatically using:\
 `Scene.SetSceneLoader<T>()`
 
-![](../image/addressable-toggle.png)
+![](../../image/addressable-toggle.png)
 
 ## Custom scene loader
 
@@ -81,6 +81,5 @@ static void OnLoad()
 }
 ```
 
-You may also unregister your scene loader, or any other if you are able to access the type, *but that is obviously not recommended.*\
+You may also unregister your scene loader, or any other if you are able to access the type, _but that is obviously not recommended._\
 `SceneManager.runtime.RemoveSceneLoader<SpecificSceneLoader>();`
-

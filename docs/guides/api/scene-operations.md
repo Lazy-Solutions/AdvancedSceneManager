@@ -1,17 +1,17 @@
 # Scene operations
 
-A scene operation in ASM is a basically a queued batch operation for opening and closing scenes. 
+A scene operation in ASM is a basically a queued batch operation for opening and closing scenes.
 
-At its most basic form, it takes a list of scenes to close, and a list of scenes to open. Scenes are then evaluated (*scene must be open to be closed, and must be closed to be opened*), and then closes and opens them.
+At its most basic form, it takes a list of scenes to close, and a list of scenes to open. Scenes are then evaluated (_scene must be open to be closed, and must be closed to be opened_), and then closes and opens them.
 
-On top of that you got some bells and whistles, like [loading screens](Loading%20screens.md), [coroutine callbacks](Callbacks.md), [temporary thread priority switching](Scene%20manager%20window.md#collection-popup), and [automatically unloading unused assets](Scene%20manager%20window.md#collection-popup). Scene operation will also report overall progress.
+On top of that you got some bells and whistles, like [loading screens](<../Loading screens.md>), [coroutine callbacks](callbacks.md), [temporary thread priority switching](<../Scene manager window.md#collection-popup>), and [automatically unloading unused assets](<../Scene manager window.md#collection-popup>). Scene operation will also report overall progress.
 
 Scene operation also supports spam checking, and duplicate checking, preventing button spam for example, though it should be noted that the most fool-proof way is still to disable buttons or similar.
 
 ## API
 
 Scene operations is the core level API in ASM, all other functions use it, more information about the different layers of APIs here:\
-[An overview of ASM API structure](An%20overview%20of%20ASM%20API%20structure.md)
+[An overview of ASM API structure](an-overview-of-asm-api-structure.md)
 
 An operation can be started in code by using either of these two:\
 `SceneOperation.Queue()`\
@@ -41,11 +41,11 @@ sceneToOpen.Open().Close(closeAlreadyOpenScene).With(loadingScreenScene);
 
 ```
 
-> You should have a look at `.With(..)` using intellisense, or in the [api documentation](../api/Core.SceneOperation.md), it has many overloads for various different things.
+> You should have a look at `.With(..)` using intellisense, or in the [api documentation](../../api/Core.SceneOperation.md), it has many overloads for various different things.
 
 ### Callbacks
 
-Scene operations supports callbacks, not only [scene callbacks](Callbacks.md), but also direct callbacks.
+Scene operations supports callbacks, not only [scene callbacks](callbacks.md), but also direct callbacks.
 
 ```csharp
 public void OnButtonClick()
@@ -70,10 +70,9 @@ IEnumerator DoDelay(float delay)
 }
 ```
 
-
 ## Flags
 
-Using flags helps reduce overhead caused by coroutines in ASM, such as yield return null, which skips a frame. 
+Using flags helps reduce overhead caused by coroutines in ASM, such as yield return null, which skips a frame.
 
 Flags allow you to disable certain overhead functions, resulting in faster scene loading. For instance, with an empty scene, using Flags.None could reduce load time from 11 frames to 4 frames. Typically, this performance improvement won't affect your gameplay experience.
 
@@ -102,7 +101,6 @@ public class SceneLoader : MonoBehaviour
     }
 }
 ```
-
 
 ## Order of operations
 
