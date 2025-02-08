@@ -1,4 +1,18 @@
-# readme
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: false
+  outline:
+    visible: false
+  pagination:
+    visible: false
+---
+
+# Advanced Scene Manager
 
 Welcome to Advanced Scene Manager documentation.
 

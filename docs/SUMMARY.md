@@ -1,6 +1,6 @@
 # Table of contents
 
-* [readme](README.md)
+* [Advanced Scene Manager](README.md)
 * [api](api/readme.md)
   * [afterStartup Event](api/E_AdvancedSceneManager_Core_App_afterStartup.md)
   * [beforeStartup Event](api/E_AdvancedSceneManager_Core_App_beforeStartup.md)
