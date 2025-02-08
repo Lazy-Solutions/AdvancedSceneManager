@@ -1,16 +1,15 @@
-# TryFind&lt;T&gt;(String, T) Method
+# TryFind\<T>(String, T) Method
 
-
-Finds the *T* with the specified name.
-
-
+Finds the _T_ with the specified name.
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static bool TryFind<T>(
 	string q,
 	out T result
@@ -19,21 +18,20 @@ where T : ASMModel
 
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd> </dd><dt>  T</dt><dd> </dd></dl>
+
+&#x20; [String](https://learn.microsoft.com/dotnet/api/system.string)   T&#x20;
 
 #### Type Parameters
-<dl><dt /><dd /></dl>
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_AssetSearchUtility.md">AssetSearchUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_AssetSearchUtility_TryFind.md">TryFind Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[AssetSearchUtility Class](T_AdvancedSceneManager_Utility_AssetSearchUtility.md)\
+[TryFind Overload](Overload_AdvancedSceneManager_Utility_AssetSearchUtility_TryFind.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

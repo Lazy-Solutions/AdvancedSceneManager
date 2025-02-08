@@ -1,32 +1,31 @@
 # ToString(Boolean, Boolean) Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility.CrossSceneReferences](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public string ToString(
 	bool includeScene = true,
 	bool includeGameObject = true
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)   [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>
+
+[String](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md">ResolvedReference Structure</a>  
-<a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_ToString.md">ToString Overload</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+
+[ResolvedReference Structure](T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md)\
+[ToString Overload](Overload_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference_ToString.md)\
+[AdvancedSceneManager.Utility.CrossSceneReferences Namespace](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)

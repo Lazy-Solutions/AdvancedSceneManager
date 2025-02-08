@@ -1,30 +1,29 @@
 # MatchesFilter Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public bool MatchesFilter(
 	string path
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd> </dd></dl>
+
+&#x20; [String](https://learn.microsoft.com/dotnet/api/system.string)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Blocklist.md">Blocklist Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[Blocklist Class](T_AdvancedSceneManager_Models_Blocklist.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

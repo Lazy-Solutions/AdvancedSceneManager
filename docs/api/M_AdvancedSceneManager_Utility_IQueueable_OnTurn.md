@@ -1,29 +1,27 @@
 # OnTurn Method
 
-
 Called when it is this queueables turn.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 void OnTurn(
 	Action onComplete
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action" target="_blank" rel="noopener noreferrer">Action</a></dt><dd>Must be called when operation is done, otherwise queue will be stuck.</dd></dl>
+
+&#x20; [Action](https://learn.microsoft.com/dotnet/api/system.action)Must be called when operation is done, otherwise queue will be stuck.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_IQueueable.md">IQueueable Interface</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[IQueueable Interface](T_AdvancedSceneManager_Utility_IQueueable.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

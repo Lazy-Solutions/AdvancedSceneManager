@@ -1,31 +1,30 @@
 # WasOpenedByBinding(SceneCollection) Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static bool WasOpenedByBinding(
 	SceneCollection collection
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd></dl>
+
+&#x20; [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_SceneBindingUtility.md">SceneBindingUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_SceneBindingUtility_WasOpenedByBinding.md">WasOpenedByBinding Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[SceneBindingUtility Class](T_AdvancedSceneManager_Utility_SceneBindingUtility.md)\
+[WasOpenedByBinding Overload](Overload_AdvancedSceneManager_Utility_SceneBindingUtility_WasOpenedByBinding.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

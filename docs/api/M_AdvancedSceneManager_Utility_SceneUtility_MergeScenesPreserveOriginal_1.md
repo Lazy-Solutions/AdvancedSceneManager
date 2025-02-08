@@ -1,29 +1,27 @@
-# MergeScenesPreserveOriginal(String, String[]) Method
-
-
-
+# MergeScenesPreserveOriginal(String, String\[]) Method
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static void MergeScenesPreserveOriginal(
 	string targetScenePath,
 	params string[] scenePaths
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>[]</dt><dd> </dd></dl>
+
+&#x20; [String](https://learn.microsoft.com/dotnet/api/system.string)   [String](https://learn.microsoft.com/dotnet/api/system.string)\[]&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_SceneUtility_MergeScenesPreserveOriginal.md">MergeScenesPreserveOriginal Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[SceneUtility Class](T_AdvancedSceneManager_Utility_SceneUtility.md)\
+[MergeScenesPreserveOriginal Overload](Overload_AdvancedSceneManager_Utility_SceneUtility_MergeScenesPreserveOriginal.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

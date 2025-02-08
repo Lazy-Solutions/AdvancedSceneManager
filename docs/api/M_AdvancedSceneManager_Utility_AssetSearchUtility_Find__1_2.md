@@ -1,16 +1,15 @@
-# Find&lt;T&gt;(T[], String) Method
+# Find\<T>(T\[], String) Method
 
-
-Finds the *T* with the specified name.
-
-
+Finds the _T_ with the specified name.
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static T Find<T>(
 	this T[] list,
 	string q
@@ -19,28 +18,28 @@ where T : ASMModel
 
 ```
 
-
-
 #### Parameters
-<dl><dt>  T[]</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd> </dd></dl>
+
+&#x20; T\[]   [String](https://learn.microsoft.com/dotnet/api/system.string)&#x20;
 
 #### Type Parameters
-<dl><dt /><dd /></dl>
 
 #### Return Value
+
 T
 
 #### Usage Note
-In Visual Basic and C#, you can call this method as an instance method on any object of type T[]. When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
 
-Extension Methods (Visual Basic)</a> or <a href="https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods" target="_blank" rel="noopener noreferrer">
+In Visual Basic and C#, you can call this method as an instance method on any object of type T\[]. When you use instance method syntax to call this method, omit the first parameter. For more information, see
 
-Extension Methods (C# Programming Guide)</a>.
+[Extension Methods (Visual Basic)](https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods) or
+
+[Extension Methods (C# Programming Guide)](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods).
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_AssetSearchUtility.md">AssetSearchUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_AssetSearchUtility_Find.md">Find Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[AssetSearchUtility Class](T_AdvancedSceneManager_Utility_AssetSearchUtility.md)\
+[Find Overload](Overload_AdvancedSceneManager_Utility_AssetSearchUtility_Find.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

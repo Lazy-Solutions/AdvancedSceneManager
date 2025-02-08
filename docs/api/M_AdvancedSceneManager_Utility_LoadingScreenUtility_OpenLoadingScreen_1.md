@@ -1,14 +1,13 @@
-# OpenLoadingScreen(Scene, SceneOperation, Action&lt;LoadingScreen&gt;) Method
-
-
-
+# OpenLoadingScreen(Scene, SceneOperation, Action\<LoadingScreen>) Method
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static Async<LoadingScreen> OpenLoadingScreen(
 	Scene loadingScene,
 	SceneOperation operation = null,
@@ -16,18 +15,18 @@ public static Async<LoadingScreen> OpenLoadingScreen(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>)  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)   [SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)  (Optional)   [Action](https://learn.microsoft.com/dotnet/api/system.action-1)([LoadingScreen](T_AdvancedSceneManager_Loading_LoadingScreen.md))  (Optional)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Utility_Async_1.md">Async</a>(<a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>)
+
+[Async](T_AdvancedSceneManager_Utility_Async_1.md)([LoadingScreen](T_AdvancedSceneManager_Loading_LoadingScreen.md))
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_LoadingScreenUtility_OpenLoadingScreen.md">OpenLoadingScreen Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[LoadingScreenUtility Class](T_AdvancedSceneManager_Utility_LoadingScreenUtility.md)\
+[OpenLoadingScreen Overload](Overload_AdvancedSceneManager_Utility_LoadingScreenUtility_OpenLoadingScreen.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

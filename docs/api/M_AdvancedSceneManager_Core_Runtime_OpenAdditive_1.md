@@ -1,16 +1,15 @@
-# OpenAdditive(IEnumerable&lt;SceneCollection&gt;, SceneCollection, Scene) Method
-
+# OpenAdditive(IEnumerable\<SceneCollection>, SceneCollection, Scene) Method
 
 Opens the collection without closing existing scenes.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public SceneOperation OpenAdditive(
 	IEnumerable<SceneCollection> collections,
 	SceneCollection activeCollection = null,
@@ -18,25 +17,26 @@ public SceneOperation OpenAdditive(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>  (Optional)</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)([SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md))   [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)  (Optional)   [Scene](T_AdvancedSceneManager_Models_Scene.md)  (Optional)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 #### Implements
-<a href="M_AdvancedSceneManager_DependencyInjection_ISceneManager_OpenAdditive_1.md">ISceneManager.OpenAdditive(IEnumerable(SceneCollection), SceneCollection, Scene)</a>  
 
+[ISceneManager.OpenAdditive(IEnumerable(SceneCollection), SceneCollection, Scene)](M_AdvancedSceneManager_DependencyInjection_ISceneManager_OpenAdditive_1.md)
 
 ## Remarks
-No effect if no additive collections could be opened. Note that *activeCollection* will be removed from *collections* if it is contained within.
+
+No effect if no additive collections could be opened. Note that _activeCollection_ will be removed from _collections_ if it is contained within.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_Runtime.md">Runtime Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_Runtime_OpenAdditive.md">OpenAdditive Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[Runtime Class](T_AdvancedSceneManager_Core_Runtime.md)\
+[OpenAdditive Overload](Overload_AdvancedSceneManager_Core_Runtime_OpenAdditive.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

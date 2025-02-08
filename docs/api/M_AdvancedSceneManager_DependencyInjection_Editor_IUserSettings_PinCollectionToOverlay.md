@@ -1,28 +1,26 @@
 # PinCollectionToOverlay Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor</a>  
+
+**Namespace:** [AdvancedSceneManager.DependencyInjection.Editor](N_AdvancedSceneManager_DependencyInjection_Editor.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 void PinCollectionToOverlay(
 	SceneCollection collection,
 	int? index = null
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.nullable-1" target="_blank" rel="noopener noreferrer">Nullable</a>(<a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">Int32</a>)  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)   [Nullable](https://learn.microsoft.com/dotnet/api/system.nullable-1)([Int32](https://learn.microsoft.com/dotnet/api/system.int32))  (Optional)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_Editor_IUserSettings.md">IUserSettings Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+
+[IUserSettings Interface](T_AdvancedSceneManager_DependencyInjection_Editor_IUserSettings.md)\
+[AdvancedSceneManager.DependencyInjection.Editor Namespace](N_AdvancedSceneManager_DependencyInjection_Editor.md)

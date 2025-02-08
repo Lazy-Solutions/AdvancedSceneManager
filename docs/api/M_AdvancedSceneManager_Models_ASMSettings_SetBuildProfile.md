@@ -1,31 +1,29 @@
 # SetBuildProfile Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public void SetBuildProfile(
 	Profile profile
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Profile.md">Profile</a></dt><dd> </dd></dl>
+
+&#x20; [Profile](T_AdvancedSceneManager_Models_Profile.md)&#x20;
 
 #### Implements
-<a href="M_AdvancedSceneManager_DependencyInjection_IProjectSettings_SetBuildProfile.md">IProjectSettings.SetBuildProfile(Profile)</a>  
 
+[IProjectSettings.SetBuildProfile(Profile)](M_AdvancedSceneManager_DependencyInjection_IProjectSettings_SetBuildProfile.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_ASMSettings.md">ASMSettings Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[ASMSettings Class](T_AdvancedSceneManager_Models_ASMSettings.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

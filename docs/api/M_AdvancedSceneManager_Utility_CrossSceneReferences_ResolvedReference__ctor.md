@@ -1,14 +1,13 @@
 # ResolvedReference Constructor
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility.CrossSceneReferences](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public ResolvedReference(
 	ResolveStatus result,
 	Scene? scene = null,
@@ -23,14 +22,13 @@ public ResolvedReference(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolveStatus.md">ResolveStatus</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.nullable-1" target="_blank" rel="noopener noreferrer">Nullable</a>(Scene)  (Optional)</dt><dd> </dd><dt>  GameObject  (Optional)</dt><dd> </dd><dt>  Component  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.reflection.fieldinfo" target="_blank" rel="noopener noreferrer">FieldInfo</a>  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">Int32</a>  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd><dt>  Object  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [ResolveStatus](T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolveStatus.md)   [Nullable](https://learn.microsoft.com/dotnet/api/system.nullable-1)(Scene)  (Optional)   GameObject  (Optional)   Component  (Optional)   [FieldInfo](https://learn.microsoft.com/dotnet/api/system.reflection.fieldinfo)  (Optional)   [Int32](https://learn.microsoft.com/dotnet/api/system.int32)  (Optional)   [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)   [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)   Object  (Optional)   [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md">ResolvedReference Structure</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+
+[ResolvedReference Structure](T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md)\
+[AdvancedSceneManager.Utility.CrossSceneReferences Namespace](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)

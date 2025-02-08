@@ -1,16 +1,15 @@
 # EvalScenesToClose Method
 
-
 Evaluate the scenes that would close.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public IEnumerable<Scene> EvalScenesToClose(
 	SceneCollection closeCollection = null,
 	SceneCollection nextCollection = null,
@@ -18,17 +17,17 @@ public IEnumerable<Scene> EvalScenesToClose(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>  (Optional)</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>  (Optional)</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)  (Optional)   [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)  (Optional)   [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)  (Optional)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>)
+
+[IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)([Scene](T_AdvancedSceneManager_Models_Scene.md))
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_Runtime.md">Runtime Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[Runtime Class](T_AdvancedSceneManager_Core_Runtime.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

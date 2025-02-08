@@ -1,37 +1,36 @@
 # IsTracked(Scene) Method
 
-
 Gets whatever this scene is tracked as open.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public bool IsTracked(
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 #### Implements
-<a href="M_AdvancedSceneManager_DependencyInjection_ISceneManager_IsTracked.md">ISceneManager.IsTracked(Scene)</a>  
 
+[ISceneManager.IsTracked(Scene)](M_AdvancedSceneManager_DependencyInjection_ISceneManager_IsTracked.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_Runtime.md">Runtime Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_Runtime_IsTracked.md">IsTracked Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[Runtime Class](T_AdvancedSceneManager_Core_Runtime.md)\
+[IsTracked Overload](Overload_AdvancedSceneManager_Core_Runtime_IsTracked.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

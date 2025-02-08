@@ -1,30 +1,29 @@
 # RestartAsync Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection</a>  
+
+**Namespace:** [AdvancedSceneManager.DependencyInjection](N_AdvancedSceneManager_DependencyInjection.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 Async<bool> RestartAsync(
 	App.StartupProps props = null
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Core_App_StartupProps.md">App.StartupProps</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [App.StartupProps](T_AdvancedSceneManager_Core_App_StartupProps.md)  (Optional)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Utility_Async_1.md">Async</a>(<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>)
+
+[Async](T_AdvancedSceneManager_Utility_Async_1.md)([Boolean](https://learn.microsoft.com/dotnet/api/system.boolean))
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_IApp.md">IApp Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+
+[IApp Interface](T_AdvancedSceneManager_DependencyInjection_IApp.md)\
+[AdvancedSceneManager.DependencyInjection Namespace](N_AdvancedSceneManager_DependencyInjection.md)

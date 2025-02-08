@@ -1,30 +1,29 @@
 # GetElapsedTime Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static TimeSpan GetElapsedTime(
 	long startingTimestamp
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.int64" target="_blank" rel="noopener noreferrer">Int64</a></dt><dd> </dd></dl>
+
+&#x20; [Int64](https://learn.microsoft.com/dotnet/api/system.int64)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.timespan" target="_blank" rel="noopener noreferrer">TimeSpan</a>
+
+[TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_StopwatchUtility.md">StopwatchUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[StopwatchUtility Class](T_AdvancedSceneManager_Utility_StopwatchUtility.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

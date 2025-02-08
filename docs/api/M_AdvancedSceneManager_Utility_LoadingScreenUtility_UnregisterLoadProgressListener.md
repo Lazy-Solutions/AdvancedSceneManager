@@ -1,29 +1,27 @@
 # UnregisterLoadProgressListener Method
 
-
-Unregisters a <a href="T_AdvancedSceneManager_Loading_ILoadProgressListener.md">ILoadProgressListener</a> that was registered using <a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_RegisterLoadProgressListener.md">RegisterLoadProgressListener(ILoadProgressListener)</a>.
-
-
+Unregisters a [ILoadProgressListener](T_AdvancedSceneManager_Loading_ILoadProgressListener.md) that was registered using [RegisterLoadProgressListener(ILoadProgressListener)](M_AdvancedSceneManager_Utility_LoadingScreenUtility_RegisterLoadProgressListener.md).
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static void UnregisterLoadProgressListener(
 	ILoadProgressListener listener
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Loading_ILoadProgressListener.md">ILoadProgressListener</a></dt><dd> </dd></dl>
+
+&#x20; [ILoadProgressListener](T_AdvancedSceneManager_Loading_ILoadProgressListener.md)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[LoadingScreenUtility Class](T_AdvancedSceneManager_Utility_LoadingScreenUtility.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

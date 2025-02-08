@@ -1,32 +1,31 @@
 # RunSceneCallbacksOutsidePlayMode Method
 
-
 Specifies whatever scene callbacks should run outside of play mode.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public SceneOperation RunSceneCallbacksOutsidePlayMode(
 	bool value
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a></dt><dd> </dd></dl>
+
+&#x20; [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[SceneOperation Class](T_AdvancedSceneManager_Core_SceneOperation.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

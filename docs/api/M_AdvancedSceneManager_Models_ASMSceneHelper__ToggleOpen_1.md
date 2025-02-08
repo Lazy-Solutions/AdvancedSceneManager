@@ -1,32 +1,30 @@
-# _ToggleOpen(SceneCollection) Method
-
-
-
+# \_ToggleOpen(SceneCollection) Method
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public void _ToggleOpen(
 	SceneCollection collection
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd></dl>
+
+&#x20; [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)&#x20;
 
 #### Implements
-<a href="M_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_IEvent__ToggleOpen.md">SceneCollection.IMethods_Target.IEvent._ToggleOpen(SceneCollection)</a>  
 
+[SceneCollection.IMethods\_Target.IEvent.\_ToggleOpen(SceneCollection)](M_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_IEvent__ToggleOpen.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_ASMSceneHelper.md">ASMSceneHelper Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_ASMSceneHelper__ToggleOpen.md">_ToggleOpen Overload</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[ASMSceneHelper Class](T_AdvancedSceneManager_Models_ASMSceneHelper.md)\
+[\_ToggleOpen Overload](Overload_AdvancedSceneManager_Models_ASMSceneHelper__ToggleOpen.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

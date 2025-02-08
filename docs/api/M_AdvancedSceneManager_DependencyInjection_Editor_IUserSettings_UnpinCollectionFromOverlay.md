@@ -1,27 +1,25 @@
 # UnpinCollectionFromOverlay Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor</a>  
+
+**Namespace:** [AdvancedSceneManager.DependencyInjection.Editor](N_AdvancedSceneManager_DependencyInjection_Editor.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 void UnpinCollectionFromOverlay(
 	SceneCollection collection
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd></dl>
+
+&#x20; [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_Editor_IUserSettings.md">IUserSettings Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+
+[IUserSettings Interface](T_AdvancedSceneManager_DependencyInjection_Editor_IUserSettings.md)\
+[AdvancedSceneManager.DependencyInjection.Editor Namespace](N_AdvancedSceneManager_DependencyInjection_Editor.md)

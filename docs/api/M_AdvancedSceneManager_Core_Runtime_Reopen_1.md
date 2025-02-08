@@ -1,34 +1,33 @@
 # Reopen(SceneCollection, Boolean) Method
 
-
 Reopens the collection.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public SceneOperation Reopen(
 	SceneCollection collection,
 	bool openAll = false
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)   [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_Runtime.md">Runtime Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_Runtime_Reopen.md">Reopen Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[Runtime Class](T_AdvancedSceneManager_Core_Runtime.md)\
+[Reopen Overload](Overload_AdvancedSceneManager_Core_Runtime_Reopen.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

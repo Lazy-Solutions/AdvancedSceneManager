@@ -1,16 +1,15 @@
-# Load(Scene, Boolean, SceneOperation, SceneCollection, Boolean, Nullable&lt;ThreadPriority&gt;, Action, Action&lt;String&gt;) Method
-
+# Load(Scene, Boolean, SceneOperation, SceneCollection, Boolean, Nullable\<ThreadPriority>, Action, Act
 
 Loads the scene using a scene loader.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static IEnumerator Load(
 	this Scene scene,
 	bool isPreload = false,
@@ -23,28 +22,30 @@ public static IEnumerator Load(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>The scene to load.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd>Specifies whatever scene should be preloaded.</dd><dt>  <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>  (Optional)</dt><dd>Specifies what operation this load is part of, if any.</dd><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>  (Optional)</dt><dd>Specifies if this is part of a collection open / close operation.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd>Specifies if progress should be reported.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.nullable-1" target="_blank" rel="noopener noreferrer">Nullable</a>(ThreadPriority)  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action" target="_blank" rel="noopener noreferrer">Action</a>  (Optional)</dt><dd>Callback for when scene is successfully loaded.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>)  (Optional)</dt><dd>Callback for when an error occurs.</dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)The scene to load.  [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)Specifies whatever scene should be preloaded.  [SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)  (Optional)Specifies what operation this load is part of, if any.  [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)  (Optional)Specifies if this is part of a collection open / close operation.  [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)Specifies if progress should be reported.  [Nullable](https://learn.microsoft.com/dotnet/api/system.nullable-1)(ThreadPriority)  (Optional)   [Action](https://learn.microsoft.com/dotnet/api/system.action)  (Optional)Callback for when scene is successfully loaded.  [Action](https://learn.microsoft.com/dotnet/api/system.action-1)([String](https://learn.microsoft.com/dotnet/api/system.string))  (Optional)Callback for when an error occurs.
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
+
+[IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
 #### Usage Note
-In Visual Basic and C#, you can call this method as an instance method on any object of type <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>. When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
 
-Extension Methods (Visual Basic)</a> or <a href="https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods" target="_blank" rel="noopener noreferrer">
+In Visual Basic and C#, you can call this method as an instance method on any object of type [Scene](T_AdvancedSceneManager_Models_Scene.md). When you use instance method syntax to call this method, omit the first parameter. For more information, see
 
-Extension Methods (C# Programming Guide)</a>.
+[Extension Methods (Visual Basic)](https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods) or
+
+[Extension Methods (C# Programming Guide)](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods).
 
 ## Remarks
+
 This loads directly, bypassing many checks that .Open() has.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_SceneLoaderExtensions.md">SceneLoaderExtensions Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_SceneLoaderExtensions_Load.md">Load Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[SceneLoaderExtensions Class](T_AdvancedSceneManager_Core_SceneLoaderExtensions.md)\
+[Load Overload](Overload_AdvancedSceneManager_Core_SceneLoaderExtensions_Load.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

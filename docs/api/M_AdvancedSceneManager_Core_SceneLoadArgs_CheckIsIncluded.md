@@ -1,32 +1,31 @@
 # CheckIsIncluded Method
 
-
 Checks if the scene is actually included in build.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public bool CheckIsIncluded(
 	bool logError = true
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_SceneLoadArgs.md">SceneLoadArgs Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[SceneLoadArgs Class](T_AdvancedSceneManager_Core_SceneLoadArgs.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

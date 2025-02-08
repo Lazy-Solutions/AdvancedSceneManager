@@ -1,32 +1,31 @@
 # CloseWithLoadingScreen Method
 
-
 Closes the scene while a loading screen is open.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 SceneOperation CloseWithLoadingScreen(
 	Scene loadingScene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene_IMethods.md">Scene.IMethods Interface</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[Scene.IMethods Interface](T_AdvancedSceneManager_Models_Scene_IMethods.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

@@ -1,35 +1,35 @@
 # WithCallback Method
 
-
-Specify a callback, this should point to the interface method which provides a <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>.
-
-
+Specify a callback, this should point to the interface method which provides a [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator).
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
+
+**Namespace:** [AdvancedSceneManager.Callbacks](N_AdvancedSceneManager_Callbacks.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public CallbackUtility.FluentInvokeAPI<T> WithCallback(
 	CallbackUtility.FluentInvokeAPI(T).Callback callback
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_Callback.md">CallbackUtility.FluentInvokeAPI(T).Callback</a></dt><dd> </dd></dl>
+
+&#x20; [CallbackUtility.FluentInvokeAPI(T).Callback](T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_Callback.md)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">CallbackUtility.FluentInvokeAPI</a>(<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">T</a>)
+
+[CallbackUtility.FluentInvokeAPI](T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md)([T](T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md))
 
 ## Remarks
-This is not needed for callback interfaces inheriting from <a href="T_AdvancedSceneManager_Callbacks_ISceneCallbacks.md">ISceneCallbacks</a>.
+
+This is not needed for callback interfaces inheriting from [ISceneCallbacks](T_AdvancedSceneManager_Callbacks_ISceneCallbacks.md).
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">CallbackUtility.FluentInvokeAPI(T) Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+
+[CallbackUtility.FluentInvokeAPI(T) Class](T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md)\
+[AdvancedSceneManager.Callbacks Namespace](N_AdvancedSceneManager_Callbacks.md)

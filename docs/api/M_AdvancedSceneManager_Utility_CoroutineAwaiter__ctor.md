@@ -1,27 +1,25 @@
 # CoroutineAwaiter Constructor
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public CoroutineAwaiter(
 	IEnumerator coroutine
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a></dt><dd> </dd></dl>
+
+&#x20; [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CoroutineAwaiter.md">CoroutineAwaiter Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[CoroutineAwaiter Class](T_AdvancedSceneManager_Utility_CoroutineAwaiter.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

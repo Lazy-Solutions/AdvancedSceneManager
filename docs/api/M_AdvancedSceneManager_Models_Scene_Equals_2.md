@@ -1,31 +1,30 @@
 # Equals(Object) Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public override bool Equals(
 	Object obj
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a></dt><dd> </dd></dl>
+
+&#x20; [Object](https://learn.microsoft.com/dotnet/api/system.object)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_Scene_Equals.md">Equals Overload</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[Scene Class](T_AdvancedSceneManager_Models_Scene.md)\
+[Equals Overload](Overload_AdvancedSceneManager_Models_Scene_Equals.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

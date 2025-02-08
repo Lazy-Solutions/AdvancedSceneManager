@@ -1,14 +1,13 @@
-# RemoveAt&lt;T&gt; Method
-
-
-
+# RemoveAt\<T> Method
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static void RemoveAt<T>(
 	this T collection,
 	int index
@@ -17,24 +16,23 @@ where T : ISceneCollection, ISceneCollection.IEditable
 
 ```
 
-
-
 #### Parameters
-<dl><dt>  T</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">Int32</a></dt><dd> </dd></dl>
+
+&#x20; T   [Int32](https://learn.microsoft.com/dotnet/api/system.int32)&#x20;
 
 #### Type Parameters
-<dl><dt /><dd /></dl>
 
 #### Usage Note
-In Visual Basic and C#, you can call this method as an instance method on any object of type T. When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
 
-Extension Methods (Visual Basic)</a> or <a href="https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods" target="_blank" rel="noopener noreferrer">
+In Visual Basic and C#, you can call this method as an instance method on any object of type T. When you use instance method syntax to call this method, omit the first parameter. For more information, see
 
-Extension Methods (C# Programming Guide)</a>.
+[Extension Methods (Visual Basic)](https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods) or
+
+[Extension Methods (C# Programming Guide)](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods).
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_ASMModelExtensions.md">ASMModelExtensions Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[ASMModelExtensions Class](T_AdvancedSceneManager_Models_ASMModelExtensions.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

@@ -1,34 +1,33 @@
 # SetActive Method
-<blockquote><strong>Note: This API is now obsolete.</strong></blockquote>
 
-
-
+> **Note: This API is now obsolete.**
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 [ObsoleteAttribute]
 public void SetActive(
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Implements
-<a href="M_AdvancedSceneManager_DependencyInjection_ISceneManager_SetActive.md">ISceneManager.SetActive(Scene)</a>  
-<a href="M_AdvancedSceneManager_Models_Scene_IMethods_Target_SetActive.md">Scene.IMethods_Target.SetActive(Scene)</a>  
 
+[ISceneManager.SetActive(Scene)](M_AdvancedSceneManager_DependencyInjection_ISceneManager_SetActive.md)\
+[Scene.IMethods\_Target.SetActive(Scene)](M_AdvancedSceneManager_Models_Scene_IMethods_Target_SetActive.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_Runtime.md">Runtime Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[Runtime Class](T_AdvancedSceneManager_Core_Runtime.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

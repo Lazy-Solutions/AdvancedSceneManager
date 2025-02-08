@@ -1,32 +1,31 @@
 # Contains Method
 
-
-Gets if the specified SceneAsset *path* is tracked by this dynamic collection.
-
-
+Gets if the specified SceneAsset _path_ is tracked by this dynamic collection.
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public bool Contains(
 	string path
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd> </dd></dl>
+
+&#x20; [String](https://learn.microsoft.com/dotnet/api/system.string)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_DynamicCollection.md">DynamicCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[DynamicCollection Class](T_AdvancedSceneManager_Models_DynamicCollection.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

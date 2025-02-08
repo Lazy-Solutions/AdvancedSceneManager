@@ -1,36 +1,35 @@
 # GetState Method
 
-
 Gets the current state of the scene.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public SceneState GetState(
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Models_Enums_SceneState.md">SceneState</a>
+
+[SceneState](T_AdvancedSceneManager_Models_Enums_SceneState.md)
 
 #### Implements
-<a href="M_AdvancedSceneManager_DependencyInjection_ISceneManager_GetState.md">ISceneManager.GetState(Scene)</a>  
 
+[ISceneManager.GetState(Scene)](M_AdvancedSceneManager_DependencyInjection_ISceneManager_GetState.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_Runtime.md">Runtime Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[Runtime Class](T_AdvancedSceneManager_Core_Runtime.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

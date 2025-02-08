@@ -1,29 +1,27 @@
-# Async&lt;T&gt;(GlobalCoroutine, Func&lt;T&gt;) Constructor
-
-
-
+# Async\<T>(GlobalCoroutine, Func\<T>) Constructor
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public Async(
 	GlobalCoroutine coroutine,
 	Func<T> callback
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.func-1" target="_blank" rel="noopener noreferrer">Func</a>(<a href="T_AdvancedSceneManager_Utility_Async_1.md">T</a>)</dt><dd> </dd></dl>
+
+&#x20; [GlobalCoroutine](T_AdvancedSceneManager_Utility_GlobalCoroutine.md)   [Func](https://learn.microsoft.com/dotnet/api/system.func-1)([T](T_AdvancedSceneManager_Utility_Async_1.md))&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_Async_1.md">Async(T) Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_Async_1__ctor.md">Async(T) Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[Async(T) Class](T_AdvancedSceneManager_Utility_Async_1.md)\
+[Async(T) Overload](Overload_AdvancedSceneManager_Utility_Async_1__ctor.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

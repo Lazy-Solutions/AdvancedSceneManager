@@ -1,31 +1,29 @@
 # OnProgressChanged Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading</a>  
+
+**Namespace:** [AdvancedSceneManager.Loading](N_AdvancedSceneManager_Loading.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public virtual void OnProgressChanged(
 	ILoadProgressData progress
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Loading_ILoadProgressData.md">ILoadProgressData</a></dt><dd> </dd></dl>
+
+&#x20; [ILoadProgressData](T_AdvancedSceneManager_Loading_ILoadProgressData.md)&#x20;
 
 #### Implements
-<a href="M_AdvancedSceneManager_Loading_ILoadProgressListener_OnProgressChanged.md">ILoadProgressListener.OnProgressChanged(ILoadProgressData)</a>  
 
+[ILoadProgressListener.OnProgressChanged(ILoadProgressData)](M_AdvancedSceneManager_Loading_ILoadProgressListener_OnProgressChanged.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase Class</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+
+[LoadingScreenBase Class](T_AdvancedSceneManager_Loading_LoadingScreenBase.md)\
+[AdvancedSceneManager.Loading Namespace](N_AdvancedSceneManager_Loading.md)

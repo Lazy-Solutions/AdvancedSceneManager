@@ -1,35 +1,35 @@
 # Reopen Method
 
-
 Closes the scene and opens it again.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 SceneOperation Reopen(
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 ## Remarks
+
 No effect if scene is closed.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene_IMethods_Target.md">Scene.IMethods_Target Interface</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[Scene.IMethods\_Target Interface](T_AdvancedSceneManager_Models_Scene_IMethods_Target.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

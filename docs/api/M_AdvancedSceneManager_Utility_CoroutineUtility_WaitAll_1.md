@@ -1,41 +1,41 @@
-# WaitAll(GlobalCoroutine[], Func&lt;Boolean&gt;) Method
-
+# WaitAll(GlobalCoroutine\[], Func\<Boolean>) Method
 
 Wait for all coroutines to complete.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static IEnumerator WaitAll(
 	this GlobalCoroutine[] coroutines,
 	Func<bool> isCancelled = null
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a>[]</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.func-1" target="_blank" rel="noopener noreferrer">Func</a>(<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>)  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [GlobalCoroutine](T_AdvancedSceneManager_Utility_GlobalCoroutine.md)\[]   [Func](https://learn.microsoft.com/dotnet/api/system.func-1)([Boolean](https://learn.microsoft.com/dotnet/api/system.boolean))  (Optional)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
+
+[IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
 #### Usage Note
-In Visual Basic and C#, you can call this method as an instance method on any object of type <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a>[]. When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
 
-Extension Methods (Visual Basic)</a> or <a href="https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods" target="_blank" rel="noopener noreferrer">
+In Visual Basic and C#, you can call this method as an instance method on any object of type [GlobalCoroutine](T_AdvancedSceneManager_Utility_GlobalCoroutine.md)\[]. When you use instance method syntax to call this method, omit the first parameter. For more information, see
 
-Extension Methods (C# Programming Guide)</a>.
+[Extension Methods (Visual Basic)](https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods) or
+
+[Extension Methods (C# Programming Guide)](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods).
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CoroutineUtility.md">CoroutineUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_CoroutineUtility_WaitAll.md">WaitAll Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[CoroutineUtility Class](T_AdvancedSceneManager_Utility_CoroutineUtility.md)\
+[WaitAll Overload](Overload_AdvancedSceneManager_Utility_CoroutineUtility_WaitAll.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

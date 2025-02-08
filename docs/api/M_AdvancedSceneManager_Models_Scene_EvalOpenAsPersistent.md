@@ -1,33 +1,32 @@
 # EvalOpenAsPersistent Method
 
-
 Gets whatever this scene will be opened as persistent.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public bool EvalOpenAsPersistent(
 	SceneCollection parentCollection,
 	SceneCollection collectionToOpen = null
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd>Specifies the parent collection that was opened before <em>finalCollection</em>.</dd><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>  (Optional)</dt><dd>Specifies the collection that will be opened, if you are not evaluating state after it would have opened, pass null. If multiple collections are opened in sequence, then pass the final one.</dd></dl>
+
+&#x20; [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)Specifies the parent collection that was opened before _finalCollection_.  [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)  (Optional)Specifies the collection that will be opened, if you are not evaluating state after it would have opened, pass null. If multiple collections are opened in sequence, then pass the final one.
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[Scene Class](T_AdvancedSceneManager_Models_Scene.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

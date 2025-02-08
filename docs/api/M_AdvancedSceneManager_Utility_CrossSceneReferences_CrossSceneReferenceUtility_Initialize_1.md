@@ -1,30 +1,28 @@
-# Initialize(Nullable&lt;Boolean&gt;) Method
-
+# Initialize(Nullable\<Boolean>) Method
 
 Initializes cross-scene references, if it is enabled in settings.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility.CrossSceneReferences](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static void Initialize(
 	bool? enabled = null
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.nullable-1" target="_blank" rel="noopener noreferrer">Nullable</a>(<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>)  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [Nullable](https://learn.microsoft.com/dotnet/api/system.nullable-1)([Boolean](https://learn.microsoft.com/dotnet/api/system.boolean))  (Optional)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility.md">CrossSceneReferenceUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility_Initialize.md">Initialize Overload</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+
+[CrossSceneReferenceUtility Class](T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility.md)\
+[Initialize Overload](Overload_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility_Initialize.md)\
+[AdvancedSceneManager.Utility.CrossSceneReferences Namespace](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)

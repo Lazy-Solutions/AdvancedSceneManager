@@ -1,27 +1,25 @@
 # RemoveGameObjectGUI Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor</a>  
+
+**Namespace:** [AdvancedSceneManager.DependencyInjection.Editor](N_AdvancedSceneManager_DependencyInjection_Editor.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 void RemoveGameObjectGUI(
 	HierarchyGUIUtility.HierarchyGameObjectGUI onGUI
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility_HierarchyGameObjectGUI.md">HierarchyGUIUtility.HierarchyGameObjectGUI</a></dt><dd> </dd></dl>
+
+&#x20; [HierarchyGUIUtility.HierarchyGameObjectGUI](T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility_HierarchyGameObjectGUI.md)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI.md">IHierarchyGUI Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+
+[IHierarchyGUI Interface](T_AdvancedSceneManager_DependencyInjection_Editor_IHierarchyGUI.md)\
+[AdvancedSceneManager.DependencyInjection.Editor Namespace](N_AdvancedSceneManager_DependencyInjection_Editor.md)

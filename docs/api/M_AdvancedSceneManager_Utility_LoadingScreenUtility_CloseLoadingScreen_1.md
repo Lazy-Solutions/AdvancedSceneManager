@@ -1,33 +1,32 @@
 # CloseLoadingScreen(Scene) Method
 
-
 Close the scene that contained a loading screen.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static IEnumerator CloseLoadingScreen(
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
+
+[IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_LoadingScreenUtility_CloseLoadingScreen.md">CloseLoadingScreen Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[LoadingScreenUtility Class](T_AdvancedSceneManager_Utility_LoadingScreenUtility.md)\
+[CloseLoadingScreen Overload](Overload_AdvancedSceneManager_Utility_LoadingScreenUtility_CloseLoadingScreen.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

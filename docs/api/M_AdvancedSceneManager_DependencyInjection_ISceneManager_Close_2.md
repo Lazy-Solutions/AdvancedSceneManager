@@ -1,31 +1,30 @@
 # Close(SceneCollection) Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection</a>  
+
+**Namespace:** [AdvancedSceneManager.DependencyInjection](N_AdvancedSceneManager_DependencyInjection.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 SceneOperation Close(
 	SceneCollection collection
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd></dl>
+
+&#x20; [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_ISceneManager.md">ISceneManager Interface</a>  
-<a href="Overload_AdvancedSceneManager_DependencyInjection_ISceneManager_Close.md">Close Overload</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+
+[ISceneManager Interface](T_AdvancedSceneManager_DependencyInjection_ISceneManager.md)\
+[Close Overload](Overload_AdvancedSceneManager_DependencyInjection_ISceneManager_Close.md)\
+[AdvancedSceneManager.DependencyInjection Namespace](N_AdvancedSceneManager_DependencyInjection.md)

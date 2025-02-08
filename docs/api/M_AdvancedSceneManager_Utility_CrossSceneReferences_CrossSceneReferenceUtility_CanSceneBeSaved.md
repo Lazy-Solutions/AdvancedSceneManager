@@ -1,35 +1,35 @@
 # CanSceneBeSaved Method
 
-
 Gets if the cross-scene references can be saved.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility.CrossSceneReferences](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static bool CanSceneBeSaved(
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  Scene</dt><dd> </dd></dl>
+
+&#x20; Scene&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Remarks
-This would be if status: <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_SceneStatus.md">Restored</a> and no resolve errors.
+
+This would be if status: [Restored](T_AdvancedSceneManager_Utility_CrossSceneReferences_SceneStatus.md) and no resolve errors.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility.md">CrossSceneReferenceUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+
+[CrossSceneReferenceUtility Class](T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility.md)\
+[AdvancedSceneManager.Utility.CrossSceneReferences Namespace](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)

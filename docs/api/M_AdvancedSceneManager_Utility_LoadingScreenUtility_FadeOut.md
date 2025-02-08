@@ -1,33 +1,32 @@
 # FadeOut Method
 
-
 Fades out the screen.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static Async<LoadingScreen> FadeOut(
 	float duration = 1f,
 	Color? color = null
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a>  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.nullable-1" target="_blank" rel="noopener noreferrer">Nullable</a>(Color)  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [Single](https://learn.microsoft.com/dotnet/api/system.single)  (Optional)   [Nullable](https://learn.microsoft.com/dotnet/api/system.nullable-1)(Color)  (Optional)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Utility_Async_1.md">Async</a>(<a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>)
+
+[Async](T_AdvancedSceneManager_Utility_Async_1.md)([LoadingScreen](T_AdvancedSceneManager_Loading_LoadingScreen.md))
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[LoadingScreenUtility Class](T_AdvancedSceneManager_Utility_LoadingScreenUtility.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

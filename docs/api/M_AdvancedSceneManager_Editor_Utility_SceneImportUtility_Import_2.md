@@ -1,14 +1,13 @@
 # Import(String, Boolean, Boolean) Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Editor.Utility](N_AdvancedSceneManager_Editor_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static Scene Import(
 	string sceneAssetPath,
 	bool notify = true,
@@ -16,18 +15,18 @@ public static Scene Import(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [String](https://learn.microsoft.com/dotnet/api/system.string)   [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)   [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>
+
+[Scene](T_AdvancedSceneManager_Models_Scene.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Editor_Utility_SceneImportUtility.md">SceneImportUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Editor_Utility_SceneImportUtility_Import.md">Import Overload</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+
+[SceneImportUtility Class](T_AdvancedSceneManager_Editor_Utility_SceneImportUtility.md)\
+[Import Overload](Overload_AdvancedSceneManager_Editor_Utility_SceneImportUtility_Import.md)\
+[AdvancedSceneManager.Editor.Utility Namespace](N_AdvancedSceneManager_Editor_Utility.md)

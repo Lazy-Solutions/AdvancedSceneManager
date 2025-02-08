@@ -1,16 +1,15 @@
 # StartCoroutine Method
 
-
-Runs the coroutine using <a href="T_AdvancedSceneManager_Utility_CoroutineUtility.md">CoroutineUtility</a>, which means it won't be tied to a MonoBehaviour and will persist through scene close.
-
-
+Runs the coroutine using [CoroutineUtility](T_AdvancedSceneManager_Utility_CoroutineUtility.md), which means it won't be tied to a MonoBehaviour and will persist through scene close.
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static GlobalCoroutine StartCoroutine(
 	this IEnumerator coroutine,
 	Action onComplete = null,
@@ -20,27 +19,29 @@ public static GlobalCoroutine StartCoroutine(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action" target="_blank" rel="noopener noreferrer">Action</a>  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">Int32</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)   [Action](https://learn.microsoft.com/dotnet/api/system.action)  (Optional)   [String](https://learn.microsoft.com/dotnet/api/system.string)  (Optional)   [String](https://learn.microsoft.com/dotnet/api/system.string)  (Optional)   [Int32](https://learn.microsoft.com/dotnet/api/system.int32)  (Optional)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a>
+
+[GlobalCoroutine](T_AdvancedSceneManager_Utility_GlobalCoroutine.md)
 
 #### Usage Note
-In Visual Basic and C#, you can call this method as an instance method on any object of type <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>. When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
 
-Extension Methods (Visual Basic)</a> or <a href="https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods" target="_blank" rel="noopener noreferrer">
+In Visual Basic and C#, you can call this method as an instance method on any object of type [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator). When you use instance method syntax to call this method, omit the first parameter. For more information, see
 
-Extension Methods (C# Programming Guide)</a>.
+[Extension Methods (Visual Basic)](https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods) or
+
+[Extension Methods (C# Programming Guide)](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods).
 
 ## Remarks
+
 You may yield return this method.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CoroutineUtility.md">CoroutineUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[CoroutineUtility Class](T_AdvancedSceneManager_Utility_CoroutineUtility.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

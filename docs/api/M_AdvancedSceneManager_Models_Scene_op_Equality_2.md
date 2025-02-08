@@ -1,32 +1,31 @@
 # Equality(SceneAsset, Scene) Operator
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static bool operator ==(
 	SceneAsset sceneAsset,
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  SceneAsset</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; SceneAsset   [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_Scene_op_Equality.md">Equality Overload</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[Scene Class](T_AdvancedSceneManager_Models_Scene.md)\
+[Equality Overload](Overload_AdvancedSceneManager_Models_Scene_op_Equality.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

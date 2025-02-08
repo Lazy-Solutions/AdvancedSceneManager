@@ -1,40 +1,40 @@
 # Untrack(Scene) Method
 
-
 Untracks the specified scene as open.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public bool Untrack(
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 #### Implements
-<a href="M_AdvancedSceneManager_DependencyInjection_ISceneManager_Untrack.md">ISceneManager.Untrack(Scene)</a>  
 
+[ISceneManager.Untrack(Scene)](M_AdvancedSceneManager_DependencyInjection_ISceneManager_Untrack.md)
 
 ## Remarks
+
 Does not close scene.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_Runtime.md">Runtime Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_Runtime_Untrack.md">Untrack Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[Runtime Class](T_AdvancedSceneManager_Core_Runtime.md)\
+[Untrack Overload](Overload_AdvancedSceneManager_Core_Runtime_Untrack.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

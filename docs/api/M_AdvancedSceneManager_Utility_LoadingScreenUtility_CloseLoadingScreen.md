@@ -1,34 +1,33 @@
 # CloseLoadingScreen(LoadingScreenBase, Boolean) Method
 
-
 Hide the loading screen.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static IEnumerator CloseLoadingScreen(
 	LoadingScreenBase loadingScreen,
 	bool closeScene = true
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a></dt><dd>The loading screen to hide.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd>Specifies whatever the scene should be closed afterwards. Use <a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_CloseLoadingScreenScene.md">CloseLoadingScreenScene(Scene)</a> if false.</dd></dl>
+
+&#x20; [LoadingScreenBase](T_AdvancedSceneManager_Loading_LoadingScreenBase.md)The loading screen to hide.  [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)Specifies whatever the scene should be closed afterwards. Use [CloseLoadingScreenScene(Scene)](M_AdvancedSceneManager_Utility_LoadingScreenUtility_CloseLoadingScreenScene.md) if false.
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
+
+[IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_LoadingScreenUtility_CloseLoadingScreen.md">CloseLoadingScreen Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[LoadingScreenUtility Class](T_AdvancedSceneManager_Utility_LoadingScreenUtility.md)\
+[CloseLoadingScreen Overload](Overload_AdvancedSceneManager_Utility_LoadingScreenUtility_CloseLoadingScreen.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

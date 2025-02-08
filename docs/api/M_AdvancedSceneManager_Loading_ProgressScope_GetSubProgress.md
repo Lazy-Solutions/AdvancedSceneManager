@@ -1,33 +1,32 @@
 # GetSubProgress Method
 
-
 Gets the progress of a specific scene.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading</a>  
+
+**Namespace:** [AdvancedSceneManager.Loading](N_AdvancedSceneManager_Loading.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public float GetSubProgress(
 	SceneOperationKind kind,
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Loading_SceneOperationKind.md">SceneOperationKind</a></dt><dd>The kind of operation that was expected.</dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>The scene that was expected.</dd></dl>
+
+&#x20; [SceneOperationKind](T_AdvancedSceneManager_Loading_SceneOperationKind.md)The kind of operation that was expected.  [Scene](T_AdvancedSceneManager_Models_Scene.md)The scene that was expected.
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a>
+
+[Single](https://learn.microsoft.com/dotnet/api/system.single)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Loading_ProgressScope.md">ProgressScope Class</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+
+[ProgressScope Class](T_AdvancedSceneManager_Loading_ProgressScope.md)\
+[AdvancedSceneManager.Loading Namespace](N_AdvancedSceneManager_Loading.md)

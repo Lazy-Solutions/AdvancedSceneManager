@@ -1,27 +1,25 @@
 # UnregisterQuitCallback Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection</a>  
+
+**Namespace:** [AdvancedSceneManager.DependencyInjection](N_AdvancedSceneManager_DependencyInjection.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 void UnregisterQuitCallback(
 	IEnumerator coroutine
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a></dt><dd> </dd></dl>
+
+&#x20; [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_IApp.md">IApp Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+
+[IApp Interface](T_AdvancedSceneManager_DependencyInjection_IApp.md)\
+[AdvancedSceneManager.DependencyInjection Namespace](N_AdvancedSceneManager_DependencyInjection.md)

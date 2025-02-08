@@ -1,14 +1,13 @@
-# FindAssetPaths&lt;T&gt; Method
-
-
-
+# FindAssetPaths\<T> Method
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Editor.Utility](N_AdvancedSceneManager_Editor_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static IEnumerable<string> FindAssetPaths<T>(
 	params string[] searchInFolders
 )
@@ -16,20 +15,19 @@ where T : Object
 
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>[]</dt><dd> </dd></dl>
+
+&#x20; [String](https://learn.microsoft.com/dotnet/api/system.string)\[]&#x20;
 
 #### Type Parameters
-<dl><dt /><dd /></dl>
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>)
+
+[IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)([String](https://learn.microsoft.com/dotnet/api/system.string))
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Editor_Utility_AssetDatabaseUtility.md">AssetDatabaseUtility Class</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+
+[AssetDatabaseUtility Class](T_AdvancedSceneManager_Editor_Utility_AssetDatabaseUtility.md)\
+[AdvancedSceneManager.Editor.Utility Namespace](N_AdvancedSceneManager_Editor_Utility.md)

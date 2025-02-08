@@ -1,36 +1,35 @@
 # PutAtBottom Method
 
-
-Sets the sort order on this canvas to be on bottom of all other canvases managed by <a href="T_AdvancedSceneManager_Utility_CanvasSortOrderUtility.md">CanvasSortOrderUtility</a>.
-
-
+Sets the sort order on this canvas to be on bottom of all other canvases managed by [CanvasSortOrderUtility](T_AdvancedSceneManager_Utility_CanvasSortOrderUtility.md).
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static void PutAtBottom(
 	this Canvas canvas
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  Canvas</dt><dd> </dd></dl>
+
+&#x20; Canvas&#x20;
 
 #### Usage Note
-In Visual Basic and C#, you can call this method as an instance method on any object of type Canvas. When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
 
-Extension Methods (Visual Basic)</a> or <a href="https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods" target="_blank" rel="noopener noreferrer">
+In Visual Basic and C#, you can call this method as an instance method on any object of type Canvas. When you use instance method syntax to call this method, omit the first parameter. For more information, see
 
-Extension Methods (C# Programming Guide)</a>.
+[Extension Methods (Visual Basic)](https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods) or
+
+[Extension Methods (C# Programming Guide)](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods).
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CanvasSortOrderUtility.md">CanvasSortOrderUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[CanvasSortOrderUtility Class](T_AdvancedSceneManager_Utility_CanvasSortOrderUtility.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

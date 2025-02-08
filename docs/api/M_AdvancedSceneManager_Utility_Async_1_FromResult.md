@@ -1,30 +1,29 @@
 # FromResult Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static Async<T> FromResult(
 	T result
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_Async_1.md">T</a></dt><dd> </dd></dl>
+
+&#x20; [T](T_AdvancedSceneManager_Utility_Async_1.md)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Utility_Async_1.md">Async</a>(<a href="T_AdvancedSceneManager_Utility_Async_1.md">T</a>)
+
+[Async](T_AdvancedSceneManager_Utility_Async_1.md)([T](T_AdvancedSceneManager_Utility_Async_1.md))
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_Async_1.md">Async(T) Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[Async(T) Class](T_AdvancedSceneManager_Utility_Async_1.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

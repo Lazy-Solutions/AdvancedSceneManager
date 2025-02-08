@@ -1,36 +1,36 @@
 # With(Boolean) Method
 
-
 Specifies loading screen to use.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public SceneOperation With(
 	bool useLoadingScene = true
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 ## Remarks
-<a href="P_AdvancedSceneManager_Core_SceneOperation_loadingScene.md">loadingScene</a> has no effect if <a href="P_AdvancedSceneManager_Core_SceneOperation_useLoadingScene.md">useLoadingScene</a> is false.
+
+[loadingScene](P_AdvancedSceneManager_Core_SceneOperation_loadingScene.md) has no effect if [useLoadingScene](P_AdvancedSceneManager_Core_SceneOperation_useLoadingScene.md) is false.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_SceneOperation_With.md">With Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[SceneOperation Class](T_AdvancedSceneManager_Core_SceneOperation.md)\
+[With Overload](Overload_AdvancedSceneManager_Core_SceneOperation_With.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

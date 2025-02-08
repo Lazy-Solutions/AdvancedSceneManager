@@ -1,14 +1,13 @@
 # SceneLoadProgressData Constructor
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading</a>  
+
+**Namespace:** [AdvancedSceneManager.Loading](N_AdvancedSceneManager_Loading.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public SceneLoadProgressData(
 	float value,
 	SceneOperationKind operationKind,
@@ -17,14 +16,13 @@ public SceneLoadProgressData(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Loading_SceneOperationKind.md">SceneOperationKind</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>  (Optional)</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [Single](https://learn.microsoft.com/dotnet/api/system.single)   [SceneOperationKind](T_AdvancedSceneManager_Loading_SceneOperationKind.md)   [SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)  (Optional)   [Scene](T_AdvancedSceneManager_Models_Scene.md)  (Optional)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Loading_SceneLoadProgressData.md">SceneLoadProgressData Structure</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+
+[SceneLoadProgressData Structure](T_AdvancedSceneManager_Loading_SceneLoadProgressData.md)\
+[AdvancedSceneManager.Loading Namespace](N_AdvancedSceneManager_Loading.md)

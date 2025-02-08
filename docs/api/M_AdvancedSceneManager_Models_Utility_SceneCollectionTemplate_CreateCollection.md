@@ -1,30 +1,29 @@
 # CreateCollection Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Models.Utility](N_AdvancedSceneManager_Models_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public SceneCollection CreateCollection(
 	Profile profile
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Profile.md">Profile</a></dt><dd> </dd></dl>
+
+&#x20; [Profile](T_AdvancedSceneManager_Models_Profile.md)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>
+
+[SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate.md">SceneCollectionTemplate Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+
+[SceneCollectionTemplate Class](T_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate.md)\
+[AdvancedSceneManager.Models.Utility Namespace](N_AdvancedSceneManager_Models_Utility.md)

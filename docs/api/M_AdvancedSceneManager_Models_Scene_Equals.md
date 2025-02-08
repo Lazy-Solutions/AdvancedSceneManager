@@ -1,35 +1,34 @@
 # Equals(Scene) Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public bool Equals(
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 #### Implements
-<a href="https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals" target="_blank" rel="noopener noreferrer">IEquatable(T).Equals(T)</a>  
 
+[IEquatable(T).Equals(T)](https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_Scene_Equals.md">Equals Overload</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[Scene Class](T_AdvancedSceneManager_Models_Scene.md)\
+[Equals Overload](Overload_AdvancedSceneManager_Models_Scene_Equals.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

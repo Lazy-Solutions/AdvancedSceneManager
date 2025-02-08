@@ -1,14 +1,13 @@
 # BuildUtility.PostBuildEventArgs Constructor
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Editor.Utility](N_AdvancedSceneManager_Editor_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public PostBuildEventArgs(
 	BuildReport report,
 	(string , string )[] warning,
@@ -16,14 +15,13 @@ public PostBuildEventArgs(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  BuildReport</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.valuetuple-2" target="_blank" rel="noopener noreferrer">ValueTuple</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>, <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>)[]</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.valuetuple-2" target="_blank" rel="noopener noreferrer">ValueTuple</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>, <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>)[]</dt><dd> </dd></dl>
+
+&#x20; BuildReport   [ValueTuple](https://learn.microsoft.com/dotnet/api/system.valuetuple-2)([String](https://learn.microsoft.com/dotnet/api/system.string), [String](https://learn.microsoft.com/dotnet/api/system.string))\[]   [ValueTuple](https://learn.microsoft.com/dotnet/api/system.valuetuple-2)([String](https://learn.microsoft.com/dotnet/api/system.string), [String](https://learn.microsoft.com/dotnet/api/system.string))\[]&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs.md">BuildUtility.PostBuildEventArgs Structure</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+
+[BuildUtility.PostBuildEventArgs Structure](T_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs.md)\
+[AdvancedSceneManager.Editor.Utility Namespace](N_AdvancedSceneManager_Editor_Utility.md)

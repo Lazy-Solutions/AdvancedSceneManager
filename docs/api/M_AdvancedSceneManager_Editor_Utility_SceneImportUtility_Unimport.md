@@ -1,29 +1,27 @@
 # Unimport(Scene, Boolean) Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Editor.Utility](N_AdvancedSceneManager_Editor_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static void Unimport(
 	Scene scene,
 	bool notify = true
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)   [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Editor_Utility_SceneImportUtility.md">SceneImportUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Editor_Utility_SceneImportUtility_Unimport.md">Unimport Overload</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+
+[SceneImportUtility Class](T_AdvancedSceneManager_Editor_Utility_SceneImportUtility.md)\
+[Unimport Overload](Overload_AdvancedSceneManager_Editor_Utility_SceneImportUtility_Unimport.md)\
+[AdvancedSceneManager.Editor.Utility Namespace](N_AdvancedSceneManager_Editor_Utility.md)

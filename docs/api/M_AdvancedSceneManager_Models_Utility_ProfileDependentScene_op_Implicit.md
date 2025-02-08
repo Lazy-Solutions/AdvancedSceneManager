@@ -1,30 +1,29 @@
 # Implicit Conversion (ProfileDependentScene to Scene)
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Models.Utility](N_AdvancedSceneManager_Models_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static implicit operator Scene (
 	ProfileDependentScene instance
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependentScene.md">ProfileDependentScene</a></dt><dd> </dd></dl>
+
+&#x20; [ProfileDependentScene](T_AdvancedSceneManager_Models_Utility_ProfileDependentScene.md)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>
+
+[Scene](T_AdvancedSceneManager_Models_Scene.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependentScene.md">ProfileDependentScene Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+
+[ProfileDependentScene Class](T_AdvancedSceneManager_Models_Utility_ProfileDependentScene.md)\
+[AdvancedSceneManager.Models.Utility Namespace](N_AdvancedSceneManager_Models_Utility.md)

@@ -1,29 +1,27 @@
-# SetButtons(InputBindingInteractionType, InputButton[]) Method
-
-
-
+# SetButtons(InputBindingInteractionType, InputButton\[]) Method
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public void SetButtons(
 	InputBindingInteractionType interactionType,
 	params InputButton[] binding
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_InputBindingInteractionType.md">InputBindingInteractionType</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_InputButton.md">InputButton</a>[]</dt><dd> </dd></dl>
+
+&#x20; [InputBindingInteractionType](T_AdvancedSceneManager_Models_InputBindingInteractionType.md)   [InputButton](T_AdvancedSceneManager_Models_InputButton.md)\[]&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_InputBinding.md">InputBinding Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_InputBinding_SetButtons.md">SetButtons Overload</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[InputBinding Class](T_AdvancedSceneManager_Models_InputBinding.md)\
+[SetButtons Overload](Overload_AdvancedSceneManager_Models_InputBinding_SetButtons.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

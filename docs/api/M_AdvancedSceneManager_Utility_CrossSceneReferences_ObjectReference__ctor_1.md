@@ -1,14 +1,13 @@
 # ObjectReference(Scene, String, FieldInfo) Constructor
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility.CrossSceneReferences](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public ObjectReference(
 	Scene scene,
 	string objectID,
@@ -16,15 +15,14 @@ public ObjectReference(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  Scene</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.reflection.fieldinfo" target="_blank" rel="noopener noreferrer">FieldInfo</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; Scene   [String](https://learn.microsoft.com/dotnet/api/system.string)   [FieldInfo](https://learn.microsoft.com/dotnet/api/system.reflection.fieldinfo)  (Optional)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference__ctor.md">ObjectReference Overload</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+
+[ObjectReference Class](T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md)\
+[ObjectReference Overload](Overload_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference__ctor.md)\
+[AdvancedSceneManager.Utility.CrossSceneReferences Namespace](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)

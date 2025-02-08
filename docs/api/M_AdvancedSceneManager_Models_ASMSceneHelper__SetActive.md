@@ -1,33 +1,32 @@
-# _SetActive Method
-<blockquote><strong>Note: This API is now obsolete.</strong></blockquote>
+# \_SetActive Method
 
-
-
+> **Note: This API is now obsolete.**
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 [ObsoleteAttribute]
 public void _SetActive(
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Implements
-<a href="M_AdvancedSceneManager_Models_Scene_IMethods_Target_IEvent__SetActive.md">Scene.IMethods_Target.IEvent._SetActive(Scene)</a>  
 
+[Scene.IMethods\_Target.IEvent.\_SetActive(Scene)](M_AdvancedSceneManager_Models_Scene_IMethods_Target_IEvent__SetActive.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_ASMSceneHelper.md">ASMSceneHelper Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[ASMSceneHelper Class](T_AdvancedSceneManager_Models_ASMSceneHelper.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

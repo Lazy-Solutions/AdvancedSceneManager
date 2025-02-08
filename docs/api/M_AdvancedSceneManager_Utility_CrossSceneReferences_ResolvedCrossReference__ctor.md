@@ -1,14 +1,13 @@
 # ResolvedCrossReference Constructor
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility.CrossSceneReferences](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public ResolvedCrossReference(
 	ResolvedReference variable,
 	ResolvedReference value,
@@ -17,14 +16,13 @@ public ResolvedCrossReference(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md">ResolvedReference</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md">ResolvedReference</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md">CrossSceneReference</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolveStatus.md">ResolveStatus</a></dt><dd> </dd></dl>
+
+&#x20; [ResolvedReference](T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md)   [ResolvedReference](T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md)   [CrossSceneReference](T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md)   [ResolveStatus](T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolveStatus.md)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference.md">ResolvedCrossReference Structure</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+
+[ResolvedCrossReference Structure](T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference.md)\
+[AdvancedSceneManager.Utility.CrossSceneReferences Namespace](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)

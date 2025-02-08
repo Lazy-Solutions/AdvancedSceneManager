@@ -1,24 +1,30 @@
 # An overview of ASM API structure
 
 ASM is structured into three levels:
+
 1. Surface level
 2. Intermediary level
 3. Core level
 
-<br/>
+\
+
 
 ## Surface level:
+
 The surface level is most common level to interact with ASM.
 
 It includes:
-* `SceneCollection.Open()`*, and similar.*
-* `Scene.Open()`*, and similar.*
-* `SceneHelper.Open()`*, and similar.*
 
-<br/>
+* `SceneCollection.Open()`_, and similar._
+* `Scene.Open()`_, and similar._
+* `SceneHelper.Open()`_, and similar._
+
+\
+
 
 ## Intermediary level:
-The intermediary level tracks the open state of [scenes](Scenes.md) and [collections](Scene%20collections.md), and also verifies whatever a scene actually should be opened or not (ASM does not support duplicate instances of a scene).
+
+The intermediary level tracks the open state of [scenes](Scenes.md) and [collections](<Scene collections.md>), and also verifies whatever a scene actually should be opened or not (ASM does not support duplicate instances of a scene).
 
 Can be accessed using:\
 `SceneManager.runtime`
@@ -34,16 +40,19 @@ public Scene : ASMModel
 }
 ```
 
-<br/>
+\
+
 
 ## Core level:
+
 This is the core of ASM. It deals with the actual loading and unloading of scenes.
 
 `SceneOperation`
 
-<br/>
+\
 
-[Scene operation](Scene%20operations.md) basically takes a list of [scenes](Scenes.md) to close, and a list of scenes to open, then closes / opens them. Scenes specified to close will always be closed before any scenes are opened (except loading screen).
+
+[Scene operation](<Scene operations.md>) basically takes a list of [scenes](Scenes.md) to close, and a list of scenes to open, then closes / opens them. Scenes specified to close will always be closed before any scenes are opened (except loading screen).
 
 Scene operation also manages loading screens and will automatically open a specified loading screen before it begins to unload scenes. If a loading screen was opened, then it will be automatically closed after scenes have been loaded.
 

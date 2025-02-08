@@ -1,31 +1,30 @@
 # SetValue Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility.CrossSceneReferences](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static ResolveStatus SetValue(
 	ResolvedReference variable,
 	ResolvedReference value
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md">ResolvedReference</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md">ResolvedReference</a></dt><dd> </dd></dl>
+
+&#x20; [ResolvedReference](T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md)   [ResolvedReference](T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolveStatus.md">ResolveStatus</a>
+
+[ResolveStatus](T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolveStatus.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference Class</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+
+[ObjectReference Class](T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md)\
+[AdvancedSceneManager.Utility.CrossSceneReferences Namespace](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)

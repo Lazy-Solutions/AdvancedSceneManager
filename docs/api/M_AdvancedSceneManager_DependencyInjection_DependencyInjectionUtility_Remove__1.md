@@ -1,14 +1,13 @@
-# Remove&lt;T&gt; Method
-
-
-
+# Remove\<T> Method
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection</a>  
+
+**Namespace:** [AdvancedSceneManager.DependencyInjection](N_AdvancedSceneManager_DependencyInjection.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static void Remove<T>(
 	Type type,
 	T service
@@ -17,17 +16,15 @@ where T : DependencyInjectionUtility.IInjectable
 
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a></dt><dd> </dd><dt>  T</dt><dd> </dd></dl>
+
+&#x20; [Type](https://learn.microsoft.com/dotnet/api/system.type)   T&#x20;
 
 #### Type Parameters
-<dl><dt /><dd /></dl>
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility.md">DependencyInjectionUtility Class</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+
+[DependencyInjectionUtility Class](T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility.md)\
+[AdvancedSceneManager.DependencyInjection Namespace](N_AdvancedSceneManager_DependencyInjection.md)

@@ -1,30 +1,29 @@
 # Implicit Conversion (ProfileDependentCollection to SceneCollection)
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Models.Utility](N_AdvancedSceneManager_Models_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static implicit operator SceneCollection (
 	ProfileDependentCollection instance
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependentCollection.md">ProfileDependentCollection</a></dt><dd> </dd></dl>
+
+&#x20; [ProfileDependentCollection](T_AdvancedSceneManager_Models_Utility_ProfileDependentCollection.md)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>
+
+[SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependentCollection.md">ProfileDependentCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+
+[ProfileDependentCollection Class](T_AdvancedSceneManager_Models_Utility_ProfileDependentCollection.md)\
+[AdvancedSceneManager.Models.Utility Namespace](N_AdvancedSceneManager_Models_Utility.md)

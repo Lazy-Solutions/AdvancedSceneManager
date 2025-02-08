@@ -1,27 +1,25 @@
 # AddCrossSceneReference Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public void AddCrossSceneReference(
 	CrossSceneReference reference
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md">CrossSceneReference</a></dt><dd> </dd></dl>
+
+&#x20; [CrossSceneReference](T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[Scene Class](T_AdvancedSceneManager_Models_Scene.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

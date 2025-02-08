@@ -1,26 +1,24 @@
 # CoroutineUtility.Events.CoroutineEvent Delegate
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public delegate void CoroutineEvent(
 	GlobalCoroutine coroutine
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a></dt><dd>The coroutine that this event was called for.</dd></dl>
+
+&#x20; [GlobalCoroutine](T_AdvancedSceneManager_Utility_GlobalCoroutine.md)The coroutine that this event was called for.
 
 ## See Also
 
-
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

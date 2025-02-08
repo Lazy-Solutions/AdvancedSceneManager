@@ -1,32 +1,30 @@
-# _Open(Scene) Method
-
-
-
+# \_Open(Scene) Method
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public void _Open(
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Implements
-<a href="M_AdvancedSceneManager_Models_Scene_IMethods_Target_IEvent__Open.md">Scene.IMethods_Target.IEvent._Open(Scene)</a>  
 
+[Scene.IMethods\_Target.IEvent.\_Open(Scene)](M_AdvancedSceneManager_Models_Scene_IMethods_Target_IEvent__Open.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_ASMSceneHelper.md">ASMSceneHelper Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_ASMSceneHelper__Open.md">_Open Overload</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[ASMSceneHelper Class](T_AdvancedSceneManager_Models_ASMSceneHelper.md)\
+[\_Open Overload](Overload_AdvancedSceneManager_Models_ASMSceneHelper__Open.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

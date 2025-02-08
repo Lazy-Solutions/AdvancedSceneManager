@@ -1,27 +1,25 @@
 # OpenWithUserData Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts</a>  
+
+**Namespace:** [AdvancedSceneManager.ExampleScripts](N_AdvancedSceneManager_ExampleScripts.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public void OpenWithUserData(
 	ScriptableObject scriptableObject
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  ScriptableObject</dt><dd> </dd></dl>
+
+&#x20; ScriptableObject&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_ExampleScripts_CollectionOpen.md">CollectionOpen Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+
+[CollectionOpen Class](T_AdvancedSceneManager_ExampleScripts_CollectionOpen.md)\
+[AdvancedSceneManager.ExampleScripts Namespace](N_AdvancedSceneManager_ExampleScripts.md)

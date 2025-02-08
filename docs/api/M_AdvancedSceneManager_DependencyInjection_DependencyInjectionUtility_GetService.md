@@ -1,31 +1,30 @@
 # GetService(Type) Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection</a>  
+
+**Namespace:** [AdvancedSceneManager.DependencyInjection](N_AdvancedSceneManager_DependencyInjection.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static DependencyInjectionUtility.IInjectable GetService(
 	Type type
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a></dt><dd> </dd></dl>
+
+&#x20; [Type](https://learn.microsoft.com/dotnet/api/system.type)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable.md">DependencyInjectionUtility.IInjectable</a>
+
+[DependencyInjectionUtility.IInjectable](T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility.md">DependencyInjectionUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetService.md">GetService Overload</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+
+[DependencyInjectionUtility Class](T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility.md)\
+[GetService Overload](Overload_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetService.md)\
+[AdvancedSceneManager.DependencyInjection Namespace](N_AdvancedSceneManager_DependencyInjection.md)

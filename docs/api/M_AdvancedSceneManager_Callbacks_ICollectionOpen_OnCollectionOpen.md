@@ -1,37 +1,35 @@
 # OnCollectionOpen Method
 
-
-
 Callback for when a scene, in a collection, that a MonoBehaviour is contained within is opened.
 
 Called before loading screen is hidden, if one is defined, or else just when collection has opened.
-  
-  
- See also: <ul><li><a href="T_AdvancedSceneManager_Callbacks_ICollectionOpen.md">ICollectionOpen</a></li><li><a href="T_AdvancedSceneManager_Callbacks_ICollectionOpen.md">ICollectionOpen</a></li><li>[!:ICollectionOpenAwaitable]</li></ul>
 
+See also:
 
-
-
+* [ICollectionOpen](T_AdvancedSceneManager_Callbacks_ICollectionOpen.md)
+* [ICollectionOpen](T_AdvancedSceneManager_Callbacks_ICollectionOpen.md)
+* \[!:ICollectionOpenAwaitable]
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
+
+**Namespace:** [AdvancedSceneManager.Callbacks](N_AdvancedSceneManager_Callbacks.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 void OnCollectionOpen(
 	SceneCollection collection
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd></dl>
+
+&#x20; [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Callbacks_ICollectionOpen.md">ICollectionOpen Interface</a>  
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+
+[ICollectionOpen Interface](T_AdvancedSceneManager_Callbacks_ICollectionOpen.md)\
+[AdvancedSceneManager.Callbacks Namespace](N_AdvancedSceneManager_Callbacks.md)

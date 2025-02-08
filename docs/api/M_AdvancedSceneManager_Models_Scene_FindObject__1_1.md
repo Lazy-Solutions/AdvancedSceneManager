@@ -1,40 +1,39 @@
-# FindObject&lt;T&gt;(T) Method
+# FindObject\<T>(T) Method
 
-
-Finds the object in the hierarchy of this <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.
-
-
+Finds the object in the hierarchy of this [Scene](T_AdvancedSceneManager_Models_Scene.md).
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public bool FindObject<T>(
 	out T component
 )
 
 ```
 
-
-
 #### Parameters
-<dl><dt>  T</dt><dd> </dd></dl>
+
+&#x20; T&#x20;
 
 #### Type Parameters
-<dl><dt /><dd /></dl>
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Remarks
+
 Only works if scene is loaded.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_Scene_FindObject.md">FindObject Overload</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[Scene Class](T_AdvancedSceneManager_Models_Scene.md)\
+[FindObject Overload](Overload_AdvancedSceneManager_Models_Scene_FindObject.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

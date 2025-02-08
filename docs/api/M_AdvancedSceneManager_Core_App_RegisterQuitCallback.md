@@ -1,33 +1,31 @@
 # RegisterQuitCallback Method
 
-
 Register a callback to be called before quit.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public void RegisterQuitCallback(
 	IEnumerator coroutine
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a></dt><dd> </dd></dl>
+
+&#x20; [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)&#x20;
 
 #### Implements
-<a href="M_AdvancedSceneManager_DependencyInjection_IApp_RegisterQuitCallback.md">IApp.RegisterQuitCallback(IEnumerator)</a>  
 
+[IApp.RegisterQuitCallback(IEnumerator)](M_AdvancedSceneManager_DependencyInjection_IApp_RegisterQuitCallback.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_App.md">App Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[App Class](T_AdvancedSceneManager_Core_App.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

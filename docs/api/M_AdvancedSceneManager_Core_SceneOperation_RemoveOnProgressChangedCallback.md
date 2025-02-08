@@ -1,32 +1,31 @@
 # RemoveOnProgressChangedCallback Method
 
-
 Removes a callback when progress changed.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public SceneOperation RemoveOnProgressChangedCallback(
 	Action<float> callback
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a>)</dt><dd> </dd></dl>
+
+&#x20; [Action](https://learn.microsoft.com/dotnet/api/system.action-1)([Single](https://learn.microsoft.com/dotnet/api/system.single))&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[SceneOperation Class](T_AdvancedSceneManager_Core_SceneOperation.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

@@ -1,36 +1,36 @@
 # CreateDynamic Method
 
-
 Creates a scene at runtime, that is not saved to disk.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static Scene CreateDynamic(
 	string name,
 	LocalPhysicsMode localPhysicsMode = LocalPhysicsMode.None
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd> </dd><dt>  LocalPhysicsMode  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [String](https://learn.microsoft.com/dotnet/api/system.string)   LocalPhysicsMode  (Optional)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>
+
+[Scene](T_AdvancedSceneManager_Models_Scene.md)
 
 ## Remarks
+
 Returns null if scene could not be created.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[SceneUtility Class](T_AdvancedSceneManager_Utility_SceneUtility.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

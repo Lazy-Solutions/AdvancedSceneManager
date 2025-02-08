@@ -1,33 +1,32 @@
-# Chain(Func&lt;IEnumerator&gt;[]) Method
+# Chain(Func\<IEnumerator>\[]) Method
 
-
-Runs the coroutines in sequence, wrapped in a single <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a>.
-
-
+Runs the coroutines in sequence, wrapped in a single [GlobalCoroutine](T_AdvancedSceneManager_Utility_GlobalCoroutine.md).
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static GlobalCoroutine Chain(
 	params Func<IEnumerator>[] coroutines
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.func-1" target="_blank" rel="noopener noreferrer">Func</a>(<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>)[]</dt><dd> </dd></dl>
+
+&#x20; [Func](https://learn.microsoft.com/dotnet/api/system.func-1)([IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator))\[]&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a>
+
+[GlobalCoroutine](T_AdvancedSceneManager_Utility_GlobalCoroutine.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CoroutineUtility.md">CoroutineUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_CoroutineUtility_Chain.md">Chain Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[CoroutineUtility Class](T_AdvancedSceneManager_Utility_CoroutineUtility.md)\
+[Chain Overload](Overload_AdvancedSceneManager_Utility_CoroutineUtility_Chain.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

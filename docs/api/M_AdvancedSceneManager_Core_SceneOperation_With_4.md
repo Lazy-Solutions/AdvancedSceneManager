@@ -1,33 +1,32 @@
-# With(Action&lt;LoadingScreen&gt;) Method
+# With(Action\<LoadingScreen>) Method
 
-
-Specifies a callback when loading screen is opened, before <a href="M_AdvancedSceneManager_Loading_LoadingScreen_OnOpen.md">OnOpen()</a> is called.
-
-
+Specifies a callback when loading screen is opened, before [OnOpen()](M_AdvancedSceneManager_Loading_LoadingScreen_OnOpen.md) is called.
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public SceneOperation With(
 	Action<LoadingScreen> loadingScreenCallback
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>)</dt><dd> </dd></dl>
+
+&#x20; [Action](https://learn.microsoft.com/dotnet/api/system.action-1)([LoadingScreen](T_AdvancedSceneManager_Loading_LoadingScreen.md))&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_SceneOperation_With.md">With Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[SceneOperation Class](T_AdvancedSceneManager_Core_SceneOperation.md)\
+[With Overload](Overload_AdvancedSceneManager_Core_SceneOperation_With.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

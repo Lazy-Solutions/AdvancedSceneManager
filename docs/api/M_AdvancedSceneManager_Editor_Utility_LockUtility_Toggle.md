@@ -1,28 +1,26 @@
 # Toggle Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Editor.Utility](N_AdvancedSceneManager_Editor_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static void Toggle(
 	ILockable obj,
 	bool prompt = false
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_ILockable.md">ILockable</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [ILockable](T_AdvancedSceneManager_Models_ILockable.md)   [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Editor_Utility_LockUtility.md">LockUtility Class</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+
+[LockUtility Class](T_AdvancedSceneManager_Editor_Utility_LockUtility.md)\
+[AdvancedSceneManager.Editor.Utility Namespace](N_AdvancedSceneManager_Editor_Utility.md)

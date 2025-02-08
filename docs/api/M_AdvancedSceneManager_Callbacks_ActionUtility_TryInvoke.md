@@ -1,37 +1,36 @@
 # TryInvoke(Action) Method
 
-
 Tries to invoke the action, eats the exception.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
+
+**Namespace:** [AdvancedSceneManager.Callbacks](N_AdvancedSceneManager_Callbacks.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static void TryInvoke(
 	this Action action
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action" target="_blank" rel="noopener noreferrer">Action</a></dt><dd> </dd></dl>
+
+&#x20; [Action](https://learn.microsoft.com/dotnet/api/system.action)&#x20;
 
 #### Usage Note
-In Visual Basic and C#, you can call this method as an instance method on any object of type <a href="https://learn.microsoft.com/dotnet/api/system.action" target="_blank" rel="noopener noreferrer">Action</a>. When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
 
-Extension Methods (Visual Basic)</a> or <a href="https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods" target="_blank" rel="noopener noreferrer">
+In Visual Basic and C#, you can call this method as an instance method on any object of type [Action](https://learn.microsoft.com/dotnet/api/system.action). When you use instance method syntax to call this method, omit the first parameter. For more information, see
 
-Extension Methods (C# Programming Guide)</a>.
+[Extension Methods (Visual Basic)](https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods) or
+
+[Extension Methods (C# Programming Guide)](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods).
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Callbacks_ActionUtility.md">ActionUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Callbacks_ActionUtility_TryInvoke.md">TryInvoke Overload</a>  
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+
+[ActionUtility Class](T_AdvancedSceneManager_Callbacks_ActionUtility.md)\
+[TryInvoke Overload](Overload_AdvancedSceneManager_Callbacks_ActionUtility_TryInvoke.md)\
+[AdvancedSceneManager.Callbacks Namespace](N_AdvancedSceneManager_Callbacks.md)

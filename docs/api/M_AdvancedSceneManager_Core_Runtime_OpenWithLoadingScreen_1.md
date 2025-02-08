@@ -1,38 +1,37 @@
-# OpenWithLoadingScreen(IEnumerable&lt;Scene&gt;, Scene) Method
-
+# OpenWithLoadingScreen(IEnumerable\<Scene>, Scene) Method
 
 Opens a scene with a loading screen.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public SceneOperation OpenWithLoadingScreen(
 	IEnumerable<Scene> scene,
 	Scene loadingScreen
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>)</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)([Scene](T_AdvancedSceneManager_Models_Scene.md))   [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 #### Implements
-<a href="M_AdvancedSceneManager_DependencyInjection_ISceneManager_OpenWithLoadingScreen_1.md">ISceneManager.OpenWithLoadingScreen(IEnumerable(Scene), Scene)</a>  
 
+[ISceneManager.OpenWithLoadingScreen(IEnumerable(Scene), Scene)](M_AdvancedSceneManager_DependencyInjection_ISceneManager_OpenWithLoadingScreen_1.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_Runtime.md">Runtime Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_Runtime_OpenWithLoadingScreen.md">OpenWithLoadingScreen Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[Runtime Class](T_AdvancedSceneManager_Core_Runtime.md)\
+[OpenWithLoadingScreen Overload](Overload_AdvancedSceneManager_Core_Runtime_OpenWithLoadingScreen.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

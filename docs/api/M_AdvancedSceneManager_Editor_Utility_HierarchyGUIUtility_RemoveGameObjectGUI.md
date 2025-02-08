@@ -1,27 +1,25 @@
 # RemoveGameObjectGUI Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Editor.Utility](N_AdvancedSceneManager_Editor_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static void RemoveGameObjectGUI(
 	HierarchyGUIUtility.HierarchyGameObjectGUI onGUI
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility_HierarchyGameObjectGUI.md">HierarchyGUIUtility.HierarchyGameObjectGUI</a></dt><dd> </dd></dl>
+
+&#x20; [HierarchyGUIUtility.HierarchyGameObjectGUI](T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility_HierarchyGameObjectGUI.md)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility.md">HierarchyGUIUtility Class</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+
+[HierarchyGUIUtility Class](T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility.md)\
+[AdvancedSceneManager.Editor.Utility Namespace](N_AdvancedSceneManager_Editor_Utility.md)

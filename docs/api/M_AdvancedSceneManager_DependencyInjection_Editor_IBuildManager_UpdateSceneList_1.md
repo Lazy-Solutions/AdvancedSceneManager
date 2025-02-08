@@ -1,28 +1,26 @@
 # UpdateSceneList(Boolean) Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor</a>  
+
+**Namespace:** [AdvancedSceneManager.DependencyInjection.Editor](N_AdvancedSceneManager_DependencyInjection_Editor.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 void UpdateSceneList(
 	bool ignorePlaymodeCheck
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a></dt><dd> </dd></dl>
+
+&#x20; [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager.md">IBuildManager Interface</a>  
-<a href="Overload_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager_UpdateSceneList.md">UpdateSceneList Overload</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+
+[IBuildManager Interface](T_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager.md)\
+[UpdateSceneList Overload](Overload_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager_UpdateSceneList.md)\
+[AdvancedSceneManager.DependencyInjection.Editor Namespace](N_AdvancedSceneManager_DependencyInjection_Editor.md)

@@ -1,37 +1,36 @@
 # Open(SceneCollection, Boolean) Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public SceneOperation Open(
 	SceneCollection collection,
 	bool openAll = false
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)   [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 #### Implements
-<a href="M_AdvancedSceneManager_DependencyInjection_ISceneManager_Open_2.md">ISceneManager.Open(SceneCollection, Boolean)</a>  
-<a href="M_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_Open.md">SceneCollection.IMethods_Target.Open(SceneCollection, Boolean)</a>  
 
+[ISceneManager.Open(SceneCollection, Boolean)](M_AdvancedSceneManager_DependencyInjection_ISceneManager_Open_2.md)\
+[SceneCollection.IMethods\_Target.Open(SceneCollection, Boolean)](M_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_Open.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_Runtime.md">Runtime Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_Runtime_Open.md">Open Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[Runtime Class](T_AdvancedSceneManager_Core_Runtime.md)\
+[Open Overload](Overload_AdvancedSceneManager_Core_Runtime_Open.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

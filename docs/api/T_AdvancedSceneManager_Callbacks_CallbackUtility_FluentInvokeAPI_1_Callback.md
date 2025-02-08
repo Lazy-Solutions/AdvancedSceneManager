@@ -1,30 +1,29 @@
-# CallbackUtility.FluentInvokeAPI&lt;T&gt;.Callback Delegate
-
-
-
+# CallbackUtility.FluentInvokeAPI\<T>.Callback Delegate
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
+
+**Namespace:** [AdvancedSceneManager.Callbacks](N_AdvancedSceneManager_Callbacks.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public delegate IEnumerator Callback(
 	T obj,
 	bool isEnabled
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">T</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a></dt><dd> </dd></dl>
+
+&#x20; [T](T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md)   [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
+
+[IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
 ## See Also
 
-
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+
+[AdvancedSceneManager.Callbacks Namespace](N_AdvancedSceneManager_Callbacks.md)

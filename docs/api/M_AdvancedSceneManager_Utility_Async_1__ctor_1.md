@@ -1,28 +1,26 @@
-# Async&lt;T&gt;(Func&lt;ValueTuple&lt;Boolean, T&gt;&gt;) Constructor
-
-
-
+# Async\<T>(Func\<ValueTuple\<Boolean, T>>) Constructor
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public Async(
 	Func<(bool isDone, T )> waitUntil
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.func-1" target="_blank" rel="noopener noreferrer">Func</a>(<a href="https://learn.microsoft.com/dotnet/api/system.valuetuple-2" target="_blank" rel="noopener noreferrer">ValueTuple</a>(<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>, <a href="T_AdvancedSceneManager_Utility_Async_1.md">T</a>))</dt><dd> </dd></dl>
+
+&#x20; [Func](https://learn.microsoft.com/dotnet/api/system.func-1)([ValueTuple](https://learn.microsoft.com/dotnet/api/system.valuetuple-2)([Boolean](https://learn.microsoft.com/dotnet/api/system.boolean), [T](T_AdvancedSceneManager_Utility_Async_1.md)))&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_Async_1.md">Async(T) Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_Async_1__ctor.md">Async(T) Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[Async(T) Class](T_AdvancedSceneManager_Utility_Async_1.md)\
+[Async(T) Overload](Overload_AdvancedSceneManager_Utility_Async_1__ctor.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

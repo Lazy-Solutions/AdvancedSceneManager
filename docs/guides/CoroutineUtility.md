@@ -1,4 +1,7 @@
-## CoroutineUtility
+# CoroutineUtility
+
+### CoroutineUtility
+
 Run coroutines detached from MonoBehaviours and scenes which makes working with coroutines in certain circumstances a lot easier.\
 Supports [Editor Coroutines](https://docs.unity3d.com/Manual/com.unity.editorcoroutines.html).
 
@@ -42,9 +45,12 @@ IEnumerator Coroutine()
     ...
 }
 ```
-</br>
 
-## MainThreadUtility
+\
+
+
+### MainThreadUtility
+
 Provides functionality to invoke code on main thread. Useful when using tasks or threading, and you need to perform action on main thread.
 
 ```csharp

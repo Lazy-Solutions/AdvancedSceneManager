@@ -1,27 +1,25 @@
 # EventCallbackUtility.CalledForAttribute Constructor
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events</a>  
+
+**Namespace:** [AdvancedSceneManager.Callbacks.Events](N_AdvancedSceneManager_Callbacks_Events.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public CalledForAttribute(
 	params When[] when
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Core_Callbacks_When.md">When</a>[]</dt><dd> </dd></dl>
+
+&#x20; [When](T_AdvancedSceneManager_Core_Callbacks_When.md)\[]&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Callbacks_Events_EventCallbackUtility_CalledForAttribute.md">EventCallbackUtility.CalledForAttribute Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+
+[EventCallbackUtility.CalledForAttribute Class](T_AdvancedSceneManager_Callbacks_Events_EventCallbackUtility_CalledForAttribute.md)\
+[AdvancedSceneManager.Callbacks.Events Namespace](N_AdvancedSceneManager_Callbacks_Events.md)

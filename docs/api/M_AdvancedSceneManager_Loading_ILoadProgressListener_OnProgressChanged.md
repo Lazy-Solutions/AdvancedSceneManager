@@ -1,29 +1,27 @@
 # OnProgressChanged Method
 
-
 Called when progress has changed.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading</a>  
+
+**Namespace:** [AdvancedSceneManager.Loading](N_AdvancedSceneManager_Loading.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 void OnProgressChanged(
 	ILoadProgressData progress
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Loading_ILoadProgressData.md">ILoadProgressData</a></dt><dd> </dd></dl>
+
+&#x20; [ILoadProgressData](T_AdvancedSceneManager_Loading_ILoadProgressData.md)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Loading_ILoadProgressListener.md">ILoadProgressListener Interface</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+
+[ILoadProgressListener Interface](T_AdvancedSceneManager_Loading_ILoadProgressListener.md)\
+[AdvancedSceneManager.Loading Namespace](N_AdvancedSceneManager_Loading.md)

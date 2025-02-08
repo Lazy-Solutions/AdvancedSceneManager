@@ -1,28 +1,26 @@
 # MessageLoadProgressData Constructor
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading</a>  
+
+**Namespace:** [AdvancedSceneManager.Loading](N_AdvancedSceneManager_Loading.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public MessageLoadProgressData(
 	string message,
 	float value
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a></dt><dd> </dd></dl>
+
+&#x20; [String](https://learn.microsoft.com/dotnet/api/system.string)   [Single](https://learn.microsoft.com/dotnet/api/system.single)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Loading_MessageLoadProgressData.md">MessageLoadProgressData Structure</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+
+[MessageLoadProgressData Structure](T_AdvancedSceneManager_Loading_MessageLoadProgressData.md)\
+[AdvancedSceneManager.Loading Namespace](N_AdvancedSceneManager_Loading.md)

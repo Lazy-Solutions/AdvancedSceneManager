@@ -1,36 +1,35 @@
 # CloseWithLoadingScreen(Scene, Scene) Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public SceneOperation CloseWithLoadingScreen(
 	Scene scene,
 	Scene loadingScreen
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)   [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 #### Implements
-<a href="M_AdvancedSceneManager_Models_Scene_IMethods_Target_CloseWithLoadingScreen.md">Scene.IMethods_Target.CloseWithLoadingScreen(Scene, Scene)</a>  
 
+[Scene.IMethods\_Target.CloseWithLoadingScreen(Scene, Scene)](M_AdvancedSceneManager_Models_Scene_IMethods_Target_CloseWithLoadingScreen.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_Runtime.md">Runtime Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_Runtime_CloseWithLoadingScreen.md">CloseWithLoadingScreen Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[Runtime Class](T_AdvancedSceneManager_Core_Runtime.md)\
+[CloseWithLoadingScreen Overload](Overload_AdvancedSceneManager_Core_Runtime_CloseWithLoadingScreen.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

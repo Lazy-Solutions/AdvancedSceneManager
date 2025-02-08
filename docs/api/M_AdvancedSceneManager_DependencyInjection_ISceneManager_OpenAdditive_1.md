@@ -1,16 +1,15 @@
-# OpenAdditive(IEnumerable&lt;SceneCollection&gt;, SceneCollection, Scene) Method
-
+# OpenAdditive(IEnumerable\<SceneCollection>, SceneCollection, Scene) Method
 
 Opens the collection without closing existing scenes.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection</a>  
+
+**Namespace:** [AdvancedSceneManager.DependencyInjection](N_AdvancedSceneManager_DependencyInjection.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 SceneOperation OpenAdditive(
 	IEnumerable<SceneCollection> collections,
 	SceneCollection activeCollection = null,
@@ -18,18 +17,18 @@ SceneOperation OpenAdditive(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>  (Optional)</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)([SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md))   [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)  (Optional)   [Scene](T_AdvancedSceneManager_Models_Scene.md)  (Optional)&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_ISceneManager.md">ISceneManager Interface</a>  
-<a href="Overload_AdvancedSceneManager_DependencyInjection_ISceneManager_OpenAdditive.md">OpenAdditive Overload</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+
+[ISceneManager Interface](T_AdvancedSceneManager_DependencyInjection_ISceneManager.md)\
+[OpenAdditive Overload](Overload_AdvancedSceneManager_DependencyInjection_ISceneManager_OpenAdditive.md)\
+[AdvancedSceneManager.DependencyInjection Namespace](N_AdvancedSceneManager_DependencyInjection.md)

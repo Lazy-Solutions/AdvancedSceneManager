@@ -1,16 +1,15 @@
-# GetKey&lt;T&gt;(T) Method
-
+# GetKey\<T>(T) Method
 
 Gets the key for the specified scene loader.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static string GetKey<T>(
 	T obj
 )
@@ -18,21 +17,20 @@ where T : SceneLoader
 
 ```
 
-
-
 #### Parameters
-<dl><dt>  T</dt><dd> </dd></dl>
+
+&#x20; T&#x20;
 
 #### Type Parameters
-<dl><dt /><dd /></dl>
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>
+
+[String](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_SceneLoader.md">SceneLoader Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_SceneLoader_GetKey.md">GetKey Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[SceneLoader Class](T_AdvancedSceneManager_Core_SceneLoader.md)\
+[GetKey Overload](Overload_AdvancedSceneManager_Core_SceneLoader_GetKey.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

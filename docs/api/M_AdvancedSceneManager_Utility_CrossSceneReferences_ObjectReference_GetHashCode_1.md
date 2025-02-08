@@ -1,35 +1,34 @@
 # GetHashCode(ObjectReference) Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility.CrossSceneReferences](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public int GetHashCode(
 	ObjectReference obj
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference</a></dt><dd> </dd></dl>
+
+&#x20; [ObjectReference](T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">Int32</a>
+
+[Int32](https://learn.microsoft.com/dotnet/api/system.int32)
 
 #### Implements
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1.gethashcode" target="_blank" rel="noopener noreferrer">IEqualityComparer(T).GetHashCode(T)</a>  
 
+[IEqualityComparer(T).GetHashCode(T)](https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1.gethashcode)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference_GetHashCode.md">GetHashCode Overload</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+
+[ObjectReference Class](T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md)\
+[GetHashCode Overload](Overload_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference_GetHashCode.md)\
+[AdvancedSceneManager.Utility.CrossSceneReferences Namespace](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)

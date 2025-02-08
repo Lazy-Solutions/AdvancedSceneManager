@@ -1,32 +1,29 @@
-# EventCallback&lt;TEventType&gt; Delegate
-
+# EventCallback\<TEventType> Delegate
 
 Callback for scene operations.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events</a>  
+
+**Namespace:** [AdvancedSceneManager.Callbacks.Events](N_AdvancedSceneManager_Callbacks_Events.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public delegate void EventCallback<in TEventType>(
 	TEventType evt
 )
 
 ```
 
-
-
 #### Parameters
-<dl><dt>  TEventType</dt><dd> </dd></dl>
+
+&#x20; TEventType&#x20;
 
 #### Type Parameters
-<dl><dt /><dd /></dl>
 
 ## See Also
 
-
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+
+[AdvancedSceneManager.Callbacks.Events Namespace](N_AdvancedSceneManager_Callbacks_Events.md)

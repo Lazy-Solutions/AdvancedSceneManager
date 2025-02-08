@@ -1,30 +1,29 @@
 # DoSceneOpenCallbacks Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
+
+**Namespace:** [AdvancedSceneManager.Callbacks](N_AdvancedSceneManager_Callbacks.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static IEnumerator DoSceneOpenCallbacks(
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
+
+[IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility.md">CallbackUtility Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+
+[CallbackUtility Class](T_AdvancedSceneManager_Callbacks_CallbackUtility.md)\
+[AdvancedSceneManager.Callbacks Namespace](N_AdvancedSceneManager_Callbacks.md)

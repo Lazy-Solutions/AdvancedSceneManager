@@ -1,31 +1,29 @@
 # OnPropertyChanged Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public override void OnPropertyChanged(
 	string propertyName = null
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>  (Optional)</dt><dd> </dd></dl>
+
+&#x20; [String](https://learn.microsoft.com/dotnet/api/system.string)  (Optional)&#x20;
 
 #### Implements
-<a href="M_AdvancedSceneManager_Models_ISceneCollection_OnPropertyChanged.md">ISceneCollection.OnPropertyChanged(String)</a>  
 
+[ISceneCollection.OnPropertyChanged(String)](M_AdvancedSceneManager_Models_ISceneCollection_OnPropertyChanged.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[SceneCollection Class](T_AdvancedSceneManager_Models_SceneCollection.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

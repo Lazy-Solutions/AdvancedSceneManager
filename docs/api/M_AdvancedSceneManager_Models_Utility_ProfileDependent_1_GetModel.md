@@ -1,35 +1,35 @@
 # GetModel Method
 
-
 Gets the selected scene.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Models.Utility](N_AdvancedSceneManager_Models_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public bool GetModel(
 	out T scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">T</a></dt><dd> </dd></dl>
+
+&#x20; [T](T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
+
+[Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Remarks
+
 Returns null if scene something went wrong.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">ProfileDependent(T) Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+
+[ProfileDependent(T) Class](T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md)\
+[AdvancedSceneManager.Models.Utility Namespace](N_AdvancedSceneManager_Models_Utility.md)

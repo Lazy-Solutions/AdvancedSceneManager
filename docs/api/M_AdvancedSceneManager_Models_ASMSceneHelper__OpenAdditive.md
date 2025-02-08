@@ -1,31 +1,29 @@
-# _OpenAdditive Method
-
-
-
+# \_OpenAdditive Method
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public void _OpenAdditive(
 	SceneCollection collection
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd></dl>
+
+&#x20; [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)&#x20;
 
 #### Implements
-<a href="M_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_IEvent__OpenAdditive.md">SceneCollection.IMethods_Target.IEvent._OpenAdditive(SceneCollection)</a>  
 
+[SceneCollection.IMethods\_Target.IEvent.\_OpenAdditive(SceneCollection)](M_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_IEvent__OpenAdditive.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_ASMSceneHelper.md">ASMSceneHelper Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[ASMSceneHelper Class](T_AdvancedSceneManager_Models_ASMSceneHelper.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

@@ -1,34 +1,33 @@
-# On(SceneCollection, Scene[]) Method
-
+# On(SceneCollection, Scene\[]) Method
 
 Specify the collection scenes to run this callback on and start execution.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks</a>  
+
+**Namespace:** [AdvancedSceneManager.Callbacks](N_AdvancedSceneManager_Callbacks.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public IEnumerator On(
 	SceneCollection collection,
 	params Scene[] additionalScenes
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>[]</dt><dd> </dd></dl>
+
+&#x20; [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)   [Scene](T_AdvancedSceneManager_Models_Scene.md)\[]&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
+
+[IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">CallbackUtility.FluentInvokeAPI(T) Class</a>  
-<a href="Overload_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_On.md">On Overload</a>  
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+
+[CallbackUtility.FluentInvokeAPI(T) Class](T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md)\
+[On Overload](Overload_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_On.md)\
+[AdvancedSceneManager.Callbacks Namespace](N_AdvancedSceneManager_Callbacks.md)

@@ -1,32 +1,30 @@
-# _Close(SceneCollection) Method
-
-
-
+# \_Close(SceneCollection) Method
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public void _Close(
 	SceneCollection collection
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd></dl>
+
+&#x20; [SceneCollection](T_AdvancedSceneManager_Models_SceneCollection.md)&#x20;
 
 #### Implements
-<a href="M_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_IEvent__Close.md">SceneCollection.IMethods_Target.IEvent._Close(SceneCollection)</a>  
 
+[SceneCollection.IMethods\_Target.IEvent.\_Close(SceneCollection)](M_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_IEvent__Close.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_ASMSceneHelper.md">ASMSceneHelper Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_ASMSceneHelper__Close.md">_Close Overload</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[ASMSceneHelper Class](T_AdvancedSceneManager_Models_ASMSceneHelper.md)\
+[\_Close Overload](Overload_AdvancedSceneManager_Models_ASMSceneHelper__Close.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

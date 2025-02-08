@@ -1,31 +1,30 @@
 # Implicit Conversion (Scene to Scene)
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static implicit operator Scene (
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  Scene</dt><dd> </dd></dl>
+
+&#x20; Scene&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>
+
+[Scene](T_AdvancedSceneManager_Models_Scene.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_Scene_op_Implicit.md">Implicit Overload</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[Scene Class](T_AdvancedSceneManager_Models_Scene.md)\
+[Implicit Overload](Overload_AdvancedSceneManager_Models_Scene_op_Implicit.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

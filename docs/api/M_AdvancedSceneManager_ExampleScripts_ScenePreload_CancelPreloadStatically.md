@@ -1,27 +1,25 @@
 # CancelPreloadStatically Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts</a>  
+
+**Namespace:** [AdvancedSceneManager.ExampleScripts](N_AdvancedSceneManager_ExampleScripts.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static void CancelPreloadStatically(
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_ExampleScripts_ScenePreload.md">ScenePreload Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+
+[ScenePreload Class](T_AdvancedSceneManager_ExampleScripts_ScenePreload.md)\
+[AdvancedSceneManager.ExampleScripts Namespace](N_AdvancedSceneManager_ExampleScripts.md)

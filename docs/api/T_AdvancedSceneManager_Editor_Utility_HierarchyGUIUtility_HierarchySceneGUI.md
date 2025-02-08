@@ -1,26 +1,24 @@
 # HierarchyGUIUtility.HierarchySceneGUI Delegate
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Editor.Utility](N_AdvancedSceneManager_Editor_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public delegate void HierarchySceneGUI(
 	Scene scene
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  Scene</dt><dd> </dd></dl>
+
+&#x20; Scene&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+
+[AdvancedSceneManager.Editor.Utility Namespace](N_AdvancedSceneManager_Editor_Utility.md)

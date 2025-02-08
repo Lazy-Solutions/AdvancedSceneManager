@@ -1,40 +1,39 @@
-# DoAction&lt;T2&gt;(Func&lt;T, T2&gt;) Method
-
+# DoAction\<T2>(Func\<T, T2>) Method
 
 Performs an action on the scene.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Models.Utility](N_AdvancedSceneManager_Models_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public T2 DoAction<T2>(
 	Func<T, T2> action
 )
 
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.func-2" target="_blank" rel="noopener noreferrer">Func</a>(<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">T</a>, T2)</dt><dd> </dd></dl>
+
+&#x20; [Func](https://learn.microsoft.com/dotnet/api/system.func-2)([T](T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md), T2)&#x20;
 
 #### Type Parameters
-<dl><dt /><dd /></dl>
 
 #### Return Value
+
 T2
 
 ## Remarks
-Does nothing if <a href="P_AdvancedSceneManager_Models_Utility_ProfileDependent_1_isValid.md">isValid</a> is false.
+
+Does nothing if [isValid](P_AdvancedSceneManager_Models_Utility_ProfileDependent_1_isValid.md) is false.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">ProfileDependent(T) Class</a>  
-<a href="Overload_AdvancedSceneManager_Models_Utility_ProfileDependent_1_DoAction.md">DoAction Overload</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+
+[ProfileDependent(T) Class](T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md)\
+[DoAction Overload](Overload_AdvancedSceneManager_Models_Utility_ProfileDependent_1_DoAction.md)\
+[AdvancedSceneManager.Models.Utility Namespace](N_AdvancedSceneManager_Models_Utility.md)

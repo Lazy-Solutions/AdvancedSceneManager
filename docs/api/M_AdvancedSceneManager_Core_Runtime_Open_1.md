@@ -1,40 +1,40 @@
-# Open(Scene[]) Method
-
+# Open(Scene\[]) Method
 
 Opens the scenes.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core</a>  
+
+**Namespace:** [AdvancedSceneManager.Core](N_AdvancedSceneManager_Core.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public SceneOperation Open(
 	params Scene[] scenes
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>[]</dt><dd> </dd></dl>
+
+&#x20; [Scene](T_AdvancedSceneManager_Models_Scene.md)\[]&#x20;
 
 #### Return Value
-<a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
+
+[SceneOperation](T_AdvancedSceneManager_Core_SceneOperation.md)
 
 #### Implements
-<a href="M_AdvancedSceneManager_DependencyInjection_ISceneManager_Open_1.md">ISceneManager.Open(Scene[])</a>  
 
+[ISceneManager.Open(Scene\[\])](M_AdvancedSceneManager_DependencyInjection_ISceneManager_Open_1.md)
 
 ## Remarks
+
 Open scenes will not be re-opened, please close it first.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Core_Runtime.md">Runtime Class</a>  
-<a href="Overload_AdvancedSceneManager_Core_Runtime_Open.md">Open Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+
+[Runtime Class](T_AdvancedSceneManager_Core_Runtime.md)\
+[Open Overload](Overload_AdvancedSceneManager_Core_Runtime_Open.md)\
+[AdvancedSceneManager.Core Namespace](N_AdvancedSceneManager_Core.md)

@@ -1,29 +1,27 @@
 # OnComplete Method
 
-
 Calls the callback when the async operation is complete.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public void OnComplete(
 	Action<T> callback
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="T_AdvancedSceneManager_Utility_Async_1.md">T</a>)</dt><dd> </dd></dl>
+
+&#x20; [Action](https://learn.microsoft.com/dotnet/api/system.action-1)([T](T_AdvancedSceneManager_Utility_Async_1.md))&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_Async_1.md">Async(T) Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[Async(T) Class](T_AdvancedSceneManager_Utility_Async_1.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

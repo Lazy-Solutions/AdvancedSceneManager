@@ -1,34 +1,33 @@
 # Item Property
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models</a>  
+
+**Namespace:** [AdvancedSceneManager.Models](N_AdvancedSceneManager_Models.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public Scene this[
 	int index
 ] { get; }
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">Int32</a></dt><dd> </dd></dl>
+
+&#x20; [Int32](https://learn.microsoft.com/dotnet/api/system.int32)&#x20;
 
 #### Property Value
-<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>
+
+[Scene](T_AdvancedSceneManager_Models_Scene.md)
 
 #### Implements
-<a href="P_AdvancedSceneManager_Models_ISceneCollection_Item.md">ISceneCollection.Item(Int32)</a>  
 
+[ISceneCollection.Item(Int32)](P_AdvancedSceneManager_Models_ISceneCollection_Item.md)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Models_DynamicCollection.md">DynamicCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+
+[DynamicCollection Class](T_AdvancedSceneManager_Models_DynamicCollection.md)\
+[AdvancedSceneManager.Models Namespace](N_AdvancedSceneManager_Models.md)

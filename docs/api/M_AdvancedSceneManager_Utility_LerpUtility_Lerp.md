@@ -1,16 +1,15 @@
-# Lerp(Single, Single, Single, Action&lt;Single&gt;, Action) Method
+# Lerp(Single, Single, Single, Action\<Single>, Action) Method
 
-
-Lerp from *start* to *end* over *duration* seconds.
-
-
+Lerp from _start_ to _end_ over _duration_ seconds.
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static IEnumerator Lerp(
 	float start,
 	float end,
@@ -20,18 +19,18 @@ public static IEnumerator Lerp(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a></dt><dd>The start value.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a></dt><dd>The end value.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a></dt><dd>The duration in seconds to lerp for.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a>)</dt><dd>The callback each lerp interval.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action" target="_blank" rel="noopener noreferrer">Action</a>  (Optional)</dt><dd>Callback when complete.</dd></dl>
+
+&#x20; [Single](https://learn.microsoft.com/dotnet/api/system.single)The start value.  [Single](https://learn.microsoft.com/dotnet/api/system.single)The end value.  [Single](https://learn.microsoft.com/dotnet/api/system.single)The duration in seconds to lerp for.  [Action](https://learn.microsoft.com/dotnet/api/system.action-1)([Single](https://learn.microsoft.com/dotnet/api/system.single))The callback each lerp interval.  [Action](https://learn.microsoft.com/dotnet/api/system.action)  (Optional)Callback when complete.
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
+
+[IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_LerpUtility.md">LerpUtility Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_LerpUtility_Lerp.md">Lerp Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[LerpUtility Class](T_AdvancedSceneManager_Utility_LerpUtility.md)\
+[Lerp Overload](Overload_AdvancedSceneManager_Utility_LerpUtility_Lerp.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

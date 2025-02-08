@@ -1,29 +1,27 @@
 # RegisterLoadProgressListener Method
 
-
-Registers a <a href="T_AdvancedSceneManager_Loading_ILoadProgressListener.md">ILoadProgressListener</a> that will receive callbacks when progress is reported from ASM.
-
-
+Registers a [ILoadProgressListener](T_AdvancedSceneManager_Loading_ILoadProgressListener.md) that will receive callbacks when progress is reported from ASM.
 
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static void RegisterLoadProgressListener(
 	ILoadProgressListener listener
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Loading_ILoadProgressListener.md">ILoadProgressListener</a></dt><dd> </dd></dl>
+
+&#x20; [ILoadProgressListener](T_AdvancedSceneManager_Loading_ILoadProgressListener.md)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[LoadingScreenUtility Class](T_AdvancedSceneManager_Utility_LoadingScreenUtility.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)

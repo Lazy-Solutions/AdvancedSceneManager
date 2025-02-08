@@ -1,29 +1,27 @@
 # CrossSceneReference(ObjectReference, ObjectReference) Constructor
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility.CrossSceneReferences](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public CrossSceneReference(
 	ObjectReference variable,
 	ObjectReference value
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference</a></dt><dd> </dd></dl>
+
+&#x20; [ObjectReference](T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md)   [ObjectReference](T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md)&#x20;
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md">CrossSceneReference Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference__ctor.md">CrossSceneReference Overload</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+
+[CrossSceneReference Class](T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md)\
+[CrossSceneReference Overload](Overload_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference__ctor.md)\
+[AdvancedSceneManager.Utility.CrossSceneReferences Namespace](N_AdvancedSceneManager_Utility_CrossSceneReferences.md)

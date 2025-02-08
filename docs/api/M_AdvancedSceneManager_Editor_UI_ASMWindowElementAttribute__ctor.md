@@ -1,16 +1,15 @@
 # ASMWindowElementAttribute Constructor
 
-
 Defines a new ASM window element.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI</a>  
+
+**Namespace:** [AdvancedSceneManager.Editor.UI](N_AdvancedSceneManager_Editor_UI.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public ASMWindowElementAttribute(
 	ElementLocation location,
 	bool isVisibleByDefault = false,
@@ -18,14 +17,13 @@ public ASMWindowElementAttribute(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Editor_UI_ElementLocation.md">ElementLocation</a></dt><dd>Specifies the location of this element.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd>Specifies whatever this element should be visible by default.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>  (Optional)</dt><dd>Specifies the name to use in case attribute is used mulitple times for a singular callback.</dd></dl>
+
+&#x20; [ElementLocation](T_AdvancedSceneManager_Editor_UI_ElementLocation.md)Specifies the location of this element.  [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)  (Optional)Specifies whatever this element should be visible by default.  [String](https://learn.microsoft.com/dotnet/api/system.string)  (Optional)Specifies the name to use in case attribute is used mulitple times for a singular callback.
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Editor_UI_ASMWindowElementAttribute.md">ASMWindowElementAttribute Class</a>  
-<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>  
+
+[ASMWindowElementAttribute Class](T_AdvancedSceneManager_Editor_UI_ASMWindowElementAttribute.md)\
+[AdvancedSceneManager.Editor.UI Namespace](N_AdvancedSceneManager_Editor_UI.md)

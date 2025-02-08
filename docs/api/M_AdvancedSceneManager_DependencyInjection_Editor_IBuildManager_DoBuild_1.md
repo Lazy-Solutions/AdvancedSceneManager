@@ -1,31 +1,30 @@
 # DoBuild(BuildPlayerOptions) Method
 
-
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor</a>  
+
+**Namespace:** [AdvancedSceneManager.DependencyInjection.Editor](N_AdvancedSceneManager_DependencyInjection_Editor.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 BuildReport DoBuild(
 	BuildPlayerOptions options
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  BuildPlayerOptions</dt><dd> </dd></dl>
+
+&#x20; BuildPlayerOptions&#x20;
 
 #### Return Value
+
 BuildReport
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager.md">IBuildManager Interface</a>  
-<a href="Overload_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager_DoBuild.md">DoBuild Overload</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+
+[IBuildManager Interface](T_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager.md)\
+[DoBuild Overload](Overload_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager_DoBuild.md)\
+[AdvancedSceneManager.DependencyInjection.Editor Namespace](N_AdvancedSceneManager_DependencyInjection_Editor.md)

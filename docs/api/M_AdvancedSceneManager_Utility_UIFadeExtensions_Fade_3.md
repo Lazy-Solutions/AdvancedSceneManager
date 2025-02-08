@@ -1,16 +1,15 @@
 # Fade(Graphic, Single, Single, Boolean) Method
 
-
 Animates the alpha of a Graphic.
 
-
-
 ## Definition
-**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+
+**Namespace:** [AdvancedSceneManager.Utility](N_AdvancedSceneManager_Utility.md)\
 **Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
 
 **C#**
-``` C#
+
+```c#
 public static IEnumerator Fade(
 	this Graphic text,
 	float to,
@@ -19,25 +18,26 @@ public static IEnumerator Fade(
 )
 ```
 
-
-
 #### Parameters
-<dl><dt>  Graphic</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a></dt><dd> </dd></dl>
+
+&#x20; Graphic   [Single](https://learn.microsoft.com/dotnet/api/system.single)   [Single](https://learn.microsoft.com/dotnet/api/system.single)   [Boolean](https://learn.microsoft.com/dotnet/api/system.boolean)&#x20;
 
 #### Return Value
-<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
+
+[IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
 #### Usage Note
-In Visual Basic and C#, you can call this method as an instance method on any object of type Graphic. When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
 
-Extension Methods (Visual Basic)</a> or <a href="https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods" target="_blank" rel="noopener noreferrer">
+In Visual Basic and C#, you can call this method as an instance method on any object of type Graphic. When you use instance method syntax to call this method, omit the first parameter. For more information, see
 
-Extension Methods (C# Programming Guide)</a>.
+[Extension Methods (Visual Basic)](https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods) or
+
+[Extension Methods (C# Programming Guide)](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods).
 
 ## See Also
 
-
 #### Reference
-<a href="T_AdvancedSceneManager_Utility_UIFadeExtensions.md">UIFadeExtensions Class</a>  
-<a href="Overload_AdvancedSceneManager_Utility_UIFadeExtensions_Fade.md">Fade Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+
+[UIFadeExtensions Class](T_AdvancedSceneManager_Utility_UIFadeExtensions.md)\
+[Fade Overload](Overload_AdvancedSceneManager_Utility_UIFadeExtensions_Fade.md)\
+[AdvancedSceneManager.Utility Namespace](N_AdvancedSceneManager_Utility.md)
