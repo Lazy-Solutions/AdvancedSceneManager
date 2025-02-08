@@ -1,7 +1,8 @@
 ---
+icon: grid-2
 layout:
   title:
-    visible: false
+    visible: true
   description:
     visible: false
   tableOfContents:
