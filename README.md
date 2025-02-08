@@ -87,9 +87,7 @@ public MyScript : MonoBehaviour
 
 ## Documentation
 
-You may access documentation by checking out the [docs folder](/docs):\
-
->Note: the offline version packaged with asset store releases may not be up-to-date, since documentation may be updated after release.
+You may access documentation by checking out the [docs folder](/docs).
 
 ## Patches
 Patches are partial updates that are too important to have our users wait for, and if you are having issues, have a look over here, it might be fixed already: \
