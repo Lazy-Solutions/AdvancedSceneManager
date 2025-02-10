@@ -21,6 +21,7 @@ layout:
 
 [Quick start](<guides/Quick start.md>)\
 [Updating ASM](guides/Updating.md)\
+[Videos](<guides/Videos.md>)\
 [Scene Manager Window](<guides/Scene manager window.md>)\
 [Common questions](<guides/Common questions.md>)
 
