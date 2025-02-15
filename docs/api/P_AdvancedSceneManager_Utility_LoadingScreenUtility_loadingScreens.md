@@ -1,0 +1,27 @@
+# loadingScreens Property
+
+
+The currently open loading screens.
+
+
+
+## Definition
+**Namespace:** <a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility</a>  
+**Assembly:** AdvancedSceneManager (in AdvancedSceneManager.dll) Version: 0.0.0.0
+
+**C#**
+``` C#
+public static IEnumerable<LoadingScreenBase> loadingScreens { get; }
+```
+
+
+
+#### Property Value
+<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)
+
+## See Also
+
+
+#### Reference
+<a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  

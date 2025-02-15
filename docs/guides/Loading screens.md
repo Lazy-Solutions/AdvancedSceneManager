@@ -1,11 +1,11 @@
 # Loading screens
 
 > For how to perform actions while a loading screen is open, after a scene has opened, have a look here:\
-> [Callbacks](api/callbacks.md)
+> [Callbacks](Callbacks.md)
 
 There are three ways of opening a loading screen:
 
-1. Opening a collection _(specified in_ [_collection menu_](<Scene manager window.md#collection-popup>)_)_
+1. Opening a collection *(specified in [collection menu](Scene%20manager%20window.md#collection-popup))*
 2. SceneOperation.With(Scene loadingScene)
 3. LoadingScreenUtility
 
@@ -121,9 +121,9 @@ public class ProgressBarLoadingScreen : LoadingScreen
 }
 ```
 
-When script is finished, place it in a dedicated scene and [assign scene as loading screen on a collection](<Scene manager window.md#collection-popup>) or as default loading screen in [ASM settings](<Scene manager window.md#startup-page>).
+When script is finished, place it in a dedicated scene and [assign scene as loading screen on a collection](Scene%20manager%20window.md#collection-popup) or as default loading screen in [ASM settings](Scene%20manager%20window.md#startup-page).
 
-> Note if a custom loading screen is not showing up, you may have to modify the scene and save it _(note that scene must be dirty for it to save to disk)_, for the loading screen flag to appear.
+> Note if a custom loading screen is not showing up, you may have to modify the scene and save it *(note that scene must be dirty for it to save to disk)*, for the loading screen flag to appear.
 
 ## ILoadProgressData
 
@@ -133,21 +133,20 @@ ASM includes two basic structs implementing `ILoadProgressData`:
 
 ### SceneLoadProgressData
 
-> SceneLoadProgressData is created internally when loading a scene. you can disable this like so:
-
+> SceneLoadProgressData is created internally when loading a scene.
+you can disable this like so: 
 ```
 Scene.Open().DisableProgressReporting()
 ```
 
 `SceneLoadProgressData` is designed to represent the progress of scene loading operations.
 
-* **Properties**:
-  * `value`: A normalized float (0 to 1) that indicates the percentage of scene load/unload completion.
-  * `scene`: The scene currently being loaded/unloaded.
-  * `operation`: The current operation, where you can find the total for the entire operation.
+- **Properties**:
+  - `value`: A normalized float (0 to 1) that indicates the percentage of scene load/unload completion.
+  - `scene`: The scene currently being loaded/unloaded.
+  - `operation`: The current operation, where you can find the total for the entire operation. 
 
 **Example**:
-
 ```csharp
 var sceneProgress = new SceneLoadProgressData(scene, SceneOperationKind.Load, progress);
 
@@ -167,12 +166,11 @@ public override void OnProgressChanged(ILoadProgressData progress)
 
 ### MessageLoadProgressData
 
-* **Properties**:
-  * `value`: A float (0 to 1) that represents the progress.
-  * `message`
+- **Properties**:
+  - `value`: A float (0 to 1) that represents the progress.
+  - `message`
 
 **Example**:
-
 ```csharp
 var messageProgress = new MessageLoadProgressData();
 // Use messageProgress to track messaging progress
@@ -189,7 +187,6 @@ public override void OnProgressChanged(ILoadProgressData progress)
 ```
 
 ### Custom ILoadProgressData
-
 No problems!
 
 ```csharp
@@ -202,10 +199,10 @@ No problems!
     LoadingScreenUtility.ReportProgress(new CustomLoadProgressData())
 ```
 
+
 ## Default loading screens
 
 There are several default loading screens included in ASM:
-
 * **Fade**
 * **Icon bounce**
 * **Press any button**
