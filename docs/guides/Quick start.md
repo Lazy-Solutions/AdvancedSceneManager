@@ -1,3 +1,10 @@
+<!--
+---
+layout: default
+title: Quick Start Guide
+---
+-->
+
 # Quick start
 
 <br/>
