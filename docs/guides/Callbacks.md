@@ -133,7 +133,7 @@ public static void RegisterGlobalEvents()
 	SceneManager.runtime.RegisterCallback<ScenePreloadPhaseEvent>(Callback);
 
 	//Conditional events.
-	//Called for each individial scene or collection, if any
+	//Called for each individual scene or collection, if any
 	SceneManager.runtime.RegisterCallback<ScenePreloadEvent>(Callback);
 	SceneManager.runtime.RegisterCallback<SceneOpenEvent>(Callback);
 	SceneManager.runtime.RegisterCallback<SceneCloseEvent>(Callback);
