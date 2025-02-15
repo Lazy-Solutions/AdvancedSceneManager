@@ -19,23 +19,23 @@
 [Splash screens](<guides/Splash screens.md>)
 
 **API**:\
-[An overview of ASM API structure](guides/api/an-overview-of-asm-api-structure.md)\
-[Scene Manager](guides/api/scene-manager.md)\
-[Callbacks](guides/api/callbacks.md)\
-[Scene operations](guides/api/scene-operations.md)\
-[Scene loaders](guides/api/scene-loaders.md)
+[An overview of ASM API structure](<guides/An overview of ASM API structure.md>)\
+[Scene Manager](<guides/Scene manager.md>)\
+[Callbacks](<guides/Callbacks.md>)\
+[Scene operations](<guides/Scene operations.md>)\
+[Scene loaders](<guides/Scene loaders.md>)
 
 **Plugin support**:\
-[Scene bindings](guides/plugin-support/scene-bindings.md)\
-[Netcode](guides/plugin-support/netcode.md)\
-[Addressables](guides/plugin-support/addressables.md)
+[Scene bindings](<guides/Scene bindings.md>)\
+[Netcode](<guides/Netcode.md>)\
+[Addressables](<guides/addressables.md>)
 
 **Misc**:\
-[Scene Helper](guides/misc/scene-helper.md)\
-[In-game toolbar](guides/misc/in-game-toolbar.md)\
-[Cross-scene references](guides/misc/cross-scene-references.md)\
-[Finding ASM assets](guides/misc/finding-asm-assets.md)\
-[Utility Functions](guides/misc/asmutilityfunctions.md)
+[Scene Helper](<guides/Scene helper.md>)\
+[In-game toolbar](<guides/In-game toolbar.md>)\
+[Cross-scene references](<guides/Cross-scene references.md>)\
+[Finding ASM assets](<guides/Finding asm assets.md>)\
+[Utility Functions](<guides/ASMUtilityFunctions.md>)
 
 ### Example projects
 
