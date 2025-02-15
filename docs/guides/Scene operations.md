@@ -45,31 +45,36 @@ sceneToOpen.Open().Close(closeAlreadyOpenScene).With(loadingScreenScene);
 
 ### Callbacks
 
-Scene operations supports callbacks, not only [scene callbacks](Callbacks.md), but also direct callbacks.
+Scene operations supports callbacks, not only [scene callbacks](Callbacks.md), but also direct callbacks.\
+The are called Event Callbacks, and can be registered either on specific scene operations, or globally. 
 
 ```csharp
-public void OnButtonClick()
+//Called for every operation until domain reload, or explicitly unregistered
+//Phase events are available for operation specific API as well  
+public static void RegisterGlobalEvents()
 {
+	//All events are available both globally and specific scene operation instances
 
-	SceneOperation.Queue().
-		Open(sceneToOpen).
-		Close(sceneToClose).
-		With(loadingScreenScene).
-		Callback(Callback.AfterLoadingScreenOpen().Do(() => Debug.Log("Loading screen has opened"))).
-		Callback(Callback.BeforeLoadingScreenClose().Do(() => Debug.Log("Loading screen is about to close"))).
-		Callback(Callback.After(Phase.UnloadScenes).Do(() => Debug.Log("Scenes unloaded"))).
-		Callback(Callback.Before(Phase.LoadScenes, sceneToOpen).Do(() => Debug.Log("SceneToOpen is about to be opened"))).
-		Callback(Callback.After(Phase.LoadScenes, sceneToOpen).Do(() => Debug.Log("SceneToOpen has opened"))).
-		Callback(Callback.BeforeLoadingScreenClose().Do(() => DoDelay(5)));
+	//Phase events
+	//Are always called
+	SceneManager.runtime.RegisterCallback<StartPhaseEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<EndPhaseEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<LoadingScreenOpenPhaseEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<SceneClosePhaseEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<SceneOpenPhaseEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<ScenePreloadPhaseEvent>(Callback);
 
-}
-
-IEnumerator DoDelay(float delay)
-{
-	yield return new WaitForSecondsRealtime(delay);
+	//Conditional events.
+	//Called for each individual scene or collection, if any
+	SceneManager.runtime.RegisterCallback<ScenePreloadEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<SceneOpenEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<SceneCloseEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<CollectionOpenEvent>(Callback);
+	SceneManager.runtime.RegisterCallback<CollectionCloseEvent>(Callback);
 }
 ```
 
+Read more [here](Callbacks.md#event-callback-api).
 
 ## Flags
 
