@@ -1,6 +1,6 @@
 title: "Advanced Scene Manager Docs"
 description: "Documentation for Advanced Scene Manager"
 theme: jekyll-theme-gitbook  # Sets the GitBook theme
-remote_theme: sphinxrtd-theme/jekyll-theme-gitbook # Forces remote theme
+remote_theme: sighingnow/jekyll-gitbook # Forces remote theme
 plugins:
   - jekyll-remote-theme  # Allows external themes (GitHub Pages limitation)
