@@ -74,7 +74,7 @@ public static void RegisterGlobalEvents()
 }
 ```
 
-Read more [here](Callbacks.md#event-callback-api).
+Read more [here](Callbacks.md#event-callback-api)
 
 ## Flags
 
