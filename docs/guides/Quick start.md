@@ -5,6 +5,8 @@ title: Quick Start Guide
 ---
 -->
 
+<meta http-equiv="refresh" content="0; url=Quick%20start.html">
+
 # Quick start
 
 <br/>
