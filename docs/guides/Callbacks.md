@@ -165,7 +165,7 @@ public void CloseSceneThenOpenOtherWithDelay()
 {
 	scene1.Close().Open(scene2).RegisterCallback<SceneOpenEvent>(e =>
 	{
-		if (e.scene == scene2)
+		if (e.scene == scene2) //Not needed here, but shown for demostration purposes
 			e.WaitFor(Awaitable.WaitForSecondsAsync(5)); 
 	});
 }
