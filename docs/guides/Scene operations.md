@@ -111,7 +111,7 @@ public class SceneLoader : MonoBehaviour
 
 ## Order of operations
 
-* Loading screen open (_if one specified_)
+* Loading screen open
 * `ICollectionClose` (_if collection specified_)
 * `ISceneClose`
 * Unload scenes
@@ -119,4 +119,4 @@ public class SceneLoader : MonoBehaviour
 * Preload scene (_if one defined_)
 * `ISceneOpen`
 * `ICollection` open (_if collection specified_)
-* Hide loading screen (_if one specified_)
+* Hide loading screen
