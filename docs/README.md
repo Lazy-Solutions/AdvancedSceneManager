@@ -5,7 +5,7 @@
 
 > Guides are handwritten articles to help you up to speed in working with ASM.
 
-[Quick start](guides/Quick%20start)\
+[Quick start](guides/Quick%20start.md)\
 [Updating ASM](guides/Updating.md)\
 [Videos](<guides/Videos.md>)\
 [Scene Manager Window](<guides/Scene manager window.md>)\
