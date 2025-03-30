@@ -2,13 +2,10 @@
 
 This guide explains how to use and customize loading screens in **Advanced Scene Manager (ASM)**.
 
----
-
-> **Want to perform actions _************************************************************************after************************************************************************_ a scene has loaded, but still _************************************************************************while************************************************************************_ the loading screen is visible?** Use ASM's callback interfaces like `ISceneOpen` or `ICollectionOpen`. These let you trigger logic once the scene is loaded—**but before** the loading screen closes.
+> **Want to perform actions as a scene has loaded, but _**while**_ the loading screen is visible?**\
+Use ASM's callback interfaces like `ISceneOpen` or `ICollectionOpen`. These let you trigger logic once the scene is loaded—**but before** the loading screen closes.
 > 
 > Perfect for deferred UI setups, data initialization, or network checks. See Callbacks for full interface details.
-
----
 
 ## Ways to Open a Loading Screen
 
@@ -42,8 +39,6 @@ Or use a helper method:
 ```csharp
 yield return LoadingScreenUtility.DoAction(loadingScene, action);
 ```
-
----
 
 ## Custom Loading Screens
 
@@ -107,7 +102,6 @@ Once ready, place it in a scene and assign it in:
 > 
 > Additionally, ASM maintains a cached `isLoadingScene` flag on its internal Scene Scriptable Objects. This cache may become outdated. You can manually refresh all scene metadata by pressing the **reload** button next to the loading scene pickers in the UI. This forces ASM to scan scene files on disk and update flags accordingly.
 
----
 
 ## Progress Reporting with `ILoadProgressData`
 
@@ -154,8 +148,6 @@ public readonly struct MyCustomProgress : LoadProgressData
 
 LoadingScreenUtility.ReportProgress(new MyCustomProgress());
 ```
-
----
 
 ## Default Loading Screens
 
