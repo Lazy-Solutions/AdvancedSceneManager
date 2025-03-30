@@ -63,7 +63,7 @@ Once your script is ready:
 > {
 >     if (!isSplashScreen)
 >         isSplashScreen = true;
-> }`
+> }
 > ```
 > This flag (`isSplashScreen: 1`) must be written into the scene file on disk. That only happens if the scene is marked as dirty and saved afterward. So if your custom splash screen doesn't show up in splash scene pickers, try modifying and saving the scene again.
 > 
