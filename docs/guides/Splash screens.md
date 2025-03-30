@@ -4,21 +4,17 @@ Splash screens in **Advanced Scene Manager (ASM)** are loading screens that appe
 
 Splash scenes can be assigned in the **ASM Startup Settings**.
 
----
+### Default splash scenes
 
-> ASM includes **two default splash screens**:
-> - **Splash ASM** – Displays a logo and background
-> - **Splash Fade** – An empty scene that simply fades in/out.
+ASM includes **two default splash screens**:
+- **Splash ASM** – Displays a logo and background
+- **Splash Fade** – An empty scene that simply fades in/out.
 
-These default splash screens are included in the **UPM sample package**. You can import them from the **Package Manager** window or via the **Import** button in the ASM Defaults Collection UI—just like the default loading screens.
-
----
+These default splash screens are included in the **UPM sample package**. You can import them from the **Package Manager** window or via the **Import** button in the ASM defaults collection UI—just like the default loading screens.
 
 ## Creating a Custom Splash Screen
 
 Custom splash screens are created by inheriting from `AdvancedSceneManager.Callbacks.SplashScreen`.
-
-Implement the following methods:
 
 ```csharp
 public class MySplashScreen : SplashScreen
@@ -84,8 +80,6 @@ public override void OnProgressChanged(ILoadProgressData progress)
 ```
 
 ASM will automatically send progress updates if the splash screen remains open during early operations.
-
----
 
 ## Accessing Default Splash Screens via Code
 
