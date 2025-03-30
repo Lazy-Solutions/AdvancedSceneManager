@@ -101,7 +101,7 @@ Once ready, place it in a scene and assign it in:
 > {
 >     if (!isLoadingScreen)
 >         isLoadingScreen = true;
-> }`
+> }
 > ```
 > This flag (`isLoadingScreen: 1`) must be written into the scene file on disk. That only happens if the scene is marked as dirty and saved afterward. So if your custom loading screen doesn't show up in loading scene pickers, try modifying and saving the scene again.
 > 
