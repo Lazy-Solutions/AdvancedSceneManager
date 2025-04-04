@@ -1,86 +1,100 @@
-# Scene loaders
+# Scene Loaders
 
-Scene loaders are what [Scene operations](Scene%20operations.md) use to actually load or unload a scene. Scene loaders allows ASM to modularize our scene loading and support different ways of loading scenes if need be.
+Scene loaders are what Scene operations use to actually load or unload a scene. They modularize scene loading, allowing ASM to support different loading mechanisms — whether runtime, editor, addressables, or even multiplayer (Netcode).
 
-There are currently four scene loaders in ASM:
-* **RuntimeSceneLoader**, uses [UnityEngine.SceneManagement](https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.html) APIs.
-* **EditorSceneLoader**, uses [UnityEditor.SceneManager](https://docs.unity3d.com/ScriptReference/SceneManagement.EditorSceneManager.html) APIs, and adds a couple of extra features for working in the editor.
-* **AddressablesSceneLoader**, uses [addressable](https://docs.unity3d.com/Manual/com.unity.addressables.html) APIs.
-* **NetcodeSceneLoader**, uses [netcode](https://docs-multiplayer.unity3d.com/netcode/current/about/) APIs.
+There are four scene loaders included with ASM:
 
-RuntimeSceneLoader and EditorSceneLoader are global scene loaders, they can match any scene.
-AddressablesSceneLoader and NetcodeSceneLoader are non-global scene loaders, they can only match scenes that have been flagged.
+- **RuntimeSceneLoader** — uses [UnityEngine.SceneManagement](https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.html). Always active in play mode.
+    
+- **EditorSceneLoader** — uses [UnityEditor.SceneManagement.EditorSceneManager](https://docs.unity3d.com/ScriptReference/SceneManagement.EditorSceneManager.html). Used outside of play mode.
+    
+- **AddressablesSceneLoader** — uses Unity's [Addressables](https://docs.unity3d.com/Manual/com.unity.addressables.html) system for loading scenes marked as addressable.
+    
+- **NetcodeSceneLoader** — used when working with Unity's [Netcode for GameObjects](https://docs-multiplayer.unity3d.com/netcode/current/about/), syncing scenes across clients and servers.
+    
 
-Scenes can be flagged programmatically using:\
-`Scene.SetSceneLoader<T>()`
+> Runtime and Editor scene loaders are **global** — they match all scenes unless overridden. Addressables and Netcode scene loaders are **non-global** — only apply to scenes flagged for them.
+
+To flag a scene to use a specific loader, use:
+
+```csharp
+Scene.SetSceneLoader<YourLoader>();
+```
+
+You’ll see the result of this in the scene popup (UI) as a toggle if the loader defines `sceneToggleText`.
 
 ![](../image/addressable-toggle.png)
 
-## Custom scene loader
+## Scene Loader API
 
-Implementing a custom scene loader can be done inheriting from:\
-`AdvancedSceneManager.Core.SceneLoader`
+To create a custom scene loader, inherit from:
 
 ```csharp
-class SpecificSceneLoader : Core.SceneLoader
+AdvancedSceneManager.Core.SceneLoader
+```
+
+Example:
+
+```csharp
+class MyCustomLoader : SceneLoader
 {
+    public override bool activeOutsideOfPlayMode => true;
+    public override string sceneToggleText => "Use custom loader";
+    public override bool isGlobal => false;
 
-	//Specifies that this loader can be used outside of play mode
-	public override bool activeOutsideOfPlayMode => false;
+    public override IEnumerator LoadScene(Scene scene, SceneLoadArgs e)
+    {
+        Debug.Log("Loading scene: " + scene.name);
+        yield return new WaitForSeconds(1f); // Simulate load
+        e.SetCompleted(e.GetOpenedScene());
+    }
 
-	//Displays a toggle will be displayed in scene popup to flag a scene for use with this loader.
-	//Scene.SetSceneLoader<SpecificSceneLoader>() can also be used.
-	public override string sceneToggleText => "Custom loader";
-
-	//Specifies that this loader can be used for all scenes
-	//Must be false for this loader to only apply to certain scenes
-	public override bool isGlobal => false;
-
-	public override IEnumerator LoadScene(Scene scene, SceneLoadArgs e)
-	{
-
-		Debug.Log("Custom loader: Load: " + scene.name);
-
-		//TODO: Implement functionality
-
-		//Must be called to let ASM know that you're done
-		e.SetCompleted(e.GetOpenedScene());
-		
-		yield break;
-
-	}
-
-	public override IEnumerator UnloadScene(Scene scene, SceneUnloadArgs e)
-	{
-
-		Debug.Log("Custom loader: Unload: " + scene.name);
-
-		//TODO: Implement functionality
-	
-		//Must be called to let ASM know that you're done
-		e.SetCompleted();
-		yield break;
-
-	}
-
+    public override IEnumerator UnloadScene(Scene scene, SceneUnloadArgs e)
+    {
+        Debug.Log("Unloading scene: " + scene.name);
+        yield return new WaitForSeconds(1f); // Simulate unload
+        e.SetCompleted();
+    }
 }
 ```
 
-The above example is an example contained within ASM, have a look inside\
-`/Assets/AdvancedSceneManager/Example scripts/`\
-for more examples.
-
-To make ASM use your custom scene loader you need to register it.
+To register your loader:
 
 ```csharp
 [RuntimeInitializeOnLoadMethod]
 static void OnLoad()
 {
-	//Conflicts can occur if multiple global ones are enabled at the same time.
-	SceneManager.runtime.AddSceneLoader<SpecificSceneLoader>();
+    SceneManager.runtime.AddSceneLoader<MyCustomLoader>();
 }
 ```
 
-You may also unregister your scene loader, or any other if you are able to access the type, *but that is obviously not recommended.*\
-`SceneManager.runtime.RemoveSceneLoader<SpecificSceneLoader>();`
+You can also unregister it with:
 
+```csharp
+SceneManager.runtime.RemoveSceneLoader<MyCustomLoader>();
+```
+
+## Indicators and Toggles
+
+Custom scene loaders can define:
+
+```csharp
+public override Indicator indicator => new()
+{
+    text = "",
+	useFontAwesome = true
+};
+```
+
+This will appear as an icon next to scenes using this loader.
+![](../image/addressables-scene-indicator.png)
+
+## Loader Selection Logic
+
+ASM uses the following logic to choose a scene loader:
+
+1. If a scene is flagged for a loader via `SetSceneLoader<T>()`, that loader is used.
+    
+2. If multiple loaders match, the first one registered takes priority.
+    
+3. If no match is found, the global loaders are used (Runtime or Editor).

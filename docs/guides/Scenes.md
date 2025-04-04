@@ -1,92 +1,74 @@
 # Scenes
 
-Scenes in ASM are represented as [ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html), this is to provide a simple drag drop interface for scenes.
+Scenes in ASM are represented as [ScriptableObjects](https://docs.unity3d.com/Manual/class-ScriptableObject.html), providing a convenient drag-and-drop interface for scene references.
 
-To retrieve a reference to a ASM scene, when all you've got is a unity scene struct, you may use any of the following:
+## Accessing ASM Scene References
 
-``` csharp 
+If you only have a Unity `Scene` struct and need to retrieve the ASM `Scene` object, use any of the following:
+
+```csharp
 public class Test : MonoBehaviour
 {
-	
-	void Start()
-	{
-		//Returns null if not imported, or found.
-		var scene1 = this.ASMScene();
-		var scene2 = this.gameObject.ASMScene();
-		var scene3 = this.gameObject.scene.ASMScene();
-		
-		//All the above also have overloads like this
-		if (this.ASMScene(out var scene4))
-		{ }
-		
-		//Equivivalent to SceneManager.runtime.activeScene.
-		var activeScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().ASMScene();
+    void Start()
+    {
+        var scene1 = this.ASMScene();
+        var scene2 = this.gameObject.ASMScene();
+        var scene3 = this.gameObject.scene.ASMScene();
 
-	}
+        if (this.ASMScene(out var scene4))
+        { }
 
+        var activeScene = SceneManager.runtime.activeScene;
+    }
 }
 ```
 
-## Drag-and-drop can be used for the following scenarios:
-### Add scene to a collection, or replace existing scene field.
+## Drag-and-Drop Use Cases
 
-![](../image/drop-area.png)
-### UnityEvent
-
-[Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html) On Click () handler for example:
-
-![](../image/button-click-scene-open.png)
-### Scripts:
-
-  ```csharp
-  using AdvancedSceneManager.Models;
-  
-  public class OpenScene
-  {
-	
-	public Scene scene;
-
-	public void Open()
-	{
-		scene.Open();
-	}
-
-  }
-  ```
-
-## Importing
-
-Scenes must be imported to be used in ASM. You can do so by pressing the notification in the scene manager window.
-
-![](../image/scene-import-notification.png)
-
-Scenes can be unchecked to not import them at this time.
-
-![](../image/import-scene-popup.png)
-
-Scenes may be blacklisted so they don't show up. Blacklisting a folder will result in all scenes inside the folder, including subfolders, will also be ignored.
-
-![](../image/blacklist.png)
-
-Finally, just press import, and the imported scenes will now be usable in ASM.
-
-Blacklist can be configured in [settings](Scene%20manager%20window.md#assets-page).
-
-> Whitelist is also available since ASM 2.2.
-## Persistent scenes
-
-Persistent scenes are scenes that do not automatically close when a collection is closed. This can be specified in the [scene popup](Scene%20manager%20window.md#scene-popup).
-## Preloading
-
-A scene can be preloaded by calling `Scene.Preload()`, or by using [scene helper](Scene%20helper.md). Only one scene may be preloaded at a time, and no other scene operations can occur while one is, *this is a unity limitation*.
-
+- Add or replace scenes in a collection
+ ![](../image/drop-area.png)
+    
+- Assign to UnityEvents (e.g., Button → OnClick)
+  ![](../image/button-click-scene-open.png)
+    
+- Reference in scripts:
 ```csharp
 using AdvancedSceneManager.Models;
-using UnityEngine;
 
+public class OpenScene
+{
+    public Scene scene;
+
+    public void Open()
+    {
+        scene.Open();
+    }
+}
+```
+
+> ❗ **Methods prefixed with ****`_`** are intended for use in UnityEvents. This is because UnityEvents do not support methods with return values or multiple parameters. Prefixed and non-prefixed methods are otherwise identical and kept in sync for consistency.
+
+## Importing Scenes
+
+Scenes must be imported before they can be used in ASM. This is done via the **import prompt** in the Scene Manager window:
+![](../image/scene-import-notification.png)
+![](../image/import-scene-popup.png)
+
+You can exclude scenes via the blacklist feature (configurable later in settings):
+![](../image/blacklist.png)
+## Persistent Scenes
+
+A **persistent scene** remains open when switching collections. Enable this in the scene popup. This is useful for UI overlays, managers, and persistent objects.
+
+## Preloading
+
+Preloading allows scenes to be loaded in the background and activated later. ASM supports **multiple preloaded scenes**, assuming Unity allows it.
+
+Example:
+
+```csharp
 public class PreloadTrigger : MonoBehaviour
 {
-
     public Scene sceneToPreload;
 
     void OnTriggerEnter(Collider other)
@@ -97,77 +79,72 @@ public class PreloadTrigger : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        //User exited trigger, and since FinishPreload() has
-        //not been called if .isPreloaded is true, that means
-        //the user went backwards
         if (sceneToPreload.isPreloaded)
             SceneManager.runtime.CancelPreload();
     }
 
-    //Called from other, overlapping, trigger
     public void FinishPreload()
     {
         if (sceneToPreload.isPreloaded)
             SceneManager.runtime.FinishPreload();
     }
-
 }
 ```
 
-The currently preloaded scene can be retrieved statically by using:\
-`AdvancedSceneManager.SceneManager.preloadedScenes;`
+Use `SceneManager.preloadedScenes` to retrieve currently preloaded scenes.
 
-## Scene tracking
+## Scene Load Priority
 
-When a scene is loaded in ASM it needs to be tracked, to be considered open. Tracking a scene in ASM is usually automatic, and not something users need to worry about.
+Each scene can be assigned a **load priority**, which maps to `Application.backgroundLoadingPriority`. This setting affects the background loading behavior and system thread priority used when loading the scene. It is useful for optimizing loading times in large projects for large scenes, or loading scenes in the background.
 
-When a scene is open, but untracked, an indicator will be shown in the hierarchy, when in the editor. This may happen temporarily, and then resolve itself a moment later. This is, in most cases, by design. It is during prolonged cases when it may be a bug, or conflict with another scene manager.
+## Scene Loaders
 
-![](../image/untracked-scenes.png)
-#### Tracking scenes manually
+ASM supports different loaders depending on how scenes should be handled:
 
-If you are combining ASM with another scene manager, such as a network scene manager, you may sometimes have to track scenes in ASM manually, to ensure ASM works as expected.
+- **RuntimeSceneLoader** – Standard Unity scene loading (default scene loader).
+    
+- **EditorSceneLoader** – Editor-specific loader (used outside of playmode).
+    
+- **AddressablesSceneLoader** – Uses Addressables API (requires Addressables package).
+    
+- **NetcodeSceneLoader** – For use with Unity NGO (requires Netcode for GameObjects package).
 
-Also, since the terms will be a bit confusing, some clarification is needed:
-**Scene / ASM Scene**: `AdvancedSceneManager.Models.Scene`
-**unityScene**: `UnityEngine.SceneManagement.Scene`
+The loader assigned to a scene can be toggled via the **Scene Popup** in the Scene Manager window.
 
-unityScene is Unitys own representation of a loaded scene, in code. When tracking an ASM scene, you are also linking an instance of unityScene with an ASM Scene.
+> The required package must be installed for a loader to be assignable.
+
+![](../image/addressable-toggle.png)
+
+ASM also supports custom loaders. These can be implemented and registered to support specialized loading behavior. Learn how to create one in the [Scene Loaders guide](scene%20loaders.md).
+## Input Bindings
+
+Scenes can be opened via input using scene bindings, just like collections. Bind a key such as `Escape` or `Tab` to toggle UI scenes like pause menus.
+
+## Startup Scenes
+
+Standalone scenes can be marked to open during **startup**, independently of collections. These are opened **after** collections are opened, making them ideal for persistent UI, background managers, or debug overlays.
+
+## Scene Tracking
+
+ASM automatically tracks scenes when opened through its API. In rare integration cases (e.g., with a network scene manager), you may need to track scenes manually:
 
 ```csharp
-//You may track scenes using one of the following two methods. You don't need to worry about duplicate calls.
-SceneManager.runtime.Track(scene1, unityScene); 
-SceneManager.runtime.Track(scene1); //Will try to automatically find unityScene, unless Scene.internalScene already has a value.
-
-Debug.Log(SceneManager.runtime.IsTracked(scene1)); //Should log true
-
-SceneManager.runtime.Untrack(scene1);
-
-//Use these when you want to untrack all collections or scenes.
-SceneManager.runtime.UntrackCollections();
-SceneManager.runtime.UntrackScenes();
+SceneManager.runtime.Track(scene, unityScene);
+SceneManager.runtime.Untrack(scene);
 ```
 
-> Be careful to pass correct unityScene when using `SceneManager.runtime.Track(Scene, unityScene)`, there are no validation checks, ASM expects this to have been done prior.
+When a scene is open, but untracked, an indicator will be shown in the hierarchy, when in the editor. This may happen temporarily, and then resolve itself a moment later. This is, in most cases, by design. It is during prolonged cases when it may be a bug, or conflict with another scene manager.
+![](../image/untracked-scenes.png)
+## Scene Merging and Splitting
 
-> Note that calling `SceneManager.runtime.Track(Scene, unityScene)` on an already tracked scene, will result in `Scene.internalScene` being replaced with new unityScene, but ASM will not track ASM scene twice.
-## Scene merging
-
-Scenes can be merged by ctrl selecting two or more scenes in the [scene manager window](Scene%20manager%20window.md), and right clicking, then selecting 'merge scenes...'.
-
+Merge scenes via right-click in the scene manager window:
 ![](../image/scene-context-menu.png)
 
-Scenes can be merged programmatically as well:\
-*Only usable in editor*\
-`SceneUtility.MergeScenes(targetScene, sceneToMergeIntoTargetScene); //Can accept multiple scenes in second argument`
-
-## Scene splitting
-
-Scenes can be split up into multiple by selecting two or more [GameObjects](https://docs.unity3d.com/Manual/class-GameObject.html) in the hierarchy.
-
+Split GameObjects into new scenes via the hierarchy context menu:
 ![](../image/scene-split-menu.png)
-![](../image/scene-split-result.png)
 
-Scenes can be split up programmatically as well:\
-*Only usable in editor*\
-`SceneUtility.MoveToNewScene(gameObject); //Moves current game object into a new scene, method supports multiple objects`
+Or via code:
+```csharp
+SceneUtility.MergeScenes(targetScene, scenesToMerge); // Editor only
+SceneUtility.MoveToNewScene(gameObject);              // Editor only
+```

@@ -1,17 +1,30 @@
-# Profiles
+## Profiles
 
-Profiles in ASM can be used to quickly switch between different configurations and scene setups.
+Profiles in ASM are used to define and switch between distinct scene configurations. Each profile contains:
 
-Profiles contain:
-* [Collections](Scene%20collections.md)
-* [Dynamic collections](Scene%20manager%20window.md#dynamic-collections-and-scenes)
-* [Standalone scenes](Standalone%20scenes.md)
-* [Default loading screen](Scene%20manager%20window.md#scene-loading-page)
-* [Splash screen](Scene%20manager%20window.md#startup-page)
-* Various configuration settings found in [settings popup](Scene%20manager%20window.md#settings-popup)
+- Scene Collections
+    
+- Dynamic Collections
+    
+- Standalone Scenes
+    
+- Default Loading Screen
+    
+- Splash Screen
+    
+- Configuration settings from the settings popup
+    
 
-The available profiles can be viewed, selected and created in the profile picker, in the bottom left of the [scene manager window](Scene%20manager%20window.md#footer).
-
+Profiles are selected in the bottom-left corner of the Scene Manager window, via the profile picker.
 ![](../image/profile-popup.png)
+### Default Profile
 
-Profiles can be forced for other team-members, see more [here](Scene%20manager%20window.md#editor-page).
+A default profile can be configured in the Editor settings. This profile is selected automatically if the active profile is null, after domain reload. ASM stores the active profile per-user in UserSettings, allowing each user to work with a different profile. The default profile mainly ensures that a consistent fallback is used if no profile has been explicitly selected yet.
+
+### Forced Profile
+
+A profile can also be forced in the Editor settings. This is mostly useful in team environments where one person manages ASM, and others shouldn't need to interact with it. When a forced profile is set, ASM overrides the user-specific profile setting and enforces a single consistent profile across the project, offering a more reliable alternative to relying on the default profile selection behavior.
+
+### Build Profile
+
+The build profile is the profile ASM uses when building the game. It determines which collections, scenes, and settings are included during the build process.
