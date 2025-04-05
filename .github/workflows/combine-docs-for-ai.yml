@@ -1,0 +1,39 @@
+name: Combine Docs into Single File for GPT
+
+on:
+  push:
+    paths:
+      - 'docs/**.md'
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Combine markdown files into ai.txt
+        run: |
+          REPO="Lazy-Solutions/AdvancedSceneManager"
+          BRANCH="main"
+          DOCS_PATH="docs"
+          OUTPUT_FILE="${DOCS_PATH}/ai.txt"
+          
+          : > "$OUTPUT_FILE"  # Clear file
+
+          find "$DOCS_PATH" -name "*.md" | sort | while read md_file; do
+            # Remove leading './' if present
+            clean_path="${md_file#./}"
+
+            # Build GitHub URL
+            url="https://github.com/${REPO}/blob/${BRANCH}/${clean_path}"
+
+            echo "Adding $url to ai.txt"
+            echo "<!-- ${url} -->" >> "$OUTPUT_FILE"
+            echo >> "$OUTPUT_FILE"
+            cat "$md_file" >> "$OUTPUT_FILE"
+            echo -e "\n\n" >> "$OUTPUT_FILE"
+          done
+
+      - name: Show final output file size
+        run: ls -lh docs/ai.txt
