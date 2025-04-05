@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - 'docs/**.md'
-      
   workflow_dispatch:
 
 jobs:
@@ -19,22 +18,24 @@ jobs:
           REPO="Lazy-Solutions/AdvancedSceneManager"
           BRANCH="main"
           DOCS_PATH="docs"
-          OUTPUT_FILE="${DOCS_PATH}/ai.txt"
+          OUTPUT_FILE="ai.txt"
           
           : > "$OUTPUT_FILE"
 
-          find "$DOCS_PATH" -name "*.md" | sort | while read md_file; do
-            clean_path="${md_file#./}"
-            url="https://github.com/${REPO}/blob/${BRANCH}/${clean_path}"
-            echo "Adding $url to ai.txt"
-            echo "<!-- ${url} -->" >> "$OUTPUT_FILE"
-            echo >> "$OUTPUT_FILE"
-            cat "$md_file" >> "$OUTPUT_FILE"
-            echo -e "\n\n" >> "$OUTPUT_FILE"
+          find "$DOCS_PATH" -name "*.md" \
+            ! -path "$DOCS_PATH/api/*" \
+            | sort | while read md_file; do
+              clean_path="${md_file#./}"
+              url="https://github.com/${REPO}/blob/${BRANCH}/${clean_path}"
+              echo "Adding $url to output"
+              echo "<!-- ${url} -->" >> "$OUTPUT_FILE"
+              echo >> "$OUTPUT_FILE"
+              cat "$md_file" >> "$OUTPUT_FILE"
+              echo -e "\n\n" >> "$OUTPUT_FILE"
           done
 
       - name: Upload ai.txt as an artifact
         uses: actions/upload-artifact@v4
         with:
           name: gpt-docs
-          path: docs/ai.txt
+          path: ai.txt
