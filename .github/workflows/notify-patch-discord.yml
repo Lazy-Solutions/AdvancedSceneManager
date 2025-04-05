@@ -1,3 +1,5 @@
+name: Notify patch on discord
+
 on:
   release:
     types: [published, edited]
