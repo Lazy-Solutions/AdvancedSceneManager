@@ -61,7 +61,9 @@ A couple example scripts are included in ASM, you can import them as a upm sampl
 [Github releases](https://github.com/Lazy-Solutions/AdvancedSceneManager/releases/latest) hosts the latest .unitypackage for download.
 
 **Discord**
+
 Discord provides notifications for patches, you'll be taken to github releases when pressing link.
 
 **From inside unity**
+
 ASM has a built in update check. You'll be notified when a patch has been released via a notification in the ASM window, press it to view patch notes. You'll be prompted to import .unitypackage after pressing download button (you will need to wait a moment as the package is downloading).
