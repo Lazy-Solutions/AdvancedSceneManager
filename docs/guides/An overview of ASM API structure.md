@@ -1,29 +1,30 @@
-# An overview of ASM API structure
+## ASM API Structure Overview (Updated)
 
-ASM is structured into three levels:
-1. Surface level
-2. Intermediary level
-3. Core level
+Advanced Scene Manager (ASM) is structured into three main levels of abstraction, each with a distinct role and target use case:
 
-<br/>
+1. **High-level API**
+    
+2. **Mid-level API**
+    
+3. **Low-level API**
+    
 
-## Surface level:
-The surface level is most common level to interact with ASM.
+### High-level API
 
-It includes:
-* `SceneCollection.Open()`*, and similar.*
-* `Scene.Open()`*, and similar.*
-* `SceneHelper.Open()`*, and similar.*
+This is the most common interface for interacting with ASM.
 
-<br/>
+Typical usage examples include:
 
-## Intermediary level:
-The intermediary level tracks the open state of [scenes](Scenes.md) and [collections](Scene%20collections.md), and also verifies whatever a scene actually should be opened or not (ASM does not support duplicate instances of a scene).
+- `SceneCollection.Open()`
+    
+- `Scene.Open()`
+    
+- `SceneHelper.Open()`
+    
 
-Can be accessed using:\
-`SceneManager.runtime`
+These methods offer a simplified and intuitive experience, suitable for UnityEvents—such as UI button click handlers—and typical game logic scripts. They are primarily convenience wrappers around the Mid-level API.
 
-The surface level API is are mostly just proxy calls to the intermediary one:
+Example:
 
 ```csharp
 public Scene : ASMModel
@@ -34,47 +35,73 @@ public Scene : ASMModel
 }
 ```
 
-<br/>
+### Mid-level API
 
-## Core level:
-This is the core of ASM. It deals with the actual loading and unloading of scenes.
+This layer is responsible for managing the open state of scenes and collections, as well as handling validations like preventing duplicate scene instances.
 
-`SceneOperation`
+Accessed via:
 
-<br/>
+```csharp
+SceneManager.runtime
+```
 
-[Scene operation](Scene%20operations.md) basically takes a list of [scenes](Scenes.md) to close, and a list of scenes to open, then closes / opens them. Scenes specified to close will always be closed before any scenes are opened (except loading screen).
+This level provides more direct control and is used by the High-level API internally.
 
-Scene operation also manages loading screens and will automatically open a specified loading screen before it begins to unload scenes. If a loading screen was opened, then it will be automatically closed after scenes have been loaded.
+### Low-level API
 
-Scenes in unity cannot be loaded in parallel, due to this scene operations will usually run in a queue, some exceptions exist (like loading screens and finish preload).
+The Low-level API performs the actual work of loading and unloading scenes.
 
-An operation can be started in code by using either of these two:\
-`SceneOperation.Queue()`\
-`SceneOperation.Start() //Ignores queue`
+Key type:
+
+- `SceneOperation`
+    
+
+This component processes scene transitions and loading screens, manages operation queues, and coordinates scene lifecycle events. It takes lists of scenes to open and close, executes them in the correct order, and supports complex features like loading screens.
+
+Operations are started via:
+
+```csharp
+SceneOperation.Queue();
+SceneOperation.Start(); // Ignores queue
+```
+
+Example:
 
 ```csharp
 public Scene[] scenesToOpen;
 public Scene loadingScene;
 
 public void OnButtonClick() =>
-	SceneOperation.Queue().
-		Open(sceneToOpen).
-		Close(SceneManager.openScenes).
-		With(loadingScene);
+	SceneOperation.Queue()
+		.Open(sceneToOpen)
+		.Close(SceneManager.openScenes)
+		.With(loadingScene);
 ```
 
-### Fluent API
-
-As you can also see above, SceneOperation supports a fluent API, allowing for things like this:
+#### Fluent API Support
 
 ```csharp
-
-SceneManager.runtime.Open(sceneToOpen).Close(closeAlreadyOpenScene).With(loadingScreenScene);
-
-//This is functionally equivalent to above
 sceneToOpen.Open().Close(closeAlreadyOpenScene).With(loadingScreenScene);
-
 ```
 
-> You should have a look at `.With(..)` using intellisense, or in the [api documentation](../api/Core.SceneOperation.md), it has many overloads for various different things.
+> See `.With(..)` in IntelliSense or API docs for overloads.
+
+### Parallel Scene Loading
+
+Unity typically restricts loading multiple scenes in parallel. However, ASM includes experimental support for attempting parallel scene loading where feasible.
+
+To enable this feature in ASM:
+
+- Open the **Settings popup**
+    
+- Go to the **Experimental category**
+    
+- Enable the toggle: **"Parallel Scene Loading"**
+    
+When enabled, ASM will attempt to load scenes concurrently where supported, subject to Unity's internal limitations *(unknown exactly what, could have been added in an unknown unity version - if you know, please let us know over on [discord!](https://discord.gg/upfgXPxFnw))*.
+
+### Further Reading
+
+- Learn about [scene operation callbacks and lifecycle events](Callbacks.md) to trigger logic during transitions.
+    
+- For more on advanced usage, see the dedicated [Scene Operations](Scene%20Operations.md) guide.
