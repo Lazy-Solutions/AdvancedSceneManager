@@ -1,8 +1,7 @@
-## Compilation errors when importing (mostly seems to be an issue with Unity 2019):
+## Compilation errors when importing:
 
 Right click 'AdvancedSceneManager' folder and press 'Reimport'.
 If this does not work, please try restarting Unity.
-Compilation errors when using addressables (or addressable support not enabled):
 
 ## ASM Addressable support not usable 
 
@@ -18,4 +17,4 @@ If unity does not recompile automatically, you'll have to restart it.
 Coroutine Utility is embedded into the asset store package itself, and if you have the package version of coroutine utility installed as well, you'll have to remove it from the package manager before ASM will compile.
 
 ## Why is ASM 2.0 not available when attempting to upgrade?
-Due to missing features, particurarly in UI Toolkit, ASM 2.0 only supports Unity 2022 and higher.
+Due to missing features, particularly in UI Toolkit, ASM 2.0 only supports Unity 2021.3 and higher.
