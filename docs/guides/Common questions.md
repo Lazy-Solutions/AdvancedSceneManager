@@ -47,6 +47,6 @@ Patches on the other hand have quicker turn around, we can push instantly, but m
 [Github releases](https://github.com/Lazy-Solutions/AdvancedSceneManager/releases/latest) hosts .unitypackage for download.
 
 #### Inside of unity:
-![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/2.0/image/scene-manager-window-menu.png)
+![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/image/scene-manager-window-menu.png)
 
 The checkmark in the top section of the image indicates no updates are available. But it will update depending on whatever a patch is available. Pressing it when there is no patch available will re-check for one.
