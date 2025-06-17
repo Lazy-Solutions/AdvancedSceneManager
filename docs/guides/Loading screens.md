@@ -42,7 +42,7 @@ yield return LoadingScreenUtility.DoAction(loadingScene, action);
 
 ## Custom Loading Screens
 
-Create a custom script by inheriting from `AdvancedSceneManager.Callbacks.LoadingScreen`:
+Create a custom script by inheriting from `AdvancedSceneManager.Loading.LoadingScreen`:
 
 ```csharp
 public class MyLoadingScreen : LoadingScreen
