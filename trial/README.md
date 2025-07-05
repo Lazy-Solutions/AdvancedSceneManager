@@ -26,8 +26,9 @@ To get started with the trial version:
 
 1. Download the trial version package. [Click here to download!](/trial/Advanced%20Scene%20Manager%20Trial.unitypackage)
 2. Import the .unitypackage into your Unity project.
-3. Open ASM window from File menu item or by using ctrl+shift+m
-4. Follow our [Quick Start](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Quick%20start.md) guide.
+3. Install Editor coroutines, IMPORTANT! From Unity registry or "com.unity.editorcoroutines"
+4. Open ASM window from File menu item or by using ctrl+shift+m
+5. Follow our [Quick Start](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Quick%20start.md) guide.
 
 **Important: Unity 6+ Required for the trial version,** <br />
 **Paid asset is 2021.3+**
