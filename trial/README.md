@@ -30,7 +30,7 @@ To get started with the trial version:
 4. Open ASM window from File menu item or by using ctrl+shift+m
 5. Follow our [Quick Start](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Quick%20start.md) guide.
 
-**Important: Unity 6.0 Required for the trial version,** <br />
+**Important: Unity 6.0 Required for the trial version** (6.1 currently has issues with drag drop, but otherwise works) <br />
 **Paid asset is 2021.3+**
 
 ## License
