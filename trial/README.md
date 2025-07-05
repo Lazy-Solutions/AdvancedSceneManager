@@ -3,7 +3,7 @@
 
 <p align="center">
   <img src="/trial/Trial.png" width="640" height="360" /><br />
-  <img src="/trial/git_trial_reqwebp.webp" width="321" height="91" /><br />
+  <img src="/trial/req.6.0.webp" width="321" height="91" /><br />
   <br />
   <a href="/trial/Advanced Scene Manager Trial.unitypackage">Click here to download!</a>
 </p>
