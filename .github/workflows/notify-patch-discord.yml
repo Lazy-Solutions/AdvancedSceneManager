@@ -2,7 +2,7 @@ name: Notify patch on discord
 
 on:
   release:
-    types: [published, edited]
+    types: [published]
     
   workflow_dispatch:
   
