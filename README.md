@@ -10,9 +10,9 @@ Looking to try out Advance Scene Manager? [Click here!](/trial/)
 
 ## Store Page
 
-<iframe src="https://assetstore.unity.com/linkmaker/embed/package/174152/widget-wide?aid=1100ljPVc&pubref=docs" style="width:600px; height:130px; border:0px;"></iframe>
+![ASM Store](./image/ASM_Store_1.png)
 
-<iframe src="https://assetstore.unity.com/linkmaker/embed/package/311223/widget-wide?aid=1100ljPVc&pubref=docs" style="width:600px; height:130px; border:0px;"></iframe>
+![LSK Store](./image/ASM_Store.png)
 
 ## Introduction
 Welcome to Advanced Scene Manager, the ultimate solution for efficient scene management in Unity. Simplify and optimize your workflow with this powerful asset designed specifically for managing scenes in Unity projects.
