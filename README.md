@@ -22,6 +22,8 @@ Looking to try out Advance Scene Manager? [Click here!](/trial/)
   </a>
 </p>
 
+> Some of the links on these pages are affiliate links. This means if you click them and make a purchase, I may receive a small commission at no extra cost to you. This helps support the project.
+
 
 ## Introduction
 Welcome to Advanced Scene Manager, the ultimate solution for efficient scene management in Unity. Simplify and optimize your workflow with this powerful asset designed specifically for managing scenes in Unity projects.
