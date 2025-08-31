@@ -4,6 +4,8 @@
 ### Guides
 
 > Guides are handwritten articles to help you up to speed in working with ASM.
+> If you find something missing in the docs, or something that could be explaned. Please ask in an new Issue!
+> It would help us greatly.
 
 [Quick start](guides/Quick%20start.md)\
 [Updating ASM](guides/Updating.md)\
