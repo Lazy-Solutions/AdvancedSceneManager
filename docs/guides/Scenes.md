@@ -2,6 +2,24 @@
 
 Scenes in ASM are represented as [ScriptableObjects](https://docs.unity3d.com/Manual/class-ScriptableObject.html), providing a convenient drag-and-drop interface for scene references.
 
+## Correct way to test if a Scene is assigned
+
+```csharp
+public class Test : MonoBehaviour
+{
+    Scene scene;
+
+    void Start()
+    {
+        if(scene == null){} // Invalid: Scene is not nullable.
+        
+        // Valid: test if the Scene is assigned.
+        if(scene){} // or 
+        if(!scene){} 
+    }
+}
+```
+
 ## Accessing ASM Scene References
 
 If you only have a Unity `Scene` struct and need to retrieve the ASM `Scene` object, use any of the following:
