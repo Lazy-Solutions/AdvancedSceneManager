@@ -11,7 +11,7 @@ Looking to try out Advance Scene Manager? [Click here!](/trial/)
 ## Store Page
 
 <p align="center">
-  <a href="https://prf.hn/click/camref:1100ljPVc/pubref:docs/destination:https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-174152">
+  <a href="https://prf.hn/click/camref:1100ljPVc/pubref:docs/destination:https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-3-330926">
     <img src="./image/ASM_Store_1.png" alt="ASM Store">
   </a>
 </p>
@@ -40,7 +40,7 @@ Try Advanced Scene Manager today and unlock the full potential of your Unity pro
 
 ## What is Advanced Scene Manager?
 
-Advanced Scene Manager is a new and improved scene management system for [Unity](https://unity.com/). Get it at the [Unity Asset Store!](https://assetstore.unity.com/packages/slug/174152)
+Advanced Scene Manager is a new and improved scene management system for [Unity](https://unity.com/). Get it at the [Unity Asset Store!](https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-3-330926)
 
 Advanced Scene Manager allows you to assign [scenes](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md) as children to a [Scene Collection](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) (commonly referred to as collections).
 When a [Scene Collection](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) is opened all existing scenes (except [persistent](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md#persistent-scenes)) will be closed and the newly opened [Scene Collection](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) will have its associated [scenes](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md) opened.
@@ -118,4 +118,4 @@ Want to get into contact with us? Report issues?\
 >Note: We accept bug reports and offer help on all channels. Which one you wish to use, is up to your preference!
 
 ## Where can I get it?
-Advanced Scene Manager is available at the Unity Asset Store, [get it now!](https://assetstore.unity.com/packages/slug/174152)<br/>
+Advanced Scene Manager is available at the Unity Asset Store, [get it now!](https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-3-330926)<br/>
