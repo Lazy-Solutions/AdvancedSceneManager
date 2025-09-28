@@ -1,20 +1,38 @@
-## Compilation errors when importing:
+## Compilation errors when importing
+If you’re updating from the Asset Store, lingering files from an earlier installation may cause compilation errors. This happens because `.unitypackage` imports don’t clear old files from the folder.  
 
-Right click 'AdvancedSceneManager' folder and press 'Reimport'.
-If this does not work, please try restarting Unity.
+When updating via GitHub patches, this is less likely, but still possible.  
 
-## ASM Addressable support not usable 
+**Solution:**  
+1. Uninstall ASM completely before installing the newest Asset Store version.  
+2. Then install any patches for that version (patches are only guaranteed to work with the current Asset Store release).  
 
-In ASM 1.8, we merged all plugins into asset store package, for reduced complexety and for easier maintenence. Addressables support is automatically enabled and disabled in Unity 2020+. Unity 2019 does not support automatically enabling and disabling plugin, and is still accessed from plugin section in settings.
+> **Tip:** You can also try right-clicking the `AdvancedSceneManager` folder and selecting **Reimport**.
 
-If it is not installed automatically however, or scene manager window is not accessible, then you'll have to set the following #pragma / scripting define in project settings:
+<br/>
 
-ASM_PLUGIN_ADDRESSABLES
+## Duplicate ASM packages in the project
+In ASM 3.0 we renamed the package:  
+- **3.0:** `com.lazy-solutions.advanced-scene-manager`  
+- **2.0:** `com.lazy.advanced-scene-manager`  
 
-If unity does not recompile automatically, you'll have to restart it.
+This could be another source of compilation errors, and if both appear in your project, you need to uninstall **both** before reinstalling 3.0.  
+This is necessary because Unity may mix asset IDs between versions, causing files to be split across the old and new folders.
 
-## Ambigous call errors to Lazy.CoroutineUtility after upgrading ASM.
-Coroutine Utility is embedded into the asset store package itself, and if you have the package version of coroutine utility installed as well, you'll have to remove it from the package manager before ASM will compile.
+<br/>
 
-## Why is ASM 2.0 not available when attempting to upgrade?
-Due to missing features, particularly in UI Toolkit, ASM 2.0 only supports Unity 2021.3 and higher.
+## Scene Manager Window not showing collections
+After import (or when switching Git branches), ASM can sometimes get stuck in an unstable state where collections don’t appear.  
+
+**Workaround:** Reload the domain / recompile scripts. This usually restores stability.  
+
+> **Hint:** You can force a recompile through ASM’s *Dev Menu*.  
+> Right-click the menu button in the top-right corner of the ASM window and choose **Recompile**.
+
+<br/>
+
+## “Ambiguous call” errors with `Lazy.CoroutineUtility` after upgrading ASM
+ASM includes an embedded copy of **Coroutine Utility**.  
+If you also have the upm version of Coroutine Utility installed, Unity will report ambiguous call errors.  
+
+**Fix:** Remove the Coroutine Utility package from Package Manager so ASM will compile correctly.
