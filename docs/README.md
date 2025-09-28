@@ -8,6 +8,8 @@ We recommend backing up your project first (always a good idea when updating maj
 
 While 3.0 carries a major version bump, most of the changes are under the hood. You’ll notice some UI improvements, but the bigger updates are in the backend. Many of these lay the groundwork for future features and advanced use cases, so for most users, the upgrade will feel smooth and familiar.
 
+Most of the 2.0 documentation still applies to 3.0. That said, there may be a few places where things have changed and aren’t fully documented yet — we’re working on updating those. The generated API docs also haven’t been refreshed yet, so the new APIs are currently missing. We’re building our own in-house tool for this to avoid relying on fragile toolchains, which should make the docs more reliable going forward.
+
 ### Guides
 
 > Guides are handwritten articles to help you up to speed in working with ASM.
