@@ -1,6 +1,13 @@
 
 # Advanced Scene Manager
 
+## Upgrading to 3.0
+Upgrading should be straightforward: just uninstall 2.0 and install 3.0. Everything should keep working as before, ASM assets are either unchanged or automatically upgraded.
+
+We recommend backing up your project first (always a good idea when updating major versions).
+
+While 3.0 carries a major version bump, most of the changes are under the hood. You’ll notice some UI improvements, but the bigger updates are in the backend. Many of these lay the groundwork for future features and advanced use cases, so for most users, the upgrade will feel smooth and familiar.
+
 ### Guides
 
 > Guides are handwritten articles to help you up to speed in working with ASM.
