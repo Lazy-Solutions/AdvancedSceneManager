@@ -31,6 +31,13 @@ After import (or when switching Git branches), ASM can sometimes get stuck in an
 
 <br/>
 
+## Scene loader not found error.
+There are two common causes for this error:
+- **Missing dependency:** Some scene loaders (such as the Addressables scene loader) are only available if the corresponding Unity package is installed. If a scene is configured to use one and the package is later removed, the loader can’t be found.  
+- **Unstable state after import:** Similar to the issue above, ASM may fail to initialize scene loaders properly after import or when switching Git branches. In this case, force a domain reload to restore stability.
+
+<br/>
+
 ## “Ambiguous call” errors with `Lazy.CoroutineUtility` after upgrading ASM
 ASM includes an embedded copy of **Coroutine Utility**.  
 If you also have the upm version of Coroutine Utility installed, Unity will report ambiguous call errors.  
