@@ -34,7 +34,8 @@ Most of the 2.0 documentation still applies to 3.0. That said, there may be a fe
 [Scene Manager](<guides/Scene manager.md>)\
 [Callbacks](<guides/Callbacks.md>)\
 [Scene operations](<guides/Scene operations.md>)\
-[Scene loaders](<guides/Scene loaders.md>)
+[Scene loaders](<guides/Scene loaders.md>)\
+[Discoverables](<guides/Discoverables.md>)
 
 **Plugin support**:\
 [Scene bindings](<guides/Scene bindings.md>)\
