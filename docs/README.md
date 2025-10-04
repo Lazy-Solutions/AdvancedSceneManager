@@ -33,6 +33,7 @@ Most of the 2.0 documentation still applies to 3.0. That said, there may be a fe
 [An overview of ASM API structure](<guides/An overview of ASM API structure.md>)\
 [Scene Manager](<guides/Scene manager.md>)\
 [Callbacks](<guides/Callbacks.md>)\
+[Event callbacks](<guides/Event callbacks.md>)\
 [Scene operations](<guides/Scene operations.md>)\
 [Scene loaders](<guides/Scene loaders.md>)\
 [Discoverables](<guides/Discoverables.md>)
