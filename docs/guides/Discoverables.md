@@ -33,6 +33,67 @@ You can view all registered discoverables in the **Diagnostics** popup of the AS
 
 ![](../image/asm-diag-button.png)
 
+>  If ASM doesn't automatically invalidate assemblies for whatever reason, then you can manually invalidate the cache to trigger a re-scan, using the dev menu.
+>   ![](../image/asm-window-dev-menu-invalidate-discoverables-cache.png)
+### API Overview
+
+The discoverability API provides a simple way to access, refresh, and trigger discoverable callbacks manually. It is exposed through the `DiscoverabilityUtility` class.
+
+Typically, ASM handles everything automatically, but you can use the API if you need custom behavior — for example, when extending ASM or integrating it with your own systems.
+
+```csharp
+// Get all discoverables of a specific type
+var items = DiscoverabilityUtility.GetMembers<ExampleDiscoverableAttribute>();
+
+// Manually invoke all callbacks for an attribute type
+DiscoverabilityUtility.Invoke<ExampleDiscoverableAttribute>();
+
+// Re-scan and rebuild the cache manually
+DiscoverabilityUtility.InvalidateCache();
+```
+
+Each discoverable is represented by a `DiscoveredMember`, which gives access to both the attribute and its target member. You normally won’t need to interact with these directly, but they’re available for advanced use cases.
+
+---
+
+### Defining Your Own Discoverable
+
+To create your own discoverable attribute, inherit from `DiscoverableAttribute` and optionally override `IsValidTarget()` to define what kinds of members are valid targets for the attribute.
+
+```csharp
+using System;
+using System.Reflection;
+
+[AttributeUsage(AttributeTargets.Method)]
+public class ExampleDiscoverableAttribute : DiscoverableAttribute
+{
+    public override bool IsValidTarget(MemberInfo member)
+    {
+        //Only allow static methods
+        if (!member.IsStatic())
+        {
+            LogError(member, "Method must be static.");
+            return false;
+        }
+
+        //Allow zero or one parameter, of type Scene. 
+        if (member.HasNoParameters() || member.HasParameters<Scene>())
+        {
+            LogError(member, "Method has invalid parameters.");
+            return false;
+        }
+
+        return true;
+    }
+
+    public override string friendlyDescription =>
+        "This string is displayed as a tooltip in the diag popup of the ASM window.";
+}
+```
+	
+
+---
+
 ### Supported Discoverables
 
 Below is a summary of the discoverable attributes currently supported by ASM:
