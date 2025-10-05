@@ -23,8 +23,6 @@ This example assumes you're using **option 1**, the built-in NGO scene manager w
 
 If you're attempting option 2 - best of luck.
 
----
-
 ## Rules to Follow
 
 1. **Scene loading is client-driven in NGO.**  
@@ -51,7 +49,4 @@ If you're attempting option 2 - best of luck.
     
 5. **Scenes marked for Netcode cannot be loaded offline.**
     
-
----
-
 This example is just a starting point. Feel free to experiment and modify as needed. It’s not a “one-size-fits-all” guide, adapt it to your project’s needs.
