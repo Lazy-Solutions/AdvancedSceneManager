@@ -1,12 +1,3 @@
-<!--
----
-layout: default
-title: Quick Start Guide
----
--->
-
-<meta http-equiv="refresh" content="0; url=Quick%20start.html">
-
 # Quick start
 
 <br/>
@@ -92,9 +83,9 @@ Now when you press the play button, you'll be taken to the main menu in the same
 
 **Using Start() and Awake()**
 
-Start and awake are still Unity callbacks, so they still functions as normal. But it's important to be aware that these callbacks are often called before ASM has finished it's loading jobs. Therefor if you need all scenes in a collection to be loaded before you initialize code or run logic, use our callbacks. And so ASM does not always support opening scenes or collections (especially collections), in these callbacks. A lot of new users seem to miss this, so please also read this section: [scene callbacks](Callbacks.md). (This is often used when developing with ASM.) 
+Start and awake are still Unity callbacks, so they still function as normal. But it's important to be aware that these callbacks are called before ASM has finished its scene open process. This means that if you need all scenes in a collection to be loaded before you initialize code or run logic, you should use our scene callbacks instead. 
 
-> A common misuse is to instantiate gameobjects in Start, resulting in the object being loaded into the wrong scene, as ASM has not yet updated the active scene, then it's common to use ICollectionOpen to instantiate.
+> A common misuse is to instantiate gameobjects in Start(), resulting in the object being added to the wrong scene, as ASM has not yet updated the active scene, it is recommended to use [ISceneOpen](Callbacks.md) or [ICollectionOpen](Callbacks.md) callbacks to instantiate gameobjects.
 
 **Done**
 

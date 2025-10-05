@@ -4,16 +4,12 @@ Scene loaders are what Scene operations use to actually load or unload a scene. 
 
 There are four scene loaders included with ASM:
 
-- **RuntimeSceneLoader** — uses [UnityEngine.SceneManagement](https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.html). Always active in play mode.
-    
-- **EditorSceneLoader** — uses [UnityEditor.SceneManagement.EditorSceneManager](https://docs.unity3d.com/ScriptReference/SceneManagement.EditorSceneManager.html). Used outside of play mode.
-    
-- **AddressablesSceneLoader** — uses Unity's [Addressables](https://docs.unity3d.com/Manual/com.unity.addressables.html) system for loading scenes marked as addressable.
-    
-- **NetcodeSceneLoader** — used when working with Unity's [Netcode for GameObjects](https://docs-multiplayer.unity3d.com/netcode/current/about/), syncing scenes across clients and servers.
-    
+- **RuntimeSceneLoader**, uses [UnityEngine.SceneManagement](https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.html). Used by default in play mode.
+- **EditorSceneLoader**, uses [UnityEditor.SceneManagement.EditorSceneManager](https://docs.unity3d.com/ScriptReference/SceneManagement.EditorSceneManager.html). Used by default outside of play mode.
+- **AddressablesSceneLoader**, uses Unity's [Addressables](https://docs.unity3d.com/Manual/com.unity.addressables.html) system for loading scenes marked as addressable. Only available if addressables package is installed.
+- **NetcodeSceneLoader**, used when working with Unity's [Netcode for GameObjects](https://docs-multiplayer.unity3d.com/netcode/current/about/), syncing scenes across clients and servers. Only available when netcode for gameobjects package is installed.
 
-> Runtime and Editor scene loaders are **global** — they match all scenes unless overridden. Addressables and Netcode scene loaders are **non-global** — only apply to scenes flagged for them.
+> Runtime and Editor scene loaders are **global** — they match all scenes unless overridden. Addressables and Netcode scene loaders are **non-global** — only apply to scenes flagged to use them.
 
 To flag a scene to use a specific loader, use:
 
@@ -21,7 +17,7 @@ To flag a scene to use a specific loader, use:
 Scene.SetSceneLoader<YourLoader>();
 ```
 
-You’ll see the result of this in the scene popup (UI) as a toggle if the loader defines `sceneToggleText`.
+ASM will then display a toggle representing this scene loader in the scene popup, **if** the loader defines `sceneToggleText`.
 
 ![](../image/addressable-toggle.png)
 
@@ -82,7 +78,8 @@ Custom scene loaders can define:
 public override Indicator indicator => new()
 {
     text = "",
-	useFontAwesome = true
+	useFontAwesome = true,
+	tooltip = "Addressable"
 };
 ```
 
@@ -94,7 +91,5 @@ This will appear as an icon next to scenes using this loader.
 ASM uses the following logic to choose a scene loader:
 
 1. If a scene is flagged for a loader via `SetSceneLoader<T>()`, that loader is used.
-    
 2. If multiple loaders match, the first one registered takes priority.
-    
 3. If no match is found, the global loaders are used (Runtime or Editor).

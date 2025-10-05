@@ -4,7 +4,7 @@ The scene helper is a [ScriptableObejct](https://docs.unity3d.com/Manual/class-S
 
 ![](../image/button-click-quit.png)
 
-Scene helper can be found on the scene manager window, next to the new collection button. Just drag from the button to gain a reference.
+Scene helper can be found on the scene manager window, next to the new collection button. Just drag the scene helper button into an object field (such as a UnityEvent slot) to create a reference to it.
 
 ![](../image/scene-helper-and-new-collection.png)
 

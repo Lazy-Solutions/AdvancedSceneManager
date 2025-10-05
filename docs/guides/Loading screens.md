@@ -2,10 +2,10 @@
 
 This guide explains how to use and customize loading screens in **Advanced Scene Manager (ASM)**.
 
-> **Want to perform actions as a scene has loaded, but _**while**_ the loading screen is visible?**\
-Use ASM's callback interfaces like `ISceneOpen` or `ICollectionOpen`. These let you trigger logic once the scene is loaded—**but before** the loading screen closes.
+> Want to perform actions after a scene has been loaded, but **while** the loading screen is visible?
+> Use ASM's callback interfaces like `ISceneOpen` or `ICollectionOpen`. These let you trigger logic once the scene is loaded, **but before** the loading screen closes.
 > 
-> Perfect for deferred UI setups, data initialization, or network checks. See Callbacks for full interface details.
+> Perfect for deferred UI setups, data initialization, or network checks. See [Callbacks](Callbacks.md) for full interface details.
 
 ## Ways to Open a Loading Screen
 
@@ -45,6 +45,8 @@ yield return LoadingScreenUtility.DoAction(loadingScene, action);
 Create a custom script by inheriting from `AdvancedSceneManager.Loading.LoadingScreen`:
 
 ```csharp
+//Fades a CanvasGroup, using FadeUtility.Fade() extension method.
+//Updates a progress bar with load progress.
 public class MyLoadingScreen : LoadingScreen
 {
     public Slider slider;
@@ -81,11 +83,10 @@ public class MyLoadingScreen : LoadingScreen
 }
 ```
 
-Once ready, place it in a scene and assign it in:
+Once ready, place it in a scene and assign it in either:
 
 - A collection’s **loading screen** override
-    
-- Or the **ASM Settings** under **Scene Loading** to make it the default
+- **ASM Settings** under **Scene Loading** to make it the default
 
 > **Note:** For a scene to be recognized as a loading screen, ASM relies on a serialized flag inside the scene file. This flag is set by the `LoadingScreen` base class:
 > ```csharp
@@ -124,11 +125,8 @@ Scene.Open().DisableProgressReporting(); // Disable if needed
 Properties:
 
 - `value`: Progress (0-1)
-    
 - `scene`: Scene being loaded
-    
 - `operation`: Scene operation data
-    
 
 #### ✅ MessageLoadProgressData
 
@@ -155,11 +153,10 @@ ASM includes several default loading screen scenes.
 
 ### Where to find them:
 
-These are now part of a **UPM sample**. Import them:
+These are now part of a **UPM sample**. They can be imported either via:
 
-- From **Package Manager** under "Advanced Scene Manager"
-    
-- Or via the **Import** button in the ASM defaults collection UI
+- Unity package manager under ASM package samples
+- **Import** button in the ASM defaults collection
 
 > After importing, they will appear in: `Assets/Samples/Advanced Scene Manager/<version>/Default ASM Screens/`
 

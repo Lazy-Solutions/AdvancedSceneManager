@@ -1,21 +1,21 @@
 # Scene manager
 
-The scene manager class is meant to act as the the core API of ASM, and provides access to the most important systems within.
+The scene manager class is meant to act as the core API of ASM, and provides access to the most important systems within.
 
-> There are also a lot miscellaneous static utility classes in AdvancedSceneManager.Utility that are not accessible from SceneManager.
-
-> Note when coming from 1.9:\
-> ASM 1.9 had multiple scene managers, these has been merged into one, SceneManager.runtime.
+> There are also a lot miscellaneous static utility classes in AdvancedSceneManager.Utility that are not accessible from SceneManager, and are accessible as static classes.
 
 ## SceneManager.assets
-Provides access to ASM asset lists, which would be:
-* Collections
+Provides access to ASMs asset lists, which would be:
+* Profiles
 * Scenes
 * Collection templates
-* Default scenes
+* Default scenes *(e.g., fade scene, splash screen, via in ASM package samples)*
+
 ```csharp
 //Gets all level scenes
 SceneManager.assets.scenes.Where(s => s.name.StartsWith("Level")).ToArray();
+//Gets the default fade scene, assuming has been imported (from ASM package samples)
+SceneManager.assets.defaults.fadeScene;
 ```
 
 ## SceneManager.openScenes
@@ -26,7 +26,7 @@ Proxy for: `SceneManager.runtime.openScenes`.
 Provides access to the currently open collection, null if none.\
 Proxy for: `SceneManager.runtime.openCollection`.
 
-## SceneManager.preloadedScene
+## SceneManager.preloadedScenes
 Provides access to the currently preloaded scene, null if none.\
 Proxy for: `SceneManager.runtime.preloadedScene`.
 
@@ -69,12 +69,23 @@ void ToggleWhateverCollectionShouldOpenWhenAContainedSceneIsOpened()
 ```
 
 ## SceneManager.profile
-Provides access to the currently active profile, null if none.\
-Equivalent to:\
-`Profile.current`.
+Provides access to the currently active [profile](Profiles.md), null if none active.
+
+## SceneManager.events
+Provides access to register global ASM [event callbacks](Event%20callbacks.md).
+
+## SceneManager.package
+Provides access to some info about the ASM package.
+*Only available in editor*
 
 ## SceneManager.isInitialized
-Gets whatever ASM is initialized after a domain reload. Some api:s may fail if this is false, most notably .assets.
+Gets whatever ASM is initialized after a domain reload. Some APIs may fail if this is false, most notably .assets and .settings.
 
 ## SceneManager.OnInitialized(Action)
-Registers a callback for when ASM is initialized after a domain reload. Callback is called immediately if ASM is already initialized.
+Registers a callback for when ASM is initialized after a domain reload. Callback is invoked immediately if ASM is already initialized.
+
+An alternative to this is \[OnLoad] attribute.
+```csharp
+[OnLoad]
+static void OnLoad() {}
+```

@@ -4,7 +4,7 @@ A scene collection, *more commonly referred to as just collection*, is a collect
 
 ![](../image/scene-manager-window-collections.png)
 
-When a collection closes, all currently open non-persistent scenes will be closed, unless the closing collection was opened as additive. When opened additively, a collection will only close its own scenes, assuming the current normally opened collection does not manage it.
+When a collection closes, all open scenes not marked as persistent will be closed, unless the closing collection was opened as additive. When opened additively, a collection will only close its own scenes, assuming the current normally opened collection does not manage it.
 
 Collections support opening [loading screens](Loading%20screens.md) before opening or closing, and will, by default, use the default loading screen, which is defined in the [settings](Scene%20manager%20window.md#scene-loading-page).
 
@@ -25,7 +25,7 @@ The folder path used by a dynamic collection can be configured in the collection
 
 ## Standalone collection
 
-The standalone collection contains all standalone scenes — scenes that are not part of any other collection but should still be available in the build. Scenes can be added or removed manually, and you can define their persistence or load behavior individually.
+The standalone collection contains all standalone scenes, scenes that are not part of any other collection but should still be available in the build. Scenes can be added or removed manually, and you can define their persistence or load behavior individually.
 
 Standalone scenes are often used for UI overlays, pause menus, debug tools, or other utility content that doesn't fit neatly into a specific collection. They also support input bindings, allowing scenes to be opened or closed in response to user input, such as Escape or Tab, making them ideal for toggleable UI like pause screens or scoreboards.
 
@@ -39,7 +39,7 @@ The ASM Defaults collection includes all default scenes provided by ASM, such as
 
 ### In the UI
 
-To create a new collection in the UI, open the Scene Manager window and use the **New collection** split button in the footer. Clicking the main part of the button will create a regular scene collection. Clicking the dropdown arrow opens a menu where you can create a dynamic collection or one based on a template. Scene collection templates are also managed from this menu.
+To create a new collection in the UI, open the Scene Manager window and use the **New collection** split button in the footer. Clicking the main part of the button will create a regular scene collection. Clicking the menu button opens a popup where you can create a collection based on a template.
 
 ### In code
 
@@ -53,6 +53,8 @@ SceneManager.profile.CreateCollection(myTemplate); // Creates a collection from 
 SceneManager.profile.CreateDynamicCollection("Assets/MyFolder", "My Dynamic Collection"); // Creates a dynamic collection
 ```
 
+## Finding collections
+
 To access existing collections:
 ```csharp
 var collections = SceneManager.profile.collections;
@@ -64,7 +66,7 @@ var allCollectionsInProject = SceneManager.assets.collections;
 
 Collections can also be found or accessed using the find API:
 ```csharp
-var found = SceneCollection.Find("Main Menu"); // Match by title or ID (active profile by default)
+var found = SceneCollection.Find("Main Menu"); // Match by title or ASM model ID (active profile by default)
 
 if (SceneCollection.TryFind("Main Menu", out var menuCollection))
 {

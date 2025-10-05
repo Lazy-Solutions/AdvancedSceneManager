@@ -1,23 +1,24 @@
 # Finding ASM assets
 
-You can find scenes, collections and profiles very easily, like so:
+Finding assets in ASM is very easy. All assets have static `.Find()` methods, that take a string query parameter. 
+
+This query string can be any of the following:
+- Scene path
+- Asset name (as in unitys [Object.name](https://docs.unity3d.com/ScriptReference/Object-name.html))
+- [SceneAsset](https://docs.unity3d.com/ScriptReference/SceneAsset.html) guid
+- Collection title
+- ASM model id. Every ASM asset has an id property.
+
+Predicates are also often supported. 
 
 ```csharp
-var profile = Profile.Find("name_or_id");
+var profile = Profile.Find("example profile").FirstOrDefault();
 
-var scene = Scene.Find("name_path_or_id");
-var gameplayScenes = Scene.Find(s => s.name.Contains("gameplay"));
-var openScenes1 = SceneUtility.FindOpen("name_path_or_id");
-var openScenes2 = SceneUtility.FindOpen(s => s.name.contains("gameplay"));
+var scene1 = Scene.Find("Assets/Scenes/example scene.unity").FirstOrDefault();
+var scene2 = Scene.Find("example scene").FirstOrDefault();
 
-var collectionScene1 = SceneCollection.Find("name_or_id").Find("name_id_or_path");
-var collectionScene1 = SceneCollection.Find("name_or_id").FirstOrDefault(s => s.name.Contains("gameplay")); //Linq
+var collection1 = SceneCollection.Find("example collection").FirstOrDefault();
+var collection2 = SceneCollection.Find("example collection", activeProfile: false).FirstOrDefault(); //Checks all profiles, not just active.
 
-//Checks only active profile
-var collection1 = SceneCollection.Find("name_title_or_id"); 
-
-//Checks all profiles
-var collection2 = SceneCollection.Find("name_title_or_id", activeProfile: false); 
+var addressableScenes = Scene.Find(s => s.isAddressable); //Finds all scenes flagged to use the addressables scene loader. isAddressable property only available if addressables package is installed.
 ```
-
-> Notice: The method documentation (sandcastle comments / triple slash comments) are currently slightly wrong, as the methods were updated, but not comments. This will be fixed in a future update.

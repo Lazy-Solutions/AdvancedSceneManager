@@ -1,6 +1,6 @@
 # Splash Screens
 
-Splash screens in **Advanced Scene Manager (ASM)** are loading screens that appear at the very beginning of startup, before any other scenes are loaded. They use the same system as other loading screens but are shown during startup, as all startup collections and standalone startup scenes are opened.
+Splash screens in ASM are loading screens that appear and cover startup. They use the same system as regular loading screens but are shown during startup, while collections or standalone startup scenes load.
 
 Splash scenes can be assigned in the **ASM Startup Settings**.
 
@@ -10,7 +10,7 @@ ASM includes **two default splash screens**:
 - **Splash ASM** – Displays a logo and background
 - **Splash Fade** – An empty scene that simply fades in/out.
 
-These default splash screens are included in the **UPM sample package**. You can import them from the **Package Manager** window or via the **Import** button in the ASM defaults collection UI—just like the default loading screens.
+These default splash screens are included via ASM package samples. You can import them from the **Package Manager** window or via the **Import** button in the ASM defaults collection UI, just like the default loading screens.
 
 ## Creating a Custom Splash Screen
 

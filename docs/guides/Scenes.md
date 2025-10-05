@@ -1,25 +1,6 @@
 # Scenes
 
 Scenes in ASM are represented as [ScriptableObjects](https://docs.unity3d.com/Manual/class-ScriptableObject.html), providing a convenient drag-and-drop interface for scene references.
-
-## Correct way to test if a Scene is assigned
-
-```csharp
-public class Test : MonoBehaviour
-{
-    Scene scene;
-
-    void Start()
-    {
-        if(scene == null){} // Invalid: Scene is not nullable.
-        
-        // Valid: test if the Scene is assigned.
-        if(scene){} // or 
-        if(!scene){} 
-    }
-}
-```
-
 ## Accessing ASM Scene References
 
 If you only have a Unity `Scene` struct and need to retrieve the ASM `Scene` object, use any of the following:
@@ -35,7 +16,8 @@ public class Test : MonoBehaviour
 
         if (this.ASMScene(out var scene4))
         { }
-
+        
+        //Side note, this can be used to retrieve active scene.
         var activeScene = SceneManager.runtime.activeScene;
     }
 }
@@ -64,7 +46,7 @@ public class OpenScene
 }
 ```
 
-> ❗ **Methods prefixed with ****`_`** are intended for use in UnityEvents. This is because UnityEvents do not support methods with return values or multiple parameters. Prefixed and non-prefixed methods are otherwise identical and kept in sync for consistency.
+> ❗ **Methods prefixed with ****`_`** are intended for use in UnityEvents. This is because UnityEvents do not support methods with return values or multiple parameters.
 
 ## Importing Scenes
 
@@ -72,7 +54,9 @@ Scenes must be imported before they can be used in ASM. This is done via the **i
 ![](../image/scene-import-notification.png)
 ![](../image/import-scene-popup.png)
 
-You can exclude scenes via the blacklist feature (configurable later in settings):
+Auto import: SceneCreated can be optionally set. This means that ASM will automatically import scenes when they are created through normal means.
+
+You can exclude scenes via the blocklists feature (configurable later in settings):
 ![](../image/blacklist.png)
 ## Persistent Scenes
 
@@ -117,26 +101,16 @@ Each scene can be assigned a **load priority**, which maps to `Application.backg
 
 ## Scene Loaders
 
-ASM supports different loaders depending on how scenes should be handled:
+ASM supports different loaders depending on what API should be used to load scene. A few exist out of the box, assuming the corresponding upm package are installed. Custom loaders are also supported. 
 
-- **RuntimeSceneLoader** – Standard Unity scene loading (default scene loader).
-    
-- **EditorSceneLoader** – Editor-specific loader (used outside of playmode).
-    
-- **AddressablesSceneLoader** – Uses Addressables API (requires Addressables package).
-    
-- **NetcodeSceneLoader** – For use with Unity NGO (requires Netcode for GameObjects package).
+Read more in [Scene Loaders](scene%20loaders.md).
 
-The loader assigned to a scene can be toggled via the **Scene Popup** in the Scene Manager window.
-
-> The required package must be installed for a loader to be assignable.
-
+The loader assigned to a scene can be toggled via the **Scene Popup** in the ASM window.
 ![](../image/addressable-toggle.png)
 
-ASM also supports custom loaders. These can be implemented and registered to support specialized loading behavior. Learn how to create one in the [Scene Loaders guide](scene%20loaders.md).
 ## Input Bindings
 
-Scenes can be opened via input using scene bindings, just like collections. Bind a key such as `Escape` or `Tab` to toggle UI scenes like pause menus.
+Standalone scenes can be opened via input using scene bindings, just like collections. Bind a key such as `Escape` or `Tab` to toggle UI scenes like pause menus.
 
 ## Startup Scenes
 

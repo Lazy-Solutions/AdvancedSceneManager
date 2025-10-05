@@ -7,17 +7,9 @@ This collection ensures that such scenes are tracked and included in builds, eve
 ![](../image/scene-manager-window-dynamic-collections.png)
 ## Startup Behavior
 
-Standalone scenes can be configured to open during game startup or when entering play mode in the editor. These settings are controlled through the **Scene Menu**, accessible via the menu button on the scene field.
+Standalone scenes can be configured to open during game startup or when entering play mode in the editor. These settings are controlled through the **Scene popup**, accessible via the menu button on the scene field.
 
 ![](../image/standalone-options.png)
-
-To configure startup behavior:
-
-1. Click the menu button next to the standalone scene field.
-2. Select the desired startup option:
-   - **Open**: Always opens on startup.
-   - **Auto**: Opens if no other startup scenes override it.
-   - **Do Not Open**: Never opens automatically.
 
 > These startup settings are especially useful for utility scenes such as overlays, persistent UI, or manager systems.
 ## Input Bindings
@@ -39,4 +31,3 @@ To bind a key to a standalone scene:
 
 - The standalone collection cannot be deleted and is always available in every profile.
 - Scenes in this collection can be set as **persistent**, meaning they won't close automatically when switching collections.
-- Scenes added to the standalone collection are automatically included in build settings—no manual management required.
