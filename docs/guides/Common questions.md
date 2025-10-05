@@ -32,7 +32,7 @@ ASM does not allow redistribution, so public repos must ignore the ASM folder: `
 Each collaborator will need to install ASM manually in their local project.  
 We wish this weren’t necessary, but unfortunately, that’s how licensing works.
 
-> For public repos, one possible workaround is to use **ASM trial**. It is free but limited. Build has been intentionally disabled for example. Can be used for showcase purposes and similar.
+> For public repos, one possible workaround is to use [**ASM trial**](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/main/trial). It is free but limited. Build has been intentionally disabled for example. Can be used for showcase purposes and similar.
 
 ## What is the difference between patches and asset store updates?
 
