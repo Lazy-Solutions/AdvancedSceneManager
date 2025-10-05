@@ -94,3 +94,20 @@ void Log(SceneCollection collection, string action)
 	Debug.Log($"{collection.title} {action}.");
 }
 ```
+
+# Event callback API
+
+The event callback API can be used to listen for events in code. Designed mimic Unity UI Toolkit event callbacks.
+
+You can read more about event callbacks in their [dedicated guide](Event%20callbacks.md).
+
+```csharp
+//Only called for this specific scene operation
+public void OperationSpecificEvents()
+{
+	scene1.Open().
+		RegisterCallback<SceneOpenEvent>(e => 
+			Debug.Log("Scene opened: " + e.scene), When.After);
+}
+```
+

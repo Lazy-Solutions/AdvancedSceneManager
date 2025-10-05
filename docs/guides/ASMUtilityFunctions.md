@@ -7,7 +7,9 @@ ASMUtilityFunction provides quick, easily accessible utility functions within th
 
 ### Extending ASMUtilityFunction
 
-To add a custom utility function, create a new class that inherits from ASMUtilityFunction. Override the necessary properties and methods to define the utility’s name, description, grouping, and functionality. Here’s a basic example:
+To add a custom utility function, create a new class that inherits from ASMUtilityFunction. Override the necessary properties and methods to define the utility’s name, description, grouping, and functionality. ASM will automatically find and display them in the list. 
+
+Here’s a basic example:
 
 ```csharp
 public class CustomUtilityFunction : ASMUtilityFunction
@@ -30,5 +32,3 @@ public class CustomUtilityFunction : ASMUtilityFunction
     }
 }
 ```
-
-This new Function will automatically be found by the Utility Window

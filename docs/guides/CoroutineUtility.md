@@ -1,4 +1,5 @@
 ## CoroutineUtility
+
 Run coroutines detached from MonoBehaviours and scenes which makes working with coroutines in certain circumstances a lot easier.\
 Supports [Editor Coroutines](https://docs.unity3d.com/Manual/com.unity.editorcoroutines.html).
 
@@ -23,18 +24,17 @@ void Start()
 
 }
 
-async Start() {
+async void Start() {
     // Unity's Awaitable class
-    Awaitable<bool> coroutine = OnOpen().StartCoroutineAsAwaitable();
+    Awaitable<bool> coroutine = Coroutine().StartCoroutineAsAwaitable();
     await coroutine;
 
     // Does not work with Unity Web (WebGL)
-    Task coroutine = OnOpen().StartCoroutineAsTask();
+    Task coroutine = Coroutine().StartCoroutineAsTask();
     await coroutine;
 
-    // Does not work with Unity Web (WebGL)
-    GlobalCoroutine coroutine = OnOpen().StartCoroutine();
-    await coroutine;
+    GlobalCoroutine coroutine = Coroutine().StartCoroutine();
+    await coroutine; //custom awaiter for coroutines is included in ASM.
 }
 
 IEnumerator Coroutine()
@@ -45,17 +45,27 @@ IEnumerator Coroutine()
 </br>
 
 ## MainThreadUtility
+
 Provides functionality to invoke code on main thread. Useful when using tasks or threading, and you need to perform action on main thread.
 
 ```csharp
 async Task Background_Task()
 {
+    // Simulate work done in a background thread
+    await Task.Run(() =>
+    {
+        Thread.Sleep(500); // pretend to do heavy work
+    });
 
-    //Time class cannot be accessed from a thread
-    //other than the main thread
-    var currentTime = MainThreadUtility.Invoke(() => Time.realtimeSinceStartup);
+    // This must be done on the main thread
+    var cube = await MainThreadUtility.InvokeAsync(() =>
+    {
+        var go = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        go.transform.position = new Vector3(0, 1, 0);
+        return go;
+    });
 
-    //Do something with time...
-
+    Debug.Log($"Spawned {cube.name} on main thread at time {Time.realtimeSinceStartup}");
 }
+
 ```
