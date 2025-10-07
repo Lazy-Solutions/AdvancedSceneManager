@@ -6,29 +6,29 @@
 
 To begin, open Unity and navigate to the Window menu. From there, open the package manager and search for Advanced Scene Manager", install it. Wait for unity to compile.
 
-![package-manager](../image/package-manager.png)
+![package-manager](../image/old/package-manager.png)
 
 **Open Scene Manager Window:** 
 
 Access the Scene Manager window through the File menu and choose "Scene Manager..."
 
-![file-menu](../image/file-menu.png)
+![file-menu](../image/old/file-menu.png)
 
 **Create Profile:** 
 
 Within the Scene Manager window, press the profile selector, in the lower left corner. Create a new profile by clicking on the current profile name or "create", if none exists, or "none", if profiles do exist, but none are selected.
 
-![profile-picker](../image/profile-picker.png)
+![profile-picker](../image/old/profile-picker.png)
 
 **Default profile:** 
 
 The default profile has two collections "Startup (persistent)" and "Main Menu". Press the menu button on the collection headers, and observe that both collections are set to open at startup. On Startup collection, also observe the "Open persistent" toggle in the "Open options" further down.
 
-![collection-menu-button](../image/collection-menu-button.png)
+![collection-menu-button](../image/old/collection-menu-button.png)
 
-![startup-option](../image/startup-option.png)
+![startup-option](../image/old/startup-option.png)
 
-![collection-open-option](../image/collection-open-option.png)
+![collection-open-option](../image/old/collection-open-option.png)
 
 **Create Scenes:** 
 
@@ -38,27 +38,27 @@ Create two scenes like you normally would in unity, name them "Startup" and "Mai
 
 Following scene creation, a notification will appear in the Scene Manager window. Click on the notification to open the import popup. Confirm that both scenes are toggled and press "Import".
 
-![import-popup](../image/import-popup.png)
+![import-popup](../image/old/import-popup.png)
 
 **Assign Scenes to Collections:** 
 
 Within the Scene Manager, drag the scenes into their respective collections and drop them on the "drop area" to add them.
 
-![scene-drop-area](../image/scene-drop-area.png)
+![scene-drop-area](../image/old/scene-drop-area.png)
 
 **Press Play in Scene Manager:** 
 
 Located at the top left of the Scene Manager window, press the Play button. Watch as ASM enters play mode and plays the default ASM splash screen, then fades out, opens scenes, fades in, the main menu scene should be active in hierarchy.
 
-![play-button](../image/play-button.png)
+![play-button](../image/old/play-button.png)
 
-![asm-splash-screen](../image/asm-splash-screen.png)
+![asm-splash-screen](../image/old/asm-splash-screen.png)
 
 **Levels**
 
 Now, lets create some levels, create two collections, "Level 1" and "Level 2". This time, instead of creating scenes in project window, lets add a scene field in each collection, by pressing the "+" in the collection header. Then press the create scene button to the right of the object field. Name the scenes the same as their collections. Lets also create a UI scene, and assign it to both level collections.
 
-![create-scene-button](../image/create-scene-button.png)
+![create-scene-button](../image/old/create-scene-button.png)
 
 **Main menu**
 
@@ -66,13 +66,13 @@ Now, lets open the main menu scene by pressing the open scene button or the open
 
 > The collection open toggle is not important right now, but it specifies whatever all scenes on a collection should open, since some scenes may be flagged to not open automatically, only explicitly.
 
-![button-click-collection-open](../image/button-click-collection-open.png)
+![button-click-collection-open](../image/old/button-click-collection-open.png)
 
 
-![scene-helper-button](../image/scene-helper-button.png)
+![scene-helper-button](../image/old/scene-helper-button.png)
 
 
-![button-click-quit](../image/button-click-quit.png)
+![button-click-quit](../image/old/button-click-quit.png)
 
 **Play**
 

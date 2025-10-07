@@ -4,12 +4,12 @@ Standalone scenes are scenes that aren't part of any scene collection but should
 
 This collection ensures that such scenes are tracked and included in builds, even though they are not tied to a specific group.
 
-![](../image/scene-manager-window-dynamic-collections.png)
+![](../image/main-standaloneCollections.png)
 ## Startup Behavior
 
 Standalone scenes can be configured to open during game startup or when entering play mode in the editor. These settings are controlled through the **Scene popup**, accessible via the menu button on the scene field.
 
-![](../image/standalone-options.png)
+![](../image/popup-scene-standaloneOptions.png)
 
 > These startup settings are especially useful for utility scenes such as overlays, persistent UI, or manager systems.
 ## Input Bindings

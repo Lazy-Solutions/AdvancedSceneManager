@@ -8,5 +8,5 @@ The collection popup also includes a bulk toggle to mark all scenes in the colle
 
 > When ASM adds a scene to Addressables, it places it in a default group. **ASM does not assign a schema** to this group, you should either assign one manually or move the scene to another group.
 
-![](../image/addressable-toggle.png)
+![](../image/popup-scene-scene-loader.png)
 

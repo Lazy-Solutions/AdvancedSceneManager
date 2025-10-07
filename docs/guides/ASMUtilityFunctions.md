@@ -1,13 +1,15 @@
-![](../image/ASMUtilityFunctionsWindow.png)
-![](../image/ASMUtilityButton.png)
+## ASM utility functions
 
-## ASMUtilityFunction
+ASM utility functions provides quick, easily accessible utility functions within the Advanced Scene Manager (ASM). These functions are designed to be flexible and extendable, allowing users to create custom utilities that integrates with ASM.
 
-ASMUtilityFunction provides quick, easily accessible utility functions within the Advanced Scene Manager (ASM). These functions are designed to be flexible and extendable, allowing users to create custom utilities that integrates with ASM.
+![](../image/main-button-utility-functions.png)
 
-### Extending ASMUtilityFunction
+![](../image/window-utility-functions.png)
 
-To add a custom utility function, create a new class that inherits from ASMUtilityFunction. Override the necessary properties and methods to define the utility’s name, description, grouping, and functionality. ASM will automatically find and display them in the list. 
+> Note that the ASM utility functions button can be hidden, and if it isn't visible, then it may be enabled in Settings > Appearance > Extendable UI.
+### Creating a utility function
+
+To add a custom utility function, create a new class that inherits from `ASMUtilityFunction`. Override the necessary properties and methods to define the utility’s name, description, grouping, and functionality. ASM will automatically find and display them in the list. 
 
 Here’s a basic example:
 

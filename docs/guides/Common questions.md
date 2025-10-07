@@ -52,4 +52,4 @@ ASM will automatically check for updates and give a notification. This can be tu
 
 The settings page can also be used to check for updates manually. Note that asset store updates cannot be downloaded from here, and must be downloaded via the unity package manager.
 
-![](image/settings-updates-page.png)
+![](image/popup-settings-updates.png)

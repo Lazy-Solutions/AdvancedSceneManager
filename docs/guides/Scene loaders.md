@@ -17,9 +17,9 @@ To flag a scene to use a specific loader, use:
 Scene.SetSceneLoader<YourLoader>();
 ```
 
-ASM will then display a toggle representing this scene loader in the scene popup, **if** the loader defines `sceneToggleText`.
+ASM will then display a toggle representing this scene loader in the scene popup, **if** the loader defines `sceneToggleText`. The image below shows the toggle for the addressables scene loader.
 
-![](../image/addressable-toggle.png)
+![](../image/popup-scene-scene-loader.png)
 
 ## Scene Loader API
 
@@ -84,7 +84,7 @@ public override Indicator indicator => new()
 ```
 
 This will appear as an icon next to scenes using this loader.
-![](../image/addressables-scene-indicator.png)
+![](../image/main-scene-addressables.png)
 
 ## Loader Selection Logic
 

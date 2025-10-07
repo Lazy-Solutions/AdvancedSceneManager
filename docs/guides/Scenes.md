@@ -26,10 +26,10 @@ public class Test : MonoBehaviour
 ## Drag-and-Drop Use Cases
 
 - Add or replace scenes in a collection
- ![](../image/drop-area.png)
+ ![](../image/main-collection-sceneDropArea.png)
     
 - Assign to UnityEvents (e.g., Button → OnClick)
-  ![](../image/button-click-scene-open.png)
+  ![](../image/event-click-sceneOpen.png)
     
 - Reference in scripts:
 ```csharp
@@ -51,13 +51,13 @@ public class OpenScene
 ## Importing Scenes
 
 Scenes must be imported before they can be used in ASM. This is done via the **import prompt** in the Scene Manager window:
-![](../image/scene-import-notification.png)
-![](../image/import-scene-popup.png)
+![](../image/notification-sceneImport.png)
+![](../image/popup-sceneImport.png)
 
 Auto import: SceneCreated can be optionally set. This means that ASM will automatically import scenes when they are created through normal means.
 
 You can exclude scenes via the blocklists feature (configurable later in settings):
-![](../image/blacklist.png)
+![](../blacklist.png)
 ## Persistent Scenes
 
 A **persistent scene** remains open when switching collections. Enable this in the scene popup. This is useful for UI overlays, managers, and persistent objects.
@@ -106,7 +106,7 @@ ASM supports different loaders depending on what API should be used to load scen
 Read more in [Scene Loaders](scene%20loaders.md).
 
 The loader assigned to a scene can be toggled via the **Scene Popup** in the ASM window.
-![](../image/addressable-toggle.png)
+![](../image/popup-scene-scene-loader.png)
 
 ## Input Bindings
 
@@ -126,7 +126,7 @@ SceneManager.runtime.Untrack(scene);
 ```
 
 When a scene is open, but untracked, an indicator will be shown in the hierarchy, when in the editor. This may happen temporarily, and then resolve itself a moment later. This is, in most cases, by design. It is during prolonged cases when it may be a bug, or conflict with another scene manager.
-![](../image/untracked-scenes.png)
+![](../untracked-scenes.png)
 ## Scene Merging and Splitting
 
 Merge scenes via right-click in the scene manager window:

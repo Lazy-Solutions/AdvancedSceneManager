@@ -2,7 +2,7 @@
 
 A scene collection, *more commonly referred to as just collection*, is a collection of scenes that will all be opened at the same time.
 
-![](../image/scene-manager-window-collections.png)
+![](../image/main-collections.png)
 
 When a collection closes, all open scenes not marked as persistent will be closed, unless the closing collection was opened as additive. When opened additively, a collection will only close its own scenes, assuming the current normally opened collection does not manage it.
 

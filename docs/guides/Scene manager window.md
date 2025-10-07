@@ -4,16 +4,16 @@
 
 The scene manager window is the front-end for ASM. It can be used to manage [collections](Scene%20collections.md), [scenes](Scenes.md), and behavior of ASM.
 
-![](../image/scene-manager-window.png)
+![](../image/old/scene-manager-window.png)
 
 The scene manager window can be opened through:
 
-![](../image/scene-manager-menu.png)
+![](../image/old/scene-manager-menu.png)
 
 ## Main view
 ### Header
 
-![](../image/scene-manager-window-header.png)
+![](../image/old/scene-manager-window-header.png)
 
 The header contains the following, in order, left to right:
 * Play button, enters play mode and runs startup process, as if we're running in a build.
@@ -23,7 +23,7 @@ The header contains the following, in order, left to right:
 
 ### Collections and scenes
 
-![](../image/scene-manager-window-collections.png)
+![](../image/old/scene-manager-window-collections.png)
 
 The collections and scene list contain... collections and scenes!
 
@@ -56,7 +56,7 @@ The elements on the [scene](Scenes.md) field are as follows, in order, left to r
 
 ### Dynamic collections and scenes
 
-![](../image/scene-manager-window-dynamic-collections.png)
+![](../image/old/scene-manager-window-dynamic-collections.png)
 
 Dynamic collections are collections that contain scenes that do not fit within a normal collection, but are still supposed to be included in build. This is needed because ASM manages the build scene list (adding a scene to list manually just causes ASM to add it to standalone collection).
 
@@ -68,7 +68,7 @@ The **ASM Defaults** dynamic collection on the other hand is a normal dynamic co
 
 ### Footer
 
-![](../image/scene-manager-window-footer.png)
+![](../image/old/scene-manager-window-footer.png)
 
 The footer contains, in order, left to right:
 * [Profile](Profiles.md) selector, opens a popup where a profile can be selected, or created.
@@ -77,7 +77,7 @@ The footer contains, in order, left to right:
 
 ## Collection popup
 
-![](../image/scene-manager-window-collection-popup.png)
+![](../image/old/scene-manager-window-collection-popup.png)
 
 The collection popup contains:
 * **Title**
@@ -98,7 +98,7 @@ The collection popup contains:
 
 # Scene popup
 
-![](../image/scene-manager-window-scene-popup.png)
+![](../image/old/scene-manager-window-scene-popup.png)
 
 The scene popup contains:
 * **Do not open automatically**, specifies whatever this scene should remain closed when collection is opened, use this when you want to open scene yourself, but still want scene associated with collection. *This is a collection specific setting, and is saved on parent collection.*
@@ -109,7 +109,7 @@ The scene popup contains:
 > *Collection specific options* section contains settings that are related to the current parent collection only, when assigning scene to multiple collections, this section will be different depending on collection. **All other sections are global.**
 # Menu popup
 
-![](../image/scene-manager-window-menu.png)
+![](../image/old/scene-manager-window-menu.png)
 
 The menu popup contains:
 * **Current version**, version check and link to view available patches *(patches are .UnityPackage(s) that we provide outside of the normal unity asset store updates, that fixes bugs, and even sometimes provide new features, but could potentially be unstable, we try our hardest though!)*.
@@ -118,7 +118,7 @@ The menu popup contains:
 * **Contact**, ASM appreciates your feedback, bug reports and suggestions alike! Also contains a button to view example projects.
 # Settings popup
 
-![](../image/settings-popup.png)
+![](../image/old/settings-popup.png)
 
 The settings popup contains the configration options of ASM. Settings are categorized into multiple pages:
 * **Startup**, contains settings related to the startup process, or more simply, what scenes or collections should be opened when game starts.
@@ -129,7 +129,7 @@ The settings popup contains the configration options of ASM. Settings are catego
 
 ## Startup page
 
-![](../image/settings-startup-page.png)
+![](../image/old/settings-startup-page.png)
 
 The startup page contains:
 * **Splash screen**, displays a splash screen when game starts.
@@ -138,7 +138,7 @@ The startup page contains:
 * **Startup scene**, this is the first scene that will be opened, it should be mostly empty, since otherwise you'll get flickering during startup. This should only be used in very rare use-cases, normally you'd just use collections and standalone scenes flagged to open during startup.
 ## Scene loading page
 
-![](../image/settings-scene-loading-page.png)
+![](../image/old/settings-scene-loading-page.png)
 
 The scene loading page contains:
 * **Default loading screen**, this is the loading screen that will be used when opening or closing collections, if none is explicitly defined in the collection settings.
@@ -146,7 +146,7 @@ The scene loading page contains:
 * **Prevent duplicate scene operations**, sometimes, such as when player is spamming a UI button that will open a scene / collection, you probably do not want duplicate operations, this attempts to prevent that. *Note that a better solution may still be to disable buttons or similar, since that would be more fool-proof.*
 ## Assets page
 
-![](../image/settings-assets-page.png)
+![](../image/old/settings-assets-page.png)
 
 The assets page contains:
 * **Scene import option**, specifies whatever scenes created *normally* will be automatically imported into ASM. Non-normal would mean creating scene on disk outside of unity, or pulling non-imported scene file from source, those will still have to be explicitly imported in scene import popup.
@@ -154,7 +154,7 @@ The assets page contains:
 * **Generate profiles and scenes to**, specifies the path ASM will generate ASM assets to, if you do not wish to generate them to the default path. This only affects where ASM will put the assets on generation, you will still have to move the assets manually, which is fine to do, to be clear, ASM keeps and internal list of its own assets by reference, so you can move them wherever you want.
 ## Editor page
 
-![](../image/settings-editor-page.png)
+![](../image/old/settings-editor-page.png)
 
 The editor page contains:
 * **Force profile**, specifies a profile that is force enabled, useful for teams that wish to have only one person manage ASM.

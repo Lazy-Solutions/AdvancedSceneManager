@@ -65,7 +65,7 @@ To prevent issues, you must **manually uninstall** the old version before instal
 3. Remove any old ASM entries before importing the new `.unitypackage`.
 
 
-![](/image/ASM-PackageManager.png)
+![](/image/package-manager.png)
 
 
 ---

@@ -12,7 +12,7 @@ Profiles in ASM are used to define and switch between distinct scene configurati
 
 Profiles are activated in the bottom-left corner of the Scene Manager window, via the profile picker.
 
-![](../image/profile-popup.png)
+![](../image/popup-profiles.png)
 
 ---
 
