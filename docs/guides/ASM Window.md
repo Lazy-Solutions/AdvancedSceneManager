@@ -1,5 +1,8 @@
 # ASM Window
 
+> **Note:** This article is still being written. The information should be mostly correct, but some details, images, and links will be added later.
+
+
 > Also referred to as the _Scene Manager window_.
 
 The **ASM Window** is the primary UI for managing scenes and collections within ASM. It offers a powerful and structured way to build the scene setup of your game, giving you full control over collections, loading behavior, and scene metadata.
