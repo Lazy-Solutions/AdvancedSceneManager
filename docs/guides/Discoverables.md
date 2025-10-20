@@ -31,10 +31,11 @@ In the example above, ASM’s discoverability system automatically detects and c
 
 You can view all registered discoverables in the **Diagnostics** popup of the ASM window, accessed via the **Diag** button beside the **ASM Play** button. *Note that the button might not be visible, as it is transparent and only shows text when ASM is performing operations like opening or closing scenes.*
 
-![](../image/window/main-button-diag.png)
+![](../image/main-button-diag.png)
 
 >  If ASM doesn't automatically invalidate assemblies for whatever reason, then you can manually invalidate the cache to trigger a re-scan, using the dev menu.
->   ![](../image/window/main-devMenu-invalidateDiscoverablesCache.png)
+>   ![](../image/main-devMenu-invalidateDiscoverablesCache.png)
+
 ### API Overview
 
 The discoverability API provides a simple way to access, refresh, and trigger discoverable callbacks manually. It is exposed through the `DiscoverabilityUtility` class.
