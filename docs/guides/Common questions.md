@@ -53,3 +53,12 @@ ASM will automatically check for updates and give a notification. This can be tu
 The settings page can also be used to check for updates manually. Note that asset store updates cannot be downloaded from here, and must be downloaded via the unity package manager.
 
 ![](image/popup-settings-updates.png)
+
+## I want to reset ASM entirely, how do I do that?
+To reset all ASM configuration, delete the following:
+* `Assets/Settings/AdvancedSceneManager` - Contains profiles, collections, and scenes
+* `ProjectSettings/AdvancedSceneManager.asset` - Contains project wide settings
+* `UserSettings/AdvancedSceneManager.asset` - Contains local settings to the cloned repo (assuming you have UserSettings in [.gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore))
+
+> Note that unity might keep settings in memory if open, then re-save to disk.\
+> If this happens, try again with unity closed.
