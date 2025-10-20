@@ -25,10 +25,10 @@ public class Test : MonoBehaviour
 
 ## Drag-and-Drop Use Cases
 
-- Add or replace scenes in a collection
+- Add or replace scenes in a collection\
  ![](../image/main-collection-sceneDropArea.png)
     
-- Assign to UnityEvents (e.g., Button → OnClick)
+- Assign to UnityEvents (e.g., Button → OnClick)\
   ![](../image/event-click-sceneOpen.png)
     
 - Reference in scripts:
@@ -127,12 +127,13 @@ SceneManager.runtime.Untrack(scene);
 
 When a scene is open, but untracked, an indicator will be shown in the hierarchy, when in the editor. This may happen temporarily, and then resolve itself a moment later. This is, in most cases, by design. It is during prolonged cases when it may be a bug, or conflict with another scene manager.
 ![](../untracked-scenes.png)
+
 ## Scene Merging and Splitting
 
-Merge scenes via right-click in the scene manager window:
+Merge scenes via right-click in the scene manager window:\
 ![](../image/scene-context-menu.png)
 
-Split GameObjects into new scenes via the hierarchy context menu:
+Split GameObjects into new scenes via the hierarchy context menu:\
 ![](../image/scene-split-menu.png)
 
 Or via code:
