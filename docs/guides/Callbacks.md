@@ -24,6 +24,10 @@ Close callbacks:
 * `ICollectionCloseCoroutine` (coroutine)
 * `ICollectionCloseAwaitable` (awaitable)
 
+ISceneOpen is called after all scenes in the current loading queue have finished opening. It behaves much like ICollectionOpen, blocking the loading screen until the callback has completed. This makes it ideal for handling setup tasks when loading scenes individually, outside of a collection.
+
+ISceneClose is called before the queued scenes begin closing. Like ICollectionClose, it can block the loading screen, allowing you to perform cleanup or other logic before the scenes are unloaded.
+
 > Note that these callbacks may sometimes not be called when loading scenes outside of ASM. This is because they are invoked by ASM SceneOperation directly, and if SceneOperation is not opening the scenes, then no callbacks. Some exceptions exist.
 
 ## Order
