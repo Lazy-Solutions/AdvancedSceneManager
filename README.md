@@ -51,12 +51,12 @@ Only one [collection](https://github.com/Lazy-Solutions/AdvancedSceneManager/blo
 
 The [Scene Manager Window](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20manager%20window.md) can be accessed from 'File -> Scene Manager...' menu item. The [Scene Manager window](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20manager%20window.md) can be used to create and remove [collections](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) and assign any [scenes](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md) as children.
 
-![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/image/scene-manager-window.png)
+![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/image/old/scene-manager-window.png)
 
 [Collections](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) and [scenes](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md) can be used like this:
 
-![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/image/button-click-scene-open.png)
-![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/image/button-click-collection-open.png)
+![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/image/old/button-click-scene-open.png)
+![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/image/old/button-click-collection-open.png)
 
 or like this:
 
