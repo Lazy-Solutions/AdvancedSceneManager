@@ -16,6 +16,9 @@ Most of the 2.0 documentation still applies to 3.0. That said, there may be a fe
 > If you find something missing in the docs, or something that could be explaned. Please ask in an new Issue!
 > It would help us greatly.
 
+> The documentation is intended to always reflect the latest version of ASM. However, updates to the docs can sometimes take time, so some parts may lag behind.
+> Some parts may still be applicable to 2.7, others might not.
+
 [Quick start](guides/Quick%20start.md)\
 [Updating ASM](guides/Updating.md)\
 [Videos](<guides/Videos.md>)\
