@@ -73,3 +73,12 @@ if (SceneCollection.TryFind("Main Menu", out var menuCollection))
     Debug.Log("Found collection: " + menuCollection);
 }
 ```
+
+## Other
+
+A clarification of the confusing part of Title vs Name
+
+SceneCollection.title is the title that you set in the UI.
+
+SceneCollection.name is the ScriptableObject name, which would be \<profilnamn\>-title
+
