@@ -62,38 +62,6 @@ You can exclude scenes via the blocklists feature (configurable later in setting
 
 A **persistent scene** remains open when switching collections. Enable this in the scene popup. This is useful for UI overlays, managers, and persistent objects.
 
-## Preloading
-
-Preloading allows scenes to be loaded in the background and activated later. ASM supports **multiple preloaded scenes**, assuming Unity allows it.
-
-Example:
-
-```csharp
-public class PreloadTrigger : MonoBehaviour
-{
-    public Scene sceneToPreload;
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (!sceneToPreload.isOpen && !sceneToPreload.isPreloaded)
-            sceneToPreload.Preload();
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        if (sceneToPreload.isPreloaded)
-            SceneManager.runtime.CancelPreload();
-    }
-
-    public void FinishPreload()
-    {
-        if (sceneToPreload.isPreloaded)
-            SceneManager.runtime.FinishPreload();
-    }
-}
-```
-
-Use `SceneManager.preloadedScenes` to retrieve currently preloaded scenes.
 
 ## Scene Load Priority
 
