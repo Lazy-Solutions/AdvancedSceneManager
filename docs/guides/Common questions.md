@@ -59,6 +59,8 @@ To reset all ASM configuration, delete the following:
 * `Assets/Settings/AdvancedSceneManager` - Contains profiles, collections, and scenes
 * `ProjectSettings/AdvancedSceneManager.asset` - Contains project wide settings
 * `UserSettings/AdvancedSceneManager.asset` - Contains local settings to the cloned repo (assuming you have UserSettings in [.gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore))
+* - `UserSettings/AdvancedSceneManager.AssetsCache.asset` - Tracks ASM assets to make sure they are always available, and ensures fast lookup.
+* - `UserSettings/AdvancedSceneManager.DiscoverablesCache.asset` - The persistent cache for discoverables, to prevent slow scanning for attribute callbacks.
 
 > Note that unity might keep settings in memory if open, then re-save to disk.\
 > If this happens, try again with unity closed.
