@@ -22,7 +22,7 @@ Most of the 2.0 documentation still applies to 3.0. That said, there may be a fe
 
   For now, a domain reload will fix it. Either:
   - Restart unity
-  - Right click ASM window menu button (most upper right button), and choose Recompile.
+  - Right click ASM window menu button (most upper right button), and choose Reload domain.
 
 </details>
 
