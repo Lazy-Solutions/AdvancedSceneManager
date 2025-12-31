@@ -1,5 +1,0 @@
-title: "Advanced Scene Manager Docs"
-description: "Documentation for Advanced Scene Manager"
-remote_theme: sighingnow/jekyll-gitbook # Forces remote theme
-plugins:
-  - jekyll-remote-theme  # Allows external themes (GitHub Pages limitation)
