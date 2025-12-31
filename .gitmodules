@@ -1,0 +1,3 @@
+[submodule "docs"]
+	path = docs
+	url = https://github.com/Lazy-Solutions/com.lazy-solutions.asm-docs.git
