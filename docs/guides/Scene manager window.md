@@ -1,6 +1,6 @@
 # Scene manager window
 
-> **Note:** This guide was written for version 2.0. Most information is still accurate, but some features have been moved or are missing. An updated guide will be available soon.
+> **Note:** This guide was written for version 2.0. Most information is still accurate, but some features have been moved or are missing. An updated guide will be available for 3.2.
 
 The scene manager window is the front-end for ASM. It can be used to manage [collections](Scene%20collections.md), [scenes](Scenes.md), and behavior of ASM.
 
