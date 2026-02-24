@@ -10,7 +10,7 @@ In ASM you can still call scene.Activate() to force the active scene, but keep i
 However we recommend to use Callbacks, especially CollectionOpen. [Callbacks](Callbacks.md)
 This is the best way to ensure the active scene has changed.
 
-If you still wish to do start:
+If you still wish to do start (Example):
 ```c#
 IEnumerator Start()
 {
