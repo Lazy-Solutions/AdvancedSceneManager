@@ -1,5 +1,26 @@
 # Common questions
 
+## Why does Instantiated objects end up in Fallback scene
+
+With additive loading in ASM Active scene has likely not yet changed before Awake/OnEnable/Start() is call, especially early in the first frame. Same is true with Unity, afterall we use Unity.
+Normally you would manually call to set active scene before instantiating objects to direct them to the right scene.
+
+In ASM you can still call scene.Activate() to force the active scene, but keep in mind if you setup automatic active scene, it might change around, but you can call Activate and instantiate same frame to achieve the result.
+
+However we recommend to use Callbacks, especially CollectionOpen. [Callbacks](Callbacks.md)
+This is the best way to ensure the active scene has changed.
+
+If you still wish to do start:
+```c#
+IEnumerator Start()
+{
+  while(!this.ASMScene().isActive)
+    yield return null;
+
+  Instantiate...
+}
+```
+
 ## What is the fallback scene
 
 The fallback scene is a scene ASM uses to simplify the scene management, unity does not allow for all scenes to be unloaded, which means we need to have a check for this every time we unload a scene, we decided it would be simpler to just keep a special scene in memory since this ensures that the scene can be unloaded, and we do not have to worry about forgetting to have a check beforehand, as ASM used to have issues with this.
