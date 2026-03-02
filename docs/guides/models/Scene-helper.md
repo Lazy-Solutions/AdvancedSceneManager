@@ -1,0 +1,24 @@
+﻿<!---models/Scene-helper.md-->
+[← Back](readme.md) | [🏠 Home](../readme.md)
+## Models
+### Scene helper
+
+The scene helper is a [ScriptableObejct](https://docs.unity3d.com/Manual/class-ScriptableObject.html) that is provided to make it easier to open collections or scenes in [UnityEvent](https://docs.unity3d.com/Manual/UnityEvents.html). Most methods found on scene helper can also be found on scene and collections, but it might be easier to find the methods you want on scene helper, since there is less methods unintentionally listed when selecting one.
+
+![](../image/event-click-quit.png)
+
+Scene helper can be found on the scene manager window, next to the new collection button. Just drag the scene helper button into an object field (such as a UnityEvent slot) to create a reference to it.
+
+![](../image/main-button-sceneHelper.png)
+
+It can also be accessed in code:\
+`AdvancedSceneManager.Models.ASMSceneHelper.instance`
+
+### Related pages
+[📄 Profiles](profiles.md)\
+[📄 Scene helper](event-callbacks.md)\
+[📄 Scene collections](scene-collections.md)\
+[📄 Scenes](scenes.md)\
+[📄 Standalone scenes](standalone-scenes.md)
+
+[← Back](readme.md) | [🏠 Home](../readme.md)

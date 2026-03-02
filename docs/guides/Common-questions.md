@@ -1,0 +1,98 @@
+<!---./readme.md-->
+[← Back](readme.md) | [🏠 Home](../readme.md)
+## Common questions
+
+## What is the fallback scene
+
+The fallback scene is a scene ASM uses to simplify scene management. Unity does not allow all scenes to be unloaded at once, which means a check would otherwise be required every time a scene is unloaded. To avoid this complexity, ASM keeps a special fallback scene loaded at all times. This ensures scenes can always be safely unloaded without additional checks.
+
+> In versions prior to 3.2, the startup scene and the fallback scene were the same.
+> As of 3.2, overriding the startup scene does not affect the fallback scene, they are now completely separate.
+
+### Why does Instantiated objects end up in Fallback scene
+
+With additive loading in ASM Active scene has likely not yet changed before Awake/OnEnable/Start() is call, especially early in the first frame. Same is true with Unity, afterall we use Unity.
+Normally you would manually call to set active scene before instantiating objects to direct them to the right scene.
+
+In ASM you can still call scene.Activate() to force the active scene, but keep in mind if you setup automatic active scene, it might change around, but you can call Activate and instantiate same frame to achieve the result.
+
+However we recommend to use Callbacks, especially CollectionOpen. [Callbacks](Callbacks.md)
+This is the best way to ensure the active scene has changed.
+
+If you still wish to do start (Example):
+```c#
+IEnumerator Start()
+{
+  while(!this.ASMScene().isActive)
+    yield return null;
+
+  Instantiate...
+}
+```
+
+## Build settings list
+
+ASM will automatically manage the build list for you.
+
+**Manually modifying the build scenes list is still supported though.**\
+When adding a scene manually to the build scenes list, ASM will add it to [standalone](Standalone%20scenes.md). Only standalone scenes can be removed from the build scene list.
+
+Scenes cannot be reordered manually.
+
+## Event methods
+
+Some methods in ASM are prefixed with “\_” to avoid name conflicts. These duplicates exist to support [UnityEvent](https://docs.unity3d.com/Manual/UnityEvents.html), which does not allow methods with return values or multiple parameters. However, even some single-parameter methods remain unsupported due to the unclear nature of parameters in the UnityEvent UI.
+
+## Do I need to add anything to .gitignore?
+
+ASM follows unity conventions. You should always ignore `UserSettings/`, which stores ASM and other unity user preferences. Default [unity .gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore) already contains this.
+
+ASM does not allow redistribution, so public repos must ignore the ASM folder: `Packages/com.lazy-solutions.advanced-scene-manager/`.
+
+Each collaborator will need to install ASM manually in their local project.  
+We wish this weren’t necessary, but unfortunately, that’s how licensing works.
+
+> For public repos, one possible workaround is to use [**ASM trial**](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/main/trial). It is free but limited. Build has been intentionally disabled for example. Can be used for showcase purposes and similar.
+
+## What is the difference between patches and asset store updates?
+
+Asset store updates happens irreguarly, and has been properly tested to be stable, both by us and Unity. Validation process can take upwards of a few days.
+
+Patches on the other hand have quicker turn around, we can push instantly, but they might be less stable. We always test what we changed in a patch, and do our best to test ASM in general, but we do not guarantee that ASM is 100% stable in a patch. 
+
+**If you do get a bug though, just let us know, and we'll push a new patch fixing it as soon as we are able.**
+
+### Patches can be downloaded from:
+
+**Github:**
+[Github releases](https://github.com/Lazy-Solutions/AdvancedSceneManager/releases/latest) hosts .unitypackages for download. A notification will be sent on discord to the [#suggestions](https://discord.com/channels/519089118467325952/806112082873024562) channel on discord when a new github release is made.
+
+**Inside of the ASM window:**
+ASM will automatically check for updates and give a notification. This can be turned off in settings.
+
+The settings page can also be used to check for updates manually. Note that asset store updates cannot be downloaded from here, and must be downloaded via the unity package manager.
+
+![](image/popup-settings-updates.png)
+
+**Legacy (ASM 2.7) patches**
+Patches for legacy versions can be found in [./2.7 patches/](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/main/2.7%20patches).
+
+## I want to reset ASM entirely, how do I do that?
+To reset all ASM configuration, delete the following:
+* `Assets/Settings/AdvancedSceneManager` - Contains profiles, collections, and scenes
+* `ProjectSettings/AdvancedSceneManager.asset` - Contains project wide settings
+* `UserSettings/AdvancedSceneManager.asset` - Contains local settings to the cloned repo (assuming you have UserSettings in [.gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore))
+* `UserSettings/AdvancedSceneManager.AssetsCache.asset` - Tracks ASM assets to make sure they are always available, and ensures fast lookup.
+* `UserSettings/AdvancedSceneManager.DiscoverablesCache.asset` - The persistent cache for discoverables, to prevent slow scanning for attribute callbacks.
+
+> Note that unity might keep settings in memory if open, then re-save to disk.\
+> If this happens, try again with unity closed.
+
+### Related pages
+[📄 Quick start](quick-start.md)\
+[📄 Common questions](common-questions.md)\
+[📄 In-game toolbar](in-game-toolbar.md)\
+[📄 Updating](updating.md)\
+[📄 Videos](videos.md)
+
+[← Back](readme.md) | [🏠 Home](../readme.md)
