@@ -10,7 +10,8 @@ This repository contains the official documentation for
 - 📁 [Browse API Reference](api/readme.md)
 - 📁 [Browse legacy documentation (pre-3.2)](legacy/README.md)
 
-↪ [View this repository on GitHub](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/main/docs)
+↪ [View this repository on GitHub](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/main/docs)\
+↪ [View the upm package repository on GitHub](https://github.com/Lazy-Solutions/com.lazy-solutions.asm-docs)
   </br>  </br> 
 <details>
   <summary><b>Issues on first start</b></summary>
