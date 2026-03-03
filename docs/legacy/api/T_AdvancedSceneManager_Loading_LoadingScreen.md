@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # LoadingScreen Class
 
 
@@ -14,7 +17,7 @@ A class that contains callbacks for loading screens.
 public abstract class LoadingScreen : LoadingScreenBase
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  →  LoadingScreen</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  Component  â†’  Behaviour  â†’  MonoBehaviour  â†’  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  â†’  LoadingScreen</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">AdvancedSceneManager.Defaults.FadeLoadingScreen</a><br /><a href="T_AdvancedSceneManager_Defaults_TotalProgressBarLoadingScreen.md">AdvancedSceneManager.Defaults.TotalProgressBarLoadingScreen</a></td></tr>
 </table>
 
@@ -220,7 +223,7 @@ public abstract class LoadingScreen : LoadingScreenBase
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Loading_LoadingScreen_OnValidate.md">OnValidate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SendMessage(String)</td>
 <td><p>Calls the method named methodName on every MonoBehaviour in this game object.</p><br />(Inherited from Component)</td></tr>
@@ -326,4 +329,7 @@ LoadingScreenBase</a>)</td></tr>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

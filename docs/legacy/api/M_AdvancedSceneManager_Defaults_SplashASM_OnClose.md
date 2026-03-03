@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # OnClose Method
 
 
@@ -22,4 +25,7 @@ public override IEnumerator OnClose()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Defaults_SplashASM.md">SplashASM Class</a>  
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

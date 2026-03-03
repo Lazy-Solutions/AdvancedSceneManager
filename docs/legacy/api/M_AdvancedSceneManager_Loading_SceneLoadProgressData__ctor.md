@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneLoadProgressData Constructor
 
 
@@ -20,11 +23,14 @@ public SceneLoadProgressData(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Loading_SceneOperationKind.md">SceneOperationKind</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>  (Optional)</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>  (Optional)</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Loading_SceneOperationKind.md">SceneOperationKind</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>Â Â (Optional)</dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>Â Â (Optional)</dt><dd>Â </dd></dl>
 
 ## See Also
 
 
 #### Reference
 <a href="T_AdvancedSceneManager_Loading_SceneLoadProgressData.md">SceneLoadProgressData Structure</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

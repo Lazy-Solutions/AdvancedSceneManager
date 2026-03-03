@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CrossSceneDebugger Class
 
 
@@ -12,7 +15,7 @@
 public class CrossSceneDebugger : EditorWindow
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  ScriptableObject  →  EditorWindow  →  CrossSceneDebugger</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  ScriptableObject  â†’  EditorWindow  â†’  CrossSceneDebugger</td></tr>
 </table>
 
 
@@ -21,7 +24,7 @@ public class CrossSceneDebugger : EditorWindow
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneDebugger__ctor.md">CrossSceneDebugger</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -127,7 +130,7 @@ Obsolete.</strong></td></tr>
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneDebugger_Open.md">Open</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>RemoveNotification</td>
 <td><p>Stop showing notification message.</p><br />(Inherited from EditorWindow)</td></tr>
@@ -195,4 +198,7 @@ Obsolete.</strong></td></tr>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

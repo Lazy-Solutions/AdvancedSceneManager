@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AdvancedSceneManager.Models.Helpers Namespace
 
 
@@ -17,3 +20,6 @@
 <td><a href="T_AdvancedSceneManager_Models_Helpers_SettingsProxy.md">SettingsProxy</a></td>
 <td>Provides access to ASM settings.</td></tr>
 </table>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

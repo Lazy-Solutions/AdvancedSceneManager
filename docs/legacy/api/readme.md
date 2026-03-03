@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 - [AdvancedSceneManager Namespace](N_AdvancedSceneManager.md)
   - [Package Class](T_AdvancedSceneManager_Package.md)
     - [Package Constructor](M_AdvancedSceneManager_Package__ctor.md)
@@ -2255,3 +2258,6 @@
       - [references Field](F_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection_references.md)
       - [scene Field](F_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection_scene.md)
   - [SceneStatus Enumeration](T_AdvancedSceneManager_Utility_CrossSceneReferences_SceneStatus.md)
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

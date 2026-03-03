@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CanvasSortOrderUtility Class
 
 
@@ -14,7 +17,7 @@ An utility class to manage sort order on canvases.
 public static class CanvasSortOrderUtility
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  CanvasSortOrderUtility</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  CanvasSortOrderUtility</td></tr>
 </table>
 
 
@@ -23,10 +26,10 @@ public static class CanvasSortOrderUtility
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Utility_CanvasSortOrderUtility_GetBottomCanvas.md">GetBottomCanvas</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Utility_CanvasSortOrderUtility_GetTopCanvas.md">GetTopCanvas</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -45,11 +48,14 @@ public static class CanvasSortOrderUtility
 <td>Sets the sort order on this canvas to be on top of all other canvases managed by CanvasSortOrderUtility.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_CanvasSortOrderUtility_Remove.md">Remove</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

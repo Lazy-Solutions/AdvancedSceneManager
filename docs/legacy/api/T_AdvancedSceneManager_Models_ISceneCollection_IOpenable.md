@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ISceneCollection.IOpenable Interface
 
 
@@ -18,4 +21,7 @@ public interface IOpenable
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

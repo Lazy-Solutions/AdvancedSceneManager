@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # FindCrossSceneReferences Method
 
 
@@ -19,7 +22,7 @@ public static IEnumerable<CrossSceneReference> FindCrossSceneReferences(
 
 
 #### Parameters
-<dl><dt>  Scene[]</dt><dd> </dd></dl>
+<dl><dt>Â Â Scene[]</dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md">CrossSceneReference</a>)
@@ -29,4 +32,7 @@ public static IEnumerable<CrossSceneReference> FindCrossSceneReferences(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility.md">CrossSceneReferenceUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # isGlobal Property
 
 
@@ -31,4 +34,7 @@ Programmatically <a href="M_AdvancedSceneManager_Models_Scene_SetSceneLoader__1.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Core_SceneLoader.md">SceneLoader Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

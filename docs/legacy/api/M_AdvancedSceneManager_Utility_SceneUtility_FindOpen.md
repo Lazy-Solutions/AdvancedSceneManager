@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # FindOpen(Func&lt;Scene, Boolean&gt;) Method
 
 
@@ -19,7 +22,7 @@ public static IEnumerable<Scene> FindOpen(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.func-2" target="_blank" rel="noopener noreferrer">Func</a>(<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>, <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>)</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.func-2" target="_blank" rel="noopener noreferrer">Func</a>(<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>, <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>)</dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>)
@@ -30,4 +33,7 @@ public static IEnumerable<Scene> FindOpen(
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_SceneUtility_FindOpen.md">FindOpen Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

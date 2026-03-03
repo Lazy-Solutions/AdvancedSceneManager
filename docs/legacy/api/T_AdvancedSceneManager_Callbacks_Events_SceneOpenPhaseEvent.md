@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneOpenPhaseEvent Class
 
 
@@ -12,7 +15,7 @@
 public class SceneOpenPhaseEvent : SceneOperationEventBase
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  →  SceneOpenPhaseEvent</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  â†’  SceneOpenPhaseEvent</td></tr>
 </table>
 
 
@@ -21,7 +24,7 @@ public class SceneOpenPhaseEvent : SceneOperationEventBase
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOpenPhaseEvent__ctor.md">SceneOpenPhaseEvent</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -75,4 +78,7 @@ public class SceneOpenPhaseEvent : SceneOperationEventBase
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

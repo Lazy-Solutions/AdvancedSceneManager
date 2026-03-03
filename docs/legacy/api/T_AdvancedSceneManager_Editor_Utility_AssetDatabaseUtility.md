@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AssetDatabaseUtility Class
 
 
@@ -12,7 +15,7 @@
 public static class AssetDatabaseUtility
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  AssetDatabaseUtility</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  AssetDatabaseUtility</td></tr>
 </table>
 
 
@@ -21,29 +24,32 @@ public static class AssetDatabaseUtility
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_AssetDatabaseUtility_ConvertToUnixPath.md">ConvertToUnixPath</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_AssetDatabaseUtility_CreateFolder.md">CreateFolder(String)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_AssetDatabaseUtility_CreateFolder_1.md">CreateFolder(String, String)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_AssetDatabaseUtility_FindAssetPaths__1.md">FindAssetPaths(T)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_AssetDatabaseUtility_FindAssets__1.md">FindAssets(T)()</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_AssetDatabaseUtility_FindAssets__1_1.md">FindAssets(T)(String[])</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_AssetDatabaseUtility_MakeRelative.md">MakeRelative</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

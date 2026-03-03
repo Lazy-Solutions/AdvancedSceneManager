@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # OpenWithUserData Method
 
 
@@ -17,11 +20,14 @@ public void OpenWithUserData(
 
 
 #### Parameters
-<dl><dt>  ScriptableObject</dt><dd> </dd></dl>
+<dl><dt>Â Â ScriptableObject</dt><dd>Â </dd></dl>
 
 ## See Also
 
 
 #### Reference
 <a href="T_AdvancedSceneManager_ExampleScripts_CollectionOpen.md">CollectionOpen Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

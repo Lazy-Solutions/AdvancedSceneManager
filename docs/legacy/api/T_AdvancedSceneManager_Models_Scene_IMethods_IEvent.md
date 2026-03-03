@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Scene.IMethods.IEvent Interface
 
 
@@ -63,4 +66,7 @@ Specifies methods to be used in UnityEvent, using the scene itself.
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

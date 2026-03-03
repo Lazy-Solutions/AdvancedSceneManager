@@ -1,3 +1,5 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 # Quick start
 
 <br/>
@@ -90,3 +92,5 @@ Start and awake are still Unity callbacks, so they still function as normal. But
 **Done**
 
 And with that, we're done! Enjoy working on your game instead of getting bogged down in scene management!
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

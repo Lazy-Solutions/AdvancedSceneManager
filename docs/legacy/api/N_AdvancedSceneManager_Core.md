@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AdvancedSceneManager.Core Namespace
 
 
@@ -18,7 +21,7 @@
 <td>Manages runtime functionality for Advanced Scene Manager such as open scenes and collection.</td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Core_RuntimeSceneLoader.md">RuntimeSceneLoader</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Core_SceneLoadArgs.md">SceneLoadArgs</a></td>
 <td>Specifies arguments for <a href="M_AdvancedSceneManager_Core_SceneLoader_LoadScene.md">LoadScene(Scene, SceneLoadArgs)</a>.</td></tr>
@@ -43,12 +46,15 @@
 <table>
 <tr>
 <td><a href="T_AdvancedSceneManager_Core_SceneLoader_Indicator.md">SceneLoader.Indicator</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Enumerations
 <table>
 <tr>
 <td><a href="T_AdvancedSceneManager_Core_SceneOperationFlags.md">SceneOperationFlags</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

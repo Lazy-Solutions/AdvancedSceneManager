@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ResolveStatus Enumeration
 
 
@@ -21,43 +24,46 @@ public enum ResolveStatus
 <tr>
 <td>Unresolved</td>
 <td>0</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>Unknown</td>
 <td>1</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>Succeeded</td>
 <td>2</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SceneIsNotOpen</td>
 <td>3</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>InvalidObjectPath</td>
 <td>4</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>ComponentNotFound</td>
 <td>5</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>InvalidField</td>
 <td>6</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>TypeMismatch</td>
 <td>7</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>IndexOutOfRange</td>
 <td>8</td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetSceneStatus Method
 
 
@@ -17,7 +20,7 @@ public static SceneStatus GetSceneStatus(
 
 
 #### Parameters
-<dl><dt>  Scene</dt><dd> </dd></dl>
+<dl><dt>Â Â Scene</dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_SceneStatus.md">SceneStatus</a>
@@ -27,4 +30,7 @@ public static SceneStatus GetSceneStatus(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility.md">CrossSceneReferenceUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

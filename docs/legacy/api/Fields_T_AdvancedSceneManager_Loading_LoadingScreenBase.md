@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # LoadingScreenBase Fields
 
 
@@ -17,4 +20,7 @@ This will automatically register canvas with <a href="T_AdvancedSceneManager_Uti
 
 #### Reference
 <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase Class</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

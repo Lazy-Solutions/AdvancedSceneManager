@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMScriptableSingleton&lt;T&gt; Class
 
 
@@ -17,7 +20,7 @@ where T : ASMScriptableSingleton<T>
 
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  ScriptableObject  →  ScriptableSingleton(T)  →  ASMScriptableSingleton(T)</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  ScriptableObject  â†’  ScriptableSingleton(T)  â†’  ASMScriptableSingleton(T)</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Models_ASMSettings.md">AdvancedSceneManager.Models.ASMSettings</a><br /><a href="T_AdvancedSceneManager_Models_ASMUserSettings.md">AdvancedSceneManager.Models.ASMUserSettings</a></td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged" target="_blank" rel="noopener noreferrer">INotifyPropertyChanged</a></td></tr>
 </table>
@@ -31,7 +34,7 @@ where T : ASMScriptableSingleton<T>
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_ASMScriptableSingleton_1__ctor.md">ASMScriptableSingleton(T)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -47,7 +50,7 @@ where T : ASMScriptableSingleton<T>
 <td><p>The name of the object.</p><br />(Inherited from Object)</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Utility_ASMScriptableSingleton_1_serializedObject.md">serializedObject</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -66,10 +69,10 @@ where T : ASMScriptableSingleton<T>
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_ASMScriptableSingleton_1_OnPropertyChanged.md">OnPropertyChanged</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_ASMScriptableSingleton_1_OnValidate.md">OnValidate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_ASMScriptableSingleton_1_Save.md">Save</a></td>
 <td>Saves the singleton to disk after a delay.</td></tr>
@@ -88,7 +91,7 @@ where T : ASMScriptableSingleton<T>
 <table>
 <tr>
 <td><a href="E_AdvancedSceneManager_Utility_ASMScriptableSingleton_1_PropertyChanged.md">PropertyChanged</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -102,4 +105,7 @@ where T : ASMScriptableSingleton<T>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

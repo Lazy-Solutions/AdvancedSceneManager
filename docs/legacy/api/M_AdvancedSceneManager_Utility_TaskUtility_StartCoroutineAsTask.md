@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # StartCoroutineAsTask Method
 
 
@@ -17,7 +20,7 @@ public static Task StartCoroutineAsTask(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" target="_blank" rel="noopener noreferrer">Task</a>
@@ -34,4 +37,7 @@ Extension Methods (C# Programming Guide)</a>.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_TaskUtility.md">TaskUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

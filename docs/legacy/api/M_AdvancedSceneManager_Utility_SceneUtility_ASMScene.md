@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMScene(SceneAsset) Method
 
 
@@ -17,7 +20,7 @@ public static Scene ASMScene(
 
 
 #### Parameters
-<dl><dt>  SceneAsset</dt><dd> </dd></dl>
+<dl><dt>Â Â SceneAsset</dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>
@@ -35,4 +38,7 @@ Extension Methods (C# Programming Guide)</a>.
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_SceneUtility_ASMScene.md">ASMScene Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

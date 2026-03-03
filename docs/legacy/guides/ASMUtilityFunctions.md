@@ -1,3 +1,6 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 ## ASM utility functions
 
 ASM utility functions provides quick, easily accessible utility functions within the Advanced Scene Manager (ASM). These functions are designed to be flexible and extendable, allowing users to create custom utilities that integrates with ASM.
@@ -34,3 +37,6 @@ public class CustomUtilityFunction : ASMUtilityFunction
     }
 }
 ```
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

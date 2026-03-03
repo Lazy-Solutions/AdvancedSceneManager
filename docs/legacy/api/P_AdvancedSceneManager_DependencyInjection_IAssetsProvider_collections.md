@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # collections Property
 
 
@@ -22,4 +25,7 @@ IEnumerable<SceneCollection> collections { get; }
 
 #### Reference
 <a href="T_AdvancedSceneManager_DependencyInjection_IAssetsProvider.md">IAssetsProvider Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

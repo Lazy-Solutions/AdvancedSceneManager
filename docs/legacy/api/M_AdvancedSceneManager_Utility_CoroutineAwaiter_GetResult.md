@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetResult Method
 
 
@@ -19,4 +22,7 @@ public void GetResult()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CoroutineAwaiter.md">CoroutineAwaiter Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

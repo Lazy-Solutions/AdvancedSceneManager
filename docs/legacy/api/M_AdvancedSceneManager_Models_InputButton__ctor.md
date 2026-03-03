@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # InputButton Constructor
 
 
@@ -20,4 +23,7 @@ public InputButton()
 #### Reference
 <a href="T_AdvancedSceneManager_Models_InputButton.md">InputButton Class</a>  
 <a href="Overload_AdvancedSceneManager_Models_InputButton__ctor.md">InputButton Overload</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # RemoveScript&lt;T&gt; Method
 
 
@@ -20,7 +23,7 @@ where T : Component
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>Â </dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>Â Â (Optional)</dt><dd>Â </dd></dl>
 
 #### Type Parameters
 <dl><dt /><dd /></dl>
@@ -37,4 +40,7 @@ Extension Methods (C# Programming Guide)</a>.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SetCompleted(Scene, Func&lt;IEnumerator&gt;) Method
 
 
@@ -20,7 +23,7 @@ public void SetCompleted(
 
 
 #### Parameters
-<dl><dt>  Scene</dt><dd>The opened scene.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.func-1" target="_blank" rel="noopener noreferrer">Func</a>(<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>)</dt><dd>Specifies a callback that will be called when it is time to activate preloaded scene.</dd></dl>
+<dl><dt>Â Â Scene</dt><dd>The opened scene.</dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.func-1" target="_blank" rel="noopener noreferrer">Func</a>(<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>)</dt><dd>Specifies a callback that will be called when it is time to activate preloaded scene.</dd></dl>
 
 ## See Also
 
@@ -28,4 +31,7 @@ public void SetCompleted(
 #### Reference
 <a href="T_AdvancedSceneManager_Core_SceneLoadArgs.md">SceneLoadArgs Class</a>  
 <a href="Overload_AdvancedSceneManager_Core_SceneLoadArgs_SetCompleted.md">SetCompleted Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

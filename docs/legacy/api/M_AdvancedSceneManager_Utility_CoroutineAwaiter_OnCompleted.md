@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # OnCompleted Method
 
 
@@ -17,7 +20,7 @@ public void OnCompleted(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action" target="_blank" rel="noopener noreferrer">Action</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.action" target="_blank" rel="noopener noreferrer">Action</a></dt><dd>Â </dd></dl>
 
 #### Implements
 <a href="https://learn.microsoft.com/dotnet/api/system.runtime.compilerservices.inotifycompletion.oncompleted" target="_blank" rel="noopener noreferrer">INotifyCompletion.OnCompleted(Action)</a>  
@@ -28,4 +31,7 @@ public void OnCompleted(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CoroutineAwaiter.md">CoroutineAwaiter Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

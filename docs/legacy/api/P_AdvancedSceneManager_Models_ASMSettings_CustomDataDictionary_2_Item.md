@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Item Property
 
 
@@ -17,7 +20,7 @@ public TValue this[
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_ASMSettings_CustomDataDictionary_2.md">TKey</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_ASMSettings_CustomDataDictionary_2.md">TKey</a></dt><dd>Â </dd></dl>
 
 #### Property Value
 <a href="T_AdvancedSceneManager_Models_ASMSettings_CustomDataDictionary_2.md">TValue</a>
@@ -27,4 +30,7 @@ public TValue this[
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMSettings_CustomDataDictionary_2.md">ASMSettings.CustomDataDictionary(TKey, TValue) Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

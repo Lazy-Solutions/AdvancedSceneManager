@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # OnCollectionClose Method
 
 
@@ -17,7 +20,7 @@ Awaitable OnCollectionClose(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 Awaitable
@@ -27,4 +30,7 @@ Awaitable
 
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_ICollectionCloseAwaitable.md">ICollectionCloseAwaitable Interface</a>  
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetOrAddPersistent Method
 
 
@@ -19,7 +22,7 @@ public static string GetOrAddPersistent(
 
 
 #### Parameters
-<dl><dt>  GameObject</dt><dd> </dd></dl>
+<dl><dt>Â Â GameObject</dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>
@@ -32,4 +35,7 @@ Can only add in editor, returns null otherwise.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_GuidReferenceUtility.md">GuidReferenceUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

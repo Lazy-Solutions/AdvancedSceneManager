@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AssetsProxy Class
 
 
@@ -15,7 +18,7 @@ public sealed class AssetsProxy : IAssetsProvider,
 	DependencyInjectionUtility.IInjectable
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  AssetsProxy</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  AssetsProxy</td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable.md">DependencyInjectionUtility.IInjectable</a>, <a href="T_AdvancedSceneManager_DependencyInjection_IAssetsProvider.md">IAssetsProvider</a></td></tr>
 </table>
 
@@ -25,7 +28,7 @@ public sealed class AssetsProxy : IAssetsProvider,
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Helpers_AssetsProxy__ctor.md">AssetsProxy</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -70,4 +73,7 @@ public sealed class AssetsProxy : IAssetsProvider,
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # LoadingScreenUtility Methods
 
 
@@ -34,13 +37,13 @@
 <td>Gets if this scene is a loading screen.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_OpenLoadingScreen.md">OpenLoadingScreen(SceneOperation, Action(LoadingScreen))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_OpenLoadingScreen_1.md">OpenLoadingScreen(Scene, SceneOperation, Action(LoadingScreen))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_OpenLoadingScreen__1.md">OpenLoadingScreen(T)(SceneOperation, Action(T))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_OpenLoadingScreen__1_1.md">OpenLoadingScreen(T)(Scene, SceneOperation, Action(T))</a></td>
 <td>Shows a loading screen.</td></tr>
@@ -52,7 +55,7 @@
 <td>Registers a <a href="T_AdvancedSceneManager_Loading_ILoadProgressListener.md">ILoadProgressListener</a> that will receive callbacks when progress is reported from ASM.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_ReportProgress.md">ReportProgress(ILoadProgressData)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_ReportProgress_1.md">ReportProgress(AsyncOperation, SceneOperationKind, SceneOperation, Scene)</a></td>
 <td>Returns a coroutine that returns when isDone becomes true. <em>onProgress</em> will be called every frame with progress.</td></tr>
@@ -66,4 +69,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

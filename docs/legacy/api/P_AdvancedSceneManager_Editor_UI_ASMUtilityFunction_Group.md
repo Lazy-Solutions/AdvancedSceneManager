@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Group Property
 
 
@@ -22,4 +25,7 @@ public abstract string Group { get; }
 
 #### Reference
 <a href="T_AdvancedSceneManager_Editor_UI_ASMUtilityFunction.md">ASMUtilityFunction Class</a>  
-<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

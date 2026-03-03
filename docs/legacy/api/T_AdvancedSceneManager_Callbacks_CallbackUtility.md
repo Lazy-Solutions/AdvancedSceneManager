@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CallbackUtility Class
 
 
@@ -14,7 +17,7 @@ An utility class that invokes callbacks (defined in interfaces based on <a href=
 public static class CallbackUtility
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  CallbackUtility</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  CallbackUtility</td></tr>
 </table>
 
 
@@ -23,23 +26,26 @@ public static class CallbackUtility
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_DoCollectionCloseCallbacks.md">DoCollectionCloseCallbacks</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_DoCollectionOpenCallbacks.md">DoCollectionOpenCallbacks</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_DoSceneCloseCallbacks.md">DoSceneCloseCallbacks</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_DoSceneOpenCallbacks.md">DoSceneOpenCallbacks</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_Invoke__1.md">Invoke(T)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

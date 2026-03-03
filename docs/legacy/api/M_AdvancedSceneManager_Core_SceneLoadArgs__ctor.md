@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneLoadArgs Constructor
 
 
@@ -19,4 +22,7 @@ public SceneLoadArgs()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Core_SceneLoadArgs.md">SceneLoadArgs Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

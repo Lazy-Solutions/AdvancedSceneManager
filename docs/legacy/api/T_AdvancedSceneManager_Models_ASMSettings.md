@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMSettings Class
 
 
@@ -15,7 +18,7 @@ public class ASMSettings : ASMScriptableSingleton<ASMSettings>,
 	INotifyPropertyChanged, IProjectSettings, DependencyInjectionUtility.IInjectable
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  ScriptableObject  →  ScriptableSingleton(ASMSettings)  →  <a href="T_AdvancedSceneManager_Utility_ASMScriptableSingleton_1.md">ASMScriptableSingleton</a>(ASMSettings)  →  ASMSettings</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  ScriptableObject  â†’  ScriptableSingleton(ASMSettings)  â†’  <a href="T_AdvancedSceneManager_Utility_ASMScriptableSingleton_1.md">ASMScriptableSingleton</a>(ASMSettings)  â†’  ASMSettings</td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable.md">DependencyInjectionUtility.IInjectable</a>, <a href="T_AdvancedSceneManager_DependencyInjection_IProjectSettings.md">IProjectSettings</a>, <a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged" target="_blank" rel="noopener noreferrer">INotifyPropertyChanged</a></td></tr>
 </table>
 
@@ -28,7 +31,7 @@ Only available in editor.
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMSettings__ctor.md">ASMSettings</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -47,7 +50,7 @@ Only available in editor.
 <td>Specifies whatever asm will allow locking scenes.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_ASMSettings_allowUpdateCheck.md">allowUpdateCheck</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_ASMSettings_assetPath.md">assetPath</a></td>
 <td>Specifies the path where profiles and imported scenes should be generated to.</td></tr>
@@ -138,7 +141,7 @@ Only available in editor.
 <td>Saves the singleton to disk.<br />(Inherited from <a href="T_AdvancedSceneManager_Utility_ASMScriptableSingleton_1.md">ASMScriptableSingleton(T)</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMSettings_SetBuildProfile.md">SetBuildProfile</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SetDirty</td>
 <td><br />(Inherited from ScriptableObject)<br /><strong>Obsolete.</strong></td></tr>
@@ -158,7 +161,7 @@ Only available in editor.
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_Models_ASMSettings_m_sceneImportOption.md">m_sceneImportOption</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -172,4 +175,7 @@ Only available in editor.
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

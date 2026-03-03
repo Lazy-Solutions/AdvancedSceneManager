@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # InputBinding Class
 
 
@@ -15,7 +18,7 @@ Represents a input binding for InputSystem. Available even when InputSystem is u
 public class InputBinding
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  InputBinding</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  InputBinding</td></tr>
 </table>
 
 
@@ -24,7 +27,7 @@ public class InputBinding
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_InputBinding__ctor.md">InputBinding</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -37,7 +40,7 @@ public class InputBinding
 <td>Specifies the interaction type.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_InputBinding_isValid.md">isValid</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_InputBinding_openCollectionAsAdditive.md">openCollectionAsAdditive</a></td>
 <td>Specifies whatever collection should be opened as a collection.</td></tr>
@@ -56,10 +59,10 @@ public class InputBinding
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_InputBinding_SetButtons_1.md">SetButtons(InputButton[])</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_InputBinding_SetButtons.md">SetButtons(InputBindingInteractionType, InputButton[])</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">ToString</a></td>
 <td>Returns a string that represents the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
@@ -69,4 +72,7 @@ public class InputBinding
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

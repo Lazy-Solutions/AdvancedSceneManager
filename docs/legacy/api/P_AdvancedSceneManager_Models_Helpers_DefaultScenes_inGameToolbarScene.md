@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # inGameToolbarScene Property
 
 
@@ -27,4 +30,7 @@ May be null if scene has been removed, or is not imported.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Helpers_DefaultScenes.md">DefaultScenes Class</a>  
-<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

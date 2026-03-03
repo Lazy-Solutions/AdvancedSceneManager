@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IAssetsProvider Interface
 
 
@@ -23,30 +26,33 @@ public interface IAssetsProvider : DependencyInjectionUtility.IInjectable
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_collections.md">collections</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_defaults.md">defaults</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_profiles.md">profiles</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_scenes.md">scenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_DependencyInjection_IAssetsProvider_templates.md">templates</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_DependencyInjection_IAssetsProvider_Enumerate__1.md">Enumerate(T)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMSettings.CustomDataDictionary&lt;TKey, TValue&gt; Class
 
 
@@ -15,7 +18,7 @@ public class CustomDataDictionary<TKey, TValue> : IEnumerable<KeyValuePair<TKey,
 
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  ASMSettings.CustomDataDictionary(TKey, TValue)</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  ASMSettings.CustomDataDictionary(TKey, TValue)</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Models_ASMSettings_CustomData.md">AdvancedSceneManager.Models.ASMSettings.CustomData</a><br /><a href="T_AdvancedSceneManager_Models_ASMSettings_SceneData.md">AdvancedSceneManager.Models.ASMSettings.SceneData</a></td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2" target="_blank" rel="noopener noreferrer">KeyValuePair</a>(TKey, TValue)), <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable" target="_blank" rel="noopener noreferrer">IEnumerable</a></td></tr>
 </table>
@@ -29,14 +32,14 @@ public class CustomDataDictionary<TKey, TValue> : IEnumerable<KeyValuePair<TKey,
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMSettings_CustomDataDictionary_2__ctor.md">ASMSettings.CustomDataDictionary(TKey, TValue)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_ASMSettings_CustomDataDictionary_2_Item.md">Item</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -58,7 +61,7 @@ public class CustomDataDictionary<TKey, TValue> : IEnumerable<KeyValuePair<TKey,
 <td>Gets custom data.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMSettings_CustomDataDictionary_2_GetEnumerator.md">GetEnumerator</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td>
 <td>Serves as the default hash function.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
@@ -77,4 +80,7 @@ public class CustomDataDictionary<TKey, TValue> : IEnumerable<KeyValuePair<TKey,
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

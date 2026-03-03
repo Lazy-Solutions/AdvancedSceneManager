@@ -1,3 +1,5 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 # Scenes
 
 Scenes in ASM are represented as [ScriptableObjects](https://docs.unity3d.com/Manual/class-ScriptableObject.html), providing a convenient drag-and-drop interface for scene references.
@@ -109,3 +111,5 @@ Or via code:
 SceneUtility.MergeScenes(targetScene, scenesToMerge); // Editor only
 SceneUtility.MoveToNewScene(gameObject);              // Editor only
 ```
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

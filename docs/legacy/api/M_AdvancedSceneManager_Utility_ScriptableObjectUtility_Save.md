@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Save Method
 
 
@@ -19,7 +22,7 @@ public static void Save(
 
 
 #### Parameters
-<dl><dt>  ScriptableObject</dt><dd> </dd></dl>
+<dl><dt>Â Â ScriptableObject</dt><dd>Â </dd></dl>
 
 #### Usage Note
 In Visual Basic and C#, you can call this method as an instance method on any object of type ScriptableObject. When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">
@@ -36,4 +39,7 @@ Safe to call from outside editor, but has no effect.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_ScriptableObjectUtility.md">ScriptableObjectUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

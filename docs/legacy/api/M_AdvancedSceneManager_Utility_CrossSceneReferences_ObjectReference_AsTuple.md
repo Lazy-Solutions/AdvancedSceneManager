@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AsTuple Method
 
 
@@ -22,4 +25,7 @@ public (string scene, string objectID, string componentType, int componentTypeIn
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference Class</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

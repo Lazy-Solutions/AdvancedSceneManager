@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # WaitFor(GlobalCoroutine) Method
 
 
@@ -19,7 +22,7 @@ public void WaitFor(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a></dt><dd>Â </dd></dl>
 
 ## See Also
 
@@ -27,4 +30,7 @@ public void WaitFor(
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase Class</a>  
 <a href="Overload_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor.md">WaitFor Overload</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

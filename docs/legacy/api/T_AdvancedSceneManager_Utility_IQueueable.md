@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IQueueable Interface
 
 
@@ -36,4 +39,7 @@ See also <a href="T_AdvancedSceneManager_Utility_QueueUtility_1.md">QueueUtility
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

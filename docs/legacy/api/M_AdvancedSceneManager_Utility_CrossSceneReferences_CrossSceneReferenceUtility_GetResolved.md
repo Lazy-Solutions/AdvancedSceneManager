@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetResolved(CrossSceneReference) Method
 
 
@@ -19,7 +22,7 @@ public static ResolvedCrossReference GetResolved(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md">CrossSceneReference</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md">CrossSceneReference</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference.md">ResolvedCrossReference</a>
@@ -30,4 +33,7 @@ public static ResolvedCrossReference GetResolved(
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility.md">CrossSceneReferenceUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility_GetResolved.md">GetResolved Overload</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

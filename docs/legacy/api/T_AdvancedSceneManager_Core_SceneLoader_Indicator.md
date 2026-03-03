@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneLoader.Indicator Structure
 
 
@@ -12,7 +15,7 @@
 public struct Indicator
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="https://learn.microsoft.com/dotnet/api/system.valuetype" target="_blank" rel="noopener noreferrer">ValueType</a>  →  SceneLoader.Indicator</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="https://learn.microsoft.com/dotnet/api/system.valuetype" target="_blank" rel="noopener noreferrer">ValueType</a>  â†’  SceneLoader.Indicator</td></tr>
 </table>
 
 
@@ -21,19 +24,19 @@ public struct Indicator
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_color.md">color</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_text.md">text</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_tooltip.md">tooltip</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_useFontAwesome.md">useFontAwesome</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Core_SceneLoader_Indicator_useFontAwesomeBrands.md">useFontAwesomeBrands</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -56,4 +59,7 @@ public struct Indicator
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

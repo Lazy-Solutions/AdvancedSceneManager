@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Runtime Class
 
 
@@ -15,7 +18,7 @@ public sealed class Runtime : ISceneManager,
 	DependencyInjectionUtility.IInjectable, Scene.IMethods_Target, SceneCollection.IMethods_Target
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Runtime</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Runtime</td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable.md">DependencyInjectionUtility.IInjectable</a>, <a href="T_AdvancedSceneManager_DependencyInjection_ISceneManager.md">ISceneManager</a>, <a href="T_AdvancedSceneManager_Models_Scene_IMethods_Target.md">Scene.IMethods_Target</a>, <a href="T_AdvancedSceneManager_Models_SceneCollection_IMethods_Target.md">SceneCollection.IMethods_Target</a></td></tr>
 </table>
 
@@ -25,7 +28,7 @@ public sealed class Runtime : ISceneManager,
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime__ctor.md">Runtime</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -87,7 +90,7 @@ public sealed class Runtime : ISceneManager,
 <td>Closes the scenes.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Close_1.md">Close(Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Close_2.md">Close(Scene[])</a></td>
 <td>Closes the scenes.</td></tr>
@@ -96,7 +99,7 @@ public sealed class Runtime : ISceneManager,
 <td>Closes <em>collection</em>.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Close_5.md">Close(IEnumerable(Scene), Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Close.md">Close(SceneOperation, SceneCollection)</a></td>
 <td>Closes <em>collection</em>.</td></tr>
@@ -111,7 +114,7 @@ public sealed class Runtime : ISceneManager,
 <td>Opens a scene with a loading screen.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_CloseWithLoadingScreen.md">CloseWithLoadingScreen(Scene, Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_DiscardPreload.md">DiscardPreload</a></td>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_DiscardPreload.md">DiscardPreload()</a> is obsolete, please use <a href="M_AdvancedSceneManager_Core_Runtime_CancelPreload.md">CancelPreload()</a> instead.<br /><strong>Obsolete.</strong></td></tr>
@@ -162,13 +165,13 @@ public sealed class Runtime : ISceneManager,
 <td>Opens the scenes.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Open.md">Open(Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Open_1.md">Open(Scene[])</a></td>
 <td>Opens the scenes.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Open_2.md">Open(SceneCollection, Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_OpenAdditive.md">OpenAdditive(SceneCollection, Boolean)</a></td>
 <td>Opens the collection without closing existing scenes.</td></tr>
@@ -177,13 +180,13 @@ public sealed class Runtime : ISceneManager,
 <td>Opens the collection without closing existing scenes.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_OpenAndActivate.md">OpenAndActivate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_OpenWithLoadingScreen_1.md">OpenWithLoadingScreen(IEnumerable(Scene), Scene)</a></td>
 <td>Opens a scene with a loading screen.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_OpenWithLoadingScreen.md">OpenWithLoadingScreen(Scene, Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Preload_1.md">Preload(Scene[])</a></td>
 <td>Preloads the specified scenes, to be displayed at a later time. See also: [!:FinishPreload(Scene)], [!:DiscardPreload(Scene)].</td></tr>
@@ -192,16 +195,16 @@ public sealed class Runtime : ISceneManager,
 <td>Preloads the specified scenes, to be displayed at a later time. See also: [!:FinishPreload(Scene)], [!:DiscardPreload(Scene)].</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Preload_4.md">Preload(IEnumerable(Scene), Action(Scene))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Preload.md">Preload(Scene, Action)</a></td>
 <td>Preloads the specified scene, to be displayed at a later time. See also: [!:FinishPreload(Scene)], [!:DiscardPreload(Scene)].</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Preload_2.md">Preload(SceneCollection, Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_PreloadAdditive.md">PreloadAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_RegisterCallback__1.md">RegisterCallback(TEventType)</a></td>
 <td>Registers an event callback for when an event occurs in a operation.</td></tr>
@@ -210,10 +213,10 @@ public sealed class Runtime : ISceneManager,
 <td>Removes a scene loader.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Reopen_2.md">Reopen(IEnumerable(Scene))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Reopen.md">Reopen(Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_Reopen_1.md">Reopen(SceneCollection, Boolean)</a></td>
 <td>Reopens the collection.</td></tr>
@@ -225,7 +228,7 @@ public sealed class Runtime : ISceneManager,
 <td>Toggles the open state of this scene.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_Runtime_ToggleOpen_1.md">ToggleOpen(SceneCollection, Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">ToString</a></td>
 <td>Returns a string that represents the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
@@ -294,4 +297,7 @@ public sealed class Runtime : ISceneManager,
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

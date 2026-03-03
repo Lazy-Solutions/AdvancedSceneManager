@@ -1,3 +1,5 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 # Scene manager window
 
 > **Note:** This guide was written for version 2.0. Most information is still accurate, but some features have been moved or are missing. An updated guide will be available for 3.2.
@@ -177,3 +179,5 @@ The editor page contains:
 	* **Build scene list updated**, displays a log message when build scene list is updated.
 
 > The logging messages are only used to debug, 99% of users do not need to enable these, unless they want to.
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

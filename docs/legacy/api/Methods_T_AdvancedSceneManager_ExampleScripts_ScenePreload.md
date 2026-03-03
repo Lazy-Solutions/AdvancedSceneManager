@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ScenePreload Methods
 
 
@@ -25,10 +28,10 @@
 <td><p>Cancels all Invoke calls with name methodName on this behaviour.</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_CancelPreloadCoroutine.md">CancelPreloadCoroutine</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_CancelPreloadStatically.md">CancelPreloadStatically</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>CompareTag(String)</td>
 <td><p>Checks the GameObject's tag against the defined tag.</p><br />(Inherited from Component)</td></tr>
@@ -40,10 +43,10 @@
 <td><br />(Inherited from Object)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_FinishPreloadCoroutine.md">FinishPreloadCoroutine</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_FinishPreloadStatically.md">FinishPreloadStatically</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>GetComponent(String)</td>
 <td><p>The string-based version of this method.</p><br />(Inherited from Component)</td></tr>
@@ -184,10 +187,10 @@
 <td><br />(Inherited from MonoBehaviour)<br /><strong>Obsolete.</strong></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_StartPreloadCoroutine.md">StartPreloadCoroutine</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_StartPreloadStatically.md">StartPreloadStatically</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>StopAllCoroutines</td>
 <td><p>Stops all coroutines running on this behaviour.</p><br />(Inherited from MonoBehaviour)</td></tr>
@@ -244,4 +247,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_ExampleScripts_ScenePreload.md">ScenePreload Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

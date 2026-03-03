@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AddEmptyScene&lt;T&gt; Method
 
 
@@ -19,7 +22,7 @@ where T : ISceneCollection, ISceneCollection.IEditable
 
 
 #### Parameters
-<dl><dt>  T</dt><dd> </dd></dl>
+<dl><dt>Â Â T</dt><dd>Â </dd></dl>
 
 #### Type Parameters
 <dl><dt /><dd /></dl>
@@ -36,4 +39,7 @@ Extension Methods (C# Programming Guide)</a>.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMModelExtensions.md">ASMModelExtensions Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

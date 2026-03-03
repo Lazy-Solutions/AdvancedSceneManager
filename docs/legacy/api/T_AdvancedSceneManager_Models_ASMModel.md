@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMModel Class
 
 
@@ -15,7 +18,7 @@ public abstract class ASMModel : ScriptableObject,
 	INotifyPropertyChanged
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  ScriptableObject  →  ASMModel</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  ScriptableObject  â†’  ASMModel</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Models_Profile.md">AdvancedSceneManager.Models.Profile</a><br /><a href="T_AdvancedSceneManager_Models_Scene.md">AdvancedSceneManager.Models.Scene</a><br /><a href="T_AdvancedSceneManager_Models_SceneCollection.md">AdvancedSceneManager.Models.SceneCollection</a></td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged" target="_blank" rel="noopener noreferrer">INotifyPropertyChanged</a></td></tr>
 </table>
@@ -57,10 +60,10 @@ public abstract class ASMModel : ScriptableObject,
 <td>Gets if <em>q</em> matches <a href="P_AdvancedSceneManager_Models_ASMModel_name.md">name</a>.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMModel_OnPropertyChanged.md">OnPropertyChanged</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMModel_OnValidate.md">OnValidate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMModel_Save.md">Save</a></td>
 <td>Saves the singleton to disk after a delay.</td></tr>
@@ -82,7 +85,7 @@ public abstract class ASMModel : ScriptableObject,
 <table>
 <tr>
 <td><a href="E_AdvancedSceneManager_Models_ASMModel_PropertyChanged.md">PropertyChanged</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -96,4 +99,7 @@ public abstract class ASMModel : ScriptableObject,
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

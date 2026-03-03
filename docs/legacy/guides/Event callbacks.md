@@ -1,3 +1,6 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 ### Event Callbacks
 
 The event callbacks system in ASM is inspired by the UI Toolkit event callback system. The global event manager, accessible via `SceneManager.events`, allows you to register callbacks for various scene, collection, startup, and editor events.
@@ -114,3 +117,5 @@ Below is a complete list of all available ASM events.
 |**OnWindowFocusEvent**|Occurs when the ASM window gains focus.|
 |**OnWindowLostFocusEvent**|Occurs when the ASM window loses focus.|
 |**ASMModelRenamedEvent**|Occurs when an ASM model is renamed.|
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

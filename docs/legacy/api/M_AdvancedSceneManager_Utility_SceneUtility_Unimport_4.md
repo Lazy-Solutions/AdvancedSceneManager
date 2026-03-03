@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Unimport(String[]) Method
 
 
@@ -17,7 +20,7 @@ public static void Unimport(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>[]</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>[]</dt><dd>Â </dd></dl>
 
 ## See Also
 
@@ -25,4 +28,7 @@ public static void Unimport(
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_SceneUtility_Unimport.md">Unimport Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

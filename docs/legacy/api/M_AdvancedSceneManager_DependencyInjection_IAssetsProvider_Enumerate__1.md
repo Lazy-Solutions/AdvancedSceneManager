@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Enumerate&lt;T&gt; Method
 
 
@@ -27,4 +30,7 @@ where T : ASMModel
 
 #### Reference
 <a href="T_AdvancedSceneManager_DependencyInjection_IAssetsProvider.md">IAssetsProvider Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

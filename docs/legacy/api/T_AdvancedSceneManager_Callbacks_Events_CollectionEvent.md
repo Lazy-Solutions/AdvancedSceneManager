@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CollectionEvent Class
 
 
@@ -14,7 +17,7 @@ The base class for collection event callbacks.
 public abstract class CollectionEvent : SceneOperationEventBase
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  →  CollectionEvent</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  â†’  CollectionEvent</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Callbacks_Events_CollectionCloseEvent.md">AdvancedSceneManager.Callbacks.Events.CollectionCloseEvent</a><br /><a href="T_AdvancedSceneManager_Callbacks_Events_CollectionOpenEvent.md">AdvancedSceneManager.Callbacks.Events.CollectionOpenEvent</a></td></tr>
 </table>
 
@@ -77,4 +80,7 @@ See <a href="T_AdvancedSceneManager_Callbacks_Events_CollectionOpenEvent.md">Col
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

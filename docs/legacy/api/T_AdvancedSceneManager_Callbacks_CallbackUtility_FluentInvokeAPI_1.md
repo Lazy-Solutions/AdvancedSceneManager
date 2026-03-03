@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CallbackUtility.FluentInvokeAPI&lt;T&gt; Class
 
 
@@ -16,7 +19,7 @@ where T : ISceneCallbacks
 
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  CallbackUtility.FluentInvokeAPI(T)</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  CallbackUtility.FluentInvokeAPI(T)</td></tr>
 </table>
 
 
@@ -31,7 +34,7 @@ Usage: <a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_Invoke__1.md">I
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1__ctor.md">CallbackUtility.FluentInvokeAPI(T)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -79,4 +82,7 @@ Usage: <a href="M_AdvancedSceneManager_Callbacks_CallbackUtility_Invoke__1.md">I
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

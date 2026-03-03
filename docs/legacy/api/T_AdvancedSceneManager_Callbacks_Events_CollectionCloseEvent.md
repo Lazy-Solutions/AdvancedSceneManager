@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CollectionCloseEvent Class
 
 
@@ -12,7 +15,7 @@
 public class CollectionCloseEvent : CollectionEvent
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_CollectionEvent.md">CollectionEvent</a>  →  CollectionCloseEvent</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  â†’  <a href="T_AdvancedSceneManager_Callbacks_Events_CollectionEvent.md">CollectionEvent</a>  â†’  CollectionCloseEvent</td></tr>
 </table>
 
 
@@ -21,7 +24,7 @@ public class CollectionCloseEvent : CollectionEvent
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_CollectionCloseEvent__ctor.md">CollectionCloseEvent</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -78,4 +81,7 @@ public class CollectionCloseEvent : CollectionEvent
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Profile Methods
 
 
@@ -7,52 +10,52 @@
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_AddDefaultASMScenes.md">AddDefaultASMScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_ClearCollections.md">ClearCollections</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_ClearRemovedCollections.md">ClearRemovedCollections</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Contains.md">Contains</a></td>
 <td>Gets whatever this profile contains the specified collection.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Create.md">Create</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection.md">CreateCollection()</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection_1.md">CreateCollection(SceneCollection)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection_2.md">CreateCollection(SceneCollectionTemplate)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection_3.md">CreateCollection(String)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateDynamicCollection.md">CreateDynamicCollection()</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateDynamicCollection_1.md">CreateDynamicCollection(String, String)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateEmpty.md">CreateEmpty</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Delete.md">Delete(ISceneCollection)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Delete_1.md">Delete(Profile)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_DeleteDynamicCollection.md">DeleteDynamicCollection</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Duplicate.md">Duplicate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>Equals</td>
 <td><br />(Inherited from Object)</td></tr>
@@ -91,13 +94,13 @@
 <td><br />(Overrides <a href="M_AdvancedSceneManager_Models_ASMModel_OnValidate.md">ASMModel.OnValidate()</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Remove.md">Remove</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_RemoveDefaultASMScenes.md">RemoveDefaultASMScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Restore.md">Restore</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMModel_Save.md">Save</a></td>
 <td>Saves the singleton to disk after a delay.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>)</td></tr>
@@ -112,7 +115,7 @@
 <td><br />(Inherited from ScriptableObject)<br /><strong>Obsolete.</strong></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_SetProfile.md">SetProfile</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_ToString.md">ToString</a></td>
 <td><br />(Overrides Object.ToString())</td></tr>
@@ -133,4 +136,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Profile.md">Profile Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

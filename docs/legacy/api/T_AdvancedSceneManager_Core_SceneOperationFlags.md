@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneOperationFlags Enumeration
 
 
@@ -20,31 +23,34 @@ public enum SceneOperationFlags
 <tr>
 <td>None</td>
 <td>0</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>LoadingScreen</td>
 <td>1</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>CollectionCallbacks</td>
 <td>4</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SceneCallbacks</td>
 <td>8</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>EventCallbacks</td>
 <td>16</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>All</td>
 <td>29</td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

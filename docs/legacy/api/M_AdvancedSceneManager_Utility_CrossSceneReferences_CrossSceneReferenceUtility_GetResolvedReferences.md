@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetResolvedReferences Method
 
 
@@ -25,4 +28,7 @@ public static IEnumerable<ResolvedCrossReference> GetResolvedReferences()
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility.md">CrossSceneReferenceUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility_GetResolvedReferences.md">GetResolvedReferences Overload</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

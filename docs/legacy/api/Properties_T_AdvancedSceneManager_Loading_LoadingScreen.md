@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # LoadingScreen Properties
 
 
@@ -60,4 +63,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

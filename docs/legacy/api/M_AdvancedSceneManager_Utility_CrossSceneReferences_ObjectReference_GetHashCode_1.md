@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetHashCode(ObjectReference) Method
 
 
@@ -17,7 +20,7 @@ public int GetHashCode(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">Int32</a>
@@ -32,4 +35,7 @@ public int GetHashCode(
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference_GetHashCode.md">GetHashCode Overload</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

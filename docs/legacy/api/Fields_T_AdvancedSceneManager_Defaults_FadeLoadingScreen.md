@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # FadeLoadingScreen Fields
 
 
@@ -14,19 +17,19 @@ This will automatically register canvas with <a href="T_AdvancedSceneManager_Uti
 LoadingScreenBase</a>)</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_FadeLoadingScreen_color.md">color</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_FadeLoadingScreen_fadeBackground.md">fadeBackground</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_FadeLoadingScreen_fadeDuration.md">fadeDuration</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_FadeLoadingScreen_fadeGroup.md">fadeGroup</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_FadeLoadingScreen_fadeInDurationOverride.md">fadeInDurationOverride</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
@@ -34,4 +37,7 @@ LoadingScreenBase</a>)</td></tr>
 
 #### Reference
 <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

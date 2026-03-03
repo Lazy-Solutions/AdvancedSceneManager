@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # When Enumeration
 
 
@@ -36,4 +39,7 @@ public enum When
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Core_Callbacks.md">AdvancedSceneManager.Core.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Core_Callbacks.md">AdvancedSceneManager.Core.Callbacks Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

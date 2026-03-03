@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # allowExcludingCollectionsFromBuild Property
 
 
@@ -27,4 +30,7 @@ When true, a toggle will be shown in scene manager window.
 
 #### Reference
 <a href="T_AdvancedSceneManager_DependencyInjection_IProjectSettings.md">IProjectSettings Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

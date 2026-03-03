@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IEvent Methods
 
 
@@ -42,4 +45,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Scene_IMethods_Target_IEvent.md">Scene.IMethods_Target.IEvent Interface</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # OnInitialized Method
 
 
@@ -19,7 +22,7 @@ public static void OnInitialized(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action" target="_blank" rel="noopener noreferrer">Action</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.action" target="_blank" rel="noopener noreferrer">Action</a></dt><dd>Â </dd></dl>
 
 ## Remarks
 Will call immediately if already initialized.
@@ -29,4 +32,7 @@ Will call immediately if already initialized.
 
 #### Reference
 <a href="T_AdvancedSceneManager_SceneManager.md">SceneManager Class</a>  
-<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>  
+<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

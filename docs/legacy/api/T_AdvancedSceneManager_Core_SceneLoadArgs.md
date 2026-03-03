@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneLoadArgs Class
 
 
@@ -14,7 +17,7 @@ Specifies arguments for <a href="M_AdvancedSceneManager_Core_SceneLoader_LoadSce
 public class SceneLoadArgs : SceneLoaderArgsBase
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="T_AdvancedSceneManager_Core_SceneLoaderArgsBase.md">SceneLoaderArgsBase</a>  →  SceneLoadArgs</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="T_AdvancedSceneManager_Core_SceneLoaderArgsBase.md">SceneLoaderArgsBase</a>  â†’  SceneLoadArgs</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class SceneLoadArgs : SceneLoaderArgsBase
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_SceneLoadArgs__ctor.md">SceneLoadArgs</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -95,4 +98,7 @@ public class SceneLoadArgs : SceneLoaderArgsBase
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

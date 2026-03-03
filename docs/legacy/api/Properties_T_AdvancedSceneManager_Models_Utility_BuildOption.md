@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # BuildOption Properties
 
 
@@ -21,4 +24,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Utility_BuildOption.md">BuildOption Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ActionUtility Class
 
 
@@ -14,7 +17,7 @@ Contains utility functions for <a href="https://learn.microsoft.com/dotnet/api/s
 public static class ActionUtility
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  ActionUtility</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  ActionUtility</td></tr>
 </table>
 
 
@@ -36,4 +39,7 @@ public static class ActionUtility
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

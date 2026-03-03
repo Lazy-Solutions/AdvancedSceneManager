@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ProgressScope Properties
 
 
@@ -7,7 +10,7 @@
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Loading_ProgressScope_isRegistered.md">isRegistered</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Loading_ProgressScope_operationCount.md">operationCount</a></td>
 <td>Gets the amount of scenes that will be either unloaded or loaded.</td></tr>
@@ -30,4 +33,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Loading_ProgressScope.md">ProgressScope Class</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

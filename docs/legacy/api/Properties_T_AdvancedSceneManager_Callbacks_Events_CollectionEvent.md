@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CollectionEvent Properties
 
 
@@ -24,4 +27,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_Events_CollectionEvent.md">CollectionEvent Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

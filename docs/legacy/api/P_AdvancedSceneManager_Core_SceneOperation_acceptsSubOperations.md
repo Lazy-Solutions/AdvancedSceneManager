@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # acceptsSubOperations Property
 
 
@@ -27,4 +30,7 @@ See <a href="M_AdvancedSceneManager_Core_SceneOperation_WaitFor.md">WaitFor(Scen
 
 #### Reference
 <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

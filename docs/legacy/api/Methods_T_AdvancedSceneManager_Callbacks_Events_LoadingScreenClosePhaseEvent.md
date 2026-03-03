@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # LoadingScreenClosePhaseEvent Methods
 
 
@@ -42,4 +45,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_Events_LoadingScreenClosePhaseEvent.md">LoadingScreenClosePhaseEvent Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

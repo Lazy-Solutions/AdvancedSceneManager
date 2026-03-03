@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneImportUtility Properties
 
 
@@ -16,28 +19,28 @@
 <td><p>The import context.</p><br />(Inherited from AssetPostprocessor)</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_duplicateScenes.md">duplicateScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_dynamicScenes.md">dynamicScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_importedBlacklistedScenes.md">importedBlacklistedScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_importedScenes.md">importedScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_invalidScenes.md">invalidScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_scenesWithBadPath.md">scenesWithBadPath</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_unimportedScenes.md">unimportedScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_untrackedScenes.md">untrackedScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
@@ -45,4 +48,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Editor_Utility_SceneImportUtility.md">SceneImportUtility Class</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

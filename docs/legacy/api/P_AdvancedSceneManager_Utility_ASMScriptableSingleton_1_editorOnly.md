@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # editorOnly Property
 
 
@@ -24,4 +27,7 @@ public virtual bool editorOnly { get; }
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_ASMScriptableSingleton_1.md">ASMScriptableSingleton(T) Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

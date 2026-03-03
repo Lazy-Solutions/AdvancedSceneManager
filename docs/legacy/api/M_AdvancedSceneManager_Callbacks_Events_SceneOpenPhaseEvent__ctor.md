@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneOpenPhaseEvent Constructor
 
 
@@ -19,4 +22,7 @@ public SceneOpenPhaseEvent()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOpenPhaseEvent.md">SceneOpenPhaseEvent Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

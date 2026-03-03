@@ -1,3 +1,6 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Cross-scene references
 
 Cross scene references is one of those small things that should be supported by Unity, but just isn't. ASM implements this feature and may be enabled in [settings](Scene%20manager%20window.md#scene-loading-page).
@@ -25,4 +28,7 @@ Note that you may receive warnings from unity, these are safe to ignore. We have
 Due to the way scenes are loaded in unity, ASM cannot restore cross-scene references until after the scene is fully loaded, `Start()`, `Awake()`, and `OnEnable()` are called before the first possible time to restore them.
 
 You may however make use of [ASM scene callbacks](Callbacks.md), cross-scene references are guaranteed to have been restored by the time they are called.
+
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 

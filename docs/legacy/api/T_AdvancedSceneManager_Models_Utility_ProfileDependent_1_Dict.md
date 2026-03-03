@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ProfileDependent&lt;T&gt;.Dict Class
 
 
@@ -15,7 +18,7 @@ A dictionary of type <a href="T_AdvancedSceneManager_Models_Profile.md">Profile<
 public class Dict : SerializableDictionary<Profile, T>
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2" target="_blank" rel="noopener noreferrer">Dictionary(TKey, TValue)</a>  →  <a href="T_AdvancedSceneManager_Utility_SerializableDictionary_2.md">SerializableDictionary</a>(<a href="T_AdvancedSceneManager_Models_Profile.md">Profile</a>, <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">T</a>)  →  ProfileDependent(T).Dict</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2" target="_blank" rel="noopener noreferrer">Dictionary(TKey, TValue)</a>  â†’  <a href="T_AdvancedSceneManager_Utility_SerializableDictionary_2.md">SerializableDictionary</a>(<a href="T_AdvancedSceneManager_Models_Profile.md">Profile</a>, <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">T</a>)  â†’  ProfileDependent(T).Dict</td></tr>
 </table>
 
 
@@ -24,10 +27,10 @@ public class Dict : SerializableDictionary<Profile, T>
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependent_1_Dict__ctor.md">ProfileDependent(T).Dict()</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependent_1_Dict__ctor_1.md">ProfileDependent(T).Dict(IEnumerable(KeyValuePair(Profile, T)))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -82,4 +85,7 @@ public class Dict : SerializableDictionary<Profile, T>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

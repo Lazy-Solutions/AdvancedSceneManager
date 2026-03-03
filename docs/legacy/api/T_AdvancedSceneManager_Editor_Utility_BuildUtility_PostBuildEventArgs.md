@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # BuildUtility.PostBuildEventArgs Structure
 
 
@@ -12,7 +15,7 @@
 public struct PostBuildEventArgs
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="https://learn.microsoft.com/dotnet/api/system.valuetype" target="_blank" rel="noopener noreferrer">ValueType</a>  →  BuildUtility.PostBuildEventArgs</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="https://learn.microsoft.com/dotnet/api/system.valuetype" target="_blank" rel="noopener noreferrer">ValueType</a>  â†’  BuildUtility.PostBuildEventArgs</td></tr>
 </table>
 
 
@@ -21,7 +24,7 @@ public struct PostBuildEventArgs
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs__ctor.md">BuildUtility.PostBuildEventArgs</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -44,17 +47,20 @@ public struct PostBuildEventArgs
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_error.md">error</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_report.md">report</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs_warning.md">warning</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

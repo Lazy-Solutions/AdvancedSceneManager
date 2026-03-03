@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Reload Method
 
 
@@ -19,4 +22,7 @@ void Reload()
 
 #### Reference
 <a href="T_AdvancedSceneManager_DependencyInjection_Editor_ISceneManagerWindow.md">ISceneManagerWindow Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

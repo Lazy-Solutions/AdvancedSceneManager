@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetPath Method
 
 
@@ -27,4 +30,7 @@ This would be the scene at build index 0. If this method returns the wrong scene
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_FallbackSceneUtility.md">FallbackSceneUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # PressAnyButtonLoadingScreen Class
 
 
@@ -14,7 +17,7 @@ A default loading screen script. Requires the user to press any key before loadi
 public class PressAnyButtonLoadingScreen : FadeLoadingScreen
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  →  <a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>  →  <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>  →  PressAnyButtonLoadingScreen</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  Component  â†’  Behaviour  â†’  MonoBehaviour  â†’  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  â†’  <a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>  â†’  <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>  â†’  PressAnyButtonLoadingScreen</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class PressAnyButtonLoadingScreen : FadeLoadingScreen
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Defaults_PressAnyButtonLoadingScreen__ctor.md">PressAnyButtonLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -344,4 +347,7 @@ LoadingScreenBase</a>)</td></tr>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

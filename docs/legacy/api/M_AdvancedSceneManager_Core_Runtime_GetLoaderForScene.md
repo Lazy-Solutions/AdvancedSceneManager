@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetLoaderForScene Method
 
 
@@ -19,7 +22,7 @@ public SceneLoader GetLoaderForScene(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="T_AdvancedSceneManager_Core_SceneLoader.md">SceneLoader</a>
@@ -33,4 +36,7 @@ public SceneLoader GetLoaderForScene(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Core_Runtime.md">Runtime Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

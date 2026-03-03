@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AdvancedSceneManager Namespace
 
 
@@ -9,8 +12,11 @@
 <table>
 <tr>
 <td><a href="T_AdvancedSceneManager_Package.md">Package</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_SceneManager.md">SceneManager</a></td>
 <td>The central Advanced Scene Manager API. Provides access to the most important things in ASM.</td></tr>
 </table>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

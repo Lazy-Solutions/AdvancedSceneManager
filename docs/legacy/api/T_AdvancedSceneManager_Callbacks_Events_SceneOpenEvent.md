@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneOpenEvent Class
 
 
@@ -12,7 +15,7 @@
 public class SceneOpenEvent : SceneEvent
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneEvent.md">SceneEvent</a>  →  SceneOpenEvent</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  â†’  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneEvent.md">SceneEvent</a>  â†’  SceneOpenEvent</td></tr>
 </table>
 
 
@@ -21,7 +24,7 @@ public class SceneOpenEvent : SceneEvent
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOpenEvent__ctor.md">SceneOpenEvent</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -78,4 +81,7 @@ public class SceneOpenEvent : SceneEvent
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

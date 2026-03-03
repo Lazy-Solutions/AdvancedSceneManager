@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ProfileDependentCollection Class
 
 
@@ -15,7 +18,7 @@ public class ProfileDependentCollection : ProfileDependent<SceneCollection>,
 	ISceneCollection.IOpenable, SceneCollection.IMethods, SceneCollection.IMethods.IEvent
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  ScriptableObject  →  <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">ProfileDependent</a>(<a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)  →  ProfileDependentCollection</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  ScriptableObject  â†’  <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">ProfileDependent</a>(<a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)  â†’  ProfileDependentCollection</td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Models_ISceneCollection_IOpenable.md">ISceneCollection.IOpenable</a>, <a href="T_AdvancedSceneManager_Models_SceneCollection_IMethods.md">SceneCollection.IMethods</a>, <a href="T_AdvancedSceneManager_Models_SceneCollection_IMethods_IEvent.md">SceneCollection.IMethods.IEvent</a></td></tr>
 </table>
 
@@ -25,7 +28,7 @@ public class ProfileDependentCollection : ProfileDependent<SceneCollection>,
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection__ctor.md">ProfileDependentCollection</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -45,25 +48,25 @@ public class ProfileDependentCollection : ProfileDependent<SceneCollection>,
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection__Close.md">_Close</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection__Open.md">_Open</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection__OpenAdditive.md">_OpenAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection__Preload.md">_Preload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection__PreloadAdditive.md">_PreloadAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection__ToggleOpen.md">_ToggleOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection_Close.md">Close</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependent_1_DoAction.md">DoAction(Action(T))</a></td>
 <td>Performs an action on the scene.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">ProfileDependent(T)</a>)</td></tr>
@@ -87,25 +90,25 @@ public class ProfileDependentCollection : ProfileDependent<SceneCollection>,
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection_Open.md">Open</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection_OpenAdditive.md">OpenAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection_Preload.md">Preload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection_PreloadAdditive.md">PreloadAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection_Reopen.md">Reopen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SetDirty</td>
 <td><br />(Inherited from ScriptableObject)<br /><strong>Obsolete.</strong></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection_ToggleOpen.md">ToggleOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>ToString</td>
 <td><p>Returns the name of the object.</p><br />(Inherited from Object)</td></tr>
@@ -115,7 +118,7 @@ public class ProfileDependentCollection : ProfileDependent<SceneCollection>,
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentCollection_op_Implicit.md">Implicit(ProfileDependentCollection to SceneCollection)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Fields
@@ -136,4 +139,7 @@ public class ProfileDependentCollection : ProfileDependent<SceneCollection>,
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

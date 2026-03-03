@@ -1,3 +1,6 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Scene callbacks
 
 ## Interfaces
@@ -114,4 +117,7 @@ public void OperationSpecificEvents()
 			Debug.Log("Scene opened: " + e.scene), When.After);
 }
 ```
+
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 

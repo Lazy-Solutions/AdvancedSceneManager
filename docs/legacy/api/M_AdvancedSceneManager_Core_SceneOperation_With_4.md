@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # With(Action&lt;LoadingScreen&gt;) Method
 
 
@@ -19,7 +22,7 @@ public SceneOperation With(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>)</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>)</dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
@@ -30,4 +33,7 @@ public SceneOperation With(
 #### Reference
 <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation Class</a>  
 <a href="Overload_AdvancedSceneManager_Core_SceneOperation_With.md">With Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

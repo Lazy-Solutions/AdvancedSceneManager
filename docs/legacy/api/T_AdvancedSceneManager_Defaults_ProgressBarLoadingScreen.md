@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ProgressBarLoadingScreen Class
 
 
@@ -14,7 +17,7 @@ A default loading screen script. Displays progress with a progress bar.
 public class ProgressBarLoadingScreen : FadeLoadingScreen
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  →  <a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>  →  <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>  →  ProgressBarLoadingScreen</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  Component  â†’  Behaviour  â†’  MonoBehaviour  â†’  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  â†’  <a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>  â†’  <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>  â†’  ProgressBarLoadingScreen</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Defaults_QuoteLoadingScreen.md">AdvancedSceneManager.Defaults.QuoteLoadingScreen</a></td></tr>
 </table>
 
@@ -24,7 +27,7 @@ public class ProgressBarLoadingScreen : FadeLoadingScreen
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Defaults_ProgressBarLoadingScreen__ctor.md">ProgressBarLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -313,7 +316,7 @@ LoadingScreenBase</a>)</td></tr>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>)</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_ProgressBarLoadingScreen_slider.md">slider</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -348,4 +351,7 @@ LoadingScreenBase</a>)</td></tr>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

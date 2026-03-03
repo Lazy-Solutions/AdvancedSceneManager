@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IsCalledFor(Type, When) Method
 
 
@@ -20,7 +23,7 @@ public static bool IsCalledFor(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Core_Callbacks_When.md">When</a></dt><dd>Then <a href="T_AdvancedSceneManager_Core_Callbacks_When.md">When</a> enum value.</dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Core_Callbacks_When.md">When</a></dt><dd>Then <a href="T_AdvancedSceneManager_Core_Callbacks_When.md">When</a> enum value.</dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
@@ -31,4 +34,7 @@ public static bool IsCalledFor(
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_Events_EventCallbackUtility.md">EventCallbackUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_Callbacks_Events_EventCallbackUtility_IsCalledFor.md">IsCalledFor Overload</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

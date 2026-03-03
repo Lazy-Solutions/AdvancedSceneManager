@@ -1,3 +1,6 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 ## ASM API Structure Overview
 
 Advanced Scene Manager (ASM) is structured into three main levels of abstraction, each with a distinct role and target use case:
@@ -97,3 +100,5 @@ When enabled, ASM will attempt to load scenes concurrently where supported, subj
 
 - Learn about [scene operation callbacks and lifecycle events](Callbacks.md) to trigger logic during transitions.
 - For more on advanced usage, see the dedicated [Scene Operations](Scene%20Operations.md) guide.
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

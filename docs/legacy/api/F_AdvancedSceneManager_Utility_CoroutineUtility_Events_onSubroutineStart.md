@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # onSubroutineStart Field
 
 
@@ -27,4 +30,7 @@ A user object can be returned, which is then passed to <a href="F_AdvancedSceneM
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CoroutineUtility_Events.md">CoroutineUtility.Events Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

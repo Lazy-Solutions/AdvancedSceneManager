@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # On(Scene[]) Method
 
 
@@ -19,7 +22,7 @@ public IEnumerator On(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>[]</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>[]</dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
@@ -30,4 +33,7 @@ public IEnumerator On(
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">CallbackUtility.FluentInvokeAPI(T) Class</a>  
 <a href="Overload_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_On.md">On Overload</a>  
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

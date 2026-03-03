@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IFadeLoadingScreen Properties
 
 
@@ -18,4 +21,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Loading_IFadeLoadingScreen.md">IFadeLoadingScreen Interface</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

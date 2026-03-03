@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # WaitFor Method
 
 
@@ -5,7 +8,7 @@
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_5.md">WaitFor(Awaitable)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_2.md">WaitFor(Func(GlobalCoroutine))</a></td>
 <td>Specifies a coroutine that the operation should wait for.</td></tr>
@@ -14,7 +17,7 @@
 <td>Specifies a coroutine that the operation should wait for.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_4.md">WaitFor(Func(Awaitable))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor.md">WaitFor(GlobalCoroutine)</a></td>
 <td>Specifies a coroutine that the operation should wait for.</td></tr>
@@ -28,4 +31,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

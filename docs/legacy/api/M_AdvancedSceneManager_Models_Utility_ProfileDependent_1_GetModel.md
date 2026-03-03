@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetModel Method
 
 
@@ -19,7 +22,7 @@ public bool GetModel(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">T</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">T</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
@@ -32,4 +35,7 @@ Returns null if scene something went wrong.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">ProfileDependent(T) Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

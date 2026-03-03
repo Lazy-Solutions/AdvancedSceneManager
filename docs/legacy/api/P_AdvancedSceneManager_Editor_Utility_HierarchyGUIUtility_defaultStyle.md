@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # defaultStyle Property
 
 
@@ -22,4 +25,7 @@ GUIStyle
 
 #### Reference
 <a href="T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility.md">HierarchyGUIUtility Class</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

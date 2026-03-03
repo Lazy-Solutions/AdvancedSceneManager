@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # DependencyInjectionUtility.IInjectable Interface
 
 
@@ -23,4 +26,7 @@ Injectable classes implementing an interface based on DependencyInjectionUtility
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

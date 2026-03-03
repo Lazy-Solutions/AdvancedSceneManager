@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AdvancedSceneManager.Models.Utility Namespace
 
 
@@ -26,3 +29,6 @@
 <td><a href="T_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate.md">SceneCollectionTemplate</a></td>
 <td>Represents a template for a <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>.</td></tr>
 </table>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

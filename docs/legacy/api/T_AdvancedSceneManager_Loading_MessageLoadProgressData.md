@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # MessageLoadProgressData Structure
 
 
@@ -14,7 +17,7 @@ An implementation of <a href="T_AdvancedSceneManager_Loading_ILoadProgressData.m
 public readonly struct MessageLoadProgressData : ILoadProgressData
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="https://learn.microsoft.com/dotnet/api/system.valuetype" target="_blank" rel="noopener noreferrer">ValueType</a>  →  MessageLoadProgressData</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="https://learn.microsoft.com/dotnet/api/system.valuetype" target="_blank" rel="noopener noreferrer">ValueType</a>  â†’  MessageLoadProgressData</td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Loading_ILoadProgressData.md">ILoadProgressData</a></td></tr>
 </table>
 
@@ -24,7 +27,7 @@ public readonly struct MessageLoadProgressData : ILoadProgressData
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Loading_MessageLoadProgressData__ctor.md">MessageLoadProgressData</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -34,7 +37,7 @@ public readonly struct MessageLoadProgressData : ILoadProgressData
 <td>The message of this report.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Loading_MessageLoadProgressData_value.md">value</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -57,4 +60,7 @@ public readonly struct MessageLoadProgressData : ILoadProgressData
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

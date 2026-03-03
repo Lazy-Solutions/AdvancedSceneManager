@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneCollection Class
 
 
@@ -17,7 +20,7 @@ public class SceneCollection : ASMModel,
 	SceneCollection.IMethods.IEvent, ILockable
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  ScriptableObject  →  <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>  →  SceneCollection</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  ScriptableObject  â†’  <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>  â†’  SceneCollection</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate.md">AdvancedSceneManager.Models.Utility.SceneCollectionTemplate</a></td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Models_ILockable.md">ILockable</a>, <a href="T_AdvancedSceneManager_Models_ISceneCollection.md">ISceneCollection</a>, <a href="T_AdvancedSceneManager_Models_ISceneCollection_IEditable.md">ISceneCollection.IEditable</a>, <a href="T_AdvancedSceneManager_Models_ISceneCollection_IOpenable.md">ISceneCollection.IOpenable</a>, <a href="T_AdvancedSceneManager_Models_SceneCollection_IMethods.md">SceneCollection.IMethods</a>, <a href="T_AdvancedSceneManager_Models_SceneCollection_IMethods_IEvent.md">SceneCollection.IMethods.IEvent</a>, <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>), <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable" target="_blank" rel="noopener noreferrer">IEnumerable</a>, <a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged" target="_blank" rel="noopener noreferrer">INotifyPropertyChanged</a>, <a href="https://learn.microsoft.com/dotnet/api/system.iequatable-1" target="_blank" rel="noopener noreferrer">IEquatable</a>(SceneCollection)</td></tr>
 </table>
@@ -31,7 +34,7 @@ Only one collection can be open at a time.
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__ctor.md">SceneCollection</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -44,10 +47,10 @@ Only one collection can be open at a time.
 <td>Gets both <a href="P_AdvancedSceneManager_Models_SceneCollection_scenes.md">scenes</a> and <a href="P_AdvancedSceneManager_Models_SceneCollection_loadingScreen.md">loadingScreen</a>.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_count.md">count</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_description.md">description</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_effectiveLoadingScreen.md">effectiveLoadingScreen</a></td>
 <td>Gets effective loading screen depending on <a href="P_AdvancedSceneManager_Models_SceneCollection_loadingScreenUsage.md">loadingScreenUsage</a>.</td></tr>
@@ -89,7 +92,7 @@ Only one collection can be open at a time.
 <td>Gets if this is a startup collection.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_Item.md">Item</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_loadingScreen.md">loadingScreen</a></td>
 <td>The loading screen that is associated with this collection.</td></tr>
@@ -112,16 +115,16 @@ ASMModel</a>)</td></tr>
 <td>Specifies whatever this collection should be opened as persistent.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_scenePaths.md">scenePaths</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_scenes.md">scenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_scenesThatShouldNotAutomaticallyOpen.md">scenesThatShouldNotAutomaticallyOpen</a></td>
 <td>Specifies scenes that should not open automatically.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_scenesToAutomaticallyOpen.md">scenesToAutomaticallyOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_setActiveSceneWhenOpenedAsActive.md">setActiveSceneWhenOpenedAsActive</a></td>
 <td>Specifies whatever <a href="P_AdvancedSceneManager_Models_SceneCollection_activeScene.md">activeScene</a> should be set, when collection is opened as additive.</td></tr>
@@ -130,7 +133,7 @@ ASMModel</a>)</td></tr>
 <td>Specifies startup option.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_title.md">title</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_unloadUnusedAssets.md">unloadUnusedAssets</a></td>
 <td>Calls UnloadUnusedAssets() after collection is opened or closed.</td></tr>
@@ -143,31 +146,31 @@ ASMModel</a>)</td></tr>
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__Close.md">_Close</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__Open.md">_Open</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__OpenAdditive.md">_OpenAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__Preload.md">_Preload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__PreloadAdditive.md">_PreloadAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__Reopen.md">_Reopen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__ToggleOpen.md">_ToggleOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_AutomaticallyOpenScene.md">AutomaticallyOpenScene</a></td>
 <td>Gets or sets whatever the scene should automatically open, when this collection is open. Default is true.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Close.md">Close</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Contains.md">Contains</a></td>
 <td>Gets if this collection contains <em>scene</em>.</td></tr>
@@ -176,7 +179,7 @@ ASMModel</a>)</td></tr>
 <td><br />(Overrides Object.Equals(Object))</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Equals.md">Equals(SceneCollection)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Find.md">Find</a></td>
 <td>Finds a collection based on its title or id.</td></tr>
@@ -188,7 +191,7 @@ ASMModel</a>)</td></tr>
 <td>Find the <a href="T_AdvancedSceneManager_Models_Profile.md">Profile</a> that this collection is associated with.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_GetEnumerator.md">GetEnumerator</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_GetHashCode.md">GetHashCode</a></td>
 <td><br />(Overrides Object.GetHashCode())</td></tr>
@@ -209,19 +212,19 @@ ASMModel</a>)</td></tr>
 <td><br />(Overrides <a href="M_AdvancedSceneManager_Models_ASMModel_OnValidate.md">ASMModel.OnValidate()</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Open.md">Open</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_OpenAdditive.md">OpenAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Preload.md">Preload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_PreloadAdditive.md">PreloadAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Reopen.md">Reopen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMModel_Save.md">Save</a></td>
 <td>Saves the singleton to disk after a delay.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>)</td></tr>
@@ -236,7 +239,7 @@ ASMModel</a>)</td></tr>
 <td><br />(Inherited from ScriptableObject)<br /><strong>Obsolete.</strong></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_ToggleOpen.md">ToggleOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_ToString.md">ToString</a></td>
 <td><br />(Overrides Object.ToString())</td></tr>
@@ -259,10 +262,10 @@ ASMModel</a>)</td></tr>
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_op_Equality.md">Equality(SceneCollection, SceneCollection)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_op_Inequality.md">Inequality(SceneCollection, SceneCollection)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Fields
@@ -313,4 +316,7 @@ ASMModel</a>)</td></tr>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

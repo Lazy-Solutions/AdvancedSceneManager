@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMModel Methods
 
 
@@ -25,10 +28,10 @@
 <td>Gets if <em>q</em> matches <a href="P_AdvancedSceneManager_Models_ASMModel_name.md">name</a>.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMModel_OnPropertyChanged.md">OnPropertyChanged</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMModel_OnValidate.md">OnValidate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMModel_Save.md">Save</a></td>
 <td>Saves the singleton to disk after a delay.</td></tr>
@@ -58,4 +61,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

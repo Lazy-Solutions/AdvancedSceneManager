@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IsCalledFor&lt;TEventType&gt;(When) Method
 
 
@@ -21,7 +24,7 @@ where TEventType : new(), SceneOperationEventBase
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Core_Callbacks_When.md">When</a></dt><dd>Then <a href="T_AdvancedSceneManager_Core_Callbacks_When.md">When</a> enum value.</dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Core_Callbacks_When.md">When</a></dt><dd>Then <a href="T_AdvancedSceneManager_Core_Callbacks_When.md">When</a> enum value.</dd></dl>
 
 #### Type Parameters
 <dl><dt /><dd /></dl>
@@ -35,4 +38,7 @@ where TEventType : new(), SceneOperationEventBase
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_Events_EventCallbackUtility.md">EventCallbackUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_Callbacks_Events_EventCallbackUtility_IsCalledFor.md">IsCalledFor Overload</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

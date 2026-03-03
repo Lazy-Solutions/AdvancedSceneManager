@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Profile Properties
 
 
@@ -10,7 +13,7 @@
 <td>Gets <a href="P_AdvancedSceneManager_Models_Profile_collections.md">collections</a>, <a href="P_AdvancedSceneManager_Models_Profile_standaloneScenes.md">standaloneScenes</a>, <a href="P_AdvancedSceneManager_Models_Profile_dynamicCollections.md">dynamicCollections</a>.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_buildProfile.md">buildProfile</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_collections.md">collections</a></td>
 <td>Gets the collections contained within this profile.</td></tr>
@@ -22,13 +25,13 @@
 <td>Gets the default asm scenes collection contained within this profile.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_defaultProfile.md">defaultProfile</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_dynamicCollections.md">dynamicCollections</a></td>
 <td>Gets the dynamic collections contained within this profile.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_forceProfile.md">forceProfile</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>hideFlags</td>
 <td><p>Should the object be hidden, saved with the Scene or modifiable by the user?</p><br />(Inherited from Object)</td></tr>
@@ -51,7 +54,7 @@ ASMModel</a>)</td></tr>
 <td>Gets the scenes managed by this profile.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_serializedObject.md">serializedObject</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_specialScenes.md">specialScenes</a></td>
 <td>Gets default loading screen, splash screen and startup loading screen.</td></tr>
@@ -80,4 +83,7 @@ ASMModel</a>)</td></tr>
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Profile.md">Profile Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Package Class
 
 
@@ -12,7 +15,7 @@
 public class Package : IPackage, DependencyInjectionUtility.IInjectable
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Package</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Package</td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable.md">DependencyInjectionUtility.IInjectable</a>, <a href="T_AdvancedSceneManager_DependencyInjection_Editor_IPackage.md">IPackage</a></td></tr>
 </table>
 
@@ -22,20 +25,20 @@ public class Package : IPackage, DependencyInjectionUtility.IInjectable
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Package__ctor.md">Package</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Package_folder.md">folder</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Package_id.md">id</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Package_version.md">version</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -58,4 +61,7 @@ public class Package : IPackage, DependencyInjectionUtility.IInjectable
 
 
 #### Reference
-<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>  
+<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

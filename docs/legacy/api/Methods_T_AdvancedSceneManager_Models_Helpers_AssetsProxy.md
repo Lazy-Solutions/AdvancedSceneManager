@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AssetsProxy Methods
 
 
@@ -27,4 +30,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Helpers_AssetsProxy.md">AssetsProxy Class</a>  
-<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

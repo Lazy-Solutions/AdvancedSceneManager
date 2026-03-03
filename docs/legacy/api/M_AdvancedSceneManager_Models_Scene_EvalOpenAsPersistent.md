@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # EvalOpenAsPersistent Method
 
 
@@ -20,7 +23,7 @@ public bool EvalOpenAsPersistent(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd>Specifies the parent collection that was opened before <em>finalCollection</em>.</dd><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>  (Optional)</dt><dd>Specifies the collection that will be opened, if you are not evaluating state after it would have opened, pass null. If multiple collections are opened in sequence, then pass the final one.</dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd>Specifies the parent collection that was opened before <em>finalCollection</em>.</dd><dt>Â Â <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>Â Â (Optional)</dt><dd>Specifies the collection that will be opened, if you are not evaluating state after it would have opened, pass null. If multiple collections are opened in sequence, then pass the final one.</dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
@@ -30,4 +33,7 @@ public bool EvalOpenAsPersistent(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # UnloadScene Method
 
 
@@ -20,7 +23,7 @@ public abstract IEnumerator UnloadScene(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Core_SceneUnloadArgs.md">SceneUnloadArgs</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Core_SceneUnloadArgs.md">SceneUnloadArgs</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
@@ -30,4 +33,7 @@ public abstract IEnumerator UnloadScene(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Core_SceneLoader.md">SceneLoader Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

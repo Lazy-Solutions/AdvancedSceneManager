@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Fade(Graphic, Single, Single, Boolean) Method
 
 
@@ -22,7 +25,7 @@ public static IEnumerator Fade(
 
 
 #### Parameters
-<dl><dt>  Graphic</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a></dt><dd> </dd></dl>
+<dl><dt>Â Â Graphic</dt><dd>Â </dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a></dt><dd>Â </dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a></dt><dd>Â </dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
@@ -40,4 +43,7 @@ Extension Methods (C# Programming Guide)</a>.
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_UIFadeExtensions.md">UIFadeExtensions Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_UIFadeExtensions_Fade.md">Fade Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

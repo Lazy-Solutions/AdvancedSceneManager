@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ICollectionExtraDataCallbacksCoroutine Methods
 
 
@@ -30,4 +33,7 @@ Called before loading screen is hidden, if one is defined, or else just when col
 
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_ICollectionExtraDataCallbacksCoroutine.md">ICollectionExtraDataCallbacksCoroutine Interface</a>  
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

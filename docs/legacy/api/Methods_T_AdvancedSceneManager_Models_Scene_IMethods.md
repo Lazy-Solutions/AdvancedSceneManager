@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IMethods Methods
 
 
@@ -39,4 +42,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Scene_IMethods.md">Scene.IMethods Interface</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

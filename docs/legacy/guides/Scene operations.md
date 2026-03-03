@@ -1,3 +1,5 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 # Scene operations
 
 A scene operation in ASM is basically a queued batch operation for opening and closing scenes. 
@@ -104,3 +106,5 @@ public class SceneLoader : MonoBehaviour
 * `ISceneOpen`
 * `ICollection` open (_if collection specified_)
 * Hide loading screen
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

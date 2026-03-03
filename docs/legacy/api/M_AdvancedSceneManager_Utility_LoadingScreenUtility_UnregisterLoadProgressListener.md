@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # UnregisterLoadProgressListener Method
 
 
@@ -19,11 +22,14 @@ public static void UnregisterLoadProgressListener(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Loading_ILoadProgressListener.md">ILoadProgressListener</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Loading_ILoadProgressListener.md">ILoadProgressListener</a></dt><dd>Â </dd></dl>
 
 ## See Also
 
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

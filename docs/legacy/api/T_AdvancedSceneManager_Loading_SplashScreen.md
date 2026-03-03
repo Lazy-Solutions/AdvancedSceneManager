@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SplashScreen Class
 
 
@@ -14,7 +17,7 @@ A class that contains callbacks for splash screens.
 public abstract class SplashScreen : LoadingScreenBase
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  →  SplashScreen</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  Component  â†’  Behaviour  â†’  MonoBehaviour  â†’  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  â†’  SplashScreen</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Defaults_SplashASM.md">AdvancedSceneManager.Defaults.SplashASM</a><br /><a href="T_AdvancedSceneManager_Defaults_SplashFade.md">AdvancedSceneManager.Defaults.SplashFade</a></td></tr>
 </table>
 
@@ -220,7 +223,7 @@ SplashScreen and <a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">Loadi
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Loading_SplashScreen_OnValidate.md">OnValidate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SendMessage(String)</td>
 <td><p>Calls the method named methodName on every MonoBehaviour in this game object.</p><br />(Inherited from Component)</td></tr>
@@ -326,4 +329,7 @@ LoadingScreenBase</a>)</td></tr>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

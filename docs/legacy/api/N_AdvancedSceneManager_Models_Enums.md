@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AdvancedSceneManager.Models.Enums Namespace
 
 
@@ -26,3 +29,6 @@
 <td><a href="T_AdvancedSceneManager_Models_Enums_SceneState.md">SceneState</a></td>
 <td>Specifies that state of a scene.</td></tr>
 </table>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

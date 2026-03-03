@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # DoActionsWithLoadingScreen Class
 
 
@@ -14,7 +17,7 @@ Contains examples for doing <a href="https://learn.microsoft.com/dotnet/api/syst
 public class DoActionsWithLoadingScreen
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  DoActionsWithLoadingScreen</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  DoActionsWithLoadingScreen</td></tr>
 </table>
 
 
@@ -23,17 +26,17 @@ public class DoActionsWithLoadingScreen
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen__ctor.md">DoActionsWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen_DoActionWithLoadingScreen.md">DoActionWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen_DoCoroutineWithLoadingScreen.md">DoCoroutineWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Equals</a></td>
 <td>Determines whether the specified object is equal to the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
@@ -52,11 +55,14 @@ public class DoActionsWithLoadingScreen
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen_loadingScreen.md">loadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneUtility Class
 
 
@@ -14,7 +17,7 @@ An utility class to perform actions on scenes.
 public static class SceneUtility
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  SceneUtility</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  SceneUtility</td></tr>
 </table>
 
 
@@ -39,7 +42,7 @@ public static class SceneUtility
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_AddScript__1.md">AddScript(T)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_2.md">ASMScene(Component)</a></td>
 <td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.</td></tr>
@@ -51,7 +54,7 @@ public static class SceneUtility
 <td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene.md">ASMScene(SceneAsset)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_3.md">ASMScene(Component, Scene)</a></td>
 <td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.</td></tr>
@@ -63,25 +66,25 @@ public static class SceneUtility
 <td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_1.md">ASMScene(SceneAsset, Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Create.md">Create(IEnumerable(String))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Create_1.md">Create(String)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Create_2.md">Create(String[])</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateAndImport.md">CreateAndImport(IEnumerable(String))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateAndImport_1.md">CreateAndImport(String)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateAndImport_2.md">CreateAndImport(String[])</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_CreateDynamic.md">CreateDynamic</a></td>
 <td>Creates a scene at runtime, that is not saved to disk.</td></tr>
@@ -138,31 +141,31 @@ public static class SceneUtility
 <td>Get all open unity scenes.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Import.md">Import(IEnumerable(SceneAsset))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Import_3.md">Import(SceneAsset)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Import_1.md">Import(String)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Import_2.md">Import(String[])</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_IsIncluded.md">IsIncluded</a></td>
 <td>Gets if the scene is included in build.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MergeScenes.md">MergeScenes(Scene, Scene[])</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MergeScenes_1.md">MergeScenes(String, String[])</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MergeScenesPreserveOriginal.md">MergeScenesPreserveOriginal(Scene, Scene[])</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MergeScenesPreserveOriginal_1.md">MergeScenesPreserveOriginal(String, String[])</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Move.md">Move(GameObject, Scene)</a></td>
 <td><p>Move a GameObject from its current Scene to a new Scene.</p></td></tr>
@@ -171,57 +174,60 @@ public static class SceneUtility
 <td><p>Move a GameObject from its current Scene to a new Scene.</p></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MoveAfter.md">MoveAfter</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MoveBefore.md">MoveBefore</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MoveHere.md">MoveHere</a></td>
 <td>Moves <em>obj</em> to this scene.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MoveToBottom.md">MoveToBottom</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MoveToNewScene.md">MoveToNewScene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_MoveToTop.md">MoveToTop</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_RemoveScript__1.md">RemoveScript(T)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_SetEnabled.md">SetEnabled</a></td>
 <td>Sets all root objects as enabled / disabled.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Unimport_2.md">Unimport(IEnumerable(Scene))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Unimport_3.md">Unimport(IEnumerable(SceneAsset))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Unimport.md">Unimport(Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Unimport_1.md">Unimport(Scene[])</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Unimport_5.md">Unimport(SceneAsset)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_Unimport_4.md">Unimport(String[])</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Fields
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_Utility_SceneUtility_assetTemplate.md">assetTemplate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

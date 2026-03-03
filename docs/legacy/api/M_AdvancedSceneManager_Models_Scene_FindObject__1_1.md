@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # FindObject&lt;T&gt;(T) Method
 
 
@@ -20,7 +23,7 @@ public bool FindObject<T>(
 
 
 #### Parameters
-<dl><dt>  T</dt><dd> </dd></dl>
+<dl><dt>Â Â T</dt><dd>Â </dd></dl>
 
 #### Type Parameters
 <dl><dt /><dd /></dl>
@@ -37,4 +40,7 @@ Only works if scene is loaded.
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
 <a href="Overload_AdvancedSceneManager_Models_Scene_FindObject.md">FindObject Overload</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # isOpen Property
 
 
@@ -27,4 +30,7 @@ This is still true<a href="P_AdvancedSceneManager_Loading_LoadingScreenBase_isCl
 
 #### Reference
 <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase Class</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

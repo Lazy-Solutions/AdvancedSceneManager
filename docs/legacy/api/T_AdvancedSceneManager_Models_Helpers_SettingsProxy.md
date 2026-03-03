@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SettingsProxy Class
 
 
@@ -14,7 +17,7 @@ Provides access to ASM settings.
 public sealed class SettingsProxy
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  SettingsProxy</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  SettingsProxy</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public sealed class SettingsProxy
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Helpers_SettingsProxy__ctor.md">SettingsProxy</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -36,7 +39,7 @@ public sealed class SettingsProxy
 <td>The project-wide ASM settings.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Helpers_SettingsProxy_user.md">user</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -59,4 +62,7 @@ public sealed class SettingsProxy
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IEquality Methods
 
 
@@ -21,4 +24,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Scene_IEquality.md">Scene.IEquality Interface</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

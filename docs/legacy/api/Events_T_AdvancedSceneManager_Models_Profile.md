@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Profile Events
 
 
@@ -7,7 +10,7 @@
 <table>
 <tr>
 <td><a href="E_AdvancedSceneManager_Models_Profile_onProfileChanged.md">onProfileChanged</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="E_AdvancedSceneManager_Models_ASMModel_PropertyChanged.md">PropertyChanged</a></td>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>)</td></tr>
@@ -18,4 +21,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Profile.md">Profile Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

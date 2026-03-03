@@ -1,3 +1,5 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 # Scene bindings
 
 Scene bindings are used to open collections or scenes through a key or button binding.
@@ -12,3 +14,5 @@ _Interaction_ defines how the collection or scene responds to input — whether 
 * **Hold**: Keep open when button held down, then close on release.
 * **Toggle**: Toggle scene open or closed on button down.
 
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

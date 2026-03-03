@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ProfileDependent&lt;T&gt; Class
 
 
@@ -16,7 +19,7 @@ where T : ASMModel
 
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  ScriptableObject  →  ProfileDependent(T)</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  ScriptableObject  â†’  ProfileDependent(T)</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Models_Utility_ProfileDependentCollection.md">AdvancedSceneManager.Models.Utility.ProfileDependentCollection</a><br /><a href="T_AdvancedSceneManager_Models_Utility_ProfileDependentScene.md">AdvancedSceneManager.Models.Utility.ProfileDependentScene</a></td></tr>
 </table>
 
@@ -29,7 +32,7 @@ where T : ASMModel
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependent_1__ctor.md">ProfileDependent(T)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -94,4 +97,7 @@ where T : ASMModel
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

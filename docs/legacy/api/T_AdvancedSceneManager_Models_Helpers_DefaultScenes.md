@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # DefaultScenes Class
 
 
@@ -14,7 +17,7 @@ Provides access to the default ASM scenes.
 public class DefaultScenes : ScriptableObject
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  ScriptableObject  →  DefaultScenes</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  ScriptableObject  â†’  DefaultScenes</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class DefaultScenes : ScriptableObject
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Helpers_DefaultScenes__ctor.md">DefaultScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -102,4 +105,7 @@ public class DefaultScenes : ScriptableObject
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Helpers.md">AdvancedSceneManager.Models.Helpers Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # HierarchyGUIUtility.HierarchySceneGUI Delegate
 
 
@@ -17,10 +20,13 @@ public delegate void HierarchySceneGUI(
 
 
 #### Parameters
-<dl><dt>  Scene</dt><dd> </dd></dl>
+<dl><dt>Â Â Scene</dt><dd>Â </dd></dl>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

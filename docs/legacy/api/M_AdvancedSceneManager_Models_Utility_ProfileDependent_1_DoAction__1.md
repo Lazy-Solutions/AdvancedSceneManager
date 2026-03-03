@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # DoAction&lt;T2&gt;(Func&lt;T, T2&gt;) Method
 
 
@@ -20,7 +23,7 @@ public T2 DoAction<T2>(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.func-2" target="_blank" rel="noopener noreferrer">Func</a>(<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">T</a>, T2)</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.func-2" target="_blank" rel="noopener noreferrer">Func</a>(<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">T</a>, T2)</dt><dd>Â </dd></dl>
 
 #### Type Parameters
 <dl><dt /><dd /></dl>
@@ -37,4 +40,7 @@ Does nothing if <a href="P_AdvancedSceneManager_Models_Utility_ProfileDependent_
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">ProfileDependent(T) Class</a>  
 <a href="Overload_AdvancedSceneManager_Models_Utility_ProfileDependent_1_DoAction.md">DoAction Overload</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Toggle Method
 
 
@@ -19,4 +22,7 @@ public void Toggle()
 
 #### Reference
 <a href="T_AdvancedSceneManager_ExampleScripts_SceneOpen.md">SceneOpen Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

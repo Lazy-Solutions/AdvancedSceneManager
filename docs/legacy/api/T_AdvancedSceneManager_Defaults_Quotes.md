@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Quotes Class
 
 
@@ -14,7 +17,7 @@ A list of quotes for <a href="T_AdvancedSceneManager_Defaults_QuoteLoadingScreen
 public class Quotes : MonoBehaviour
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  Quotes</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  Component  â†’  Behaviour  â†’  MonoBehaviour  â†’  Quotes</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class Quotes : MonoBehaviour
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Defaults_Quotes__ctor.md">Quotes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -295,4 +298,7 @@ public class Quotes : MonoBehaviour
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

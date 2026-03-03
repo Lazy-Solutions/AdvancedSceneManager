@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ICollectionOpenAsync Interface
 <blockquote><strong>Note: This API is now obsolete.</strong></blockquote>
 
@@ -37,4 +40,7 @@ Called before loading screen is hidden, if one is defined, or else just when col
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

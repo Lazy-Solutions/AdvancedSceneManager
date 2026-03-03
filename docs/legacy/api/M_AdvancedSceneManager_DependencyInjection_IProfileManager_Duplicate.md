@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Duplicate Method
 
 
@@ -17,11 +20,14 @@ void Duplicate(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Profile.md">Profile</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Profile.md">Profile</a></dt><dd>Â </dd></dl>
 
 ## See Also
 
 
 #### Reference
 <a href="T_AdvancedSceneManager_DependencyInjection_IProfileManager.md">IProfileManager Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # executeCooldown Property
 
 
@@ -24,4 +27,7 @@ public float executeCooldown { get; set; }
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_SpamCheck.md">SpamCheck Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

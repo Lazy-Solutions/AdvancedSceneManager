@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneCollection Methods
 
 
@@ -7,31 +10,31 @@
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__Close.md">_Close</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__Open.md">_Open</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__OpenAdditive.md">_OpenAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__Preload.md">_Preload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__PreloadAdditive.md">_PreloadAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__Reopen.md">_Reopen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection__ToggleOpen.md">_ToggleOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_AutomaticallyOpenScene.md">AutomaticallyOpenScene</a></td>
 <td>Gets or sets whatever the scene should automatically open, when this collection is open. Default is true.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Close.md">Close</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Contains.md">Contains</a></td>
 <td>Gets if this collection contains <em>scene</em>.</td></tr>
@@ -40,7 +43,7 @@
 <td><br />(Overrides Object.Equals(Object))</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Equals.md">Equals(SceneCollection)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Find.md">Find</a></td>
 <td>Finds a collection based on its title or id.</td></tr>
@@ -52,7 +55,7 @@
 <td>Find the <a href="T_AdvancedSceneManager_Models_Profile.md">Profile</a> that this collection is associated with.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_GetEnumerator.md">GetEnumerator</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_GetHashCode.md">GetHashCode</a></td>
 <td><br />(Overrides Object.GetHashCode())</td></tr>
@@ -73,19 +76,19 @@
 <td><br />(Overrides <a href="M_AdvancedSceneManager_Models_ASMModel_OnValidate.md">ASMModel.OnValidate()</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Open.md">Open</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_OpenAdditive.md">OpenAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Preload.md">Preload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_PreloadAdditive.md">PreloadAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Reopen.md">Reopen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMModel_Save.md">Save</a></td>
 <td>Saves the singleton to disk after a delay.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>)</td></tr>
@@ -100,7 +103,7 @@
 <td><br />(Inherited from ScriptableObject)<br /><strong>Obsolete.</strong></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_ToggleOpen.md">ToggleOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_ToString.md">ToString</a></td>
 <td><br />(Overrides Object.ToString())</td></tr>
@@ -154,4 +157,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

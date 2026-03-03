@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # DoAction(Action&lt;T&gt;) Method
 
 
@@ -19,7 +22,7 @@ public void DoAction(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">T</a>)</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">T</a>)</dt><dd>Â </dd></dl>
 
 ## Remarks
 Does nothing if <a href="P_AdvancedSceneManager_Models_Utility_ProfileDependent_1_isValid.md">isValid</a> is false.
@@ -30,4 +33,7 @@ Does nothing if <a href="P_AdvancedSceneManager_Models_Utility_ProfileDependent_
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1.md">ProfileDependent(T) Class</a>  
 <a href="Overload_AdvancedSceneManager_Models_Utility_ProfileDependent_1_DoAction.md">DoAction Overload</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # App.StartupProps Class
 
 
@@ -15,7 +18,7 @@ An object that persists start properties across domain reload, which is needed w
 public class StartupProps
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  App.StartupProps</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  App.StartupProps</td></tr>
 </table>
 
 
@@ -24,7 +27,7 @@ public class StartupProps
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_App_StartupProps__ctor.md">App.StartupProps()</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_App_StartupProps__ctor_1.md">App.StartupProps(App.StartupProps)</a></td>
 <td>Creates a new props, from the specified props, copying its values.</td></tr>
@@ -79,4 +82,7 @@ public class StartupProps
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SerializableDictionary&lt;TKey, TValue&gt; Methods
 
 
@@ -7,10 +10,10 @@
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SerializableDictionary_2_OnAfterDeserialize.md">OnAfterDeserialize</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SerializableDictionary_2_OnBeforeSerialize.md">OnBeforeSerialize</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -43,4 +46,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_SerializableDictionary_2.md">SerializableDictionary(TKey, TValue) Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

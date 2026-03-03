@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneOpen Fields
 
 
@@ -7,7 +10,7 @@
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_ExampleScripts_SceneOpen_sceneToOpen.md">sceneToOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
@@ -15,4 +18,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_ExampleScripts_SceneOpen.md">SceneOpen Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

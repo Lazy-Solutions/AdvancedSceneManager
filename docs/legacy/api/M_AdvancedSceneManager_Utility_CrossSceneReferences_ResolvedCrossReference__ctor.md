@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ResolvedCrossReference Constructor
 
 
@@ -20,11 +23,14 @@ public ResolvedCrossReference(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md">ResolvedReference</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md">ResolvedReference</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md">CrossSceneReference</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolveStatus.md">ResolveStatus</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md">ResolvedReference</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedReference.md">ResolvedReference</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md">CrossSceneReference</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolveStatus.md">ResolveStatus</a></dt><dd>Â </dd></dl>
 
 ## See Also
 
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ResolvedCrossReference.md">ResolvedCrossReference Structure</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

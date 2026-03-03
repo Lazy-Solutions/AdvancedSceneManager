@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # TryFind&lt;T&gt;(String, T) Method
 
 
@@ -22,7 +25,7 @@ where T : ASMModel
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd> </dd><dt>  T</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a></dt><dd>Â </dd><dt>Â Â T</dt><dd>Â </dd></dl>
 
 #### Type Parameters
 <dl><dt /><dd /></dl>
@@ -36,4 +39,7 @@ where T : ASMModel
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_AssetSearchUtility.md">AssetSearchUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_AssetSearchUtility_TryFind.md">TryFind Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

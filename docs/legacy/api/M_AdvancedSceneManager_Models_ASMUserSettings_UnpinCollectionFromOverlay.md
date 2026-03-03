@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # UnpinCollectionFromOverlay Method
 
 
@@ -17,7 +20,7 @@ public void UnpinCollectionFromOverlay(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd>Â </dd></dl>
 
 #### Implements
 <a href="M_AdvancedSceneManager_DependencyInjection_Editor_IUserSettings_UnpinCollectionFromOverlay.md">IUserSettings.UnpinCollectionFromOverlay(SceneCollection)</a>  
@@ -28,4 +31,7 @@ public void UnpinCollectionFromOverlay(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMUserSettings.md">ASMUserSettings Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneOpen Class
 
 
@@ -14,7 +17,7 @@ Contains examples for opening scenes.
 public class SceneOpen : MonoBehaviour
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  SceneOpen</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  Component  â†’  Behaviour  â†’  MonoBehaviour  â†’  SceneOpen</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class SceneOpen : MonoBehaviour
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_SceneOpen__ctor.md">SceneOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -88,7 +91,7 @@ public class SceneOpen : MonoBehaviour
 <td><p>Cancels all Invoke calls with name methodName on this behaviour.</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_SceneOpen_ChainingExample.md">ChainingExample</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>CompareTag(String)</td>
 <td><p>Checks the GameObject's tag against the defined tag.</p><br />(Inherited from Component)</td></tr>
@@ -202,13 +205,13 @@ public class SceneOpen : MonoBehaviour
 <td><p>Is any invoke on methodName pending?</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_SceneOpen_OpenSingle.md">OpenSingle</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_SceneOpen_OpenStandalone.md">OpenStandalone</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_SceneOpen_OpenWithLoadingScreen.md">OpenWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SendMessage(String)</td>
 <td><p>Calls the method named methodName on every MonoBehaviour in this game object.</p><br />(Inherited from Component)</td></tr>
@@ -259,7 +262,7 @@ public class SceneOpen : MonoBehaviour
 <td><p>Stops the first coroutine named methodName, or the coroutine stored in routine running on this behaviour.</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_SceneOpen_Toggle.md">Toggle</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>ToString</td>
 <td><p>Returns the name of the object.</p><br />(Inherited from Object)</td></tr>
@@ -275,7 +278,7 @@ public class SceneOpen : MonoBehaviour
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_ExampleScripts_SceneOpen_sceneToOpen.md">sceneToOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -310,4 +313,7 @@ public class SceneOpen : MonoBehaviour
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

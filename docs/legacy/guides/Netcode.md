@@ -1,3 +1,6 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Netcode
 
 > This example was built using **NGO (Netcode for GameObjects)** version **1.2.0**. Behavior may differ in later versions.
@@ -50,3 +53,5 @@ If you're attempting option 2 - best of luck.
 5. **Scenes marked for Netcode cannot be loaded offline.**
     
 This example is just a starting point. Feel free to experiment and modify as needed. It’s not a “one-size-fits-all” guide, adapt it to your project’s needs.
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

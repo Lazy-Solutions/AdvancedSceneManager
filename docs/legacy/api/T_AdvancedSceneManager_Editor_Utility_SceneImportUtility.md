@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneImportUtility Class
 
 
@@ -12,7 +15,7 @@
 public class SceneImportUtility : AssetPostprocessor
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  AssetPostprocessor  →  SceneImportUtility</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  AssetPostprocessor  â†’  SceneImportUtility</td></tr>
 </table>
 
 
@@ -21,7 +24,7 @@ public class SceneImportUtility : AssetPostprocessor
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility__ctor.md">SceneImportUtility</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -37,28 +40,28 @@ public class SceneImportUtility : AssetPostprocessor
 <td><p>The import context.</p><br />(Inherited from AssetPostprocessor)</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_duplicateScenes.md">duplicateScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_dynamicScenes.md">dynamicScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_importedBlacklistedScenes.md">importedBlacklistedScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_importedScenes.md">importedScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_invalidScenes.md">invalidScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_scenesWithBadPath.md">scenesWithBadPath</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_unimportedScenes.md">unimportedScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_Utility_SceneImportUtility_untrackedScenes.md">untrackedScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -71,13 +74,13 @@ public class SceneImportUtility : AssetPostprocessor
 <td>Serves as the default hash function.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_GetImportedScene.md">GetImportedScene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_GetImportedSceneByItsOwnPath.md">GetImportedSceneByItsOwnPath</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_GetImportedScenes.md">GetImportedScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>GetPostprocessOrder</td>
 <td><p>Override the order in which importers are processed.</p><br />(Inherited from AssetPostprocessor)</td></tr>
@@ -89,16 +92,16 @@ public class SceneImportUtility : AssetPostprocessor
 <td><p>Returns the version of the asset postprocessor.</p><br />(Inherited from AssetPostprocessor)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_Import.md">Import(IEnumerable(String), Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_Import_1.md">Import(IEnumerable(String), String, Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_Import_2.md">Import(String, Boolean, Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_Import_3.md">Import(String, String, Boolean, Boolean, Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>LogError(String)</td>
 <td><p>Logs an import error message to the console.</p><br />(Inherited from AssetPostprocessor)<br /><strong>
@@ -124,24 +127,27 @@ Obsolete.</strong></td></tr>
 <td>Returns a string that represents the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_Unimport_1.md">Unimport(IEnumerable(Scene), Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_Unimport_2.md">Unimport(IEnumerable(String), Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_Unimport.md">Unimport(Scene, Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Events
 <table>
 <tr>
 <td><a href="E_AdvancedSceneManager_Editor_Utility_SceneImportUtility_scenesChanged.md">scenesChanged</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

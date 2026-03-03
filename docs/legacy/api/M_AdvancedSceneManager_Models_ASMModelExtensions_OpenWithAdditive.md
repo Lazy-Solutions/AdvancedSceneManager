@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # OpenWithAdditive Method
 
 
@@ -20,7 +23,7 @@ public static SceneOperation OpenWithAdditive(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>[]</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>[]</dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
@@ -37,4 +40,7 @@ Extension Methods (C# Programming Guide)</a>.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMModelExtensions.md">ASMModelExtensions Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

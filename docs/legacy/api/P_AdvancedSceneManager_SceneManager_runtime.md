@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # runtime Property
 
 
@@ -24,4 +27,7 @@ public static Runtime runtime { get; }
 
 #### Reference
 <a href="T_AdvancedSceneManager_SceneManager.md">SceneManager Class</a>  
-<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>  
+<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

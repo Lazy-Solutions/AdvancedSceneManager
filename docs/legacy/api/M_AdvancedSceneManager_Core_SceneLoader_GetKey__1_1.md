@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetKey&lt;T&gt;(T) Method
 
 
@@ -21,7 +24,7 @@ where T : SceneLoader
 
 
 #### Parameters
-<dl><dt>  T</dt><dd> </dd></dl>
+<dl><dt>Â Â T</dt><dd>Â </dd></dl>
 
 #### Type Parameters
 <dl><dt /><dd /></dl>
@@ -35,4 +38,7 @@ where T : SceneLoader
 #### Reference
 <a href="T_AdvancedSceneManager_Core_SceneLoader.md">SceneLoader Class</a>  
 <a href="Overload_AdvancedSceneManager_Core_SceneLoader_GetKey.md">GetKey Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

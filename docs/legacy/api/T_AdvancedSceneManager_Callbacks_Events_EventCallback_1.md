@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # EventCallback&lt;TEventType&gt; Delegate
 
 
@@ -20,7 +23,7 @@ public delegate void EventCallback<in TEventType>(
 
 
 #### Parameters
-<dl><dt>  TEventType</dt><dd> </dd></dl>
+<dl><dt>Â Â TEventType</dt><dd>Â </dd></dl>
 
 #### Type Parameters
 <dl><dt /><dd /></dl>
@@ -29,4 +32,7 @@ public delegate void EventCallback<in TEventType>(
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

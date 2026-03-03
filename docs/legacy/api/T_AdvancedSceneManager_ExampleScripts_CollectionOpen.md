@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CollectionOpen Class
 
 
@@ -14,7 +17,7 @@ Contains examples for opening collections.
 public class CollectionOpen : MonoBehaviour
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  CollectionOpen</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  Component  â†’  Behaviour  â†’  MonoBehaviour  â†’  CollectionOpen</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class CollectionOpen : MonoBehaviour
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_CollectionOpen__ctor.md">CollectionOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -88,7 +91,7 @@ public class CollectionOpen : MonoBehaviour
 <td><p>Cancels all Invoke calls with name methodName on this behaviour.</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_CollectionOpen_ChainingExample.md">ChainingExample</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>CompareTag(String)</td>
 <td><p>Checks the GameObject's tag against the defined tag.</p><br />(Inherited from Component)</td></tr>
@@ -202,13 +205,13 @@ public class CollectionOpen : MonoBehaviour
 <td><p>Is any invoke on methodName pending?</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_CollectionOpen_Open.md">Open</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_CollectionOpen_OpenWithLoadingScreen.md">OpenWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_CollectionOpen_OpenWithUserData.md">OpenWithUserData</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SendMessage(String)</td>
 <td><p>Calls the method named methodName on every MonoBehaviour in this game object.</p><br />(Inherited from Component)</td></tr>
@@ -259,7 +262,7 @@ public class CollectionOpen : MonoBehaviour
 <td><p>Stops the first coroutine named methodName, or the coroutine stored in routine running on this behaviour.</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_CollectionOpen_ToggleOpen.md">ToggleOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>ToString</td>
 <td><p>Returns the name of the object.</p><br />(Inherited from Object)</td></tr>
@@ -275,7 +278,7 @@ public class CollectionOpen : MonoBehaviour
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_ExampleScripts_CollectionOpen_collectionToOpen.md">collectionToOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -310,4 +313,7 @@ public class CollectionOpen : MonoBehaviour
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

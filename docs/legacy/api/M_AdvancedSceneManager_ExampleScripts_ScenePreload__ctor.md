@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ScenePreload Constructor
 
 
@@ -19,4 +22,7 @@ public ScenePreload()
 
 #### Reference
 <a href="T_AdvancedSceneManager_ExampleScripts_ScenePreload.md">ScenePreload Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # OnInvoke Method
 
 
@@ -19,11 +22,14 @@ public virtual void OnInvoke(
 
 
 #### Parameters
-<dl><dt>  VisualElement</dt><dd>Use this to provide options in UI, remember to add a run button. If null, then popup is closed as it is assumed action has run without options.</dd></dl>
+<dl><dt>Â Â VisualElement</dt><dd>Use this to provide options in UI, remember to add a run button. If null, then popup is closed as it is assumed action has run without options.</dd></dl>
 
 ## See Also
 
 
 #### Reference
 <a href="T_AdvancedSceneManager_Editor_UI_ASMUtilityFunction.md">ASMUtilityFunction Class</a>  
-<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

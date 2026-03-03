@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # isEnabled Property
 
 
@@ -27,4 +30,7 @@ When disabled actions will run without checking whatever it is a spam call.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_SpamCheck.md">SpamCheck Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

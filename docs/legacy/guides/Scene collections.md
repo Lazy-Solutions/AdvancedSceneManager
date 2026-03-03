@@ -1,3 +1,5 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 # Scene collections
 
 A scene collection, *more commonly referred to as just collection*, is a collection of scenes that will all be opened at the same time.
@@ -82,3 +84,5 @@ SceneCollection.title is the title that you set in the UI.
 
 SceneCollection.name is the ScriptableObject name, which would be \<profilnamn\>-title
 
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

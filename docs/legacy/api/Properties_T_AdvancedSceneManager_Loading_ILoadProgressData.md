@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ILoadProgressData Properties
 
 
@@ -15,4 +18,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Loading_ILoadProgressData.md">ILoadProgressData Interface</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

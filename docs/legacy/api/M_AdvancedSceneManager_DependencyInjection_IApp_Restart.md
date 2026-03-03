@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Restart Method
 
 
@@ -17,11 +20,14 @@ void Restart(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Core_App_StartupProps.md">App.StartupProps</a>  (Optional)</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Core_App_StartupProps.md">App.StartupProps</a>Â Â (Optional)</dt><dd>Â </dd></dl>
 
 ## See Also
 
 
 #### Reference
 <a href="T_AdvancedSceneManager_DependencyInjection_IApp.md">IApp Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

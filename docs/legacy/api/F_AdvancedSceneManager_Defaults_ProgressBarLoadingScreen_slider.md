@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # slider Field
 
 
@@ -22,4 +25,7 @@ Slider
 
 #### Reference
 <a href="T_AdvancedSceneManager_Defaults_ProgressBarLoadingScreen.md">ProgressBarLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # OpenLoadingScreen(Scene, SceneOperation, Action&lt;LoadingScreen&gt;) Method
 
 
@@ -19,7 +22,7 @@ public static Async<LoadingScreen> OpenLoadingScreen(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>)  (Optional)</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>Â Â (Optional)</dt><dd>Â </dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>)Â Â (Optional)</dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="T_AdvancedSceneManager_Utility_Async_1.md">Async</a>(<a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>)
@@ -30,4 +33,7 @@ public static Async<LoadingScreen> OpenLoadingScreen(
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_LoadingScreenUtility_OpenLoadingScreen.md">OpenLoadingScreen Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

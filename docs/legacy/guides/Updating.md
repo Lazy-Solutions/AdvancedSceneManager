@@ -1,3 +1,5 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 # Updating Advanced Scene Manager
 
 Advanced Scene Manager uses the following versioning format:
@@ -75,3 +77,4 @@ To prevent issues, you must **manually uninstall** the old version before instal
 - **Always back up your project** (via Git or manual copy) before major updates.
 - **Keep an eye on Discord or GitHub** for patch notifications if you're waiting on a bug fix.
 - Only update when needed, especially for stable projects nearing release.
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

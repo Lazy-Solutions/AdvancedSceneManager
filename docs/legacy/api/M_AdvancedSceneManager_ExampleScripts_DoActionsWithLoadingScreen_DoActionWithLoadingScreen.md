@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # DoActionWithLoadingScreen Method
 
 
@@ -19,4 +22,7 @@ public void DoActionWithLoadingScreen()
 
 #### Reference
 <a href="T_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen.md">DoActionsWithLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

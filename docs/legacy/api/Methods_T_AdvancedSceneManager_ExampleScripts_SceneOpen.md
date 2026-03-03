@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneOpen Methods
 
 
@@ -25,7 +28,7 @@
 <td><p>Cancels all Invoke calls with name methodName on this behaviour.</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_SceneOpen_ChainingExample.md">ChainingExample</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>CompareTag(String)</td>
 <td><p>Checks the GameObject's tag against the defined tag.</p><br />(Inherited from Component)</td></tr>
@@ -139,13 +142,13 @@
 <td><p>Is any invoke on methodName pending?</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_SceneOpen_OpenSingle.md">OpenSingle</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_SceneOpen_OpenStandalone.md">OpenStandalone</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_SceneOpen_OpenWithLoadingScreen.md">OpenWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SendMessage(String)</td>
 <td><p>Calls the method named methodName on every MonoBehaviour in this game object.</p><br />(Inherited from Component)</td></tr>
@@ -196,7 +199,7 @@
 <td><p>Stops the first coroutine named methodName, or the coroutine stored in routine running on this behaviour.</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_SceneOpen_Toggle.md">Toggle</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>ToString</td>
 <td><p>Returns the name of the object.</p><br />(Inherited from Object)</td></tr>
@@ -241,4 +244,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_ExampleScripts_SceneOpen.md">SceneOpen Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

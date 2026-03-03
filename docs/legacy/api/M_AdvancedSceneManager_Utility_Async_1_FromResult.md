@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # FromResult Method
 
 
@@ -17,7 +20,7 @@ public static Async<T> FromResult(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_Async_1.md">T</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Utility_Async_1.md">T</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="T_AdvancedSceneManager_Utility_Async_1.md">Async</a>(<a href="T_AdvancedSceneManager_Utility_Async_1.md">T</a>)
@@ -27,4 +30,7 @@ public static Async<T> FromResult(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_Async_1.md">Async(T) Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

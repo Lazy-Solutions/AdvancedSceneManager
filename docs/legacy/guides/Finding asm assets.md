@@ -1,3 +1,6 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Finding ASM assets
 
 Finding assets in ASM is very easy. All assets have static `.Find()` methods, that take a string query parameter. 
@@ -22,3 +25,6 @@ var collection2 = SceneCollection.Find("example collection", activeProfile: fals
 
 var addressableScenes = Scene.Find(s => s.isAddressable); //Finds all scenes flagged to use the addressables scene loader. isAddressable property only available if addressables package is installed.
 ```
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

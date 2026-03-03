@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # DoBuild(BuildPlayerOptions) Method
 
 
@@ -17,7 +20,7 @@ BuildReport DoBuild(
 
 
 #### Parameters
-<dl><dt>  BuildPlayerOptions</dt><dd> </dd></dl>
+<dl><dt>Â Â BuildPlayerOptions</dt><dd>Â </dd></dl>
 
 #### Return Value
 BuildReport
@@ -28,4 +31,7 @@ BuildReport
 #### Reference
 <a href="T_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager.md">IBuildManager Interface</a>  
 <a href="Overload_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager_DoBuild.md">DoBuild Overload</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

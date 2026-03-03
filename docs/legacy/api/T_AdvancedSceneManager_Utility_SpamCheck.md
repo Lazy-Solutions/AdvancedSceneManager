@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SpamCheck Class
 
 
@@ -14,7 +17,7 @@ Provides an easy way to check for spamming.
 public class SpamCheck
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  SpamCheck</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  SpamCheck</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class SpamCheck
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SpamCheck__ctor.md">SpamCheck</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -74,4 +77,7 @@ public class SpamCheck
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # BuildUtility.Reason Enumeration
 
 
@@ -19,35 +22,38 @@ public enum Reason
 <tr>
 <td>Default</td>
 <td>0</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>InvalidScene</td>
 <td>1</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>NotIncludedInProfile</td>
 <td>2</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>IncludedInProfile</td>
 <td>3</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>DynamicScene</td>
 <td>4</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>Addressable</td>
 <td>5</td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SceneLoaderOverride</td>
 <td>6</td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

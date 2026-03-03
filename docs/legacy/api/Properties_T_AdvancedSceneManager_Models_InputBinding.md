@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # InputBinding Properties
 
 
@@ -13,7 +16,7 @@
 <td>Specifies the interaction type.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_InputBinding_isValid.md">isValid</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_InputBinding_openCollectionAsAdditive.md">openCollectionAsAdditive</a></td>
 <td>Specifies whatever collection should be opened as a collection.</td></tr>
@@ -24,4 +27,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_InputBinding.md">InputBinding Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

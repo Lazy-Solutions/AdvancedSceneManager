@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Quit Method
 
 
@@ -21,7 +24,7 @@ public void Quit(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd>Specifies whatever screen should fade out.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.nullable-1" target="_blank" rel="noopener noreferrer">Nullable</a>(Color)  (Optional)</dt><dd>Defaults to [!:ProjectSettings.buildUnitySplashScreenColor].</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a>  (Optional)</dt><dd>Specifies the duration of the fade out.</dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>Â Â (Optional)</dt><dd>Specifies whatever screen should fade out.</dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.nullable-1" target="_blank" rel="noopener noreferrer">Nullable</a>(Color)Â Â (Optional)</dt><dd>Defaults to [!:ProjectSettings.buildUnitySplashScreenColor].</dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">Single</a>Â Â (Optional)</dt><dd>Specifies the duration of the fade out.</dd></dl>
 
 #### Implements
 <a href="M_AdvancedSceneManager_DependencyInjection_IApp_Quit.md">IApp.Quit(Boolean, Nullable(Color), Single)</a>  
@@ -32,4 +35,7 @@ public void Quit(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Core_App.md">App Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

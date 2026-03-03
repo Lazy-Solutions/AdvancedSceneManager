@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AdvancedSceneManager.Editor.UI Namespace
 
 
@@ -12,7 +15,7 @@
 <td>Specifies a class that should be used as a view model for a settings page that should be inserted into the ASM window.</td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Editor_UI_ASMUtilityFunction.md">ASMUtilityFunction</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Editor_UI_ASMWindowElementAttribute.md">ASMWindowElementAttribute</a></td>
 <td>Specifies a method that should be used as a callback to insert a visual element into the ASM window.</td></tr>
@@ -27,3 +30,6 @@
 <td><a href="T_AdvancedSceneManager_Editor_UI_ElementLocation.md">ElementLocation</a></td>
 <td>Specifies location for a custom element in the ASM window.</td></tr>
 </table>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

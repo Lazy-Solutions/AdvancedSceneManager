@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ISceneCloseAwaitable Interface
 
 
@@ -21,11 +24,14 @@ public interface ISceneCloseAwaitable : ISceneCallbacks
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_ISceneCloseAwaitable_OnSceneClose.md">OnSceneClose</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

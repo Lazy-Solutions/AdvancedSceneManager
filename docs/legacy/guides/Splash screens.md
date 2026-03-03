@@ -1,3 +1,5 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 # Splash Screens
 
 Splash screens in ASM are loading screens that appear and cover startup. They use the same system as regular loading screens but are shown during startup, while collections or standalone startup scenes load.
@@ -89,3 +91,5 @@ ASM exposes references to the default splash screens:
 SceneManager.assets.defaults.splashASMScene
 SceneManager.assets.defaults.splashFadeScene
 ```
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

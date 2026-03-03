@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Item Property
 
 
@@ -19,7 +22,7 @@ Scene this[
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">Int32</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">Int32</a></dt><dd>Â </dd></dl>
 
 #### Property Value
 <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>
@@ -29,4 +32,7 @@ Scene this[
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ISceneCollection.md">ISceneCollection Interface</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

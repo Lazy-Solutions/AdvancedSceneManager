@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AdvancedSceneManager.Loading Namespace
 
 
@@ -52,3 +55,6 @@
 <td><a href="T_AdvancedSceneManager_Loading_SceneOperationKind.md">SceneOperationKind</a></td>
 <td>Gets the kind of operation that a <a href="T_AdvancedSceneManager_Loading_SceneLoadProgressData.md">SceneLoadProgressData</a> represents.</td></tr>
 </table>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # QueueUtility&lt;T&gt; Properties
 
 
@@ -21,4 +24,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_QueueUtility_1.md">QueueUtility(T) Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

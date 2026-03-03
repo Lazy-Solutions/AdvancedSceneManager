@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Unload(Scene, SceneUnloadArgs) Method
 
 
@@ -20,7 +23,7 @@ public static IEnumerator Unload(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>The scene to unload.</dd><dt>  <a href="T_AdvancedSceneManager_Core_SceneUnloadArgs.md">SceneUnloadArgs</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>The scene to unload.</dd><dt>Â Â <a href="T_AdvancedSceneManager_Core_SceneUnloadArgs.md">SceneUnloadArgs</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
@@ -41,4 +44,7 @@ This loads directly, bypassing many checks that .Close() has.
 #### Reference
 <a href="T_AdvancedSceneManager_Core_SceneLoaderExtensions.md">SceneLoaderExtensions Class</a>  
 <a href="Overload_AdvancedSceneManager_Core_SceneLoaderExtensions_Unload.md">Unload Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

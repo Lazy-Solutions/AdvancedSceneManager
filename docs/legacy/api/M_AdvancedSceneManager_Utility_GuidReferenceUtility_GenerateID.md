@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GenerateID Method
 
 
@@ -27,4 +30,7 @@ Uses https://blog.codinghorror.com/equipping-our-ascii-armor.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_GuidReferenceUtility.md">GuidReferenceUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetOrderedList Method
 
 
@@ -22,4 +25,7 @@ public static IEnumerable<(EditorBuildSettingsScene buildScene, BuildUtility.Rea
 
 #### Reference
 <a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility.md">BuildUtility Class</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

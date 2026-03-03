@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # TotalProgressBarLoadingScreen Fields
 
 
@@ -19,4 +22,7 @@ LoadingScreenBase</a>)</td></tr>
 
 #### Reference
 <a href="T_AdvancedSceneManager_Defaults_TotalProgressBarLoadingScreen.md">TotalProgressBarLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

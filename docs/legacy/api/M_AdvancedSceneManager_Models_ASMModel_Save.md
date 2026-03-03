@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Save Method
 
 
@@ -24,4 +27,7 @@ Can be called outside of editor, but has no effect.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

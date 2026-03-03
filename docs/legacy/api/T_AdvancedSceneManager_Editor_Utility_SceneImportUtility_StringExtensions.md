@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneImportUtility.StringExtensions Class
 
 
@@ -12,7 +15,7 @@
 public static class StringExtensions
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  SceneImportUtility.StringExtensions</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  SceneImportUtility.StringExtensions</td></tr>
 </table>
 
 
@@ -21,38 +24,41 @@ public static class StringExtensions
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_StringExtensions_HasScene.md">HasScene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_StringExtensions_IsASMScene.md">IsASMScene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_StringExtensions_IsBlacklisted.md">IsBlacklisted</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_StringExtensions_IsDynamicScene.md">IsDynamicScene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_StringExtensions_IsFallbackScene.md">IsFallbackScene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_StringExtensions_IsImported.md">IsImported</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_StringExtensions_IsPackageScene.md">IsPackageScene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_StringExtensions_IsScene.md">IsScene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_StringExtensions_IsTestScene.md">IsTestScene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_Utility_SceneImportUtility_StringExtensions_IsValidSceneToImport.md">IsValidSceneToImport</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

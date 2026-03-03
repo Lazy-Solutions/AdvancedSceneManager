@@ -1,3 +1,5 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 # Scene Loaders
 
 Scene loaders are what Scene operations use to actually load or unload a scene. They modularize scene loading, allowing ASM to support different loading mechanisms — whether runtime, editor, addressables, or even multiplayer (Netcode).
@@ -93,3 +95,4 @@ ASM uses the following logic to choose a scene loader:
 1. If a scene is flagged for a loader via `SetSceneLoader<T>()`, that loader is used.
 2. If multiple loaders match, the first one registered takes priority.
 3. If no match is found, the global loaders are used (Runtime or Editor).
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

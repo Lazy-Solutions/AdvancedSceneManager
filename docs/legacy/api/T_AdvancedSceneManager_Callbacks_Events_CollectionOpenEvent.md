@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CollectionOpenEvent Class
 
 
@@ -12,7 +15,7 @@
 public class CollectionOpenEvent : CollectionEvent
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_CollectionEvent.md">CollectionEvent</a>  →  CollectionOpenEvent</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  â†’  <a href="T_AdvancedSceneManager_Callbacks_Events_CollectionEvent.md">CollectionEvent</a>  â†’  CollectionOpenEvent</td></tr>
 </table>
 
 
@@ -21,7 +24,7 @@ public class CollectionOpenEvent : CollectionEvent
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_CollectionOpenEvent__ctor.md">CollectionOpenEvent</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -78,4 +81,7 @@ public class CollectionOpenEvent : CollectionEvent
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

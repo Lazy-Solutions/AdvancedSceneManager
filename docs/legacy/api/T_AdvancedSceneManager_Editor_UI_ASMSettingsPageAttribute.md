@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMSettingsPageAttribute Class
 
 
@@ -14,7 +17,7 @@ Specifies a class that should be used as a view model for a settings page that s
 public class ASMSettingsPageAttribute : Attribute
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="https://learn.microsoft.com/dotnet/api/system.attribute" target="_blank" rel="noopener noreferrer">Attribute</a>  →  ASMSettingsPageAttribute</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="https://learn.microsoft.com/dotnet/api/system.attribute" target="_blank" rel="noopener noreferrer">Attribute</a>  â†’  ASMSettingsPageAttribute</td></tr>
 </table>
 
 
@@ -68,4 +71,7 @@ public class ASMSettingsPageAttribute : Attribute
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

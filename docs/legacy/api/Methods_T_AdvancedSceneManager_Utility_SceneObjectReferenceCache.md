@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneObjectReferenceCache Methods
 
 
@@ -31,13 +34,13 @@
 <td><p>Checks the GameObject's tag against the defined tag.</p><br />(Inherited from Component)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneObjectReferenceCache_Enumerate.md">Enumerate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>Equals</td>
 <td><br />(Inherited from Object)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneObjectReferenceCache_Get.md">Get</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>GetComponent(String)</td>
 <td><p>The string-based version of this method.</p><br />(Inherited from Component)</td></tr>
@@ -142,7 +145,7 @@
 <td><p>Is any invoke on methodName pending?</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneObjectReferenceCache_Remove.md">Remove</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SendMessage(String)</td>
 <td><p>Calls the method named methodName on every MonoBehaviour in this game object.</p><br />(Inherited from Component)</td></tr>
@@ -169,7 +172,7 @@
 <td><p>Calls the method named methodName on every MonoBehaviour in this game object and on every ancestor of the behaviour.</p><br />(Inherited from Component)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneObjectReferenceCache_Set.md">Set</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>StartCoroutine(IEnumerator)</td>
 <td><p>Starts a Coroutine.</p><br />(Inherited from MonoBehaviour)</td></tr>
@@ -238,4 +241,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_SceneObjectReferenceCache.md">SceneObjectReferenceCache Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

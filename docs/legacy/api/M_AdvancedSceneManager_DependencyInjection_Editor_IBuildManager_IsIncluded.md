@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IsIncluded Method
 
 
@@ -18,7 +21,7 @@ bool IsIncluded(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_Reason.md">BuildUtility.Reason</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_Reason.md">BuildUtility.Reason</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
@@ -28,4 +31,7 @@ bool IsIncluded(
 
 #### Reference
 <a href="T_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager.md">IBuildManager Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

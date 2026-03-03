@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AdvancedSceneManager.ExampleScripts Namespace
 
 
@@ -23,3 +26,6 @@
 <td><a href="T_AdvancedSceneManager_ExampleScripts_ScenePreload.md">ScenePreload</a></td>
 <td>Contains examples for preloading scenes.</td></tr>
 </table>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # fadeColor Field
 
 
@@ -27,4 +30,7 @@ Unity splash screen color will be used if null.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Core_App_StartupProps.md">App.StartupProps Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

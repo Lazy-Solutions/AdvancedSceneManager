@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneCollection.IMethods_Target.IEvent Interface
 
 
@@ -32,10 +35,10 @@ Specifies methods to be used in UnityEvent, when not using collection itself.
 <td>Opens this collection as additive.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_IEvent__Preload.md">_Preload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_IEvent__PreloadAdditive.md">_PreloadAdditive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_IEvent__ToggleOpen.md">_ToggleOpen</a></td>
 <td>Toggles this collection open or closed.</td></tr>
@@ -45,4 +48,7 @@ Specifies methods to be used in UnityEvent, when not using collection itself.
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

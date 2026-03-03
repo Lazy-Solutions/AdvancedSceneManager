@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # WithCallback Method
 
 
@@ -19,7 +22,7 @@ public CallbackUtility.FluentInvokeAPI<T> WithCallback(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_Callback.md">CallbackUtility.FluentInvokeAPI(T).Callback</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1_Callback.md">CallbackUtility.FluentInvokeAPI(T).Callback</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">CallbackUtility.FluentInvokeAPI</a>(<a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">T</a>)
@@ -32,4 +35,7 @@ This is not needed for callback interfaces inheriting from <a href="T_AdvancedSc
 
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">CallbackUtility.FluentInvokeAPI(T) Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

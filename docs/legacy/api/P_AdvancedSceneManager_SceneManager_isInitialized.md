@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # isInitialized Property
 
 
@@ -27,4 +30,7 @@ See also <a href="M_AdvancedSceneManager_SceneManager_OnInitialized.md">OnInitia
 
 #### Reference
 <a href="T_AdvancedSceneManager_SceneManager.md">SceneManager Class</a>  
-<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>  
+<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Discoverables
 
 Discoverables is a centralized system for **attribute callbacks**.
@@ -112,3 +115,6 @@ The following discoverables are are not yet available, but will be in 3.1:
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **[RegisterService]** | Used with the DI system. Registers a service and can be applied to either the implementation or interface. This allows ASM to automatically discover and initialize services at startup.                                                     |
 | **[Inject]**          | Used with the DI system to specify fields or properties that ASM should automatically populate. This attribute can be applied within `ViewModel`, `ServiceBase`, or `MonoBehaviour` classes, making dependency setup seamless and automated. |
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

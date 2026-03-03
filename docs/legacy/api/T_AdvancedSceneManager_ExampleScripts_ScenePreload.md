@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ScenePreload Class
 
 
@@ -14,7 +17,7 @@ Contains examples for preloading scenes.
 public class ScenePreload : MonoBehaviour
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  ScenePreload</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  Component  â†’  Behaviour  â†’  MonoBehaviour  â†’  ScenePreload</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class ScenePreload : MonoBehaviour
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload__ctor.md">ScenePreload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -45,7 +48,7 @@ public class ScenePreload : MonoBehaviour
 <td><p>The game object this component is attached to. A component is always attached to a game object.</p><br />(Inherited from Component)</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_ExampleScripts_ScenePreload_hasPreloadedScene.md">hasPreloadedScene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>hideFlags</td>
 <td><p>Should the object be hidden, saved with the Scene or modifiable by the user?</p><br />(Inherited from Object)</td></tr>
@@ -91,10 +94,10 @@ public class ScenePreload : MonoBehaviour
 <td><p>Cancels all Invoke calls with name methodName on this behaviour.</p><br />(Inherited from MonoBehaviour)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_CancelPreloadCoroutine.md">CancelPreloadCoroutine</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_CancelPreloadStatically.md">CancelPreloadStatically</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>CompareTag(String)</td>
 <td><p>Checks the GameObject's tag against the defined tag.</p><br />(Inherited from Component)</td></tr>
@@ -106,10 +109,10 @@ public class ScenePreload : MonoBehaviour
 <td><br />(Inherited from Object)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_FinishPreloadCoroutine.md">FinishPreloadCoroutine</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_FinishPreloadStatically.md">FinishPreloadStatically</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>GetComponent(String)</td>
 <td><p>The string-based version of this method.</p><br />(Inherited from Component)</td></tr>
@@ -250,10 +253,10 @@ public class ScenePreload : MonoBehaviour
 <td><br />(Inherited from MonoBehaviour)<br /><strong>Obsolete.</strong></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_StartPreloadCoroutine.md">StartPreloadCoroutine</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_ScenePreload_StartPreloadStatically.md">StartPreloadStatically</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>StopAllCoroutines</td>
 <td><p>Stops all coroutines running on this behaviour.</p><br />(Inherited from MonoBehaviour)</td></tr>
@@ -281,7 +284,7 @@ public class ScenePreload : MonoBehaviour
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_ExampleScripts_ScenePreload_SceneToPreload.md">SceneToPreload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -316,4 +319,7 @@ public class ScenePreload : MonoBehaviour
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

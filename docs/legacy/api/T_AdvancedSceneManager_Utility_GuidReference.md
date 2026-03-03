@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GuidReference Class
 
 
@@ -14,7 +17,7 @@ Represents a persistent reference to the GameObject that this is attached to, se
 public class GuidReference : MonoBehaviour
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  GuidReference</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  Component  â†’  Behaviour  â†’  MonoBehaviour  â†’  GuidReference</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class GuidReference : MonoBehaviour
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_GuidReference__ctor.md">GuidReference</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -260,7 +263,7 @@ public class GuidReference : MonoBehaviour
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_Utility_GuidReference_guid.md">guid</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -295,4 +298,7 @@ public class GuidReference : MonoBehaviour
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

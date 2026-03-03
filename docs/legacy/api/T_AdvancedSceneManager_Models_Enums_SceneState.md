@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneState Enumeration
 
 
@@ -52,4 +55,7 @@ public enum SceneState
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Enums.md">AdvancedSceneManager.Models.Enums Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Enums.md">AdvancedSceneManager.Models.Enums Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

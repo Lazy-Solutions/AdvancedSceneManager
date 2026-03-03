@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # DiscardPreload Method
 <blockquote><strong>Note: This API is now obsolete.</strong></blockquote>
 
@@ -24,4 +27,7 @@ public SceneOperation DiscardPreload()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependentScene.md">ProfileDependentScene Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

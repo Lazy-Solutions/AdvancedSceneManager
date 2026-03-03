@@ -1,3 +1,5 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 ## Profiles
 
 Profiles in ASM are used to define and switch between distinct scene configurations. Each profile includes:
@@ -50,3 +52,4 @@ To avoid this unintended behavior, ASM disables automatic build scene list writi
 - The current ASM profile has **no associated Unity Build Profile**.
 
 A warning will be logged in console when this happens. This behavior can be changed in the Editor settings.
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

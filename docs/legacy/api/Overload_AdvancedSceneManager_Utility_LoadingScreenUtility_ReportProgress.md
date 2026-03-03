@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ReportProgress Method
 
 
@@ -5,7 +8,7 @@
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_ReportProgress.md">ReportProgress(ILoadProgressData)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_ReportProgress_1.md">ReportProgress(AsyncOperation, SceneOperationKind, SceneOperation, Scene)</a></td>
 <td>Returns a coroutine that returns when isDone becomes true. <em>onProgress</em> will be called every frame with progress.</td></tr>
@@ -16,4 +19,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

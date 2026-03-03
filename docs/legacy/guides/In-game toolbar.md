@@ -1,3 +1,6 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # In-game toolbar
 
 The in-game toolbar provides some debugging tools, especially useful in builds, relating to scene management. It can be imported via the package manager, from ASM package samples.
@@ -16,3 +19,5 @@ The in-game toolbar allows you to:
 * See if ASM is currently working (see [ASM scene operations](Scene%20operations.md)).
 * List open [scenes](Scenes.md).
 
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

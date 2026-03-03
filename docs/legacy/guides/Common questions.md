@@ -1,3 +1,6 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Common questions
 
 ## Why does Instantiated objects end up in Fallback scene
@@ -85,3 +88,6 @@ To reset all ASM configuration, delete the following:
 
 > Note that unity might keep settings in memory if open, then re-save to disk.\
 > If this happens, try again with unity closed.
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

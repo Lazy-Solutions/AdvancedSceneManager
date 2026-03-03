@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # App Properties
 
 
@@ -7,7 +10,7 @@
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Core_App_isBuildMode.md">isBuildMode</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Core_App_isQuitting.md">isQuitting</a></td>
 <td>Gets whatever ASM is currently in the process of quitting.</td></tr>
@@ -30,4 +33,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Core_App.md">App Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

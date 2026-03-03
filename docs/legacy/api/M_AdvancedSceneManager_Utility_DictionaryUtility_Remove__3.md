@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Remove&lt;TKey, TList, TItem&gt; Method
 
 
@@ -21,7 +24,7 @@ where TList : new(), Object, IList<TItem>
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2" target="_blank" rel="noopener noreferrer">Dictionary(TKey, TValue)</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a></dt><dd> </dd><dt>  TKey</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2" target="_blank" rel="noopener noreferrer">Dictionary(TKey, TValue)</a></dt><dd>Â </dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a></dt><dd>Â </dd><dt>Â Â TKey</dt><dd>Â </dd></dl>
 
 #### Type Parameters
 <dl><dt /><dd /><dt /><dd /><dt /><dd /></dl>
@@ -38,4 +41,7 @@ Extension Methods (C# Programming Guide)</a>.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_DictionaryUtility.md">DictionaryUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

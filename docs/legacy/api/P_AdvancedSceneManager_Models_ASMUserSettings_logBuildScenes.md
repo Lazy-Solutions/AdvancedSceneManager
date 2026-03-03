@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # logBuildScenes Property
 
 
@@ -26,4 +29,7 @@ public bool logBuildScenes { get; set; }
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMUserSettings.md">ASMUserSettings Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

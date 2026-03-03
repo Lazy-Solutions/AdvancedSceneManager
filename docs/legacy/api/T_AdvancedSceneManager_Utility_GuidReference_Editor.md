@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GuidReference.Editor Class
 
 
@@ -12,7 +15,7 @@
 public class Editor : Editor
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  ScriptableObject  →  Editor  →  GuidReference.Editor</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  ScriptableObject  â†’  Editor  â†’  GuidReference.Editor</td></tr>
 </table>
 
 
@@ -21,7 +24,7 @@ public class Editor : Editor
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_GuidReference_Editor__ctor.md">GuidReference.Editor</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -145,4 +148,7 @@ public class Editor : Editor
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # _OpenWithLoadingScreen Method
 
 
@@ -17,7 +20,7 @@ public void _OpenWithLoadingScreen(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>Â </dd></dl>
 
 #### Implements
 <a href="M_AdvancedSceneManager_Models_Scene_IMethods_IEvent__OpenWithLoadingScreen.md">Scene.IMethods.IEvent._OpenWithLoadingScreen(Scene)</a>  
@@ -28,4 +31,7 @@ public void _OpenWithLoadingScreen(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

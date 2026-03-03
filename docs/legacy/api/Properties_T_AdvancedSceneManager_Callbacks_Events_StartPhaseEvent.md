@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # StartPhaseEvent Properties
 
 
@@ -21,4 +24,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_Events_StartPhaseEvent.md">StartPhaseEvent Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

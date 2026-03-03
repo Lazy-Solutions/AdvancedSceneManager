@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Stop Method
 
 
@@ -21,4 +24,7 @@ public void Stop()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

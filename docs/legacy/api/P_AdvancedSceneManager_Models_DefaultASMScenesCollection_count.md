@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # count Property
 
 
@@ -26,4 +29,7 @@ public int count { get; }
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_DefaultASMScenesCollection.md">DefaultASMScenesCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

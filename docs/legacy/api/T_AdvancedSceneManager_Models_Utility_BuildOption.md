@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # BuildOption Class
 
 
@@ -15,7 +18,7 @@ Represents an enabled state depending on build context (editor, dev build, non-d
 public class BuildOption : INotifyPropertyChanged
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  BuildOption</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  BuildOption</td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged" target="_blank" rel="noopener noreferrer">INotifyPropertyChanged</a></td></tr>
 </table>
 
@@ -25,7 +28,7 @@ public class BuildOption : INotifyPropertyChanged
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_BuildOption__ctor.md">BuildOption</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -64,11 +67,14 @@ public class BuildOption : INotifyPropertyChanged
 <table>
 <tr>
 <td><a href="E_AdvancedSceneManager_Models_Utility_BuildOption_PropertyChanged.md">PropertyChanged</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CrossSceneReference(ObjectReference, ObjectReference) Constructor
 
 
@@ -18,7 +21,7 @@ public CrossSceneReference(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_ObjectReference.md">ObjectReference</a></dt><dd>Â </dd></dl>
 
 ## See Also
 
@@ -26,4 +29,7 @@ public CrossSceneReference(
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md">CrossSceneReference Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference__ctor.md">CrossSceneReference Overload</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

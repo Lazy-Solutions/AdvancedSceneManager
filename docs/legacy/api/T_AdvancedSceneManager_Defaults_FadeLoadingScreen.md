@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # FadeLoadingScreen Class
 
 
@@ -15,7 +18,7 @@ public class FadeLoadingScreen : LoadingScreen,
 	IFadeLoadingScreen
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  →  <a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>  →  FadeLoadingScreen</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  Component  â†’  Behaviour  â†’  MonoBehaviour  â†’  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  â†’  <a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>  â†’  FadeLoadingScreen</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Defaults_IconBounceLoadingScreen.md">AdvancedSceneManager.Defaults.IconBounceLoadingScreen</a><br /><a href="T_AdvancedSceneManager_Defaults_PressAnyButtonLoadingScreen.md">AdvancedSceneManager.Defaults.PressAnyButtonLoadingScreen</a><br /><a href="T_AdvancedSceneManager_Defaults_ProgressBarLoadingScreen.md">AdvancedSceneManager.Defaults.ProgressBarLoadingScreen</a></td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Loading_IFadeLoadingScreen.md">IFadeLoadingScreen</a></td></tr>
 </table>
@@ -26,7 +29,7 @@ public class FadeLoadingScreen : LoadingScreen,
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Defaults_FadeLoadingScreen__ctor.md">FadeLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -300,19 +303,19 @@ This will automatically register canvas with <a href="T_AdvancedSceneManager_Uti
 LoadingScreenBase</a>)</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_FadeLoadingScreen_color.md">color</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_FadeLoadingScreen_fadeBackground.md">fadeBackground</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_FadeLoadingScreen_fadeDuration.md">fadeDuration</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_FadeLoadingScreen_fadeGroup.md">fadeGroup</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_FadeLoadingScreen_fadeInDurationOverride.md">fadeInDurationOverride</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -347,4 +350,7 @@ LoadingScreenBase</a>)</td></tr>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

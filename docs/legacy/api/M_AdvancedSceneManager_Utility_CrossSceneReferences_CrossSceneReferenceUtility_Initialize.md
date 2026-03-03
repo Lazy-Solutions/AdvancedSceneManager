@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Initialize Method
 
 
@@ -22,4 +25,7 @@ public static void Initialize()
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility.md">CrossSceneReferenceUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility_Initialize.md">Initialize Overload</a>  
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

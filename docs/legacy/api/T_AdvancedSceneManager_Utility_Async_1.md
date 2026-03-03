@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Async&lt;T&gt; Class
 
 
@@ -15,7 +18,7 @@ public class Async<T> : CustomYieldInstruction
 
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  CustomYieldInstruction  →  Async(T)</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  CustomYieldInstruction  â†’  Async(T)</td></tr>
 </table>
 
 
@@ -27,10 +30,10 @@ public class Async<T> : CustomYieldInstruction
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_Async_1__ctor_1.md">Async(T)(Func(ValueTuple(Boolean, T)))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_Async_1__ctor.md">Async(T)(GlobalCoroutine, Func(T))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -56,7 +59,7 @@ public class Async<T> : CustomYieldInstruction
 <td>Determines whether the specified object is equal to the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_Async_1_FromResult.md">FromResult</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td>
 <td>Serves as the default hash function.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
@@ -81,4 +84,7 @@ public class Async<T> : CustomYieldInstruction
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

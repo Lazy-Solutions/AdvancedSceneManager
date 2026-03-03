@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IconBounceLoadingScreen Class
 
 
@@ -14,7 +17,7 @@ A default loading screen script. Displays progress with a bouncing icon.
 public class IconBounceLoadingScreen : FadeLoadingScreen
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  →  <a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>  →  <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>  →  IconBounceLoadingScreen</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  Component  â†’  Behaviour  â†’  MonoBehaviour  â†’  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  â†’  <a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">LoadingScreen</a>  â†’  <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>  â†’  IconBounceLoadingScreen</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class IconBounceLoadingScreen : FadeLoadingScreen
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Defaults_IconBounceLoadingScreen__ctor.md">IconBounceLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -290,7 +293,7 @@ public class IconBounceLoadingScreen : FadeLoadingScreen
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_IconBounceLoadingScreen_BackgroundTransform.md">BackgroundTransform</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Loading_LoadingScreenBase_canvas.md">canvas</a></td>
 <td><p>The canvas that this loading screen uses.</p><p>
@@ -303,7 +306,7 @@ LoadingScreenBase</a>)</td></tr>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>)</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_IconBounceLoadingScreen_duration.md">duration</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_FadeLoadingScreen_fadeBackground.md">fadeBackground</a></td>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>)</td></tr>
@@ -318,13 +321,13 @@ LoadingScreenBase</a>)</td></tr>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>)</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_IconBounceLoadingScreen_IconStartRotationZ.md">IconStartRotationZ</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_IconBounceLoadingScreen_IconStartSize.md">IconStartSize</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_IconBounceLoadingScreen_IconTransform.md">IconTransform</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -359,4 +362,7 @@ LoadingScreenBase</a>)</td></tr>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

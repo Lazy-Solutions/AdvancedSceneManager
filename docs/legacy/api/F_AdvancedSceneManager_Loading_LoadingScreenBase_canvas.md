@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # canvas Field
 
 
@@ -31,4 +34,7 @@ You probably want to set this through the inspector.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase Class</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

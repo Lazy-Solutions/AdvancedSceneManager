@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IEditable Properties
 
 
@@ -19,7 +22,7 @@
 <td>Gets the scene at the specified index.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_ISceneCollection.md">ISceneCollection</a>)</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_ISceneCollection_IEditable_sceneList.md">sceneList</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_ISceneCollection_scenePaths.md">scenePaths</a></td>
 <td>Gets the scenes of this collection.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_ISceneCollection.md">ISceneCollection</a>)</td></tr>
@@ -36,4 +39,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ISceneCollection_IEditable.md">ISceneCollection.IEditable Interface</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SerializableStringBoolDict Class
 
 
@@ -15,7 +18,7 @@ A serializable dictionary of string and bool.
 public class SerializableStringBoolDict : SerializableDictionary<string, bool>
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2" target="_blank" rel="noopener noreferrer">Dictionary(TKey, TValue)</a>  →  <a href="T_AdvancedSceneManager_Utility_SerializableDictionary_2.md">SerializableDictionary</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>, <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>)  →  SerializableStringBoolDict</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2" target="_blank" rel="noopener noreferrer">Dictionary(TKey, TValue)</a>  â†’  <a href="T_AdvancedSceneManager_Utility_SerializableDictionary_2.md">SerializableDictionary</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>, <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>)  â†’  SerializableStringBoolDict</td></tr>
 </table>
 
 
@@ -24,7 +27,7 @@ public class SerializableStringBoolDict : SerializableDictionary<string, bool>
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SerializableStringBoolDict__ctor.md">SerializableStringBoolDict</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -79,4 +82,7 @@ public class SerializableStringBoolDict : SerializableDictionary<string, bool>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

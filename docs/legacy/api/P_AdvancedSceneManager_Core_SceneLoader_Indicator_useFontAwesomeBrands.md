@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # useFontAwesomeBrands Property
 
 
@@ -24,4 +27,7 @@ public bool useFontAwesomeBrands {
 
 #### Reference
 <a href="T_AdvancedSceneManager_Core_SceneLoader_Indicator.md">SceneLoader.Indicator Structure</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

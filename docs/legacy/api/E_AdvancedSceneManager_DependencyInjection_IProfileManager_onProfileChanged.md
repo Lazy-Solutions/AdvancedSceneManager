@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # onProfileChanged Event
 
 
@@ -22,4 +25,7 @@ event Action onProfileChanged
 
 #### Reference
 <a href="T_AdvancedSceneManager_DependencyInjection_IProfileManager.md">IProfileManager Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

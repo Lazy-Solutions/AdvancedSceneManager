@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ElementLocation Enumeration
 
 
@@ -40,4 +43,7 @@ public enum ElementLocation
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

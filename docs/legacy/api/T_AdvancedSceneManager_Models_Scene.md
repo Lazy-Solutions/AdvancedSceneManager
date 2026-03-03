@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Scene Class
 
 
@@ -16,7 +19,7 @@ public class Scene : ASMModel, Scene.IEquality,
 	Scene.IMethods, Scene.IMethods.IEvent, ILockable, INotifyPropertyChanged
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  ScriptableObject  →  <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>  →  Scene</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  ScriptableObject  â†’  <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>  â†’  Scene</td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Models_ILockable.md">ILockable</a>, <a href="T_AdvancedSceneManager_Models_Scene_IEquality.md">Scene.IEquality</a>, <a href="T_AdvancedSceneManager_Models_Scene_IMethods.md">Scene.IMethods</a>, <a href="T_AdvancedSceneManager_Models_Scene_IMethods_IEvent.md">Scene.IMethods.IEvent</a>, <a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged" target="_blank" rel="noopener noreferrer">INotifyPropertyChanged</a>, <a href="https://learn.microsoft.com/dotnet/api/system.iequatable-1" target="_blank" rel="noopener noreferrer">IEquatable</a>(Scene), <a href="https://learn.microsoft.com/dotnet/api/system.iequatable-1" target="_blank" rel="noopener noreferrer">IEquatable</a>(<a href="https://learn.microsoft.com/dotnet/api/system.nullable-1" target="_blank" rel="noopener noreferrer">Nullable</a>(Scene)), <a href="https://learn.microsoft.com/dotnet/api/system.iequatable-1" target="_blank" rel="noopener noreferrer">IEquatable</a>(SceneAsset)</td></tr>
 </table>
 
@@ -29,17 +32,17 @@ A scene can be imported in the ASM window (via notification / popup), or by usin
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__ctor.md">Scene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_address.md">address</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_asmPath.md">asmPath</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_autoOpenInEditor.md">autoOpenInEditor</a></td>
 <td>Specifies whatever this scene should be opened automatically outside of play-mode.</td></tr>
@@ -78,7 +81,7 @@ A scene can be imported in the ASM window (via notification / popup), or by usin
 <td>Gets if this scene is currently active.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_isAddressable.md">isAddressable</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_isDefaultASMScene.md">isDefaultASMScene</a></td>
 <td>Gets if this is a default ASM scene.</td></tr>
@@ -149,10 +152,10 @@ ASMModel</a>)</td></tr>
 <td>Gets the path of the associated [!:SceneAsset].</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_sceneAsset.md">sceneAsset</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_sceneAssetGUID.md">sceneAssetGUID</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_sceneLoader.md">sceneLoader</a></td>
 <td>Specifies what [!:SceneManagement.SceneLoader] to use.</td></tr>
@@ -165,76 +168,76 @@ ASMModel</a>)</td></tr>
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__Activate.md">_Activate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__CancelPreload.md">_CancelPreload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__Close.md">_Close</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__CloseWithLoadingScreen.md">_CloseWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__DiscardPreload.md">_DiscardPreload</a></td>
 <td><strong>Obsolete.</strong></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__FinishPreload.md">_FinishPreload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__Open.md">_Open</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__OpenAndActivate.md">_OpenAndActivate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__OpenWithLoadingScreen.md">_OpenWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__Preload.md">_Preload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__Reopen.md">_Reopen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__SetActive.md">_SetActive</a></td>
 <td><strong>Obsolete.</strong></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene__ToggleOpen.md">_ToggleOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_Activate.md">Activate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_AddCrossSceneReference.md">AddCrossSceneReference</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_CancelPreload.md">CancelPreload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_ClearSceneLoader.md">ClearSceneLoader</a></td>
 <td>Clears custom scene loader for this scene. This means normal ASM functionality will be used.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_Close.md">Close</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_CloseWithLoadingScreen.md">CloseWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_DiscardPreload.md">DiscardPreload</a></td>
 <td><strong>Obsolete.</strong></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_Equals_1.md">Equals(Nullable(Scene))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_Equals_2.md">Equals(Object)</a></td>
 <td><br />(Overrides Object.Equals(Object))</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_Equals.md">Equals(Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_Equals_3.md">Equals(SceneAsset)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_EvalOpenAsPersistent.md">EvalOpenAsPersistent</a></td>
 <td>Gets whatever this scene will be opened as persistent.</td></tr>
@@ -252,7 +255,7 @@ ASMModel</a>)</td></tr>
 <td>Finds the object in the hierarchy of this Scene.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_FindObjects__1.md">FindObjects(T)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_FindOpen.md">FindOpen(Func(Scene, Boolean))</a></td>
 <td>Find open scenes by predicate.</td></tr>
@@ -261,7 +264,7 @@ ASMModel</a>)</td></tr>
 <td>Find open scenes by name or path.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_FinishPreload.md">FinishPreload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_GetEffectiveSceneLoader.md">GetEffectiveSceneLoader</a></td>
 <td>Gets the effective, contextual, scene loader for this scene. null if none found (this means normal ASM loader will be used).</td></tr>
@@ -279,13 +282,13 @@ ASMModel</a>)</td></tr>
 <td>Gets the scene loader specified for this scene. null if none set.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_GetTooltip.md">GetTooltip</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gettype" target="_blank" rel="noopener noreferrer">GetType</a></td>
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_IsEqual.md">IsEqual</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_IsMatch.md">IsMatch</a></td>
 <td>Gets if <em>q</em> matches <a href="P_AdvancedSceneManager_Models_ASMModel_name.md">name</a>, [!:id], <a href="P_AdvancedSceneManager_Models_Scene_path.md">path</a>.<br />(Overrides <a href="M_AdvancedSceneManager_Models_ASMModel_IsMatch.md">ASMModel.IsMatch(String)</a>)</td></tr>
@@ -297,22 +300,22 @@ ASMModel</a>)</td></tr>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_Open.md">Open</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_OpenAndActivate.md">OpenAndActivate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_OpenWithLoadingScreen.md">OpenWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_Preload.md">Preload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_RemoveCrossSceneReference.md">RemoveCrossSceneReference</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_Reopen.md">Reopen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMModel_Save.md">Save</a></td>
 <td>Saves the singleton to disk after a delay.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>)</td></tr>
@@ -333,7 +336,7 @@ ASMModel</a>)</td></tr>
 <td>Specifies the scene loader to use for this scene.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_ToggleOpen.md">ToggleOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_ToString.md">ToString</a></td>
 <td><br />(Overrides Object.ToString())</td></tr>
@@ -342,7 +345,7 @@ ASMModel</a>)</td></tr>
 <td>Find scenes by name or path.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_UsesSceneLoader__1.md">UsesSceneLoader(T)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Events
@@ -356,43 +359,43 @@ ASMModel</a>)</td></tr>
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_op_Equality.md">Equality(Scene, Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_op_Equality_1.md">Equality(Scene, SceneAsset)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_op_Equality_2.md">Equality(SceneAsset, Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_op_Implicit_4.md">Implicit(Nullable(Scene) to Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_op_Implicit_1.md">Implicit(Scene to Nullable(Scene))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_op_Implicit.md">Implicit(Scene to String)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_op_Implicit_3.md">Implicit(Scene to SceneAsset)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_op_Implicit_2.md">Implicit(Scene to Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_op_Implicit_6.md">Implicit(Scene to Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_op_Implicit_5.md">Implicit(SceneAsset to Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_op_Inequality.md">Inequality(Scene, Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_op_Inequality_1.md">Inequality(Scene, SceneAsset)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Scene_op_Inequality_2.md">Inequality(SceneAsset, Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Fields
@@ -402,10 +405,10 @@ ASMModel</a>)</td></tr>
 <td>Gets 't:AdvancedSceneManager.Models.Scene', the string to use in [!:AssetDatabase.FindAssets(string)].</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Models_Scene_InGameToolbarDescription.md">InGameToolbarDescription</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Models_Scene_PauseScreenDescription.md">PauseScreenDescription</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -473,4 +476,7 @@ ASMModel</a>)</td></tr>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMSettings.CustomData Class
 
 
@@ -13,7 +16,7 @@
 public class CustomData : ASMSettings.CustomDataDictionary<string, string>
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="T_AdvancedSceneManager_Models_ASMSettings_CustomDataDictionary_2.md">ASMSettings.CustomDataDictionary</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>, <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>)  →  ASMSettings.CustomData</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="T_AdvancedSceneManager_Models_ASMSettings_CustomDataDictionary_2.md">ASMSettings.CustomDataDictionary</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>, <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>)  â†’  ASMSettings.CustomData</td></tr>
 </table>
 
 
@@ -22,7 +25,7 @@ public class CustomData : ASMSettings.CustomDataDictionary<string, string>
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMSettings_CustomData__ctor.md">ASMSettings.CustomData</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -70,4 +73,7 @@ public class CustomData : ASMSettings.CustomDataDictionary<string, string>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

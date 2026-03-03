@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SerializableStringBoolDict Constructor
 
 
@@ -19,4 +22,7 @@ public SerializableStringBoolDict()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_SerializableStringBoolDict.md">SerializableStringBoolDict Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # OnProgressChanged Method
 
 
@@ -17,7 +20,7 @@ public override void OnProgressChanged(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Loading_ILoadProgressData.md">ILoadProgressData</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Loading_ILoadProgressData.md">ILoadProgressData</a></dt><dd>Â </dd></dl>
 
 #### Implements
 <a href="M_AdvancedSceneManager_Loading_ILoadProgressListener_OnProgressChanged.md">ILoadProgressListener.OnProgressChanged(ILoadProgressData)</a>  
@@ -28,4 +31,7 @@ public override void OnProgressChanged(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Defaults_ProgressBarLoadingScreen.md">ProgressBarLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CrossSceneReferenceUtility Class
 
 
@@ -14,7 +17,7 @@ An utility for saving and restoring cross-scene references.
 public static class CrossSceneReferenceUtility
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  CrossSceneReferenceUtility</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  CrossSceneReferenceUtility</td></tr>
 </table>
 
 
@@ -47,7 +50,7 @@ public static class CrossSceneReferenceUtility
 <td>Gets all references for this game object.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility_GetSceneStatus.md">GetSceneStatus</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReferenceUtility_Initialize.md">Initialize()</a></td>
 <td>Initializes cross-scene references, if it is enabled in settings.</td></tr>
@@ -72,4 +75,7 @@ public static class CrossSceneReferenceUtility
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

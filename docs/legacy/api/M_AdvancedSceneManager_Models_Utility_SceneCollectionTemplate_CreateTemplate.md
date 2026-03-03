@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CreateTemplate(SceneCollection) Method
 
 
@@ -17,7 +20,7 @@ public static SceneCollectionTemplate CreateTemplate(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="T_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate.md">SceneCollectionTemplate</a>
@@ -28,4 +31,7 @@ public static SceneCollectionTemplate CreateTemplate(
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate.md">SceneCollectionTemplate Class</a>  
 <a href="Overload_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate_CreateTemplate.md">CreateTemplate Overload</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

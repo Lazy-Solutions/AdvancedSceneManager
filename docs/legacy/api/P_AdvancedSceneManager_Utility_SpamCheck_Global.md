@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Global Property
 
 
@@ -27,4 +30,7 @@ Don't worry about conflicts with ASM stuff, we use a separate one.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_SpamCheck.md">SpamCheck Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

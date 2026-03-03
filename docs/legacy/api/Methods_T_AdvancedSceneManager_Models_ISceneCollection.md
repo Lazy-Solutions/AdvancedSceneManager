@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ISceneCollection Methods
 
 
@@ -10,7 +13,7 @@
 <td>Returns an enumerator that iterates through the collection.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>))</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ISceneCollection_OnPropertyChanged.md">OnPropertyChanged</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -43,4 +46,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ISceneCollection.md">ISceneCollection Interface</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

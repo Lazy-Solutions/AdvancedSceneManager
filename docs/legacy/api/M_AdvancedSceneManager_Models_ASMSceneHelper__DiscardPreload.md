@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # _DiscardPreload Method
 <blockquote><strong>Note: This API is now obsolete.</strong></blockquote>
 
@@ -25,4 +28,7 @@ public void _DiscardPreload()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMSceneHelper.md">ASMSceneHelper Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

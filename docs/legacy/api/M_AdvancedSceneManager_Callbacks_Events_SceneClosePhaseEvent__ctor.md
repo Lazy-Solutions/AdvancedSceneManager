@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneClosePhaseEvent Constructor
 
 
@@ -19,4 +22,7 @@ public SceneClosePhaseEvent()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_Events_SceneClosePhaseEvent.md">SceneClosePhaseEvent Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

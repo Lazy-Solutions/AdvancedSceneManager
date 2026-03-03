@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneReferenceCollection Class
 
 
@@ -15,7 +18,7 @@ A collection of <a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_Cro
 public class SceneReferenceCollection
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  SceneReferenceCollection</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  SceneReferenceCollection</td></tr>
 </table>
 
 
@@ -24,7 +27,7 @@ public class SceneReferenceCollection
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection__ctor.md">SceneReferenceCollection</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -47,14 +50,17 @@ public class SceneReferenceCollection
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection_references.md">references</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_SceneReferenceCollection_scene.md">scene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

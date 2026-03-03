@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # RegisterAllCallbacks Method
 
 
@@ -21,7 +24,7 @@ public static SceneOperation RegisterAllCallbacks(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Callbacks_Events_EventCallback_1.md">EventCallback</a>(<a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.nullable-1" target="_blank" rel="noopener noreferrer">Nullable</a>(<a href="T_AdvancedSceneManager_Core_Callbacks_When.md">When</a>)  (Optional)</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Callbacks_Events_EventCallback_1.md">EventCallback</a>(<a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</dt><dd>Â </dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.nullable-1" target="_blank" rel="noopener noreferrer">Nullable</a>(<a href="T_AdvancedSceneManager_Core_Callbacks_When.md">When</a>)Â Â (Optional)</dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>
@@ -31,4 +34,7 @@ public static SceneOperation RegisterAllCallbacks(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_Events_EventCallbackUtility.md">EventCallbackUtility Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

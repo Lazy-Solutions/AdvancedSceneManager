@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # LoadingScreenUtility Class
 
 
@@ -14,7 +17,7 @@ Manager for loading screens.
 public static class LoadingScreenUtility
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  LoadingScreenUtility</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  LoadingScreenUtility</td></tr>
 </table>
 
 
@@ -69,13 +72,13 @@ public static class LoadingScreenUtility
 <td>Gets if this scene is a loading screen.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_OpenLoadingScreen.md">OpenLoadingScreen(SceneOperation, Action(LoadingScreen))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_OpenLoadingScreen_1.md">OpenLoadingScreen(Scene, SceneOperation, Action(LoadingScreen))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_OpenLoadingScreen__1.md">OpenLoadingScreen(T)(SceneOperation, Action(T))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_OpenLoadingScreen__1_1.md">OpenLoadingScreen(T)(Scene, SceneOperation, Action(T))</a></td>
 <td>Shows a loading screen.</td></tr>
@@ -87,7 +90,7 @@ public static class LoadingScreenUtility
 <td>Registers a <a href="T_AdvancedSceneManager_Loading_ILoadProgressListener.md">ILoadProgressListener</a> that will receive callbacks when progress is reported from ASM.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_ReportProgress.md">ReportProgress(ILoadProgressData)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_LoadingScreenUtility_ReportProgress_1.md">ReportProgress(AsyncOperation, SceneOperationKind, SceneOperation, Scene)</a></td>
 <td>Returns a coroutine that returns when isDone becomes true. <em>onProgress</em> will be called every frame with progress.</td></tr>
@@ -100,4 +103,7 @@ public static class LoadingScreenUtility
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

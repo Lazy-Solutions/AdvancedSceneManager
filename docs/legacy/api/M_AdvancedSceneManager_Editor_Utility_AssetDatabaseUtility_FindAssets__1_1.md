@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # FindAssets&lt;T&gt;(String[]) Method
 
 
@@ -19,7 +22,7 @@ where T : Object
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>[]</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>[]</dt><dd>Â </dd></dl>
 
 #### Type Parameters
 <dl><dt /><dd /></dl>
@@ -33,4 +36,7 @@ where T : Object
 #### Reference
 <a href="T_AdvancedSceneManager_Editor_Utility_AssetDatabaseUtility.md">AssetDatabaseUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_Editor_Utility_AssetDatabaseUtility_FindAssets.md">FindAssets Overload</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

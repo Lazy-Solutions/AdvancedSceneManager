@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # onDestroyed Field
 
 
@@ -24,4 +27,7 @@ public static CoroutineUtility.Events.CoroutineEvent onDestroyed
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CoroutineUtility_Events.md">CoroutineUtility.Events Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Loading screens
 
 This guide explains how to use and customize loading screens in **Advanced Scene Manager (ASM)**.
@@ -170,3 +173,6 @@ You can also access them programmatically:
 ```csharp
 SceneManager.assets.defaults.fade //Gets the default fade scene
 ```
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

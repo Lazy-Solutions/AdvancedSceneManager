@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AdvancedSceneManager.Utility.CrossSceneReferences Namespace
 
 
@@ -9,7 +12,7 @@
 <table>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneDebugger.md">CrossSceneDebugger</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference.md">CrossSceneReference</a></td>
 <td>A reference to a variable that references another object in some other scene.</td></tr>
@@ -43,3 +46,6 @@
 <td><a href="T_AdvancedSceneManager_Utility_CrossSceneReferences_SceneStatus.md">SceneStatus</a></td>
 <td>Specifies the state of a scene.</td></tr>
 </table>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

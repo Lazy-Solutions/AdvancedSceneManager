@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # openCollectionAsAdditive Property
 
 
@@ -24,4 +27,7 @@ public bool openCollectionAsAdditive { get; set; }
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_InputBinding.md">InputBinding Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

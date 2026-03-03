@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # warning Field
 
 
@@ -22,4 +25,7 @@ public (string , string )[] warning
 
 #### Reference
 <a href="T_AdvancedSceneManager_Editor_Utility_BuildUtility_PostBuildEventArgs.md">BuildUtility.PostBuildEventArgs Structure</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

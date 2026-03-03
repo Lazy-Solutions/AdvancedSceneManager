@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SplashFade Class
 
 
@@ -14,7 +17,7 @@ A default splash screen script. Fades splash screen in and out.
 public class SplashFade : SplashScreen
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  →  <a href="T_AdvancedSceneManager_Loading_SplashScreen.md">SplashScreen</a>  →  SplashFade</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  Component  â†’  Behaviour  â†’  MonoBehaviour  â†’  <a href="T_AdvancedSceneManager_Loading_LoadingScreenBase.md">LoadingScreenBase</a>  â†’  <a href="T_AdvancedSceneManager_Loading_SplashScreen.md">SplashScreen</a>  â†’  SplashFade</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class SplashFade : SplashScreen
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Defaults_SplashFade__ctor.md">SplashFade</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -290,7 +293,7 @@ public class SplashFade : SplashScreen
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_SplashFade_background.md">background</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Loading_LoadingScreenBase_canvas.md">canvas</a></td>
 <td><p>The canvas that this loading screen uses.</p><p>
@@ -300,7 +303,7 @@ This will automatically register canvas with <a href="T_AdvancedSceneManager_Uti
 LoadingScreenBase</a>)</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_SplashFade_groupBackground.md">groupBackground</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -335,4 +338,7 @@ LoadingScreenBase</a>)</td></tr>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

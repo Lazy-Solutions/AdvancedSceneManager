@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # isActive Property
 
 
@@ -22,4 +25,7 @@ public static bool isActive { get; }
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_FallbackSceneUtility.md">FallbackSceneUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

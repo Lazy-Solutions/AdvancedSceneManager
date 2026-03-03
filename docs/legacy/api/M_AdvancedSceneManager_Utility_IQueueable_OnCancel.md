@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # OnCancel Method
 
 
@@ -21,4 +24,7 @@ void OnCancel()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_IQueueable.md">IQueueable Interface</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

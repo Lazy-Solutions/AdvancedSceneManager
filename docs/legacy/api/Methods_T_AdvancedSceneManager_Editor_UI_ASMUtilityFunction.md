@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMUtilityFunction Methods
 
 
@@ -19,10 +22,10 @@
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_UI_ASMUtilityFunction_OnDisable.md">OnDisable</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_UI_ASMUtilityFunction_OnEnable.md">OnEnable</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_UI_ASMUtilityFunction_OnInvoke.md">OnInvoke</a></td>
 <td>Called when this function is invoked from UI.</td></tr>
@@ -36,4 +39,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Editor_UI_ASMUtilityFunction.md">ASMUtilityFunction Class</a>  
-<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

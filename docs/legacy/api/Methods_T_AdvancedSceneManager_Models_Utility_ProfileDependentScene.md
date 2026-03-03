@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ProfileDependentScene Methods
 
 
@@ -7,52 +10,52 @@
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene__CancelPreload.md">_CancelPreload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene__Close.md">_Close</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene__CloseWithLoadingScreen.md">_CloseWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene__DiscardPreload.md">_DiscardPreload</a></td>
 <td><strong>Obsolete.</strong></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene__FinishPreload.md">_FinishPreload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene__Open.md">_Open</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene__OpenAndActivate.md">_OpenAndActivate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene__OpenWithLoadingScreen.md">_OpenWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene__Preload.md">_Preload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene__Reopen.md">_Reopen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene__SetActive.md">_SetActive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene__ToggleOpen.md">_ToggleOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene__ToggleOpenState.md">_ToggleOpenState</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene_CancelPreload.md">CancelPreload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene_Close.md">Close</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene_CloseWithLoadingScreen.md">CloseWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene_DiscardPreload.md">DiscardPreload</a></td>
 <td><strong>Obsolete.</strong></td></tr>
@@ -67,7 +70,7 @@
 <td><br />(Inherited from Object)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene_FinishPreload.md">FinishPreload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>GetHashCode</td>
 <td><br />(Inherited from Object)</td></tr>
@@ -82,28 +85,28 @@
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene_Open.md">Open</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene_OpenAndActivate.md">OpenAndActivate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene_OpenWithLoadingScreen.md">OpenWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene_Preload.md">Preload</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene_Reopen.md">Reopen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene_SetActive.md">SetActive</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SetDirty</td>
 <td><br />(Inherited from ScriptableObject)<br /><strong>Obsolete.</strong></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_ProfileDependentScene_ToggleOpen.md">ToggleOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>ToString</td>
 <td><p>Returns the name of the object.</p><br />(Inherited from Object)</td></tr>
@@ -121,4 +124,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependentScene.md">ProfileDependentScene Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ReportProgress(ILoadProgressData) Method
 
 
@@ -17,7 +20,7 @@ public static void ReportProgress(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Loading_ILoadProgressData.md">ILoadProgressData</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Loading_ILoadProgressData.md">ILoadProgressData</a></dt><dd>Â </dd></dl>
 
 ## See Also
 
@@ -25,4 +28,7 @@ public static void ReportProgress(
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_LoadingScreenUtility_ReportProgress.md">ReportProgress Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

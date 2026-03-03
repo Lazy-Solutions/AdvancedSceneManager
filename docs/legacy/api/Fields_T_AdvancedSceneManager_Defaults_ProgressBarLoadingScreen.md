@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ProgressBarLoadingScreen Fields
 
 
@@ -29,7 +32,7 @@ LoadingScreenBase</a>)</td></tr>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>)</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_ProgressBarLoadingScreen_slider.md">slider</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
@@ -37,4 +40,7 @@ LoadingScreenBase</a>)</td></tr>
 
 #### Reference
 <a href="T_AdvancedSceneManager_Defaults_ProgressBarLoadingScreen.md">ProgressBarLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

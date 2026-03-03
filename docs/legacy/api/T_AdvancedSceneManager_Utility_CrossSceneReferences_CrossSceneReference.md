@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CrossSceneReference Class
 
 
@@ -15,7 +18,7 @@ A reference to a variable that references another object in some other scene.
 public class CrossSceneReference
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  CrossSceneReference</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  CrossSceneReference</td></tr>
 </table>
 
 
@@ -24,10 +27,10 @@ public class CrossSceneReference
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference__ctor.md">CrossSceneReference()</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference__ctor_1.md">CrossSceneReference(ObjectReference, ObjectReference)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -50,17 +53,20 @@ public class CrossSceneReference
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference_id.md">id</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference_value.md">value</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Utility_CrossSceneReferences_CrossSceneReference_variable.md">variable</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility_CrossSceneReferences.md">AdvancedSceneManager.Utility.CrossSceneReferences Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

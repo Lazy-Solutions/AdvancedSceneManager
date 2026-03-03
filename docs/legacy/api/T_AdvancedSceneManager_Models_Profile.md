@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Profile Class
 
 
@@ -14,7 +17,7 @@ A profile for ASM, contains settings and collections.
 public class Profile : ASMModel
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  ScriptableObject  →  <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>  →  Profile</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  ScriptableObject  â†’  <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>  â†’  Profile</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class Profile : ASMModel
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile__ctor.md">Profile</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -33,7 +36,7 @@ public class Profile : ASMModel
 <td>Gets <a href="P_AdvancedSceneManager_Models_Profile_collections.md">collections</a>, <a href="P_AdvancedSceneManager_Models_Profile_standaloneScenes.md">standaloneScenes</a>, <a href="P_AdvancedSceneManager_Models_Profile_dynamicCollections.md">dynamicCollections</a>.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_buildProfile.md">buildProfile</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_collections.md">collections</a></td>
 <td>Gets the collections contained within this profile.</td></tr>
@@ -45,13 +48,13 @@ public class Profile : ASMModel
 <td>Gets the default asm scenes collection contained within this profile.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_defaultProfile.md">defaultProfile</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_dynamicCollections.md">dynamicCollections</a></td>
 <td>Gets the dynamic collections contained within this profile.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_forceProfile.md">forceProfile</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>hideFlags</td>
 <td><p>Should the object be hidden, saved with the Scene or modifiable by the user?</p><br />(Inherited from Object)</td></tr>
@@ -74,7 +77,7 @@ ASMModel</a>)</td></tr>
 <td>Gets the scenes managed by this profile.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_serializedObject.md">serializedObject</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Profile_specialScenes.md">specialScenes</a></td>
 <td>Gets default loading screen, splash screen and startup loading screen.</td></tr>
@@ -102,52 +105,52 @@ ASMModel</a>)</td></tr>
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_AddDefaultASMScenes.md">AddDefaultASMScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_ClearCollections.md">ClearCollections</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_ClearRemovedCollections.md">ClearRemovedCollections</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Contains.md">Contains</a></td>
 <td>Gets whatever this profile contains the specified collection.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Create.md">Create</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection.md">CreateCollection()</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection_1.md">CreateCollection(SceneCollection)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection_2.md">CreateCollection(SceneCollectionTemplate)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateCollection_3.md">CreateCollection(String)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateDynamicCollection.md">CreateDynamicCollection()</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateDynamicCollection_1.md">CreateDynamicCollection(String, String)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_CreateEmpty.md">CreateEmpty</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Delete.md">Delete(ISceneCollection)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Delete_1.md">Delete(Profile)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_DeleteDynamicCollection.md">DeleteDynamicCollection</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Duplicate.md">Duplicate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>Equals</td>
 <td><br />(Inherited from Object)</td></tr>
@@ -186,13 +189,13 @@ ASMModel</a>)</td></tr>
 <td><br />(Overrides <a href="M_AdvancedSceneManager_Models_ASMModel_OnValidate.md">ASMModel.OnValidate()</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Remove.md">Remove</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_RemoveDefaultASMScenes.md">RemoveDefaultASMScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_Restore.md">Restore</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMModel_Save.md">Save</a></td>
 <td>Saves the singleton to disk after a delay.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>)</td></tr>
@@ -207,7 +210,7 @@ ASMModel</a>)</td></tr>
 <td><br />(Inherited from ScriptableObject)<br /><strong>Obsolete.</strong></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_SetProfile.md">SetProfile</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Profile_ToString.md">ToString</a></td>
 <td><br />(Overrides Object.ToString())</td></tr>
@@ -220,7 +223,7 @@ ASMModel</a>)</td></tr>
 <table>
 <tr>
 <td><a href="E_AdvancedSceneManager_Models_Profile_onProfileChanged.md">onProfileChanged</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="E_AdvancedSceneManager_Models_ASMModel_PropertyChanged.md">PropertyChanged</a></td>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>)</td></tr>
@@ -233,7 +236,7 @@ ASMModel</a>)</td></tr>
 <td>Gets 't:AdvancedSceneManager.Models.Profile', the string to use in [!:AssetDatabase.FindAssets(string)].</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Models_Profile_NewCollectionTitle.md">NewCollectionTitle</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -247,4 +250,7 @@ ASMModel</a>)</td></tr>
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

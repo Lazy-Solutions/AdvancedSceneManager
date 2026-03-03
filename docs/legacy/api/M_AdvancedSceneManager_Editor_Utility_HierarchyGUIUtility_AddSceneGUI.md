@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AddSceneGUI Method
 
 
@@ -18,11 +21,14 @@ public static void AddSceneGUI(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility_HierarchySceneGUI.md">HierarchyGUIUtility.HierarchySceneGUI</a></dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">Int32</a>  (Optional)</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility_HierarchySceneGUI.md">HierarchyGUIUtility.HierarchySceneGUI</a></dt><dd>Â </dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">Int32</a>Â Â (Optional)</dt><dd>Â </dd></dl>
 
 ## See Also
 
 
 #### Reference
 <a href="T_AdvancedSceneManager_Editor_Utility_HierarchyGUIUtility.md">HierarchyGUIUtility Class</a>  
-<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_Utility.md">AdvancedSceneManager.Editor.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

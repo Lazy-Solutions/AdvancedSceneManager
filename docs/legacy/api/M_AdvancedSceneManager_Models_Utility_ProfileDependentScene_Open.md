@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Open Method
 
 
@@ -26,4 +29,7 @@ public SceneOperation Open()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependentScene.md">ProfileDependentScene Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

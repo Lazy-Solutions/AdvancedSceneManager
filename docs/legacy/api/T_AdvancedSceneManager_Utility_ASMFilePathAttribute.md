@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMFilePathAttribute Class
 
 
@@ -14,7 +17,7 @@ A [!:FilePathAttribute] that supports build.
 public class ASMFilePathAttribute : FilePathAttribute
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="https://learn.microsoft.com/dotnet/api/system.attribute" target="_blank" rel="noopener noreferrer">Attribute</a>  →  FilePathAttribute  →  ASMFilePathAttribute</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="https://learn.microsoft.com/dotnet/api/system.attribute" target="_blank" rel="noopener noreferrer">Attribute</a>  â†’  FilePathAttribute  â†’  ASMFilePathAttribute</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class ASMFilePathAttribute : FilePathAttribute
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_ASMFilePathAttribute__ctor.md">ASMFilePathAttribute</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -62,4 +65,7 @@ public class ASMFilePathAttribute : FilePathAttribute
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneCollectionTemplate Methods
 
 
@@ -28,7 +31,7 @@
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate_Apply.md">Apply</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_AutomaticallyOpenScene.md">AutomaticallyOpenScene</a></td>
 <td>Gets or sets whatever the scene should automatically open, when this collection is open. Default is true.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</td></tr>
@@ -40,13 +43,13 @@
 <td>Gets if this collection contains <em>scene</em>.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate_CreateCollection.md">CreateCollection</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate_CreateTemplate.md">CreateTemplate(SceneCollection)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate_CreateTemplate_1.md">CreateTemplate(String)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Equals_1.md">Equals(Object)</a></td>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</td></tr>
@@ -133,4 +136,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate.md">SceneCollectionTemplate Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

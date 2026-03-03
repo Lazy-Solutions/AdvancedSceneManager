@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMSettings.SceneData Constructor
 
 
@@ -19,4 +22,7 @@ public SceneData()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMSettings_SceneData.md">ASMSettings.SceneData Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

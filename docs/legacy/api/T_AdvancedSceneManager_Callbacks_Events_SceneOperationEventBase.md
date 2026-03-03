@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneOperationEventBase Class
 
 
@@ -14,7 +17,7 @@ The base class for all scene operation event callbacks.
 public abstract class SceneOperationEventBase
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  SceneOperationEventBase</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  SceneOperationEventBase</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Callbacks_Events_CollectionEvent.md">AdvancedSceneManager.Callbacks.Events.CollectionEvent</a><br /><a href="T_AdvancedSceneManager_Callbacks_Events_EndPhaseEvent.md">AdvancedSceneManager.Callbacks.Events.EndPhaseEvent</a><br /><a href="T_AdvancedSceneManager_Callbacks_Events_LoadingScreenClosePhaseEvent.md">AdvancedSceneManager.Callbacks.Events.LoadingScreenClosePhaseEvent</a><br /><a href="T_AdvancedSceneManager_Callbacks_Events_LoadingScreenOpenPhaseEvent.md">AdvancedSceneManager.Callbacks.Events.LoadingScreenOpenPhaseEvent</a><br /><a href="T_AdvancedSceneManager_Callbacks_Events_SceneClosePhaseEvent.md">AdvancedSceneManager.Callbacks.Events.SceneClosePhaseEvent</a><br /><a href="T_AdvancedSceneManager_Callbacks_Events_SceneEvent.md">AdvancedSceneManager.Callbacks.Events.SceneEvent</a><br /><a href="T_AdvancedSceneManager_Callbacks_Events_SceneOpenPhaseEvent.md">AdvancedSceneManager.Callbacks.Events.SceneOpenPhaseEvent</a><br /><a href="T_AdvancedSceneManager_Callbacks_Events_ScenePreloadPhaseEvent.md">AdvancedSceneManager.Callbacks.Events.ScenePreloadPhaseEvent</a><br /><a href="T_AdvancedSceneManager_Callbacks_Events_StartPhaseEvent.md">AdvancedSceneManager.Callbacks.Events.StartPhaseEvent</a></td></tr>
 </table>
 
@@ -49,7 +52,7 @@ public abstract class SceneOperationEventBase
 <td>Returns a string that represents the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_5.md">WaitFor(Awaitable)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_2.md">WaitFor(Func(GlobalCoroutine))</a></td>
 <td>Specifies a coroutine that the operation should wait for.</td></tr>
@@ -58,7 +61,7 @@ public abstract class SceneOperationEventBase
 <td>Specifies a coroutine that the operation should wait for.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor_4.md">WaitFor(Func(Awaitable))</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_WaitFor.md">WaitFor(GlobalCoroutine)</a></td>
 <td>Specifies a coroutine that the operation should wait for.</td></tr>
@@ -71,4 +74,7 @@ public abstract class SceneOperationEventBase
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

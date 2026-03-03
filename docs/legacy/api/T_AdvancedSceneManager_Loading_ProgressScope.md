@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ProgressScope Class
 
 
@@ -15,7 +18,7 @@ public class ProgressScope : ILoadProgressListener,
 	IDisposable
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  ProgressScope</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  ProgressScope</td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Loading_ILoadProgressListener.md">ILoadProgressListener</a>, <a href="https://learn.microsoft.com/dotnet/api/system.idisposable" target="_blank" rel="noopener noreferrer">IDisposable</a></td></tr>
 </table>
 
@@ -25,14 +28,14 @@ public class ProgressScope : ILoadProgressListener,
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Loading_ProgressScope__ctor.md">ProgressScope</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Loading_ProgressScope_isRegistered.md">isRegistered</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Loading_ProgressScope_operationCount.md">operationCount</a></td>
 <td>Gets the amount of scenes that will be either unloaded or loaded.</td></tr>
@@ -97,4 +100,7 @@ public class ProgressScope : ILoadProgressListener,
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

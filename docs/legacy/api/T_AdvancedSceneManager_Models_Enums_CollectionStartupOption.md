@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CollectionStartupOption Enumeration
 
 
@@ -36,4 +39,7 @@ public enum CollectionStartupOption
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Enums.md">AdvancedSceneManager.Models.Enums Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Enums.md">AdvancedSceneManager.Models.Enums Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

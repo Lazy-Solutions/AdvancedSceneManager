@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # DefaultASMScenesCollection Class
 
 
@@ -14,7 +17,7 @@ public class DefaultASMScenesCollection : ISceneCollection,
 	IEnumerable<Scene>, IEnumerable, INotifyPropertyChanged
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  DefaultASMScenesCollection</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  DefaultASMScenesCollection</td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Models_ISceneCollection.md">ISceneCollection</a>, <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>(<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>), <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable" target="_blank" rel="noopener noreferrer">IEnumerable</a>, <a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged" target="_blank" rel="noopener noreferrer">INotifyPropertyChanged</a></td></tr>
 </table>
 
@@ -24,32 +27,32 @@ public class DefaultASMScenesCollection : ISceneCollection,
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_DefaultASMScenesCollection__ctor.md">DefaultASMScenesCollection</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_DefaultASMScenesCollection_count.md">count</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_DefaultASMScenesCollection_description.md">description</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_DefaultASMScenesCollection_id.md">id</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_DefaultASMScenesCollection_Item.md">Item</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_DefaultASMScenesCollection_scenePaths.md">scenePaths</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_DefaultASMScenesCollection_scenes.md">scenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_DefaultASMScenesCollection_title.md">title</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -59,7 +62,7 @@ public class DefaultASMScenesCollection : ISceneCollection,
 <td>Determines whether the specified object is equal to the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_DefaultASMScenesCollection_GetEnumerator.md">GetEnumerator</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td>
 <td>Serves as the default hash function.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
@@ -68,30 +71,30 @@ public class DefaultASMScenesCollection : ISceneCollection,
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_DefaultASMScenesCollection_ImportScenes.md">ImportScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_DefaultASMScenesCollection_OnPropertyChanged.md">OnPropertyChanged</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">ToString</a></td>
 <td>Returns a string that represents the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_DefaultASMScenesCollection_Unimport.md">Unimport</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Events
 <table>
 <tr>
 <td><a href="E_AdvancedSceneManager_Models_DefaultASMScenesCollection_PropertyChanged.md">PropertyChanged</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Fields
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_Models_DefaultASMScenesCollection_isImported.md">isImported</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -123,4 +126,7 @@ public class DefaultASMScenesCollection : ISceneCollection,
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

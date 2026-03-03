@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Cancel Method
 
 
@@ -24,4 +27,7 @@ Note that the operation might not be cancelled immediately, if user defined call
 
 #### Reference
 <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

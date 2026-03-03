@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # folder Property
 
 
@@ -26,4 +29,7 @@ public string folder { get; }
 
 #### Reference
 <a href="T_AdvancedSceneManager_Package.md">Package Class</a>  
-<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>  
+<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

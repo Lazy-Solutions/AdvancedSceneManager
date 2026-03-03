@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # OnOpen Field
 
 
@@ -24,4 +27,7 @@ UnityEvent(<a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>)
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Scene_Events.md">Scene.Events Structure</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

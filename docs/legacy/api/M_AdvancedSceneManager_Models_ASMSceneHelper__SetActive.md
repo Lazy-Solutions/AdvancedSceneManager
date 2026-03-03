@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # _SetActive Method
 <blockquote><strong>Note: This API is now obsolete.</strong></blockquote>
 
@@ -19,7 +22,7 @@ public void _SetActive(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>Â </dd></dl>
 
 #### Implements
 <a href="M_AdvancedSceneManager_Models_Scene_IMethods_Target_IEvent__SetActive.md">Scene.IMethods_Target.IEvent._SetActive(Scene)</a>  
@@ -30,4 +33,7 @@ public void _SetActive(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMSceneHelper.md">ASMSceneHelper Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

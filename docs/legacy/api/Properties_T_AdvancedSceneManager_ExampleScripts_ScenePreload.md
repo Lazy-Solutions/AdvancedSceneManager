@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ScenePreload Properties
 
 
@@ -22,7 +25,7 @@
 <td><p>The game object this component is attached to. A component is always attached to a game object.</p><br />(Inherited from Component)</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_ExampleScripts_ScenePreload_hasPreloadedScene.md">hasPreloadedScene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>hideFlags</td>
 <td><p>Should the object be hidden, saved with the Scene or modifiable by the user?</p><br />(Inherited from Object)</td></tr>
@@ -51,4 +54,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_ExampleScripts_ScenePreload.md">ScenePreload Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

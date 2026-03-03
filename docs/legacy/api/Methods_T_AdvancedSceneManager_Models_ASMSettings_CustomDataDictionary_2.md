@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CustomDataDictionary&lt;TKey, TValue&gt; Methods
 
 
@@ -22,7 +25,7 @@
 <td>Gets custom data.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMSettings_CustomDataDictionary_2_GetEnumerator.md">GetEnumerator</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td>
 <td>Serves as the default hash function.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
@@ -42,4 +45,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMSettings_CustomDataDictionary_2.md">ASMSettings.CustomDataDictionary(TKey, TValue) Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,5 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 # Scene manager
 
 The scene manager class is meant to act as the core API of ASM, and provides access to the most important systems within.
@@ -89,3 +91,5 @@ An alternative to this is \[OnLoad] attribute.
 [OnLoad]
 static void OnLoad() {}
 ```
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

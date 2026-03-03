@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # UpdateSceneList(Boolean) Method
 
 
@@ -17,7 +20,7 @@ void UpdateSceneList(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a></dt><dd>Â </dd></dl>
 
 ## See Also
 
@@ -25,4 +28,7 @@ void UpdateSceneList(
 #### Reference
 <a href="T_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager.md">IBuildManager Interface</a>  
 <a href="Overload_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager_UpdateSceneList.md">UpdateSceneList Overload</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

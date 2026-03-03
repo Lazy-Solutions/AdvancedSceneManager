@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IconBounceLoadingScreen Fields
 
 
@@ -7,7 +10,7 @@
 <table>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_IconBounceLoadingScreen_BackgroundTransform.md">BackgroundTransform</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Loading_LoadingScreenBase_canvas.md">canvas</a></td>
 <td><p>The canvas that this loading screen uses.</p><p>
@@ -20,7 +23,7 @@ LoadingScreenBase</a>)</td></tr>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>)</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_IconBounceLoadingScreen_duration.md">duration</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_FadeLoadingScreen_fadeBackground.md">fadeBackground</a></td>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>)</td></tr>
@@ -35,13 +38,13 @@ LoadingScreenBase</a>)</td></tr>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>)</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_IconBounceLoadingScreen_IconStartRotationZ.md">IconStartRotationZ</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_IconBounceLoadingScreen_IconStartSize.md">IconStartSize</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_IconBounceLoadingScreen_IconTransform.md">IconTransform</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
@@ -49,4 +52,7 @@ LoadingScreenBase</a>)</td></tr>
 
 #### Reference
 <a href="T_AdvancedSceneManager_Defaults_IconBounceLoadingScreen.md">IconBounceLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

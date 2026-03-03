@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # InputBinding Constructor
 
 
@@ -17,11 +20,14 @@ public InputBinding(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_InputButton.md">InputButton</a>[]</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_InputButton.md">InputButton</a>[]</dt><dd>Â </dd></dl>
 
 ## See Also
 
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_InputBinding.md">InputBinding Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

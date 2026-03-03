@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # userData Property
 
 
@@ -27,4 +30,7 @@ Use <a href="M_AdvancedSceneManager_Models_SceneCollection_UserData__1.md">UserD
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

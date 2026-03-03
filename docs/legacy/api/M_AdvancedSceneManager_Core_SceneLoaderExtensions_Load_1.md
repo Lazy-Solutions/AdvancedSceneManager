@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Load(Scene, Boolean, SceneOperation, SceneCollection, Boolean, Nullable&lt;ThreadPriority&gt;, Action, Action&lt;String&gt;) Method
 
 
@@ -26,7 +29,7 @@ public static IEnumerator Load(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>The scene to load.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd>Specifies whatever scene should be preloaded.</dd><dt>  <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>  (Optional)</dt><dd>Specifies what operation this load is part of, if any.</dd><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>  (Optional)</dt><dd>Specifies if this is part of a collection open / close operation.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>  (Optional)</dt><dd>Specifies if progress should be reported.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.nullable-1" target="_blank" rel="noopener noreferrer">Nullable</a>(ThreadPriority)  (Optional)</dt><dd> </dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action" target="_blank" rel="noopener noreferrer">Action</a>  (Optional)</dt><dd>Callback for when scene is successfully loaded.</dd><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>)  (Optional)</dt><dd>Callback for when an error occurs.</dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>The scene to load.</dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>Â Â (Optional)</dt><dd>Specifies whatever scene should be preloaded.</dd><dt>Â Â <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a>Â Â (Optional)</dt><dd>Specifies what operation this load is part of, if any.</dd><dt>Â Â <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>Â Â (Optional)</dt><dd>Specifies if this is part of a collection open / close operation.</dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>Â Â (Optional)</dt><dd>Specifies if progress should be reported.</dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.nullable-1" target="_blank" rel="noopener noreferrer">Nullable</a>(ThreadPriority)Â Â (Optional)</dt><dd>Â </dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.action" target="_blank" rel="noopener noreferrer">Action</a>Â Â (Optional)</dt><dd>Callback for when scene is successfully loaded.</dd><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.action-1" target="_blank" rel="noopener noreferrer">Action</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">String</a>)Â Â (Optional)</dt><dd>Callback for when an error occurs.</dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a>
@@ -47,4 +50,7 @@ This loads directly, bypassing many checks that .Open() has.
 #### Reference
 <a href="T_AdvancedSceneManager_Core_SceneLoaderExtensions.md">SceneLoaderExtensions Class</a>  
 <a href="Overload_AdvancedSceneManager_Core_SceneLoaderExtensions_Load.md">Load Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

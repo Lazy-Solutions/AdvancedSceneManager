@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # DoActionsWithLoadingScreen Methods
 
 
@@ -7,10 +10,10 @@
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen_DoActionWithLoadingScreen.md">DoActionWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen_DoCoroutineWithLoadingScreen.md">DoCoroutineWithLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Equals</a></td>
 <td>Determines whether the specified object is equal to the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
@@ -30,4 +33,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen.md">DoActionsWithLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

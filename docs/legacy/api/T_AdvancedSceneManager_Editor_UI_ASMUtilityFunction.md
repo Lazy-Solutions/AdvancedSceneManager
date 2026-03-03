@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMUtilityFunction Class
 
 
@@ -12,7 +15,7 @@
 public abstract class ASMUtilityFunction
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  ASMUtilityFunction</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  ASMUtilityFunction</td></tr>
 </table>
 
 
@@ -21,16 +24,16 @@ public abstract class ASMUtilityFunction
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_UI_ASMUtilityFunction_Description.md">Description</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_UI_ASMUtilityFunction_Group.md">Group</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_UI_ASMUtilityFunction_Name.md">Name</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Editor_UI_ASMUtilityFunction_Order.md">Order</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -49,10 +52,10 @@ public abstract class ASMUtilityFunction
 <td>Gets the <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_UI_ASMUtilityFunction_OnDisable.md">OnDisable</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_UI_ASMUtilityFunction_OnEnable.md">OnEnable</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Editor_UI_ASMUtilityFunction_OnInvoke.md">OnInvoke</a></td>
 <td>Called when this function is invoked from UI.</td></tr>
@@ -65,4 +68,7 @@ public abstract class ASMUtilityFunction
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>  
+<a href="N_AdvancedSceneManager_Editor_UI.md">AdvancedSceneManager.Editor.UI Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

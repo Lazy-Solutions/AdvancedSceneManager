@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetService(Type) Method
 
 
@@ -17,7 +20,7 @@ public static DependencyInjectionUtility.IInjectable GetService(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a></dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable.md">DependencyInjectionUtility.IInjectable</a>
@@ -28,4 +31,7 @@ public static DependencyInjectionUtility.IInjectable GetService(
 #### Reference
 <a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility.md">DependencyInjectionUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_GetService.md">GetService Overload</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

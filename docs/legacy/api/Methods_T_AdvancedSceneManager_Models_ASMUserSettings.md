@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMUserSettings Methods
 
 
@@ -25,7 +28,7 @@
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Utility_ASMScriptableSingleton_1.md">ASMScriptableSingleton(T)</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMUserSettings_PinCollectionToOverlay.md">PinCollectionToOverlay</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_ASMScriptableSingleton_1_Save.md">Save</a></td>
 <td>Saves the singleton to disk after a delay.<br />(Inherited from <a href="T_AdvancedSceneManager_Utility_ASMScriptableSingleton_1.md">ASMScriptableSingleton(T)</a>)</td></tr>
@@ -37,16 +40,16 @@
 <td><br />(Inherited from ScriptableObject)<br /><strong>Obsolete.</strong></td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMUserSettings_ToolbarAction.md">ToolbarAction(Int32, SceneCollection, Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMUserSettings_ToolbarAction_1.md">ToolbarAction(Int32, SceneCollection, Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>ToString</td>
 <td><p>Returns the name of the object.</p><br />(Inherited from Object)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMUserSettings_UnpinCollectionFromOverlay.md">UnpinCollectionFromOverlay</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -61,4 +64,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMUserSettings.md">ASMUserSettings Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

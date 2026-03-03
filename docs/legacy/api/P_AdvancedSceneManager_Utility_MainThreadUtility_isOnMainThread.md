@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # isOnMainThread Property
 
 
@@ -24,4 +27,7 @@ public static bool isOnMainThread { get; }
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_MainThreadUtility.md">MainThreadUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

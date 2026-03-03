@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AdvancedSceneManager.Models Namespace
 
 
@@ -21,22 +24,22 @@
 <td>Contains the core of ASM assets. Contains [!:projectSettings] and [!:assets]</td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_ASMSettings_CustomData.md">ASMSettings.CustomData</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_ASMSettings_CustomDataDictionary_2.md">ASMSettings.CustomDataDictionary(TKey, TValue)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_ASMSettings_SceneData.md">ASMSettings.SceneData</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_ASMUserSettings.md">ASMUserSettings</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_Blocklist.md">Blocklist</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_DefaultASMScenesCollection.md">DefaultASMScenesCollection</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_DynamicCollection.md">DynamicCollection</a></td>
 <td>Represents a collection that can take a path and then gather all scenes within, guaranteeing that they are all added to build, including non-imported and blacklisted scenes.</td></tr>
@@ -64,10 +67,10 @@
 <table>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_Scene_Events.md">Scene.Events</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_SceneCollection_Events.md">SceneCollection.Events</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Interfaces
@@ -80,13 +83,13 @@
 <td>Represents the core variables of what makes up a scene collection.</td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_ISceneCollection_IEditable.md">ISceneCollection.IEditable</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_ISceneCollection_IOpenable.md">ISceneCollection.IOpenable</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_Scene_IEquality.md">Scene.IEquality</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_Scene_IMethods.md">Scene.IMethods</a></td>
 <td>Defines a set of methods that is meant to be shared between: <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>, <a href="T_AdvancedSceneManager_Models_ASMSceneHelper.md">ASMSceneHelper</a>, and <a href="P_AdvancedSceneManager_SceneManager_runtime.md">runtime</a>.</td></tr>
@@ -120,5 +123,8 @@
 <td>Specifies the interaction type to use for scene bindings.</td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Models_UpdateInterval.md">UpdateInterval</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

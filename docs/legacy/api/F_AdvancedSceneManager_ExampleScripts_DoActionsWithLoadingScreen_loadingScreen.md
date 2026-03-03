@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # loadingScreen Field
 
 
@@ -22,4 +25,7 @@ public Scene loadingScreen
 
 #### Reference
 <a href="T_AdvancedSceneManager_ExampleScripts_DoActionsWithLoadingScreen.md">DoActionsWithLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>  
+<a href="N_AdvancedSceneManager_ExampleScripts.md">AdvancedSceneManager.ExampleScripts Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

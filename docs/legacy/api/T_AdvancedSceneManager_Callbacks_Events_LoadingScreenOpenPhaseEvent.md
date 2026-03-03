@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # LoadingScreenOpenPhaseEvent Class
 
 
@@ -12,7 +15,7 @@
 public class LoadingScreenOpenPhaseEvent : SceneOperationEventBase
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  →  LoadingScreenOpenPhaseEvent</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  â†’  LoadingScreenOpenPhaseEvent</td></tr>
 </table>
 
 
@@ -21,17 +24,17 @@ public class LoadingScreenOpenPhaseEvent : SceneOperationEventBase
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_LoadingScreenOpenPhaseEvent__ctor.md">LoadingScreenOpenPhaseEvent</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Callbacks_Events_LoadingScreenOpenPhaseEvent_loadingScene.md">loadingScene</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Callbacks_Events_LoadingScreenOpenPhaseEvent_openedLoadingScreen.md">openedLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase_operation.md">operation</a></td>
 <td>The operation that invoked this event callback.<br />(Inherited from <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>)</td></tr>
@@ -81,4 +84,7 @@ public class LoadingScreenOpenPhaseEvent : SceneOperationEventBase
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

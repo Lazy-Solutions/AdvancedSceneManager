@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AdvancedSceneManager.Defaults Namespace
 
 
@@ -33,5 +36,8 @@
 <td>A default splash screen script. Fades splash screen in and out.</td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Defaults_TotalProgressBarLoadingScreen.md">TotalProgressBarLoadingScreen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

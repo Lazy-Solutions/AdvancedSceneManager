@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # allowExcludingCollectionsFromBuild Property
 
 
@@ -31,4 +34,7 @@ When true, a toggle will be shown in scene manager window.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMSettings.md">ASMSettings Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

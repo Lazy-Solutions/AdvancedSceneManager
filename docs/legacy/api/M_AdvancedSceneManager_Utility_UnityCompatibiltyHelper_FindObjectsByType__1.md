@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # FindObjectsByType&lt;T&gt; Method
 
 
@@ -34,4 +37,7 @@ The array of objects found matching the type specified.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_UnityCompatibiltyHelper.md">UnityCompatibiltyHelper Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

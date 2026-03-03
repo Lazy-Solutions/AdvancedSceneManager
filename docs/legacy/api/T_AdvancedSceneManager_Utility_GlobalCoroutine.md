@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GlobalCoroutine Class
 
 
@@ -14,7 +17,7 @@ Represents a <a href="https://learn.microsoft.com/dotnet/api/system.collections.
 public class GlobalCoroutine : CustomYieldInstruction
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  CustomYieldInstruction  →  GlobalCoroutine</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  CustomYieldInstruction  â†’  GlobalCoroutine</td></tr>
 </table>
 
 
@@ -83,11 +86,14 @@ public class GlobalCoroutine : CustomYieldInstruction
 Object.ToString()</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_GlobalCoroutine_ViewCallerInCodeEditor.md">ViewCallerInCodeEditor</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

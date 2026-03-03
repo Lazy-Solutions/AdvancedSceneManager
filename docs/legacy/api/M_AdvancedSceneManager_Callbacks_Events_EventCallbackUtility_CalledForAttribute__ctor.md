@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # EventCallbackUtility.CalledForAttribute Constructor
 
 
@@ -17,11 +20,14 @@ public CalledForAttribute(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Core_Callbacks_When.md">When</a>[]</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Core_Callbacks_When.md">When</a>[]</dt><dd>Â </dd></dl>
 
 ## See Also
 
 
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_Events_EventCallbackUtility_CalledForAttribute.md">EventCallbackUtility.CalledForAttribute Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

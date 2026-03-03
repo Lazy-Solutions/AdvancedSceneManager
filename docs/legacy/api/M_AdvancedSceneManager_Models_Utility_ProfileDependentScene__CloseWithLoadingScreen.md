@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # _CloseWithLoadingScreen Method
 
 
@@ -17,7 +20,7 @@ public void _CloseWithLoadingScreen(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>Â </dd></dl>
 
 #### Implements
 <a href="M_AdvancedSceneManager_Models_Scene_IMethods_IEvent__CloseWithLoadingScreen.md">Scene.IMethods.IEvent._CloseWithLoadingScreen(Scene)</a>  
@@ -28,4 +31,7 @@ public void _CloseWithLoadingScreen(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependentScene.md">ProfileDependentScene Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

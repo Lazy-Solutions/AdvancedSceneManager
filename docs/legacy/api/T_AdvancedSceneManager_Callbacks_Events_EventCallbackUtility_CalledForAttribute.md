@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # EventCallbackUtility.CalledForAttribute Class
 
 
@@ -12,7 +15,7 @@
 public class CalledForAttribute : Attribute
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="https://learn.microsoft.com/dotnet/api/system.attribute" target="_blank" rel="noopener noreferrer">Attribute</a>  →  EventCallbackUtility.CalledForAttribute</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="https://learn.microsoft.com/dotnet/api/system.attribute" target="_blank" rel="noopener noreferrer">Attribute</a>  â†’  EventCallbackUtility.CalledForAttribute</td></tr>
 </table>
 
 
@@ -21,7 +24,7 @@ public class CalledForAttribute : Attribute
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_Events_EventCallbackUtility_CalledForAttribute__ctor.md">EventCallbackUtility.CalledForAttribute</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -31,7 +34,7 @@ public class CalledForAttribute : Attribute
 <td>When implemented in a derived class, gets a unique identifier for this <a href="https://learn.microsoft.com/dotnet/api/system.attribute" target="_blank" rel="noopener noreferrer">Attribute</a>.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.attribute" target="_blank" rel="noopener noreferrer">Attribute</a>)</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Callbacks_Events_EventCallbackUtility_CalledForAttribute_When.md">When</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -60,4 +63,7 @@ public class CalledForAttribute : Attribute
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # QuoteLoadingScreen Fields
 
 
@@ -17,7 +20,7 @@ LoadingScreenBase</a>)</td></tr>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>)</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_QuoteLoadingScreen_Content.md">Content</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_FadeLoadingScreen_fadeBackground.md">fadeBackground</a></td>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>)</td></tr>
@@ -32,25 +35,25 @@ LoadingScreenBase</a>)</td></tr>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Defaults_FadeLoadingScreen.md">FadeLoadingScreen</a>)</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_QuoteLoadingScreen_pressAnyKeyToContinueText.md">pressAnyKeyToContinueText</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_QuoteLoadingScreen_QuoteCountText.md">QuoteCountText</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_QuoteLoadingScreen_quotes.md">quotes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_QuoteLoadingScreen_QuoteText.md">QuoteText</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_ProgressBarLoadingScreen_slider.md">slider</a></td>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Defaults_ProgressBarLoadingScreen.md">ProgressBarLoadingScreen</a>)</td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_QuoteLoadingScreen_slideshowDelay.md">slideshowDelay</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="F_AdvancedSceneManager_Defaults_QuoteLoadingScreen_Text.md">Text</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
@@ -58,4 +61,7 @@ LoadingScreenBase</a>)</td></tr>
 
 #### Reference
 <a href="T_AdvancedSceneManager_Defaults_QuoteLoadingScreen.md">QuoteLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

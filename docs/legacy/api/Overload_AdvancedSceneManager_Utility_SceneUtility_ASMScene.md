@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMScene Method
 
 
@@ -14,7 +17,7 @@
 <td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene.md">ASMScene(SceneAsset)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_3.md">ASMScene(Component, Scene)</a></td>
 <td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.</td></tr>
@@ -26,7 +29,7 @@
 <td>Gets the associated ASM <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SceneUtility_ASMScene_1.md">ASMScene(SceneAsset, Scene)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
@@ -34,4 +37,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

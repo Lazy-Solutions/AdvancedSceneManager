@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AdvancedSceneManager.Utility Namespace
 
 
@@ -24,7 +27,7 @@
 <td>An utility class to manage sort order on canvases.</td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_CoroutineAwaiter.md">CoroutineAwaiter</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_CoroutineUtility.md">CoroutineUtility</a></td>
 <td>An utility class that helps with running coroutines detached from MonoBehaviour.</td></tr>
@@ -36,7 +39,7 @@
 <td>Contains utility functions for working with dictionaries.</td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_FallbackSceneUtility.md">FallbackSceneUtility</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a></td>
 <td>Represents a <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a> coroutine started using <a href="T_AdvancedSceneManager_Utility_CoroutineUtility.md">CoroutineUtility</a>.</td></tr>
@@ -45,7 +48,7 @@
 <td>Represents a persistent reference to the GameObject that this is attached to, see also <a href="T_AdvancedSceneManager_Utility_GuidReferenceUtility.md">GuidReferenceUtility</a> .</td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_GuidReference_Editor.md">GuidReference.Editor</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_GuidReferenceUtility.md">GuidReferenceUtility</a></td>
 <td>An utility for referencing objects globally.</td></tr>
@@ -65,10 +68,10 @@ Only usable in play mode.</p></td></tr>
 <td>A utility that provides queuing.</td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_SceneBindingUtility.md">SceneBindingUtility</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_SceneObjectReferenceCache.md">SceneObjectReferenceCache</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility</a></td>
 <td>An utility class to perform actions on scenes.</td></tr>
@@ -89,7 +92,7 @@ Only usable in play mode.</p></td></tr>
 <td>Provides utility functions for working with stopwatches.</td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_TaskUtility.md">TaskUtility</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_UIFadeExtensions.md">UIFadeExtensions</a></td>
 <td>Provides extension methods for CanvasGroup.</td></tr>
@@ -109,11 +112,14 @@ Only usable in play mode.</p></td></tr>
 <table>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_CoroutineUtility_Events_CoroutineEvent.md">CoroutineUtility.Events.CoroutineEvent</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_CoroutineUtility_Events_CoroutineFrameEndEvent.md">CoroutineUtility.Events.CoroutineFrameEndEvent</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="T_AdvancedSceneManager_Utility_CoroutineUtility_Events_CoroutineFrameStartEvent.md">CoroutineUtility.Events.CoroutineFrameStartEvent</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GlobalCoroutine Methods
 
 
@@ -36,7 +39,7 @@
 Object.ToString()</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_GlobalCoroutine_ViewCallerInCodeEditor.md">ViewCallerInCodeEditor</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
@@ -44,4 +47,7 @@ Object.ToString()</a>)</td></tr>
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

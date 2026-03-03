@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # AdvancedSceneManager.DependencyInjection Namespace
 
 
@@ -36,3 +39,6 @@
 <td><a href="T_AdvancedSceneManager_DependencyInjection_ISceneManager.md">ISceneManager</a></td>
 <td>Manages runtime functionality for Advanced Scene Manager such as open scenes and collection.</td></tr>
 </table>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

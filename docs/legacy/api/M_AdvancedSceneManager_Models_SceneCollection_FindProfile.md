@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # FindProfile Method
 
 
@@ -25,4 +28,7 @@ public Profile FindProfile()
 #### Reference
 <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection Class</a>  
 <a href="Overload_AdvancedSceneManager_Models_SceneCollection_FindProfile.md">FindProfile Overload</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

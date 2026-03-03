@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # _OpenAndActivate Method
 
 
@@ -17,7 +20,7 @@ public void _OpenAndActivate(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a></dt><dd>Â </dd></dl>
 
 #### Implements
 <a href="M_AdvancedSceneManager_Models_Scene_IMethods_Target_IEvent__OpenAndActivate.md">Scene.IMethods_Target.IEvent._OpenAndActivate(Scene)</a>  
@@ -28,4 +31,7 @@ public void _OpenAndActivate(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMSceneHelper.md">ASMSceneHelper Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

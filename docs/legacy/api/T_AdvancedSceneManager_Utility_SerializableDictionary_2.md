@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SerializableDictionary&lt;TKey, TValue&gt; Class
 
 
@@ -17,7 +20,7 @@ public class SerializableDictionary<TKey, TValue> : Dictionary,
 
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2" target="_blank" rel="noopener noreferrer">Dictionary(TKey, TValue)</a>  →  SerializableDictionary(TKey, TValue)</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2" target="_blank" rel="noopener noreferrer">Dictionary(TKey, TValue)</a>  â†’  SerializableDictionary(TKey, TValue)</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Models_Utility_ProfileDependent_1_Dict.md">AdvancedSceneManager.Models.Utility.ProfileDependent(T).Dict</a><br /><a href="T_AdvancedSceneManager_Utility_SerializableStringBoolDict.md">AdvancedSceneManager.Utility.SerializableStringBoolDict</a></td></tr>
 <tr><td><strong>Implements</strong></td><td>ISerializationCallbackReceiver</td></tr>
 </table>
@@ -34,30 +37,30 @@ Older unity versions might need a wrapper class, since they won't support serial
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SerializableDictionary_2__ctor.md">SerializableDictionary(TKey, TValue)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Utility_SerializableDictionary_2_Keys.md">Keys</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Utility_SerializableDictionary_2_throwOnDeserializeWhenKeyValueMismatch.md">throwOnDeserializeWhenKeyValueMismatch</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Utility_SerializableDictionary_2_Values.md">Values</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SerializableDictionary_2_OnAfterDeserialize.md">OnAfterDeserialize</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Utility_SerializableDictionary_2_OnBeforeSerialize.md">OnBeforeSerialize</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Extension Methods
@@ -89,4 +92,7 @@ Older unity versions might need a wrapper class, since they won't support serial
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

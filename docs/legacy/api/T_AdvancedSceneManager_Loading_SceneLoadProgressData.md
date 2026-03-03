@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneLoadProgressData Structure
 
 
@@ -14,7 +17,7 @@ The default implementation of <a href="T_AdvancedSceneManager_Loading_ILoadProgr
 public readonly struct SceneLoadProgressData : ILoadProgressData
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="https://learn.microsoft.com/dotnet/api/system.valuetype" target="_blank" rel="noopener noreferrer">ValueType</a>  →  SceneLoadProgressData</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="https://learn.microsoft.com/dotnet/api/system.valuetype" target="_blank" rel="noopener noreferrer">ValueType</a>  â†’  SceneLoadProgressData</td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Loading_ILoadProgressData.md">ILoadProgressData</a></td></tr>
 </table>
 
@@ -24,7 +27,7 @@ public readonly struct SceneLoadProgressData : ILoadProgressData
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Loading_SceneLoadProgressData__ctor.md">SceneLoadProgressData</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -40,7 +43,7 @@ public readonly struct SceneLoadProgressData : ILoadProgressData
 <td>The scene that is being loaded or unloaded. Can be null.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Loading_SceneLoadProgressData_value.md">value</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Methods
@@ -63,4 +66,7 @@ public readonly struct SceneLoadProgressData : ILoadProgressData
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

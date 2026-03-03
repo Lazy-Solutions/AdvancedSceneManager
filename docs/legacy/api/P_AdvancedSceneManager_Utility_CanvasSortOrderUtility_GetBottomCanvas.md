@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetBottomCanvas Property
 
 
@@ -22,4 +25,7 @@ Canvas
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CanvasSortOrderUtility.md">CanvasSortOrderUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IconBounceLoadingScreen Properties
 
 
@@ -60,4 +63,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Defaults_IconBounceLoadingScreen.md">IconBounceLoadingScreen Class</a>  
-<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>  
+<a href="N_AdvancedSceneManager_Defaults.md">AdvancedSceneManager.Defaults Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneManager Class
 
 
@@ -14,7 +17,7 @@ The central Advanced Scene Manager API. Provides access to the most important th
 public static class SceneManager
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  SceneManager</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  SceneManager</td></tr>
 </table>
 
 
@@ -38,10 +41,10 @@ public static class SceneManager
 <td>Gets the scenes that are open.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_SceneManager_package.md">package</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_SceneManager_preloadedScenes.md">preloadedScenes</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_SceneManager_profile.md">profile</a></td>
 <td>Gets the currently active profile.</td></tr>
@@ -67,4 +70,7 @@ public static class SceneManager
 
 
 #### Reference
-<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>  
+<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

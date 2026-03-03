@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # IsFallbackScene Method
 
 
@@ -19,7 +22,7 @@ public static bool IsFallbackScene(
 
 
 #### Parameters
-<dl><dt>  Scene</dt><dd> </dd></dl>
+<dl><dt>Â Â Scene</dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>
@@ -29,4 +32,7 @@ public static bool IsFallbackScene(
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_FallbackSceneUtility.md">FallbackSceneUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

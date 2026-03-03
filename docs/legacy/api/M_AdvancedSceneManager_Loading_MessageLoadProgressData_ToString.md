@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ToString Method
 
 
@@ -22,4 +25,7 @@ public override string ToString()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Loading_MessageLoadProgressData.md">MessageLoadProgressData Structure</a>  
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

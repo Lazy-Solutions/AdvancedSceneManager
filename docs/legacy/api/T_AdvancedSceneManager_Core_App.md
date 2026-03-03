@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # App Class
 
 
@@ -14,7 +17,7 @@ Manages startup and quit processes.
 public sealed class App : IApp, DependencyInjectionUtility.IInjectable
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  App</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  App</td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_DependencyInjection_DependencyInjectionUtility_IInjectable.md">DependencyInjectionUtility.IInjectable</a>, <a href="T_AdvancedSceneManager_DependencyInjection_IApp.md">IApp</a></td></tr>
 </table>
 
@@ -27,14 +30,14 @@ Usage: <a href="P_AdvancedSceneManager_SceneManager_app.md">app</a>.
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_App__ctor.md">App</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Core_App_isBuildMode.md">isBuildMode</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Core_App_isQuitting.md">isQuitting</a></td>
 <td>Gets whatever ASM is currently in the process of quitting.</td></tr>
@@ -59,7 +62,7 @@ Usage: <a href="P_AdvancedSceneManager_SceneManager_app.md">app</a>.
 <td>Cancels a quit in progress.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_App_CancelStartup.md">CancelStartup</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Equals</a></td>
 <td>Determines whether the specified object is equal to the current object.<br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>)</td></tr>
@@ -106,4 +109,7 @@ Usage: <a href="P_AdvancedSceneManager_SceneManager_app.md">app</a>.
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

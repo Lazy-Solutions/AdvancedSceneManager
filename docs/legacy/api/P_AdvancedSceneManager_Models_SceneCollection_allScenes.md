@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # allScenes Property
 
 
@@ -27,4 +30,7 @@ null is filtered out.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

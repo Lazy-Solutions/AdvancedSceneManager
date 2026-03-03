@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ICollectionOpenAwaitable Interface
 
 
@@ -21,11 +24,14 @@ public interface ICollectionOpenAwaitable : ISceneCallbacks
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Callbacks_ICollectionOpenAwaitable_OnCollectionOpen.md">OnCollectionOpen</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

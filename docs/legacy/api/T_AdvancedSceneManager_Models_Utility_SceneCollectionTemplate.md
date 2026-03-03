@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneCollectionTemplate Class
 
 
@@ -14,7 +17,7 @@ Represents a template for a <a href="T_AdvancedSceneManager_Models_SceneCollecti
 public class SceneCollectionTemplate : SceneCollection
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  ScriptableObject  →  <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>  →  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>  →  SceneCollectionTemplate</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  ScriptableObject  â†’  <a href="T_AdvancedSceneManager_Models_ASMModel.md">ASMModel</a>  â†’  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>  â†’  SceneCollectionTemplate</td></tr>
 </table>
 
 
@@ -23,7 +26,7 @@ public class SceneCollectionTemplate : SceneCollection
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate__ctor.md">SceneCollectionTemplate</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -96,7 +99,7 @@ public class SceneCollectionTemplate : SceneCollection
 <td>Gets the lock message for this collection.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate_name.md">name</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_openAsPersistent.md">openAsPersistent</a></td>
 <td>Specifies whatever this collection should be opened as persistent.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</td></tr>
@@ -154,7 +157,7 @@ public class SceneCollectionTemplate : SceneCollection
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate_Apply.md">Apply</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_AutomaticallyOpenScene.md">AutomaticallyOpenScene</a></td>
 <td>Gets or sets whatever the scene should automatically open, when this collection is open. Default is true.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</td></tr>
@@ -166,13 +169,13 @@ public class SceneCollectionTemplate : SceneCollection
 <td>Gets if this collection contains <em>scene</em>.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate_CreateCollection.md">CreateCollection</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate_CreateTemplate.md">CreateTemplate(SceneCollection)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate_CreateTemplate_1.md">CreateTemplate(String)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_SceneCollection_Equals_1.md">Equals(Object)</a></td>
 <td><br />(Inherited from <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</td></tr>
@@ -265,4 +268,7 @@ public class SceneCollectionTemplate : SceneCollection
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

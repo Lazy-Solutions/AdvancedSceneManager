@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # StopCoroutine Method
 
 
@@ -19,11 +22,14 @@ public static void StopCoroutine(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a></dt><dd>Â </dd></dl>
 
 ## See Also
 
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_CoroutineUtility.md">CoroutineUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

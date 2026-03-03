@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneOperation Methods
 
 
@@ -61,7 +64,7 @@
 <td>Specifies the scenes to open.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_SceneOperation_Open_1.md">Open(SceneCollection, Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_SceneOperation_OpenAndActivate.md">OpenAndActivate</a></td>
 <td>Opens the scene, and makes sure it is activated afterwards.</td></tr>
@@ -73,10 +76,10 @@
 <td>Specifies scenes to preload.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_SceneOperation_PrependOpen.md">PrependOpen(Scene[])</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_SceneOperation_PrependOpen_1.md">PrependOpen(IEnumerable(Scene), Boolean)</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_SceneOperation_Queue.md">Queue</a></td>
 <td>Queues a new scene operation.</td></tr>
@@ -150,4 +153,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation Class</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

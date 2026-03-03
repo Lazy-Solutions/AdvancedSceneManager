@@ -1,3 +1,5 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 # Preloading
 
 Preloading allows scenes to be loaded in the background without activating them immediately. A preloaded scene remains inactive until explicitly finished, allowing near-instant activation when needed.
@@ -75,3 +77,4 @@ or set it on the collection.
 - Use `SceneManager.preloadedScenes` to retrieve currently preloaded scenes.
 
 
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

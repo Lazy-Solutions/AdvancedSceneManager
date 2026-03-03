@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # FluentInvokeAPI&lt;T&gt; Methods
 
 
@@ -42,4 +45,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_CallbackUtility_FluentInvokeAPI_1.md">CallbackUtility.FluentInvokeAPI(T) Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks.md">AdvancedSceneManager.Callbacks Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

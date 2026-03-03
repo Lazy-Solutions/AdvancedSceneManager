@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SetCompleted(Scene) Method
 
 
@@ -19,7 +22,7 @@ public void SetCompleted(
 
 
 #### Parameters
-<dl><dt>  Scene</dt><dd>The opened scene.</dd></dl>
+<dl><dt>Â Â Scene</dt><dd>The opened scene.</dd></dl>
 
 ## See Also
 
@@ -27,4 +30,7 @@ public void SetCompleted(
 #### Reference
 <a href="T_AdvancedSceneManager_Core_SceneLoadArgs.md">SceneLoadArgs Class</a>  
 <a href="Overload_AdvancedSceneManager_Core_SceneLoadArgs_SetCompleted.md">SetCompleted Overload</a>  
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

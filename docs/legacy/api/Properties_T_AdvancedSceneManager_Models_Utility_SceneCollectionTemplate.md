@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneCollectionTemplate Properties
 
 
@@ -73,7 +76,7 @@
 <td>Gets the lock message for this collection.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate_name.md">name</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_SceneCollection_openAsPersistent.md">openAsPersistent</a></td>
 <td>Specifies whatever this collection should be opened as persistent.<br />(Inherited from <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a>)</td></tr>
@@ -111,4 +114,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Utility_SceneCollectionTemplate.md">SceneCollectionTemplate Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

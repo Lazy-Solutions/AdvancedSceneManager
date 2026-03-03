@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMSettings Properties
 
 
@@ -19,7 +22,7 @@
 <td>Specifies whatever asm will allow locking scenes.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_ASMSettings_allowUpdateCheck.md">allowUpdateCheck</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_ASMSettings_assetPath.md">assetPath</a></td>
 <td>Specifies the path where profiles and imported scenes should be generated to.</td></tr>
@@ -84,4 +87,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMSettings.md">ASMSettings Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

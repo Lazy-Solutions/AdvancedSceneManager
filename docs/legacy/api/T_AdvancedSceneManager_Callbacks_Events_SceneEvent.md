@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # SceneEvent Class
 
 
@@ -14,7 +17,7 @@ The base class for scene event callbacks.
 public abstract class SceneEvent : SceneOperationEventBase
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  →  SceneEvent</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOperationEventBase.md">SceneOperationEventBase</a>  â†’  SceneEvent</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Callbacks_Events_SceneCloseEvent.md">AdvancedSceneManager.Callbacks.Events.SceneCloseEvent</a><br /><a href="T_AdvancedSceneManager_Callbacks_Events_SceneOpenEvent.md">AdvancedSceneManager.Callbacks.Events.SceneOpenEvent</a><br /><a href="T_AdvancedSceneManager_Callbacks_Events_ScenePreloadEvent.md">AdvancedSceneManager.Callbacks.Events.ScenePreloadEvent</a></td></tr>
 </table>
 
@@ -77,4 +80,7 @@ See <a href="T_AdvancedSceneManager_Callbacks_Events_SceneOpenEvent.md">SceneOpe
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

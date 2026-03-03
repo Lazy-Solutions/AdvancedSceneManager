@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Async&lt;T&gt;(Func&lt;ValueTuple&lt;Boolean, T&gt;&gt;) Constructor
 
 
@@ -17,7 +20,7 @@ public Async(
 
 
 #### Parameters
-<dl><dt>  <a href="https://learn.microsoft.com/dotnet/api/system.func-1" target="_blank" rel="noopener noreferrer">Func</a>(<a href="https://learn.microsoft.com/dotnet/api/system.valuetuple-2" target="_blank" rel="noopener noreferrer">ValueTuple</a>(<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>, <a href="T_AdvancedSceneManager_Utility_Async_1.md">T</a>))</dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="https://learn.microsoft.com/dotnet/api/system.func-1" target="_blank" rel="noopener noreferrer">Func</a>(<a href="https://learn.microsoft.com/dotnet/api/system.valuetuple-2" target="_blank" rel="noopener noreferrer">ValueTuple</a>(<a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">Boolean</a>, <a href="T_AdvancedSceneManager_Utility_Async_1.md">T</a>))</dt><dd>Â </dd></dl>
 
 ## See Also
 
@@ -25,4 +28,7 @@ public Async(
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_Async_1.md">Async(T) Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_Async_1__ctor.md">Async(T) Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

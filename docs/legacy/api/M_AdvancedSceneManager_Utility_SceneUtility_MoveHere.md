@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # MoveHere Method
 
 
@@ -20,7 +23,7 @@ public static GameObject MoveHere(
 
 
 #### Parameters
-<dl><dt>  MonoBehaviour</dt><dd> </dd><dt>  GameObject</dt><dd> </dd></dl>
+<dl><dt>Â Â MonoBehaviour</dt><dd>Â </dd><dt>Â Â GameObject</dt><dd>Â </dd></dl>
 
 #### Return Value
 GameObject
@@ -37,4 +40,7 @@ Extension Methods (C# Programming Guide)</a>.
 
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_SceneUtility.md">SceneUtility Class</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

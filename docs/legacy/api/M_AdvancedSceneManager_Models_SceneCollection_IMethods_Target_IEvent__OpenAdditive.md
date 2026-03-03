@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # _OpenAdditive Method
 
 
@@ -19,7 +22,7 @@ void _OpenAdditive(
 
 
 #### Parameters
-<dl><dt>  <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd> </dd></dl>
+<dl><dt>Â Â <a href="T_AdvancedSceneManager_Models_SceneCollection.md">SceneCollection</a></dt><dd>Â </dd></dl>
 
 ## Remarks
 Additive collections are not "opened", all scenes within are merely opened like normal scenes. Mostly intended for convenience.
@@ -29,4 +32,7 @@ Additive collections are not "opened", all scenes within are merely opened like 
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_SceneCollection_IMethods_Target_IEvent.md">SceneCollection.IMethods_Target.IEvent Interface</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

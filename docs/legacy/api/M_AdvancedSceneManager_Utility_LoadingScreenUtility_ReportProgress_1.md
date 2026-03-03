@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ReportProgress(AsyncOperation, SceneOperationKind, SceneOperation, Scene) Method
 
 
@@ -22,7 +25,7 @@ public static GlobalCoroutine ReportProgress(
 
 
 #### Parameters
-<dl><dt>  AsyncOperation</dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Loading_SceneOperationKind.md">SceneOperationKind</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a></dt><dd> </dd><dt>  <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>  (Optional)</dt><dd> </dd></dl>
+<dl><dt>Â Â AsyncOperation</dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Loading_SceneOperationKind.md">SceneOperationKind</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Core_SceneOperation.md">SceneOperation</a></dt><dd>Â </dd><dt>Â Â <a href="T_AdvancedSceneManager_Models_Scene.md">Scene</a>Â Â (Optional)</dt><dd>Â </dd></dl>
 
 #### Return Value
 <a href="T_AdvancedSceneManager_Utility_GlobalCoroutine.md">GlobalCoroutine</a>
@@ -40,4 +43,7 @@ Extension Methods (C# Programming Guide)</a>.
 #### Reference
 <a href="T_AdvancedSceneManager_Utility_LoadingScreenUtility.md">LoadingScreenUtility Class</a>  
 <a href="Overload_AdvancedSceneManager_Utility_LoadingScreenUtility_ReportProgress.md">ReportProgress Overload</a>  
-<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Utility.md">AdvancedSceneManager.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

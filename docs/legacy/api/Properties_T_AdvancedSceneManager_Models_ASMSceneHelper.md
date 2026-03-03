@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMSceneHelper Properties
 
 
@@ -13,7 +16,7 @@
 <td>Gets a reference to scene helper.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_ASMSceneHelper_name.md">name</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## See Also
@@ -21,4 +24,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMSceneHelper.md">ASMSceneHelper Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

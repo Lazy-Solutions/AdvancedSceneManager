@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # GetOrderedList Method
 
 
@@ -22,4 +25,7 @@ IEnumerable<(EditorBuildSettingsScene buildScene, BuildUtility.Reason reason)> G
 
 #### Reference
 <a href="T_AdvancedSceneManager_DependencyInjection_Editor_IBuildManager.md">IBuildManager Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection_Editor.md">AdvancedSceneManager.DependencyInjection.Editor Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

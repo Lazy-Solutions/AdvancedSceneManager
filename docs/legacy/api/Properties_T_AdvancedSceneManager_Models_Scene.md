@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # Scene Properties
 
 
@@ -7,10 +10,10 @@
 <table>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_address.md">address</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_asmPath.md">asmPath</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_autoOpenInEditor.md">autoOpenInEditor</a></td>
 <td>Specifies whatever this scene should be opened automatically outside of play-mode.</td></tr>
@@ -49,7 +52,7 @@
 <td>Gets if this scene is currently active.</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_isAddressable.md">isAddressable</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_isDefaultASMScene.md">isDefaultASMScene</a></td>
 <td>Gets if this is a default ASM scene.</td></tr>
@@ -120,10 +123,10 @@ ASMModel</a>)</td></tr>
 <td>Gets the path of the associated [!:SceneAsset].</td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_sceneAsset.md">sceneAsset</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_sceneAssetGUID.md">sceneAssetGUID</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td><a href="P_AdvancedSceneManager_Models_Scene_sceneLoader.md">sceneLoader</a></td>
 <td>Specifies what [!:SceneManagement.SceneLoader] to use.</td></tr>
@@ -137,4 +140,7 @@ ASMModel</a>)</td></tr>
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Scene.md">Scene Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

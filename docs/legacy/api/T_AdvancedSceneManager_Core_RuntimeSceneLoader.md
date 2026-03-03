@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # RuntimeSceneLoader Class
 
 
@@ -12,7 +15,7 @@
 public class RuntimeSceneLoader : SceneLoader
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  <a href="T_AdvancedSceneManager_Core_SceneLoader.md">SceneLoader</a>  →  RuntimeSceneLoader</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  <a href="T_AdvancedSceneManager_Core_SceneLoader.md">SceneLoader</a>  â†’  RuntimeSceneLoader</td></tr>
 </table>
 
 
@@ -21,7 +24,7 @@ public class RuntimeSceneLoader : SceneLoader
 <table>
 <tr>
 <td><a href="M_AdvancedSceneManager_Core_RuntimeSceneLoader__ctor.md">RuntimeSceneLoader</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 </table>
 
 ## Properties
@@ -81,4 +84,7 @@ public class RuntimeSceneLoader : SceneLoader
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>  
+<a href="N_AdvancedSceneManager_Core.md">AdvancedSceneManager.Core Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

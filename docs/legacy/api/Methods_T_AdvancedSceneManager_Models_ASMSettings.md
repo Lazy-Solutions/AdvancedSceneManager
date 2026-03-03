@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ASMSettings Methods
 
 
@@ -34,7 +37,7 @@
 <td>Saves the singleton to disk.<br />(Inherited from <a href="T_AdvancedSceneManager_Utility_ASMScriptableSingleton_1.md">ASMScriptableSingleton(T)</a>)</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Models_ASMSettings_SetBuildProfile.md">SetBuildProfile</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SetDirty</td>
 <td><br />(Inherited from ScriptableObject)<br /><strong>Obsolete.</strong></td></tr>
@@ -55,4 +58,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_ASMSettings.md">ASMSettings Class</a>  
-<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>  
+<a href="N_AdvancedSceneManager_Models.md">AdvancedSceneManager.Models Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

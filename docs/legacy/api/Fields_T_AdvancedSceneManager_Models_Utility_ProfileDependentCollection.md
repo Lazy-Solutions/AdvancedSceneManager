@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # ProfileDependentCollection Fields
 
 
@@ -15,4 +18,7 @@
 
 #### Reference
 <a href="T_AdvancedSceneManager_Models_Utility_ProfileDependentCollection.md">ProfileDependentCollection Class</a>  
-<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>  
+<a href="N_AdvancedSceneManager_Models_Utility.md">AdvancedSceneManager.Models.Utility Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

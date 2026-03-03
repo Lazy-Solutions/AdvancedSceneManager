@@ -1,3 +1,5 @@
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
 # Standalone Scenes
 
 Standalone scenes are scenes that aren't part of any scene collection but should still be included in the build. These scenes are managed via a special dynamic collection in ASM called the **Standalone** collection.
@@ -31,3 +33,5 @@ To bind a key to a standalone scene:
 
 - The standalone collection cannot be deleted and is always available in every profile.
 - Scenes in this collection can be set as **persistent**, meaning they won't close automatically when switching collections.
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)

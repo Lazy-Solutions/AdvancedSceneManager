@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CollectionOpenEvent Constructor
 
 
@@ -19,4 +22,7 @@ public CollectionOpenEvent()
 
 #### Reference
 <a href="T_AdvancedSceneManager_Callbacks_Events_CollectionOpenEvent.md">CollectionOpenEvent Class</a>  
-<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>  
+<a href="N_AdvancedSceneManager_Callbacks_Events.md">AdvancedSceneManager.Callbacks.Events Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

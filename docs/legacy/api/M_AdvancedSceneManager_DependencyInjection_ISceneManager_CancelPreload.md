@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # CancelPreload Method
 
 
@@ -24,4 +27,7 @@ SceneOperation CancelPreload()
 
 #### Reference
 <a href="T_AdvancedSceneManager_DependencyInjection_ISceneManager.md">ISceneManager Interface</a>  
-<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>  
+<a href="N_AdvancedSceneManager_DependencyInjection.md">AdvancedSceneManager.DependencyInjection Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

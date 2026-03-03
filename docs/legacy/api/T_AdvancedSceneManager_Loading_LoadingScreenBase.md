@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # LoadingScreenBase Class
 
 
@@ -15,7 +18,7 @@ public abstract class LoadingScreenBase : MonoBehaviour,
 	ILoadProgressListener
 ```
 
-<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  →  Object  →  Component  →  Behaviour  →  MonoBehaviour  →  LoadingScreenBase</td></tr>
+<table><tr><td><strong>Inheritance</strong></td><td><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  â†’  Object  â†’  Component  â†’  Behaviour  â†’  MonoBehaviour  â†’  LoadingScreenBase</td></tr>
 <tr><td><strong>Derived</strong></td><td><a href="T_AdvancedSceneManager_Loading_LoadingScreen.md">AdvancedSceneManager.Loading.LoadingScreen</a><br /><a href="T_AdvancedSceneManager_Loading_SplashScreen.md">AdvancedSceneManager.Loading.SplashScreen</a></td></tr>
 <tr><td><strong>Implements</strong></td><td><a href="T_AdvancedSceneManager_Loading_ILoadProgressListener.md">ILoadProgressListener</a></td></tr>
 </table>
@@ -216,7 +219,7 @@ When multiple loading screens exist within the same scene, only the first found 
 <td>Called when the loading screen is opened.</td></tr>
 <tr>
 <td><a href="M_AdvancedSceneManager_Loading_LoadingScreenBase_OnProgressChanged.md">OnProgressChanged</a></td>
-<td> </td></tr>
+<td>Â </td></tr>
 <tr>
 <td>SendMessage(String)</td>
 <td><p>Calls the method named methodName on every MonoBehaviour in this game object.</p><br />(Inherited from Component)</td></tr>
@@ -320,4 +323,7 @@ This will automatically register canvas with <a href="T_AdvancedSceneManager_Uti
 
 
 #### Reference
-<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>  
+<a href="N_AdvancedSceneManager_Loading.md">AdvancedSceneManager.Loading Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+

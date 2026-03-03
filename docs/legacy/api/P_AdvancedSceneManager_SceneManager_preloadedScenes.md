@@ -1,3 +1,6 @@
+﻿
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
 # preloadedScenes Property
 
 
@@ -22,4 +25,7 @@ public static IEnumerable<Scene> preloadedScenes { get; }
 
 #### Reference
 <a href="T_AdvancedSceneManager_SceneManager.md">SceneManager Class</a>  
-<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>  
+<a href="N_AdvancedSceneManager.md">AdvancedSceneManager Namespace</a>
+
+[← Back](../readme.md) | [🏠 Home](../../readme.md)
+
