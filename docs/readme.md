@@ -44,7 +44,7 @@ Most of the 2.0 documentation still applies to 3.0. That said, there may be a fe
 </details>
 
 <details>
-<summary>Patches</summary>
+<summary><b>Patches</b></summary>
   
 ### Patches can be downloaded from:
 
