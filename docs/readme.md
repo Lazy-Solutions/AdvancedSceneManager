@@ -61,3 +61,18 @@ You can also check for updates manually, via update settings page.
 
 </details>
 
+<details>
+  <summary><i>Found any issues with documentation?</i></summary>
+  <br/>
+
+If you find incorrect or outdated information:
+
+1. Open the file on GitHub  
+2. Click the line number  
+3. Select **"Reference in new issue"**  
+4. Describe what seems wrong  
+
+You can also make a [github issue](https://github.com/Lazy-Solutions/AdvancedSceneManager/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen), or make a post over at [Discord - Lazy Solutions](https://discord.gg/upfgXPxFnw)
+
+</details>
+
