@@ -72,7 +72,7 @@ If you find incorrect or outdated information:
 3. Select **"Reference in new issue"**  
 4. Describe what seems wrong  
 
-You can also make a [github issue](https://github.com/Lazy-Solutions/AdvancedSceneManager/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen), or make a post over at [Discord - Lazy Solutions](https://discord.gg/upfgXPxFnw)
+You can also make a [github issue](https://github.com/Lazy-Solutions/AdvancedSceneManager/issues), or make a post over at [Discord - Lazy Solutions](https://discord.gg/upfgXPxFnw)
 
 </details>
 
