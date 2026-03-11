@@ -1,5 +1,5 @@
 <!---./Videos.md-->
-[← Back](readme.md) | [🏠 Home](../readme.md)
+[← Back](readme.md) | [🏠 Home](readme.md)
 ## Advanced Scene Manager - Video Tutorials
 
 Discover how **Advanced Scene Manager** can simplify your Unity projects. Watch these tutorials to see it in action and learn how to get started!
@@ -14,10 +14,10 @@ Learn the basics of setting up and using Advanced Scene Manager in your Unity pr
 [![Creating Loading Screens](https://img.youtube.com/vi/MiXD2jrAqoo/0.jpg)](https://youtu.be/MiXD2jrAqoo)
 
 ### Related pages
-[📄 Quick start](quick-start.md)\
-[📄 Common questions](common-questions.md)\
-[📄 In-game toolbar](in-game-toolbar.md)\
-[📄 Updating](updating.md)\
-[📄 Videos](videos.md)
+[📄 Quick start](Quick-start.md)  
+[📄 Common questions](Common-questions.md)  
+[📄 In-game toolbar](In-game-toolbar.md)  
+[📄 Updating](Updating.md)  
+[📄 Videos](Videos.md)
 
-[← Back](readme.md) | [🏠 Home](../readme.md)
+[← Back](readme.md) | [🏠 Home](readme.md)

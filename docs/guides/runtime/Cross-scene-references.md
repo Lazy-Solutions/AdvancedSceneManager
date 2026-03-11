@@ -30,10 +30,10 @@ Due to the way scenes are loaded in unity, ASM cannot restore cross-scene refere
 You may however make use of [ASM scene callbacks](Callbacks.md), cross-scene references are guaranteed to have been restored by the time they are called.
 
 ### Related pages
-[📄 Cross-scene references](cross-scene-references.md)\
-[📄 Loading screens](loading-screens.md)\
-[📄 Splash screens](splash-screens.md)\
-[📄 Preloading](preloading.md)\
-[📄 Scene loaders](scene-loaders.md)
+[📄 Cross-scene references](Cross-scene-references.md)\
+[📄 Loading screens](Loading-screens.md)\
+[📄 Splash screens](Splash-screens.md)\
+[📄 Preloading](Preloading.md)\
+[📄 Scene loaders](Scene-loaders.md)
 
 [← Back](readme.md) | [🏠 Home](../readme.md)

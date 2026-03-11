@@ -1,5 +1,5 @@
 ﻿<!---models/readme.md-->
-[← Back](readme.md) | [🏠 Home](../readme.md)
+[← Back](../readme.md) | [🏠 Home](../readme.md)
 ## Callbacks
 
 [📄 Profiles](Profiles.md)\

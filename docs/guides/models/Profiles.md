@@ -49,10 +49,11 @@ To avoid this unintended behavior, ASM disables automatic build scene list writi
 A warning will be logged in console when this happens. This behavior can be changed in the Editor settings.
 
 ### Related pages
-[📄 Profiles](profiles.md)\
-[📄 Scene helper](event-callbacks.md)\
-[📄 Scene collections](scene-collections.md)\
-[📄 Scenes](scenes.md)\
-[📄 Standalone scenes](standalone-scenes.md)
+[📄 Profiles](Profiles.md)\
+[📄 Scene helper](Scene-helper.md)\
+[📄 Scene collections](Scene-collections.md)\
+[📄 Scenes](Scenes.md)\
+[📄 Standalone scenes](Standalone-scenes.md)\
+[📄 Profile dependent collections and scenes](ProfileDependentModel.md)
 
 [← Back](readme.md) | [🏠 Home](../readme.md)

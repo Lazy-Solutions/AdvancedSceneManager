@@ -7,12 +7,11 @@
 	- [Whitelist subpage](#whitelist)
 	- [Blacklist subpage](#blacklist)
 - [Editor page](#editor-page)
-	- [Logging subpage](#logging)
+	- [Logging subpage](#logging-subpage)
 - [Appearance page](#appearance-page)
 	- [Extendable UI subpage](#extendable-ui)
 	- [Hierarchy subpage](#hierarchy)
 - [Updates page](#updates-page)
-- [Network page](#network-page)
 - [Advanced page](#advanced-page)
 	
 ## Scene loading page

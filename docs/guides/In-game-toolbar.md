@@ -1,5 +1,5 @@
 ﻿<!---./In-game-toolbar.md-->
-[← Back](readme.md) | [🏠 Home](../readme.md)
+[← Back](readme.md) | [🏠 Home](readme.md)
 ## In-game toolbar
 
 The in-game toolbar provides some debugging tools, especially useful in builds, relating to scene management. It can be imported via the package manager, from ASM package samples.
@@ -19,10 +19,10 @@ The in-game toolbar allows you to:
 * List open [scenes](Scenes.md).
 
 ### Related pages
-[📄 Quick start](quick-start.md)\
-[📄 Common questions](common-questions.md)\
-[📄 In-game toolbar](in-game-toolbar.md)\
-[📄 Updating](updating.md)\
-[📄 Videos](videos.md)
+[📄 Quick start](Quick-start.md)  
+[📄 Common questions](Common-questions.md)  
+[📄 In-game toolbar](In-game-toolbar.md)  
+[📄 Updating](Updating.md)  
+[📄 Videos](Videos.md)
 
-[← Back](readme.md) | [🏠 Home](../readme.md)
+[← Back](readme.md) | [🏠 Home](readme.md)

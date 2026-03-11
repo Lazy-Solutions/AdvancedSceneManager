@@ -114,10 +114,11 @@ SceneUtility.MoveToNewScene(gameObject);              // Editor only
 ```
 
 ### Related pages
-[📄 Profiles](profiles.md)\
-[📄 Scene helper](event-callbacks.md)\
-[📄 Scene collections](scene-collections.md)\
-[📄 Scenes](scenes.md)\
-[📄 Standalone scenes](standalone-scenes.md)
+[📄 Profiles](Profiles.md)\
+[📄 Scene helper](Scene-helper.md)\
+[📄 Scene collections](Scene-collections.md)\
+[📄 Scenes](Scenes.md)\
+[📄 Standalone scenes](Standalone-scenes.md)\
+[📄 Profile dependent collections and scenes](ProfileDependentModel.md)
 
 [← Back](readme.md) | [🏠 Home](../readme.md)

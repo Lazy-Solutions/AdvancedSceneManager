@@ -1,5 +1,5 @@
 <!---./readme.md-->
-[← Back](readme.md) | [🏠 Home](../readme.md)
+[← Back](readme.md) | [🏠 Home](readme.md)
 ## Common questions
 
 ## What is the fallback scene
@@ -89,10 +89,10 @@ To reset all ASM configuration, delete the following:
 > If this happens, try again with unity closed.
 
 ### Related pages
-[📄 Quick start](quick-start.md)\
-[📄 Common questions](common-questions.md)\
-[📄 In-game toolbar](in-game-toolbar.md)\
-[📄 Updating](updating.md)\
-[📄 Videos](videos.md)
+[📄 Quick start](Quick-start.md)  
+[📄 Common questions](Common-questions.md)  
+[📄 In-game toolbar](In-game-toolbar.md)  
+[📄 Updating](Updating.md)  
+[📄 Videos](Videos.md)
 
-[← Back](readme.md) | [🏠 Home](../readme.md)
+[← Back](readme.md) | [🏠 Home](readme.md)

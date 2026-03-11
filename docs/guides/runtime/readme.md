@@ -1,5 +1,5 @@
 ﻿<!---runtime/readme.md-->
-[← Back](readme.md) | [🏠 Home](../readme.md)
+[← Back](../readme.md) | [🏠 Home](../readme.md)
 ## Runtime
 
 [📄 Cross-scene references](Cross-scene-references.md)\

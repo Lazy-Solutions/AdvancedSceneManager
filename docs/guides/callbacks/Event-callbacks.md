@@ -120,7 +120,7 @@ Below is a complete list of all available ASM events.
 
 ### Related pages
 [📄 C# events](clr-events.md)\
-[📄 Event callbacks](event-callbacks.md)\
-[📄 Interface callbacks](interface-callbacks.md)
+[📄 Event callbacks](Event-callbacks.md)\
+[📄 Interface callbacks](Interface-callbacks.md)
 
 [← Back](readme.md) | [🏠 Home](../readme.md)

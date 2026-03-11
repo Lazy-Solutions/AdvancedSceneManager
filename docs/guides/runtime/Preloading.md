@@ -78,10 +78,10 @@ or set it on the collection.
 - Use `SceneManager.preloadedScenes` to retrieve currently preloaded scenes.
 
 ### Related pages
-[📄 Cross-scene references](cross-scene-references.md)\
-[📄 Loading screens](loading-screens.md)\
-[📄 Splash screens](splash-screens.md)\
-[📄 Preloading](preloading.md)\
-[📄 Scene loaders](scene-loaders.md)
+[📄 Cross-scene references](Cross-scene-references.md)\
+[📄 Loading screens](Loading-screens.md)\
+[📄 Splash screens](Splash-screens.md)\
+[📄 Preloading](Preloading.md)\
+[📄 Scene loaders](Scene-loaders.md)
 
 [← Back](readme.md) | [🏠 Home](../readme.md)

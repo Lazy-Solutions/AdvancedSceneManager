@@ -1,5 +1,5 @@
 ﻿<!---api/readme.md-->
-[← Back](readme.md) | [🏠 Home](../readme.md)
+[← Back](../readme.md) | [🏠 Home](../readme.md)
 ## API
 ### Overview
 

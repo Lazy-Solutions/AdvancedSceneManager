@@ -1,5 +1,5 @@
 <!---./Updating.md-->
-[← Back](readme.md) | [🏠 Home](../readme.md)
+[← Back](readme.md) | [🏠 Home](readme.md)
 ## Updating Advanced Scene Manager
 
 Advanced Scene Manager uses the following versioning format:
@@ -79,10 +79,10 @@ To prevent issues, you must **manually uninstall** the old version before instal
 - Only update when needed, especially for stable projects nearing release.
 
 ### Related pages
-[📄 Quick start](quick-start.md)\
-[📄 Common questions](common-questions.md)\
-[📄 In-game toolbar](in-game-toolbar.md)\
-[📄 Updating](updating.md)\
-[📄 Videos](videos.md)
+[📄 Quick start](Quick-start.md)  
+[📄 Common questions](Common-questions.md)  
+[📄 In-game toolbar](In-game-toolbar.md)  
+[📄 Updating](Updating.md)  
+[📄 Videos](Videos.md)
 
-[← Back](readme.md) | [🏠 Home](../readme.md)
+[← Back](readme.md) | [🏠 Home](readme.md)
