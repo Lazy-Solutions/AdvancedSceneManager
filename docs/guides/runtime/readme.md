@@ -3,7 +3,7 @@
 ## Runtime
 
 [📄 Cross-scene references](Cross-scene-references.md)\
-[📄 Loading screens](loading-screens.md)\
-[📄 Splash screens](splash-screens.md)\
-[📄 Preloading](preloading.md)\
-[📄 Scene loaders](scene-loaders.md)
+[📄 Loading screens](Loading-screens.md)\
+[📄 Splash screens](Splash-screens.md)\
+[📄 Preloading](Preloading.md)\
+[📄 Scene loaders](Scene-loaders.md)
