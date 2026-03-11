@@ -1,6 +1,6 @@
 ﻿<!---api/SceneManager.md-->
 [← Back](readme.md) | [🏠 Home](../readme.md)
-## Main view
+## API
 ### SceneManager
 
 The scene manager class is meant to act as the core API of ASM, and provides access to the most important systems within.
@@ -94,10 +94,10 @@ static void OnLoad() {}
 ```
 
 ### Related pages
-[📄 View SceneManager _(API Entry point)_](guides/Scene-manager.md)\
-[📄 View API structure](guides/API-structure.md)\
-[📄 View CoroutineUtility](api/SceneManager.md)\
-[📄 View Finding ASM assets](guides/Finding-ASM-assets.md)\
-[📄 View Scene operations](guides/SceneOperation.md)
+[📄 View SceneManager _(API Entry point)_](SceneManager.md)\
+[📄 View API structure](API-structure.md)\
+[📄 View CoroutineUtility](SceneManager.md)\
+[📄 View Finding ASM assets](Finding-ASM-assets.md)\
+[📄 View Scene operations](SceneOperation.md)
 
 [← Back](readme.md) | [🏠 Home](../readme.md)
