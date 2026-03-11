@@ -1,3 +1,5 @@
+<!---models/ProfileDependentModel.md-->
+[← Back](readme.md) | [🏠 Home](../readme.md)
 ## Profile Dependent Scenes and Collections
 
 This feature works with both [Scene](./Scenes.md) and [SceneCollection](./Scene-collections.md).
@@ -58,4 +60,8 @@ public ProfileDependentCollection _collection;
 public ProfileDependentScene _scene;
 
 void LoadCollection() => _collection.Open();
+
 void LoadScene() => _scene.Open();
+```
+
+[← Back](readme.md) | [🏠 Home](../readme.md)
