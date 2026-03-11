@@ -74,10 +74,10 @@ async Task Background_Task()
 ```
 
 ### Related pages
-[📄 View SceneManager _(API Entry point)_](guides/Scene-manager.md)\
-[📄 View API structure](guides/API-structure.md)\
-[📄 View CoroutineUtility](api/SceneManager.md)\
-[📄 View Finding ASM assets](guides/Finding-ASM-assets.md)\
-[📄 View Scene operations](guides/SceneOperation.md)
+[📄 View SceneManager _(API Entry point)_](SceneManager.md)\
+[📄 View API structure](API-structure.md)\
+[📄 View CoroutineUtility](CoroutineUtility.md)\
+[📄 View Finding ASM assets](Finding-ASM-assets.md)\
+[📄 View Scene operations](SceneOperation.md)
 
 [← Back](readme.md) | [🏠 Home](../readme.md)
