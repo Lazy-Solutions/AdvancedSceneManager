@@ -52,8 +52,8 @@ In most cases, these errors are **harmless and can be safely ignored**. Unity ma
 
 ### What you should do
 
-- If the build **completes successfully**, you can safely ignore these errors.  
-- If the build **fails or stops**, and the errors mention `ScriptableSingleton`, please report this to us along with the full error message.
+- If the build **completes successfully**, you can safely ignore these errors.
+- If the build **fails or stops**, and the errors mention `ScriptableSingleton`, please try removing 'Assets/ASMBuild', if it exists. Otherwise, please report this to us along with the full error message.
 
 ### Why this happens
 
@@ -64,3 +64,6 @@ These errors are typically caused by how Unity handles initialization and serial
 We are aware of these issues and plan to **rewrite the settings system in a future update**, which will remove reliance on `ScriptableSingleton` and eliminate these errors entirely.
 
 Until then, as long as your build completes, these messages can be considered safe to ignore.
+
+## No scenes in build
+This happens sometimes randomly, and will probably work on another attempt. This is due to the same issue as above with `ScriptableSingleton`.
