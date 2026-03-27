@@ -43,3 +43,24 @@ ASM includes an embedded copy of **Coroutine Utility**.
 If you also have the upm version of Coroutine Utility installed, Unity will report ambiguous call errors.  
 
 **Fix:** Remove the Coroutine Utility package from Package Manager so ASM will compile correctly.
+
+## ScriptableSingleton Errors During Build
+
+You may occasionally see errors related to Unity’s `ScriptableSingleton` system when building your project. These typically appear in the Console during the build process and can look concerning at first glance.
+
+In most cases, these errors are **harmless and can be safely ignored**. Unity may log these messages due to internal lifecycle quirks, especially when editor tools interact with serialized data, domain reloads, or build-time asset preparation. Even if errors are shown, the build itself often completes successfully and the resulting player works as expected.
+
+### What you should do
+
+- If the build **completes successfully**, you can safely ignore these errors.  
+- If the build **fails or stops**, and the errors mention `ScriptableSingleton`, please report this to us along with the full error message.
+
+### Why this happens
+
+These errors are typically caused by how Unity handles initialization and serialization of `ScriptableSingleton` instances during editor and build operations.
+
+### Future improvements
+
+We are aware of these issues and plan to **rewrite the settings system in a future update**, which will remove reliance on `ScriptableSingleton` and eliminate these errors entirely.
+
+Until then, as long as your build completes, these messages can be considered safe to ignore.
