@@ -44,6 +44,8 @@ If you also have the upm version of Coroutine Utility installed, Unity will repo
 
 **Fix:** Remove the Coroutine Utility package from Package Manager so ASM will compile correctly.
 
+<br/>
+
 ## ScriptableSingleton Errors During Build
 
 You may occasionally see errors related to Unity’s `ScriptableSingleton` system when building your project. These typically appear in the Console during the build process and can look concerning at first glance.
@@ -64,6 +66,8 @@ These errors are typically caused by how Unity handles initialization and serial
 We are aware of these issues and plan to **rewrite the settings system in a future update**, which will remove reliance on `ScriptableSingleton` and eliminate these errors entirely.
 
 Until then, as long as your build completes, these messages can be considered safe to ignore.
+
+<br/>
 
 ## No scenes in build
 This happens sometimes randomly, and will probably work on another attempt. This is due to the same issue as above with `ScriptableSingleton`.
