@@ -55,7 +55,7 @@ In most cases, these errors are **harmless and can be safely ignored**. Unity ma
 ### What you should do
 
 - If the build **completes successfully**, you can safely ignore these errors.
-- If the build **fails or stops**, and the errors mention `ScriptableSingleton`, please try removing 'Assets/ASMBuild', if it exists. Otherwise, please report this to us along with the full error message.
+- If the build **fails or stops**, and the errors mention `ScriptableSingleton`, please try removing 'Assets/ASMBuild', if it exists, then restart. Otherwise, please report this to us along with the full error message.
 
 ### Why this happens
 
