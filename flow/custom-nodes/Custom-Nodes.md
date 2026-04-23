@@ -17,3 +17,15 @@ Nodes in this folder are typically user-created or more niche additions that do 
 ## How To...
 
 Should be detailed and explained what each aspect does.
+
+things to explain
+
+What is dynamic type?
+how can i rename the field input/output
+what is description
+what is getsummary
+CreatePropertyGUI and how to use it
+
+how to ask AI to create a node for us(expect for asm code as it doesnt know it well...)
+
+Advanced node designing

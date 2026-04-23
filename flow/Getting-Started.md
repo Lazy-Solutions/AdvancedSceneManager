@@ -33,4 +33,26 @@ Selection: The inspector for the selected node.
 
 ## Flows
 
+## Using Flows
+
+Most likely you want to make use of FlowHelper,
+
+You can use the flow asset directly, it's a scriptable object so you can reference it just like other
+
+## Stopping flows
+
+There's 1 way to stop a flow.
+Calling Flow.Cancel will terminate it in whatever state it's in. just like a cancelation token in a task.
+
+if you want to be able to stop a looping flow, you can make use of a signals variable and a if node to create a stop. then it wont stop abruptly, and you will have more control of when.
+
 ## Variables
+
+Variables are designed to be global. so they can be used in multiple flows. 
+
+they are also designed this way to be usable in unity events, like you could set a scene variable with desired scene to open and then use it in a flow.
+
+We expect you don't need that many to begin with. 
+
+> we would like to know your experience with this, in case we want to redesign it.
+
