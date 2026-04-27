@@ -3,16 +3,16 @@
 
 <p align="center">
   <img src="/trial/Trial.png" width="640" height="360" /><br />
-  <img src="/trial/req.6.0.webp" width="321" height="91" /><br />
+  <img src="/trial/req.6.0.jpg" width="321" height="91" /><br />
   <br />
   <a href="/trial/Advanced Scene Manager Trial.unitypackage">Click here to download!</a>
 </p>
 
 
 
-We're excited to offer you a trial version of **Advanced Scene Manager**, a powerful Unity asset designed to enhance your project. Below, you’ll find details about the asset and how you can get started with the trial.
+We're excited to offer you a trial version of [**Advanced Scene Manager**](https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-3-330926), a powerful Unity asset designed to enhance your project. Below, you’ll find details about the asset and how you can get started with the trial.
 
-Thank you for trying out **Advanced Scene Manager**! We hope it adds value to your project.
+Thank you for trying out [**Advanced Scene Manager**](https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-3-330926)! We hope it adds value to your project.
 
 ## Trial Version
 
@@ -31,7 +31,7 @@ To get started with the trial version:
 5. Follow our [Quick Start](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Quick%20start.md) guide.
 
 **Important: Unity 6.0 recomended for the trial version.** <br />
-**Paid asset is 2021.3+**
+
 
 ## License
 
