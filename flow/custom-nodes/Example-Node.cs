@@ -17,6 +17,9 @@ public class CustomFlowNode : FlowNode
     [Input]
     public object input1 { get; set; }
 
+    [Output]
+    public object output1 { get; set; }
+
     public override Awaitable Run(FlowContext context)
     {
         return null;
@@ -25,7 +28,7 @@ public class CustomFlowNode : FlowNode
 
 [Serializable]
 [AddNodeMenu("...")] // Dicates the location of your new node.
-public class CustomDataNode : FlowNode
+public class CustomDataNode : DataNode
 {
     public override string description => "Logs a description to the ???.";
 
@@ -34,6 +37,4 @@ public class CustomDataNode : FlowNode
 
     [Output]
     public object output1 { get; set; }
-
-
 }
