@@ -8,7 +8,13 @@ There are two types of nodes: **FlowNode** and **DataNode**.
 - **DataNode**  
   Used to retrieve or provide data. Does not control flow.
 
-# Extra Nodes
+## Create Nodes
+
+You can create new nodes simplest from ASM Utility Functions
+![](../images/ASM_Function_btn.png)
+![](../images/ASM_Util_Function.png)
+
+## Extra Nodes
 
 Nodes in this folder are typically user-created or more niche additions that do not fit in the main package.
 
