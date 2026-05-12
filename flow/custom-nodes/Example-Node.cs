@@ -38,3 +38,6 @@ public class CustomDataNode : DataNode
     [Output]
     public object output1 { get; set; }
 }
+
+
+public class CusomVariable : Variable<T>{ }
