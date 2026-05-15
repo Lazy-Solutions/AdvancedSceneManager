@@ -33,6 +33,8 @@ Selection: The inspector for the selected node.
 
 ## Flows
 
+By design only one flow can be run at any given time, this is due to how the SceneManager works. since SceneOperations cannot run in parallell, scene loading can in one sceneoperation, but sceneoperations are queued.
+
 ## Using Flows
 
 Most likely you want to make use of FlowHelper,
