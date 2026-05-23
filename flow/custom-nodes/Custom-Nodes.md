@@ -11,6 +11,7 @@ There are two types of nodes: **FlowNode** and **DataNode**.
 ## Create Nodes
 
 You can create new nodes simplest from ASM Utility Functions
+
 ![](../images/ASM_Function_btn.png)
 ![](../images/ASM_Util_Function.png)
 
