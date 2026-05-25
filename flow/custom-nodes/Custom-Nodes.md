@@ -36,3 +36,12 @@ CreatePropertyGUI and how to use it
 how to ask AI to create a node for us(expect for asm code as it doesnt know it well...)
 
 Advanced node designing
+
+## Styling
+
+If you know UI Toolkit you should be familiar with this.
+override "OnNodeViewRefreshed", here you can add VisualElements and other UITK items, add classes and styling.
+
+## CreatePropertySheet
+This is where you ...
+

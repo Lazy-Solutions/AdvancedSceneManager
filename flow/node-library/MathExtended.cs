@@ -73,11 +73,8 @@ namespace AdvancedSceneManager.Flows.Models.Nodes
     public class DegreesToRadiansNode : DataNode
     {
         public override string description => "Converts degrees to radians.";
-
         [Input] public Number degrees { get; set; }
-
-        [Output]
-        public float result => degrees.value * Mathf.Deg2Rad;
+        [Output] public float result => degrees.value * Mathf.Deg2Rad;
     }
 
     [Serializable]
@@ -85,11 +82,8 @@ namespace AdvancedSceneManager.Flows.Models.Nodes
     public class RadiansToDegreesNode : DataNode
     {
         public override string description => "Converts radians to degrees.";
-
         [Input] public Number radians { get; set; }
-
-        [Output]
-        public float result => radians.value * Mathf.Rad2Deg;
+        [Output] public float result => radians.value * Mathf.Rad2Deg;
     }
 
     [Serializable]
