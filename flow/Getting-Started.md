@@ -29,7 +29,15 @@ In the top right, you have a inspector window where you see a few menus
 
 Flow: Contains the settings for the selected flow.
 Global Variables: will be explained in more details later.
-Selection: The inspector for the selected node. 
+Selection: The inspector for the selected node.
+
+## Samples
+
+Samples can be imported from the package manager.
+
+It's not recommended to reuse these flows, as they are versioned, everytime you update the flow editor and import the samples it will make duplicates. If you want to reuse any, pull them out from the samples folder.
+
+If you often import samples, this may cause update issues when updating ASM flow, due to old or removed code etc. keep that in mind.
 
 ## Flows
 
