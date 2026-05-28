@@ -1,6 +1,10 @@
 # Flow Editor for Advanced Scene Manager
 
-Requires Advanced Scene Manager 3.2+
+<p align="center">
+<img src="./images/cover.jpg" alt="Alt Text" style="width:60%; height:auto; ">
+</p>
+
+Requires Advanced Scene Manager 3.3+
 
 > Reporting bugs and suggesting improvements and nodes will over time increase the value of this package, we appreciate you reaching out!
 
@@ -14,4 +18,6 @@ This package also includes additional nodes and features that are kept separate 
 
 ## Patches
 
-TBA
+Minor patches (1.0.X) are pushed to the github much earlier then the assetstore.
+
+Major patches (1.X.0) are always pushed to the store, and required you to uninstall first to prevent script errors.
