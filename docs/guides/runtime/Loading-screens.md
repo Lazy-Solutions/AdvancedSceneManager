@@ -30,12 +30,11 @@ collection.Open().With(loadingScene: loadingScene); // Overrides loading screen 
    
 Manually open and close a loading screen:
 ```csharp
-var operation = LoadingScreenUtility.OpenLoadingScreen(loadingScene);
-yield return operation;
+var instance = await LoadingScreenUtility.OpenLoadingScreen(loadingScene);
 
 action.Invoke();
 
-yield return LoadingScreenUtility.CloseLoadingScreen(operation.value);
+yield return LoadingScreenUtility.CloseLoadingScreen(instance);
 ```
 
 Or use a helper method:
