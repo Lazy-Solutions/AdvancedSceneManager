@@ -29,6 +29,7 @@ collection.Open().With(loadingScene: loadingScene); // Overrides loading screen 
 3. **Using LoadingScreenUtility**
    
 Manually open and close a loading screen:
+#### Awaitable
 ```csharp
 var instance = await LoadingScreenUtility.OpenLoadingScreen(loadingScene);
 
@@ -37,9 +38,28 @@ action.Invoke();
 await LoadingScreenUtility.CloseLoadingScreen(instance);
 ```
 
-Or use a helper method:
+#### Coroutines
+
+ASM 3.0 introduces a new loading screen API based on view models and discoverable attributes (documentation coming soon). As part of this change, LoadingScreenUtility now uses Awaitable instead of IEnumerator. While Awaitables can still be yielded from coroutines, retrieving the returned LoadingScreenReference requires a callback:
+
 ```csharp
-yield return LoadingScreenUtility.DoAction(loadingScene, action);
+IEnumerator Coroutine()
+{
+    LoadingScreenReference instance = default;
+
+    yield return LoadingScreenUtility.OpenLoadingScreen(
+        SceneManager.assets.defaults.fadeScene,
+        callbackBeforeBegin: l => instance = l);
+
+    yield return LoadingScreenUtility.CloseLoadingScreen(instance);
+}
+```
+
+If you don't need a direct reference, you can also retrieve the instance from the list of currently open loading screens:
+
+```csharp
+LoadingScreenUtility.openLoadingScreens
+    .FirstOrDefault(l => l.scene == SceneManager.assets.defaults.fadeScene);
 ```
 
 ## Custom Loading Screens
