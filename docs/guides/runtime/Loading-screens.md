@@ -8,7 +8,7 @@ This guide explains how to use and customize loading screens in **Advanced Scene
 > Want to perform actions after a scene has been loaded, but **while** the loading screen is visible?
 > Use ASM's callback interfaces like `ISceneOpen` or `ICollectionOpen`. These let you trigger logic once the scene is loaded, **but before** the loading screen closes.
 > 
-> Perfect for deferred UI setups, data initialization, or network checks. See [Callbacks](Callbacks.md) for full interface details.
+> Perfect for deferred UI setups, data initialization, or network checks. See [Callbacks](../callbacks/Interface-Callbacks.md) for full interface details.
 
 ## Types of Loading Screens
 
