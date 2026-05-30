@@ -5,6 +5,60 @@
 
 Discoverable loading screens are a lightweight alternative to scene-based loading screens. They are implemented entirely in code using UI Toolkit and do not require a dedicated Unity scene.
 
+#### Finding in code
+
+Getting a reference in code to a discoverable loading screen is a little different from scene-based loading screens, but can be done like so:
+
+```csharp
+if (SceneManager.discoverables.GetDiscoverable<FadeLoadingScreen, LoadingScreenAttribute>(out var discoverable))
+{
+    var loadingScreenReference = (LoadingScreenReference)discoverable;
+    ...
+}
+```
+
+`FadeLoadingScreen` is the type of your `LoadingScreenViewModel` class.
+
+The attribute type should be either:
+- `LoadingScreenAttribute`
+- `SplashScreenAttribute`
+
+depending on the type of loading screen you are looking for.
+
+> In the example above, the discoverable is explicitly cast to `LoadingScreenReference`, but this is often unnecessary. Many ASM APIs, including `LoadingScreenUtility`, accept discoverables directly.
+
+> This API will be improved in future releases. Additional overloads such as `LoadingScreenUtility.OpenLoadingScreen<T>()` are planned.
+
+##### Serialized References
+
+Loading screens can be serialized using `LoadingScreenReference`:
+
+```csharp
+[SerializeField] private LoadingScreenReference m_loadingScreen;
+```
+
+#### Custom Editors
+
+When building custom editor UI, a `LoadingScreenPicker` can be used to display and edit loading screen references:
+
+```csharp
+#if UNITY_EDITOR
+void SetupPicker(VisualElement view)
+{
+    var picker = view.Q<LoadingScreenPicker>();
+    picker.BindTo(m_loadingScreen ??= new());
+
+    // Changes are not automatically persisted.
+    picker.RegisterValueChangedCallback(_ =>
+        EditorUtility.SetDirty(target));
+}
+#endif
+```
+
+> `LoadingScreenPicker` is intended for custom editor UI. A dedicated property drawer will be added in a future release.
+
+#### Custom discoverable based loading screens
+
 To create a loading screen, inherit from `LoadingScreenViewModel<T>` and add the `[LoadingScreen]` attribute:
 
 ```csharp

@@ -3,7 +3,24 @@
 ## Runtime
 ### Scene-based loading screens
 
-Scene-based loading screens are the original loading screen system in ASM. They are implemented as Unity scenes and are ideal when you want to build your loading screen using standard GameObjects, canvases, animations, and components.
+Scene-based loading screens (often referred to as **loading scenes**) are the original loading screen system in ASM. They are implemented as Unity scenes and are ideal when you want to build your loading screen using standard GameObjects, canvases, animations, and components.
+
+#### Finding in code
+
+Scene-based loading screens are regular ASM scenes and can be found like any other scene:
+
+```csharp
+var scene = SceneManager.assets.scenes
+    .FirstOrDefault(s => s.isLoadingScreen && s.name == "MyLoadingScreen");
+```
+
+Or otherwise, simply like this in a script:
+
+```csharp
+[SerializeField] private Scene loadingScene;
+```
+
+#### Custom scene based loading screens
 
 To create a custom loading screen, inherit from `AdvancedSceneManager.Loading.LoadingScreen`:
 
