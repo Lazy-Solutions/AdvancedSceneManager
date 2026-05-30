@@ -10,7 +10,27 @@ This guide explains how to use and customize loading screens in **Advanced Scene
 > 
 > Perfect for deferred UI setups, data initialization, or network checks. See [Callbacks](Callbacks.md) for full interface details.
 
-## Ways to Open a Loading Screen
+## Types of Loading Screens
+
+ASM supports two types of loading screens:
+
+### Scene-based Loading Screens
+
+Implemented as Unity scenes containing a component that inherits from `LoadingScreen`.
+
+Ideal when you want to use GameObjects, canvases, animations, or existing scene content.
+
+See: [Scene-based loading screens](Loading-screens-(scene-based).md)
+
+### Discoverable Loading Screens
+
+Implemented entirely in code using UI Toolkit and discoverables.
+
+Ideal for lightweight loading screens that do not require a dedicated scene.
+
+See: [Discoverable loading screens](Loading-screens-(discoverables-based).md)
+
+## Opening Loading Screens
 
 1. **Opening a Collection**
    
@@ -29,6 +49,7 @@ collection.Open().With(loadingScene: loadingScene); // Overrides loading screen 
 3. **Using LoadingScreenUtility**
    
 Manually open and close a loading screen:
+
 #### Awaitable
 ```csharp
 var instance = await LoadingScreenUtility.OpenLoadingScreen(loadingScene);
@@ -40,7 +61,7 @@ await LoadingScreenUtility.CloseLoadingScreen(instance);
 
 #### Coroutines
 
-ASM 3.0 introduces a new loading screen API based on view models and discoverable attributes (documentation coming soon). As part of this change, LoadingScreenUtility now uses Awaitable instead of IEnumerator. While Awaitables can still be yielded from coroutines, retrieving the returned LoadingScreenReference requires a callback:
+ASM 3.0 introduces a new loading screen based on [discoverables](../services/discoverables.md). As part of this change, LoadingScreenUtility now uses Awaitable instead of IEnumerator. While Awaitables can still be yielded from coroutines, retrieving the returned LoadingScreenReference requires a callback:
 
 ```csharp
 IEnumerator Coroutine()
@@ -55,86 +76,49 @@ IEnumerator Coroutine()
 }
 ```
 
-If you don't need a direct reference, you can also retrieve the instance from the list of currently open loading screens:
-
-```csharp
-LoadingScreenUtility.openLoadingScreens
-    .FirstOrDefault(l => l.scene == SceneManager.assets.defaults.fadeScene);
-```
-
-## Custom Loading Screens
-
-Create a custom script by inheriting from `AdvancedSceneManager.Loading.LoadingScreen`:
-
-```csharp
-//Fades a CanvasGroup, using FadeUtility.Fade() extension method.
-//Updates a progress bar with load progress.
-public class MyLoadingScreen : LoadingScreen
-{
-    public Slider slider;
-    public CanvasGroup fadeGroup;
-    public float fadeDuration = 0.5f;
-
-    public override IEnumerator OnOpen() => FadeIn();
-    public override IEnumerator OnClose() {
-        if (slider) slider.gameObject.SetActive(false);
-        yield return FadeOut();
-    }
-
-    public override void OnProgressChanged(ILoadProgressData progress) {
-        if (slider) slider.value = progress.value;
-    }
-
-	protected IEnumerator FadeIn()
-	{
-
-		fadeBackground.color = color; //Color can be changed when using FadeUtility methods
-
-		if ((fadeInDurationOverride ?? fadeDuration) > 0)
-			yield return fadeGroup.Fade(1, fadeInDurationOverride ?? fadeDuration);
-		else
-			fadeGroup.alpha = 1;
-
-	}
-
-	protected IEnumerator FadeOut()
-	{
-		yield return fadeGroup.Fade(0, fadeDuration);
-	}
-        
-}
-```
-
-Once ready, place it in a scene and assign it in either:
-
-- A collection’s **loading screen** override
-- **ASM Settings** under **Scene Loading** to make it the default
-
-> **Note:** For a scene to be recognized as a loading screen, ASM relies on a serialized flag inside the scene file. This flag is set by the `LoadingScreen` base class:
-> ```csharp
-> [SerializeField]
-> private bool isLoadingScreen = true;
-> 
-> public virtual void OnValidate()
-> {
->     if (!isLoadingScreen)
->         isLoadingScreen = true;
-> }
-> ```
-> This flag (`isLoadingScreen: 1`) must be written into the scene file on disk. That only happens if the scene is marked as dirty and saved afterward. So if your custom loading screen doesn't show up in loading scene pickers, try modifying and saving the scene again.
-> 
-> Additionally, ASM maintains a cached `isLoadingScene` flag on its internal Scene Scriptable Objects. This cache may become outdated. You can manually refresh all scene metadata by pressing the **reload** button next to the loading scene pickers in the UI. This forces ASM to scan scene files on disk and update flags accordingly.
-
-
 ## Progress Reporting with `ILoadProgressData`
 
-Prefer implementing:
+#### [Scene-based loading screens](Loading-screens-(scene-based).md)
+
+Scene-based loading screens can override `OnProgressChanged` to receive progress updates.
 
 ```csharp
 public override void OnProgressChanged(ILoadProgressData progress) { ... }
 ```
 
-### Built-in types:
+#### [Discoverable loading screens](Loading-screens-(discoverables-based).md)
+
+Discoverable loading screens do not currently provide a dedicated `OnProgressChanged` callback. This will be improved in a future update.
+
+Instead, progress listeners must currently be registered manually. 
+Implement `ILoadProgressListener` and register the loading screen when it is shown:
+
+```csharp
+using AdvancedSceneManager.Loading;
+
+public class MyLoadingScreen : ..., ILoadProgressListener
+{
+    protected override async Awaitable OnAddedAsync()
+    {
+        LoadingScreenUtility.RegisterLoadProgressListener(this);
+        ...
+    }
+
+    protected override async Awaitable OnRemovedAsync()
+    {
+        ...
+        LoadingScreenUtility.UnregisterLoadProgressListener(this);
+    }
+    
+    void ILoadProgressListener.OnProgressChanged(ILoadProgressData progress)
+    {
+        // Handle progress updates here
+    }
+
+}
+```
+
+### Built-in Progress types:
 
 #### SceneLoadProgressData
 
@@ -169,33 +153,11 @@ public readonly struct MyCustomProgress : LoadProgressData
 LoadingScreenUtility.ReportProgress(new MyCustomProgress());
 ```
 
-## Default Loading Screens
-
-ASM includes several default loading screen scenes.
-
-### Where to find them:
-
-These are now part of a **UPM sample**. They can be imported either via:
-
-- Unity package manager under ASM package samples
-- **Import** button in the ASM defaults collection
-
-> After importing, they will appear in: `Assets/Samples/Advanced Scene Manager/<version>/Default ASM Screens/`
-
-> ⚠️ **Important:**
-> 
-> If you re-import the default scenes, the asset ID of each scene will change. This breaks any existing references in ASM profiles or collections. Always double-check your assigned loading scenes after re-importing.
-> 
-> The default scenes rarely change, so only re-import if you’re encountering an issue or need to restore them.
-
-You can also access them programmatically:
-```csharp
-SceneManager.assets.defaults.fade //Gets the default fade scene
-```
-
 ### Related pages
 [📄 Cross-scene references](Cross-scene-references.md)\
 [📄 Loading screens](Loading-screens.md)\
+[📄 Loading screens (scene-based)](Loading-screens-(scene-based).md)\
+[📄 Loading screens (discoverables-based)](Loading-screens-(discoverables-based).md)\
 [📄 Splash screens](Splash-screens.md)\
 [📄 Preloading](Preloading.md)\
 [📄 Scene loaders](Scene-loaders.md)
