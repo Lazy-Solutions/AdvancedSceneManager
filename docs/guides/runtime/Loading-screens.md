@@ -34,7 +34,7 @@ var instance = await LoadingScreenUtility.OpenLoadingScreen(loadingScene);
 
 action.Invoke();
 
-yield return LoadingScreenUtility.CloseLoadingScreen(instance);
+await LoadingScreenUtility.CloseLoadingScreen(instance);
 ```
 
 Or use a helper method:
