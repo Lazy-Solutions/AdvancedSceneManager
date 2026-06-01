@@ -18,10 +18,10 @@ namespace AdvancedSceneManager.Flows.Models.Nodes
             "max is the size of the grid.";
 
         [Input]
-        public IGridValue current;
+        public IGridValue current { get; set; }
 
         [Input]
-        public IGridValue max;
+        public IGridValue max { get; set; }
 
         [Output]
         public int index => GetValue();

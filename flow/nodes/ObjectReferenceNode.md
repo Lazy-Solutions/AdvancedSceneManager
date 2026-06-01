@@ -1,23 +1,23 @@
 # Object Reference Node
 
-Provides references to assets that are not tied to a scene, such as ScriptableObjects, prefabs, or shared data.
+The **Object Reference Node** provides references to assets that are not tied to a specific scene, such as ScriptableObjects, prefabs, or shared data.
 
-**Location:**  
-Values > References
+**Location in Search:**  
+`Values > References`
 
-## Types
+## Available Node Types
 
 - **CollectionReferenceNode**  
-  Reference a collection of objects.
+  Reference an ASM Collection.
 
 - **SceneReferenceNode**  
-  Reference a scene.
+  Reference a specific Scene.
 
 - **FlowReferenceNode**  
-  Reference another flow.
+  Reference another Flow asset.
 
 - **ScriptableObjectReferenceNode**  
-  Reference a ScriptableObject.
+  Reference any ScriptableObject.
 
 - **VariableReferenceNode**  
-  Reference a variable.
+  Reference a Flow Variable.

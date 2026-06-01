@@ -1,19 +1,29 @@
 # Common Questions
 
-To be filled over time, Ask us questions!
+This page will be updated over time. Feel free to ask us questions!
 
-## Can i run multiple flows together?
+## Can I run multiple flows together?
 
-No, it's designed to be run one at the time, this is due to how the scene's loading works, running 2 or more different loads a a time will cause issues, if you need combined logic, use one flow with If nodes etc, or cancel a flow before running another.
+No, they are designed to be run one at a time. This is due to how scene loading works; running two or more different loads simultaneously will cause issues. If you need combined logic, use a single flow with `If` nodes or similar logic, or cancel a flow before running another.
 
 
 ## Can flows return values?
 
-No, They are designed to be easy to use in Unity Events and similar.<br />
-However you can make use of Variables to "Return" a value.
+No, they are designed to be easy to use in Unity Events and similar scenarios.<br />
+However, you can use **Variables** to "return" a value.
 
 ```csharp
-// Replace with proper example
-FlowHelper.Run("what");
-var result = FlowHelper.Variable("what_return_value");
+// Example of running a flow and retrieving a variable value
+FlowHelper.Run("MyFlowName");
+
+// The flow might set "Result" during its execution
+var result = FlowHelper.Variable("Result");
 ```
+
+---
+
+## Useful Links
+- [Getting Started](./Getting-Started.md)
+- [Events & Callbacks](./Events.md)
+- [Troubleshooting & Workarounds](./Workarounds.md)
+- [Flow Documentation Index](./readme.md)

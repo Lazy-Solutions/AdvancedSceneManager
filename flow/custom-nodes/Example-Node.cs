@@ -1,75 +1,71 @@
-/**
-* This is an example node.
-* Tip: You can generate new node files from the Utility Functions Window!
-*/
-
-
 using System;
 using UnityEngine;
 using AdvancedSceneManager.Flows.Models;
 
-[Serializable]
-[AddNodeMenu("Debug")] // Dicates the location of your new node.
-public class CustomFlowNode : FlowNode
-{
-    public override string description => "Logs a description to the ???.";
-
-    [Input]
-    public object input1 { get; set; }
-
-    [Output]
-    public object output1 { get; set; }
-
-    public override Awaitable Run(FlowContext context) // can be async
-    {
-        return null;
-    }
-}
-
-[Serializable]
-[AddNodeMenu("...")] // Dicates the location of your new node.
-public class CustomDataNode : DataNode
-{
-    public override string description => "Logs a description to the ???.";
-
-    [Input]
-    public object input1 { get; set; }
-
-    [Output]
-    public object output1 { get; set; }
-}
-
-
-public class CustomVariable : Variable<T>{ }
-
-
-
-
-[Serializable]
-[AddNodeMenu("...")] // Dicates the location of your new node.
-public class CustomDataNode : ASMNode
-{
-    [SerializeField] private string m_value;
-
-// This should be wrapped in 
 #if UNITY_EDITOR
-
-    public override void OnNodeViewRefreshed(Node node)
-    {
-        // This is where you can style the node.
-        // Add VisualElements or set style ETC, it's UIElements.
-    }
-
-
-    public override void CreatePropertySheet(SerializedProperty node, PropertySheetGUI propertySheet)
-    {
-        // this is where you bind data from the inspector to any serialized fields.
-        propertySheet.Header("");
-        var textField = new TextField();
-        textField.BindProperty(node.FindPropertyRelative(nameof(m_value)));
-        propertySheet.Add(textField);
-    }
-
+using UnityEditor;
+using UnityEngine.UIElements;
 #endif
+
+/**
+ * This is an example node.
+ * Tip: You can generate new node files from the ASM Utility Functions window!
+ */
+
+[Serializable]
+[AddNodeMenu("Debug/Example Flow Node")] // Dictates the location of your new node in the search menu.
+public class ExampleFlowNode : FlowNode
+{
+    public override string description => "An example flow node that performs an action.";
+
+    [Input]
+    public string message { get; set; }
+
+    [Output]
+    public string result { get; set; }
+
+    public override async Awaitable Run(FlowContext context)
+    {
+        Debug.Log($"Flow Node executed with message: {message}");
+        result = "Success";
+        await Awaitable.MainThreadAsync(); // Example of async operation
+    }
 }
 
+[Serializable]
+[AddNodeMenu("Values/Example Data Node")]
+public class ExampleDataNode : DataNode
+{
+    public override string description => "An example data node that provides a value.";
+
+    [Input]
+    public int valueA { get; set; }
+
+    [Input]
+    public int valueB { get; set; }
+
+    [Output]
+    public int sum => valueA + valueB;
+
+    // DataNodes logic can be handled by overriding properties or via custom systems
+}
+
+#if UNITY_EDITOR
+[Serializable]
+[AddNodeMenu("Special/Styled Node")]
+public class StyledNode : FlowNode
+{
+    [SerializeField] private string m_customData;
+
+    public override string description => "A node with custom UI Toolkit styling.";
+
+    public override void OnNodeViewRefreshed()
+    {
+        // This is where you can style the node using UI Toolkit (formerly UIElements).
+        // You can add VisualElements, apply CSS classes, etc.
+    }
+
+    // Note: CreatePropertyGUI is used for the inspector
+    // CreatePropertySheet was used in older versions or specific implementations
+}
+#endif

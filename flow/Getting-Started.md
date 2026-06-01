@@ -1,68 +1,75 @@
 # Getting Started
 
-If you have not yet familiarized yourself with ASM you should start there.
+If you are not yet familiar with Advanced Scene Manager (ASM), we recommend starting there first.
 
-Build up your scenes and collection structures and when you are ready to start loading scenes with the flow manager follow the steps below.
+Once you have set up your scenes and collection structures, you can begin using the Flow Editor to manage your scene loading logic by following the steps below.
 
-Memorize the image below, In these guides or when communicating with us, this will most likely be how we call things.
+### Visual Guide
+The image below illustrates the basic structure of a flow node. We will refer to these components throughout this documentation.
 
-![Flow Node ](./images/Flowinout.webp)
+![Flow Node](./images/Flowinout.webp)
 
-## Open the editor
+## Opening the Editor
 
-In the footer of ASM, you will now find a new icon (left of the scene helper) if you press it, the flow window will open, and if you drag it, you will access the flow helper.
+In the footer of the ASM window, you will find a new icon (to the left of the Scene Helper). 
+- **Click** the icon to open the Flow Editor window.
+- **Drag** the icon to create a **Flow Helper** in your scene.
 
 ## Flow Helper
 
-The flow helper scriptable object works the same as the Scene helper, meaning you can run your flow from unity events or elsewhere. 
+The **Flow Helper** is a ScriptableObject that functions similarly to the Scene Helper. It allows you to trigger flows from Unity Events or other scripts.
 
-> Note that the flow helper is auto generated with methods to call your flows and variables. if something is missing in it, you may want to try regenerate... 
+> **Note:** The Flow Helper is automatically generated with methods to call your specific flows and variables. If a flow or variable appears to be missing, you can manually trigger a regeneration (see below).
 
 ## Flow Editor Window
 
-Lets start with familiarize ourselfs with the window. 
+Let's familiarize ourselves with the window's layout.
 
-In the top left corner, you will find a menu to change flows or create new flows.
-In the Top Right corner, you will find a menu to regenerate the code generation, if it did not trigger automatically.
+### Top Navigation
+- **Top Left:** Menu to switch between existing flows or create new ones.
+- **Top Right:** Menu to manually trigger **Code Generation** if it did not occur automatically.
 
-In the top right, you have a inspector window where you see a few menus
-
-Flow: Contains the settings for the selected flow.
-Global Variables: will be explained in more details later.
-Selection: The inspector for the selected node.
+### Inspector (Right Side)
+The Inspector contains several tabs:
+- **Flow:** Settings and configuration for the currently selected flow.
+- **Global Variables:** Manage variables accessible across all flows.
+- **Selection:** Context-sensitive inspector for the currently selected node.
 
 ## Samples
 
-Samples can be imported from the package manager.
+Samples can be imported via the Unity Package Manager.
 
-It's not recommended to reuse these flows, as they are versioned, everytime you update the flow editor and import the samples it will make duplicates. If you want to reuse any, pull them out from the samples folder.
+**Recommendation:** Avoid reusing sample flows directly in your production logic. Since samples are versioned, re-importing them after an update may create duplicates or cause conflicts. If you wish to use a sample as a template, move it out of the Samples folder first.
 
-If you often import samples, this may cause update issues when updating ASM flow, due to old or removed code etc. keep that in mind.
+## Running Flows
 
-## Flows
+By design, only one flow can run at any given time. This limitation exists because the underlying `SceneManager` processes `SceneOperations` sequentially. While multiple scenes can be loaded within a single operation, multiple operations are queued rather than run in parallel.
 
-By design only one flow can be run at any given time, this is due to how the SceneManager works. since SceneOperations cannot run in parallell, scene loading can in one sceneoperation, but sceneoperations are queued.
+### How to use Flows
+Most users will interact with flows via the **FlowHelper**. 
 
-## Using Flows
+However, because flows are ScriptableObjects, you can also reference a flow asset directly in your scripts and call it as needed. For more information on using flows via code, see [Events & Callbacks](./Events.md).
 
-Most likely you want to make use of FlowHelper,
+## Stopping Flows
 
-You can use the flow asset directly, it's a scriptable object so you can reference it just like other
+There are two primary ways to stop a flow:
 
-## Stopping flows
-
-There's 1 way to stop a flow.
-Calling Flow.Cancel will terminate it in whatever state it's in. just like a cancelation token in a task.
-
-if you want to be able to stop a looping flow, you can make use of a signals variable and a if node to create a stop. then it wont stop abruptly, and you will have more control of when.
+1. **Flow.Cancel:** Calling this will immediately terminate the flow in its current state, similar to a cancellation token.
+2. **Conditional Logic:** For looping flows, we recommend using a variable (e.g., a "StopSignal" boolean) combined with an **If** node. This allows the flow to finish its current step and exit gracefully rather than stopping abruptly.
 
 ## Variables
 
-Variables are designed to be global. so they can be used in multiple flows. 
+Variables in the Flow Editor are global, meaning they can be shared across multiple flows. 
 
-they are also designed this way to be usable in unity events, like you could set a scene variable with desired scene to open and then use it in a flow.
+This design allows for easy integration with Unity Events. For example, you could set a variable to a specific scene name from a button click and then run a flow that loads whatever scene that variable currently points to.
 
-We expect you don't need that many to begin with. 
+> **Feedback Welcome:** We are constantly evaluating the variable system. If you have suggestions or find this design doesn't fit your workflow, please let us know!
 
-> we would like to know your experience with this, in case we want to redesign it.
+---
 
+## Useful Links
+- [Events & Callbacks](./Events.md)
+- [Custom Nodes](./custom-nodes/Custom-Nodes.md)
+- [Common Questions](./Common-questions.md)
+- [Troubleshooting & Workarounds](./Workarounds.md)
+- [Flow Documentation Index](./readme.md)

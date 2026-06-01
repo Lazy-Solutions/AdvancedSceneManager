@@ -1,0 +1,50 @@
+# Events & Callbacks
+
+There are several ways to interact with flows via code, allowing you to react to flow completion or monitor execution globally.
+
+## 1. Execution Callbacks (`flow.Run`)
+
+When starting a flow manually from a script, you can pass a callback that will be executed once the flow completes.
+
+```csharp
+public void StartMyFlow(FlowAsset myFlow)
+{
+    myFlow.Run(onCompleted: () => 
+    {
+        Debug.Log("Flow execution finished!");
+    });
+}
+```
+
+## 2. Global Event System (`FlowManager.events`)
+
+For advanced scenarios, such as logging, analytics, or UI integration, you can listen for lifecycle events that trigger for *every* flow. These are managed via the `FlowManager.events` system.
+
+### Example: Tracking Flow Starts
+```csharp
+void Start()
+{
+    FlowManager.events.RegisterCallback<FlowRunStartingEvent>(e => 
+    {
+        Debug.Log($"A flow is starting: {e.flow.name}");
+    });
+}
+```
+
+### Common Events
+- **FlowRunStartingEvent:** Triggered when any flow begins execution.
+- **FlowRunCompletedEvent:** Triggered when a flow finishes (check `e.status` for success/failure).
+
+---
+
+## Internal Node Events
+If you are developing **Custom Nodes** and need to handle cleanup or logic when a specific node's parent flow ends, please refer to the [Custom Nodes](./custom-nodes/Custom-Nodes.md#node-lifecycle-events-contextonflowend) guide.
+
+---
+
+## Useful Links
+- [Getting Started](./Getting-Started.md)
+- [Custom Nodes](./custom-nodes/Custom-Nodes.md)
+- [Common Questions](./Common-questions.md)
+- [Troubleshooting & Workarounds](./Workarounds.md)
+- [Flow Documentation Index](./readme.md)
