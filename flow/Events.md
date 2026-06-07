@@ -35,6 +35,36 @@ void Start()
 - **FlowRunStartingEvent:** Triggered when any flow begins execution.
 - **FlowRunCompletedEvent:** Triggered when a flow finishes (check `e.status` for success/failure).
 
+## 3. Custom Events
+
+You can define your own events to be triggered from within a flow.
+
+### 1. Declare the event
+Create a class that inherits from `EventCallbackBase`.
+
+```csharp
+using AdvancedSceneManager.Callbacks.Events;
+
+public class MyCustomEvent : EventCallbackBase
+{ }
+```
+
+### 2. Register the callback
+Use `FlowManager.events` to listen for your event.
+
+```csharp
+void Start()
+{
+    FlowManager.events.RegisterCallback<MyCustomEvent>(e => 
+    {
+        Debug.Log("Custom event received from flow!");
+    });
+}
+```
+
+### 3. Trigger from Flow Editor
+In the Flow Editor, add the **Send Event** node and select your custom event from the dropdown. When the node is executed, all registered callbacks will be invoked.
+
 ---
 
 ## Internal Node Events
