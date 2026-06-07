@@ -43,7 +43,7 @@ Samples can be imported via the Unity Package Manager.
 
 ## Running Flows
 
-By design, only one flow can run at any given time. This limitation exists because the underlying `SceneManager` processes `SceneOperations` sequentially. While multiple scenes can be loaded within a single operation, multiple operations are queued rather than run in parallel.
+By design, only one flow can run at any given time. While you can trigger multiple flows, they will be **queued** and executed sequentially. This is because the underlying `SceneManager` processes `SceneOperations` sequentially, and flows often involve these operations.
 
 ### How to use Flows
 Most users will interact with flows via the **FlowHelper**. 
@@ -52,10 +52,15 @@ However, because flows are ScriptableObjects, you can also reference a flow asse
 
 ## Stopping Flows
 
-There are two primary ways to stop a flow:
+There are several ways to cancel or stop flows:
 
-1. **Flow.Cancel:** Calling this will immediately terminate the flow in its current state, similar to a cancellation token.
-2. **Conditional Logic:** For looping flows, we recommend using a variable (e.g., a "StopSignal" boolean) combined with an **If** node. This allows the flow to finish its current step and exit gracefully rather than stopping abruptly.
+- **FlowManager.Cancel() / FlowHelper.Cancel():** Stops the currently running flow.
+- **Flow.Cancel():** Stops the targeted flow directly, whether it is currently running or still in the queue.
+- **FlowManager.CancelAll():** Stops the currently running flow and clears all queued flows.
+
+> **Note on Timing:** Cancellation may not be instantaneous. If a flow is currently executing a node (e.g., waiting for a scene load), that node might need to finish its task before the flow can fully stop.
+
+- **Conditional Logic:** For looping flows, we recommend using a variable (e.g., a "StopSignal" boolean) combined with an **If** node. This allows the flow to finish its current step and exit gracefully rather than stopping abruptly.
 
 ## Variables
 

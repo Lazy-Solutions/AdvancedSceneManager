@@ -4,7 +4,7 @@ This page will be updated over time. Feel free to ask us questions!
 
 ## Can I run multiple flows together?
 
-No, they are designed to be run one at a time. This is due to how scene loading works; running two or more different loads simultaneously will cause issues. If you need combined logic, use a single flow with `If` nodes or similar logic, or cancel a flow before running another.
+No, they are executed one at a time. If you trigger multiple flows, they will be **queued** and run sequentially. This ensures that scene operations do not conflict. If you need parallel logic, you should combine it into a single flow or manage the queue using `FlowManager.CancelAll()` if a new flow should take priority.
 
 
 ## Can flows return values?
@@ -14,7 +14,7 @@ However, you can use **Variables** to "return" a value.
 
 ```csharp
 // Example of running a flow and retrieving a variable value
-FlowHelper.Run("MyFlowName");
+await FlowHelper.Run("MyFlowName");
 
 // The flow might set "Result" during its execution
 var result = FlowHelper.Variable("Result");
