@@ -27,7 +27,7 @@ When designing custom nodes, you may want to utilize the following features:
 
 ### Node Metadata
 - **Description:** Provide a tooltip for your node to help users understand its purpose.
-- **GetSummary:** Override this method to display dynamic text on the node itself (e.g., displaying the current value of a property).
+- **GetSummary:** Override this method to display dynamic text on the node itself (e.g., displaying the current value of a property). Note that this only works for serialized properties and not for input or output ports.
 
 ### Inputs & Outputs
 - **Fields vs Properties:** Use **public properties** for your `[Input]` and `[Output]` ports to ensure proper integration with the Flow Editor.
