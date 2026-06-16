@@ -20,12 +20,14 @@ If you encounter an issue that isn't covered here, please reach out to us. To he
 ## Flow-Specific Issues
 
 ### Flow Helper is missing "Run" or "Variables"
-If the `FlowHelper` static class does not contain methods for your specific flows or variables, it usually means the **Code Generation** step failed or hasn't run yet.
+If the `FlowHelper` static class does not contain methods for your specific flows or variables, it means the **Code Generation** step hasn't been run yet.
 
 **Solution:**
-1. Open the ASM Window.
-2. Go to the **Settings** tab.
-3. Click **Regenerate Flow Helper**.
+You must manually trigger code generation whenever you add or rename flows/variables. 
+
+1. Open the **Flow Editor Window**.
+2. Click the menu in the **Top Right** corner.
+3. Select **Generate Code**.
 
 ![Code Gen](./images/Code-Gen.png)
 

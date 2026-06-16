@@ -19,7 +19,10 @@ In the footer of the ASM window, you will find a new icon (to the left of the Sc
 
 The **Flow Helper** is a ScriptableObject that functions similarly to the Scene Helper. It allows you to trigger flows from Unity Events or other scripts.
 
-> **Note:** The Flow Helper is automatically generated with methods to call your specific flows and variables. If a flow or variable appears to be missing, you can manually trigger a regeneration (see below).
+To ensure your specific flows and variables are available in the Flow Helper, you must manually trigger **Code Generation** whenever you make changes in the Flow Editor.
+
+### How to Generate Code
+To trigger code generation, click the menu in the **Top Right** corner of the **Flow Editor Window** and select **Generate Code**.
 
 ## Flow Editor Window
 
@@ -27,7 +30,7 @@ Let's familiarize ourselves with the window's layout.
 
 ### Top Navigation
 - **Top Left:** Menu to switch between existing flows or create new ones.
-- **Top Right:** Menu to manually trigger **Code Generation** if it did not occur automatically.
+- **Top Right:** Menu to manually trigger **Code Generation**.
 
 ### Inspector (Right Side)
 The Inspector contains several tabs:
