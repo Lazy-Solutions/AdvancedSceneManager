@@ -40,14 +40,27 @@ void Start()
 You can define your own events to be triggered from within a flow.
 
 ### 1. Declare the event
-Create a class that inherits from `EventCallbackBase`.
+Create a record that inherits from `EventCallbackBase`.
 
 ```csharp
 using AdvancedSceneManager.Callbacks.Events;
 
-public class MyCustomEvent : EventCallbackBase
-{ }
+public record MyCustomEvent : EventCallbackBase;
 ```
+
+> [!WARNING]
+> Do not use primary constructors in your event records if they are defined outside of the ASM project (e.g., in your own assembly).
+> 
+> **Does not work:**
+> `public record TestEvent(bool test) : EventCallbackBase;`
+> 
+> **Works:**
+> ```csharp
+> public record TestEvent : EventCallbackBase
+> {
+>     public bool test { get; set; }
+> }
+> ```
 
 ### 2. Register the callback
 Use `FlowManager.events` to listen for your event.
