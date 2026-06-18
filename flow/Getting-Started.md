@@ -36,6 +36,7 @@ Let's familiarize ourselves with the window's layout.
 The Inspector contains several tabs:
 - **Flow:** Settings and configuration for the currently selected flow.
 - **Global Variables:** Manage variables accessible across all flows.
+- **Sample Variables:** Special section for variables from samples.
 - **Selection:** Context-sensitive inspector for the currently selected node.
 
 ## Samples
