@@ -31,13 +31,13 @@ When designing custom nodes, you may want to utilize the following features:
 
 ### Inputs & Outputs
 - **Fields vs Properties:** Use **public properties** for your `[Input]` and `[Output]` ports to ensure proper integration with the Flow Editor.
-- **Dynamic Types:** Learn how to create ports that can accept multiple data types.
+- **Dynamic Types:** Useful for nodes such as `VariableNode` and `ObjectReferenceNode`, where the actual port type depends on the assigned value rather than being known at compile time. Use `RequestPortRefresh` when the type changes to update the node's ports.
 - **Renaming Ports:** You can customize the display names of your input and output fields for better clarity.
 
 ### Custom UI (UI Toolkit)
 If you are familiar with Unity's **UI Toolkit**, you can fully customize the appearance of your nodes:
 - **OnNodeViewRefreshed:** Override this method to add custom `VisualElements`, apply CSS classes, or modify the node's layout.
-- **CreatePropertyGUI:** Use this to define how properties are drawn in the inspector.
+- **CreatePropertyGUI:** Use property sheets to define the UI shown in the inspector when a node is selected. This is where users can edit serialized properties and other node-specific settings.
 
 ### Node Lifecycle Events (`context.OnFlowEnd`)
 When creating a **Custom Node**, you may need to perform cleanup or trigger an action specifically when the flow it belongs to finishes (whether it succeeds, fails, or is cancelled).
@@ -56,12 +56,6 @@ public override async Awaitable Run(FlowContext context)
     await Awaitable.MainThreadAsync();
 }
 ```
-
-### Advanced Design
-- **Property Sheets:** Learn how to use property sheets for complex node data management.
-- **AI-Assisted Creation:** While AI can help draft node logic, ensure you review any ASM-specific code, as general models may not be fully familiar with ASM's internal API.
-
----
 
 ## Useful Links
 - [Events & Callbacks](../Events.md)
