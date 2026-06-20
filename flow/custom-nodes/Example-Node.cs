@@ -46,11 +46,8 @@ public class ExampleDataNode : DataNode
 
     [Output]
     public int sum => valueA + valueB;
-
-    // DataNodes logic can be handled by overriding properties or via custom systems
 }
 
-#if UNITY_EDITOR
 [Serializable]
 [AddNodeMenu("Special/Styled Node")]
 public class StyledNode : FlowNode
@@ -59,13 +56,12 @@ public class StyledNode : FlowNode
 
     public override string description => "A node with custom UI Toolkit styling.";
 
-    public override void OnNodeViewRefreshed()
+#if UNITY_EDITOR
+    public override void OnNodeViewRefreshed(Node node)
     {
-        // This is where you can style the node using UI Toolkit (formerly UIElements).
+        // This is where you can style the node using UI Toolkit.
         // You can add VisualElements, apply CSS classes, etc.
     }
-
-    // Note: CreatePropertyGUI is used for the inspector
-    // CreatePropertySheet was used in older versions or specific implementations
+    #endif
 }
-#endif
+
