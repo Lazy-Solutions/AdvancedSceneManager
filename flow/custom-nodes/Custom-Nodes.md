@@ -39,23 +39,58 @@ If you are familiar with Unity's **UI Toolkit**, you can fully customize the app
 - **OnNodeViewRefreshed:** Override this method to add custom `VisualElements`, apply CSS classes, or modify the node's layout.
 - **CreatePropertyGUI:** Use property sheets to define the UI shown in the inspector when a node is selected. This is where users can edit serialized properties and other node-specific settings.
 
-### Node Lifecycle Events (`context.OnFlowEnd`)
-When creating a **Custom Node**, you may need to perform cleanup or trigger an action specifically when the flow it belongs to finishes (whether it succeeds, fails, or is cancelled).
+### Node Lifecycle Events
 
-You can register a callback within the node's `Run` method using the `FlowContext`:
+ASM Flow provides two ways to react to a flow ending: implementing `IFlowRunLifecycle` or registering a callback through `FlowContext`.
+
+#### `IFlowRunLifecycle`
+Implement `IFlowRunLifecycle` when your node needs to react to the lifecycle of the entire flow run.
+
+```csharp
+public class MyNode : FlowNode, IFlowRunLifecycle
+{
+    public void OnFlowRunStarted(FlowContext context)
+    {
+        Debug.Log("Flow started");
+    }
+
+    public void OnFlowRunEnded(FlowContext context)
+    {
+        Debug.Log("Flow ended");
+    }
+
+    public override async Awaitable Run(FlowContext context)
+    {
+        await Awaitable.MainThreadAsync();
+    }
+}
+```
+
+`OnFlowRunStarted` is called when the flow run begins execution, while `OnFlowRunEnded` is called when the run finishes.
+
+Use this approach when the node itself owns the setup and cleanup logic.
+
+#### `FlowContext.OnFlowEnd`
+
+For one-off cleanup tasks created during execution, you can register a callback directly from `Run`:
 
 ```csharp
 public override async Awaitable Run(FlowContext context)
 {
-    // Register a method to run when the flow ends
-    context.OnFlowEnd(() => 
+    var resource = CreateTemporaryResource();
+
+    context.OnFlowEnd(() =>
     {
-        Debug.Log("The flow has ended, performing cleanup...");
+        resource.Dispose();
     });
 
     await Awaitable.MainThreadAsync();
 }
 ```
+
+The callback is invoked when the flow ends.
+
+Use this approach when cleanup is tied to a specific execution path or temporary resource created during `Run`.
 
 ## Useful Links
 - [Events & Callbacks](../Events.md)
