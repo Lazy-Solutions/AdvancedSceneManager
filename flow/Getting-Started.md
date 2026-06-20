@@ -54,6 +54,30 @@ Most users will interact with flows via the **FlowHelper**.
 
 However, because flows are ScriptableObjects, you can also reference a flow asset directly in your scripts and call it as needed. For more information on using flows via code, see [Events & Callbacks](./Events.md).
 
+## Importance of Node Ordering
+
+Because ASM Flows execute visually from left to right along the execution path (the `[->]` ports), the order in which nodes are connected is critical, especially when dealing with variables.
+
+When an executing node requires data from its input ports, it evaluates the connected data nodes *at that exact moment, working backwards* (indicated by the red arrows). If those upstream nodes rely on a Variable, they will use whatever value the Variable has *at the moment the evaluation happens*.
+
+![Importance of Ordering](./images/Flow_OOF.webp)
+
+**What went wrong in the top example?**
+In the top example, the **Set Variable** node executes *before* **Send Message**. It updates the "Current" variable to point to the next scene. When **Send Message** subsequently runs, it evaluates its inputs backwards. This backward evaluation reaches the **Get Next Scene In Collection** node, which then pulls from the "Current" Variable. Because the variable was *already updated*, it calculates based on the new index instead of the old one, resulting in **Send Message** broadcasting an out-of-sync, incorrect scene!
+
+**How is it fixed in the bottom example?**
+In the bottom example, **Send Message** executes *first*. When it evaluates its inputs backwards, it pulls from the "Current" Variable *before* it has been updated, ensuring the correct scene is sent. Only after the message is sent does **Set Variable** execute to safely update the state for the next step.
+
+Always ensure your execution path doesn't prematurely update variables that downstream data nodes still rely on!
+
+### Alternative Fix: The Cache Node
+
+If you find yourself in a situation where you *must* compute a value early and reuse it later, without it changing during backward evaluation, you can use the **Cache** node.
+
+The Cache node is designed to store a computed value so you don't have to repeat complex evaluation steps or worry about underlying variables changing out from under you. It locks in the data it receives the first time it is evaluated, and it automatically resets its stored value whenever a new flow run begins.
+
+![Cache Node](./images/cache_node.webp)
+
 ## Stopping Flows
 
 There are several ways to cancel or stop flows:
