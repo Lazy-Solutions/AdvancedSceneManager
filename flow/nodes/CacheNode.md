@@ -11,6 +11,8 @@ The Cache node acts as a safeguard:
 - Subsequent backward evaluations that reach the Cache node will pull this locked value rather than recalculating the entire upstream chain.
 - It automatically **resets** its stored value whenever a new flow run begins.
 
+> **Note:** The Cache node saves data as an `object`. When retrieving this data later, you will need to cast it back to its original type.
+
 ![Cache Node](../images/cache_node.webp)
 
 ## When to Use It

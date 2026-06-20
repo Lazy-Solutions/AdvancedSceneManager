@@ -72,9 +72,11 @@ Always ensure your execution path doesn't prematurely update variables that down
 
 ### Alternative Fix: The Cache Node
 
-If you find yourself in a situation where you *must* compute a value early and reuse it later, without it changing during backward evaluation, you can use the **Cache** node.
+If you find yourself in a situation where you *must* compute a value early and reuse it later, without it changing during backward evaluation, you can use the [**Cache** node](./nodes/CacheNode.md).
 
 The Cache node is designed to store a computed value so you don't have to repeat complex evaluation steps or worry about underlying variables changing out from under you. It locks in the data it receives the first time it is evaluated, and it automatically resets its stored value whenever a new flow run begins.
+
+> **Note:** The Cache node saves data as an `object`. When retrieving this data later, you will need to cast it back to its original type.
 
 ![Cache Node](./images/cache_node.webp)
 
