@@ -115,7 +115,7 @@ public class MyScript : MonoBehaviour
 
 Scenes and collections can also be opened through [UnityEvents](https://docs.unity3d.com/Manual/UnityEvents.html), such as from a [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html).
 
-The [SceneHelper](/docs/guides/Scene%20helper.md) can also make it easier to find and reference scenes or collections from the Unity editor.
+The [SceneHelper](/docs/guides/models/Scene-helper.md) can also make it easier to find and reference scenes or collections from the Unity editor.
 
 ## Patches
 
