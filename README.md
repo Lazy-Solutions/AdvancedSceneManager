@@ -136,9 +136,3 @@ Want to report an issue or get help?
 [Discord, Lazy Solutions](https://discord.gg/upfgXPxFnw)
 
 > We accept bug reports and support requests through all channels. Use whichever option is most convenient.
-
-## Where can I get it?
-
-Advanced Scene Manager is available on the Unity Asset Store:
-
-[Get Advanced Scene Manager](https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-3-330926)
