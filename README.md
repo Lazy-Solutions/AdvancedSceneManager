@@ -4,7 +4,7 @@ Advanced Scene Manager (ASM) is a scene manager for Unity projects that have gro
 
 Unity's built-in `SceneManager` and `LoadScene` methods work well for simple projects. However, as projects grow and require multiple scenes loaded together, persistent systems, loading screens, or consistent scene transitions, managing those relationships becomes more difficult.
 
-ASM provides a structured layer on top of Unity's scene system, helping you organize scenes into collections, manage additive scene loading, keep persistent scenes loaded, control project startup, and make scene changes predictable across your project.
+Advanced Scene Manager provides a structured layer on top of Unity's scene system, helping you organize scenes into collections, manage additive scene loading, keep persistent scenes loaded, control project startup, and make scene changes predictable across your project.
 
 Whether you are building menus, gameplay areas, loading screens, or large multi-scene projects, Advanced Scene Manager helps define how your scenes are organized and how they work together.
 
@@ -61,13 +61,13 @@ Scenes can be organized into [Scene Collections](/docs/guides/models/Scene%20col
 
 Collections can contain gameplay scenes, UI scenes, managers, lighting scenes, or any other scenes that need to work together.
 
-ASM also supports [persistent scenes](/docs/guides/models/Scenes.md#persistent-scenes), allowing selected scenes to remain loaded while other scenes are changed.
+Advanced Scene Manager also supports [persistent scenes](/docs/guides/models/Scenes.md#persistent-scenes), allowing selected scenes to remain loaded while other scenes are changed.
 
-For projects using additive scene loading, ASM provides a clearer way to manage relationships between scenes instead of relying on scattered loading scripts and project-specific solutions.
+For projects using additive scene loading, Advanced Scene Manager provides a clearer way to manage relationships between scenes instead of relying on scattered loading scripts and project-specific solutions.
 
 ## Getting Started
 
-New to Advanced Scene Manager? Start with the [Quick Start Guide](/docs/guides/Quick-start.md) to learn how to set up ASM in your Unity project.
+New to Advanced Scene Manager? Start with the [Quick Start Guide](/docs/guides/Quick-start.md) to learn how to set up Advanced Scene Manager in your Unity project.
 
 If you are using [Flow Editor](/flow), you can follow the [Flow Editor Getting Started Guide](/flow/Getting-Started.md) to learn how to create visual scene setups.
 
