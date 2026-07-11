@@ -14,9 +14,9 @@ Whether you are building menus, gameplay areas, loading screens, or large multi-
 
 📚 [**Flow Editor Documentation**](/flow)
 
-🛒 [**Advanced Scene Manager on Unity Asset Store**](https://af.unity.com/sr/camref:1100ljPVc/pubref:website/destination:https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-3-330926)
+🛒 [**Advanced Scene Manager on Unity Asset Store**](https://af.unity.com/sr/camref:1100ljPVc/pubref:github/destination:https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-3-330926)
 
-🛒 [**Flow Editor for Advanced Scene Manager on Unity Asset Store**](https://af.unity.com/sr/camref:1100ljPVc/pubref:website/destination:https://assetstore.unity.com/packages/tools/visual-scripting/flow-editor-for-advanced-scene-manager-374938)
+🛒 [**Flow Editor for Advanced Scene Manager on Unity Asset Store**](https://af.unity.com/sr/camref:1100ljPVc/pubref:github/destination:https://assetstore.unity.com/packages/tools/visual-scripting/flow-editor-for-advanced-scene-manager-374938)
 
 > Some of the links on these pages are affiliate links. This means if you click them and make a purchase, I may receive a small commission at no extra cost to you. This helps support the project.
 
