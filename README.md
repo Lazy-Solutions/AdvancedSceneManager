@@ -1,4 +1,24 @@
-# Advanced Scene Manager: Streamline Your Unity Scene Management
+# Advanced Scene Manager, Scene Management for Unity
+
+Advanced Scene Manager (ASM) is a scene manager for Unity projects that have grown beyond using Unity's basic `SceneManager` and `LoadScene` functionality.
+
+Unity's built-in `SceneManager` and `LoadScene` methods work well for simple projects. However, as projects grow and require multiple scenes loaded together, persistent systems, loading screens, or consistent scene transitions, managing those relationships becomes more difficult.
+
+ASM provides a structured layer on top of Unity's scene system, helping you organize scenes into collections, manage additive scene loading, keep persistent scenes loaded, control project startup, and make scene changes predictable across your project.
+
+Whether you are building menus, gameplay areas, loading screens, or large multi-scene projects, Advanced Scene Manager helps define how your scenes are organized and how they work together.
+
+📖 [**Learn more about Advanced Scene Manager**](https://lazy.solutions/advanced-scene-manager)
+
+📚 [**Advanced Scene Manager Documentation**](/docs)
+
+📚 [**Flow Editor Documentation**](/flow)
+
+🛒 [**Advanced Scene Manager on Unity Asset Store**](https://af.unity.com/sr/camref:1100ljPVc/pubref:website/destination:https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-3-330926)
+
+🛒 [**Flow Editor for Advanced Scene Manager on Unity Asset Store**](https://af.unity.com/sr/camref:1100ljPVc/pubref:website/destination:https://assetstore.unity.com/packages/tools/visual-scripting/flow-editor-for-advanced-scene-manager-374938)
+
+> Some of the links on these pages are affiliate links. This means if you click them and make a purchase, I may receive a small commission at no extra cost to you. This helps support the project.
 
 ## Trial
 
@@ -6,85 +26,82 @@
 <img src="/trial/Trial.png" width="640" height="360" />
 </p>
 
-Looking to try out Advance Scene Manager? [Click here!](/trial/)
+Looking to try Advanced Scene Manager? [Start the trial](/trial/)
 
-## Store Page
+## Who is Advanced Scene Manager for?
 
-<p align="center">
-  <a href="https://prf.hn/click/camref:1100ljPVc/pubref:docs/destination:https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-3-330926">
-    <img src="./image/ASM_Store_1.png" alt="ASM Store">
-  </a>
-</p>
+Advanced Scene Manager is designed for Unity developers working on projects where scenes need more structure than simple `LoadScene` calls.
 
-<p align="center">
-  <a href="https://prf.hn/click/camref:1100ljPVc/pubref:docs/destination:https://assetstore.unity.com/packages/tools/gui/loading-screen-kit-for-advanced-scene-manager-311223">
-    <img src="./image/ASM_Store.png" alt="LSK Store">
-  </a>
-</p>
+Common examples:
 
-> Some of the links on these pages are affiliate links. This means if you click them and make a purchase, I may receive a small commission at no extra cost to you. This helps support the project.
+- Projects with multiple gameplay scenes
+- Games using additive scene loading
+- Projects with shared managers or persistent systems
+- Projects with complex startup requirements
+- Teams maintaining larger Unity projects
 
+## Features
 
-## Introduction
-Welcome to Advanced Scene Manager, the ultimate solution for efficient scene management in Unity. Simplify and optimize your workflow with this powerful asset designed specifically for managing scenes in Unity projects.
+- **Scene Collections** for organizing groups of scenes
+- **Additive scene management** for projects using multiple scenes together
+- **Persistent Scenes** for keeping selected scenes loaded
+- **Startup Scenes** for defining how projects begin
+- **Loading Screens** for handling scene changes with custom loading experiences
+- **Transitions** for consistent scene changes
+- **Scene lifecycle handling** for keeping scene logic organized
+- **Profiles** for different scene configurations
+- **Addressables support** for modern Unity projects
+- **Editor tools** for inspecting and managing scene setups
 
-Advanced Scene Manager offers a comprehensive set of tools and features tailored to meet the needs of developers, designers, and content creators. Say goodbye to the complexities of manual scene management and hello to a streamlined and productive workflow.
+## How does Advanced Scene Manager work?
 
-With Advanced Scene Manager, you can effortlessly organize, load, and switch between [scenes](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md), saving you valuable time and effort. Seamlessly navigate between [scenes](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md) and [collections](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md), allowing for quick testing and iteration on different parts of your project.
+Advanced Scene Manager builds on Unity's existing scene system rather than replacing it.
 
-Experience smoother performance with efficient scene loading, ensuring minimal load times and optimized memory usage. Take advantage of the preloading feature for even faster scene transitions. Learn more about preloading [here](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md#preloading).
+Scenes can be organized into [Scene Collections](/docs/guides/models/Scene%20collections.md), allowing multiple scenes to be grouped together and opened as a single setup.
 
-Enhance the user experience by incorporating loading screens using Advanced Scene Manager's loading screen functionality. Learn how to implement loading screens [here](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Loading%20screens.md).
+Collections can contain gameplay scenes, UI scenes, managers, lighting scenes, or any other scenes that need to work together.
 
-Try Advanced Scene Manager today and unlock the full potential of your Unity projects with effortless scene management. Take control of your [scenes](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md) and elevate your Unity development experience with Advanced Scene Manager. [Where can I get it?](https://github.com/Lazy-Solutions/AdvancedSceneManager#where-can-i-get-it)
+ASM also supports [persistent scenes](/docs/guides/models/Scenes.md#persistent-scenes), allowing selected scenes to remain loaded while other scenes are changed.
 
-## What is Advanced Scene Manager?
+For projects using additive scene loading, ASM provides a clearer way to manage relationships between scenes instead of relying on scattered loading scripts and project-specific solutions.
 
-Advanced Scene Manager is a new and improved scene management system for [Unity](https://unity.com/). Get it at the [Unity Asset Store!](https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-3-330926)
+## Getting Started
 
-Advanced Scene Manager allows you to assign [scenes](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md) as children to a [Scene Collection](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) (commonly referred to as collections).
-When a [Scene Collection](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) is opened all existing scenes (except [persistent](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md#persistent-scenes)) will be closed and the newly opened [Scene Collection](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) will have its associated [scenes](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md) opened.
+New to Advanced Scene Manager? Start with the [Quick Start Guide](/docs/guides/Quick-start.md) to learn how to set up ASM in your Unity project.
 
-Only one [collection](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) can be open at a time, but individual [scenes](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) can still be opened as standalone.
+If you are using [Flow Editor](/flow), you can follow the [Flow Editor Getting Started Guide](/flow/Getting-Started.md) to learn how to create visual scene setups.
 
-## How do I use it?
+For the complete documentation, visit the [Advanced Scene Manager Documentation](/docs).
 
-The [Scene Manager Window](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20manager%20window.md) can be accessed from 'File -> Scene Manager...' menu item. The [Scene Manager window](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20manager%20window.md) can be used to create and remove [collections](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) and assign any [scenes](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md) as children.
+## Advanced Scene Manager Editor
 
-![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/image/old/scene-manager-window.png)
+![Main Editor](/docs/guides/image/main.png)
 
-[Collections](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) and [scenes](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md) can be used like this:
-
-![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/image/old/button-click-scene-open.png)
-![](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/image/old/button-click-collection-open.png)
-
-or like this:
+## Code Example
 
 ```C#
 using UnityEngine;
 using AdvancedSceneManager.Models;
 
-public MyScript : MonoBehaviour
+public class MyScript : MonoBehaviour
 {
-
     public SceneCollection collection;
     public Scene scene;
 
     public void DoStuff()
-    {     
+    {
+        // Collection functions
+        collection.Open();
+        collection.OpenAdditive();
+        collection.Close();
+        collection.ToggleOpen();
 
-        //All collection functions use a loading screen, if one is defined
-        collection.Open();         //Close all existing scenes and open scenes in collection
-        collection.OpenAdditive(); //Don't close existing scenes and only open scenes in collection
-        collection.Close();        //Closes all scenes. If additive, then only collection scenes will be closed. 
-        collection.ToggleOpen();   //Toggles the collection on or off
+        // Scene functions
+        scene.Open();
+        scene.Close();
+        scene.ToggleOpen();
 
-        //All scene functions open it as stand-alone (not associated with a collection)
-        scene.Open();         //Opens the scene
-        scene.Close();        //Closes the scene
-        scene.ToggleOpen();   //Toggles the scene on or off
-
-        //All the above are proxy functions for functions in SceneManager.runtime
+        // Runtime access
         SceneManager.runtime.Open(scene);
         SceneManager.runtime.Close(scene);
         SceneManager.runtime.ToggleOpen(scene);
@@ -92,30 +109,36 @@ public MyScript : MonoBehaviour
         SceneManager.runtime.Open(collection);
         SceneManager.runtime.Close(collection);
         SceneManager.runtime.ToggleOpen(collection);
-
     }
-
 }
 ```
 
-</br>
+Scenes and collections can also be opened through [UnityEvents](https://docs.unity3d.com/Manual/UnityEvents.html), such as from a [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html).
 
-[Collections](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) and [scenes](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md) can also be opened from [UnityEvents](https://docs.unity3d.com/Manual/UnityEvents.html), such as from a [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html), but it might be easier to use the [SceneHelper](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20helper.md), since that will make it easier to find the [scene](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scenes.md) or [collection](https://github.com/Lazy-Solutions/AdvancedSceneManager/blob/main/docs/guides/Scene%20collections.md) in the Object Picker.
-
-## Documentation
-
-You may access documentation by checking out the [docs folder](/docs).
+The [SceneHelper](/docs/guides/Scene%20helper.md) can also make it easier to find and reference scenes or collections from the Unity editor.
 
 ## Patches
-Patches are partial updates that are too important to have our users wait for, and if you are having issues, have a look over here, it might be fixed already: \
-[Github Releases](https://github.com/Lazy-Solutions/AdvancedSceneManager/releases)\
-[Discord - Lazy Solutions #patch-notes](https://discord.com/channels/519089118467325952/806112082873024562)
+
+Patches are smaller updates released when important fixes or improvements are ready.
+
+If you are experiencing issues, check the latest releases:
+
+[GitHub Releases](https://github.com/Lazy-Solutions/AdvancedSceneManager/releases)
+
+[Discord, Lazy Solutions patch notes](https://discord.com/channels/519089118467325952/806112082873024562)
 
 ## Contact
-Want to get into contact with us? Report issues?\
-[Github issues](https://github.com/Lazy-Solutions/AdvancedSceneManager/issues)\
-[Discord - Lazy Solutions](https://discord.gg/upfgXPxFnw)
->Note: We accept bug reports and offer help on all channels. Which one you wish to use, is up to your preference!
+
+Want to report an issue or get help?
+
+[GitHub Issues](https://github.com/Lazy-Solutions/AdvancedSceneManager/issues)
+
+[Discord, Lazy Solutions](https://discord.gg/upfgXPxFnw)
+
+> We accept bug reports and support requests through all channels. Use whichever option is most convenient.
 
 ## Where can I get it?
-Advanced Scene Manager is available at the Unity Asset Store, [get it now!](https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-3-330926)<br/>
+
+Advanced Scene Manager is available on the Unity Asset Store:
+
+[Get Advanced Scene Manager](https://assetstore.unity.com/packages/tools/utilities/advanced-scene-manager-3-330926)
