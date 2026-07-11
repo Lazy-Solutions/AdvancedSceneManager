@@ -16,7 +16,7 @@ Thank you for trying out [**Advanced Scene Manager**](https://assetstore.unity.c
 
 ## Trial Version
 
-Explore the capabilities of our asset with the trial version before making a commitment. For details about the trial features and restrictions, please review the [LICENSE](./LICENSE.md) file included with the package.
+Explore the capabilities of our asset with the trial version before making a commitment. For details about the trial features and restrictions, please review the [LICENSE](LICENSE.md) file included with the package.
 
 **Note:** The trial version does not automatically upgrade when purchased. It is a separate version from the full asset. We recommend using the trial in a separate test project to avoid any conflicts with your main project.
 
@@ -35,7 +35,7 @@ To get started with the trial version:
 
 ## License
 
-The trial version is provided 'as is,' and the full license terms are outlined in the [LICENSE](./LICENSE) file.
+The trial version is provided 'as is,' and the full license terms are outlined in the [LICENSE](LICENSE.md) file.
 
 ---
 
