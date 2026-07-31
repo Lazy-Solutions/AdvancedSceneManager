@@ -1,9 +1,7 @@
 # Advanced Scene Manager Documentation
 
-> ⚠ This documentation reflects the ASM 3.3 release.
-> Some features or API changes may not yet be available in 3.2 and earlier.
-
-This repository contains the official documentation for **Advanced Scene Manager**, a scene management framework for Unity.
+This repository contains the official documentation for
+**Advanced Scene Manager**.
 
 - 📁 [Browse guides](guides/readme.md)
 - 📁 [Browse API Reference](api/readme.md)
