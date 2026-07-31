@@ -7,7 +7,15 @@ Discover how **Advanced Scene Manager** can simplify your Unity projects. Watch 
 ### 📹 Getting Started with Advanced Scene Manager
 Learn the basics of setting up and using Advanced Scene Manager in your Unity projects.
 
-[![Getting Started with Advanced Scene Manager](https://img.youtube.com/vi/H-9FFJ7cLnc/0.jpg)](https://youtu.be/H-9FFJ7cLnc)
+[![Advanced Scene Manager | Tutorial | Editor Overview](https://img.youtube.com/vi/RzdWk3cVvMY/0.jpg)](https://youtu.be/RzdWk3cVvMY)
+
+[![Advanced Scene Manager | Tutorial | Load Scenes By Code](https://img.youtube.com/vi/5T-aoeNwkKA/0.jpg)](https://youtu.be/5T-aoeNwkKA)
+
+[![Advanced Scene Manager | Tutorial | Callbacks & Events](https://img.youtube.com/vi/b9p9ispVOcM/0.jpg)](https://youtu.be/b9p9ispVOcM)
+
+Older Video
+
+[![Advanced Scene Manager | Tutorial | Callbacks & Events](https://img.youtube.com/vi/V9TXRt_11YE/0.jpg)](https://youtu.be/V9TXRt_11YE)
 
 ##
 ### 📹 Creating Loading Screens
