@@ -20,14 +20,6 @@ Whether you are building menus, gameplay areas, loading screens, or large multi-
 
 > Some of the links on these pages are affiliate links. This means if you click them and make a purchase, I may receive a small commission at no extra cost to you. This helps support the project.
 
-## Trial
-
-<p align="center">
-<img src="/trial/Trial.png" width="640" height="360" />
-</p>
-
-Looking to try Advanced Scene Manager? [Start the trial](/trial/)
-
 ## Who is Advanced Scene Manager for?
 
 Advanced Scene Manager is designed for Unity developers working on projects where scenes need more structure than simple `LoadScene` calls.

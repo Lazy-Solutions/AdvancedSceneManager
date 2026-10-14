@@ -117,8 +117,6 @@ Advanced Scene Manager does not allow redistribution, so public repos must ignor
 Each collaborator will need to install Advanced Scene Manager manually in their local project.  
 We wish this weren’t necessary, but unfortunately, that’s how licensing works.
 
-> For public repos, one possible workaround is to use [**Advanced Scene Manager trial**](https://github.com/Lazy-Solutions/AdvancedSceneManager/tree/main/trial). It is free but limited. Build has been intentionally disabled for example. Can be used for showcase purposes and similar.
-
 ## What is the difference between patches and asset store updates?
 
 Asset store updates happens irreguarly, and has been properly tested to be stable, both by us and Unity. Validation process can take upwards of a few days.
